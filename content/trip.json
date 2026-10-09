@@ -1,0 +1,80 @@
+{
+  "_readme": "Hand-edited trip details. Edit this file, then run: node scripts/build-data.mjs",
+  "trip": {
+    "name": "Budapest Bastards",
+    "start": "2026-10-15",
+    "end": "2026-10-18",
+    "tz": "Europe/Budapest",
+    "utcOffset": "+02:00",
+    "landing": "2026-10-15T12:20:00+02:00",
+    "airportBy": "2026-10-18T14:45:00+02:00"
+  },
+  "crew": ["Aaron", "Chris", "Phil", "Filippo"],
+  "base": {
+    "name": "The Airbnb",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "checkIn": null,
+    "listing": "https://www.airbnb.co.uk/rooms/35732548",
+    "note": "Address lands once Aaron has it. Until then you can drop a pin on your own phone from the Info tab."
+  },
+  "plan": [
+    {
+      "date": "2026-10-15",
+      "title": "Thursday",
+      "theme": "Arrive, pints, Fradi under the lights",
+      "items": [
+        { "time": "12:20", "title": "Wheels down at BUD", "sub": "The crew lands at Terminal 2. Aaron's arrival time is TBC.", "ref": "airport", "who": "all", "booked": true, "kind": "travel" },
+        { "time": "13:15", "title": "Into town", "sub": "100E express bus to Deák tér (2,500 HUF, tap your card at the door) or split two Bolts. About 35–45 min.", "ref": "airport", "who": "all", "kind": "travel" },
+        { "time": "14:30", "title": "Drop bags at the Airbnb", "sub": "Address TBC. Check-in time TBC.", "ref": "base", "who": "all", "kind": "base" },
+        { "time": "15:30", "title": "First pint and a lángos", "sub": "Szimpla is calm at this hour. Karaván street food is next door.", "refs": ["szimpla-kert", "karavan", "bors-gasztrobar"], "who": "all", "kind": "idea" },
+        { "time": "19:15", "title": "Head to Groupama Aréna", "sub": "M3 (blue) to Népliget, about 12 min from Deák tér. Bring your passports.", "ref": "fradi-plzen", "who": { "only": ["Aaron", "Chris", "Phil"] }, "kind": "travel" },
+        { "time": "21:00", "title": "Ferencváros v Viktoria Plzeň", "sub": "Europa League. Kick-off 21:00 (20:00 UK).", "ref": "fradi-plzen", "who": { "only": ["Aaron", "Chris", "Phil"] }, "booked": true, "kind": "event" },
+        { "time": "21:00", "title": "Everyone else: Jewish Quarter crawl", "sub": "Instant-Fogas, Mazel Tov and Doboz are all within a few minutes of each other.", "refs": ["instant-fogas", "mazel-tov", "doboz"], "who": { "except": ["Aaron", "Chris", "Phil"] }, "kind": "idea" },
+        { "time": "23:15", "title": "Regroup in District VII", "sub": "Live covers at Old Man's, or keep going at Instant-Fogas until late.", "refs": ["old-mans-music-pub", "instant-fogas"], "who": "all", "kind": "idea" }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Friday",
+      "theme": "Karting, then MTK",
+      "items": [
+        { "time": "09:30", "title": "Proper breakfast", "sub": "The kart track is a long way from any food. Eat first.", "refs": ["szimply", "frici-papa"], "who": "all", "kind": "idea" },
+        { "time": "10:30", "title": "Bolts to Mogyoród", "sub": "Two cars, 25–35 min, around 12,000–14,000 HUF each. Aim to arrive by 11:30.", "ref": "karting-hungaroring", "who": { "except": ["Filippo"] }, "kind": "travel" },
+        { "time": "12:00", "title": "Go-karting at the Hungaroring", "sub": "Closed shoes. Nobody drinks before. Loser buys the first round.", "ref": "karting-hungaroring", "who": { "except": ["Filippo"] }, "booked": true, "kind": "event" },
+        { "time": "12:00", "title": "Filippo's free morning", "sub": "Széchenyi Baths or the Basilica dome while the others crash into each other.", "refs": ["szechenyi-baths", "st-stephens-basilica"], "who": { "only": ["Filippo"] }, "kind": "idea" },
+        { "time": "14:30", "title": "Back in town for a late lunch", "sub": "Cheap Hungarian canteen food or Bors' soups and baguettes.", "refs": ["frici-papa", "bors-gasztrobar", "getto-gulyas"], "who": "all", "kind": "idea" },
+        { "time": "17:30", "title": "Head to the MTK ground", "sub": "Tram to the Hidegkuti Nándor Stadion stop, or a Bolt in 10–15 min. André Rieu is on at the MVM Dome, so traffic will be heavy.", "ref": "mtk-vasas", "who": "all", "kind": "travel" },
+        { "time": "18:00", "title": "Gates open at MTK", "sub": "In from 18:00. Grab a beer and a sausage.", "ref": "mtk-vasas", "who": "all", "booked": true, "kind": "event" },
+        { "time": "20:00", "title": "MTK Budapest v Vasas", "sub": "NB I, round 10. Kick-off 20:00 (19:00 UK).", "ref": "mtk-vasas", "who": "all", "booked": true, "kind": "event" },
+        { "time": "22:15", "title": "Rock bar night", "sub": "Barhole for metal, Old Man's for live covers, Rocktogon to finish.", "refs": ["barhole-music", "old-mans-music-pub", "rocktogon"], "who": "all", "kind": "idea" }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Saturday",
+      "theme": "Free day. Baths, history, carnage",
+      "items": [
+        { "time": "10:30", "title": "Soak it off at Széchenyi", "sub": "Outdoor hot pools in City Park. Buy a timed ticket online to skip the queue.", "ref": "szechenyi-baths", "who": "all", "kind": "idea" },
+        { "time": "13:00", "title": "Lángos at the Great Market Hall", "sub": "Food stalls upstairs. Expect it to be busy on a Saturday.", "ref": "great-market-hall", "who": "all", "kind": "idea" },
+        { "time": "14:30", "title": "Castle District, or go shooting", "sub": "Fisherman's Bastion and the Hospital in the Rock bunker, or the Churchill shooting range.", "refs": ["fishermans-bastion", "hospital-in-the-rock", "churchill-shooting-range"], "who": "all", "kind": "idea" },
+        { "time": "17:30", "title": "Sunset from the Citadella", "sub": "Sunset is about 17:53. The whole city lights up below you.", "ref": "gellert-hill-citadella", "who": "all", "kind": "idea" },
+        { "time": "19:30", "title": "Big group dinner", "sub": "Book ahead for a table of lads on a Saturday.", "refs": ["menza", "getto-gulyas", "bp-barbq"], "who": "all", "kind": "idea" },
+        { "time": "21:30", "title": "Sparty, or the ruin bars", "sub": "The Széchenyi bath party is listed for tonight and sells out. Book it, or do Szimpla and A38.", "refs": ["sparty-szechenyi", "szimpla-kert", "a38-ship"], "who": "all", "kind": "idea" }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Sunday",
+      "theme": "Brunch, pack, fly",
+      "items": [
+        { "time": "09:30", "title": "Szimpla Sunday farmers' market", "sub": "Breakfast in the original ruin bar, with sausages and pastries from the stalls.", "ref": "szimpla-farmers-market", "who": "all", "kind": "idea" },
+        { "time": "10:30", "title": "Hangover brunch", "sub": "Eggs, coffee and silence.", "refs": ["szimply", "kelet-kavezo"], "who": "all", "kind": "idea" },
+        { "time": "11:45", "title": "Order the Bolts", "sub": "Order now so the cars arrive as you leave.", "ref": "base", "who": "all", "kind": "base" },
+        { "time": "12:15", "title": "Leave for the airport", "sub": "Latest sensible departure: 12:45 by Bolt (about 30 min on Sunday roads) or 12:15 on the 100E.", "ref": "airport", "who": "all", "kind": "travel" },
+        { "time": "14:45", "title": "At BUD, no later than this", "sub": "Terminal 2. Duty-free pálinka for the hangover home.", "ref": "airport", "who": "all", "booked": true, "kind": "travel" }
+      ]
+    }
+  ]
+}

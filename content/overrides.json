@@ -1,0 +1,38 @@
+{
+  "_readme": "Corrections applied on top of content/research/*.json by scripts/build-data.mjs. 'remove' drops duplicates; 'patch' merges fields into an item by id.",
+  "remove": [
+    "bars:karavan-food-court",
+    "bars:mazel-tov",
+    "sights:great-market-hall",
+    "sights:szimpla-sunday-market"
+  ],
+  "patch": {
+    "airport": { "lat": 47.4334, "lng": 19.2617 },
+    "bors-gasztrobar": { "lat": 47.49668, "lng": 19.06305 },
+    "karavan": { "lat": 47.4973, "lng": 19.0635 },
+    "zing-burger": { "lat": 47.49745, "lng": 19.06362 },
+    "koleves-kert": { "lat": 47.4983, "lng": 19.0643 },
+    "koleves-vendeglo": { "lat": 47.49852, "lng": 19.06418 },
+    "a38-ship": { "lat": 47.4763, "lng": 19.0617 },
+    "akvarium-klub": { "lat": 47.4982, "lng": 19.0534 },
+    "boutiq-bar": { "lat": 47.4995, "lng": 19.0557 },
+    "doboz": { "lat": 47.499, "lng": 19.0647 },
+    "ellato-kert": { "lat": 47.4993, "lng": 19.0647 },
+    "robot-club": { "lat": 47.49932, "lng": 19.06628 },
+    "stand": { "lat": 47.4987, "lng": 19.0574 },
+    "szimply": { "lat": 47.4992, "lng": 19.0567 },
+    "house-of-terror": { "lat": 47.50695, "lng": 19.06505 },
+    "shoes-on-the-danube": { "lat": 47.5045, "lng": 19.045 },
+    "gellert-baths": { "lat": 47.48385, "lng": 19.05145 },
+    "lukacs-baths": { "lat": 47.5193, "lng": 19.0376 },
+    "palvolgyi-cave": { "lat": 47.5297, "lng": 19.0154 },
+    "zugliget-chairlift": { "lat": 47.5167, "lng": 18.9748 },
+    "mazel-tov": { "lat": 47.4991, "lng": 19.0659, "also": ["bar"], "addTags": ["ruin-bar", "late-night"] },
+    "great-market-hall": { "also": ["sight"], "addTags": ["history"] },
+    "szimpla-farmers-market": { "hidePin": true },
+    "sparty-szechenyi": { "hidePin": true },
+    "e-exit-escape-room": { "hidePin": true },
+    "beerbus-budapest": { "hidePin": true },
+    "champs-sports-pub": { "hidePin": true }
+  }
+}

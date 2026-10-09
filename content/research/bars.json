@@ -1,0 +1,1051 @@
+{
+ "items": [
+  {
+   "id": "old-mans-music-pub",
+   "name": "Old Man's Music Pub",
+   "type": "bar",
+   "tags": [
+    "rock",
+    "live-music",
+    "pub",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 13, 1073 Budapest",
+   "lat": 47.5005,
+   "lng": 19.0653,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Live music ~21:00–23:00 nightly, then DJ till late (guide listings; unconfirmed for 2026)",
+   "blurb": "Sweaty basement, live covers every night, then a DJ and a dancefloor. Proper old-school rock-and-pint chaos with zero airs and graces.",
+   "tip": "Gets rammed by 22:00 on weekends. Go early for a table near the band or accept getting wedged at the bar.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  },
+  {
+   "id": "barhole-music",
+   "name": "BARhole Music",
+   "type": "bar",
+   "tags": [
+    "rock",
+    "metal",
+    "live-music",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dohány utca 7, 1074 Budapest",
+   "lat": 47.4964,
+   "lng": 19.0605,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": null,
+   "blurb": "Red-lit basement with graffiti walls: punk, rock and metal gigs and tribute nights. Cheap beer, loud guitars, 150-capacity bunker. Your kind of place.",
+   "tip": "A separate 'Saloon' area is open on weekdays for a quieter pint. Check their socials for the Thu–Sat gig line-up.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  },
+  {
+   "id": "lampas",
+   "name": "Lámpás",
+   "type": "bar",
+   "tags": [
+    "rock",
+    "live-music",
+    "pub",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dob utca 15, 1074 Budapest",
+   "lat": 47.4988,
+   "lng": 19.0589,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Wed 20:00–02:00; Thu–Sat 20:00–04:00; closed Sun–Tue",
+   "blurb": "Labyrinthine basement across from Gozsdu Udvar with live rock, blues and rockabilly most nights. Free in, cheap beer, no tourist-trap vibe.",
+   "tip": "Autumn is peak programming (summer is quieter), so your October dates are ideal. Back rooms are calmer if the main room is mental.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  },
+  {
+   "id": "blastbeat-bar",
+   "name": "Blastbeat Bar",
+   "type": "bar",
+   "tags": [
+    "metal",
+    "rock",
+    "pub",
+    "cheap"
+   ],
+   "district": "IX",
+   "address": "Czuczor utca 1, 1093 Budapest",
+   "lat": 47.4868,
+   "lng": 19.0665,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": 4.8,
+    "googleReviews": 444
+   },
+   "price": 1,
+   "hours": null,
+   "blurb": "Proper metal dive bar, walls plastered with metal relics. Cheap drinks, loud riffs, scruffy and proud. Not for the faint of heart.",
+   "tip": "Cash-friendly dive: some reviewers flag hygiene, so keep expectations grungy. Pin location approximate; check Maps.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  },
+  {
+   "id": "durer-kert",
+   "name": "Dürer Kert",
+   "type": "bar",
+   "tags": [
+    "rock",
+    "metal",
+    "live-music",
+    "club"
+   ],
+   "district": "XI",
+   "address": "Öböl utca 1, 1117 Budapest",
+   "lat": 47.4685,
+   "lng": 19.0535,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Gig nights vary; check the programme (18+ after 23:00)",
+   "blurb": "Budapest's big rock and metal gig complex on the Buda waterfront: three stages plus a garden. Metal, hardcore and big touring bands.",
+   "tip": "Buy tickets in advance and check there is actually a gig on 15–18 Oct. Out of the centre, so take a taxi or tram home.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "a38-ship",
+   "name": "A38 Ship",
+   "type": "bar",
+   "tags": [
+    "live-music",
+    "rock",
+    "club",
+    "quirky"
+   ],
+   "district": "XI",
+   "address": "Petőfi híd, budai hídfő (lower quay), 1117 Budapest",
+   "lat": 47.4737,
+   "lng": 19.0611,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": null,
+   "blurb": "Concert venue and club on a converted Ukrainian stone-carrier ship moored on the Danube. Gigs upstairs, parties below, views for free.",
+   "tip": "Tram 4/6 to Petőfi híd. Check the gig calendar; the deck bar is lovely, but it is a proper ticketed venue on show nights.",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A38_%28ship%2C_Budapest%29.JPG?width=900",
+   "imageCredit": "Wikimedia Commons",
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "akvarium-klub",
+   "name": "Akvárium Klub",
+   "type": "bar",
+   "tags": [
+    "live-music",
+    "club",
+    "late-night",
+    "rock"
+   ],
+   "district": "V",
+   "address": "Erzsébet tér 12, 1051 Budapest",
+   "lat": 47.4986,
+   "lng": 19.0514,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": null,
+   "blurb": "Club and gig venue sunk under Erzsébet tér's pond, right in the centre. Big hall for gigs, small hall for DJs, free metal night in the past.",
+   "tip": "Had a 2026 renovation/summer-closure scare and a programme shift; Oct 2026 shows are listed, but confirm on akvariumklub.hu first.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://akvariumklub.hu"
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "backstage-pub",
+   "name": "BackStage Pub",
+   "type": "bar",
+   "tags": [
+    "rock",
+    "live-music",
+    "pub"
+   ],
+   "district": "VI",
+   "address": "Városligeti fasor 44, 1068 Budapest",
+   "lat": 47.5085,
+   "lng": 19.071,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Thu from 19:00; Fri–Sat 19:00–04:00; closed Sun–Wed",
+   "blurb": "Small live rock and blues club near Heroes' Square. Tribute bands (KISS, etc.), local covers, a sing-along lock-in vibe.",
+   "tip": "Out past Oktogon so grab a taxi. Pin is approximate (±300m). Gig schedule on backstagepub.hu.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://backstagepub.hu"
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "rocktogon",
+   "name": "Rocktogon Club",
+   "type": "bar",
+   "tags": [
+    "rock",
+    "live-music",
+    "club",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Mozsár utca 9, 1066 Budapest",
+   "lat": 47.5047,
+   "lng": 19.0625,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Daily 17:00–04:00; gigs 20:00–22:30 then disco (older listing, check)",
+   "blurb": "Rock club by Oktogon: bands first, rock disco after. Handy if you are staying near the Nagykörút.",
+   "tip": "Listing is undated; confirm it is still trading (Instagram / phone) before you walk over.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "not-confirmed-this-session"
+  },
+  {
+   "id": "hard-rock-cafe-budapest",
+   "name": "Hard Rock Cafe Budapest",
+   "type": "bar",
+   "tags": [
+    "rock",
+    "pub"
+   ],
+   "district": "V",
+   "address": "Deák Ferenc utca 3, 1052 Budapest",
+   "lat": 47.49665,
+   "lng": 19.0515,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": null,
+   "blurb": "The Hard Rock Cafe, memorabilia and burgers on the corner of Vörösmarty tér. Safe, touristy, good for a feed and a Premier League pre-game.",
+   "tip": "Pricey vs ruin bars. Fine for dinner or a rock-themed pint, not for a big night out.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  },
+  {
+   "id": "robot-club",
+   "name": "Robot Club (Instant-Fogas)",
+   "type": "bar",
+   "tags": [
+    "rock",
+    "club",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 49 (basement under Fogas Kert), 1073 Budapest",
+   "lat": 47.4991,
+   "lng": 19.066,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": null,
+   "blurb": "One of the last proper rock clubs downtown, a basement under the Instant-Fogas complex with rock-disco nights.",
+   "tip": "Reopened 2017 per old reports; confirm it's still running before you go.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://instant-fogas.com"
+   },
+   "verification": "not-confirmed-this-session"
+  },
+  {
+   "id": "szimpla-kert",
+   "name": "Szimpla Kert",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "pub",
+    "quirky",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 14, 1075 Budapest",
+   "lat": 47.49695,
+   "lng": 19.06323,
+   "coordSource": "search",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Mon–Fri 15:00–04:00; Sat 12:00–04:00; Sun 09:00–04:00",
+   "blurb": "The original ruin bar (2002): mismatched rooms, a Trabant to drink in, graffiti everywhere. Rite of passage; you will hit it at least once.",
+   "tip": "Free entry, glass deposit. Heaving on Fri–Sat nights, so go at 16:00 for a quieter, photo-friendly first pint. Watch your phone.",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szimpla_Kert_Budapest_1.jpg?width=900",
+   "imageCredit": "Wikimedia Commons",
+   "links": {
+    "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-d668397",
+    "website": "https://szimpla.hu"
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "instant-fogas",
+   "name": "Instant-Fogas",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "club",
+    "late-night",
+    "live-music"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 49–51, 1073 Budapest",
+   "lat": 47.4992,
+   "lng": 19.0661,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Wed–Sat 22:00–06:00 per one guide (others say nightly); free before midnight",
+   "blurb": "Huge party complex: ~18 bars, 7 dancefloors, garden, loads of genres under one roof. This is where the weekend ends at 5am.",
+   "tip": "Free before midnight, small cover after. Pick a floor and stick to it; the maze is easy to get lost in with mates.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://instant-fogas.com"
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "mazel-tov",
+   "name": "Mazel Tov",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "quirky"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 47, 1073 Budapest",
+   "lat": 47.49905,
+   "lng": 19.06595,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": 4.6,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": null,
+   "blurb": "Glass-roofed courtyard ruin bar with an Israeli menu and hummus. The 'classy' ruin bar for a proper sit-down feed before the carnage.",
+   "tip": "Cash only was an issue per reviewers: bring forints or check cards first. Book a table for evening dining.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "koleves-kert",
+   "name": "Kőleves Kert",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "pub"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 37–41, 1075 Budapest",
+   "lat": 47.4986,
+   "lng": 19.0654,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Garden season Apr–Oct; evening hours unconfirmed",
+   "blurb": "Garden bar attached to the Kőleves restaurant: chilled ruin-bar courtyard, grill, and a relaxed crowd. Less rowdy than Szimpla.",
+   "tip": "Seasonal and weather-dependent, so check it is open (Facebook) given the mid-October date. Closed Mondays per a 2026 guide.",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%91leves_kert_%284%29.jpg?width=900",
+   "imageCredit": "Wikimedia Commons",
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "csendes-letterem",
+   "name": "Csendes Létterem",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "pub",
+    "quirky"
+   ],
+   "district": "V",
+   "address": "Ferenczy István utca 5, 1053 Budapest",
+   "lat": 47.49455,
+   "lng": 19.0613,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Mon–Sat 14:00–00:00; Sun 15:00–00:00 (July 2026 listing)",
+   "blurb": "Vintage-style ruin pub in the Inner City: bohemian, intimate, good for chatting rather than shouting. Great pre-Szimpla warm-up.",
+   "tip": "Closes at midnight, so it's a pre-game, not a finisher. Ten minutes' walk from the Jewish Quarter.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "ankert",
+   "name": "Anker't",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "pub",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Paulay Ede utca 33, 1061 Budapest",
+   "lat": 47.5003,
+   "lng": 19.0611,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": null,
+   "blurb": "Big ruin-bar courtyard with room for 800 on a Friday. Calmer than Szimpla, cocktails and loud tunes.",
+   "tip": "Sources differ on its seasonal status; confirm it is open in October before heading over. Pin approximate.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "not-confirmed-this-session"
+  },
+  {
+   "id": "doboz",
+   "name": "Doboz",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "club",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Klauzál utca 10, 1072 Budapest",
+   "lat": 47.49865,
+   "lng": 19.061,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Wed–Sat 18:00–06:00 (reseller listing)",
+   "blurb": "Labyrinth of rooms with eight music styles, a grill bar and two dancefloors. Cheap and fun until sunrise.",
+   "tip": "18+ with ID. Entry may include a drink on ticketed nights. Check hours as only reseller listings confirm them.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  },
+  {
+   "id": "ellato-kert",
+   "name": "Ellátó Kert",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "pub",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 48, 1075 Budapest",
+   "lat": 47.49915,
+   "lng": 19.0665,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Daily 12:00–04:00 (undated listing)",
+   "blurb": "Classic courtyard ruin bar and taqueria on Kazinczy. Chill, cheap drinks and pub grub.",
+   "tip": "It closed in 2019 and reopened later; the status is from undated listings, so confirm before heading over.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "not-confirmed-this-session"
+  },
+  {
+   "id": "red-ruin",
+   "name": "Red Ruin",
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "quirky",
+    "pub"
+   ],
+   "district": "V",
+   "address": "Irányi utca 25, 1056 Budapest",
+   "lat": 47.4929,
+   "lng": 19.0562,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": null,
+   "blurb": "Communist-kitsch ruin pub in a brick basement: pop-art propaganda, puns, 'people's prices'. Gloriously daft.",
+   "tip": "Easy to miss the basement entrance, near Ferenciek tere. Walk-in only.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "karavan-food-court",
+   "name": "Karaván Street Food Court",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "cheap",
+    "quirky"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 18, 1075 Budapest",
+   "lat": 47.49725,
+   "lng": 19.0637,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Sun–Wed 11:00–23:00; Thu–Sat 11:00–01:00 (one guide; others daily 11:30–00:00)",
+   "blurb": "Courtyard of food trucks next door to Szimpla: langos, burgers, kürtőskalács and a beer. Perfect for lining your stomach.",
+   "tip": "Longest queues at lángos and chimney cake. Eat here before Szimpla, not after.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "hotsy-totsy",
+   "name": "Hotsy Totsy",
+   "type": "bar",
+   "tags": [
+    "speakeasy",
+    "cocktail",
+    "quirky"
+   ],
+   "district": "VII",
+   "address": "Síp utca 24, 1075 Budapest",
+   "lat": 47.4986,
+   "lng": 19.0626,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Sun–Wed 18:00–00:00; Thu–Sat 18:00–02:00",
+   "blurb": "1920s cellar speakeasy with architecture-themed cocktails and a hidden private room. Dress up slightly, behave properly.",
+   "tip": "Walk-in seating only: arrive early Thu–Sat. Cocktails ~3,500–5,000 HUF.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "the-magic-budapest",
+   "name": "The Magic",
+   "type": "bar",
+   "tags": [
+    "quirky",
+    "games"
+   ],
+   "district": "VI",
+   "address": "Hajós utca 25, 1065 Budapest",
+   "lat": 47.5022,
+   "lng": 19.0581,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Mon–Fri 11:00–22:00; Sat–Sun 10:00–22:00 (one guide)",
+   "blurb": "Wizarding-themed den that nails the atmosphere. Butterbeer-ish potions and food; fun daytime wild card if one of you is a Potter nerd.",
+   "tip": "Book ahead, especially weekends. More restaurant than boozer: close early-ish.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "for-sale-pub",
+   "name": "For Sale Pub",
+   "type": "bar",
+   "tags": [
+    "quirky",
+    "pub"
+   ],
+   "district": "V",
+   "address": "Vámház körút 2, 1053 Budapest",
+   "lat": 47.4884,
+   "lng": 19.0588,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": null,
+   "blurb": "Walls and ceiling covered in scribbled notes and peanut shells. Sit, drink, leave your mark. Across from the Central Market Hall.",
+   "tip": "Book ahead if eating at weekends. Cheaper and calmer than the Jewish Quarter.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "gozsdu-udvar",
+   "name": "Gozsdu Udvar",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Király utca 13 / Dob utca 16, 1075 Budapest",
+   "lat": 47.4992,
+   "lng": 19.059,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": null,
+   "blurb": "Passage of seven connected courtyards packed with bars, terraces and restaurants. Easy bar-hop in one go.",
+   "tip": "Touristy and pricier than basement bars; good first stop to meet up before heading off.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  },
+  {
+   "id": "boutiq-bar",
+   "name": "Boutiq'Bar",
+   "type": "bar",
+   "tags": [
+    "cocktail",
+    "speakeasy"
+   ],
+   "district": "VI",
+   "address": "Paulay Ede utca 5, 1061 Budapest",
+   "lat": 47.5015,
+   "lng": 19.0596,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": null,
+   "blurb": "Long-running (since 2008) cocktail bar with a bartender's-choice menu. Smart, grown-up pre-game or post-dinner nightcap.",
+   "tip": "Mixed drinks ~€12–16. Book ahead for Fri and Sat. Address from memory; confirm.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  },
+  {
+   "id": "high-note-skybar",
+   "name": "High Note SkyBar",
+   "type": "bar",
+   "tags": [
+    "rooftop",
+    "cocktail"
+   ],
+   "district": "V",
+   "address": "Hercegprímás utca 5 (Aria Hotel), 1051 Budapest",
+   "lat": 47.5012,
+   "lng": 19.053,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 4,
+   "hours": "Mon–Thu 16:00–00:00; Fri–Sun 14:00–00:00 (sources differ)",
+   "blurb": "Rooftop at the Aria Hotel with eye-level views of the Basilica dome. Splash out for sunset cocktails and a photo that will wind up your mates.",
+   "tip": "Smart casual, no gym wear or flip-flops. Cocktails ~5,900–6,200 HUF. Book a sunset table.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "360-bar",
+   "name": "360 Bar",
+   "type": "bar",
+   "tags": [
+    "rooftop",
+    "cocktail",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Andrássy út 39 (6th floor), 1061 Budapest",
+   "lat": 47.5035,
+   "lng": 19.0614,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Mon–Wed & Sun 14:00–00:00; Thu–Sat 14:00–02:00",
+   "blurb": "Rooftop terrace over Andrássy Avenue with a genuine 360-degree skyline. Great for a mid-afternoon pint or a pre-club cocktail.",
+   "tip": "Discreet street door, take the lift to the 6th floor. Small cover (~1,000 HUF) Thu–Sun per one guide.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "elesztohaz",
+   "name": "Élesztő",
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "pub"
+   ],
+   "district": "IX",
+   "address": "Tűzoltó utca 22, 1094 Budapest",
+   "lat": 47.4875,
+   "lng": 19.0705,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": null,
+   "blurb": "Huge craft beer house with dozens of Hungarian taps in the Ferencváros. Beer geek heaven with no pretension.",
+   "tip": "Not confirmed this session; verify it's open on your night. Out of the Jewish Quarter by tram/metro.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "not-confirmed-this-session"
+  },
+  {
+   "id": "champs-sports-pub",
+   "name": "Champs Sports Pub",
+   "type": "bar",
+   "tags": [
+    "sports",
+    "pub"
+   ],
+   "district": "VII",
+   "address": "Dohány utca (house number TBC), 1074 Budapest",
+   "lat": 47.4968,
+   "lng": 19.062,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Opens around noon; late-night (check match days)",
+   "blurb": "Many screens, Jewish Quarter location, opens at midday unlike most bars nearby. Football on every wall.",
+   "tip": "Pin approximate to the street (house number unconfirmed). Check which matches are being shown on the 17th and 18th Oct.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-undated"
+  }
+ ],
+ "stripWarning": "Budapest strip clubs are notorious for scams: inflated bills of hundreds or thousands of euros, forced 'tabs', and heavies at the door. Hungarian police and the US Embassy have warned about it. Never follow street promoters or anyone who approaches you. Agree prices in writing, pay per drink, never hand over your card. We list none.",
+ "leads": [
+  {
+   "name": "Jack Doyle's Irish Bar",
+   "note": "Has a Sky Sports contract and stays open to 3am for late matches (tight, book ahead). Address/coords not confirmed."
+  },
+  {
+   "name": "Stifler American Sport Bar",
+   "note": "Nagykörút, open to 5am per a 2020 guide; address unconfirmed."
+  },
+  {
+   "name": "Bajor Sport Pub & Gastro",
+   "note": "Margit körút (Buda); Champions League and Hungarian matches; address unconfirmed."
+  },
+  {
+   "name": "Ziccer! (TrollFoci)",
+   "note": "Football bar on the Nagykörút; address unconfirmed."
+  },
+  {
+   "name": "Kaledonia Gastro & Sports Pub",
+   "note": "Scottish-themed sports bar in Pest per 2025 guide; unconfirmed."
+  },
+  {
+   "name": "Ötkert",
+   "note": "Zrínyi utca 4, V; Classic late-night club (nightly); not confirmed in this research session."
+  },
+  {
+   "name": "Analog Music Hall",
+   "note": "Kondorfa utca 8, XI; metal/rock gigs (e.g. GHØSTKID 13 Oct 2026); far out. Exact coords not confirmed."
+  },
+  {
+   "name": "Barba Negra Music Club",
+   "note": "Szállító utca 3 (Csepel/XXI); big touring rock acts; nothing for 15–18 Oct found (Simple Plan is 21 Oct)."
+  },
+  {
+   "name": "Hunnia Bisztró",
+   "note": "Basement bar with Hungarian bands Fri/Sat; address unconfirmed."
+  },
+  {
+   "name": "202 Music Club (ex-Wigwam)",
+   "note": "XI; rock party until dawn after weekend gigs; address unconfirmed."
+  },
+  {
+   "name": "Kobuci Kert",
+   "note": "Óbuda courtyard venue (Zichy Palace); seasonal, mostly closed outside summer."
+  },
+  {
+   "name": "Hintaló",
+   "note": "Character bar in District VIII; unconfirmed."
+  },
+  {
+   "name": "Mika Tivadar Mulató",
+   "note": "DROPPED: closed permanently Oct 2021 (building now Mika Tivadar Secret Museum)."
+  },
+  {
+   "name": "Black Swan, Warm Up, Hívatal, Bar Pharma, LEO Rooftop, Kisüzem, Lumen, Kandalló, First Craft Beer, Hopaholic, Csak a jó sör",
+   "note": "Not verified: search budget ran out. Needs a follow-up pass."
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Szimpla_Kert",
+  "https://www.latlong.net/place/szimpla-kert-budapest-hungary-33646.html",
+  "https://www.tripadvisor.com/Restaurant_Review-d668397",
+  "https://hungaryunlocked.com/szimpla-kert-budapest-guide/",
+  "https://hungaryunlocked.com/budapest-wildest-themed-bars/",
+  "https://hungaryunlocked.com/high-note-skybar-budapest-review/",
+  "https://www.budapestbylocals.com/best-budapest-rooftop-bars/",
+  "https://www.budapestbylocals.com/budapest-nightclubs/",
+  "https://welovebudapest.com/en/toplist/budapest-s-10-best-music-bars",
+  "https://welovebudapest.com/en/toplist/2015/03/13/9-of-budapest-s-best-dive-bars/",
+  "https://www.offbeatbudapest.com/places/lampas/",
+  "https://tablejourney.com/hungary/budapest/nightlife/",
+  "https://intravel.net/budapest/nightlife/blastbeat-bar",
+  "https://intravel.net/budapest/nightlife/red-ruin-bar",
+  "https://www.programturizmus.hu/partner-barhole-music-budapest.html",
+  "https://budapest.databoss.hu/en/backstage-pub",
+  "https://budappest.com/akvarium-klub-stays-open-budapests-underground-music-venue-avoids-2026-closure/",
+  "https://budappest.com/police-crack-down-on-tourist-scam-ring-in-budapests-party-district/",
+  "https://www.osac.gov/Country/Hungary/Content/DownloadAttachment/Report/05004a13-9214-4aae-a7b7-1cf4083fa72a/48947",
+  "https://justbudapest.com/category/sports-bars/",
+  "https://welovebudapest.com/en/article/2017/4/27/get-down-at-budapest-s-renewed-robot-rock-club-under-fogas-haz",
+  "https://welovebudapest.com/en/article/2021/09/24/nightlife-one-more-month-to-party-at-popular-nightspot-mika-tivadar-before-it-closes/",
+  "https://commons.wikimedia.org/wiki/File:Szimpla_Kert_Budapest_1.jpg",
+  "https://commons.wikimedia.org/wiki/File:A38_(ship,_Budapest).JPG",
+  "https://commons.wikimedia.org/wiki/File:K%C5%91leves_kert_(4).jpg"
+ ],
+ "notes": "WebSearch budget ran out mid-task. 'verification' field per item: search-confirmed-2025-26 / search-confirmed-undated / not-confirmed-this-session. All coords except Szimpla are estimated from street addresses (+/- 100-300m); ratings null where not seen."
+}

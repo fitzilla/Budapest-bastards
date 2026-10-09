@@ -1,0 +1,1583 @@
+{
+  "items": [
+    {
+      "id": "hungarian-parliament",
+      "name": "Hungarian Parliament Building",
+      "type": "sight",
+      "tags": [
+        "landmark",
+        "history",
+        "booking-needed",
+        "viewpoint"
+      ],
+      "district": "V",
+      "address": "Kossuth Lajos tér 1-3, 1055 Budapest",
+      "lat": 47.50712,
+      "lng": 19.04583,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "Sources conflict: ~7,000 HUF EEA adult vs ~14,000 HUF non-EEA adult (UK lads count as non-EEA, bring passports). Resale sites charge more.",
+      "hours": "English tours run daily in time slots (roughly 8:00-18:00 in season per guides; sources conflict). Restricted when Parliament is sitting. Check Sat 17 / Sun 18 Oct slots on the booking page.",
+      "blurb": "The postcard shot of Budapest. Gothic Revival wedding cake with 691 rooms, miles of gold leaf and the actual Crown of St Stephen under the dome. Book ahead or get nowt.",
+      "history": "Built 1885-1904 and modelled partly on Westminster. Architect Imre Steindl reportedly went blind before it was finished and died before completion. Millions of bricks, around 40kg of gold leaf, and exactly 96m tall to nod to the 896 Magyar conquest.",
+      "tip": "Tours sell out 1-3 weeks ahead and walk-ups can be refused on sitting days. Book now on the official ticket page; best selfie is from the Buda bank at night.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parliament_Building%2C_Budapest%2C_outside.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.parlament.hu",
+        "booking": "https://jegymester.hu/parlament"
+      }
+    },
+    {
+      "id": "buda-castle",
+      "name": "Buda Castle (Royal Palace)",
+      "type": "sight",
+      "tags": [
+        "castle",
+        "history",
+        "viewpoint",
+        "museum"
+      ],
+      "district": "I",
+      "address": "Szent György tér 2, 1014 Budapest",
+      "lat": 47.49627,
+      "lng": 19.03963,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Courtyards and terraces free; Hungarian National Gallery & Budapest History Museum charge separately (prices not verified)",
+      "hours": "Grounds open all day, free. Museums typically Tue-Sun daytime, closed Mon (not verified for 17/18 Oct - check each museum).",
+      "blurb": "Hilltop palace towering over the Danube with the best views of Pest. Funicular, lions, a Turul bird and a proper dragon-slaying fountain. Free to wander.",
+      "history": "Home to kings since the 13th century, trashed by the Ottomans in 1686 and by the Red Army and Wehrmacht in the 1944-45 siege. The communists rebuilt it in a stripped-down Baroque, then archaeologists dug up medieval bits underneath. Layers upon layers.",
+      "tip": "Take the Sikló funicular up and walk back down. The Matthias Fountain in the courtyard shows Corvinus hunting with his hounds.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "fishermans-bastion",
+      "name": "Fisherman's Bastion",
+      "type": "sight",
+      "tags": [
+        "viewpoint",
+        "landmark",
+        "history",
+        "castle"
+      ],
+      "district": "I",
+      "address": "Szentháromság tér, 1014 Budapest",
+      "lat": 47.50201,
+      "lng": 19.03462,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Lower terraces free; upper tower walkways about 1,700 HUF adult (2026 travel guide); free early morning and evening per one source",
+      "hours": "Lower terraces free 24/7. Upper walkway ticket kiosk operates in the daytime only (exact hours not verified). No pre-booking.",
+      "blurb": "Seven white fairytale turrets with the best Danube-and-Parliament panorama going. Looks medieval, is actually Victorian-era Disney.",
+      "history": "Not a fortress at all - built 1895-1902 by Frigyes Schulek as a decorative viewing terrace for the 1896 Millennium. Seven towers represent the seven Magyar tribes. The fishermen of the name guarded this stretch of the medieval wall, or sold fish at the foot of the hill, depending who you ask.",
+      "tip": "Go at sunrise or after dark for no ticket, no crowds. Sat 17 Oct is best saved for the evening blue hour.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "matthias-church",
+      "name": "Matthias Church",
+      "type": "sight",
+      "tags": [
+        "church",
+        "history",
+        "landmark"
+      ],
+      "district": "I",
+      "address": "Szentháromság tér 2, 1014 Budapest",
+      "lat": 47.50195,
+      "lng": 19.03423,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "Admission price sources conflict (older listings ~1,800-3,100 HUF); tower is a separate ticket - check official site",
+      "hours": "Official: 1 Apr-31 Oct Mon-Fri 9-17, Sat 9-12, Sun 13-17. So Sat 17 Oct 9:00-12:00; Sun 18 Oct only from 13:00 (you'll have left). Closed for services/events.",
+      "blurb": "Technicolour Zsolnay roof tiles and a gloriously over-the-top neo-Gothic interior. Looks like a Habsburg wedding cake got a tattoo sleeve.",
+      "history": "Officially the Church of Our Lady, but named for King Matthias Corvinus who got married in it (twice). The Ottomans turned it into a mosque for 145 years. Schulek's 19th-century rebuild added the multicoloured tile roof. The last Habsburg king, Charles IV, was crowned here in 1916.",
+      "tip": "Sat morning window is short: be in by 9:00 and out before the noon close. Shoulders covered.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church%2C_Budapest%2C_May_2025.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.matyas-templom.hu",
+        "booking": null
+      }
+    },
+    {
+      "id": "hospital-in-the-rock",
+      "name": "Hospital in the Rock Nuclear Bunker",
+      "type": "sight",
+      "tags": [
+        "ww2",
+        "communist",
+        "museum",
+        "tour",
+        "booking-needed"
+      ],
+      "district": "I",
+      "address": "Lovas út 4/c, 1012 Budapest",
+      "lat": 47.5004,
+      "lng": 19.0316,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "Guided tour only. Price sources conflict (older guides ~EUR 24-30; one 2026 blog quotes EUR 100 but that is a bundled walking tour) - check booking page",
+      "hours": "Official site: open daily 10:00-19:00 (last tour ~18:00). Some public holidays closed. Guided tours only.",
+      "blurb": "A secret hospital then Cold War nuclear bunker in the caves under Castle Hill. Wax dummies, rusty Soviet kit and an air-raid vibe. Properly spooky.",
+      "history": "Carved out of natural caves under Buda Castle for WWII, it treated hundreds during the 1944-45 siege and the 1956 uprising. In the 1950s it was converted into a secret nuclear-war bunker, kept classified until 2002. The museum opened in 2008.",
+      "tip": "Book the English tour online; kids under 7 not admitted. Pair with the Labyrinth and Matthias Church in one Castle Hill morning.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://sziklakorhaz.eu/en/informacio",
+        "booking": "https://sziklakorhaz.eu/en/informacio"
+      }
+    },
+    {
+      "id": "house-of-terror",
+      "name": "House of Terror Museum",
+      "type": "sight",
+      "tags": [
+        "communist",
+        "ww2",
+        "museum",
+        "history"
+      ],
+      "district": "VI",
+      "address": "Andrássy út 60, 1062 Budapest",
+      "lat": 47.50974,
+      "lng": 19.06484,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "Official museum.hu listing (Feb 2026) shows 2,000 HUF + 500 HUF for the permanent exhibition; a 2026 blog says ~4,000 Ft adult. Verify.",
+      "hours": "Tue-Sun 10:00-18:00, closed Mon (official listing and guides agree). Open both Sat 17 and Sun 18 Oct.",
+      "blurb": "Hungary's brutal 20th century in one grim, impressive building. Fascists then communists used the same cellars. Sobering, not a laugh, but properly gripping.",
+      "history": "This address was HQ of the Arrow Cross (Hungarian Nazis) in 1944, then of the ÁVO/ÁVH communist secret police. The basement cells you walk through are original. The facade's sinister overhanging roof carries cut-outs of the Arrow Cross symbol and the communist star.",
+      "tip": "Go Sunday morning when it's quieter (opens 10:00). Allow 90 minutes. Not a place for banter.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.terrorhaza.hu/en",
+        "booking": null
+      }
+    },
+    {
+      "id": "memento-park",
+      "name": "Memento Park",
+      "type": "sight",
+      "tags": [
+        "communist",
+        "history",
+        "outdoors",
+        "quirky"
+      ],
+      "district": "XXII",
+      "address": "Balatoni út - Szabadkai út corner, 1223 Budapest",
+      "lat": 47.42695,
+      "lng": 18.9973,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "Adult 3,000 HUF (students 1,800; under 6 free; Budapest Card free)",
+      "hours": "Reported May-Oct 10:00-18:00 daily (one source says 10:00-17:00). Open Sat 17 and Sun 18 Oct but it's out in District XXII: allow 3-4 hours return.",
+      "blurb": "Giant bronze Lenins, Marx, Engels and Soviet soldiers dumped in a field when communism fell. Pure Cold War cosplay. See Stalin's boots.",
+      "history": "After 1989 the city shipped ~42 monumental statues out to this site on the edge of town, opened 1993. Star exhibit: a replica of Stalin's 8m statue boots on a tribune, since the original was toppled in the 1956 uprising, leaving only the boots on the plinth.",
+      "tip": "Bus 150 from Kelenföld station (M4 line); a Sunday-morning visit conflicts with your 13:30 airport run - do it Saturday.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.mementopark.hu",
+        "booking": null
+      }
+    },
+    {
+      "id": "shoes-on-the-danube",
+      "name": "Shoes on the Danube Bank",
+      "type": "sight",
+      "tags": [
+        "history",
+        "ww2",
+        "free",
+        "landmark"
+      ],
+      "district": "V",
+      "address": "Id. Antall József rakpart, Pest bank (south of Parliament), 1054 Budapest",
+      "lat": 47.50272,
+      "lng": 19.04681,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Free",
+      "hours": "Open-air memorial, accessible 24/7.",
+      "blurb": "60 pairs of rusting cast-iron shoes along the water's edge. Quiet, moving, quick - don't be loud here.",
+      "history": "Created in 2005 by film director Can Togay and sculptor Gyula Pauer to remember the Jews shot into the Danube by Arrow Cross militiamen in 1944-45. Victims were made to take off their shoes (valuable) first.",
+      "tip": "Combine with a Parliament-front stroll. Leave a stone, not a selfie-fest.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "dohany-synagogue",
+      "name": "Dohány Street Synagogue",
+      "type": "sight",
+      "tags": [
+        "history",
+        "ww2",
+        "landmark",
+        "booking-needed"
+      ],
+      "district": "VII",
+      "address": "Dohány utca 2, 1074 Budapest",
+      "lat": 47.49608,
+      "lng": 19.06027,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "Sources conflict: ~8,500-14,500 HUF adult (2026 guide updated Sep 2026 says 14,500 Ft); fast-track online ~9,051 HUF",
+      "hours": "Guides: Sun-Thu 10-16 (Fri to 14), CLOSED Saturday (Sabbath) and Mon. So Sat 17 Oct closed; Sun 18 Oct 10:00-16:00, last ticket 1h earlier.",
+      "blurb": "Largest synagogue in Europe, with Moorish twin onion domes and a Holocaust garden. Right in the middle of the party district.",
+      "history": "Built 1854-59 in Moorish style by Ludwig Förster with an organ that Franz Liszt reportedly played at the inauguration. During WWII it sat inside the Pest ghetto; the Tree of Life weeping-willow memorial in the garden carries victims' names on its leaves.",
+      "tip": "Closed Saturday - go Sunday morning (10:00 prompt) or just admire the exterior. Cover shoulders, men may need a head covering.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany4.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "links": {
+        "tripadvisor": null,
+        "website": "https://dohanystreetsynagogue.hu",
+        "booking": null
+      }
+    },
+    {
+      "id": "st-stephens-basilica",
+      "name": "St Stephen's Basilica (dome panorama)",
+      "type": "sight",
+      "tags": [
+        "church",
+        "landmark",
+        "viewpoint",
+        "history"
+      ],
+      "district": "V",
+      "address": "Szent István tér 1, 1051 Budapest",
+      "lat": 47.50066,
+      "lng": 19.05393,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "Church tour ~9,455 HUF adult; extended tour incl. dome terrace & treasury ~15,122 HUF (2026 guide)",
+      "hours": "Church interior: Mon-Fri approx 9-17, Sat ~9-13 (sources conflict), Sun from 13:00. Panorama/dome terrace daily ~9-19 (last sale 18:30), not verified.",
+      "blurb": "Bigger than it looks inside: an enormous neoclassical basilica and a 360-degree dome terrace over the whole city.",
+      "history": "Took 54 years (1851-1905) after the dome collapsed mid-build in 1868 and had to be rebuilt. At 96m it's exactly as tall as Parliament - neither is allowed to be taller. Inside is Hungary's holiest relic, the mummified right hand of King St Stephen.",
+      "tip": "Dome terrace is a roofed-over alternative to the Bastion for daytime views; the church itself opens only from 13:00 on Sunday.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Stephens_bas_budapest.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.basilica.hu/en",
+        "booking": null
+      }
+    },
+    {
+      "id": "heroes-square",
+      "name": "Heroes' Square (Millennium Monument)",
+      "type": "sight",
+      "tags": [
+        "landmark",
+        "history",
+        "free",
+        "outdoors"
+      ],
+      "district": "XIV",
+      "address": "Hősök tere, 1146 Budapest",
+      "lat": 47.51465,
+      "lng": 19.07773,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Free",
+      "hours": "Open-air, accessible 24/7. Floodlit at night.",
+      "blurb": "Seven mounted Magyar chieftains and a pillar of Archangel Gabriel. Photogenic, free, and right beside the Széchenyi baths.",
+      "history": "Built for the 1896 Millennium to celebrate 1,000 years since the Magyars arrived. Originally featured Habsburg kings alongside the chieftains until they were replaced by Hungarian national heroes. Its tomb-like memorial stone is often mistaken for the Unknown Soldier.",
+      "tip": "Combine with Vajdahunyad Castle and Széchenyi. Quick morning stop on Saturday.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "gellert-hill-citadella",
+      "name": "Gellért Hill, Citadella & Liberty Statue",
+      "type": "sight",
+      "tags": [
+        "viewpoint",
+        "history",
+        "outdoors",
+        "communist"
+      ],
+      "district": "XI",
+      "address": "Citadella sétány, 1118 Budapest",
+      "lat": 47.48635,
+      "lng": 19.0462,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Park and terraces free; new 'Bastion of Freedom' exhibition about 4,900 HUF adult (2026 travel guide)",
+      "hours": "Hill and park open daily from morning; Citadella reopened spring 2026 (planned 28 Mar, reported 5 Apr after wind delay). Evening views are best.",
+      "blurb": "Best sunset spot in the city. 235m, 30-minute puff-up from Liberty Bridge, and the whole Danube is at your feet. Statue of a lady holding a palm leaf.",
+      "history": "The hill is named for St Gerard, a bishop pushed to his death in a barrel in 1046. The Citadella was built by the Habsburgs in 1851 to keep a nervous eye on Pest after the 1848 revolution. The Liberty Statue (1947) was a Soviet war memorial; Soviet-soldier figures were removed after 1989.",
+      "tip": "Walk up from the Elizabeth Bridge side (bus 27 also runs up). Do the sunset before your Saturday night out.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "chain-bridge",
+      "name": "Széchenyi Chain Bridge",
+      "type": "sight",
+      "tags": [
+        "landmark",
+        "history",
+        "viewpoint",
+        "free"
+      ],
+      "district": "I",
+      "address": "Széchenyi Lánchíd, between Széchenyi István tér and Adam Clark tér",
+      "lat": 47.49893,
+      "lng": 19.04309,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Free",
+      "hours": "Pedestrian access 24/7. Renovation of the bridge deck was completed around 2022-2023 (per sources).",
+      "blurb": "The grand lion-guarded bridge between Buda and Pest. Glows like a necklace at night. Walk across, grab a pastry on the other side.",
+      "history": "Opened 1849 as Budapest's first permanent Danube bridge, designed by Englishman William Tierney Clark. Blown up by retreating Germans in 1945 and rebuilt in 1949. The lions supposedly lack tongues - a myth; they have them, just hidden from below.",
+      "tip": "Cross at dusk for the lit-up view to Parliament. The renovation is finished and it's open to pedestrians.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "millennium-underground-m1",
+      "name": "Millennium Underground (M1) & Museum",
+      "type": "sight",
+      "tags": [
+        "history",
+        "quirky",
+        "landmark"
+      ],
+      "district": "VI",
+      "address": "Deák Ferenc tér to Mexikói út (museum at Deák tér station)",
+      "lat": 47.49765,
+      "lng": 19.054,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Standard BKK ticket applies (price not verified for Oct 2026)",
+      "hours": "Trains run daily from early morning until about 23:00 (not verified for 17/18 Oct). Museum hours not verified.",
+      "blurb": "Tiny yellow Victorian trains running just under the surface of Andrássy út. Quaint, ancient and still in service.",
+      "history": "Opened in 1896 for the Millennium celebrations, it's the second-oldest underground railway in the world after London's (1863) - and the first on continental Europe. It was dug just under the pavement using cut-and-cover. Still rattling after 130 years.",
+      "tip": "Ride it from Deák tér to Hősök tere and back: 11 stops, ~12 minutes, rich Victorian tile detailing.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://bkk.hu/en/",
+        "booking": null
+      }
+    },
+    {
+      "id": "vajdahunyad-castle",
+      "name": "Vajdahunyad Castle",
+      "type": "sight",
+      "tags": [
+        "castle",
+        "history",
+        "outdoors",
+        "free",
+        "quirky"
+      ],
+      "district": "XIV",
+      "address": "Városliget, Vajdahunyad sétány, 1146 Budapest",
+      "lat": 47.51549,
+      "lng": 19.08235,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Grounds free; Agricultural Museum inside has separate ticket (price not verified)",
+      "hours": "Grounds open 24/7 (park). Agricultural Museum Tue-Sun daytime (not verified).",
+      "blurb": "A fairy-tale castle that is actually four architectural styles in one. Boating lake in summer, ice rink in winter. Photogenic. Free.",
+      "history": "Built for the 1896 Millennium Exhibition in cardboard and timber as a 'greatest hits' of Hungarian architecture - Romanesque, Gothic, Renaissance, Baroque. It proved so popular it was rebuilt in stone and brick in 1904-08. Now it houses an agricultural museum.",
+      "tip": "Takes 15 minutes. Pair with Heroes' Square and the baths.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "hungarian-state-opera",
+      "name": "Hungarian State Opera House",
+      "type": "sight",
+      "tags": [
+        "landmark",
+        "history",
+        "museum",
+        "tour"
+      ],
+      "district": "VI",
+      "address": "Andrássy út 22, 1061 Budapest",
+      "lat": 47.50244,
+      "lng": 19.05925,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "English guided tour ~12,000 HUF (Oct 2026 guide); the cheapest seat for a performance costs less than the tour",
+      "hours": "English tours reportedly daily at 13:30, 15:00 and 16:30 (weekend times may differ; not verified). Evening performances vary - check the programme.",
+      "blurb": "Gold-leaf neo-Renaissance opera house on Andrássy. Stand under the chandelier and pretend you own a yacht. Tour or a cheap standing seat.",
+      "history": "Opened 1884, designed by Miklós Ybl. Legend says Emperor Franz Joseph insisted it be smaller than Vienna's opera house, so Ybl made it better. Gustav Mahler ran the place in the 1890s. The chandelier alone weighs three tonnes.",
+      "tip": "A cheap standing/restricted-view seat for an evening show can cost less than the tour. Smart casual if you go.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": "https://www.tripadvisor.com/--d276812.html",
+        "website": "https://www.opera.hu/en",
+        "booking": "https://www.opera.hu/en"
+      }
+    },
+    {
+      "id": "great-market-hall",
+      "name": "Great Market Hall",
+      "type": "sight",
+      "tags": [
+        "market",
+        "history",
+        "landmark"
+      ],
+      "district": "IX",
+      "address": "Vámház körút 1-3, 1093 Budapest",
+      "lat": 47.48731,
+      "lng": 19.05853,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Free to enter; food stalls priced separately",
+      "hours": "Reported Mon-Fri 6-18, Sat 6-16, Sun 10-16 (guide updated Oct 2026). Closed on public holidays.",
+      "blurb": "Hungary's biggest indoor market: paprika, salami, pálinka downstairs; lángos and tat upstairs. Go hungry. Skip the tourist-trap gulyás prices.",
+      "history": "Opened 1897, designed by Samu Pecz with a Zsolnay-tiled roof. Goods reportedly arrived by boat via a canal. Heavily damaged in WWII, it sat decaying until a 1990s restoration. The ground floor is for locals, upstairs for tourists.",
+      "tip": "Eat lángos upstairs for an iconic hangover cure. Sunday has a short 10-16 window.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.csarnokok.hu",
+        "booking": null
+      }
+    },
+    {
+      "id": "andrassy-ut",
+      "name": "Andrássy Avenue",
+      "type": "sight",
+      "tags": [
+        "landmark",
+        "history",
+        "free",
+        "outdoors"
+      ],
+      "district": "VI",
+      "address": "Andrássy út, from Bajcsy-Zsilinszky út to Hősök tere",
+      "lat": 47.5053,
+      "lng": 19.063,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Free",
+      "hours": "Street, open 24/7; shops/cafes on regular hours.",
+      "blurb": "Budapest's Champs-Élysées: a UNESCO-listed boulevard of mansions, Opera, fashion shops and cafes. Great for the Sunday-morning stroll.",
+      "history": "Laid out in the 1870s and named for Count Gyula Andrássy, it linked the city centre to the City Park. Under it runs the 1896 M1 Underground. Its tree-lined 2.5km stretch passes the Opera, Terror House and Liszt Academy.",
+      "tip": "Walk the whole thing Sunday morning, grab a coffee and a pastry on the way, and end up at Heroes' Square.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "margaret-island",
+      "name": "Margaret Island (Margitsziget)",
+      "type": "sight",
+      "tags": [
+        "outdoors",
+        "free",
+        "history",
+        "quirky"
+      ],
+      "district": "XIII",
+      "address": "Margitsziget, 1138 Budapest",
+      "lat": 47.5279,
+      "lng": 19.0487,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Free entry. Bike hire ~1,500-2,500 HUF/hr; four-person pedal carts (bringóhintó) ~3,000-5,000 HUF/hr (2026 guide estimates)",
+      "hours": "Park open 24/7. Musical Fountain season to 31 Oct, daily 10-22 with a 21:00 grand finale (check - one report of shutdown). Rentals available in Oct, hours not verified.",
+      "blurb": "A traffic-free island in the Danube: bikes, pedal-carts, a water tower, ruined convent and a dancing fountain. Perfect hangover walk.",
+      "history": "Named for Saint Margaret, daughter of King Béla IV, who was promised to God during the 1241 Mongol invasion and spent her life in the island's convent. In the 19th century Palatine Joseph turned it into a landscaped garden. Cars are banned.",
+      "tip": "Hire a four-seat pedal cart for a laugh. Bus 26 runs through. Walk from Margaret Bridge in 5 minutes.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "buda-castle-labyrinth",
+      "name": "Buda Castle Labyrinth",
+      "type": "sight",
+      "tags": [
+        "history",
+        "quirky",
+        "tour"
+      ],
+      "district": "I",
+      "address": "Úri utca 9, 1014 Budapest",
+      "lat": 47.5012,
+      "lng": 19.0353,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "About 3,000 HUF adult (one listing; another says EUR 13)",
+      "hours": "Sources conflict: daily 10:00-19:30 or 11:00-18:30; one listing carries a 'currently closed' note - verify before going.",
+      "blurb": "A 1.5km cave maze under Castle Hill: medieval dungeons, Dracula lore and a dim night tour. Dark, silly, atmospheric.",
+      "history": "A natural cave network enlarged by humans for thousands of years: wine cellars, WWII air-raid shelter, and a legend of Vlad the Impaler (the real Dracula) being held prisoner in Buda in the 1460s.",
+      "tip": "Confirm it's open (reports of a closure note). Bring a jacket; it's chilly. Combine with Hospital in the Rock.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://labirintus.com",
+        "booking": null
+      }
+    },
+    {
+      "id": "cave-church",
+      "name": "Gellért Hill Cave Church",
+      "type": "sight",
+      "tags": [
+        "church",
+        "history",
+        "quirky",
+        "communist"
+      ],
+      "district": "XI",
+      "address": "Szent Gellért rakpart 1, 1114 Budapest",
+      "lat": 47.4853,
+      "lng": 19.0468,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "About 1,400 HUF adult incl. audioguide (2026 guide)",
+      "hours": "Mon-Sat ~9:30-19:30, CLOSED Sunday; closed to tourists during Mass (sources conflict on Monday closing time).",
+      "blurb": "A church inside a cave at the foot of Gellért Hill. Dark, atmospheric and weirdly beautiful. Ten minutes and you've seen one of the city's oddest sights.",
+      "history": "Dug into the hill's rock by Pauline monks and consecrated in 1931. The Communists bricked it up in 1951, imprisoned the monks, and hid the entrance. It was reopened to the public in 1989.",
+      "tip": "Closed Sunday - go on Saturday on your way up to the Citadella. Cover your shoulders.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://sziklatemplom.hu",
+        "booking": null
+      }
+    },
+    {
+      "id": "szechenyi-baths",
+      "name": "Széchenyi Thermal Bath",
+      "type": "bath",
+      "tags": [
+        "bath",
+        "landmark",
+        "outdoors"
+      ],
+      "district": "XIV",
+      "address": "Állatkerti körút 9-11, 1146 Budapest",
+      "lat": 47.51825,
+      "lng": 19.0817,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "Full-day locker ticket 14,800 HUF Fri/weekend (13,200 Mon-Thu; 15,800 holiday/peak). Cabin ~+1,000 HUF. Fast Track online 16,800 HUF weekend. Towels: bring own or buy from ~6,900 HUF.",
+      "hours": "Reported Sat-Sun 8:00-20:00 (Mon-Fri 7:00-20:00). Sparty runs here Sat 17 Oct night (see Sparty).",
+      "blurb": "Europe's biggest medicinal bath. Hot yellow palace, steaming outdoor pools and old men playing chess in the water. A proper lad-trip classic.",
+      "history": "Opened 1913 in neo-Baroque style, drawing from two thermal springs (74C and 77C). Named after Count István Széchenyi who also championed the Chain Bridge. The outdoor chess boards are a ritual and visitors report that Hungarians take it seriously.",
+      "tip": "Book Fast Track online. Bring flip-flops, a towel and swim shorts. Cabin if you want privacy, locker if you're fine sharing a changing room.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Sz%C3%A9chenyi_Baths_R03.jpg?width=900",
+      "imageCredit": "Wikimedia Commons",
+      "links": {
+        "tripadvisor": null,
+        "website": "https://szechenyibath.com",
+        "booking": "https://bathsbudapest.com"
+      }
+    },
+    {
+      "id": "gellert-baths",
+      "name": "Gellért Thermal Baths (CLOSED)",
+      "type": "bath",
+      "tags": [
+        "bath",
+        "landmark"
+      ],
+      "district": "XI",
+      "address": "Kelenhegyi út 4, 1118 Budapest",
+      "lat": 47.48396,
+      "lng": 19.04715,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "CLOSED - no 2026 tickets",
+      "hours": "CLOSED since 1 October 2025 for a major renovation. Reopening targeted for 2028 (some guides say late 2028-early 2029). Do not plan around it.",
+      "blurb": "The Art Nouveau icon with stained glass and the wave pool - but closed until at least 2028. Pick Rudas or Széchenyi instead.",
+      "history": "Opened 1918 as part of the Gellért Hotel, which was damaged in WWII. The renovation (reported ~20bn HUF) is meant to add a panoramic sunbathing terrace and a wellness area.",
+      "tip": "Closed: swap to Rudas or Széchenyi. Its Art Nouveau facade is still worth a photo from the Liberty Bridge.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://gellertspa.com",
+        "booking": null
+      }
+    },
+    {
+      "id": "rudas-baths",
+      "name": "Rudas Baths (Ottoman bath, rooftop pool & night bathing)",
+      "type": "bath",
+      "tags": [
+        "bath",
+        "night-bathing",
+        "viewpoint",
+        "history"
+      ],
+      "district": "I",
+      "address": "Döbrentei tér 9, 1013 Budapest",
+      "lat": 47.48947,
+      "lng": 19.04757,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "All-zone day ticket 15,000 HUF Fri-Sun (12,000 Mon-Thu; 16,000 holidays). Night bathing Fri & Sat 15,000 HUF, online only (2026 guides).",
+      "hours": "Wellness zone/rooftop roughly 6:00-20:00 Tue-Sun (sources conflict). Night bathing Fri & Sat 22:00-03:00. Weekends mixed - swimsuit required. Sat 17 Oct night session applies.",
+      "blurb": "A 16th-century Ottoman dome with 36-40C pools, plus a rooftop jacuzzi with a Danube view. Go late on a Saturday night: dark, steamy, atmospheric.",
+      "history": "Built around 1550 during the Turkish occupation of Buda, its central octagonal pool sits under an original Ottoman dome on eight pillars. A modern rooftop pool was added in a 2010s refit.",
+      "tip": "Night session is mixed and swimsuit mandatory. Pre-book online; flip-flops and a towel essential.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://bathsbudapest.com",
+        "booking": "https://bathsbudapest.com"
+      }
+    },
+    {
+      "id": "lukacs-baths",
+      "name": "Lukács Thermal Bath",
+      "type": "bath",
+      "tags": [
+        "bath",
+        "history"
+      ],
+      "district": "II",
+      "address": "Frankel Leó út 25-29, 1023 Budapest",
+      "lat": 47.52055,
+      "lng": 19.0345,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "Day ticket 7,000 HUF Mon-Thu; 8,000 HUF Fri-Sun (TicketLens); online complex ticket 8,900 HUF",
+      "hours": "Reported daily 7:00-19:00 (some say 6-20); ticket desk closes an hour before close. Check lukacsfurdo.hu.",
+      "blurb": "The locals' favourite - old-school, a bit scruffy, good thermal pools and a drinking hall, with a famous wall of marble thank-you plaques.",
+      "history": "A bathing site since the 12th century when Knights Hospitaller ran a hospital here; today's neoclassical complex is 19th-century. The courtyard wall is covered in marble plaques from grateful healed patients, including many famous writers and artists.",
+      "tip": "Good low-key alternative if Széchenyi is rammed. Check opening hours at lukacsfurdo.hu. Take cash/card, towel.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.lukacsfurdo.hu",
+        "booking": "https://bathsbudapest.com"
+      }
+    },
+    {
+      "id": "dandar-baths",
+      "name": "Dandár Thermal Bath",
+      "type": "bath",
+      "tags": [
+        "bath"
+      ],
+      "district": "IX",
+      "address": "Dandár utca 3, 1095 Budapest",
+      "lat": 47.4773,
+      "lng": 19.0704,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Standard adult ~3,500 HUF weekday / ~4,000 HUF weekend (earlier source); 2026 reports of sharp weekend rises - verify",
+      "hours": "Reported opens ~9:00 daily; closing time not confirmed. A source mentions reduced prices during ongoing renovation.",
+      "blurb": "Budget locals' bath next to the Unicum factory. No-frills indoor pool, cheap and quiet. Cheap enough to tick the thermal box if Széchenyi's rammed.",
+      "history": "A modest district bath in Ferencváros, next to the Zwack Unicum factory; the herbal liqueur is a Hungarian rite of passage.",
+      "tip": "Pair with a Zwack Unicum visit. Bring your own towel; not tourist-ready.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://bathsbudapest.com",
+        "booking": "https://bathsbudapest.com"
+      }
+    },
+    {
+      "id": "veli-bej-bath",
+      "name": "Veli Bej Bath",
+      "type": "bath",
+      "tags": [
+        "bath",
+        "history",
+        "quirky"
+      ],
+      "district": "II",
+      "address": "Árpád fejedelem útja 7, 1023 Budapest",
+      "lat": 47.5198,
+      "lng": 19.038,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "About 5,700-7,200 HUF (2026 guides); 3-hour sessions only; pay at the door, no online booking",
+      "hours": "Reportedly reopened Sat 5 Sep 2026 after summer maintenance; verify. Strict 14+ policy.",
+      "blurb": "Tiny, 16th-century Ottoman dome bath. Dark, hot, quiet and strictly no-messing. Sessions are 3 hours.",
+      "history": "Built in the 1570s by Pasha Veli Bej, it's one of the oldest Turkish baths in Budapest. It has been renovated several times and retains its original central dome.",
+      "tip": "No online booking - just turn up. Swim trunks; follow house rules (no loud banter).",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://bathsbudapest.com",
+        "booking": null
+      }
+    },
+    {
+      "id": "kiraly-baths",
+      "name": "Király Baths (CLOSED)",
+      "type": "bath",
+      "tags": [
+        "bath",
+        "history"
+      ],
+      "district": "I",
+      "address": "Fő utca 84, 1011 Budapest",
+      "lat": 47.5087,
+      "lng": 19.0396,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "CLOSED",
+      "hours": "Closed for restoration since 2019/2020; no reopening date published as of 2026.",
+      "blurb": "Small Ottoman-era bath in Víziváros. Closed with no reopening date. Don't build a plan on it.",
+      "history": "Ottoman-era bath finished in 1578. Plans for a reopening via a Turkish-Hungarian foundation were reported in 2024 but no date is set.",
+      "tip": "Closed - choose Rudas for an Ottoman-bath experience instead.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "sparty-szechenyi",
+      "name": "SPARTY - Széchenyi Bath Party",
+      "type": "bath",
+      "tags": [
+        "sparty",
+        "bath",
+        "night-bathing",
+        "booking-needed"
+      ],
+      "district": "XIV",
+      "address": "Széchenyi Thermal Bath, Állatkerti körút 9-11, 1146 Budapest",
+      "lat": 47.51825,
+      "lng": 19.0817,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 4,
+      "priceText": "Basic ticket with locker 25,375 HUF (~EUR 65); Premium with locker + 4 drinks coupons and 19:00 warm-up 31,621 HUF (~EUR 81); one source says EUR 59",
+      "hours": "Saturday night, ~21:30-02:00 (warm-up from 19:00 in the Pavilion Garden for Premium). Listed for Sat 17 Oct 2026 per Baths Budapest/Széchenyi pages (availability not verified). 18+ only.",
+      "blurb": "The legendary bath-party: DJs, lasers and bikinis in outdoor thermal pools. Peak lad-weekend material. Sells out.",
+      "history": null,
+      "tip": "Book immediately. Bring waterproof phone pouch. Only outdoor pools are open.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://szechenyibath.com/magic-bath-parties-in-budapest/",
+        "booking": "https://spartybooking.com/entry-tickets/"
+      }
+    },
+    {
+      "id": "pinball-museum",
+      "name": "Budapest Pinball Museum",
+      "type": "activity",
+      "tags": [
+        "games",
+        "museum",
+        "quirky"
+      ],
+      "district": "XIII",
+      "address": "Radnóti Miklós utca 18, 1137 Budapest",
+      "lat": 47.5127,
+      "lng": 19.0488,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "5,500 HUF adult (4,000 under-26/over-62), unlimited free-play on all machines (official site snippet)",
+      "hours": "Official: Wed-Fri 16:00-24:00, Sat 13:00-24:00, Sun 11:00-22:00; closed Mon/Tue.",
+      "blurb": "Pinball and arcade machines on free-play for one ticket. Competitive lad-gold for a rainy Saturday afternoon.",
+      "history": null,
+      "tip": "Great Sat afternoon/pre-dinner plan. Tickets at the door or online; arcade tournaments get serious.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://flippermuzeum.hu/en/contact-prices/",
+        "booking": "https://flippermuzeum.hu/en/contact-prices/"
+      }
+    },
+    {
+      "id": "churchill-shooting-range",
+      "name": "Churchill Shooting Range",
+      "type": "activity",
+      "tags": [
+        "shooting",
+        "adrenaline"
+      ],
+      "district": "XIII",
+      "address": "Tomori utca 33, 1138 Budapest",
+      "lat": 47.542,
+      "lng": 19.07,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 3,
+      "priceText": "Packages via Expedia (USD): basic ~$96, Hollywood ~$121 (incl. AK-47), Gamer ~$191, All-In ~$314 per person. HUF price not verified.",
+      "hours": "Not verified for 17/18 Oct. Pre-book required; transport to venue not included.",
+      "blurb": "AK-47s, shotguns and handguns on a safe indoor range. Lad-weekend staple. Reserve a slot early.",
+      "history": null,
+      "tip": "Book a package in advance; bring ID. Check the address on your booking - coordinates here are approximate.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "e-exit-escape-room",
+      "name": "E-Exit Escape Room",
+      "type": "activity",
+      "tags": [
+        "escape-room",
+        "games"
+      ],
+      "district": "VII",
+      "address": "District VII, exact address not verified - see booking page",
+      "lat": 47.503,
+      "lng": 19.065,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "Per person: 12,000 HUF for 2, 7,000 for 4, 6,000 for 6 (Secret Subway, 75 min). Max 6 per room (2026 guide, Sep 2026).",
+      "hours": "Timeslots vary - not verified for 17/18 Oct. Pre-book.",
+      "blurb": "Six lads, a locked room and an hour to prove who's actually clever. Reliable team-building (or team-breaking).",
+      "history": null,
+      "tip": "Split into two teams of 4-6 and compete. MystIQueRoom (Districts V/XIII) is another option at ~5,990 HUF pp for six.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "balta-axe-throwing",
+      "name": "Balta Dobálás Axe Throwing",
+      "type": "activity",
+      "tags": [
+        "adrenaline",
+        "games"
+      ],
+      "district": "VII",
+      "address": "Dohány utca 30/A, 1074 Budapest",
+      "lat": 47.4987,
+      "lng": 19.064,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "About $24-25 per person for 60 minutes; ~$27-28 for 90 minutes (Expedia listings)",
+      "hours": "Book via website; reservation within 24h by phone. Times not verified for 17/18 Oct.",
+      "blurb": "Beer in one hand, axe in the other - in a controlled lane. Sets of throws with a coach. Easy, loud, brilliant.",
+      "history": null,
+      "tip": "Great pre-night-out activity in the party district. Book a lane for the group.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://baltadobalas.hu",
+        "booking": "https://baltadobalas.hu/idopontfoglalas.php"
+      }
+    },
+    {
+      "id": "prosecco-danube-cruise",
+      "name": "Danube Evening Cruise (unlimited drinks)",
+      "type": "activity",
+      "tags": [
+        "cruise",
+        "booking-needed"
+      ],
+      "district": "V",
+      "address": "Dock 11, Belgrád rakpart (Elizabeth Bridge, Pest side), 1056 Budapest",
+      "lat": 47.4939,
+      "lng": 19.0493,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "About USD 29 per person for a 75-minute unlimited prosecco cruise; cheaper evening options from ~EUR 15-19 (2026 guides)",
+      "hours": "Daily day and evening departures (exact Sat 17 Oct times not verified). Book online.",
+      "blurb": "75 minutes of Parliament lit up and bottomless fizz. Cheap, loud, perfect for a pre-dinner warm-up.",
+      "history": null,
+      "tip": "Pick the late-evening slot; sit upstairs but wrap up. Book online ahead for the weekend.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "beerbus-budapest",
+      "name": "Budapest BeerBus (beer bike alternative)",
+      "type": "activity",
+      "tags": [
+        "beer-bike",
+        "tour"
+      ],
+      "district": "V",
+      "address": "Meeting point varies (booking page); central Budapest",
+      "lat": 47.4975,
+      "lng": 19.054,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "About USD 29 for 60 min; ~USD 41 for 90 min per person (Expedia public tour listing)",
+      "hours": "Tours depart daily in season (times not verified for 17/18 Oct).",
+      "blurb": "Pedal-powered beer bikes are reportedly banned in the city; the electric BeerBus carries the beer instead. A sightseeing pub-on-wheels.",
+      "history": null,
+      "tip": "Check your booking page for the meeting point; this is a rough city-centre pin.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "palvolgyi-cave",
+      "name": "Pál-völgyi Cave (stalactite cave tour)",
+      "type": "activity",
+      "tags": [
+        "outdoors",
+        "tour",
+        "history"
+      ],
+      "district": "II",
+      "address": "Szépvölgyi út 162, 1025 Budapest",
+      "lat": 47.54,
+      "lng": 19.027,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "3,900 HUF adult (2,800 discounted); combined ticket with Szemlő-hegy cave 5,900 HUF. Budapest Card free.",
+      "hours": "Official: Tue-Sun 10:00-16:00, tours start at :15 past each hour, last at 16:15. Closed Mondays.",
+      "blurb": "An hour underground in a limestone cave 20 minutes from the centre: stalactites, narrow passages and an easy tour.",
+      "history": null,
+      "tip": "Take bus 65 from Kolosy tér. Adventure caving (≈EUR 50) is a tougher option.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave",
+        "booking": null
+      }
+    },
+    {
+      "id": "budapest-eye",
+      "name": "Budapest Eye (Ferris wheel)",
+      "type": "activity",
+      "tags": [
+        "viewpoint"
+      ],
+      "district": "V",
+      "address": "Erzsébet tér, 1051 Budapest",
+      "lat": 47.4992,
+      "lng": 19.0537,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "4,900 HUF standard (age 12+); priority 6,900; priority with sparkling wine 8,900 (Aug 2026 guide)",
+      "hours": "Reported 11:00-23:00, Fri & Sat to midnight, open all year.",
+      "blurb": "Giant wheel in Erzsébet tér, right on the pub trail. Free views exist elsewhere, but this is quick and central.",
+      "history": null,
+      "tip": "Free views from Gellért Hill and the Bastion beat it - go only if you're doing the bar crawl nearby.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "communist-free-walking-tour",
+      "name": "Communist Budapest Free Walking Tour",
+      "type": "activity",
+      "tags": [
+        "tour",
+        "communist",
+        "history",
+        "free"
+      ],
+      "district": "V",
+      "address": "Meeting point per listing: Imre Nagy statue (Jászai Mari tér / Kossuth area)",
+      "lat": 47.5076,
+      "lng": 19.0468,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Pay-what-you-wish (tip-based); minimum of 2 people (Guruwalk listing)",
+      "hours": "Schedule varies by day; Sunday-morning departure not confirmed - check booking.",
+      "blurb": "Two hours on the Soviet years: secret police, Stalin and why queues were normal. A good morning hangover-walk.",
+      "history": null,
+      "tip": "Book via Guruwalk/Free Walking Tour; tip the guide properly (~3,000-5,000 HUF each).",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.guruwalk.com/walks/66638-budapest-in-the-shadow-of-communism",
+        "booking": null
+      }
+    },
+    {
+      "id": "szimpla-sunday-market",
+      "name": "Szimpla Kert Sunday Farmers' Market",
+      "type": "activity",
+      "tags": [
+        "market",
+        "quirky",
+        "free"
+      ],
+      "district": "VII",
+      "address": "Kazinczy utca 14, 1075 Budapest",
+      "lat": 47.4994,
+      "lng": 19.0643,
+      "coordSource": "wikipedia",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Free entry; food and drink at market prices",
+      "hours": "Sunday market from 9:00 (ends ~14:00-15:00). Bar open Sun 9:00-4:00 per listing.",
+      "blurb": "The original ruin bar by day: a farmers' market inside a junk-filled wreck. Nip in for a coffee, palacsinta or breakfast before the airport.",
+      "history": null,
+      "tip": "Perfect Sunday-morning stop before your flight. Go at 9:00 sharp.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-d668397",
+        "website": "https://szimpla.hu",
+        "booking": null
+      }
+    },
+    {
+      "id": "ecseri-flea-market",
+      "name": "Ecseri Flea Market",
+      "type": "activity",
+      "tags": [
+        "market",
+        "quirky",
+        "history"
+      ],
+      "district": "XIX",
+      "address": "Nagykőrösi út 156, 1194 Budapest",
+      "lat": 47.4333,
+      "lng": 19.1203,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Free entry; bargain",
+      "hours": "Sat roughly 5:00/6:00-15:00 (sources conflict); Sun 8:00-13:00. Far out in District XIX.",
+      "blurb": "Soviet badges, gas masks and a half-century of other Eastern Bloc junk. Haggle hard.",
+      "history": null,
+      "tip": "Sat is the best day; it's a trek, so a Sunday visit conflicts with your 13:30 airport run.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "tank-driving",
+      "name": "Tank Empire Budapest (drive a Soviet tank)",
+      "type": "activity",
+      "tags": [
+        "adrenaline",
+        "communist"
+      ],
+      "district": "XXII",
+      "address": "Kőérberki út 36/A, 1223 Budapest",
+      "lat": 47.423,
+      "lng": 19.013,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 4,
+      "priceText": "MTLB + BTR ride AU$1,117 pp; T-55 AU$2,102 pp (Expedia, third-party pricing)",
+      "hours": "Not verified for 17/18 Oct. Pre-booking only.",
+      "blurb": "Drive a real Soviet-era tank across a field. Silly money, silly fun - proper stag-do energy.",
+      "history": null,
+      "tip": "Book well ahead. Coordinates are approximate; confirm location with the operator.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "zugliget-chairlift",
+      "name": "Zugliget Chairlift (Libegő)",
+      "type": "activity",
+      "tags": [
+        "viewpoint",
+        "outdoors"
+      ],
+      "district": "XII",
+      "address": "Zugligeti út 93, 1121 Budapest",
+      "lat": 47.509,
+      "lng": 18.99,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "One-way 3,000 HUF adult; return 4,000 HUF (BKV page); Budapest Card free",
+      "hours": "Closed for maintenance 28 Sep-16 Oct 2026; reopens Sat 17 Oct at reduced hours 10:00-17:00 (26-31 Oct 10:00-16:00). Weather-dependent.",
+      "blurb": "A 1960s chairlift up János Hill. Wobbly retro fun and an easy way up to the Elizabeth Lookout.",
+      "history": null,
+      "tip": "It reopens on Saturday 17 Oct only; check BKV for weather closures before schlepping out.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://bkv.hu/en/content/chairlift_information",
+        "booking": null
+      }
+    },
+    {
+      "id": "childrens-railway",
+      "name": "Children's Railway (Gyermekvasút)",
+      "type": "activity",
+      "tags": [
+        "quirky",
+        "outdoors"
+      ],
+      "district": "XII",
+      "address": "Széchenyi-hegy station to Hűvösvölgy (District XII)",
+      "lat": 47.537,
+      "lng": 18.97,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 1,
+      "priceText": "Around 1,000 HUF adult single leg; 500 HUF child (2026 guide, unverified)",
+      "hours": "Runs most days except Mondays Sep-Apr; timetable for 17/18 Oct not verified.",
+      "blurb": "A narrow-gauge forest railway staffed by schoolkids in uniform. Soviet-era quirk that still works.",
+      "history": null,
+      "tip": "Pair with the Zugliget chairlift, but it's a long trip for a short thing.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://www.gyermekvasut.hu",
+        "booking": null
+      }
+    },
+    {
+      "id": "palinka-museum",
+      "name": "Pálinka Museum & Tasting",
+      "type": "activity",
+      "tags": [
+        "quirky",
+        "museum",
+        "games"
+      ],
+      "district": "VII",
+      "address": "Király utca 20, 1061 Budapest",
+      "lat": 47.4998,
+      "lng": 19.057,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "EUR 10 entry only; EUR 25 with 4 tastings, EUR 24 with 6, EUR 45 with 8 (third-party site)",
+      "hours": "Daily 14:00-midnight; last tour two hours before closing; 18+.",
+      "blurb": "A museum of Hungary's fruit firewater with a tasting you won't want to stop. Worth doing before Szimpla.",
+      "history": null,
+      "tip": "Do the 6-8 tasting option together; designate a navigator for Saturday night.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": null,
+        "booking": null
+      }
+    },
+    {
+      "id": "puskas-arena-tour",
+      "name": "Puskás Aréna Stadium & Museum Tour",
+      "type": "activity",
+      "tags": [
+        "museum",
+        "tour",
+        "games"
+      ],
+      "district": "XIV",
+      "address": "Istvánmezei út 3-5, 1146 Budapest",
+      "lat": 47.50283,
+      "lng": 19.09963,
+      "coordSource": "estimated-from-address",
+      "rating": {
+        "tripadvisor": null,
+        "tripadvisorReviews": null,
+        "google": null,
+        "googleReviews": null
+      },
+      "price": 2,
+      "priceText": "Combined museum+stadium 6,900 HUF adult (4,500 discounted); stadium tour alone 4,000 (official page, dated Jul 2025)",
+      "hours": "Stadium tours at 11:00, 13:30, 15:00; museum tours 12:00, 13:30; tours were Hungarian-only per 2025 page; matchday closures possible.",
+      "blurb": "Hungary's national stadium. Walk the tunnel, sit in the dugout and see a tribute to Ferenc Puskás, the Galloping Major.",
+      "history": null,
+      "tip": "Confirm English-language availability and match-day closures before heading out.",
+      "image": null,
+      "imageCredit": null,
+      "links": {
+        "tripadvisor": null,
+        "website": "https://en.puskasarena.com/news/arena-tour-information",
+        "booking": null
+      }
+    }
+  ],
+  "sparty": {
+    "onDate": "2026-10-17",
+    "body": "A Sparty is listed for Sat 17 Oct 2026 on the Baths Budapest and Széchenyi party pages (per search results; ticket availability not verified). Runs ~21:30-02:00 (18+ only), outdoor pools only. Basic ticket with locker ~25,375 HUF (~EUR 65); Premium (locker, drink coupons, 19:00 warm-up) ~31,621 HUF (~EUR 81). Other guides quote around EUR 59. Sells out - book on the official booking site.",
+    "link": "https://spartybooking.com/entry-tickets/"
+  },
+  "sources": [
+    "https://www.timeout.com/news/one-of-budapests-most-iconic-thermal-baths-is-closing-for-renovations-until-2028-100125",
+    "https://budappest.com/gellert-thermal-baths-renovation-panoramic-danube-views-and-restored-art-nouveau-splendor-coming-2028/",
+    "https://hungaryunlocked.com/budapest-thermal-baths-szechenyi-gellert-rudas-insider-guide/",
+    "https://bathsbudapest.com/budapest-bath-parties",
+    "https://szechenyibath.com/magic-bath-parties-in-budapest/",
+    "https://spartybooking.com/entry-tickets/",
+    "https://thebettervacation.com/budapest/szechenyi-baths-spa-party/",
+    "https://way4i.com/szechenyi-thermal-bath-budapest-tickets-opening-hours-prices/",
+    "https://hungaryunlocked.com/rudas-baths/",
+    "https://dailynewshungary.com/budapest-baths-price-rises-2026/",
+    "https://www.ticketlens.com/en/p31520146/budapest/lukacs-baths",
+    "https://hungaryunlocked.com/dandar-baths/",
+    "https://budappest.com/budapests-citadella-is-finally-back-and-its-better-than-ever/",
+    "https://hungarytoday.hu/prime-minister-opens-renewed-citadel-the-bastion-of-hungarian-freedom/",
+    "https://www.eib.org/attachments/registers/251633133.pdf",
+    "https://www.budapest-trip.com/guides/hungarian-parliament-guide/",
+    "https://www.museum.hu/exhibition/12411/Permanent_exhibition_of_the_House_of_Terror",
+    "https://hungaryunlocked.com/dohany-street-synagogue-budapest-guide/",
+    "https://www.trvlogue.com/en/st-stephens-basilica-budapest-tickets",
+    "https://sziklakorhaz.eu/en/informacio",
+    "https://hungaryunlocked.com/memento-park-a-journey-through-communist-past-explore-this-unique-park-featuring-statues-from-hungarys-communist-period/",
+    "https://hungaryunlocked.com/great-market-hall-budapest-guide/",
+    "https://hungaryunlocked.com/hungarian-state-opera-house-budapest-guide/",
+    "https://flippermuzeum.hu/en/contact-prices/",
+    "https://hungaryunlocked.com/escape-room-budapest-local-guide/",
+    "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave",
+    "https://bkv.hu/en/content/chairlift_information",
+    "https://en.puskasarena.com/news/arena-tour-information",
+    "https://hungaryunlocked.com/budapest-eye-ferris-wheel-worth-it/",
+    "https://www.guruwalk.com/walks/66638-budapest-in-the-shadow-of-communism",
+    "https://hungaryunlocked.com/prosecco-cruise-in-budapest/",
+    "https://hungaryunlocked.com/margaret-island-budapest/",
+    "https://hungaryunlocked.com/labyrinth-of-buda-castle/",
+    "https://thebettervacation.com/budapest/cave-church/amp/",
+    "https://commons.wikimedia.org/wiki/Category:Matthias_Church_(Budapest)"
+  ]
+}

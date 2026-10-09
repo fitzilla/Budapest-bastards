@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#d7263d"/>
+  <g fill="#fff">
+    <rect x="250" y="92" width="12" height="70" rx="6"/>
+    <path d="M190 262c0-58 28-98 66-108 38 10 66 50 66 108z"/>
+    <rect x="186" y="256" width="140" height="104"/>
+    <rect x="84" y="296" width="114" height="64"/>
+    <rect x="314" y="296" width="114" height="64"/>
+    <path d="M96 296v-46l12-22 12 22v46zM392 296v-46l12-22 12 22v46zM164 296v-30l9-16 9 16v30zM330 296v-30l9-16 9 16v30z"/>
+    <rect x="64" y="360" width="384" height="30" rx="6"/>
+  </g>
+  <g fill="#d7263d">
+    <path d="M206 360v-48a10 10 0 0 1 20 0v48zM246 360v-48a10 10 0 0 1 20 0v48zM286 360v-48a10 10 0 0 1 20 0v48z"/>
+    <rect x="104" y="318" width="12" height="24" rx="6"/><rect x="132" y="318" width="12" height="24" rx="6"/><rect x="160" y="318" width="12" height="24" rx="6"/>
+    <rect x="340" y="318" width="12" height="24" rx="6"/><rect x="368" y="318" width="12" height="24" rx="6"/><rect x="396" y="318" width="12" height="24" rx="6"/>
+  </g>
+</svg>

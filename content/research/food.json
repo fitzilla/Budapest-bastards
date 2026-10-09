@@ -1,0 +1,1278 @@
+{
+ "items": [
+  {
+   "id": "menza",
+   "name": "Menza",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "group-friendly",
+    "booking-needed"
+   ],
+   "district": "VI",
+   "address": "Liszt Ferenc tér 2, 1061 Budapest",
+   "lat": 47.50395,
+   "lng": 19.0633,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Daily c. 11:00-23:00 (kitchen to ~22:30; sources vary). Open Thu/Fri/Sat late and Sun lunch. Confirm on the day.",
+   "blurb": "Retro 70s canteen chic on Liszt Ferenc tér. Hungarian classics, a proper wine list and people-watching from the terrace. Good first-night shout for a big group.",
+   "tip": "Hortobágyi palacsinta (savoury pancakes in veal paprikash). Book ahead for Fri/Sat dinner for 6+.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "cafe-kor",
+   "name": "Café Kör",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Sas utca 17, 1051 Budapest",
+   "lat": 47.50215,
+   "lng": 19.05225,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Mon-Sat approx 10:00/12:00-22:00; CLOSED Sunday (sources differ on opening time). Fine Thu-Sat.",
+   "blurb": "Tiny, buzzing bistro behind the Basilica where locals actually eat. Proper Hungarian cooking, no gimmicks. Fits a big lads' table only if you book.",
+   "tip": "Go for the daily specials board. Reservations are essentially always needed, so book days ahead.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kispiac-bisztro",
+   "name": "Kispiac Bisztró",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Hold utca 13, 1054 Budapest",
+   "lat": 47.50345,
+   "lng": 19.04835,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Mon-Sat approx 12:00-22:00; closed Sun (one source also says Mon). Check before going.",
+   "blurb": "Six-table shoebox of a bistro by Hold Street market hall. Unfussy pork, liver and offal done properly. Tiny, so only for a small group or an early lunch.",
+   "tip": "Breaded veal liver, pork belly or the wild boar ribs. Book at least two days ahead; walk-ins rarely get in.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "frici-papa",
+   "name": "Frici Papa Kifőzdéje",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "cheap",
+    "goulash",
+    "group-friendly"
+   ],
+   "district": "VII",
+   "address": "Király utca 55, 1077 Budapest",
+   "lat": 47.50082,
+   "lng": 19.0605,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": 4.3,
+    "googleReviews": 13185
+   },
+   "price": 1,
+   "hours": "Listing says ~11:00-23:00 (kitchen may stop earlier), closed Sun - listing dated, so confirm. No bookings.",
+   "blurb": "Budapest's cheapest sit-down Hungarian dinner since 1997. Canteen tables, shared benches, big plates, tiny bill. Perfect for a hangover or a pre-bar fill-up.",
+   "tip": "Daily menu (under ~3,000 HUF per tourism guide), főzelék or pörkölt with nokedli. Cash preferred; no booking.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "getto-gulyas",
+   "name": "Gettó Gulyás",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "goulash",
+    "jewish",
+    "booking-needed"
+   ],
+   "district": "VII",
+   "address": "Wesselényi utca 18, 1077 Budapest",
+   "lat": 47.4998,
+   "lng": 19.0615,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Opening hours not verified; guides say reserve, no walk-ins after 19:00. Small room.",
+   "blurb": "Old-school Hungarian grub in the Jewish Quarter. Goulash, stuffed cabbage and the famous túrógombóc, in a room too small for a stag-sized mob.",
+   "tip": "Goulash plus túrógombóc (cottage-cheese dumplings). Reserve a day ahead; best for groups of 4 or fewer.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "hungarikum-bisztro",
+   "name": "Hungarikum Bisztró",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "goulash",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Steindl Imre utca 13, 1054 Budapest",
+   "lat": 47.5059,
+   "lng": 19.0456,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Daily approx 12:00-14:30 and 18:00-22:00 (sources vary). Online reservation recommended.",
+   "blurb": "Hearty, no-nonsense Hungarian a stone's throw from Parliament. Goulash soup, paprikash and strudel, served by people who know what they're doing.",
+   "tip": "Gulyásleves then chicken paprikás with nokedli. Small room, so book online for lunch or dinner.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://hungarikumbisztro.hu"
+   }
+  },
+  {
+   "id": "porc-es-prezli",
+   "name": "Pörc & Prézli",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "booking-needed",
+    "group-friendly"
+   ],
+   "district": "VI",
+   "address": "Lázár utca 1, 1065 Budapest",
+   "lat": 47.5028,
+   "lng": 19.056,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Hours not verified for 2026 - check Google Maps. Usually busiest Sat evening.",
+   "blurb": "Pork, duck and goose in a lively room next to the Opera. Loud, proper portions, occasionally pricey service charge. A new sister bistro (Pici Pörc) opened opposite in Aug 2026.",
+   "tip": "Duck breast or goose with something hearty. Almost always fully booked, so reserve well ahead.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kehli-vendeglo",
+   "name": "Kéhli Vendéglő",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "group-friendly"
+   ],
+   "district": "III",
+   "address": "Mókus utca 22, 1036 Budapest",
+   "lat": 47.5301,
+   "lng": 19.0409,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Mon-Fri 12:00-22:00, Sat 12:00-22:30, Sun 12:00-21:00 (one source) - good for Sunday lunch.",
+   "blurb": "Old Óbuda tavern, famed for bone marrow and a Krúdy-era vibe. Out of the centre, but worth the taxi if you want proper Hungarian portions on a lazy Sunday.",
+   "tip": "Bone marrow with toast, then a big meaty main. Take a taxi or tram; book for 6+.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "koleves-vendeglo",
+   "name": "Kőleves Vendéglő",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "group-friendly",
+    "jewish"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 37-41, 1075 Budapest",
+   "lat": 47.4999,
+   "lng": 19.0655,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": 4.6,
+    "googleReviews": 2803
+   },
+   "price": 2,
+   "hours": "Hours vary by source (about 11:30-23:00 daily); weekday lunch menu until 16:00. Confirm.",
+   "blurb": "Jewish Quarter staple with a leafy garden next door. Hungarian-meets-modern plates, decent for a group who can't agree.",
+   "tip": "Lunch menu on weekdays is good value. Ask for the garden if it's dry.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "fulemule",
+   "name": "Fülemüle Étterem",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "jewish"
+   ],
+   "district": "VIII",
+   "address": "Köfaragó utca 5, 1085 Budapest",
+   "lat": 47.4895,
+   "lng": 19.068,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Hours not verified - check before going.",
+   "blurb": "Cosy old-school place for Jewish-Hungarian classics near Astoria/Blaha. Lescó, goose liver and sólet, none of it light.",
+   "tip": "Sólet (bean and meat stew) or fried goose liver. Call ahead for a group.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "mazel-tov",
+   "name": "Mazel Tov",
+   "type": "food",
+   "tags": [
+    "jewish",
+    "group-friendly",
+    "booking-needed",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 47, 1072 Budapest",
+   "lat": 47.5001,
+   "lng": 19.0662,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Official site: Mon-Fri 12:00-23:00, Sat-Sun 10:30-00:00. Open late Thu-Sat; Sun brunch/lunch available.",
+   "blurb": "Gorgeous Mediterranean courtyard in a Jewish Quarter ruin. Middle Eastern sharing plates, great cocktails, perfect for a big group night out.",
+   "tip": "Shakshuka for brunch, mezze to share. Book a week ahead for weekends; card issues reported, bring cash backup.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://www.mazeltov.hu/en"
+   }
+  },
+  {
+   "id": "stand25-bisztro",
+   "name": "Stand25 Bisztró",
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "booking-needed"
+   ],
+   "district": "I",
+   "address": "Attila út 10, 1013 Budapest",
+   "lat": 47.4988,
+   "lng": 19.0295,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Mon-Sat 12:00-16:00 and 17:30-24:00 per Michelin; CLOSED Sunday. Still listed in Michelin 2024/25 - verify 2026.",
+   "blurb": "Refined Hungarian from the Stand team in a relaxed bistro, Michelin Plate. Buda side, so a short taxi from VII. Not the cheapest feed but proper nosh.",
+   "tip": "Go for the Hungarian classics tasting-style plates. Book ahead and check it is still open at this address.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://stand25.hu"
+   }
+  },
+  {
+   "id": "stand",
+   "name": "Stand",
+   "type": "food",
+   "tags": [
+    "michelin",
+    "fine-dining",
+    "hungarian",
+    "booking-needed"
+   ],
+   "district": "VI",
+   "address": "Székely Mihály utca 2, 1061 Budapest",
+   "lat": 47.5031,
+   "lng": 19.0587,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 4,
+   "hours": "Tue-Sat 18:00-00:00; closed Sun and Mon. Open Thu/Fri/Sat evenings.",
+   "blurb": "Budapest's only two-Michelin-star restaurant. Dinner, not a meal: smart Hungarian tasting menus. Put the good shirt on, lads.",
+   "tip": "Tasting menu only. Bookings open about 60 days ahead (SevenRooms) and tables are held for 20 mins. Probably sold out by now - try cancellations.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "borkonyha",
+   "name": "Borkonyha Winekitchen",
+   "type": "food",
+   "tags": [
+    "michelin",
+    "fine-dining",
+    "hungarian",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Sas utca 3, 1051 Budapest",
+   "lat": 47.50068,
+   "lng": 19.05265,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 4,
+   "hours": "Mon-Fri from 18:00, Sat 12:00-24:00; closed Sun. Open Thu/Fri/Sat; no Sunday service.",
+   "blurb": "One-star Hungarian by the Basilica. Slick but unstuffy, huge Hungarian wine list. The best 'treat ourselves' dinner without tipping into silly.",
+   "tip": "Tasting menu over à la carte. Book online 2-4 weeks ahead for weekends; try for a Sat lunch slot at short notice.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "rumour",
+   "name": "Rumour by Rácz Jenő",
+   "type": "food",
+   "tags": [
+    "michelin",
+    "fine-dining",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Petőfi tér 3-5, 1051 Budapest",
+   "lat": 47.494,
+   "lng": 19.051,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 4,
+   "hours": "Tue-Sat 17:00-23:00; closed Sun and Mon. Counter seating (21 seats).",
+   "blurb": "Michelin-starred 21-seat chef's counter hidden behind an unmarked door. Eleven courses of modern Hungarian with theatre. Address reported two ways - check booking email.",
+   "tip": "Eleven-course counter tasting (roughly 60,000-85,000 HUF). Book about 3 weeks ahead; arrive early.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "costes",
+   "name": "Costes",
+   "type": "food",
+   "tags": [
+    "michelin",
+    "fine-dining",
+    "booking-needed"
+   ],
+   "district": "IX",
+   "address": "Ráday utca 4, 1092 Budapest",
+   "lat": 47.4887,
+   "lng": 19.0613,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 4,
+   "hours": "One guide: Wed-Sun evenings approx 18:30-24:00; closed Mon/Tue. Hours conflict - confirm directly.",
+   "blurb": "Hungary's first Michelin-star restaurant (2010), on the buzzy Ráday utca. Elegant tasting menus, quality service. Dress to impress.",
+   "tip": "Tasting menu. Phone line takes bookings daily 9:00-23:30. Book now, weekends fill fast.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "babel",
+   "name": "Babel",
+   "type": "food",
+   "tags": [
+    "michelin",
+    "fine-dining",
+    "booking-needed",
+    "hungarian"
+   ],
+   "district": "V",
+   "address": "Piarista köz 2, 1052 Budapest",
+   "lat": 47.4927,
+   "lng": 19.0529,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 4,
+   "hours": "Tue-Fri 17:30-24:00, Sat 12:00-15:00 and evening; closed Sun and Mon.",
+   "blurb": "One Michelin star since 2019, tucked near Elisabeth Bridge. Modern Hungarian with a bit of flair. Sat lunch is the lads-friendly slot before footy.",
+   "tip": "Saturday lunch tasting menu. Book online; ask about a lunch slot if dinner is gone.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "bors-gasztrobar",
+   "name": "Bors GasztroBár",
+   "type": "food",
+   "tags": [
+    "street-food",
+    "cheap",
+    "burger",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 10, 1075 Budapest",
+   "lat": 47.4999,
+   "lng": 19.0637,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": 4.8,
+    "googleReviews": 6887
+   },
+   "price": 1,
+   "hours": "About 11:30-21:00 Mon-Thu/Sun, to 22:00 Fri-Sat (sources vary). Expect a queue at lunch.",
+   "blurb": "Tiny soup-and-baguette bar with Star Wars decor and ridiculous queues for good reason. Cheap, cheerful and next to the ruin pubs.",
+   "tip": "Daily soup or a stuffed baguette. Eat at the counter or take it away; no booking.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "zing-burger",
+   "name": "Zing Burger (Karaván)",
+   "type": "food",
+   "tags": [
+    "burger",
+    "street-food",
+    "cheap",
+    "late-night",
+    "group-friendly"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 18, 1075 Budapest",
+   "lat": 47.49955,
+   "lng": 19.0644,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Karaván courtyard open daily 11:30-23:59 (reports of 01:00 Thu-Sat). Other branches have longer hours.",
+   "blurb": "Budapest's home-grown burger chain. Smashed burgers, no frills, handy when beers are flowing next door.",
+   "tip": "Classic double cheeseburger and fries. Loyalty-card stamps if you're round for the weekend.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "pampas-steakhouse",
+   "name": "Pampas Steakhouse",
+   "type": "food",
+   "tags": [
+    "steak",
+    "group-friendly",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Vámház körút 6, 1053 Budapest",
+   "lat": 47.4902,
+   "lng": 19.06,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 4,
+   "hours": "Daily approx 12:00-23:00 (one listing shows Thu-Sat 23:00, Mon-Wed/Sun 22:00). Book for Sat night.",
+   "blurb": "Argentine-style steakhouse, glossy and meaty. Dozen-plus premium cuts, big wine list. OpenTable rating 4.6-4.8 across ~550-600 reviews.",
+   "tip": "Choose your cut from the trolley and share sides. Book via OpenTable; mains from about 50 EUR.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "belli-di-mamma",
+   "name": "Belli di Mamma",
+   "type": "food",
+   "tags": [
+    "pizza",
+    "group-friendly",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 45, 1072 Budapest",
+   "lat": 47.5,
+   "lng": 19.0661,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Listing (unclear): Mon-Thu 17:00-23:00, Fri-Sun 12:00-23:00. Confirm. Open Sun lunch.",
+   "blurb": "Only Hungarian pizzeria in Europe's Top 50 (No. 40, 2026). Proper Neapolitan pies, right in the party district. Lads can argue over toppings later.",
+   "tip": "Order a margherita first and judge them on that. Pies roughly 3,700-6,300 HUF. Book for 6+.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "bp-barbq",
+   "name": "Bp BARbq",
+   "type": "food",
+   "tags": [
+    "steak",
+    "group-friendly",
+    "street-food"
+   ],
+   "district": "V",
+   "address": "Hercegprímás utca 11, 1051 Budapest",
+   "lat": 47.5027,
+   "lng": 19.0508,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": 4.7,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Old listing: daily 11:00-24:00. Moved to this address on 6 Oct 2026 - recheck hours.",
+   "blurb": "Texas-style brisket, ribs and wings. Just moved from Akácfa to Hercegprímás utca (opened 6 Oct 2026). Smoky, sticky and sociable.",
+   "tip": "Brisket sandwich or a ribs platter to share. New site, so check it is open and Google Maps pin.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "retro-langos",
+   "name": "Retró Lángos Büfé",
+   "type": "food",
+   "tags": [
+    "langos",
+    "street-food",
+    "cheap",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Bajcsy-Zsilinszky út 25, 1065 Budapest",
+   "lat": 47.5033,
+   "lng": 19.0517,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Reported daily 11:00-22:00 (one source says 9:00). Address conflicts between sources (Arany János u. 9) - confirm.",
+   "blurb": "Lángos central: crispy fried dough piled high with garlic, sour cream and cheese. The textbook belly-liner.",
+   "tip": "Classic lángos (about 3,500 HUF in 2026). Add extra garlic, regret nothing.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "karavan",
+   "name": "Karaván Street Food",
+   "type": "food",
+   "tags": [
+    "street-food",
+    "langos",
+    "late-night",
+    "cheap",
+    "group-friendly"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 18, 1075 Budapest",
+   "lat": 47.49965,
+   "lng": 19.0645,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Daily 11:30-23:59 (Sep 2026 guide); another says to 01:00 Thu-Sat. Open Sun.",
+   "blurb": "Courtyard of food trucks and bars next to Szimpla. Lángos, burgers, gyros, chimney cake, all in one gloriously chaotic pit-stop.",
+   "tip": "Lángos, a burger truck, and a chimney cake for pudding. Easy to split a group across trucks.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "szimply",
+   "name": "Szimply",
+   "type": "food",
+   "tags": [
+    "brunch",
+    "hungarian"
+   ],
+   "district": "VII",
+   "address": "Károly körút 22, 1075 Budapest",
+   "lat": 47.5009,
+   "lng": 19.0588,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Mon-Sat approx 9:00-16:00 (8:00 start claimed); closed Sundays. Good for Fri/Sat hangover brunch.",
+   "blurb": "Relaxed, light-filled brunch place from the Szimpla family in a historic alley. Eggs, coffee, juices and recovery vibes.",
+   "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the post-match recovery here.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "szimpla-farmers-market",
+   "name": "Szimpla Kert Sunday Market",
+   "type": "food",
+   "tags": [
+    "market",
+    "street-food",
+    "brunch",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Kazinczy utca 14, 1075 Budapest",
+   "lat": 47.4996,
+   "lng": 19.0642,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Sundays: Szimpla opens ~9:00; farmers market approx 9:00-14:00/15:00 (sources vary).",
+   "blurb": "The famous ruin pub turns into a Sunday farmers market, with cheese, honey, jam and street food stalls. Ideal if you're up for Sunday brunch.",
+   "tip": "Browse stalls then grab brunch upstairs. Check opening times on the day (the end time varies).",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "great-market-hall",
+   "name": "Great Market Hall (Nagyvásárcsarnok)",
+   "type": "food",
+   "tags": [
+    "market",
+    "street-food",
+    "langos",
+    "cheap",
+    "dessert"
+   ],
+   "district": "IX",
+   "address": "Vámház körút 1-3, 1093 Budapest",
+   "lat": 47.48737,
+   "lng": 19.0583,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Mon-Fri 6:00-18:00, Sat 6:00-16:00 (most sources). Sunday: Oct 2026 guide says 10:00-16:00 but older/official English page say closed - confirm. Lángos upstairs.",
+   "blurb": "Neo-Gothic food cathedral. Paprika, sausages, pálinka downstairs; lángos and goulash upstairs. Do it Saturday morning before the footy.",
+   "tip": "Upstairs: lángos and goulash (touristy). Downstairs: sausage, salami, paprika to take home. Go before 13:00 on Saturday.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "hold-street-market",
+   "name": "Hold Street Market Hall (Belvárosi Piac)",
+   "type": "food",
+   "tags": [
+    "market",
+    "cheap"
+   ],
+   "district": "V",
+   "address": "Hold utca 13, 1054 Budapest",
+   "lat": 47.50385,
+   "lng": 19.0487,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Mon 6:30-17:00, Tue-Fri 6:30-18:00, Sat 6:30-14:00/16:00 (sources vary); closed Sunday. One listing flagged it temporarily closed - verify.",
+   "blurb": "1891 market hall with a food gallery of small kitchens upstairs. Quieter and more local than the Great Market Hall.",
+   "tip": "Browse for lunch Saturday morning. Verify it is open as a Google Maps flag showed it as temporarily closed.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "kelet-kavezo",
+   "name": "Kelet Kávézó",
+   "type": "food",
+   "tags": [
+    "brunch",
+    "hungarian"
+   ],
+   "district": "XI",
+   "address": "Bartók Béla út 29, 1114 Budapest",
+   "lat": 47.4838,
+   "lng": 19.0445,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Weekdays approx 7:30-22:00/23:00, weekends 9:00-22:00/23:00 (sources vary).",
+   "blurb": "Bookish Buda café-gallery with good filter coffee, bagels and savoury plates. A calm recovery spot away from Pest.",
+   "tip": "Order and pay at the counter. Savoury brunch plate and a filter coffee. Sat/Sun mornings after 9.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  },
+  {
+   "id": "molnars-kurtoskalacs",
+   "name": "Molnár's Kürtőskalács",
+   "type": "food",
+   "tags": [
+    "dessert",
+    "street-food",
+    "cheap"
+   ],
+   "district": "V",
+   "address": "Váci utca 31, 1052 Budapest",
+   "lat": 47.4935,
+   "lng": 19.0527,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Daily approx 10:00-22:00 (single source).",
+   "blurb": "Famous chimney cake stall on Váci utca. Warm, sugary, cinnamon-dusted spiral of joy to eat while strolling.",
+   "tip": "Cinnamon or walnut chimney cake. Ask for it fresh from the grill and watch the bake.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://kurtoskalacs.com"
+   }
+  },
+  {
+   "id": "gerbeaud",
+   "name": "Café Gerbeaud",
+   "type": "food",
+   "tags": [
+    "dessert",
+    "hungarian"
+   ],
+   "district": "V",
+   "address": "Vörösmarty tér 7-8, 1051 Budapest",
+   "lat": 47.4969,
+   "lng": 19.0515,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": 4.1,
+    "googleReviews": 12299
+   },
+   "price": 3,
+   "hours": "Approx 9:00-20:00 (to 21:00 Fri/Sat), sources vary. Open all weekend.",
+   "blurb": "Grand 1858 confectioner on Vörösmarty tér. Touristy, pricey, gorgeous. Come for cake and a coffee-house atmosphere.",
+   "tip": "Dobos torta or Somlói galuska. 15% service charge reported. Skip the queue and sit inside.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   }
+  }
+ ],
+ "dishes": [
+  {
+   "id": "gulyas",
+   "name": "Gulyás",
+   "en": "Goulash soup",
+   "say": "GOO-yash",
+   "emoji": "🍲",
+   "kind": "food",
+   "what": "Beef, paprika, spuds. Not the brown mush you get back home. Order the soup, not the stew, unless you want a stew.",
+   "where": [
+    "getto-gulyas",
+    "menza",
+    "hungarikum-bisztro",
+    "frici-papa",
+    "koleves-vendeglo"
+   ],
+   "whereText": "Gettó Gulyás, Menza, Hungarikum, Frici Papa",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Guly%C3%A1s.jpg?width=900"
+  },
+  {
+   "id": "porkolt",
+   "name": "Pörkölt",
+   "en": "Paprika meat stew",
+   "say": "PUR-kult",
+   "emoji": "🥘",
+   "kind": "food",
+   "what": "Thick paprika stew of beef or pork, served with nokedli. Goulash's heartier mate.",
+   "where": [
+    "frici-papa",
+    "kehli-vendeglo",
+    "menza"
+   ],
+   "whereText": "Frici Papa, Kéhli, Menza",
+   "image": null
+  },
+  {
+   "id": "paprikas-csirke",
+   "name": "Paprikás csirke",
+   "en": "Chicken paprikash",
+   "say": "PAH-pree-kahsh CHEER-keh",
+   "emoji": "🍗",
+   "kind": "food",
+   "what": "Chicken in creamy paprika sauce with dumplings. Basically a Sunday roast hug.",
+   "where": [
+    "hungarikum-bisztro",
+    "menza",
+    "frici-papa"
+   ],
+   "whereText": "Hungarikum, Menza, Frici Papa",
+   "image": null
+  },
+  {
+   "id": "halaszle",
+   "name": "Halászlé",
+   "en": "Fisherman's soup",
+   "say": "HAH-lahss-lay",
+   "emoji": "🐟",
+   "kind": "food",
+   "what": "Fiery red river-fish soup, loaded with paprika. A proper dare if you're hungover.",
+   "where": [
+    "menza",
+    "kehli-vendeglo"
+   ],
+   "whereText": "Traditional Hungarian restaurants, ask for it by name",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hal%C3%A1szl%C3%A9%2C_2.jpg?width=900"
+  },
+  {
+   "id": "toltott-kaposzta",
+   "name": "Töltött káposzta",
+   "en": "Stuffed cabbage",
+   "say": "TOLT-ut KAH-posh-tah",
+   "emoji": "🥬",
+   "kind": "food",
+   "what": "Cabbage rolls stuffed with pork and rice, in a smoky sauce with sour cream. Grandma's dinner.",
+   "where": [
+    "getto-gulyas",
+    "fulemule",
+    "menza"
+   ],
+   "whereText": "Gettó Gulyás, Fülemüle",
+   "image": null
+  },
+  {
+   "id": "langos",
+   "name": "Lángos",
+   "en": "Deep-fried dough",
+   "say": "LAHN-gosh",
+   "emoji": "🫓",
+   "kind": "food",
+   "what": "Fried dough, garlic, sour cream, cheese. Hangover legend and the best cheap feed in town.",
+   "where": [
+    "retro-langos",
+    "karavan",
+    "great-market-hall"
+   ],
+   "whereText": "Retró Lángos, Karaván, Great Market Hall",
+   "image": null
+  },
+  {
+   "id": "kurtoskalacs",
+   "name": "Kürtőskalács",
+   "en": "Chimney cake",
+   "say": "KUR-tursh-kah-lahch",
+   "emoji": "🍥",
+   "kind": "sweet",
+   "what": "Spiral cake roasted over charcoal, rolled in sugar and cinnamon. Peel and eat, no cutlery.",
+   "where": [
+    "molnars-kurtoskalacs",
+    "karavan"
+   ],
+   "whereText": "Molnár's, Karaván",
+   "image": null
+  },
+  {
+   "id": "turo-rudi",
+   "name": "Túró Rudi",
+   "en": "Chocolate-covered curd bar",
+   "say": "TOO-roh ROO-dee",
+   "emoji": "🍫",
+   "kind": "sweet",
+   "what": "Curd cheese bar in dark chocolate. The nation's favourite snack; grab from any shop.",
+   "where": [],
+   "whereText": "Any Spar, Tesco or corner shop",
+   "image": null
+  },
+  {
+   "id": "dobos-torta",
+   "name": "Dobos torta",
+   "en": "Layered caramel cake",
+   "say": "DOH-bosh TOR-tah",
+   "emoji": "🍰",
+   "kind": "sweet",
+   "what": "Six sponge layers, chocolate buttercream, hard caramel lid. Invented in Budapest in 1885.",
+   "where": [
+    "gerbeaud"
+   ],
+   "whereText": "Gerbeaud, any proper cukrászda",
+   "image": null
+  },
+  {
+   "id": "retes",
+   "name": "Rétes",
+   "en": "Strudel",
+   "say": "RAY-tesh",
+   "emoji": "🥧",
+   "kind": "sweet",
+   "what": "Paper-thin pastry rolled with apple, cherry or curd. Best warm, with a coffee.",
+   "where": [
+    "great-market-hall",
+    "gerbeaud"
+   ],
+   "whereText": "Great Market Hall, cafés",
+   "image": null
+  },
+  {
+   "id": "fozelek",
+   "name": "Főzelék",
+   "en": "Veg stew",
+   "say": "FUR-zeh-lake",
+   "emoji": "🥣",
+   "kind": "food",
+   "what": "Thick veg stew with a fried egg or meatball on top. Cheap, filling, oddly good.",
+   "where": [
+    "frici-papa"
+   ],
+   "whereText": "Frici Papa, canteens",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Babf%C5%91zel%C3%A9k.jpg?width=900"
+  },
+  {
+   "id": "hurka-kolbasz",
+   "name": "Hurka és kolbász",
+   "en": "Black pudding and sausage",
+   "say": "HOOR-kah aysh KOL-bahss",
+   "emoji": "🌭",
+   "kind": "food",
+   "what": "Smoky sausage and rice or liver pudding. Meaty and unapologetic. Paprika-heavy.",
+   "where": [
+    "great-market-hall"
+   ],
+   "whereText": "Great Market Hall, butchers",
+   "image": null
+  },
+  {
+   "id": "libamaj",
+   "name": "Libamáj",
+   "en": "Goose liver",
+   "say": "LEE-bah-my",
+   "emoji": "🦆",
+   "kind": "food",
+   "what": "Rich goose liver, pan-seared or in pâté. Fine dining on a budget.",
+   "where": [
+    "fulemule",
+    "kispiac-bisztro"
+   ],
+   "whereText": "Fülemüle, Kispiac",
+   "image": null
+  },
+  {
+   "id": "somloi-galuska",
+   "name": "Somlói galuska",
+   "en": "Sponge-cake trifle",
+   "say": "SHOM-loy GAH-loosh-kah",
+   "emoji": "🍮",
+   "kind": "sweet",
+   "what": "Sponge, chocolate sauce, rum, whipped cream and nuts. Dessert for people who don't do dessert.",
+   "where": [
+    "gerbeaud",
+    "menza"
+   ],
+   "whereText": "Gerbeaud, Menza",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soml%C3%B3i_galuska%2C_2.jpg?width=900"
+  },
+  {
+   "id": "unicum",
+   "name": "Unicum",
+   "en": "Herbal bitter liqueur",
+   "say": "OO-nee-koom",
+   "emoji": "🍶",
+   "kind": "drink",
+   "what": "Herbal bitter, 40% ABV, tastes like medicine. Hungarians sip it after dinner and swear it cures everything.",
+   "where": [],
+   "whereText": "Any bar or restaurant",
+   "image": null
+  },
+  {
+   "id": "palinka",
+   "name": "Pálinka",
+   "en": "Fruit brandy",
+   "say": "PAH-lin-kah",
+   "emoji": "🍑",
+   "kind": "drink",
+   "what": "Fruit brandy, fierce and fragrant. Apricot, plum or pear. Sip, don't shoot it.",
+   "where": [
+    "great-market-hall"
+   ],
+   "whereText": "Great Market Hall, most bars",
+   "image": null
+  },
+  {
+   "id": "froccs",
+   "name": "Fröccs",
+   "en": "Wine spritzer",
+   "say": "FRURCH",
+   "emoji": "🥂",
+   "kind": "drink",
+   "what": "Wine plus soda water. Cheap, refreshing, and a proper session drink. Try a háztartási or kisfröccs.",
+   "where": [],
+   "whereText": "Anywhere with a bar",
+   "image": null
+  },
+  {
+   "id": "tokaji-aszu",
+   "name": "Tokaji aszú",
+   "en": "Sweet dessert wine",
+   "say": "TOH-kah-yee AH-soo",
+   "emoji": "🍷",
+   "kind": "drink",
+   "what": "Golden sweet wine from the Tokaj region, loved by kings. Sip after dinner.",
+   "where": [
+    "borkonyha"
+   ],
+   "whereText": "Borkonyha, wine bars",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokaji_6p_1989.jpg?width=900"
+  },
+  {
+   "id": "beer",
+   "name": "Dreher / Soproni",
+   "en": "Hungarian lager",
+   "say": "DREH-her / SHOP-ron-ee",
+   "emoji": "🍺",
+   "kind": "drink",
+   "what": "Hungarian lagers. Dreher is the classic; Soproni is a fixture. Cheap, cold, fine for a session.",
+   "where": [
+    "karavan",
+    "szimpla-farmers-market"
+   ],
+   "whereText": "Any pub, Szimpla, Karaván",
+   "image": null
+  }
+ ],
+ "sources": [
+  "https://hungaryunlocked.com/budapest-michelin-restaurants-review-tips/",
+  "https://hungaryunlocked.com/great-market-hall-budapest-guide/",
+  "https://www.budapestbylocals.com/great-market-hall/",
+  "https://commons.wikimedia.org/wiki/Category:Cuisine_of_Hungary",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Hungarian_Guly%C3%A1s.jpg/500px-Hungarian_Guly%C3%A1s.jpg",
+  "https://www.inyourpocket.com/Menza_124359v",
+  "https://tablejourney.com/hungary/budapest/hidden-gems/",
+  "https://intravel.net/budapest/restaurants-cafes/frici-papa",
+  "https://www.mazeltov.hu/en",
+  "https://offbeatbudapest.com/top10/best-goulash-budapest/",
+  "https://tablejourney.com/hungary/budapest/casual-dining/hungarikum-bisztro/",
+  "https://welovebudapest.com/cikk/2026/09/17/pici-porc-bisztro-budapest-etterem/",
+  "https://guide.michelin.com/en/central-hungary/budapest/restaurant/stand25-bisztro",
+  "https://tablejourney.com/hungary/budapest/fine-dining/rumour/",
+  "https://welovebudapest.com/cikk/2026/09/25/bp-barbq-uj-helyszin-hercegprimas-utca/",
+  "https://hungaryunlocked.com/borkonyha-winekitchen-budapest-review/",
+  "https://tablejourney.com/hungary/budapest/restaurants/costes/",
+  "https://www.opentable.ie/r/pampas-steakhouse-budapest",
+  "https://welovebudapest.com/en/event/farmers-market-szimpla-kert/",
+  "https://www.timeout.com/hu/budapest/hirek/hamarosan-bezar-a-rosenstein-hogy-aztan-megujulva-nyithasson-ki-060126",
+  "https://hungaryunlocked.com/budapest-best-pizza-local-guide/",
+  "https://hungaryunlocked.com/best-langos-budapest-local-insider-guide/",
+  "https://europeancoffeetrip.com/cafe/kelet-budapest/",
+  "https://tablejourney.com/hungary/budapest/dish/kurtoskalacs/",
+  "https://travel.sygic.com/en/poi/cafe-gerbeaud-poi:1482"
+ ]
+}
