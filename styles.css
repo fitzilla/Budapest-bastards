@@ -522,6 +522,12 @@ p { margin: 0; }
 .pin.k-base { width: 40px; height: 40px; border-radius: 12px; background: var(--c-base); color: var(--paper); }
 .pin.k-base .ic { width: 20px; height: 20px; }
 .pin.k-travel { border-radius: 10px; color: var(--paper); }
+.pin.k-base.is-approx::before {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 120px; height: 120px; margin: -60px 0 0 -60px;
+  border-radius: 50%; background: color-mix(in oklab, var(--paprika) 14%, transparent);
+  border: 2px dashed color-mix(in oklab, var(--paprika) 55%, transparent);
+  pointer-events: none; z-index: -1;
+}
 .pin.is-dim { opacity: .35; }
 .k-event { --c: var(--c-event); }
 .k-bar { --c: var(--c-bar); }

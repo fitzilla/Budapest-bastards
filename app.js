@@ -191,13 +191,18 @@
     }
     return {
       id: 'base', type: 'base', name: b.name || 'The Airbnb',
-      sub: b.address || (b.localPin ? 'Pinned on this phone' : 'Address TBC'),
+      sub: b.address || (b.localPin ? 'Pinned on this phone' : b.near ? `Near ${b.near} · exact address TBC` : 'Address TBC'),
       address: b.address, lat: b.lat ?? null, lng: b.lng ?? null, localPin: !!b.localPin,
+      approx: !b.address && !b.localPin && b.lat != null, near: b.near || null,
       tags: [], rating: {}, links: { web: b.listing || null }, checkIn: b.checkIn, note: b.note,
       hidePin: b.lat == null,
     };
   }
   let BASE = getBase();
+
+  const NEAR_WALK_MIN = 15;
+  const walkMin = (a, b) => Math.round((km(a, b) * 1.25 / 4.8) * 60);
+  const nearFlat = (p) => BASE.lat != null && p.type !== 'base' && p.type !== 'event' && p.type !== 'travel' && p.lat != null && !p.hidePin && walkMin(BASE, p) <= NEAR_WALK_MIN;
 
   const PLACES = D.places;
   const EVENTS = D.events;
@@ -214,6 +219,7 @@
   /* ---------------- categories ---------------- */
   const CATS = [
     { id: 'all', label: 'All', icon: 'compass', test: (p) => p.type !== 'base' || !p.hidePin },
+    { id: 'near', label: 'Near the flat', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },
     { id: 'bars', label: 'All bars', icon: 'beer', test: (p) => is(p, 'bar') && !has(p, 'strip') },
@@ -250,7 +256,7 @@
   /* ---------------- distance ---------------- */
   const DEAK = { lat: 47.4979, lng: 19.0544 };
   function origin() {
-    if (BASE.lat != null) return { ...BASE, label: 'the Airbnb' };
+    if (BASE.lat != null) return { ...BASE, label: BASE.approx ? 'the flat (roughly)' : 'the Airbnb' };
     if (state.userLoc) return { ...state.userLoc, label: 'you' };
     return { ...DEAK, label: 'Deák tér' };
   }
@@ -330,6 +336,7 @@
     const r = p.rating || {};
     if ((r.g ?? 0) >= 4.6 && (r.gN ?? 0) >= 1000) return '<span class="card-badge">Crowd favourite</span>';
     if (has(p, 'sparty')) return '<span class="card-badge">Sat 17 Oct</span>';
+    if (nearFlat(p)) return `<span class="card-badge">${walkMin(BASE, p) <= 5 ? 'On the doorstep' : 'Near the flat'}</span>`;
     return '';
   }
   function cardLines(p, { long } = {}) {
@@ -497,16 +504,18 @@
     if (f.price.size) list = list.filter((p) => p.price && f.price.has(p.price));
     if (f.late) list = list.filter((p) => hasAny(p, ['late-night', 'club']));
     if (f.rated) list = list.filter((p) => (score(p) ?? 0) >= 4.5);
-    const sort = cat.sort === 'time' && f.sort === 'rec' ? 'time' : f.sort;
-    if (sort === 'near') list = list.slice().sort((a, b) => (distOf(a) ?? 1e9) - (distOf(b) ?? 1e9));
+    const sort = (cat.sort === 'time' || cat.sort === 'dist') && f.sort === 'rec' ? cat.sort : f.sort;
+    if (sort === 'near' || sort === 'dist') list = list.slice().sort((a, b) => (distOf(a) ?? 1e9) - (distOf(b) ?? 1e9));
     else if (sort === 'az') list = list.slice().sort((a, b) => a.name.localeCompare(b.name, 'hu'));
     else if (sort === 'top') list = list.slice().sort((a, b) => (score(b) ?? 0) - (score(a) ?? 0));
     else if (sort === 'time') {
       const t = (p) => (p.type === 'event' ? at(p.date, p.start || '00:00').getTime() : p.type === 'travel' ? 0 : 1);
       list = list.slice().sort((a, b) => t(a) - t(b));
     } else {
-      // recommended: closed places sink, crowd favourites float a little
-      list = list.slice().sort((a, b) => (a.closed ? 1 : 0) - (b.closed ? 1 : 0));
+      // recommended: closed places sink; once we know where the flat is, places on the doorstep float up
+      list = list.slice().sort((a, b) => (a.closed ? 1 : 0) - (b.closed ? 1 : 0)
+        || (nearFlat(b) ? 1 : 0) - (nearFlat(a) ? 1 : 0)
+        || (nearFlat(a) && nearFlat(b) ? distOf(a) - distOf(b) : 0));
     }
     return list;
   }
@@ -518,7 +527,7 @@
 
   /* ---------------- rendering: categories ---------------- */
   function renderCats() {
-    $('#cats').innerHTML = CATS.map((c) => `<button type="button" class="cat${c.warn ? ' is-warn' : ''}" data-cat="${c.id}" aria-current="${state.cat === c.id && !state.q}">${icon(c.icon)}<span>${esc(c.label)}</span></button>`).join('');
+    $('#cats').innerHTML = CATS.filter((c) => !c.needsBase || BASE.lat != null).map((c) => `<button type="button" class="cat${c.warn ? ' is-warn' : ''}" data-cat="${c.id}" aria-current="${state.cat === c.id && !state.q}">${icon(c.icon)}<span>${esc(c.label)}</span></button>`).join('');
   }
   function setCat(id, push = true) {
     if (!catById.has(id)) id = 'all';
@@ -588,11 +597,13 @@
     </section>`;
   }
   function homeHtml() {
-    const C = (id) => allItems().filter(catById.get(id).test).filter((p) => !p.closed);
+    const C = (id) => allItems().filter(catById.get(id).test).filter((p) => !p.closed)
+      .sort((a, b) => (nearFlat(b) ? 1 : 0) - (nearFlat(a) ? 1 : 0) || (nearFlat(a) && nearFlat(b) ? distOf(a) - distOf(b) : 0));
     const booked = EVENTS.slice().sort((a, b) => at(a.date, a.start).getTime() - at(b.date, b.start).getTime());
     const dishes = D.dishes.slice(0, 10);
     return `<div>
       ${heroHtml()}
+      ${BASE.lat != null ? rowSection('Around the flat', `Within a ${NEAR_WALK_MIN}-minute walk${BASE.approx ? ' of roughly where the flat is' : ''}, closest first`, 'near', allItems().filter(catById.get('near').test).sort((a, b) => distOf(a) - distOf(b)), 12) : ''}
       ${rowSection('Booked and paid for', 'Two matches and karting. Times are Budapest time.', 'booked', booked)}
       ${rowSection('Rock bars', 'Sweaty basements, live covers and metal on the stereo', 'rock', C('rock'))}
       ${rowSection('Ruin bars', 'Derelict buildings full of bars. Budapest invented them.', 'ruin', C('ruin'))}
@@ -836,6 +847,7 @@
       parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
     }
     if (p.type === 'base') {
+      if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>This is where the flat shows on the Airbnb map${p.near ? `, beside ${esc(p.near)}` : ''}. The exact address comes later. Distances in the app are measured from this spot.</div></div>`);
       parts.push(`<p class="d-blurb">${esc(p.note || '')}</p>`);
       parts.push(`<div class="d-actions">${p.lat != null ? `<a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions home</a>` : ''}<a class="btn btn-soft" href="#/info" data-act="goto-base-info">${icon('pin')}${p.lat != null ? 'Change pin' : 'Set the pin'}</a>${p.links.web ? `<a class="btn btn-soft" href="${esc(p.links.web)}" target="_blank" rel="noopener">${icon('ext')}Listing</a>` : ''}</div>`);
       return parts;
@@ -1043,8 +1055,8 @@
     map = new maplibregl.Map({
       container: 'map',
       style: styleQueue.shift(),
-      center: HOME_VIEW.center,
-      zoom: HOME_VIEW.zoom,
+      center: BASE.lat != null ? [BASE.lng, BASE.lat] : HOME_VIEW.center,
+      zoom: BASE.lat != null ? 14.4 : HOME_VIEW.zoom,
       pitch: want3D ? HOME_VIEW.pitch : 0,
       bearing: want3D ? HOME_VIEW.bearing : 0,
       maxPitch: 72,
@@ -1141,6 +1153,7 @@
   }
 
   function pinHtml(p) {
+    if (p.type === 'base') return `${icon('home')}<span class="pin-label">The flat<small>${esc(p.approx ? 'roughly here' : p.address || 'our base')}</small></span>`;
     const label = p.type === 'event' ? `${esc(shortEventName(p))}<small>${esc(WEEKDAY.format(at(p.date, p.start || '00:00')))} ${esc(p.start || '')}</small>` : esc(p.name);
     return `${icon(iconOf(p))}<span class="pin-label">${label}</span>`;
   }
@@ -1157,7 +1170,7 @@
     if (p.lat == null || p.hidePin || markers.has(p.id)) return;
     const el = document.createElement('button');
     el.type = 'button';
-    el.className = `pin k-${kindOf(p)}${p.type === 'event' || p.type === 'base' ? ' is-labelled' : ''}`;
+    el.className = `pin k-${kindOf(p)}${p.type === 'event' || p.type === 'base' ? ' is-labelled' : ''}${p.approx ? ' is-approx' : ''}`;
     el.setAttribute('aria-label', p.name);
     el.innerHTML = pinHtml(p);
     el.addEventListener('click', (e) => { e.stopPropagation(); e.preventDefault(); selectPin(p.id, { fly: false, card: true }); });
@@ -1355,6 +1368,7 @@
   function refreshBase() {
     BASE = getBase();
     reindex();
+    renderCats();
     if (mapReady) { removeMarker('base'); addMarker(BASE); addRoute(); syncMarkers(); }
     if (state.tab === 'info') renderInfo(true);
     if (state.tab === 'explore') renderExplore();
