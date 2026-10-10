@@ -480,7 +480,9 @@
   function flightLine(f, dir) {
     if (!f?.number) return null;
     const where = dir === 'out' ? (f.from ? ` from ${f.from}` : '') : (f.to ? ` to ${f.to}` : '');
-    const when = dir === 'out' ? `, lands ${LAND}` : (f.departs ? `, departs ${f.departs}` : '');
+    const when = dir === 'out'
+      ? `${f.departs ? `, departs ${f.departs} Irish time` : ''}, lands ${LAND}`
+      : `${f.departs ? `, departs ${f.departs}` : ''}${f.arrives ? `, lands ${f.arrives} Irish time` : ''}`;
     return `${f.number}${where}${when}`;
   }
 
@@ -792,7 +794,7 @@
       </section>`;
     }).join('');
     const nextCard = nx ? `<div class="next-card"><small>${nx.live ? 'Happening now' : 'Next up'}</small><strong>${esc(nx.item.title)}</strong><span>${esc(DAY_FMT.format(nx.item.at))} at ${esc(nx.item.time)}${nx.live ? '' : ` · in ${esc(untilText(nx.item.at))}`}</span></div>` : '';
-    pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Thu 15 – Sun 18 Oct. All times are Budapest time, one hour ahead of the UK.</p></header>
+    pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Thu 15 – Sun 18 Oct. All times are Budapest time, one hour ahead of home (Ireland and the UK).</p></header>
 
       ${nextCard}
       ${days}
@@ -930,7 +932,7 @@
       const wx = wxAt(p.date, p.start);
       parts.push(`<div class="d-event">
         <div><small>Date</small><b>${esc(WEEKDAY.format(d))} ${esc(String(Number(p.date.slice(8))))}</b><span>October</span></div>
-        <div><small>${p.id.includes('kart') ? 'Start' : 'Kick-off'}</small><b>${esc(p.start || 'TBC')}</b><span>${p.start ? esc(ukTime(p.start)) + ' UK' : ''}</span></div>
+        <div><small>${p.id.includes('kart') ? 'Start' : 'Kick-off'}</small><b>${esc(p.start || 'TBC')}</b><span>${p.start ? esc(ukTime(p.start)) + ' home time' : ''}</span></div>
         <div><small>${p.arriveFrom ? 'Gates' : 'Weather'}</small><b>${esc(p.arriveFrom || (wx ? wx.temp + '°' : '–'))}</b><span>${p.arriveFrom ? 'open' : wx ? esc(WMO(wx.code).t) : 'forecast soon'}</span></div>
       </div>`);
       if (whoLabel(p.who)) parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);

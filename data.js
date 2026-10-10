@@ -11,16 +11,18 @@ window.BB_DATA = {
   "airportBy": "2026-10-18T14:45:00+02:00"
  },
  "flights": {
-  "_readme": "Fill in number (e.g. \"FR1234\") and from/to airport. The app shows them on the plan with a live tracking link.",
+  "_readme": "Flight numbers and times. Budapest times are local (CEST); Dublin times are Irish time, one hour behind. The booking reference is deliberately NOT stored here because this site is public.",
   "out": {
-   "number": null,
-   "from": null,
+   "number": "FR1023",
+   "from": "Dublin",
+   "departs": "08:25",
    "date": "2026-10-15"
   },
   "home": {
-   "number": null,
-   "to": null,
-   "departs": null,
+   "number": "FR1026",
+   "to": "Dublin",
+   "departs": "16:45",
+   "arrives": "18:55",
    "date": "2026-10-18"
   }
  },
@@ -43,7 +45,7 @@ window.BB_DATA = {
     {
      "time": "12:20",
      "title": "Land at Budapest Airport",
-     "sub": "Terminal 2.",
+     "sub": "Ryanair FR1023 from Dublin (departs 08:25 Irish time). Terminal 2.",
      "ref": "airport",
      "booked": true,
      "kind": "travel",
@@ -52,7 +54,7 @@ window.BB_DATA = {
     {
      "time": "21:00",
      "title": "Ferencváros v Viktoria Plzeň",
-     "sub": "Europa League at Groupama Aréna. Kick-off 21:00 (20:00 UK).",
+     "sub": "Europa League at Groupama Aréna. Kick-off 21:00 (20:00 home time).",
      "ref": "fradi-plzen",
      "booked": true,
      "kind": "event",
@@ -90,7 +92,7 @@ window.BB_DATA = {
     {
      "time": "19:00",
      "title": "MTK Budapest v Vasas",
-     "sub": "NB I. Kick-off 19:00 (18:00 UK).",
+     "sub": "NB I. Kick-off 19:00 (18:00 home time).",
      "ref": "mtk-vasas",
      "booked": true,
      "kind": "event"
@@ -111,7 +113,16 @@ window.BB_DATA = {
     {
      "time": "14:45",
      "title": "Be at Budapest Airport",
-     "sub": "Terminal 2, no later than 14:45.",
+     "sub": "Terminal 2, two hours before FR1026 departs.",
+     "ref": "airport",
+     "booked": true,
+     "kind": "travel",
+     "flight": "home"
+    },
+    {
+     "time": "16:45",
+     "title": "FR1026 to Dublin departs",
+     "sub": "Lands in Dublin at 18:55 Irish time.",
      "ref": "airport",
      "booked": true,
      "kind": "travel",

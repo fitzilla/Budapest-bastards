@@ -256,13 +256,22 @@ for (const day of trip.plan) {
       const want = /^gates/i.test(it.title) ? ev.arriveFrom : ev.start;
       if (want && it.time !== want) warnings.push(`timing: plan "${it.title}" says ${it.time}, event ${ev.id} says ${want}`);
     }
-    if (it.ref === 'airport' && it.booked) {
+    if (it.ref === 'airport' && it.booked && !/departs/i.test(it.title)) {
       const want = day.date === trip.trip.landing.slice(0, 10) ? hm(trip.trip.landing) : hm(trip.trip.airportBy);
       if (it.time !== want) warnings.push(`timing: plan "${it.title}" says ${it.time}, trip.json says ${want}`);
     }
-    const ko = (it.sub || '').match(/Kick-off (\d\d:\d\d) \((\d\d:\d\d) UK\)/);
-    if (ko && (ko[1] !== it.time || ko[2] !== ukOf(it.time))) warnings.push(`timing: "${it.title}" text says ${ko[1]} (${ko[2]} UK) but the item is at ${it.time}`);
+    const ko = (it.sub || '').match(/Kick-off (\d\d:\d\d) \((\d\d:\d\d) home time\)/);
+    if (ko && (ko[1] !== it.time || ko[2] !== ukOf(it.time))) warnings.push(`timing: "${it.title}" text says ${ko[1]} (${ko[2]} home time) but the item is at ${it.time}`);
+    // flights: the plan item for a flight must match the flight's own time
+    const fl = it.flight && trip.flights?.[it.flight];
+    if (fl && it.flight === 'home' && /departs/i.test(it.title) && it.time !== fl.departs) warnings.push(`timing: "${it.title}" says ${it.time}, flight ${fl.number} departs ${fl.departs}`);
   }
+}
+// the airport deadline must leave at least 90 minutes before the flight home
+{
+  const toMin = (t) => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
+  const dep = trip.flights?.home?.departs, by = hm(trip.trip.airportBy);
+  if (dep && toMin(dep) - toMin(by) < 90) warnings.push(`timing: be at the airport ${by} leaves under 90 min before ${trip.flights.home.number} at ${dep}`);
 }
 for (const e of events) {
   for (const f of ['tip', 'notes', 'blurb']) {
