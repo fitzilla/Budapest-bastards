@@ -606,11 +606,16 @@
     if (state.onlyFaves) { state.onlyFaves = false; $('#mapBanner').hidden = true; }
     const changed = state.cat !== id;
     state.cat = id;
-    if (state.q) { state.q = ''; $('#q').value = ''; }
+    state.q = '';
     if (changed) { state.filters.tags.clear(); }
     $$('#cats .cat').forEach((b) => b.setAttribute('aria-current', b.dataset.cat === id));
     const btn = $(`#cats [data-cat="${id}"]`);
-    btn?.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+    const rail = $('#cats');
+    if (btn && rail) {
+      const l = btn.offsetLeft - 16, r = btn.offsetLeft + btn.offsetWidth + 16 - rail.clientWidth;
+      if (rail.scrollLeft > l) rail.scrollTo({ left: l, behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+      else if (rail.scrollLeft < r) rail.scrollTo({ left: r, behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+    }
     if (push) history.replaceState(null, '', id === 'all' ? '#/' : '#/c/' + id);
     renderExplore();
     if (changed && state.tab === 'explore') window.scrollTo({ top: 0 });
@@ -653,7 +658,6 @@
     })() : '';
     return `<section class="hero" aria-label="Trip">
       <p class="hero-eyebrow">Budapest · Thu 15 – Sun 18 Oct 2026</p>
-      <h1 class="hero-title">Bastards on Tour</h1>
       <div class="hero-count"><b class="tnum">${esc(big)}</b><span>${esc(small)}</span></div>
       ${nextHtml}
       <div data-wx-slot="strip">${wxSlot('strip')}</div>
@@ -1417,6 +1421,7 @@
   function setView(v) {
     state.view = v;
     app.dataset.view = v;
+    document.documentElement.classList.toggle('map-open', v === 'map' && !desktopMQ.matches);
     const btn = $('#mapToggle');
     btn.innerHTML = v === 'map' ? `List ${icon('list')}` : `Map ${icon('map')}`;
     btn.setAttribute('aria-label', v === 'map' ? 'Show list' : 'Show map');
@@ -1723,17 +1728,6 @@
   $('#ctrlLocate').innerHTML = icon('locate');
   $('#ctrlTour').innerHTML = icon('play');
 
-  let qTimer = null;
-  $('#q').addEventListener('input', (e) => {
-    clearTimeout(qTimer);
-    qTimer = setTimeout(() => {
-      state.q = e.target.value;
-      $$('#cats .cat').forEach((b) => b.setAttribute('aria-current', !state.q && b.dataset.cat === state.cat));
-      renderExplore();
-      syncMarkers();
-    }, 120);
-  });
-  $('#q').addEventListener('keydown', (e) => { if (e.key === 'Enter') e.target.blur(); if (e.key === 'Escape') { e.target.value = ''; state.q = ''; renderExplore(); syncMarkers(); } });
 
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
