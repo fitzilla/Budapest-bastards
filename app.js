@@ -304,7 +304,7 @@
   window.__bbImgFail = (img) => {
     const alt = runtimeImg.get(img.dataset.pid);
     if (alt && img.getAttribute('src') !== alt && !img.dataset.retried) { img.dataset.retried = '1'; img.src = alt; }
-    else img.remove();
+    else { if (img.nextElementSibling?.classList.contains('media-note')) img.nextElementSibling.remove(); img.remove(); }
   };
   async function loadWikiImages() {
     const items = [...EVENTS, AIRPORT, ...PLACES, ...D.dishes].filter((x) => x.wiki);
@@ -358,7 +358,8 @@
       <span class="ph-name">${esc(p.name)}</span>
     </div>`;
     const u = imgOf(p);
-    return u ? ph + imgTag(u, p.id) : ph;
+    if (!u) return ph;
+    return ph + imgTag(u, p.id) + (p.imageKind === 'illustrative' ? '<span class="media-note">Illustrative</span>' : '');
   }
 
   /* ---------------- favourites ---------------- */
@@ -986,7 +987,11 @@
     detailPushed = pushed;
     const wasOpen = !!detailOpenId;
     detailOpenId = id;
-    const credit = imgOf(p) ? '<span class="d-credit">Photo: Wikimedia Commons</span>' : '';
+    const creditText = !imgOf(p) ? '' : p.imageKind === 'illustrative' ? 'Illustrative photo, not this venue'
+      : p.imageKind === 'building' ? `The building${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
+      : p.imageKind === 'street' ? `The street outside${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
+      : 'Photo: Wikimedia Commons';
+    const credit = creditText ? `<span class="d-credit">${esc(creditText)}</span>` : '';
     detailBody.innerHTML = `<div class="d-hero"><div class="card-media">${media(p)}</div>${credit}
       <div class="d-top"><button type="button" class="d-btn" data-close aria-label="Close">${icon(desktopMQ.matches ? 'x' : 'back')}</button>
         <div class="d-top-right"><button type="button" class="d-btn" data-act="share" data-id="${esc(p.id)}" aria-label="Share">${icon('share')}</button>
@@ -1791,6 +1796,12 @@
   loadWeather();
   loadWikiImages();
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
-    navigator.serviceWorker.register('sw.js').catch(() => { /* offline support is a bonus */ });
+    const hadController = !!navigator.serviceWorker.controller;
+    let reloading = false;
+    // when a fresh version takes over, reload once so nobody is stuck on an old copy
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (!hadController || reloading) return; reloading = true; location.reload(); });
+    navigator.serviceWorker.register('sw.js').then((reg) => {
+      document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') reg.update().catch(() => {}); });
+    }).catch(() => { /* offline support is a bonus */ });
   }
 })();

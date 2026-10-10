@@ -12,10 +12,15 @@ const readOpt = (p, d) => (existsSync(join(root, p)) ? read(p) : d);
 const ratings = readOpt('content/ratings.json', {});
 const wiki = readOpt('content/wiki.json', {});
 const images = readOpt('content/images.json', {});
+const illustrative = readOpt('content/illustrative.json', {});
 // attach a Wikipedia title (for a runtime lead photo) and any extra verified Commons photo
 function applyMedia(x) {
   const img = images[x.id];
-  if (img?.image && !x.image && /^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\//.test(img.image)) x.image = img.image;
+  if (img?.image && !x.image && /^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\//.test(img.image)) {
+    x.image = img.image;
+    if (img.kind && img.kind !== 'venue') x.imageKind = img.kind;
+    if (img.caption) x.imageCaption = img.caption;
+  }
   const w = img?.wiki || wiki[x.id]; // titles seen in search results beat ones from memory
   if (w && !x.id.startsWith('_')) x.wiki = String(w).replace(/^en:/, '');
   return x;
@@ -198,6 +203,47 @@ for (const day of trip.plan) {
   }
 }
 
+// ---- illustrative photos for anything still without one (labelled as such in the app)
+function illoCategory(x) {
+  const t = new Set(x.tags || []);
+  if (x.type === 'bar') {
+    if (t.has('rock') || t.has('metal')) return 'rock';
+    if (t.has('rooftop')) return 'rooftop';
+    if (t.has('cocktail') || t.has('speakeasy')) return 'cocktail';
+    if (t.has('craft-beer')) return 'craftbeer';
+    if (t.has('sports')) return 'sports';
+    if (t.has('palinka')) return 'palinka';
+    if (t.has('club')) return 'club';
+    return 'pub';
+  }
+  if (x.type === 'food') {
+    if (t.has('burger')) return 'burger';
+    if (t.has('steak')) return 'steak';
+    if (t.has('pizza')) return 'pizza';
+    if (t.has('michelin') || t.has('fine-dining')) return 'finedining';
+    if (t.has('brunch')) return 'cafe';
+    if (t.has('dessert')) return 'sweets';
+    return 'hungarian';
+  }
+  if (x.type === 'activity') {
+    if (t.has('shooting')) return 'shooting';
+    if (t.has('palinka')) return 'palinka';
+    if (t.has('beer-bike')) return 'pub';
+    return 'adventure';
+  }
+  return null;
+}
+const hash = (str) => [...str].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+let illoCount = 0;
+for (const x of places) {
+  if (x.image || x.wiki) continue;
+  const pool = (illustrative[illoCategory(x)] || []).filter((i) => /^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\//.test(i.image || ''));
+  if (!pool.length) continue;
+  const pick = pool[hash(x.id) % pool.length];
+  x.image = pick.image; x.imageKind = 'illustrative'; if (pick.caption) x.imageCaption = pick.caption;
+  illoCount++;
+}
+
 // ---- timings must agree everywhere
 const hm = (iso) => String(iso || '').slice(11, 16);
 const ukOf = (t) => { const [h, m] = t.split(':').map(Number); return `${String((h + 23) % 24).padStart(2, '0')}:${String(m).padStart(2, '0')}`; };
@@ -266,7 +312,7 @@ const count = (t) => places.filter((p) => p.type === t).length;
 const rated = places.filter((p) => p.rating.g != null || p.rating.ta != null).length;
 console.log(`ratings: ${rated}/${places.length} places have a verified score`);
 const all = [...places, ...events, airport, ...dishes];
-console.log(`photos: ${all.filter((x) => x.image).length}/${all.length} have a Commons photo, ${all.filter((x) => !x.image && x.wiki).length} more get a Wikipedia lead photo at runtime`);
+console.log(`photos: ${all.filter((x) => x.image && x.imageKind !== 'illustrative').length}/${all.length} real Commons photos, ${all.filter((x) => !x.image && x.wiki).length} more from Wikipedia at runtime, ${illoCount} illustrative, ${all.filter((x) => !x.image && !x.wiki).length} with none`);
 for (const id of Object.keys(wiki)) if (!id.startsWith('_') && !all.some((x) => x.id === id)) warnings.push(`wiki.json: unknown id ${id}`);
 console.log(`data.js: ${events.length} events, ${count('bar')} bars, ${count('food')} food, ${count('sight')} sights, ${count('bath')} baths, ${count('activity')} activities, ${dishes.length} dishes`);
 if (warnings.length) { console.log(`\n${warnings.length} warning(s):`); for (const w of warnings) console.log(' - ' + w); }

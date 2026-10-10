@@ -1,6 +1,6 @@
 // Offline support: app shell is network-first (so updates land straight away), map tiles,
 // fonts and photos are cached as you browse so the map still works with patchy roaming.
-const VERSION = 'bb-v3';
+const VERSION = 'bb-v4';
 const SHELL = [
   './', './index.html', './styles.css', './app.js', './data.js',
   './vendor/maplibre-gl.js', './vendor/maplibre-gl.css', './vendor/fonts.css',

@@ -203,6 +203,7 @@ window.BB_DATA = {
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungaroring_pit_lane.JPG?width=960",
    "district": null,
    "price": null,
+   "imageKind": "nearby",
    "wiki": "Hungaroring"
   },
   {
@@ -409,7 +410,8 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "building"
   },
   {
    "id": "blastbeat-bar",
@@ -655,7 +657,8 @@ window.BB_DATA = {
     "web": "https://instant-fogas.com",
     "book": null
    },
-   "unconfirmed": true
+   "unconfirmed": true,
+   "imageKind": "building"
   },
   {
    "id": "szimpla-kert",
@@ -728,7 +731,8 @@ window.BB_DATA = {
     "web": "https://instant-fogas.com",
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "building"
   },
   {
    "id": "koleves-kert",
@@ -1347,7 +1351,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "building"
   },
   {
    "id": "ziccer-trollfoci-sport-pub",
@@ -1447,7 +1452,8 @@ window.BB_DATA = {
     "ta": null,
     "web": "https://madhousebudapest.hu",
     "book": null
-   }
+   },
+   "imageKind": "building"
   },
   {
    "id": "first-craft-beer-bbq",
@@ -1782,7 +1788,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "building"
   },
   {
    "id": "frici-papa",
@@ -2654,6 +2661,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "imageKind": "building",
    "wiki": "hu:Hold utcai vásárcsarnok"
   },
   {
@@ -3580,6 +3588,7 @@ window.BB_DATA = {
     "web": "https://bathsbudapest.com",
     "book": "https://bathsbudapest.com"
    },
+   "imageKind": "building",
    "wiki": "Rudas Baths"
   },
   {
@@ -3614,6 +3623,7 @@ window.BB_DATA = {
     "web": "https://www.lukacsfurdo.hu",
     "book": "https://bathsbudapest.com"
    },
+   "imageKind": "building",
    "wiki": "Lukács Baths"
   },
   {
@@ -3647,6 +3657,7 @@ window.BB_DATA = {
     "web": "https://bathsbudapest.com",
     "book": "https://bathsbudapest.com"
    },
+   "imageKind": "building",
    "wiki": "hu:Dandár utcai gyógyfürdő"
   },
   {
@@ -3682,6 +3693,7 @@ window.BB_DATA = {
     "web": "https://bathsbudapest.com",
     "book": null
    },
+   "imageKind": "building",
    "wiki": "hu:Veli bej fürdő"
   },
   {
@@ -4060,7 +4072,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d1566303-Reviews-TripToBudapest_hu_Free_Budapest_Walking_Tours-Budapest_Central_Hungary.html",
     "web": "https://www.guruwalk.com/walks/66638-budapest-in-the-shadow-of-communism",
     "book": null
-   }
+   },
+   "imageKind": "nearby"
   },
   {
    "id": "ecseri-flea-market",
