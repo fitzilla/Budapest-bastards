@@ -171,7 +171,8 @@
     },
     "karting-hungaroring": {
       "arriveFrom": null,
-      "who": "all"
+      "who": "all",
+      "notes": "Booked for 12:00. The venue is inside the Hungaroring grounds and runs on a temporary track during the circuit’s renovation. A taxi from the centre is roughly 12,000–14,000 HUF."
     },
     "szimpla-kert": {
       "pick": true
@@ -204,7 +205,8 @@
           "Chris",
           "Paul"
         ]
-      }
+      },
+      "notes": "Kick-off 21:00 Budapest time (20:00 UK) per UEFA’s fixture list; check uefa.com on the day. Gates-open time not published yet."
     }
   }
 }

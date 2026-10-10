@@ -20,7 +20,6 @@ window.BB_DATA = {
   "out": {
    "number": null,
    "from": null,
-   "lands": "12:20",
    "date": "2026-10-15"
   },
   "home": {
@@ -161,7 +160,7 @@ window.BB_DATA = {
    "tip": "Kick-off is 21:00 Hungarian time = 20:00 UK time (clocks are +1h from UK). Be through security by 20:15. Pre-match pints on Ráday utca near Kálvin tér, then hop on the M3.",
    "getThere": "M3 (blue) to Népliget - the stadium is right next to the station, a few minutes' walk. About 10-12 min from Deák Ferenc tér / Kálvin tér (no changes). Bolt from District VII is ~10-15 min if the M3 is rammed.",
    "rules": "Take your PASSPORT: Hungarian stadium entry can check ticket name against ID (confirmed for Hungary internationals, not verified for Fradi league-phase games). No pyro, glass or weapons. Fradi fan card normally needed to BUY tickets; yours are already booked.",
-   "notes": "21:00 CEST comes from Global Game Guide and UEFA's team-by-team fixture list (secondary reading); Liquipedia shows 16 Oct 21:00 which looks like an error. Re-check uefa.com before leaving. Gates-open time NOT found (set null); typically ~2h before for Fradi European nights, unconfirmed. Face recognition / fan-card-at-entry NOT confirmed either way. Bag rules NOT found. Alcohol: general knowledge only - stadiums sell light beer, no spirits, no taking drinks into the stand. No verified pre-match pubs near the ground (Ráday utca suggestion is general local knowledge).",
+   "notes": "Kick-off 21:00 Budapest time (20:00 UK) per UEFA’s fixture list; check uefa.com on the day. Gates-open time not published yet.",
    "links": {
     "web": "https://www.fradi.hu/en/club/groupama-arena",
     "book": "https://meccsjegy.fradi.hu/jegyarak?lang=en",
@@ -200,7 +199,7 @@ window.BB_DATA = {
    "tip": "Leave the centre by 10:30 in two Bolts (or one minibus) to arrive about 11:30 and allow for Friday traffic and check-in. Eat first; the venue is a long way from a kebab.",
    "getThere": "Easiest: Bolt/taxi, ~25-35 min, ~20-25 km via M3. Cheap-but-slow: M2 to Örs vezér tere, HÉV H8 to Szilasliget/Mogyoród, then a 2.5 km (35-40 min) walk. Not recommended in a hurry.",
    "rules": "Wear closed shoes (trainers). Venues will refuse anyone who has been drinking. Helmets are normally provided - confirm with the venue. Site prices are in HUF plus 27% VAT.",
-   "notes": "Venue is an operating kart centre inside the Hungaroring grounds. Official booking site says the track is running on a temporary track (~400 m, slightly shorter than the usual 513 m) during the circuit's renovation - confirm it is still the case. Hours (undated): Mon-Fri 12:00-20:00, Sat-Sun 10:00-20:00. Postcode differs between sources (2145 vs 2146). Google rating not found. Session prices not found. Metered cab estimate (computed from 2026 tariff: 1,300 HUF base + 521 HUF/km x ~22 km) is roughly 12,000-14,000 HUF; Bolt is app-priced and may differ. End time is a guess.",
+   "notes": "Booked for 12:00. The venue is inside the Hungaroring grounds and runs on a temporary track during the circuit’s renovation. A taxi from the centre is roughly 12,000–14,000 HUF.",
    "links": {
     "web": "https://hungaroringkartcenter.hu/en/booking",
     "book": "https://hungaroringkartcenter.hu/en/booking",
@@ -4826,7 +4825,7 @@ window.BB_DATA = {
    "name": "André Rieu live",
    "date": "2026-10-16 and 2026-10-17, 19:30",
    "where": "MVM Dome, Budapest",
-   "body": "Two nights of waltz-and-violins at the MVM Dome, so expect busy trams/taxis around the venue on Fri/Sat evening. The MTK match starts 20:00, so Friday traffic may be heavier.",
+   "body": "Two nights of waltz-and-violins at the MVM Dome, starting 19:30. On Friday that lands right around MTK (gates 18:00, kick-off 19:00), so expect busy trams and slower taxis that evening.",
    "link": "https://www.jambase.com/venue/papp-laszlo-budapest-sportarena"
   },
   {

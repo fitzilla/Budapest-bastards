@@ -198,6 +198,44 @@ for (const day of trip.plan) {
   }
 }
 
+// ---- timings must agree everywhere
+const hm = (iso) => String(iso || '').slice(11, 16);
+const ukOf = (t) => { const [h, m] = t.split(':').map(Number); return `${String((h + 23) % 24).padStart(2, '0')}:${String(m).padStart(2, '0')}`; };
+const evById = new Map(events.map((e) => [e.id, e]));
+for (const day of trip.plan) {
+  for (const it of day.items) {
+    const ev = evById.get(it.ref);
+    if (ev) {
+      if (ev.date !== day.date) warnings.push(`timing: ${it.title} is on ${day.date} but ${ev.id} is on ${ev.date}`);
+      const want = /^gates/i.test(it.title) ? ev.arriveFrom : ev.start;
+      if (want && it.time !== want) warnings.push(`timing: plan "${it.title}" says ${it.time}, event ${ev.id} says ${want}`);
+    }
+    if (it.ref === 'airport' && it.booked) {
+      const want = day.date === trip.trip.landing.slice(0, 10) ? hm(trip.trip.landing) : hm(trip.trip.airportBy);
+      if (it.time !== want) warnings.push(`timing: plan "${it.title}" says ${it.time}, trip.json says ${want}`);
+    }
+    const ko = (it.sub || '').match(/Kick-off (\d\d:\d\d) \((\d\d:\d\d) UK\)/);
+    if (ko && (ko[1] !== it.time || ko[2] !== ukOf(it.time))) warnings.push(`timing: "${it.title}" text says ${ko[1]} (${ko[2]} UK) but the item is at ${it.time}`);
+  }
+}
+for (const e of events) {
+  for (const f of ['tip', 'notes', 'blurb']) {
+    const m = (e[f] || '').match(/[Kk]ick-off (?:is )?(\d\d:\d\d)/);
+    if (m && m[1] !== e.start) warnings.push(`timing: ${e.id}.${f} mentions kick-off ${m[1]} but start is ${e.start}`);
+  }
+}
+for (const le of R.events.localEvents || []) {
+  for (const e of events) {
+    // every time in a sentence that names the event must be one of its real times
+    for (const sentence of (le.body || '').split(/(?<=\.)\s+/)) {
+      if (!new RegExp(e.id.split('-')[0], 'i').test(sentence)) continue;
+      for (const [t] of sentence.matchAll(/\d\d:\d\d/g)) {
+        if (![e.start, e.arriveFrom].includes(t)) warnings.push(`timing: "${le.name}" mentions ${e.id} at ${t}`);
+      }
+    }
+  }
+}
+
 // ---- practical (drop emoji; the app draws its own icons)
 const practical = R.events.practical.map(({ emoji, ...s }) => s);
 

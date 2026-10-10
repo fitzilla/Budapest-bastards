@@ -455,6 +455,10 @@
     return true;
   }
 
+  /* ---------------- trip times (one source: content/trip.json) ---------------- */
+  const hm = (iso) => String(iso || '').slice(11, 16);
+  const LAND = hm(D.trip.landing), AIRPORT_BY = hm(D.trip.airportBy);
+
   /* ---------------- flights ---------------- */
   const FL = D.flights || {};
   const flightOf = (it) => (it.flight ? FL[it.flight] : null);
@@ -468,7 +472,7 @@
   function flightLine(f, dir) {
     if (!f?.number) return null;
     const where = dir === 'out' ? (f.from ? ` from ${f.from}` : '') : (f.to ? ` to ${f.to}` : '');
-    const when = dir === 'out' ? (f.lands ? `, lands ${f.lands}` : '') : (f.departs ? `, departs ${f.departs}` : '');
+    const when = dir === 'out' ? `, lands ${LAND}` : (f.departs ? `, departs ${f.departs}` : '');
     return `${f.number}${where}${when}`;
   }
 
@@ -873,7 +877,7 @@
       <div class="info-list">
         ${acc('weather', 'cloudsun', 'Weather', WX.live ? 'Live forecast' : 'Mid-October averages', weather, isOpen('weather', true))}
         ${acc('base', 'home', 'The Airbnb', B.address || (B.localPin ? 'Pinned on this phone' : 'Address TBC'), baseBody, isOpen('base', false))}
-        ${acc('airport', 'plane', 'Airport & transfers', 'Land 12:20 Thu · back by 14:45 Sun', airportBody, isOpen('airport', false))}
+        ${acc('airport', 'plane', 'Airport & transfers', `Land ${LAND} Thu · back by ${AIRPORT_BY} Sun`, airportBody, isOpen('airport', false))}
         ${P('taxis')}
         ${P('transport')}
         ${acc('baths', 'waves', 'The main baths', 'Széchenyi, Rudas, Lukács and Sparty', bathsBody, isOpen('baths', false))}
@@ -919,7 +923,7 @@
       parts.push(`<div class="d-event">
         <div><small>Date</small><b>${esc(WEEKDAY.format(d))} ${esc(String(Number(p.date.slice(8))))}</b><span>October</span></div>
         <div><small>${p.id.includes('kart') ? 'Start' : 'Kick-off'}</small><b>${esc(p.start || 'TBC')}</b><span>${p.start ? esc(ukTime(p.start)) + ' UK' : ''}</span></div>
-        <div><small>${p.arriveFrom ? (p.id.includes('kart') ? 'Arrive' : 'Doors') : 'Weather'}</small><b>${esc(p.arriveFrom || (wx ? wx.temp + '°' : '–'))}</b><span>${p.arriveFrom ? 'be there' : wx ? esc(WMO(wx.code).t) : 'forecast soon'}</span></div>
+        <div><small>${p.arriveFrom ? 'Gates' : 'Weather'}</small><b>${esc(p.arriveFrom || (wx ? wx.temp + '°' : '–'))}</b><span>${p.arriveFrom ? 'open' : wx ? esc(WMO(wx.code).t) : 'forecast soon'}</span></div>
       </div>`);
       if (whoLabel(p.who)) parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
     }
@@ -1440,13 +1444,13 @@
   function startTour() {
     if (!mapReady) return;
     const stops = [
-      { id: 'airport', label: 'Thu 12:20', title: 'Wheels down at BUD' },
+      { id: 'airport', label: `Thu ${LAND}`, title: 'Wheels down at BUD' },
       BASE.lat != null ? { id: 'base', label: 'Thu afternoon', title: 'Bags down at the Airbnb' } : null,
       { id: 'fradi-plzen', label: evLabel('fradi-plzen'), title: 'Fradi v Plzeň at Groupama Aréna' },
       { id: 'karting-hungaroring', label: evLabel('karting-hungaroring'), title: 'Karting at the Hungaroring' },
       { id: 'mtk-vasas', label: evLabel('mtk-vasas'), title: 'MTK v Vasas' },
       { id: 'szimpla-kert', label: 'Every night', title: 'The ruin bars of District VII' },
-      { id: 'airport', label: 'Sun 14:45', title: 'Home, broken' },
+      { id: 'airport', label: `Sun ${AIRPORT_BY}`, title: 'Home, broken' },
     ].filter(Boolean).filter((s) => byId.get(s.id)?.lat != null);
     tour = { stops, i: 0, timer: null };
     try { map.setLayoutProperty('bb-route', 'visibility', 'visible'); } catch { /* ignore */ }
