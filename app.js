@@ -305,6 +305,15 @@
     if (alt && img.getAttribute('src') !== alt && !img.dataset.retried) { img.dataset.retried = '1'; img.src = alt; }
     else { if (img.nextElementSibling?.classList.contains('media-note')) img.nextElementSibling.remove(); img.remove(); }
   };
+  // the photo's own Commons/Wikipedia page, which carries the photographer and licence
+  function filePage(u) {
+    if (!u) return null;
+    let m = u.match(/commons\.wikimedia\.org\/wiki\/Special:FilePath\/([^?#]+)/);
+    if (m) return 'https://commons.wikimedia.org/wiki/File:' + m[1];
+    m = u.match(/upload\.wikimedia\.org\/wikipedia\/([a-z]+)\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^/?#]+)/);
+    if (m) return (m[1] === 'commons' ? 'https://commons.wikimedia.org' : `https://${m[1]}.wikipedia.org`) + '/wiki/File:' + m[2];
+    return null;
+  }
   async function loadWikiImages() {
     const items = [...EVENTS, AIRPORT, ...PLACES, ...D.dishes].filter((x) => x.wiki);
     const cache = store.get('wikiimg', {});
@@ -985,7 +994,10 @@
       : p.imageKind === 'building' ? `The building${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
       : p.imageKind === 'street' ? `The street outside${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
       : 'Photo: Wikimedia Commons';
-    const credit = creditText ? `<span class="d-credit">${esc(creditText)}</span>` : '';
+    const page = filePage(imgOf(p));
+    const credit = !creditText ? '' : page
+      ? `<a class="d-credit" href="${esc(page)}" target="_blank" rel="noopener">${esc(creditText)} ↗</a>`
+      : `<span class="d-credit">${esc(creditText)}</span>`;
     detailBody.innerHTML = `<div class="d-hero"><div class="card-media">${media(p)}</div>${credit}
       <div class="d-top"><button type="button" class="d-btn" data-close aria-label="Close">${icon(desktopMQ.matches ? 'x' : 'back')}</button>
         <div class="d-top-right"><button type="button" class="d-btn" data-act="share" data-id="${esc(p.id)}" aria-label="Share">${icon('share')}</button>

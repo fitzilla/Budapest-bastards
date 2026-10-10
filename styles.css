@@ -802,7 +802,7 @@ p { margin: 0; }
 .d-btn .ic { width: 18px; height: 18px; stroke-width: 2.2; }
 .d-btn[aria-pressed="true"] .ic { fill: var(--paprika); stroke: var(--paprika); }
 .d-btn.pop .ic { animation: pop .42s var(--ease-out); }
-.d-credit { position: absolute; z-index: 2; right: 10px; bottom: 8px; font-size: 10.5px; color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, .6); display: none; }
+.d-credit { position: absolute; z-index: 2; right: 10px; bottom: 8px; max-width: calc(100% - 20px); font-size: 11px; color: #fff; text-decoration: none; text-shadow: 0 1px 3px rgba(0, 0, 0, .7); display: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .d-hero:has(img.ok) .d-credit { display: block; }
 .d-body { padding: 22px var(--gutter) calc(32px + var(--safe-b)); display: grid; gap: 18px; }
 .d-title { font: 900 38px/.95 var(--font-display); text-transform: uppercase; letter-spacing: .005em; }

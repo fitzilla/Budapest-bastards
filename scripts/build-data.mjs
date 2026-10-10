@@ -237,7 +237,7 @@ const hash = (str) => [...str].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0
 let illoCount = 0;
 for (const x of places) {
   if (x.image || x.wiki) continue;
-  const pool = (illustrative[illoCategory(x)] || []).filter((i) => /^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\//.test(i.image || ''));
+  const pool = (Array.isArray(illustrative[illoCategory(x)]) ? illustrative[illoCategory(x)] : []).filter((i) => /^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\//.test(i.image || ''));
   if (!pool.length) continue;
   const pick = pool[hash(x.id) % pool.length];
   x.image = pick.image; x.imageKind = 'illustrative'; if (pick.caption) x.imageCaption = pick.caption;

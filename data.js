@@ -333,13 +333,15 @@ window.BB_DATA = {
    "blurb": "Sweaty basement, live covers every night, then a DJ and a dancefloor. Proper old-school rock-and-pint chaos with zero airs and graces.",
    "tip": "Gets rammed by 22:00 on weekends. Go early for a table near the band or accept getting wedged at the bar.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d1078889-Reviews-Old_Man_s_Music_Pub-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "unconfirmed": true
+   "unconfirmed": true,
+   "imageKind": "street",
+   "imageCaption": "Akácfa utca, Erzsébetváros"
   },
   {
    "id": "barhole-music",
@@ -369,12 +371,14 @@ window.BB_DATA = {
    "blurb": "Red-lit basement with graffiti walls: punk, rock and metal gigs and tribute nights. Cheap beer, loud guitars, 150-capacity bunker. Your kind of place.",
    "tip": "A separate 'Saloon' area is open on weekdays for a quieter pint. Check their socials for the Thu–Sat gig line-up.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany_utca_28.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Dohány utca, Budapest"
   },
   {
    "id": "lampas",
@@ -441,12 +445,14 @@ window.BB_DATA = {
    "blurb": "Proper metal dive bar, walls plastered with metal relics. Cheap drinks, loud riffs, scruffy and proud. Not for the faint of heart.",
    "tip": "Cash-friendly dive: some reviewers flag hygiene, so keep expectations grungy. Pin location approximate; check Maps.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvinus_Egyetem-St%C3%BAdium_Irodah%C3%A1z%2C_K%C3%B6zrakt%C3%A1r_utca%2C_Czuczor_utca%2C_2017_Ferencv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Czuczor utca corner, Ferencváros"
   },
   {
    "id": "durer-kert",
@@ -584,12 +590,14 @@ window.BB_DATA = {
    "blurb": "Small live rock and blues club near Heroes' Square. Tribute bands (KISS, etc.), local covers, a sing-along lock-in vibe.",
    "tip": "Out past Oktogon so grab a taxi. Pin is approximate (±300m). Gig schedule on backstagepub.hu.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_V%C3%A1rosligeti_fasor%2C_3.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7007279-Reviews-BackStage_Pub-Budapest_Central_Hungary.html",
     "web": "https://backstagepub.hu",
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Városligeti fasor, Budapest"
   },
   {
    "id": "hard-rock-cafe-budapest",
@@ -795,13 +803,15 @@ window.BB_DATA = {
    "blurb": "Vintage-style ruin pub in the Inner City: bohemian, intimate, good for chatting rather than shouting. Great pre-Szimpla warm-up.",
    "tip": "Closes at midnight, so it's a pre-game, not a finisher. Ten minutes' walk from the Jewish Quarter.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A1rolyi_Mansion%2C_corner_of_K%C3%A1rolyi_Mih%C3%A1ly_and_Ferenczy_Istv%C3%A1n_Sts.%2C_2011_Budape%C5%A1%C5%A5_1224.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d5011161-Reviews-Csendes_Letterem-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "street",
+   "imageCaption": "Ferenczy István utca corner, Károlyi Mansion"
   },
   {
    "id": "ankert",
@@ -830,13 +840,15 @@ window.BB_DATA = {
    "blurb": "Big ruin-bar courtyard with room for 800 on a Friday. Calmer than Szimpla, cocktails and loud tunes.",
    "tip": "Sources differ on its seasonal status; confirm it is open in October before heading over. Pin approximate.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulay_Ede_utca_6-8._Fortepan_763.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4994225-Reviews-Anker_t-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "unconfirmed": true
+   "unconfirmed": true,
+   "imageKind": "street",
+   "imageCaption": "Paulay Ede utca, Budapest"
   },
   {
    "id": "doboz",
@@ -865,13 +877,15 @@ window.BB_DATA = {
    "blurb": "Labyrinth of rooms with eight music styles, a grill bar and two dancefloors. Cheap and fun until sunrise.",
    "tip": "18+ with ID. Entry may include a drink on ticketed nights. Check hours as only reseller listings confirm them.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klauz%C3%A1l_street.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "street",
+   "imageCaption": "Klauzál utca, Budapest"
   },
   {
    "id": "ellato-kert",
@@ -900,13 +914,15 @@ window.BB_DATA = {
    "blurb": "Classic courtyard ruin bar and taqueria on Kazinczy. Chill, cheap drinks and pub grub.",
    "tip": "It closed in 2019 and reopened later; the status is from undated listings, so confirm before heading over.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d7370133-Reviews-Ellato_Kert-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "unconfirmed": true
+   "unconfirmed": true,
+   "imageKind": "street",
+   "imageCaption": "Kazinczy utca, Budapest"
   },
   {
    "id": "red-ruin",
@@ -969,13 +985,15 @@ window.BB_DATA = {
    "blurb": "1920s cellar speakeasy with architecture-themed cocktails and a hidden private room. Dress up slightly, behave properly.",
    "tip": "Walk-in seating only: arrive early Thu–Sat. Cocktails ~3,500–5,000 HUF.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%ADp_utca_a_Doh%C3%A1ny_utca_%C3%A9s_a_R%C3%A1k%C3%B3czi_%C3%BAt_k%C3%B6z%C3%B6tt%2C_Gutmann_%C3%A1ruh%C3%A1z._Fortepan_100783.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12370539-Reviews-or10-Hotsy_Totsy_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "street",
+   "imageCaption": "Síp utca, Budapest"
   },
   {
    "id": "the-magic-budapest",
@@ -1037,13 +1055,15 @@ window.BB_DATA = {
    "blurb": "The post-it note bar: every inch of wall and ceiling is covered in handwritten notes from visitors, with straw and peanut shells on the floor. Grab a pen, leave your mark, drink. Opposite the Great Market Hall.",
    "tip": "Book ahead if eating at weekends. Cheaper and calmer than the Jewish Quarter.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/F%C5%91v%C3%A1m_%28Dimitrov%29_t%C3%A9r%2C_szemben_a_V%C3%A1mh%C3%A1z_%28Tolbuhin%29_k%C3%B6r%C3%BAt_%C3%A9s_a_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok._Fortepan_50631.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1965935-Reviews-For_Sale_Pub-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "street",
+   "imageCaption": "Vámház körút and Great Market Hall"
   },
   {
    "id": "gozsdu-udvar",
@@ -1105,13 +1125,15 @@ window.BB_DATA = {
    "blurb": "Long-running (since 2008) cocktail bar with a bartender's-choice menu. Smart, grown-up pre-game or post-dinner nightcap.",
    "tip": "Mixed drinks ~€12–16. Book ahead for Fri and Sat. Address from memory; confirm.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulay_Ede_utca_6-8._Fortepan_763.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1580627-Reviews-Boutiq_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "street",
+   "imageCaption": "Paulay Ede utca, Budapest"
   },
   {
    "id": "high-note-skybar",
@@ -1139,13 +1161,15 @@ window.BB_DATA = {
    "blurb": "Rooftop at the Aria Hotel with eye-level views of the Basilica dome. Splash out for sunset cocktails and a photo that will wind up your mates.",
    "tip": "Smart casual, no gym wear or flip-flops. Cocktails ~5,900–6,200 HUF. Book a sunset table.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hercegprim%C3%A1s_utca_9%2C_m%C5%B1eml%C3%A9k%2C_2017_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d8528872-Reviews-High_Note_SkyBar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "street",
+   "imageCaption": "Hercegprímás utca, Lipótváros"
   },
   {
    "id": "360-bar",
@@ -1174,13 +1198,15 @@ window.BB_DATA = {
    "blurb": "Rooftop terrace over Andrássy Avenue with a genuine 360-degree skyline. Great for a mid-afternoon pint or a pre-club cocktail.",
    "tip": "Discreet street door, take the lift to the 6th floor. Small cover (~1,000 HUF) Thu–Sun per one guide.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_P%C3%A1risi_Nagy%C3%A1ruh%C3%A1z_%2837703806914%29.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6637437-Reviews-360_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "imageKind": "building",
+   "imageCaption": "Párisi Nagy Áruház, Andrássy út 39"
   },
   {
    "id": "elesztohaz",
@@ -1208,14 +1234,16 @@ window.BB_DATA = {
    "blurb": "Huge craft beer house with dozens of Hungarian taps in the Ferencváros. Beer geek heaven with no pretension.",
    "tip": "Not confirmed this session; verify it's open on your night. Out of the Jewish Quarter by tram/metro.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garden_of_Semmelweis_University._-_T%C5%B1zolt%C3%B3_Street%2C_Budapest_District_IX.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4725580-Reviews-Eleszto_Craft_Beer_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
    "unconfirmed": true,
-   "pick": true
+   "pick": true,
+   "imageKind": "street",
+   "imageCaption": "Tűzoltó utca, Ferencváros"
   },
   {
    "id": "champs-sports-pub",
@@ -1243,12 +1271,14 @@ window.BB_DATA = {
    "blurb": "Many screens, Jewish Quarter location, opens at midday unlike most bars nearby. Football on every wall.",
    "tip": "Pin approximate to the street (house number unconfirmed). Check which matches are being shown on the 17th and 18th Oct.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany_utca_28.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d783758-Reviews-Champs_PUB-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Dohány utca, Budapest"
   },
   {
    "id": "jack-doyles-irish-pub",
@@ -1277,12 +1307,14 @@ window.BB_DATA = {
    "blurb": "Tucked down an alley off the Pest high street: Irish pub, Sky Sports, Guinness and elbow-to-elbow lads. Your kind of Friday pre-match warm-up.",
    "tip": "Tiny and fills up early - book a table for any kick-off, or you'll be watching through a gap in someone's shoulders.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pilvax_K%C3%A1v%C3%A9h%C3%A1z%2C_Budapest.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "building",
+   "imageCaption": "Pilvax Kávéház, Pilvax köz"
   },
   {
    "id": "stifler-sport-bar",
@@ -1312,12 +1344,14 @@ window.BB_DATA = {
    "blurb": "27 telly screens, a pool and games den in the basement and kitchen-sink American bar vibes until the small hours. Loud, daft and exactly where the lads end up at 2am.",
    "tip": "Reviews are mixed on service, so order at the bar and keep an eye on the tab. Don't confuse it with Stifler House (the club) around the corner on Dob utca.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erzsebet_korut_19.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "building",
+   "imageCaption": "Erzsébet körút 19, Budapest"
   },
   {
    "id": "becketts-irish-bar",
@@ -1381,12 +1415,14 @@ window.BB_DATA = {
    "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local - bring your best 'Hajrá Magyarok'.",
    "tip": "Most recent report says Ó utca 36 (an older guide said 66) - check the pin first. Rammed on big match nights, so arrive early for a spot.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_O_utca.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Ó utca, Terézváros"
   },
   {
    "id": "hopaholic",
@@ -1414,12 +1450,14 @@ window.BB_DATA = {
    "blurb": "Tiny Jewish Quarter craft temple: ten rotating taps and 250+ breweries in bottles. Beer nerds nod solemnly; everyone else just discovers pints that taste of something.",
    "tip": "Check the chalkboard before ordering - the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://hopaholic.hu",
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Akácfa utca, Erzsébetváros"
   },
   {
    "id": "madhouse-by-mad-scientist",
@@ -1482,12 +1520,14 @@ window.BB_DATA = {
    "blurb": "Hungarian craft brewery's city pub: house-brewed beer on tap plus proper smoky BBQ. Soak up the lagers before the Jewish Quarter swallows you whole.",
    "tip": "Book via their reservation page for groups. Their original taproom is out on Váci út (district XIII/IV border) - skip it, this one's central.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dob_utca_%28Budapest_VII.%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Dob utca, Budapest"
   },
   {
    "id": "csak-a-jo-sor",
@@ -1515,12 +1555,14 @@ window.BB_DATA = {
    "blurb": "Part bottle shop, part boffin's den: shelves of craft beer from Hungary and abroad that you can crack open on the spot. The tiny shop for lads who read the labels.",
    "tip": "Closes early (about 22:00) and shuts Sundays - fine for a warm-up crawl, then head to Hopaholic. Confirm hours by phone: +36 1 798 0036.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kert%C3%A9sz_utca_32.%2C_ortodox_iskola_%C3%A9s_hitk%C3%B6zs%C3%A9gi_napk%C3%B6zi_otthon._Fortepan_105228.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Kertész utca, Erzsébetváros"
   },
   {
    "id": "leo-rooftop",
@@ -1548,12 +1590,14 @@ window.BB_DATA = {
    "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views and pricey cocktails - one for the pretty photos before the football gets going.",
    "tip": "Book a table on OpenTable (two-hour slots, cocktails ~6,700-7,500 Ft) and aim for sunset. Smart casual - leave the club shirts at the hotel.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budav%C3%A1ri_Sikl%C3%B3_%28Budapest_Castle_Hill_Funicular%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://leobudapest.hu",
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Clark Ádám tér, Budapest"
   },
   {
    "id": "st-andrea-wine-skybar",
@@ -1582,12 +1626,14 @@ window.BB_DATA = {
    "blurb": "Top-floor terrace on Vörösmarty tér with a lift, wine list and cocktails. Rooftop panorama of Pest's roofs without Chain Bridge queues.",
    "tip": "Groups of 8+ face a 15,000 Ft/person minimum spend, so split into smaller tables or ask first. Book ahead on weekend evenings.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_De%C3%A1k_Ferenc_utca.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Deák Ferenc utca, Budapest"
   },
   {
    "id": "warm-up-cocktail-bar",
@@ -1616,12 +1662,14 @@ window.BB_DATA = {
    "blurb": "Small, dark Jewish Quarter cocktail den built around Hungarian spirits like pálinka and Unicum. Ask for a surprise - no menu needed, just a firm handshake with the bartender.",
    "tip": "Book on Instagram/Facebook for weekends - walk-ins often queue. Budget about 3,500-5,000 Ft per cocktail.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_VII._R%C3%A1k%C3%B3czi_%C3%BAt_30%2C_Nagy_Di%C3%B3fa_utca_sarok._-_Fortepan_102343.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Nagy Diófa utca corner, Rákóczi út"
   },
   {
    "id": "otkert",
@@ -1750,12 +1798,14 @@ window.BB_DATA = {
    "blurb": "Tiny, buzzing bistro behind the Basilica where locals actually eat. Proper Hungarian cooking, no gimmicks. Fits a big lads' table only if you book.",
    "tip": "Go for the daily specials board. Reservations are essentially always needed, so book days ahead.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sas_utca_BUD.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d692825-Reviews-Cafe_Kor-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Sas utca, Budapest"
   },
   {
    "id": "kispiac-bisztro",
@@ -1854,12 +1904,14 @@ window.BB_DATA = {
    "blurb": "Old-school Hungarian grub in the Jewish Quarter. Goulash, stuffed cabbage and the famous túrógombóc, in a room too small for a stag-sized mob.",
    "tip": "Goulash plus túrógombóc (cottage-cheese dumplings). Reserve a day ahead; best for groups of 4 or fewer.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erzs%C3%A9bet_k%C3%B6r%C3%BAt_-_Wessel%C3%A9nyi_utca_villamosmeg%C3%A1ll%C3%B3_-_panoramio.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d9856765-Reviews-Getto_Gulyas-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Wesselényi utca at Erzsébet körút"
   },
   {
    "id": "hungarikum-bisztro",
@@ -1888,12 +1940,14 @@ window.BB_DATA = {
    "blurb": "Hearty, no-nonsense Hungarian a stone's throw from Parliament. Goulash soup, paprikash and strudel, served by people who know what they're doing.",
    "tip": "Gulyásleves then chicken paprikás with nokedli. Small room, so book online for lunch or dinner.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%B6rk%C3%B6lt.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d3351231-r1042332985-Hungarikum_Bisztro-Budapest_Central_Hungary.html",
     "web": "https://hungarikumbisztro.hu",
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Pörkölt with nokedli"
   },
   {
    "id": "porc-es-prezli",
@@ -1922,12 +1976,14 @@ window.BB_DATA = {
    "blurb": "Pork, duck and goose in a lively room next to the Opera. Loud, proper portions, occasionally pricey service charge. A new sister bistro (Pici Pörc) opened opposite in Aug 2026.",
    "tip": "Duck breast or goose with something hearty. Almost always fully booked, so reserve well ahead.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bajcsy-Zsilinszky_%C3%BAt_15_%C3%A9s_17%2C_2020_Ter%C3%A9zv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "building",
+   "imageCaption": "Corner building, Bajcsy-Zsilinszky út / Lázár utca"
   },
   {
    "id": "kehli-vendeglo",
@@ -1989,12 +2045,14 @@ window.BB_DATA = {
    "blurb": "Jewish Quarter staple with a leafy garden next door. Hungarian-meets-modern plates, decent for a group who can't agree.",
    "tip": "Lunch menu on weekdays is good value. Ask for the garden if it's dry.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d797853-r439757871-Koleves_Restaurant_and_Garden-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Kazinczy utca, Budapest"
   },
   {
    "id": "fulemule",
@@ -2022,12 +2080,14 @@ window.BB_DATA = {
    "blurb": "Cosy old-school place for Jewish-Hungarian classics near Astoria/Blaha. Lescó, goose liver and sólet, none of it light.",
    "tip": "Sólet (bean and meat stew) or fried goose liver. Call ahead for a group.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Hungarian goulash and paprikás"
   },
   {
    "id": "mazel-tov",
@@ -2095,12 +2155,14 @@ window.BB_DATA = {
    "blurb": "Refined Hungarian from the Stand team in a relaxed bistro, Michelin Plate. Buda side, so a short taxi from VII. Not the cheapest feed but proper nosh.",
    "tip": "Go for the Hungarian classics tasting-style plates. Book ahead and check it is still open at this address.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://stand25.hu",
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Beef pörkölt with nokedli"
   },
   {
    "id": "stand",
@@ -2130,12 +2192,14 @@ window.BB_DATA = {
    "blurb": "Budapest's only two-Michelin-star restaurant. Dinner, not a meal: smart Hungarian tasting menus. Put the good shirt on, lads.",
    "tip": "Tasting menu only. Bookings open about 60 days ahead (SevenRooms) and tables are held for 20 mins. Probably sold out by now - try cancellations.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9kely_Mih%C3%A1ly_utca_4-6%2C_Budapest_%2838408981376%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Székely Mihály utca, Terézváros"
   },
   {
    "id": "borkonyha",
@@ -2165,12 +2229,14 @@ window.BB_DATA = {
    "blurb": "One-star Hungarian by the Basilica. Slick but unstuffy, huge Hungarian wine list. The best 'treat ourselves' dinner without tipping into silly.",
    "tip": "Tasting menu over à la carte. Book online 2-4 weeks ahead for weekends; try for a Sat lunch slot at short notice.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sas_Stra%C3%9Fe_3%2C_Eingang%2C_2021_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d1986524-r365274584-Borkonyha_WineKitchen-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "building",
+   "imageCaption": "Sas utca 3 entrance"
   },
   {
    "id": "rumour",
@@ -2199,12 +2265,14 @@ window.BB_DATA = {
    "blurb": "Michelin-starred 21-seat chef's counter hidden behind an unmarked door. Eleven courses of modern Hungarian with theatre. Address reported two ways - check booking email.",
    "tip": "Eleven-course counter tasting (roughly 60,000-85,000 HUF). Book about 3 weeks ahead; arrive early.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pet%C5%91fi-szobor_k%C3%A9peslapon%2C_Budapest_1898.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Petőfi statue, Petőfi tér (1898 postcard)"
   },
   {
    "id": "costes",
@@ -2268,12 +2336,14 @@ window.BB_DATA = {
    "blurb": "One Michelin star since 2019, tucked near Elisabeth Bridge. Modern Hungarian with a bit of flair. Sat lunch is the lads-friendly slot before footy.",
    "tip": "Saturday lunch tasting menu. Book online; ask about a lunch slot if dinner is gone.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Piarista_k%C3%B6z.JPG?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Piarista köz, Budapest"
   },
   {
    "id": "bors-gasztrobar",
@@ -2303,12 +2373,14 @@ window.BB_DATA = {
    "blurb": "Tiny soup-and-baguette bar with Star Wars decor and ridiculous queues for good reason. Cheap, cheerful and next to the ruin pubs.",
    "tip": "Daily soup or a stuffed baguette. Eat at the counter or take it away; no booking.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d3700225-Reviews-Bors_GasztroBar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Kazinczy utca, Budapest"
   },
   {
    "id": "zing-burger",
@@ -2339,12 +2411,14 @@ window.BB_DATA = {
    "blurb": "Budapest's home-grown burger chain. Smashed burgers, no frills, handy when beers are flowing next door.",
    "tip": "Classic double cheeseburger and fries. Loyalty-card stamps if you're round for the weekend.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Kazinczy utca, Budapest"
   },
   {
    "id": "pampas-steakhouse",
@@ -2373,12 +2447,14 @@ window.BB_DATA = {
    "blurb": "Argentine-style steakhouse, glossy and meaty. Dozen-plus premium cuts, big wine list. OpenTable rating 4.6-4.8 across ~550-600 reviews.",
    "tip": "Choose your cut from the trolley and share sides. Book via OpenTable; mains from about 50 EUR.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A1mh%C3%A1z_k%C3%B6r%C3%BAt_5.%2C_1958_Budapest_-_Fortepan_103225.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Vámház körút, 1958 (Fortepan)"
   },
   {
    "id": "belli-di-mamma",
@@ -2407,12 +2483,14 @@ window.BB_DATA = {
    "blurb": "Only Hungarian pizzeria in Europe's Top 50 (No. 40, 2026). Proper Neapolitan pies, right in the party district. Lads can argue over toppings later.",
    "tip": "Order a margherita first and judge them on that. Pies roughly 3,700-6,300 HUF. Book for 6+.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Akácfa utca, Erzsébetváros"
   },
   {
    "id": "bp-barbq",
@@ -2441,12 +2519,14 @@ window.BB_DATA = {
    "blurb": "Texas-style brisket, ribs and wings. Just moved from Akácfa to Hercegprímás utca (opened 6 Oct 2026). Smoky, sticky and sociable.",
    "tip": "Brisket sandwich or a ribs platter to share. New site, so check it is open and Google Maps pin.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hercegprim%C3%A1s_utca_9%2C_m%C5%B1eml%C3%A9k%2C_2017_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Hercegprímás utca, near the Basilica"
   },
   {
    "id": "retro-langos",
@@ -2476,12 +2556,14 @@ window.BB_DATA = {
    "blurb": "Lángos central: crispy fried dough piled high with garlic, sour cream and cheese. The textbook belly-liner.",
    "tip": "Classic lángos (about 3,500 HUF in 2026). Add extra garlic, regret nothing.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bajcsy-Zsilinszky_%C3%BAt_21_%C3%A9s_19B%2C_2020_Ter%C3%A9zv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Bajcsy-Zsilinszky út, Terézváros"
   },
   {
    "id": "karavan",
@@ -2545,12 +2627,14 @@ window.BB_DATA = {
    "blurb": "Relaxed, light-filled brunch place from the Szimpla family in a historic alley. Eggs, coffee, juices and recovery vibes.",
    "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the post-match recovery here.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A1roly_k%C3%B6r%C3%BAt_13-15%2C_2022_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Károly körút, Erzsébetváros"
   },
   {
    "id": "szimpla-farmers-market",
@@ -2690,12 +2774,13 @@ window.BB_DATA = {
    "blurb": "Bookish Buda café-gallery with good filter coffee, bagels and savoury plates. A calm recovery spot away from Pest.",
    "tip": "Order and pay at the counter. Savoury brunch plate and a filter coffee. Sat/Sun mornings after 9.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelet_K%C3%A1v%C3%A9z%C3%B3_%C3%A9s_Gal%C3%A9ria.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageCaption": "Kelet Kávézó és Galéria"
   },
   {
    "id": "molnars-kurtoskalacs",
@@ -2724,12 +2809,14 @@ window.BB_DATA = {
    "blurb": "Famous chimney cake stall on Váci utca. Warm, sugary, cinnamon-dusted spiral of joy to eat while strolling.",
    "tip": "Cinnamon or walnut chimney cake. Ask for it fresh from the grill and watch the bake.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_V%C3%A1ci_utca.JPG?width=960",
    "links": {
     "ta": null,
     "web": "https://kurtoskalacs.com",
     "book": null
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Váci utca, Budapest"
   },
   {
    "id": "gerbeaud",
@@ -3829,12 +3916,14 @@ window.BB_DATA = {
    "blurb": "AK-47s, shotguns and handguns on a safe indoor range. Lad-weekend staple. Reserve a slot early.",
    "tip": "Book a package in advance; bring ID. Check the address on your booking - coordinates here are approximate.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trap_shooting_range.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d23492767-Reviews-Churchill_Shooting_Range_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A trap shooting range"
   },
   {
    "id": "e-exit-escape-room",
@@ -3862,13 +3951,15 @@ window.BB_DATA = {
    "blurb": "Six lads, a locked room and an hour to prove who's actually clever. Reliable team-building (or team-breaking).",
    "tip": "Split into two teams of 4-6 and compete. MystIQueRoom (Districts V/XIII) is another option at ~5,990 HUF pp for six.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d6884379-r913420942-E_Exit_Escape_Room_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "hidePin": true
+   "hidePin": true,
+   "imageKind": "illustrative",
+   "imageCaption": "Axe throwing game"
   },
   {
    "id": "balta-axe-throwing",
@@ -3896,12 +3987,14 @@ window.BB_DATA = {
    "blurb": "Beer in one hand, axe in the other - in a controlled lane. Sets of throws with a coach. Easy, loud, brilliant.",
    "tip": "Great pre-night-out activity in the party district. Book a lane for the group.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Doh%C3%A1ny_Stra%C3%9Fe_32-34%2C_Eingang%2C_2021_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d13237730-Reviews-Balta_Dobalas-Budapest_Central_Hungary.html",
     "web": "https://baltadobalas.hu",
     "book": "https://baltadobalas.hu/idopontfoglalas.php"
-   }
+   },
+   "imageKind": "street",
+   "imageCaption": "Dohány utca, Erzsébetváros"
   },
   {
    "id": "prosecco-danube-cruise",
@@ -3963,13 +4056,15 @@ window.BB_DATA = {
    "blurb": "Pedal-powered beer bikes are reportedly banned in the city; the electric BeerBus carries the beer instead. A sightseeing pub-on-wheels.",
    "tip": "Check your booking page for the meeting point; this is a rough city-centre pin.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Bank_%C3%A9s_Ikarus_260_s%C3%B6rbusz%2C_2019_Ter%C3%A9zv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
-   "hidePin": true
+   "hidePin": true,
+   "imageKind": "illustrative",
+   "imageCaption": "Ikarus 260 beer bus, Budapest"
   },
   {
    "id": "palvolgyi-cave",
@@ -4136,12 +4231,14 @@ window.BB_DATA = {
    "blurb": "Drive a real Soviet-era tank across a field. Silly money, silly fun - proper stag-do energy.",
    "tip": "Book well ahead. Coordinates are approximate; confirm location with the operator.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Axe throwing game"
   },
   {
    "id": "zugliget-chairlift",
@@ -4239,7 +4336,7 @@ window.BB_DATA = {
    "blurb": "A museum of Hungary's fruit firewater with a tasting you won't want to stop. Worth doing before Szimpla.",
    "tip": "Do the 6-8 tasting option together; designate a navigator for Saturday night.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20190110_p%C3%A1link%C3%A1s_szett.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d15361476-r679185310-PALINKA_MUSEUM_SHOP_BAR-Budapest_Central_Hungary.html",
     "web": null,
@@ -4247,7 +4344,9 @@ window.BB_DATA = {
    },
    "also": [
     "bar"
-   ]
+   ],
+   "imageKind": "illustrative",
+   "imageCaption": "A pálinka set"
   },
   {
    "id": "puskas-arena-tour",

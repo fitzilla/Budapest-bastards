@@ -1,0 +1,267 @@
+{
+ "_readme": "Generic, clearly labelled illustrative photos (Wikimedia Commons) used only where a place has no photo of its own.",
+ "pub": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soros_poh%C3%A1r_borsodi.jpg?width=960",
+   "caption": "A glass of Hungarian lager",
+   "source": "https://commons.wikimedia.org/wiki/File:Soros_poh%C3%A1r_borsodi.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
+   "caption": "A pint of Arany Ászok lager",
+   "source": "https://commons.wikimedia.org/wiki/File:Arany_%C3%81szok_beer.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pint_of_beer.jpg?width=960",
+   "caption": "A pint of lager",
+   "source": "https://commons.wikimedia.org/wiki/File:Pint_of_beer.jpg"
+  }
+ ],
+ "rock": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coma_band_playing_live.jpg?width=960",
+   "caption": "Rock band playing live",
+   "source": "https://commons.wikimedia.org/wiki/File:Coma_band_playing_live.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vader_band_playing_live_3.jpg?width=960",
+   "caption": "Live metal band on stage",
+   "source": "https://commons.wikimedia.org/wiki/File:Vader_band_playing_live_3.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg?width=960",
+   "caption": "Live music on a lit stage",
+   "source": "https://commons.wikimedia.org/wiki/File:Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg"
+  }
+ ],
+ "cocktail": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cocktails.jpg?width=960",
+   "caption": "Cocktails on a bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Cocktails.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cocktails_mit_Schirmchen.jpg?width=960",
+   "caption": "Cocktails with paper umbrellas",
+   "source": "https://commons.wikimedia.org/wiki/File:Cocktails_mit_Schirmchen.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flaming_cocktails.jpg?width=960",
+   "caption": "Flaming cocktails",
+   "source": "https://commons.wikimedia.org/wiki/File:Flaming_cocktails.jpg"
+  }
+ ],
+ "rooftop": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Parlament_bei_Nacht.jpg?width=960",
+   "caption": "Parliament and the Danube at night",
+   "source": "https://commons.wikimedia.org/wiki/File:Budapest_Parlament_bei_Nacht.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_%288130437015%29.jpg?width=960",
+   "caption": "Parliament across the Danube at sunset",
+   "source": "https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_(8130437015).jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parlamento_de_Budapest_de_noche.JPG?width=960",
+   "caption": "Budapest Parliament by night",
+   "source": "https://commons.wikimedia.org/wiki/File:Parlamento_de_Budapest_de_noche.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_over_the_Danube_-_Budapest.jpg?width=960",
+   "caption": "Sunset over the Danube",
+   "source": "https://commons.wikimedia.org/wiki/File:Sunset_over_the_Danube_-_Budapest.jpg"
+  }
+ ],
+ "craftbeer": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beer_taps.jpg?width=960",
+   "caption": "A row of beer taps",
+   "source": "https://commons.wikimedia.org/wiki/File:Beer_taps.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beer_tap.JPG?width=960",
+   "caption": "Draught beer tap",
+   "source": "https://commons.wikimedia.org/wiki/File:Beer_tap.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Timber_Brewing_flight_of_beer.jpg?width=960",
+   "caption": "A flight of craft beers",
+   "source": "https://commons.wikimedia.org/wiki/File:Big_Timber_Brewing_flight_of_beer.jpg"
+  }
+ ],
+ "sports": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Football_match_in_cinema.jpg?width=960",
+   "caption": "Fans watching football on a big screen",
+   "source": "https://commons.wikimedia.org/wiki/File:Football_match_in_cinema.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Watching_football_match.JPG?width=960",
+   "caption": "Friends watching a football match",
+   "source": "https://commons.wikimedia.org/wiki/File:Watching_football_match.JPG"
+  }
+ ],
+ "club": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg?width=960",
+   "caption": "Live music on a lit stage",
+   "source": "https://commons.wikimedia.org/wiki/File:Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg"
+  }
+ ],
+ "hungarian": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%B6rk%C3%B6lt.jpg?width=960",
+   "caption": "Pörkölt with nokedli",
+   "source": "https://commons.wikimedia.org/wiki/File:P%C3%B6rk%C3%B6lt.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?width=960",
+   "caption": "Beef pörkölt with nokedli",
+   "source": "https://commons.wikimedia.org/wiki/File:V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg?width=960",
+   "caption": "Hungarian goulash and paprikás",
+   "source": "https://commons.wikimedia.org/wiki/File:2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg"
+  }
+ ],
+ "burger": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Homemade_Cheeseburger.JPG?width=960",
+   "caption": "A cheeseburger",
+   "source": "https://commons.wikimedia.org/wiki/File:Homemade_Cheeseburger.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Burger_et_frites_douala.jpg?width=960",
+   "caption": "Burger and chips",
+   "source": "https://commons.wikimedia.org/wiki/File:Burger_et_frites_douala.jpg"
+  }
+ ],
+ "steak": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grilled_flank_steak.jpg?width=960",
+   "caption": "Grilled steak, sliced",
+   "source": "https://commons.wikimedia.org/wiki/File:Grilled_flank_steak.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rib_eye_steak_-_400_gr.JPG?width=960",
+   "caption": "Barbecued rib-eye steak",
+   "source": "https://commons.wikimedia.org/wiki/File:Rib_eye_steak_-_400_gr.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steak_auf_Grill.jpg?width=960",
+   "caption": "Steak on the grill",
+   "source": "https://commons.wikimedia.org/wiki/File:Steak_auf_Grill.jpg"
+  }
+ ],
+ "pizza": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Margherita_Pizza.jpg?width=960",
+   "caption": "A Margherita pizza",
+   "source": "https://commons.wikimedia.org/wiki/File:Margherita_Pizza.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza_Margherita_stu_spivack.jpg?width=960",
+   "caption": "Pizza Margherita",
+   "source": "https://commons.wikimedia.org/wiki/File:Pizza_Margherita_stu_spivack.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eq_it-na_pizza-margherita_sep2005_sml.jpg?width=960",
+   "caption": "A Neapolitan pizza",
+   "source": "https://commons.wikimedia.org/wiki/File:Eq_it-na_pizza-margherita_sep2005_sml.jpg"
+  }
+ ],
+ "finedining": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Apricot_dessert_and_its_garnish.jpg?width=960",
+   "caption": "A plated apricot dessert",
+   "source": "https://commons.wikimedia.org/wiki/File:Apricot_dessert_and_its_garnish.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cuisine_Trois_%C3%A9toiles.jpg?width=960",
+   "caption": "A fine-dining plate",
+   "source": "https://commons.wikimedia.org/wiki/File:Cuisine_Trois_%C3%A9toiles.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Minestrone_de_mangue_%C3%A0_la_coriandre%2C_lait_de_coco_et_ananas_Michelin_star_restaurant.jpg?width=960",
+   "caption": "A plated tasting-menu course",
+   "source": "https://commons.wikimedia.org/wiki/File:Minestrone_de_mangue_%C3%A0_la_coriandre,_lait_de_coco_et_ananas_Michelin_star_restaurant.jpg"
+  }
+ ],
+ "cafe": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
+   "caption": "Cappuccino and breakfast",
+   "source": "https://commons.wikimedia.org/wiki/File:Breakfast_on_a_table_(Unsplash).jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
+   "caption": "Coffee and a croissant",
+   "source": "https://commons.wikimedia.org/wiki/File:Morning-breakfast-croissant_(24244330501).jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "caption": "Coffee and croissant",
+   "source": "https://commons.wikimedia.org/wiki/File:Cafe_croissant.jpg"
+  }
+ ],
+ "sweets": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%BCrt%C5%91skal%C3%A1cs_Christmas_market._Budapest.jpg?width=960",
+   "caption": "Kürtőskalács at a Budapest market",
+   "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs_Christmas_market._Budapest.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Pretzels_%28Perec%29%2C_Cheese_Rolls_%28Sajtos_rolo%29_and_Kurtoskalacs_at_the_Budapest.jpg?width=960",
+   "caption": "Hungarian pastries and kürtőskalács",
+   "source": "https://commons.wikimedia.org/wiki/File:Hungarian_Pretzels_(Perec),_Cheese_Rolls_(Sajtos_rolo)_and_Kurtoskalacs_at_the_Budapest.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg?width=960",
+   "caption": "Kürtőskalács chimney cake",
+   "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_(7885647654).jpg"
+  }
+ ],
+ "shooting": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shooting_range_near_Pittsburgh_-_inside_4.JPG?width=960",
+   "caption": "Inside an indoor shooting range",
+   "source": "https://commons.wikimedia.org/wiki/File:Shooting_range_near_Pittsburgh_-_inside_4.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/25m_shooting_range_Pilsen.jpg?width=960",
+   "caption": "A 25 m shooting range",
+   "source": "https://commons.wikimedia.org/wiki/File:25m_shooting_range_Pilsen.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trap_shooting_range.JPG?width=960",
+   "caption": "A trap shooting range",
+   "source": "https://commons.wikimedia.org/wiki/File:Trap_shooting_range.JPG"
+  }
+ ],
+ "adventure": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escaperoom.jpg?width=960",
+   "caption": "An escape room",
+   "source": "https://commons.wikimedia.org/wiki/File:Escaperoom.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escape_Room_by_Midgaard_Event.jpg?width=960",
+   "caption": "Escape room puzzle set",
+   "source": "https://commons.wikimedia.org/wiki/File:Escape_Room_by_Midgaard_Event.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
+   "caption": "Axe throwing game",
+   "source": "https://commons.wikimedia.org/wiki/File:Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG"
+  }
+ ],
+ "palinka": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20190110_p%C3%A1link%C3%A1s_szett.jpg?width=960",
+   "caption": "A pálinka set",
+   "source": "https://commons.wikimedia.org/wiki/File:20190110_p%C3%A1link%C3%A1s_szett.jpg"
+  }
+ ]
+}
