@@ -229,6 +229,7 @@
     { id: 'must', label: 'Must-sees', icon: 'award', test: (p) => !!p.must },
     { id: 'near', label: 'Near the Airbnb', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed },
     { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
+    { id: 'eat', label: 'Food', icon: 'utensils', test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },
     { id: 'bars', label: 'All bars', icon: 'beer', test: (p) => is(p, 'bar') },
@@ -237,9 +238,7 @@
     { id: 'rooftops', label: 'Rooftops & cocktails', icon: 'martini', test: (p) => p.type === 'bar' && hasAny(p, ['cocktail', 'rooftop', 'speakeasy']) },
     { id: 'late', label: 'Late & clubs', icon: 'moon', test: (p) => is(p, 'bar') && hasAny(p, ['club', 'late-night']) },
     { id: 'sports', label: 'Sports & beer', icon: 'tv', test: (p) => p.type === 'bar' && hasAny(p, ['sports', 'craft-beer']) },
-    { id: 'eat', label: 'Eat', icon: 'utensils', test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
     { id: 'coffee', label: 'Best coffee', icon: 'coffee', test: (p) => has(p, 'coffee') },
-    { id: 'dishes', label: 'Must-try food', icon: 'soup', dishes: true, test: (p) => dishPlaceIds.has(p.id) },
     { id: 'history', label: 'History', icon: 'landmark', test: (p) => is(p, 'sight') },
     { id: 'baths', label: 'Baths', icon: 'waves', test: (p) => p.type === 'bath' },
     { id: 'do', label: 'Things to do', icon: 'zap', test: (p) => p.type === 'activity' },
@@ -749,9 +748,9 @@
       ${rowSection('Rock bars', 'Sweaty basements, live covers and metal on the stereo', 'rock', C('rock'))}
       ${rowSection('Ruin bars', 'Derelict buildings full of bars. Budapest invented them.', 'ruin', C('ruin'))}
       ${rowSection('Odd bars', 'Speakeasies, magic and pubs in old shops', 'odd', C('odd'))}
-      ${rowSection('Eat', 'Goulash canteens, Michelin dinners and 3am burgers', 'eat', C('eat'))}
+      ${rowSection('Food', 'Goulash canteens, Michelin dinners and 3am burgers, all on the map', 'eat', C('eat'))}
       <section class="section">
-        <div class="section-head"><div><h2>Must-try food & drink</h2><p>Order these at least once</p></div><button type="button" class="see-all" data-cat="dishes">See all</button></div>
+        <div class="section-head"><div><h2>What to eat & drink</h2><p>Order these at least once. Tap a place to find it</p></div><a class="see-all" href="#/info" data-act="goto-food-info">See all</a></div>
         <div class="row">${dishes.map(dishCard).join('')}</div>
       </section>
       ${rowSection('History', 'Castles, bunkers and the 20th century’s worst bits', 'history', C('history'))}
@@ -940,6 +939,7 @@
         ${P('safety')}
         ${P('emergency')}
         ${P('plugs-and-misc')}
+        ${acc('food', 'soup', 'What to eat & drink', `${D.dishes.length} things to try, and where to find them`, `<div class="dish-list">${D.dishes.map(dishCard).join('')}</div>`, isOpen('food', false))}
         ${acc('phrases', 'chat', 'Say it in Hungarian', 'Egészségedre and friends', phrases, isOpen('phrases', false))}
         ${events ? acc('whatson', 'calendar', 'What else is on', '15–18 Oct', events, isOpen('whatson', false)) : ''}
         ${acc('homescreen', 'bookmark', 'Put it on your home screen', 'Works like an app, even offline', homeScreen, isOpen('homescreen', false))}
@@ -1690,9 +1690,15 @@
       syncMarkers({ fit: desktopMQ.matches && mapReady });
     }
   }
+  function openInfoSection(id) {
+    history.replaceState(null, '', '#/info');
+    setTab('info');
+    setTimeout(() => { const d = $('#info-' + id); if (d) { d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'start' }); } }, 60);
+  }
   let booted = false;
   function route() {
     const [a, b] = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
+    if (a === 'c' && b === 'dishes') { openInfoSection('food'); return; } // old links to the dish tips
     if (a === 'p' && b && byId.has(b)) {
       if (!booted) setTab('explore');
       openDetail(b, { pushed: booted });
@@ -1794,11 +1800,10 @@
       case 'base-cancel': baseDropMode = false; $('#mapBanner').hidden = true; break;
       case 'base-clear': clearBase(); break;
       case 'goto-base-info':
+      case 'goto-food-info':
         e.preventDefault();
         closeDetailUI();
-        history.replaceState(null, '', '#/info');
-        setTab('info');
-        setTimeout(() => { const d = $('#info-base'); if (d) { d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'start' }); } }, 60);
+        openInfoSection(act === 'goto-food-info' ? 'food' : 'base');
         break;
     }
   });

@@ -961,3 +961,11 @@ p { margin: 0; }
   .sheet { transform: none; opacity: 0; }
   .sheet-root.is-open .sheet { transform: none; opacity: 1; }
 }
+/* dish tips in the Info tab: compact rows, photo on the left */
+.dish-list { display: grid; gap: 10px; }
+.dish-list .dish { display: grid; grid-template-columns: 92px 1fr; align-items: start; }
+.dish-list .dish .card-media { aspect-ratio: 1; height: 100%; min-height: 92px; }
+.dish-list .dish .ph-top, .dish-list .dish .ph-name, .dish-list .dish .media-note { display: none; }
+.dish-list .dish-body { padding: 10px 12px 12px; gap: 3px; }
+.dish-list .dish-name { font-size: 20px; }
+.dish-list .dish-what { font-size: 13.5px; line-height: 1.4; }
