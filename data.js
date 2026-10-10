@@ -11,11 +11,25 @@ window.BB_DATA = {
   "airportBy": "2026-10-18T14:45:00+02:00"
  },
  "crew": [
-  "Aaron",
-  "Chris",
   "Phil",
-  "Filippo"
+  "Chris",
+  "Paul"
  ],
+ "flights": {
+  "_readme": "Fill in number (e.g. \"FR1234\") and from/to airport. The app shows them on the plan with a live tracking link.",
+  "out": {
+   "number": null,
+   "from": null,
+   "lands": "12:20",
+   "date": "2026-10-15"
+  },
+  "home": {
+   "number": null,
+   "to": null,
+   "departs": null,
+   "date": "2026-10-18"
+  }
+ },
  "base": {
   "name": "The Airbnb",
   "address": null,
@@ -35,26 +49,26 @@ window.BB_DATA = {
     {
      "time": "12:20",
      "title": "Land at Budapest Airport",
-     "sub": "Terminal 2. Aaron's arrival time TBC.",
+     "sub": "Terminal 2. Aaron lands at a different time, TBC.",
      "ref": "airport",
-     "who": "all",
      "booked": true,
-     "kind": "travel"
+     "kind": "travel",
+     "flight": "out"
     },
     {
      "time": "21:00",
      "title": "Ferencváros v Viktoria Plzeň",
      "sub": "Europa League at Groupama Aréna. Kick-off 21:00 (20:00 UK).",
      "ref": "fradi-plzen",
+     "booked": true,
+     "kind": "event",
      "who": {
       "only": [
-       "Aaron",
+       "Phil",
        "Chris",
-       "Phil"
+       "Paul"
       ]
-     },
-     "booked": true,
-     "kind": "event"
+     }
     }
    ]
   },
@@ -68,11 +82,6 @@ window.BB_DATA = {
      "title": "Go-karting at the Hungaroring",
      "sub": "Hungaroring GoKart Center, Mogyoród.",
      "ref": "karting-hungaroring",
-     "who": {
-      "except": [
-       "Filippo"
-      ]
-     },
      "booked": true,
      "kind": "event"
     },
@@ -81,7 +90,6 @@ window.BB_DATA = {
      "title": "Gates open at MTK",
      "sub": "Új Hidegkuti Nándor Stadion.",
      "ref": "mtk-vasas",
-     "who": "all",
      "booked": true,
      "kind": "event"
     },
@@ -90,7 +98,6 @@ window.BB_DATA = {
      "title": "MTK Budapest v Vasas",
      "sub": "NB I. Kick-off 19:00 (18:00 UK).",
      "ref": "mtk-vasas",
-     "who": "all",
      "booked": true,
      "kind": "event"
     }
@@ -112,9 +119,9 @@ window.BB_DATA = {
      "title": "Be at Budapest Airport",
      "sub": "Terminal 2, no later than 14:45.",
      "ref": "airport",
-     "who": "all",
      "booked": true,
-     "kind": "travel"
+     "kind": "travel",
+     "flight": "home"
     }
    ]
   }
@@ -134,9 +141,9 @@ window.BB_DATA = {
    "end": "23:00",
    "who": {
     "only": [
-     "Aaron",
+     "Phil",
      "Chris",
-     "Phil"
+     "Paul"
     ]
    },
    "venue": "Groupama Aréna (Albert Flórián Stadion)",
@@ -177,11 +184,7 @@ window.BB_DATA = {
    "start": "12:00",
    "arriveFrom": null,
    "end": "13:30",
-   "who": {
-    "except": [
-     "Filippo"
-    ]
-   },
+   "who": "all",
    "venue": "Hungaroring GoKart Center (Hungaroring Kart Center)",
    "address": "Hungaroring út 10, 2146 Mogyoród",
    "lat": 47.5808,

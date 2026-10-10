@@ -403,7 +403,7 @@
       const d = at(p.date, p.start || '00:00');
       lines.push(`<p class="card-line"><b>${esc(DAY_FMT.format(d))} · ${esc(p.start || 'TBC')}</b></p>`);
       lines.push(`<p class="card-line">${esc(p.venue)}</p>`);
-      lines.push(`<p class="card-line">${esc(whoLabel(p.who))}</p>`);
+      if (whoLabel(p.who)) lines.push(`<p class="card-line">${esc(whoLabel(p.who))}</p>`);
       return lines.join('');
     }
     if (p.type === 'base') {
@@ -443,7 +443,7 @@
 
   /* ---------------- who ---------------- */
   function whoLabel(who) {
-    if (!who || who === 'all') return 'Everyone';
+    if (!who || who === 'all') return '';
     if (who.only) return who.only.length === 1 ? `Just ${who.only[0]}` : who.only.slice(0, -1).join(', ') + ' & ' + who.only.at(-1);
     if (who.except) return `Everyone but ${who.except.join(' & ')}`;
     return '';
@@ -453,6 +453,23 @@
     if (who.only) return who.only.includes(me);
     if (who.except) return !who.except.includes(me);
     return true;
+  }
+
+  /* ---------------- flights ---------------- */
+  const FL = D.flights || {};
+  const flightOf = (it) => (it.flight ? FL[it.flight] : null);
+  const trackUrl = (n) => 'https://www.flightradar24.com/data/flights/' + encodeURIComponent(String(n).replace(/\s+/g, '').toLowerCase());
+  function flightChip(it) {
+    const f = flightOf(it);
+    if (!f) return '';
+    if (!f.number) return `<span class="badge badge-idea">${icon('plane', 'ic-sm')}Flight no. TBC</span>`;
+    return `<a class="badge badge-flight" href="${esc(trackUrl(f.number))}" target="_blank" rel="noopener">${icon('plane', 'ic-sm')}${esc(f.number)}</a>`;
+  }
+  function flightLine(f, dir) {
+    if (!f?.number) return null;
+    const where = dir === 'out' ? (f.from ? ` from ${f.from}` : '') : (f.to ? ` to ${f.to}` : '');
+    const when = dir === 'out' ? (f.lands ? `, lands ${f.lands}` : '') : (f.departs ? `, departs ${f.departs}` : '');
+    return `${f.number}${where}${when}`;
   }
 
   /* ---------------- plan timeline helpers ---------------- */
@@ -750,7 +767,8 @@
             <div class="tl-meta">
               ${it.booked ? '<span class="badge badge-booked">Booked</span>' : it.kind === 'idea' ? '<span class="badge badge-idea">Idea</span>' : ''}
               ${wx ? `<span class="badge badge-wx">${icon(WMO(wx.code).i, 'ic-sm')}${wx.temp}°${wx.rain != null ? ` · ${wx.rain}% rain` : ''}</span>` : ''}
-              <span class="who">${icon('users')}${esc(whoLabel(it.who))}${!mine && me ? ' · not you' : ''}</span>
+              ${whoLabel(it.who) ? `<span class="who">${icon('users')}${esc(whoLabel(it.who))}</span>` : ''}
+              ${flightChip(it)}
             </div>
             ${links.length ? `<div class="tl-links">${links.join('')}</div>` : ''}
           </div>
@@ -762,13 +780,12 @@
         ${items ? `<ol class="tl">${items}</ol>` : '<p class="tl-empty">Nothing booked.</p>'}
       </section>`;
     }).join('');
-    const nextCard = nx ? `<div class="next-card"><small>${nx.live ? 'Happening now' : 'Next up for ' + esc(me && me !== 'Someone else' ? me : 'the crew')}</small><strong>${esc(nx.item.title)}</strong><span>${esc(DAY_FMT.format(nx.item.at))} at ${esc(nx.item.time)}${nx.live ? '' : ` · in ${esc(untilText(nx.item.at))}`}</span></div>` : '';
+    const nextCard = nx ? `<div class="next-card"><small>${nx.live ? 'Happening now' : 'Next up'}</small><strong>${esc(nx.item.title)}</strong><span>${esc(DAY_FMT.format(nx.item.at))} at ${esc(nx.item.time)}${nx.live ? '' : ` · in ${esc(untilText(nx.item.at))}`}</span></div>` : '';
     pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Thu 15 – Sun 18 Oct. All times are Budapest time, one hour ahead of the UK.</p></header>
-      <div class="whoami"><p class="whoami-label">Who are you? Your stuff gets highlighted.</p>
-        <div class="chip-row">${crew.map((n) => `<button type="button" class="chip" data-me="${esc(n)}" aria-pressed="${me === n}">${esc(n)}</button>`).join('')}</div></div>
+
       ${nextCard}
       ${days}
-      <p class="small-print">Only what's booked and paid for. Kick-off times come from your bookings and the club sites; check them again on the day.</p>`;
+      <p class="small-print">Only what's booked and paid for. Kick-off times come from your bookings and the club sites; check them again on the day. Tap a flight number to track it live.</p>`;
     if (keepScroll) window.scrollTo({ top: y });
   }
 
@@ -828,7 +845,7 @@
       ${B.links.web ? `<a href="${esc(B.links.web)}" target="_blank" rel="noopener">Open the Airbnb listing ${icon('ext', 'ic-sm')}</a>` : ''}`;
 
     const A = AIRPORT;
-    const airportBody = `<dl class="kv"><dt>Land</dt><dd>${esc(A.arrival)}</dd><dt>Fly home</dt><dd>${esc(A.departure)}</dd></dl>
+    const airportBody = `<dl class="kv"><dt>Flight out</dt><dd>${esc(flightLine(FL.out, 'out') || 'Number TBC')}</dd><dt>Flight home</dt><dd>${esc(flightLine(FL.home, 'home') || 'Number TBC')}</dd><dt>Land</dt><dd>${esc(A.arrival)}</dd><dt>Fly home</dt><dd>${esc(A.departure)}</dd></dl>
       ${A.options.map((o) => `<div><h3>${esc(o.name)}</h3><p>${esc(o.price)}. ${esc(o.time)}. ${esc(o.howToPay)}</p></div>`).join('')}
       <div class="callout">${icon('clock')}<div><strong>Sunday leave-by</strong>${esc(A.leaveBy)}</div></div>`;
 
@@ -904,7 +921,7 @@
         <div><small>${p.id.includes('kart') ? 'Start' : 'Kick-off'}</small><b>${esc(p.start || 'TBC')}</b><span>${p.start ? esc(ukTime(p.start)) + ' UK' : ''}</span></div>
         <div><small>${p.arriveFrom ? (p.id.includes('kart') ? 'Arrive' : 'Doors') : 'Weather'}</small><b>${esc(p.arriveFrom || (wx ? wx.temp + '°' : '–'))}</b><span>${p.arriveFrom ? 'be there' : wx ? esc(WMO(wx.code).t) : 'forecast soon'}</span></div>
       </div>`);
-      parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
+      if (whoLabel(p.who)) parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
     }
     if (p.type === 'base') {
       if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>This is where the flat shows on the Airbnb map${p.near ? `, beside ${esc(p.near)}` : ''}. The exact address comes later. Distances in the app are measured from this spot.</div></div>`);
@@ -938,6 +955,9 @@
       if (p.rules) facts.push(fact('shield', 'Rules & entry', p.rules));
       facts.push(fact('pin', 'Venue', `${p.venue}${p.address ? ', ' + p.address : ''}`, true));
     } else if (p.type === 'travel') {
+      const fo = flightLine(FL.out, 'out'), fh = flightLine(FL.home, 'home');
+      facts.push(fact('plane', 'Flight out', fo || 'Flight number TBC'));
+      facts.push(fact('plane', 'Flight home', fh || 'Flight number TBC'));
       facts.push(fact('plane', 'Arrival', p.arrival));
       facts.push(fact('clock', 'Departure', `${p.departure} ${p.leaveBy || ''}`));
       for (const o of p.options || []) facts.push(fact('car', o.name, `${o.price}. ${o.time}. ${o.howToPay}`));

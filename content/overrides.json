@@ -170,7 +170,8 @@
       "pick": true
     },
     "karting-hungaroring": {
-      "arriveFrom": null
+      "arriveFrom": null,
+      "who": "all"
     },
     "szimpla-kert": {
       "pick": true
@@ -195,6 +196,15 @@
     },
     "elesztohaz": {
       "pick": true
+    },
+    "fradi-plzen": {
+      "who": {
+        "only": [
+          "Phil",
+          "Chris",
+          "Paul"
+        ]
+      }
     }
   }
 }
