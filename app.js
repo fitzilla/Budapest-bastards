@@ -223,7 +223,7 @@
     { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },
-    { id: 'bars', label: 'All bars', icon: 'beer', test: (p) => is(p, 'bar') && !has(p, 'strip') },
+    { id: 'bars', label: 'All bars', icon: 'beer', test: (p) => is(p, 'bar') },
     { id: 'ruin', label: 'Ruin bars', icon: 'brick', test: (p) => is(p, 'bar') && has(p, 'ruin-bar') },
     { id: 'odd', label: 'Odd bars', icon: 'sparkles', test: (p) => p.type === 'bar' && hasAny(p, ['quirky', 'speakeasy', 'games']) },
     { id: 'rooftops', label: 'Rooftops & cocktails', icon: 'martini', test: (p) => p.type === 'bar' && hasAny(p, ['cocktail', 'rooftop', 'speakeasy']) },
@@ -234,7 +234,6 @@
     { id: 'history', label: 'History', icon: 'landmark', test: (p) => is(p, 'sight') },
     { id: 'baths', label: 'Baths', icon: 'waves', test: (p) => p.type === 'bath' },
     { id: 'do', label: 'Things to do', icon: 'zap', test: (p) => p.type === 'activity' },
-    { id: 'strip', label: 'Strip clubs', icon: 'eighteen', warn: true, test: (p) => p.type === 'bar' && has(p, 'strip') },
   ];
   const catById = new Map(CATS.map((c) => [c.id, c]));
 
@@ -709,10 +708,6 @@
       const n = cat.dishes ? dishes.length : items.length;
       head = `<div><h1>${esc(cat.label)}</h1><p>${cat.dishes ? plural(n, 'thing') + ' to eat and drink' : plural(n, 'place')}${cat.dishes ? '' : ` · ${esc(state.filters.sort === 'near' ? 'nearest first' : 'distances from ' + origin().label)}`}</p></div>`;
     }
-    if (cat?.id === 'strip') {
-      intro = `<div class="callout is-warn" style="margin-top:16px">${icon('alert')}<div><strong>We’re not listing any.</strong>${esc(D.stripWarning)}</div></div>
-      <p class="muted" style="margin-top:14px;font-size:14px">The research turned up no Budapest strip club with transparent prices and recent clean reviews, so this list is empty on purpose. The UK Foreign Office warns about the same scam. Find a rock bar instead.</p>`;
-    }
     if (cat?.id === 'booked') {
       intro = `<p class="muted" style="margin-top:10px;font-size:14px">Everything here is booked and paid for. The full timeline is in <a href="#/plans">The plan</a>.</p>`;
     }
@@ -722,13 +717,13 @@
     const chips = quickChips(cat);
     let body;
     if (cat?.dishes) body = `<div class="grid">${dishes.map(dishCard).join('')}</div>`;
-    else if (!items.length && !dishes.length && cat?.id !== 'strip') body = `<div class="empty">${icon('search')}<h2>Nothing matches</h2><p>Try fewer filters, or search for something else.</p><button type="button" class="btn btn-line" data-act="clear-filters">Clear filters</button></div>`;
+    else if (!items.length && !dishes.length) body = `<div class="empty">${icon('search')}<h2>Nothing matches</h2><p>Try fewer filters, or search for something else.</p><button type="button" class="btn btn-line" data-act="clear-filters">Clear filters</button></div>`;
     else body = (dishes.length && q ? `<div class="grid">${dishes.map(dishCard).join('')}</div>` : '') + `<div class="grid">${items.map((p) => card(p, { long: true })).join('')}</div>`;
     return `<div><div class="list-head">${head}</div>${chips}${intro}${body}</div>`;
   }
 
   function quickChips(cat) {
-    if (!cat || cat.dishes || cat.id === 'strip' || cat.id === 'booked') return '';
+    if (!cat || cat.dishes || cat.id === 'booked') return '';
     const pool = allItems().filter(cat.test);
     const counts = new Map();
     for (const p of pool) for (const t of p.tags || []) if (!HIDDEN_TAGS.has(t)) counts.set(t, (counts.get(t) || 0) + 1);
@@ -857,7 +852,6 @@
     const practical = D.practical.map((s) => {
       let body = s.items.map((it) => `<div><h3>${esc(it.title)}</h3><p>${esc(it.body)}${it.link ? ` <a href="${esc(it.link)}" target="_blank" rel="noopener">Source</a>` : ''}</p></div>`).join('');
       if (s.id === 'taxis') body = `<div class="callout">${icon('car')}<div><strong>Get these apps before you fly</strong>Bolt (cheapest, upfront prices), Uber (which now books licensed Főtaxi cars) and BudapestGO for tram and metro tickets.</div></div>` + body;
-      if (s.id === 'safety') body += `<div class="callout is-warn">${icon('alert')}<div><strong>Strip clubs</strong>${esc(D.stripWarning)}</div></div>`;
       return { id: s.id, html: acc(s.id, PRACT_ICON[s.id] || 'info', s.title, null, body, isOpen(s.id, false)) };
     });
     const P = (id) => practical.find((x) => x.id === id)?.html || '';
@@ -1332,7 +1326,6 @@
     }
     if (state.tab === 'faves') return new Set([...state.faves, ...always]);
     if (state.tab === 'info') return new Set([...EVENTS.map((e) => e.id), 'airport', 'base']);
-    if (state.cat === 'strip' && !state.q) return new Set(always);
     return new Set([...results().map((p) => p.id), ...always]);
   }
   function syncMarkers({ fit = false } = {}) {
