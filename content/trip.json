@@ -9,11 +9,6 @@
     "landing": "2026-10-15T12:20:00+02:00",
     "airportBy": "2026-10-18T14:45:00+02:00"
   },
-  "crew": [
-    "Phil",
-    "Chris",
-    "Paul"
-  ],
   "base": {
     "name": "The Airbnb",
     "address": null,
@@ -21,7 +16,7 @@
     "lng": 19.0664,
     "checkIn": null,
     "listing": "https://www.airbnb.co.uk/rooms/35732548",
-    "note": "Rough spot from the Airbnb map: beside Lemezkuckó record shop on Király utca, by the Király utca tram stop (trams 4 and 6). The exact address comes once Aaron has it.",
+    "note": "Rough spot from the Airbnb map: beside Lemezkuckó record shop on Király utca, by the Király utca tram stop (trams 4 and 6). The exact address comes later.",
     "near": "Lemezkuckó record shop (Király utca 67)"
   },
   "plan": [
@@ -33,7 +28,7 @@
         {
           "time": "12:20",
           "title": "Land at Budapest Airport",
-          "sub": "Terminal 2. Aaron lands at a different time, TBC.",
+          "sub": "Terminal 2.",
           "ref": "airport",
           "booked": true,
           "kind": "travel",

@@ -1,6 +1,6 @@
 // Offline support: app shell is network-first (so updates land straight away), map tiles,
 // fonts and photos are cached as you browse so the map still works with patchy roaming.
-const VERSION = 'bb-v2';
+const VERSION = 'bb-v3';
 const SHELL = [
   './', './index.html', './styles.css', './app.js', './data.js',
   './vendor/maplibre-gl.js', './vendor/maplibre-gl.css', './vendor/fonts.css',
@@ -34,7 +34,8 @@ self.addEventListener('fetch', (e) => {
   if (url.origin === self.location.origin) {
     e.respondWith((async () => {
       try {
-        const res = await fetch(req);
+        // revalidate with the server every time so a fresh push shows up on the next open
+        const res = await fetch(req, { cache: 'no-cache' });
         if (res.ok) (await caches.open(VERSION)).put(req, res.clone());
         return res;
       } catch {

@@ -242,7 +242,6 @@ const practical = R.events.practical.map(({ emoji, ...s }) => s);
 const out = {
   built: new Date().toISOString().slice(0, 10),
   trip: trip.trip,
-  crew: trip.crew,
   flights: trip.flights || null,
   base: trip.base,
   plan: trip.plan,

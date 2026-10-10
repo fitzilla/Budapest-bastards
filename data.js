@@ -10,11 +10,6 @@ window.BB_DATA = {
   "landing": "2026-10-15T12:20:00+02:00",
   "airportBy": "2026-10-18T14:45:00+02:00"
  },
- "crew": [
-  "Phil",
-  "Chris",
-  "Paul"
- ],
  "flights": {
   "_readme": "Fill in number (e.g. \"FR1234\") and from/to airport. The app shows them on the plan with a live tracking link.",
   "out": {
@@ -36,7 +31,7 @@ window.BB_DATA = {
   "lng": 19.0664,
   "checkIn": null,
   "listing": "https://www.airbnb.co.uk/rooms/35732548",
-  "note": "Rough spot from the Airbnb map: beside Lemezkuckó record shop on Király utca, by the Király utca tram stop (trams 4 and 6). The exact address comes once Aaron has it.",
+  "note": "Rough spot from the Airbnb map: beside Lemezkuckó record shop on Király utca, by the Király utca tram stop (trams 4 and 6). The exact address comes later.",
   "near": "Lemezkuckó record shop (Király utca 67)"
  },
  "plan": [
@@ -48,7 +43,7 @@ window.BB_DATA = {
     {
      "time": "12:20",
      "title": "Land at Budapest Airport",
-     "sub": "Terminal 2. Aaron lands at a different time, TBC.",
+     "sub": "Terminal 2.",
      "ref": "airport",
      "booked": true,
      "kind": "travel",

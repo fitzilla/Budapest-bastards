@@ -613,8 +613,6 @@ p { margin: 0; }
 .page-head p { color: var(--ink-2); margin-top: 6px; font-size: 14.5px; }
 
 /* who am I */
-.whoami { margin-top: 18px; }
-.whoami-label { font-size: 13px; font-weight: 600; color: var(--ink-2); margin-bottom: 8px; }
 
 /* now / next */
 .next-card {
@@ -658,8 +656,6 @@ p { margin: 0; }
 .who { display: inline-flex; align-items: center; gap: 4px; font-size: 12.5px; color: var(--ink-2); font-weight: 600; }
 .who .ic { width: 15px; height: 15px; }
 .tl-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-.tl-item.is-notme .tl-title, .tl-item.is-notme .tl-sub { opacity: .45; }
-.tl-item.is-notme .tl-dot { opacity: .5; }
 .tl-item.is-past { opacity: .55; }
 .tl-empty { margin-top: 8px; padding: 14px 16px; border-radius: 14px; background: var(--paper-2); color: var(--ink-2); font-size: 14.5px; }
 

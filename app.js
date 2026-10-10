@@ -246,7 +246,6 @@
     view: 'list',
     filters: { tags: new Set(), price: new Set(), late: false, rated: false, sort: 'rec' },
     selected: null,
-    me: store.get('me', null),
     faves: new Set(store.get('faves', [])),
     userLoc: null,
     onlyFaves: false,
@@ -448,12 +447,6 @@
     if (who.except) return `Everyone but ${who.except.join(' & ')}`;
     return '';
   }
-  function whoIncludes(who, me) {
-    if (!me || !who || who === 'all') return true;
-    if (who.only) return who.only.includes(me);
-    if (who.except) return !who.except.includes(me);
-    return true;
-  }
 
   /* ---------------- trip times (one source: content/trip.json) ---------------- */
   const hm = (iso) => String(iso || '').slice(11, 16);
@@ -480,7 +473,7 @@
   const PLAN = D.plan.flatMap((day) => day.items.map((it, i) => ({ ...it, date: day.date, at: at(day.date, it.time), key: `${day.date}-${i}` })));
   function nextUp() {
     const t = now().getTime();
-    const mine = PLAN.filter((it) => whoIncludes(it.who, state.me) && (it.booked || it.kind === 'travel'));
+    const mine = PLAN.filter((it) => it.booked || it.kind === 'travel');
     // something booked that started in the last 100 minutes counts as "now"
     const live = mine.find((it) => it.booked && it.at.getTime() <= t && t - it.at.getTime() < 100 * 60e3);
     if (live) return { item: live, live: true };
@@ -744,8 +737,6 @@
     const pane = $('#pane-plans');
     const y = window.scrollY;
     const t = now().getTime();
-    const me = state.me;
-    const crew = [...D.crew, 'Someone else'];
     const nx = nextUp();
     const days = D.plan.map((day) => {
       const w = wxDay(day.date);
@@ -753,7 +744,6 @@
       const items = PLAN.filter((it) => it.date === day.date).map((it) => {
         const ref = it.ref ? byId.get(it.ref) : null;
         const refs = (it.refs || []).map((id) => byId.get(id)).filter(Boolean);
-        const mine = whoIncludes(it.who, me);
         const past = it.at.getTime() + 90 * 60e3 < t;
         const live = nx?.item.key === it.key && nx.live;
         const wx = it.booked && it.kind === 'event' ? wxAt(it.date, it.time) : null;
@@ -762,7 +752,7 @@
         if (ref && ref.id === 'base') links.push(`<a class="chip chip-sm" href="#/p/base">${icon('home', 'ic-sm')}The Airbnb</a>`);
         if (ref && ref.lat != null && !ref.hidePin) links.push(`<a class="chip chip-sm" href="${esc(gdirUrl(ref))}" target="_blank" rel="noopener">${icon('nav', 'ic-sm')}Directions</a>`);
         for (const r of refs) links.push(`<a class="chip chip-sm" href="#/p/${esc(r.id)}">${esc(r.name)}</a>`);
-        return `<li class="tl-item${it.booked ? ' is-booked' : ''}${it.kind === 'travel' ? ' is-travel' : ''}${mine ? '' : ' is-notme'}${past ? ' is-past' : ''}${live ? ' is-now' : ''}">
+        return `<li class="tl-item${it.booked ? ' is-booked' : ''}${it.kind === 'travel' ? ' is-travel' : ''}${past ? ' is-past' : ''}${live ? ' is-now' : ''}">
           <time class="tl-time" datetime="${it.at.toISOString()}">${esc(it.time)}</time>
           <span class="tl-dot" aria-hidden="true"></span>
           <div class="tl-body">
@@ -1629,12 +1619,6 @@
     if (!t) return;
     if (t.dataset.fav) { e.preventDefault(); e.stopPropagation(); toggleFav(t.dataset.fav, t); return; }
     if (t.dataset.cat) { setCat(t.dataset.cat); return; }
-    if (t.dataset.me) {
-      state.me = state.me === t.dataset.me ? null : t.dataset.me;
-      store.set('me', state.me);
-      renderPlans(true);
-      return;
-    }
     if (t.dataset.tag) {
       const f = state.filters.tags;
       f.has(t.dataset.tag) ? f.delete(t.dataset.tag) : f.add(t.dataset.tag);
@@ -1794,6 +1778,7 @@
   }, 60000);
 
   /* ---------------- boot ---------------- */
+  store.del('me'); // the old who-are-you picker; a saved name must not dim anyone's plan
   renderCats();
   updateFavCount();
   setView('list');
