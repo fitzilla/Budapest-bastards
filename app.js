@@ -280,9 +280,12 @@
 
   /* ---------------- ratings ---------------- */
   function score(p) { const r = p.rating || {}; return r.g ?? r.ta ?? null; }
+  function reviews(p) { const r = p.rating || {}; return r.g != null ? r.gN : r.taN; }
   function ratingBadge(p) {
     const s = score(p);
-    return s == null ? '' : `<span class="card-rating">${icon('star', 'ic-fill')}${s.toFixed(1)}</span>`;
+    if (s == null) return '';
+    const n = reviews(p);
+    return `<span class="card-rating">${icon('star', 'ic-fill')}${s.toFixed(1)}${n ? `<span class="card-rating-n">(${fmtInt(n)})</span>` : ''}</span>`;
   }
   const priceText = (n) => (n ? '£'.repeat(n) : '');
 
@@ -334,7 +337,7 @@
     if (p.type === 'event') return '<span class="card-badge is-booked">Booked</span>';
     if (p.closed) return '<span class="card-badge is-closed">Closed</span>';
     const r = p.rating || {};
-    if ((r.g ?? 0) >= 4.6 && (r.gN ?? 0) >= 1000) return '<span class="card-badge">Crowd favourite</span>';
+    if (((r.g ?? 0) >= 4.6 && (r.gN ?? 0) >= 1000) || ((r.ta ?? 0) >= 4.5 && (r.taN ?? 0) >= 2000)) return '<span class="card-badge">Crowd favourite</span>';
     if (has(p, 'sparty')) return '<span class="card-badge">Sat 17 Oct</span>';
     if (nearFlat(p)) return `<span class="card-badge">${walkMin(BASE, p) <= 5 ? 'On the doorstep' : 'Near the flat'}</span>`;
     return '';
@@ -507,7 +510,7 @@
     const sort = (cat.sort === 'time' || cat.sort === 'dist') && f.sort === 'rec' ? cat.sort : f.sort;
     if (sort === 'near' || sort === 'dist') list = list.slice().sort((a, b) => (distOf(a) ?? 1e9) - (distOf(b) ?? 1e9));
     else if (sort === 'az') list = list.slice().sort((a, b) => a.name.localeCompare(b.name, 'hu'));
-    else if (sort === 'top') list = list.slice().sort((a, b) => (score(b) ?? 0) - (score(a) ?? 0));
+    else if (sort === 'top') list = list.slice().sort((a, b) => (score(b) ?? 0) - (score(a) ?? 0) || (reviews(b) ?? 0) - (reviews(a) ?? 0));
     else if (sort === 'time') {
       const t = (p) => (p.type === 'event' ? at(p.date, p.start || '00:00').getTime() : p.type === 'travel' ? 0 : 1);
       list = list.slice().sort((a, b) => t(a) - t(b));
@@ -1017,7 +1020,7 @@
     const o = origin().label;
     $('#filterBody').innerHTML = `
       <section class="f-section"><h3>Sort</h3><p>Distances are measured from ${esc(o)}.</p>
-        <div class="seg" role="group" aria-label="Sort">${[['rec', 'Recommended'], ['near', 'Nearest'], ['az', 'A–Z']].map(([k, l]) => `<button type="button" data-sort="${k}" aria-pressed="${f.sort === k}">${l}</button>`).join('')}</div></section>
+        <div class="seg" role="group" aria-label="Sort">${[['rec', 'Recommended'], ['near', 'Nearest'], ['top', 'Top rated']].map(([k, l]) => `<button type="button" data-sort="${k}" aria-pressed="${f.sort === k}">${l}</button>`).join('')}</div></section>
       <section class="f-section"><h3>Price</h3><p>£ is cheap as chips. ££££ is a Michelin dinner.</p>
         <div class="chip-wrap">${[1, 2, 3, 4].map((n) => `<button type="button" class="chip" data-price="${n}" aria-pressed="${f.price.has(n)}">${'£'.repeat(n)}</button>`).join('')}</div></section>
       <section class="f-section"><h3>Quick ones</h3><p>Combine as many as you like.</p>
