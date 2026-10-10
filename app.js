@@ -1800,6 +1800,24 @@
   if (desktopMQ.matches) initMap();
   loadWeather();
   loadWikiImages();
+  // self-update: if the server has a newer build than this page, reload onto it (once per version)
+  const myVersion = document.querySelector('meta[name="bb-version"]')?.content;
+  async function checkForUpdate() {
+    if (!myVersion || myVersion === 'dev' || location.protocol !== 'https:') return;
+    try {
+      const r = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) return;
+      const { v } = await r.json();
+      if (v && v !== myVersion && sessionStorage.getItem('bb.reloadedFor') !== v) {
+        sessionStorage.setItem('bb.reloadedFor', v);
+        // a fresh URL skips every cache between here and GitHub
+        location.replace(`${location.pathname}?v=${encodeURIComponent(v)}${location.hash}`);
+      }
+    } catch { /* offline: carry on with what we have */ }
+  }
+  checkForUpdate();
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkForUpdate(); });
+
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     const hadController = !!navigator.serviceWorker.controller;
     let reloading = false;
