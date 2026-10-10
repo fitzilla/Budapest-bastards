@@ -1316,14 +1316,15 @@
   }
 
   /* fly the weekend */
+  const evLabel = (id) => { const e = byId.get(id); return e?.start ? `${WEEKDAY.format(at(e.date, e.start))} ${e.start}` : ''; };
   function startTour() {
     if (!mapReady) return;
     const stops = [
       { id: 'airport', label: 'Thu 12:20', title: 'Wheels down at BUD' },
       BASE.lat != null ? { id: 'base', label: 'Thu afternoon', title: 'Bags down at the Airbnb' } : null,
-      { id: 'fradi-plzen', label: 'Thu 21:00', title: 'Fradi v Plzeň at Groupama Aréna' },
-      { id: 'karting-hungaroring', label: 'Fri 12:00', title: 'Karting at the Hungaroring' },
-      { id: 'mtk-vasas', label: 'Fri 20:00', title: 'MTK v Vasas' },
+      { id: 'fradi-plzen', label: evLabel('fradi-plzen'), title: 'Fradi v Plzeň at Groupama Aréna' },
+      { id: 'karting-hungaroring', label: evLabel('karting-hungaroring'), title: 'Karting at the Hungaroring' },
+      { id: 'mtk-vasas', label: evLabel('mtk-vasas'), title: 'MTK v Vasas' },
       { id: 'szimpla-kert', label: 'Every night', title: 'The ruin bars of District VII' },
       { id: 'airport', label: 'Sun 14:45', title: 'Home, broken' },
     ].filter(Boolean).filter((s) => byId.get(s.id)?.lat != null);

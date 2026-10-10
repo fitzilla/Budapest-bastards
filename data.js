@@ -199,7 +199,7 @@ window.BB_DATA = {
      "kind": "idea"
     },
     {
-     "time": "17:30",
+     "time": "17:15",
      "title": "Head to the MTK ground",
      "sub": "Tram to the Hidegkuti Nándor Stadion stop, or a Bolt in 10–15 min. André Rieu is on at the MVM Dome, so traffic will be heavy.",
      "ref": "mtk-vasas",
@@ -216,16 +216,16 @@ window.BB_DATA = {
      "kind": "event"
     },
     {
-     "time": "20:00",
+     "time": "19:00",
      "title": "MTK Budapest v Vasas",
-     "sub": "NB I. Kick-off 20:00 (19:00 UK).",
+     "sub": "NB I. Kick-off 19:00 (18:00 UK).",
      "ref": "mtk-vasas",
      "who": "all",
      "booked": true,
      "kind": "event"
     },
     {
-     "time": "22:15",
+     "time": "21:15",
      "title": "Rock bar night",
      "sub": "Barhole for metal and punk, Lámpás for live bands, then Instant-Fogas until late.",
      "refs": [
@@ -453,9 +453,9 @@ window.BB_DATA = {
     "booked"
    ],
    "date": "2026-10-16",
-   "start": "20:00",
+   "start": "19:00",
    "arriveFrom": "18:00",
-   "end": "22:00",
+   "end": "21:00",
    "who": "all",
    "venue": "Új Hidegkuti Nándor Stadion",
    "address": "Salgótarjáni utca 12-14, 1087 Budapest",
@@ -469,10 +469,10 @@ window.BB_DATA = {
     "gN": null
    },
    "blurb": "Proper old-school Budapest derby-flavoured league football in a tiny modern ground named after a Magical Magyar legend. Cheap, close to the pitch, lots of banter.",
-   "tip": "Gates open 18:00 (per your booking): grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min door-to-door from the centre; arrive by 19:30.",
+   "tip": "Gates open 18:00: grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min from the flat and aim to be in by 18:30.",
    "getThere": "Tram stop 'Hidegkuti Nándor Stadion' is ~130 m away (tram 37/37A listed; one source says tram 1 - check BKK Futár / Google Maps live). Roughly 15-25 min from the centre by tram/metro; Bolt ~10-15 min.",
    "rules": "Bring passport/photo ID to be safe. Bag, pyro and alcohol rules were not confirmed; expect bag checks and light beer only.",
-   "notes": "Date and time confirmed by the booking: Friday 16 Oct, gates from 18:00, kick-off 20:00. Opponent per MTK’s own fixture page.",
+   "notes": "Confirmed by the booking: Friday 16 Oct, gates from 18:00, kick-off 19:00 Budapest time (18:00 UK). Opponent per MTK’s own fixture page.",
    "links": {
     "web": "https://www.mtkbudapest.hu/hu/merkozesek",
     "book": null,

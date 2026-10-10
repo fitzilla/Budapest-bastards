@@ -198,7 +198,7 @@
           "kind": "idea"
         },
         {
-          "time": "17:30",
+          "time": "17:15",
           "title": "Head to the MTK ground",
           "sub": "Tram to the Hidegkuti Nándor Stadion stop, or a Bolt in 10–15 min. André Rieu is on at the MVM Dome, so traffic will be heavy.",
           "ref": "mtk-vasas",
@@ -215,16 +215,16 @@
           "kind": "event"
         },
         {
-          "time": "20:00",
+          "time": "19:00",
           "title": "MTK Budapest v Vasas",
-          "sub": "NB I. Kick-off 20:00 (19:00 UK).",
+          "sub": "NB I. Kick-off 19:00 (18:00 UK).",
           "ref": "mtk-vasas",
           "who": "all",
           "booked": true,
           "kind": "event"
         },
         {
-          "time": "22:15",
+          "time": "21:15",
           "title": "Rock bar night",
           "sub": "Barhole for metal and punk, Lámpás for live bands, then Instant-Fogas until late.",
           "refs": [
