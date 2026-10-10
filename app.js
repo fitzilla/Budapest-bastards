@@ -412,7 +412,8 @@
     </div>`;
     const u = imgOf(p);
     if (!u) return ph;
-    return ph + imgTag(u, p.id) + (p.imageKind === 'illustrative' ? '<span class="media-note">Illustrative</span>' : '');
+    const note = p.imageKind === 'illustrative' ? 'Illustrative' : p.imageKind === 'view' ? 'The view' : '';
+    return ph + imgTag(u, p.id) + (note ? `<span class="media-note">${note}</span>` : '');
   }
 
   /* ---------------- favourites ---------------- */
@@ -1044,6 +1045,7 @@
     const creditText = !imgOf(p) ? '' : p.imageKind === 'illustrative' ? 'Illustrative photo, not this venue'
       : p.imageKind === 'building' ? `The building${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
       : p.imageKind === 'street' ? `The street outside${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
+      : p.imageKind === 'view' ? `The view${p.imageCaption ? ' ' + p.imageCaption : ''} · Wikimedia Commons`
       : 'Photo: Wikimedia Commons';
     const page = filePage(imgOf(p));
     const credit = !creditText ? '' : page

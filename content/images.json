@@ -339,10 +339,13 @@
   "source": "https://commons.wikimedia.org/wiki/File:Hercegprim%C3%A1s_utca_9,_m%C5%B1eml%C3%A9k,_2017_Lip%C3%B3tv%C3%A1ros.jpg"
  },
  "360-bar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_P%C3%A1risi_Nagy%C3%A1ruh%C3%A1z_%2837703806914%29.jpg?width=960",
-  "kind": "building",
-  "caption": "Párisi Nagy Áruház, Andrássy út 39",
-  "source": "https://commons.wikimedia.org/wiki/File:Budapest_-_P%C3%A1risi_Nagy%C3%A1ruh%C3%A1z_(37703806914).jpg"
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_view_from_the_St._Stephen's_Basilica_to_the_Fisherman's_Bastion.jpg?width=960",
+  "kind": "view",
+  "caption": "over the Pest rooftops to Buda, from the Basilica dome two streets away",
+  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_view_from_the_St._Stephen's_Basilica_to_the_Fisherman's_Bastion.jpg",
+  "gallery": [
+   "Budapest - Párisi Nagyáruház (37703806914).jpg"
+  ]
  },
  "elesztohaz": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garden_of_Semmelweis_University._-_T%C5%B1zolt%C3%B3_Street%2C_Budapest_District_IX.JPG?width=960",

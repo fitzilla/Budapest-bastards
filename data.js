@@ -1223,7 +1223,7 @@ window.BB_DATA = {
    "blurb": "Rooftop terrace over Andrássy Avenue with a genuine 360-degree skyline. Great for a mid-afternoon pint or a pre-club cocktail.",
    "tip": "Discreet street door, take the lift to the 6th floor. Small cover of about 1,000 HUF Thu–Sun.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_P%C3%A1risi_Nagy%C3%A1ruh%C3%A1z_%2837703806914%29.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_view_from_the_St._Stephen's_Basilica_to_the_Fisherman's_Bastion.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6637437-Reviews-360_Bar-Budapest_Central_Hungary.html",
     "web": null,
@@ -1231,8 +1231,11 @@ window.BB_DATA = {
    },
    "pick": true,
    "must": true,
-   "imageKind": "building",
-   "imageCaption": "Párisi Nagy Áruház, Andrássy út 39"
+   "imageKind": "view",
+   "imageCaption": "over the Pest rooftops to Buda, from the Basilica dome two streets away",
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_P%C3%A1risi_Nagy%C3%A1ruh%C3%A1z_(37703806914).jpg?width=960"
+   ]
   },
   {
    "id": "elesztohaz",
