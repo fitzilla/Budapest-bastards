@@ -1,0 +1,549 @@
+{
+ "_readme": "Verified review scores (Oct 2026), gathered by search. Only numbers seen in results for that exact venue. Applied by scripts/build-data.mjs.",
+ "old-mans-music-pub": {
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d1078889-Reviews-Old_Man_s_Music_Pub-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d1078889-Reviews-Old_Man_s_Music_Pub-Budapest_Central_Hungary.html"
+  ]
+ },
+ "barhole-music": {
+  "ta": 5.0,
+  "taN": 2,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html"
+  ]
+ },
+ "lampas": {
+  "ta": 4.6,
+  "taN": 78,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html"
+  ]
+ },
+ "blastbeat-bar": {
+  "g": 4.8,
+  "gN": 444,
+  "sources": [
+   "https://intravel.net/budapest/nightlife/blastbeat-bar"
+  ]
+ },
+ "durer-kert": {
+  "ta": 2.8,
+  "taN": 4,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d25084380-Reviews-Durer_Kert-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d25084380-Reviews-Durer_Kert-Budapest_Central_Hungary.html"
+  ]
+ },
+ "a38-ship": {
+  "ta": 3.9,
+  "taN": 125,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d607031-Reviews-A38_Ship-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d607031-Reviews-A38_Ship-Budapest_Central_Hungary.html"
+  ]
+ },
+ "akvarium-klub": {
+  "ta": 3.7,
+  "taN": 204,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d3932556-Reviews-Akvarium_Klub-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d3932556-Reviews-Akvarium_Klub-Budapest_Central_Hungary.html"
+  ]
+ },
+ "backstage-pub": {
+  "ta": 4.0,
+  "taN": 7,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d7007279-Reviews-BackStage_Pub-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d7007279-Reviews-BackStage_Pub-Budapest_Central_Hungary.html"
+  ]
+ },
+ "rocktogon": {
+  "ta": 2.7,
+  "taN": 10,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d6485226-Reviews-Rocktogon_Pub_Roll-Budapest_Central_Hungary.html",
+  "closed": true,
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d6485226-Reviews-Rocktogon_Pub_Roll-Budapest_Central_Hungary.html"
+  ]
+ },
+ "hard-rock-cafe-budapest": {
+  "ta": 4.0,
+  "taN": 3680,
+  "taUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d2442847-Reviews-Hard_Rock_Cafe-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d2442847-Reviews-Hard_Rock_Cafe-Budapest_Central_Hungary.html"
+  ]
+ },
+ "szimpla-kert": {
+  "ta": 4.5,
+  "taN": 8800,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d668397-Reviews-Szimpla_Kert-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d668397-Reviews-Szimpla_Kert-Budapest_Central_Hungary.html",
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d907785-Reviews-Szimpla_Kert-Budapest_Central_Hungary.html"
+  ]
+ },
+ "instant-fogas": {
+  "ta": 4.0,
+  "taN": 2142,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d3138211-Reviews-Instant_Fogas-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d3138211-Reviews-Instant_Fogas-Budapest_Central_Hungary.html"
+  ]
+ },
+ "koleves-kert": {
+  "ta": 4.3,
+  "taUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d797853-Reviews-Koleves_Restaurant_and_Garden-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d797853-Reviews-Koleves_Restaurant_and_Garden-Budapest_Central_Hungary.html"
+  ]
+ },
+ "csendes-letterem": {
+  "ta": 4.2,
+  "taN": 258,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d5011161-Reviews-Csendes_Letterem-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d5011161-Reviews-Csendes_Letterem-Budapest_Central_Hungary.html"
+  ]
+ },
+ "ankert": {
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4994225-Reviews-Anker_t-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d4994225-Reviews-Anker_t-Budapest_Central_Hungary.html"
+  ]
+ },
+ "doboz": {
+  "ta": 4.0,
+  "taN": 680,
+  "sources": [
+   "https://www.tripadvisor.com/ShowUserReviews-g274887-d7655464-r443478260-Doboz-Budapest_Central_Hungary.html"
+  ]
+ },
+ "ellato-kert": {
+  "ta": 4.4,
+  "taN": 86,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d7370133-Reviews-Ellato_Kert-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d7370133-Reviews-Ellato_Kert-Budapest_Central_Hungary.html"
+  ]
+ },
+ "red-ruin": {
+  "ta": 4.1,
+  "taN": 269,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d6895875-Reviews-Red_Ruin_Bar-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d6895875-Reviews-Red_Ruin_Bar-Budapest_Central_Hungary.html"
+  ]
+ },
+ "hotsy-totsy": {
+  "ta": 4.6,
+  "taN": 164,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d12370539-Reviews-or10-Hotsy_Totsy_Budapest-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d12370539-Reviews-or10-Hotsy_Totsy_Budapest-Budapest_Central_Hungary.html"
+  ]
+ },
+ "the-magic-budapest": {
+  "ta": 4.2,
+  "taN": 1800,
+  "taUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d19126341-Reviews-The_MAGIC_Budapest-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d19126341-Reviews-The_MAGIC_Budapest-Budapest_Central_Hungary.html"
+  ]
+ },
+ "for-sale-pub": {
+  "ta": 3.9,
+  "taN": 5280,
+  "taUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1965935-Reviews-For_Sale_Pub-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1965935-Reviews-For_Sale_Pub-Budapest_Central_Hungary.html"
+  ]
+ },
+ "gozsdu-udvar": {
+  "ta": 4.4,
+  "taN": 1300,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d276879-Reviews-Gozsdu_Udvar-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d276879-Reviews-Gozsdu_Udvar-Budapest_Central_Hungary.html"
+  ]
+ },
+ "boutiq-bar": {
+  "ta": 4.6,
+  "taN": 456,
+  "taUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1580627-Reviews-Boutiq_Bar-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1580627-Reviews-Boutiq_Bar-Budapest_Central_Hungary.html"
+  ]
+ },
+ "high-note-skybar": {
+  "ta": 4.4,
+  "taN": 1200,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d8528872-Reviews-High_Note_SkyBar-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d8528872-Reviews-High_Note_SkyBar-Budapest_Central_Hungary.html"
+  ]
+ },
+ "360-bar": {
+  "ta": 3.9,
+  "taN": 1593,
+  "taUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6637437-Reviews-360_Bar-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6637437-Reviews-360_Bar-Budapest_Central_Hungary.html"
+  ]
+ },
+ "elesztohaz": {
+  "ta": 4.4,
+  "taN": 347,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4725580-Reviews-Eleszto_Craft_Beer_Bar-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d4725580-Reviews-Eleszto_Craft_Beer_Bar-Budapest_Central_Hungary.html"
+  ]
+ },
+ "champs-sports-pub": {
+  "ta": 3.5,
+  "taN": 311,
+  "taUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d783758-Reviews-Champs_PUB-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d783758-Reviews-Champs_PUB-Budapest_Central_Hungary.html"
+  ]
+ },
+ "mazel-tov": {
+  "ta": 4.3,
+  "taN": 6835,
+  "taUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6691676-Reviews-Mazel_Tov-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6691676-Reviews-Mazel_Tov-Budapest_Central_Hungary.html"
+  ]
+ },
+ "menza": {
+  "ta": 4.3,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d696068-Reviews-Menza_Restaurant_and_Cafe-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d696068-Reviews-Menza_Restaurant_and_Cafe-Budapest_Central_Hungary.html"
+  ]
+ },
+ "cafe-kor": {
+  "ta": 4.4,
+  "taN": 2325,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d692825-Reviews-Cafe_Kor-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d692825-Reviews-Cafe_Kor-Budapest_Central_Hungary.html"
+  ]
+ },
+ "frici-papa": {
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d789922-Reviews-or630-Frici_Papa_Kifozdeje-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d789922-Reviews-or630-Frici_Papa_Kifozdeje-Budapest_Central_Hungary.html"
+  ]
+ },
+ "getto-gulyas": {
+  "g": 4.6,
+  "gN": 14542,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d9856765-Reviews-Getto_Gulyas-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://reservours.com/en/gettogulyas",
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d9856765-Reviews-Getto_Gulyas-Budapest_Central_Hungary.html"
+  ]
+ },
+ "hungarikum-bisztro": {
+  "taUrl": "https://www.tripadvisor.com/ShowUserReviews-g274887-d3351231-r1042332985-Hungarikum_Bisztro-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/ShowUserReviews-g274887-d3351231-r1042332985-Hungarikum_Bisztro-Budapest_Central_Hungary.html"
+  ]
+ },
+ "koleves-vendeglo": {
+  "taUrl": "https://www.tripadvisor.com/ShowUserReviews-g274887-d797853-r439757871-Koleves_Restaurant_and_Garden-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://intravel.net/budapest/restaurants-cafes/koleves-restaurant"
+  ]
+ },
+ "borkonyha": {
+  "g": 4.6,
+  "gN": 2498,
+  "taUrl": "https://www.tripadvisor.com/ShowUserReviews-g274887-d1986524-r365274584-Borkonyha_WineKitchen-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://intravel.net/budapest/restaurants-cafes/borkonyha-winekitchen-restaurant"
+  ]
+ },
+ "babel": {
+  "g": 4.6,
+  "gN": 581,
+  "sources": [
+   "https://intravel.net/budapest/restaurants-cafes/babel-budapest"
+  ]
+ },
+ "bors-gasztrobar": {
+  "ta": 4.8,
+  "taN": 3400,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d3700225-Reviews-Bors_GasztroBar-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d3700225-Reviews-Bors_GasztroBar-Budapest_Central_Hungary.html",
+   "https://intravel.net/budapest/restaurants-cafes/bors-gasztrobar"
+  ]
+ },
+ "belli-di-mamma": {
+  "g": 4.7,
+  "sources": [
+   "https://intravel.net/budapest/restaurants-cafes/belli-di-mamma"
+  ]
+ },
+ "bp-barbq": {
+  "g": 4.7,
+  "sources": [
+   "https://intravel.net/budapest/restaurants-cafes/bp-barbq"
+  ]
+ },
+ "great-market-hall": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d276128-Reviews-Central_Market_Hall-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d276128-Reviews-Central_Market_Hall-Budapest_Central_Hungary.html"
+  ]
+ },
+ "molnars-kurtoskalacs": {
+  "g": 4.5,
+  "sources": [
+   "https://intravel.net/budapest/restaurants-cafes/molnars-kurtoskalacs"
+  ]
+ },
+ "gerbeaud": {
+  "ta": 3.9,
+  "taN": 9900,
+  "taUrl": "https://www.tripadvisor.com/Restaurant_Review-g274887-d952413-Reviews-Gerbeaud-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Restaurant_Review-g274887-d952413-Reviews-Gerbeaud-Budapest_Central_Hungary.html",
+   "https://intravel.net/budapest/restaurants-cafes/cafe-gerbeaud"
+  ]
+ },
+ "hungarian-parliament": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d276817-Reviews-Hungarian_Parliament_Building-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d276817-Reviews-Hungarian_Parliament_Building-Budapest_Central_Hungary.html"
+  ]
+ },
+ "buda-castle": {
+  "ta": 4.4,
+  "taUrl": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276804-Reviews.html",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Buda_Castle_-_Palazzo_Reale_Budapest.jpg?width=900",
+  "sources": [
+   "https://www.tripadvisor.com/--d276804.html"
+  ]
+ },
+ "fishermans-bastion": {
+  "ta": 4.6,
+  "taUrl": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276803-Reviews.html",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman%27s_Bastion%2C_Budapest%2C_Hungary.jpg?width=900",
+  "sources": [
+   "https://www.tripadvisor.com/--d276803.html"
+  ]
+ },
+ "house-of-terror": {
+  "ta": 3.9,
+  "taUrl": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d325279-Reviews.html",
+  "sources": [
+   "https://www.tripadvisor.com/--d325279.html"
+  ]
+ },
+ "memento-park": {
+  "ta": 3.9,
+  "taN": 1472,
+  "taUrl": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276834-Reviews.html",
+  "sources": [
+   "https://www.tripadvisor.com/--d276834.html"
+  ]
+ },
+ "dohany-synagogue": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d25432877-Reviews-Dohany_Street_Synagogue-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d25432877-Reviews-Dohany_Street_Synagogue-Budapest_Central_Hungary.html"
+  ]
+ },
+ "st-stephens-basilica": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d276822-Reviews-St_Stephen_s_Basilica_Szent_Istvan_Bazilika-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d276822-Reviews-St_Stephen_s_Basilica_Szent_Istvan_Bazilika-Budapest_Central_Hungary.html"
+  ]
+ },
+ "heroes-square": {
+  "ta": 4.3,
+  "taUrl": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276827-Reviews.html",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hosok_tere%2C_Budapest.jpg?width=900",
+  "sources": [
+   "https://www.tripadvisor.com/--d276827.html"
+  ]
+ },
+ "gellert-hill-citadella": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d276878-Reviews-Gellert_Hill-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d276867-Reviews-Citadella-Budapest_Central_Hungary.html"
+  ]
+ },
+ "chain-bridge": {
+  "ta": 4.5,
+  "taN": 17700,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d276821-Reviews-Szechenyi_Lanchid-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d276821-Reviews-Szechenyi_Lanchid-Budapest_Central_Hungary.html"
+  ]
+ },
+ "millennium-underground-m1": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d2501174-Reviews-Underground_Railway_Museum-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d2501174-Reviews-Underground_Railway_Museum-Budapest_Central_Hungary.html"
+  ]
+ },
+ "hungarian-state-opera": {
+  "ta": 4.5,
+  "taUrl": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276812-Reviews.html",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascar_Hungarian_State_Opera_House_%284543541887%29.jpg?width=900",
+  "sources": [
+   "https://www.tripadvisor.com/--d276812.html"
+  ]
+ },
+ "buda-castle-labyrinth": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d19657222-Reviews-Labyrinth-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d19657222-Reviews-Labyrinth-Budapest_Central_Hungary.html"
+  ]
+ },
+ "cave-church": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d17796663-Reviews-Cave_Church-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d17796663-Reviews-Cave_Church-Budapest_Central_Hungary.html"
+  ]
+ },
+ "szechenyi-baths": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d279029-Reviews-Szechenyi_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d279029-Reviews-Szechenyi_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html"
+  ]
+ },
+ "rudas-baths": {
+  "ta": 4.1,
+  "taN": 3500,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d279413-Reviews-Rudas_Baths-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d279413-Reviews-Rudas_Baths-Budapest_Central_Hungary.html"
+  ]
+ },
+ "lukacs-baths": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d279411-Reviews-Lukacs_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d279411-Reviews-Lukacs_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html"
+  ]
+ },
+ "dandar-baths": {
+  "ta": 4.0,
+  "taN": 139,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d7729311-Reviews-Dandar_Bath-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d7729311-Reviews-Dandar_Bath-Budapest_Central_Hungary.html"
+  ]
+ },
+ "veli-bej-bath": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d3366298-Reviews-Veli_Bej_Bath-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d3366298-Reviews-Veli_Bej_Bath-Budapest_Central_Hungary.html"
+  ]
+ },
+ "sparty-szechenyi": {
+  "ta": 3.8,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d5453116-Reviews-Sparty_Szechenyi_Bath_Party-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d5453116-Reviews-Sparty_Szechenyi_Bath_Party-Budapest_Central_Hungary.html"
+  ]
+ },
+ "pinball-museum": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d6969659-Reviews-Budapest_Pinball_Museum-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d6969659-Reviews-Budapest_Pinball_Museum-Budapest_Central_Hungary.html"
+  ]
+ },
+ "churchill-shooting-range": {
+  "ta": 5.0,
+  "taN": 700,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d23492767-Reviews-Churchill_Shooting_Range_Budapest-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d23492767-Reviews-Churchill_Shooting_Range_Budapest-Budapest_Central_Hungary.html"
+  ]
+ },
+ "e-exit-escape-room": {
+  "taUrl": "https://www.tripadvisor.com/ShowUserReviews-g274887-d6884379-r913420942-E_Exit_Escape_Room_Budapest-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/ShowUserReviews-g274887-d6884379-r913420942-E_Exit_Escape_Room_Budapest-Budapest_Central_Hungary.html"
+  ]
+ },
+ "balta-axe-throwing": {
+  "ta": 4.9,
+  "taN": 160,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d13237730-Reviews-Balta_Dobalas-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d13237730-Reviews-Balta_Dobalas-Budapest_Central_Hungary.html"
+  ]
+ },
+ "palvolgyi-cave": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d5617713-Reviews-Palvolgyi_Caves-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d5617713-Reviews-Palvolgyi_Caves-Budapest_Central_Hungary.html"
+  ]
+ },
+ "budapest-eye": {
+  "taUrl": "https://www.tripadvisor.com/ShowUserReviews-g274887-d12571866-r746752821-Ferris_Wheel_of_Budapest-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/ShowUserReviews-g274887-d12571866-r746752821-Ferris_Wheel_of_Budapest-Budapest_Central_Hungary.html"
+  ]
+ },
+ "communist-free-walking-tour": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d1566303-Reviews-TripToBudapest_hu_Free_Budapest_Walking_Tours-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d1566303-Reviews-TripToBudapest_hu_Free_Budapest_Walking_Tours-Budapest_Central_Hungary.html"
+  ]
+ },
+ "ecseri-flea-market": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d670573-Reviews-Ecseri_Flea_Market_Ecseri_bolhapiac-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d670573-Reviews-Ecseri_Flea_Market_Ecseri_bolhapiac-Budapest_Central_Hungary.html"
+  ]
+ },
+ "zugliget-chairlift": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d28157709-Reviews-Zugligeti_Libego-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d28157709-Reviews-Zugligeti_Libego-Budapest_Central_Hungary.html"
+  ]
+ },
+ "childrens-railway": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d279012-Reviews-Gyermekvasut-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d279012-Reviews-Gyermekvasut-Budapest_Central_Hungary.html"
+  ]
+ },
+ "palinka-museum": {
+  "taUrl": "https://www.tripadvisor.com/ShowUserReviews-g274887-d15361476-r679185310-PALINKA_MUSEUM_SHOP_BAR-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/ShowUserReviews-g274887-d15361476-r679185310-PALINKA_MUSEUM_SHOP_BAR-Budapest_Central_Hungary.html"
+  ]
+ },
+ "puskas-arena-tour": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d24109869-Reviews-Puskas_Arena_Park-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d24109869-Reviews-Puskas_Arena_Park-Budapest_Central_Hungary.html"
+  ]
+ },
+ "fradi-plzen": {
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g274887-d7074492-Reviews-Groupama_Arena-Budapest_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g274887-d7074492-Reviews-Groupama_Arena-Budapest_Central_Hungary.html"
+  ]
+ },
+ "karting-hungaroring": {
+  "ta": 4.8,
+  "taN": 10,
+  "taUrl": "https://www.tripadvisor.com/Attraction_Review-g2290737-d7398297-Reviews-Hungaroring_Kart_Center-Mogyorod_Pest_County_Central_Hungary.html",
+  "sources": [
+   "https://www.tripadvisor.com/Attraction_Review-g2290737-d7398297-Reviews-Hungaroring_Kart_Center-Mogyorod_Pest_County_Central_Hungary.html"
+  ]
+ }
+}

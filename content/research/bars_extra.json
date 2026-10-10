@@ -1,0 +1,477 @@
+{
+ "items": [
+  {
+   "id": "jack-doyles-irish-pub",
+   "name": "Jack Doyle's Irish Pub",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "sports",
+    "late-night"
+   ],
+   "district": "V",
+   "address": "Pilvax köz 1-3, 1052 Budapest",
+   "lat": 47.49459,
+   "lng": 19.05573,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Tue-Thu 17:00-23:30; Fri-Sat from mid-afternoon to ~01:00 (one guide says 02:00); Sun to 23:00; closed Mon. Listings disagree - check match days.",
+   "blurb": "Tucked down an alley off the Pest high street: Irish pub, Sky Sports, Guinness and elbow-to-elbow lads. Your kind of Friday pre-match warm-up.",
+   "tip": "Tiny and fills up early - book a table for any kick-off, or you'll be watching through a gap in someone's shoulders.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "stifler-sport-bar",
+   "name": "Stifler American Sport Bar",
+   "type": "bar",
+   "tags": [
+    "sports",
+    "games",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 19, 1073 Budapest",
+   "lat": 47.5001,
+   "lng": 19.0682,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Daily c.13:00-05:00; pool/games room reportedly to 23:00 (undated guides - confirm).",
+   "blurb": "27 telly screens, a pool and games den in the basement and kitchen-sink American bar vibes until the small hours. Loud, daft and exactly where the lads end up at 2am.",
+   "tip": "Reviews are mixed on service, so order at the bar and keep an eye on the tab. Don't confuse it with Stifler House (the club) around the corner on Dob utca.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "becketts-irish-bar",
+   "name": "Becketts Irish Bar",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "sports",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Liszt Ferenc tér 11, 1061 Budapest",
+   "lat": 47.5037,
+   "lng": 19.0645,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Listing (undated): Mon-Wed 11:30-00:00, Thu 11:30-01:00, Fri-Sat 11:30-02:00, Sun 12:00-01:00. Confirm for match days.",
+   "blurb": "Two floors of Irish pub on Liszt Ferenc tér, multi-screen Premier League and Champions League, and a terrace for when the pints need fresh air. A proper expat footy local.",
+   "tip": "Square terraces get lively but it's pricier than the Jewish Quarter dives - go for the match, then roll on to cheaper rounds.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "ziccer-trollfoci-sport-pub",
+   "name": "Ziccer TrollFoci Sport Pub",
+   "type": "bar",
+   "tags": [
+    "sports",
+    "pub",
+    "cheap"
+   ],
+   "district": "VI",
+   "address": "Ó utca 36, 1066 Budapest",
+   "lat": 47.50285,
+   "lng": 19.0613,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Hours not confirmed in search; older guide: Mon-Thu/Sun 16:00-00:00, Fri-Sat 16:00-01:00. Check Facebook for match days.",
+   "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local - bring your best 'Hajrá Magyarok'.",
+   "tip": "Most recent report says Ó utca 36 (an older guide said 66) - check the pin first. Rammed on big match nights, so arrive early for a spot.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "hopaholic",
+   "name": "Hopaholic",
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "pub"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 38, 1072 Budapest",
+   "lat": 47.49905,
+   "lng": 19.06655,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Listings conflict: Mon-Sat 16:00-24:00 (Sun closed), or Thu-Sat to 02:00. Treat as 16:00 to midnight at minimum.",
+   "blurb": "Tiny Jewish Quarter craft temple: ten rotating taps and 250+ breweries in bottles. Beer nerds nod solemnly; everyone else just discovers pints that taste of something.",
+   "tip": "Check the chalkboard before ordering - the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://hopaholic.hu"
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "madhouse-by-mad-scientist",
+   "name": "MADHOUSE by Mad Scientist",
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Anker köz 1-3, 1061 Budapest",
+   "lat": 47.50095,
+   "lng": 19.05865,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Hours not confirmed in search (2024: Thu-Sun with DJ nights Thu and Sat). Check madhousebudapest.hu.",
+   "blurb": "The city-centre taproom of Mad Scientist brewery: 24 rotating taps, bistro grub and DJ sets on Thursday and Saturday. Hop-forward pints a stone's throw from Deák tér.",
+   "tip": "Thursday and Saturday are the DJ nights - turn up for the beer, stay for the tunes. Confirm it's open on the day before trekking over.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://madhousebudapest.hu"
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "first-craft-beer-bbq",
+   "name": "FIRST Craft Beer & BBQ",
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "pub",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dob utca 3, 1072 Budapest",
+   "lat": 47.4987,
+   "lng": 19.0599,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Hours not confirmed; an aggregator lists open until c.01:00-02:00 most days. Check before going.",
+   "blurb": "Hungarian craft brewery's city pub: house-brewed beer on tap plus proper smoky BBQ. Soak up the lagers before the Jewish Quarter swallows you whole.",
+   "tip": "Book via their reservation page for groups. Their original taproom is out on Váci út (district XIII/IV border) - skip it, this one's central.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "csak-a-jo-sor",
+   "name": "Csak a jó sör",
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Kertész utca 42, 1073 Budapest",
+   "lat": 47.5015,
+   "lng": 19.0674,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "hours": "Listings: Mon-Sat 14:00-22:00 (one says to 19:00), Sun closed. Ownership changed in 2020 - confirm.",
+   "blurb": "Part bottle shop, part boffin's den: shelves of craft beer from Hungary and abroad that you can crack open on the spot. The tiny shop for lads who read the labels.",
+   "tip": "Closes early (about 22:00) and shuts Sundays - fine for a warm-up crawl, then head to Hopaholic. Confirm hours by phone: +36 1 798 0036.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "leo-rooftop",
+   "name": "Leo Rooftop",
+   "type": "bar",
+   "tags": [
+    "rooftop",
+    "cocktail"
+   ],
+   "district": "I",
+   "address": "Clark Ádám tér 1, 1013 Budapest",
+   "lat": 47.4989,
+   "lng": 19.0399,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 4,
+   "hours": "Daily 12:00-00:00 (kitchen to 22:00, last order 23:00). Tables in two-hour slots.",
+   "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views and pricey cocktails - one for the pretty photos before the football gets going.",
+   "tip": "Book a table on OpenTable (two-hour slots, cocktails ~6,700-7,500 Ft) and aim for sunset. Smart casual - leave the club shirts at the hotel.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://leobudapest.hu"
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "st-andrea-wine-skybar",
+   "name": "St. Andrea Wine & Skybar",
+   "type": "bar",
+   "tags": [
+    "rooftop",
+    "wine",
+    "cocktail"
+   ],
+   "district": "V",
+   "address": "Deák Ferenc utca 5, 1052 Budapest",
+   "lat": 47.496,
+   "lng": 19.0515,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Mon-Sun 15:00-24:00 (kitchen to 23:00; last entry 23:00).",
+   "blurb": "Top-floor terrace on Vörösmarty tér with a lift, wine list and cocktails. Rooftop panorama of Pest's roofs without Chain Bridge queues.",
+   "tip": "Groups of 8+ face a 15,000 Ft/person minimum spend, so split into smaller tables or ask first. Book ahead on weekend evenings.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "warm-up-cocktail-bar",
+   "name": "Warm Up Cocktail Bar",
+   "type": "bar",
+   "tags": [
+    "cocktail",
+    "speakeasy",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Nagy Diófa utca 26, 1072 Budapest",
+   "lat": 47.4978,
+   "lng": 19.0648,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Per Schlouk: Mon-Wed & Sun 18:00-00:00, Thu to 01:00, Fri-Sat 18:00-03:00 (other listings differ).",
+   "blurb": "Small, dark Jewish Quarter cocktail den built around Hungarian spirits like pálinka and Unicum. Ask for a surprise - no menu needed, just a firm handshake with the bartender.",
+   "tip": "Book on Instagram/Facebook for weekends - walk-ins often queue. Budget about 3,500-5,000 Ft per cocktail.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "otkert",
+   "name": "Ötkert",
+   "type": "bar",
+   "tags": [
+    "club",
+    "late-night"
+   ],
+   "district": "V",
+   "address": "Zrínyi utca 4/A, 1051 Budapest",
+   "lat": 47.5012,
+   "lng": 19.0529,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Thu-Sat 23:00-05:00 (some listings start Friday 23:59).",
+   "blurb": "Basilica-side club with proper Thursday to Saturday all-nighters: big sound, big queue, big headache. Seriously good for a late one.",
+   "tip": "Entry 18+ with a physical ID (no digital IDs or photocopies). VIP queue is 25+. Go after 00:30 or you'll be dancing with the cleaner.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://otkert.hu"
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "toldi-klub",
+   "name": "Toldi Klub",
+   "type": "bar",
+   "tags": [
+    "club",
+    "late-night",
+    "live-music"
+   ],
+   "district": "V",
+   "address": "Bajcsy-Zsilinszky út 36-38, 1054 Budapest",
+   "lat": 47.5043,
+   "lng": 19.0518,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "hours": "Cinema by day; club night opens 23:00 Sat (listing: Sat 14:00-06:00). Check programme for Thu/Fri.",
+   "blurb": "Cinema by day, underground techno and house by night. Same team as Lärm, a dark basement dancefloor that still feels like a proper night out.",
+   "tip": "Check the event calendar - club nights aren't nightly. Saturday is the safest bet. Bring cash for the cloakroom.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "palinka-museum-and-bar",
+   "name": "Pálinka Museum & Bar (Pálinka Experience)",
+   "type": "bar",
+   "tags": [
+    "palinka",
+    "quirky",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Király utca 20, 1061 Budapest",
+   "lat": 47.5008,
+   "lng": 19.0611,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "hours": "Listings conflict: daily 14:00-24:00, (one says to 02:00 Thu-Sat); another lists Mon/Wed closed. Confirm.",
+   "blurb": "A fruit-brandy shrine with a tasting bar: 4 to 8 pálinkák (€25-45). Hungary's national firewater explained, then swallowed. Cheers, or as we say, egészségedre.",
+   "tip": "Entry is about €10 without tasting, but tour tickets are cheaper online. Last tour ~2 hours before close; 18+ for drinking.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2025-26"
+  }
+ ],
+ "mtkCheck": {
+  "confirmed": false,
+  "detail": "NOT confirmed. Fixture listings show MTK Budapest (home, Hidegkuti Nandor Stadion) v Vasas on Saturday 17 Oct 2026 at 17:00, not Friday 16 Oct 20:00. Round number not verified (league is 2026-27 NB I, branded Fizz Liga/OTP Bank Liga in different sources). Check MLSZ for final times.",
+  "source": "https://www.penzcentrum.hu/index.php/sporteredmenyek/hungary-fizz-liga/2026-2027/20261017/mtkbudapest-vasasfc"
+ },
+ "sources": [
+  "https://justbudapest.com/best-sports-bars-budapest/",
+  "https://liberoguide.com/10-best-football-bars-in-budapest/",
+  "https://timeout.com/budapest/bars/best-pubs-and-bars-in-budapest-to-watch-football",
+  "https://www.schlouk-map.com/fr/places/jack-doyles-irish-pub-restaurant",
+  "https://www.inyourpocket.com/hungary/budapest/venues/Becketts",
+  "https://budappest.com/budapest-ziccer-trollfoci-sport-pub-opens-at-new-location/",
+  "https://www.schlouk-map.com/en/places/hopaholic",
+  "https://tablejourney.com/hungary/budapest/breweries/mad-scientist-beer/",
+  "https://welovebudapest.com/en/article/2024/02/23/madhouse-craft-beer-bar-yoga-board-game-market-dj-deak-ferenc-ter/",
+  "https://intravel.net/budapest/restaurants-cafes/first-craft-beer-and-bbq",
+  "https://www.schlouk-map.com/en/places/csakajosor-kft",
+  "https://www.opentable.co.uk/r/leo-rooftop-budapest",
+  "https://hungaryunlocked.com/de/leo-rooftop-dachterrasse-budapest/",
+  "https://standreaskybar.dev.wpo.hu/en/venue",
+  "https://www.schlouk-map.com/en/places/warm-up-cocktail-bar",
+  "https://www.schlouk-map.com/en/places/otkert",
+  "https://welovebudapest.com/hely/otkert/",
+  "https://welovebudapest.com/en/toplist/5-thumping-budapest-nightclubs-now-open-for-autumn-action",
+  "https://tablejourney.com/hungary/budapest/nightlife/toldi-klub/",
+  "https://welovebudapest.com/program/toldi-13-szuletesnap-2025-szeptember/",
+  "https://thebettervacation.com/palinka-museum-tickets",
+  "https://www.schlouk-map.com/en/places/palinka-museum"
+ ]
+}

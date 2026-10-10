@@ -118,10 +118,11 @@ window.BB_DATA = {
     {
      "time": "23:15",
      "title": "Regroup in District VII",
-     "sub": "Live covers at Old Man's, or keep going at Instant-Fogas until late.",
+     "sub": "Instant-Fogas for the big rooms and dancefloors, Lámpás for a live band, or Szimpla if you missed it earlier.",
      "refs": [
-      "old-mans-music-pub",
-      "instant-fogas"
+      "instant-fogas",
+      "lampas",
+      "szimpla-kert"
      ],
      "who": "all",
      "kind": "idea"
@@ -216,7 +217,7 @@ window.BB_DATA = {
     {
      "time": "20:00",
      "title": "MTK Budapest v Vasas",
-     "sub": "NB I, round 10. Kick-off 20:00 (19:00 UK).",
+     "sub": "NB I. Kick-off 20:00 (19:00 UK) per your booking. Two fixture sites now say Sat 17 Oct 17:00, so check your tickets.",
      "ref": "mtk-vasas",
      "who": "all",
      "booked": true,
@@ -225,11 +226,11 @@ window.BB_DATA = {
     {
      "time": "22:15",
      "title": "Rock bar night",
-     "sub": "Barhole for metal, Old Man's for live covers, Rocktogon to finish.",
+     "sub": "Barhole for metal and punk, Lámpás for live bands, then Instant-Fogas until late.",
      "refs": [
       "barhole-music",
-      "old-mans-music-pub",
-      "rocktogon"
+      "lampas",
+      "instant-fogas"
      ],
      "who": "all",
      "kind": "idea"
@@ -394,7 +395,7 @@ window.BB_DATA = {
    "links": {
     "web": "https://www.fradi.hu/en/club/groupama-arena",
     "book": "https://meccsjegy.fradi.hu/jegyarak?lang=en",
-    "ta": null
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7074492-Reviews-Groupama_Arena-Budapest_Central_Hungary.html"
    },
    "image": null,
    "district": null,
@@ -423,8 +424,8 @@ window.BB_DATA = {
    "lng": 19.24964,
    "approx": false,
    "rating": {
-    "ta": 4.8,
-    "taN": 10,
+    "ta": null,
+    "taN": null,
     "g": null,
     "gN": null
    },
@@ -436,7 +437,7 @@ window.BB_DATA = {
    "links": {
     "web": "https://hungaroringkartcenter.hu/en/booking",
     "book": "https://hungaroringkartcenter.hu/en/booking",
-    "ta": null
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g2290737-d7398297-Reviews-Hungaroring_Kart_Center-Mogyorod_Pest_County_Central_Hungary.html"
    },
    "image": null,
    "district": null,
@@ -478,7 +479,8 @@ window.BB_DATA = {
    },
    "image": null,
    "district": null,
-   "price": null
+   "price": null,
+   "warn": "Check your tickets. Your booking says Friday 20:00, but two fixture sites (penzcentrum.hu and eredmenyek.com) list MTK v Vasas for Saturday 17 Oct at 17:00. Go by the ticket, and check mtkbudapest.hu before Friday."
   }
  ],
  "airport": {
@@ -568,10 +570,11 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d1078889-Reviews-Old_Man_s_Music_Pub-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "unconfirmed": true
   },
   {
    "id": "barhole-music",
@@ -603,7 +606,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -625,8 +628,8 @@ window.BB_DATA = {
    "lng": 19.0589,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.6,
+    "taN": 78,
     "g": null,
     "gN": null
    },
@@ -638,7 +641,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -708,7 +711,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d25084380-Reviews-Durer_Kert-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -730,8 +733,8 @@ window.BB_DATA = {
    "lng": 19.0617,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 3.9,
+    "taN": 125,
     "g": null,
     "gN": null
    },
@@ -743,7 +746,7 @@ window.BB_DATA = {
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A38_%28ship%2C_Budapest%29.JPG?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d607031-Reviews-A38_Ship-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -765,8 +768,8 @@ window.BB_DATA = {
    "lng": 19.0534,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 3.7,
+    "taN": 204,
     "g": null,
     "gN": null
    },
@@ -778,7 +781,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d3932556-Reviews-Akvarium_Klub-Budapest_Central_Hungary.html",
     "web": "https://akvariumklub.hu",
     "book": null
    }
@@ -812,46 +815,10 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7007279-Reviews-BackStage_Pub-Budapest_Central_Hungary.html",
     "web": "https://backstagepub.hu",
     "book": null
    }
-  },
-  {
-   "id": "rocktogon",
-   "name": "Rocktogon Club",
-   "sub": null,
-   "type": "bar",
-   "tags": [
-    "rock",
-    "live-music",
-    "club",
-    "late-night"
-   ],
-   "district": "VI",
-   "address": "Mozsár utca 9, 1066 Budapest",
-   "lat": 47.5047,
-   "lng": 19.0625,
-   "approx": true,
-   "rating": {
-    "ta": null,
-    "taN": null,
-    "g": null,
-    "gN": null
-   },
-   "price": 2,
-   "priceText": null,
-   "hours": "Daily 17:00–04:00; gigs 20:00–22:30 then disco (older listing, check)",
-   "blurb": "Rock club by Oktogon: bands first, rock disco after. Handy if you are staying near the Nagykörút.",
-   "tip": "Listing is undated; confirm it is still trading (Instagram / phone) before you walk over.",
-   "history": null,
-   "image": null,
-   "links": {
-    "ta": null,
-    "web": null,
-    "book": null
-   },
-   "unconfirmed": true
   },
   {
    "id": "hard-rock-cafe-budapest",
@@ -868,8 +835,8 @@ window.BB_DATA = {
    "lng": 19.0515,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4,
+    "taN": 3680,
     "g": null,
     "gN": null
    },
@@ -881,7 +848,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d2442847-Reviews-Hard_Rock_Cafe-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -938,8 +905,8 @@ window.BB_DATA = {
    "lng": 19.06323,
    "approx": false,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.5,
+    "taN": 8800,
     "g": null,
     "gN": null
    },
@@ -951,7 +918,7 @@ window.BB_DATA = {
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szimpla_Kert_Budapest_1.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d668397-Reviews-Szimpla_Kert-Budapest_Central_Hungary.html",
     "web": "https://szimpla.hu",
     "book": null
    }
@@ -973,8 +940,8 @@ window.BB_DATA = {
    "lng": 19.0661,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4,
+    "taN": 2142,
     "g": null,
     "gN": null
    },
@@ -986,7 +953,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d3138211-Reviews-Instant_Fogas-Budapest_Central_Hungary.html",
     "web": "https://instant-fogas.com",
     "book": null
    }
@@ -1006,7 +973,7 @@ window.BB_DATA = {
    "lng": 19.0643,
    "approx": true,
    "rating": {
-    "ta": null,
+    "ta": 4.3,
     "taN": null,
     "g": null,
     "gN": null
@@ -1019,7 +986,7 @@ window.BB_DATA = {
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%91leves_kert_%284%29.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d797853-Reviews-Koleves_Restaurant_and_Garden-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1040,8 +1007,8 @@ window.BB_DATA = {
    "lng": 19.0613,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.2,
+    "taN": 258,
     "g": null,
     "gN": null
    },
@@ -1053,7 +1020,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d5011161-Reviews-Csendes_Letterem-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1087,7 +1054,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4994225-Reviews-Anker_t-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
@@ -1109,8 +1076,8 @@ window.BB_DATA = {
    "lng": 19.0647,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4,
+    "taN": 680,
     "g": null,
     "gN": null
    },
@@ -1143,8 +1110,8 @@ window.BB_DATA = {
    "lng": 19.0647,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.4,
+    "taN": 86,
     "g": null,
     "gN": null
    },
@@ -1156,7 +1123,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d7370133-Reviews-Ellato_Kert-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
@@ -1178,8 +1145,8 @@ window.BB_DATA = {
    "lng": 19.0562,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.1,
+    "taN": 269,
     "g": null,
     "gN": null
    },
@@ -1191,7 +1158,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d6895875-Reviews-Red_Ruin_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1212,8 +1179,8 @@ window.BB_DATA = {
    "lng": 19.0626,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.6,
+    "taN": 164,
     "g": null,
     "gN": null
    },
@@ -1225,7 +1192,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12370539-Reviews-or10-Hotsy_Totsy_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1245,8 +1212,8 @@ window.BB_DATA = {
    "lng": 19.0581,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.2,
+    "taN": 1800,
     "g": null,
     "gN": null
    },
@@ -1258,7 +1225,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d19126341-Reviews-The_MAGIC_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1278,8 +1245,8 @@ window.BB_DATA = {
    "lng": 19.0588,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 3.9,
+    "taN": 5280,
     "g": null,
     "gN": null
    },
@@ -1291,7 +1258,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1965935-Reviews-For_Sale_Pub-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1311,8 +1278,8 @@ window.BB_DATA = {
    "lng": 19.059,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.4,
+    "taN": 1300,
     "g": null,
     "gN": null
    },
@@ -1324,7 +1291,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276879-Reviews-Gozsdu_Udvar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1344,8 +1311,8 @@ window.BB_DATA = {
    "lng": 19.0557,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.6,
+    "taN": 456,
     "g": null,
     "gN": null
    },
@@ -1357,7 +1324,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1580627-Reviews-Boutiq_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1377,8 +1344,8 @@ window.BB_DATA = {
    "lng": 19.053,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.4,
+    "taN": 1200,
     "g": null,
     "gN": null
    },
@@ -1390,7 +1357,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d8528872-Reviews-High_Note_SkyBar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1411,8 +1378,8 @@ window.BB_DATA = {
    "lng": 19.0614,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 3.9,
+    "taN": 1593,
     "g": null,
     "gN": null
    },
@@ -1424,7 +1391,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6637437-Reviews-360_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1444,8 +1411,8 @@ window.BB_DATA = {
    "lng": 19.0705,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.4,
+    "taN": 347,
     "g": null,
     "gN": null
    },
@@ -1457,7 +1424,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4725580-Reviews-Eleszto_Craft_Beer_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
@@ -1473,13 +1440,13 @@ window.BB_DATA = {
     "pub"
    ],
    "district": "VII",
-   "address": "Dohány utca (house number TBC), 1074 Budapest",
-   "lat": 47.4968,
-   "lng": 19.062,
+   "address": "Dohány utca 20, 1074 Budapest",
+   "lat": 47.49655,
+   "lng": 19.0621,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 3.5,
+    "taN": 311,
     "g": null,
     "gN": null
    },
@@ -1491,11 +1458,448 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
+    "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d783758-Reviews-Champs_PUB-Budapest_Central_Hungary.html",
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "jack-doyles-irish-pub",
+   "name": "Jack Doyle's Irish Pub",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "pub",
+    "sports",
+    "late-night"
+   ],
+   "district": "V",
+   "address": "Pilvax köz 1-3, 1052 Budapest",
+   "lat": 47.49459,
+   "lng": 19.05573,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Tue-Thu 17:00-23:30; Fri-Sat from mid-afternoon to ~01:00 (one guide says 02:00); Sun to 23:00; closed Mon. Listings disagree - check match days.",
+   "blurb": "Tucked down an alley off the Pest high street: Irish pub, Sky Sports, Guinness and elbow-to-elbow lads. Your kind of Friday pre-match warm-up.",
+   "tip": "Tiny and fills up early - book a table for any kick-off, or you'll be watching through a gap in someone's shoulders.",
+   "history": null,
+   "image": null,
+   "links": {
     "ta": null,
     "web": null,
     "book": null
+   }
+  },
+  {
+   "id": "stifler-sport-bar",
+   "name": "Stifler American Sport Bar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "sports",
+    "games",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 19, 1073 Budapest",
+   "lat": 47.5001,
+   "lng": 19.0682,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
    },
-   "hidePin": true
+   "price": 2,
+   "priceText": null,
+   "hours": "Daily c.13:00-05:00; pool/games room reportedly to 23:00 (undated guides - confirm).",
+   "blurb": "27 telly screens, a pool and games den in the basement and kitchen-sink American bar vibes until the small hours. Loud, daft and exactly where the lads end up at 2am.",
+   "tip": "Reviews are mixed on service, so order at the bar and keep an eye on the tab. Don't confuse it with Stifler House (the club) around the corner on Dob utca.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "becketts-irish-bar",
+   "name": "Becketts Irish Bar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "pub",
+    "sports",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Liszt Ferenc tér 11, 1061 Budapest",
+   "lat": 47.5037,
+   "lng": 19.0645,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Listing (undated): Mon-Wed 11:30-00:00, Thu 11:30-01:00, Fri-Sat 11:30-02:00, Sun 12:00-01:00. Confirm for match days.",
+   "blurb": "Two floors of Irish pub on Liszt Ferenc tér, multi-screen Premier League and Champions League, and a terrace for when the pints need fresh air. A proper expat footy local.",
+   "tip": "Square terraces get lively but it's pricier than the Jewish Quarter dives - go for the match, then roll on to cheaper rounds.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "ziccer-trollfoci-sport-pub",
+   "name": "Ziccer TrollFoci Sport Pub",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "sports",
+    "pub",
+    "cheap"
+   ],
+   "district": "VI",
+   "address": "Ó utca 36, 1066 Budapest",
+   "lat": 47.50285,
+   "lng": 19.0613,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Hours not confirmed in search; older guide: Mon-Thu/Sun 16:00-00:00, Fri-Sat 16:00-01:00. Check Facebook for match days.",
+   "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local - bring your best 'Hajrá Magyarok'.",
+   "tip": "Most recent report says Ó utca 36 (an older guide said 66) - check the pin first. Rammed on big match nights, so arrive early for a spot.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "hopaholic",
+   "name": "Hopaholic",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "pub"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 38, 1072 Budapest",
+   "lat": 47.49905,
+   "lng": 19.06655,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Listings conflict: Mon-Sat 16:00-24:00 (Sun closed), or Thu-Sat to 02:00. Treat as 16:00 to midnight at minimum.",
+   "blurb": "Tiny Jewish Quarter craft temple: ten rotating taps and 250+ breweries in bottles. Beer nerds nod solemnly; everyone else just discovers pints that taste of something.",
+   "tip": "Check the chalkboard before ordering - the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://hopaholic.hu",
+    "book": null
+   }
+  },
+  {
+   "id": "madhouse-by-mad-scientist",
+   "name": "MADHOUSE by Mad Scientist",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Anker köz 1-3, 1061 Budapest",
+   "lat": 47.4989,
+   "lng": 19.0566,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Hours not confirmed in search (2024: Thu-Sun with DJ nights Thu and Sat). Check madhousebudapest.hu.",
+   "blurb": "The city-centre taproom of Mad Scientist brewery: 24 rotating taps, bistro grub and DJ sets on Thursday and Saturday. Hop-forward pints a stone's throw from Deák tér.",
+   "tip": "Thursday and Saturday are the DJ nights - turn up for the beer, stay for the tunes. Confirm it's open on the day before trekking over.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://madhousebudapest.hu",
+    "book": null
+   }
+  },
+  {
+   "id": "first-craft-beer-bbq",
+   "name": "FIRST Craft Beer & BBQ",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "pub",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dob utca 3, 1072 Budapest",
+   "lat": 47.4979,
+   "lng": 19.0574,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Hours not confirmed; an aggregator lists open until c.01:00-02:00 most days. Check before going.",
+   "blurb": "Hungarian craft brewery's city pub: house-brewed beer on tap plus proper smoky BBQ. Soak up the lagers before the Jewish Quarter swallows you whole.",
+   "tip": "Book via their reservation page for groups. Their original taproom is out on Váci út (district XIII/IV border) - skip it, this one's central.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "csak-a-jo-sor",
+   "name": "Csak a jó sör",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Kertész utca 42, 1073 Budapest",
+   "lat": 47.5015,
+   "lng": 19.0674,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Listings: Mon-Sat 14:00-22:00 (one says to 19:00), Sun closed. Ownership changed in 2020 - confirm.",
+   "blurb": "Part bottle shop, part boffin's den: shelves of craft beer from Hungary and abroad that you can crack open on the spot. The tiny shop for lads who read the labels.",
+   "tip": "Closes early (about 22:00) and shuts Sundays - fine for a warm-up crawl, then head to Hopaholic. Confirm hours by phone: +36 1 798 0036.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "leo-rooftop",
+   "name": "Leo Rooftop",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rooftop",
+    "cocktail"
+   ],
+   "district": "I",
+   "address": "Clark Ádám tér 1, 1013 Budapest",
+   "lat": 47.4989,
+   "lng": 19.0399,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 4,
+   "priceText": null,
+   "hours": "Daily 12:00-00:00 (kitchen to 22:00, last order 23:00). Tables in two-hour slots.",
+   "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views and pricey cocktails - one for the pretty photos before the football gets going.",
+   "tip": "Book a table on OpenTable (two-hour slots, cocktails ~6,700-7,500 Ft) and aim for sunset. Smart casual - leave the club shirts at the hotel.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://leobudapest.hu",
+    "book": null
+   }
+  },
+  {
+   "id": "st-andrea-wine-skybar",
+   "name": "St. Andrea Wine & Skybar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rooftop",
+    "wine",
+    "cocktail"
+   ],
+   "district": "V",
+   "address": "Deák Ferenc utca 5, 1052 Budapest",
+   "lat": 47.496,
+   "lng": 19.0515,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Mon-Sun 15:00-24:00 (kitchen to 23:00; last entry 23:00).",
+   "blurb": "Top-floor terrace on Vörösmarty tér with a lift, wine list and cocktails. Rooftop panorama of Pest's roofs without Chain Bridge queues.",
+   "tip": "Groups of 8+ face a 15,000 Ft/person minimum spend, so split into smaller tables or ask first. Book ahead on weekend evenings.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "warm-up-cocktail-bar",
+   "name": "Warm Up Cocktail Bar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "cocktail",
+    "speakeasy",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Nagy Diófa utca 26, 1072 Budapest",
+   "lat": 47.4978,
+   "lng": 19.0648,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Per Schlouk: Mon-Wed & Sun 18:00-00:00, Thu to 01:00, Fri-Sat 18:00-03:00 (other listings differ).",
+   "blurb": "Small, dark Jewish Quarter cocktail den built around Hungarian spirits like pálinka and Unicum. Ask for a surprise - no menu needed, just a firm handshake with the bartender.",
+   "tip": "Book on Instagram/Facebook for weekends - walk-ins often queue. Budget about 3,500-5,000 Ft per cocktail.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "otkert",
+   "name": "Ötkert",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "club",
+    "late-night"
+   ],
+   "district": "V",
+   "address": "Zrínyi utca 4/A, 1051 Budapest",
+   "lat": 47.5012,
+   "lng": 19.0529,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Thu-Sat 23:00-05:00 (some listings start Friday 23:59).",
+   "blurb": "Basilica-side club with proper Thursday to Saturday all-nighters: big sound, big queue, big headache. Seriously good for a late one.",
+   "tip": "Entry 18+ with a physical ID (no digital IDs or photocopies). VIP queue is 25+. Go after 00:30 or you'll be dancing with the cleaner.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://otkert.hu",
+    "book": null
+   }
+  },
+  {
+   "id": "toldi-klub",
+   "name": "Toldi Klub",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "club",
+    "late-night",
+    "live-music"
+   ],
+   "district": "V",
+   "address": "Bajcsy-Zsilinszky út 36-38, 1054 Budapest",
+   "lat": 47.5043,
+   "lng": 19.0518,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Cinema by day; club night opens 23:00 Sat (listing: Sat 14:00-06:00). Check programme for Thu/Fri.",
+   "blurb": "Cinema by day, underground techno and house by night. Same team as Lärm, a dark basement dancefloor that still feels like a proper night out.",
+   "tip": "Check the event calendar - club nights aren't nightly. Saturday is the safest bet. Bring cash for the cloakroom.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
   },
   {
    "id": "menza",
@@ -1513,7 +1917,7 @@ window.BB_DATA = {
    "lng": 19.0633,
    "approx": true,
    "rating": {
-    "ta": null,
+    "ta": 4.3,
     "taN": null,
     "g": null,
     "gN": null
@@ -1526,7 +1930,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d696068-Reviews-Menza_Restaurant_and_Cafe-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1546,8 +1950,8 @@ window.BB_DATA = {
    "lng": 19.05225,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.4,
+    "taN": 2325,
     "g": null,
     "gN": null
    },
@@ -1559,7 +1963,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d692825-Reviews-Cafe_Kor-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1627,7 +2031,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d789922-Reviews-or630-Frici_Papa_Kifozdeje-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1651,8 +2055,8 @@ window.BB_DATA = {
    "rating": {
     "ta": null,
     "taN": null,
-    "g": null,
-    "gN": null
+    "g": 4.6,
+    "gN": 14542
    },
    "price": 2,
    "priceText": null,
@@ -1662,7 +2066,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d9856765-Reviews-Getto_Gulyas-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1696,7 +2100,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d3351231-r1042332985-Hungarikum_Bisztro-Budapest_Central_Hungary.html",
     "web": "https://hungarikumbisztro.hu",
     "book": null
    }
@@ -1797,7 +2201,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d797853-r439757871-Koleves_Restaurant_and_Garden-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -1853,8 +2257,8 @@ window.BB_DATA = {
    "lng": 19.0659,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.3,
+    "taN": 6835,
     "g": null,
     "gN": null
    },
@@ -1866,7 +2270,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6691676-Reviews-Mazel_Tov-Budapest_Central_Hungary.html",
     "web": "https://www.mazeltov.hu/en",
     "book": null
    },
@@ -1961,8 +2365,8 @@ window.BB_DATA = {
    "rating": {
     "ta": null,
     "taN": null,
-    "g": null,
-    "gN": null
+    "g": 4.6,
+    "gN": 2498
    },
    "price": 4,
    "priceText": null,
@@ -1972,7 +2376,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d1986524-r365274584-Borkonyha_WineKitchen-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -2064,8 +2468,8 @@ window.BB_DATA = {
    "rating": {
     "ta": null,
     "taN": null,
-    "g": null,
-    "gN": null
+    "g": 4.6,
+    "gN": 581
    },
    "price": 4,
    "priceText": null,
@@ -2097,8 +2501,8 @@ window.BB_DATA = {
    "lng": 19.06305,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.8,
+    "taN": 3400,
     "g": 4.8,
     "gN": 6887
    },
@@ -2110,7 +2514,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d3700225-Reviews-Bors_GasztroBar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -2203,7 +2607,7 @@ window.BB_DATA = {
    "rating": {
     "ta": null,
     "taN": null,
-    "g": null,
+    "g": 4.7,
     "gN": null
    },
    "price": 2,
@@ -2425,7 +2829,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276128-Reviews-Central_Market_Hall-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
@@ -2517,7 +2921,7 @@ window.BB_DATA = {
    "rating": {
     "ta": null,
     "taN": null,
-    "g": null,
+    "g": 4.5,
     "gN": null
    },
    "price": 1,
@@ -2548,8 +2952,8 @@ window.BB_DATA = {
    "lng": 19.0515,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 3.9,
+    "taN": 9900,
     "g": 4.1,
     "gN": 12299
    },
@@ -2561,7 +2965,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d952413-Reviews-Gerbeaud-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -2596,7 +3000,7 @@ window.BB_DATA = {
    "history": "Built 1885-1904 and modelled partly on Westminster. Architect Imre Steindl reportedly went blind before it was finished and died before completion. Millions of bricks, around 40kg of gold leaf, and exactly 96m tall to nod to the 896 Magyar conquest.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parliament_Building%2C_Budapest%2C_outside.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276817-Reviews-Hungarian_Parliament_Building-Budapest_Central_Hungary.html",
     "web": "https://www.parlament.hu",
     "book": "https://jegymester.hu/parlament"
    }
@@ -2618,7 +3022,7 @@ window.BB_DATA = {
    "lng": 19.03963,
    "approx": false,
    "rating": {
-    "ta": null,
+    "ta": 4.4,
     "taN": null,
     "g": null,
     "gN": null
@@ -2629,9 +3033,9 @@ window.BB_DATA = {
    "blurb": "Hilltop palace towering over the Danube with the best views of Pest. Funicular, lions, a Turul bird and a proper dragon-slaying fountain. Free to wander.",
    "tip": "Take the Sikló funicular up and walk back down. The Matthias Fountain in the courtyard shows Corvinus hunting with his hounds.",
    "history": "Home to kings since the 13th century, trashed by the Ottomans in 1686 and by the Red Army and Wehrmacht in the 1944-45 siege. The communists rebuilt it in a stripped-down Baroque, then archaeologists dug up medieval bits underneath. Layers upon layers.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Buda_Castle_-_Palazzo_Reale_Budapest.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276804-Reviews.html",
     "web": null,
     "book": null
    }
@@ -2653,7 +3057,7 @@ window.BB_DATA = {
    "lng": 19.03462,
    "approx": false,
    "rating": {
-    "ta": null,
+    "ta": 4.6,
     "taN": null,
     "g": null,
     "gN": null
@@ -2664,9 +3068,9 @@ window.BB_DATA = {
    "blurb": "Seven white fairytale turrets with the best Danube-and-Parliament panorama going. Looks medieval, is actually Victorian-era Disney.",
    "tip": "Go at sunrise or after dark for no ticket, no crowds. Sat 17 Oct is best saved for the evening blue hour.",
    "history": "Not a fortress at all - built 1895-1902 by Frigyes Schulek as a decorative viewing terrace for the 1896 Millennium. Seven towers represent the seven Magyar tribes. The fishermen of the name guarded this stretch of the medieval wall, or sold fish at the foot of the hill, depending who you ask.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman%27s_Bastion%2C_Budapest%2C_Hungary.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276803-Reviews.html",
     "web": null,
     "book": null
    }
@@ -2758,7 +3162,7 @@ window.BB_DATA = {
    "lng": 19.06505,
    "approx": false,
    "rating": {
-    "ta": null,
+    "ta": 3.9,
     "taN": null,
     "g": null,
     "gN": null
@@ -2771,7 +3175,7 @@ window.BB_DATA = {
    "history": "This address was HQ of the Arrow Cross (Hungarian Nazis) in 1944, then of the ÁVO/ÁVH communist secret police. The basement cells you walk through are original. The facade's sinister overhanging roof carries cut-outs of the Arrow Cross symbol and the communist star.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d325279-Reviews.html",
     "web": "https://www.terrorhaza.hu/en",
     "book": null
    }
@@ -2793,8 +3197,8 @@ window.BB_DATA = {
    "lng": 18.9973,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 3.9,
+    "taN": 1472,
     "g": null,
     "gN": null
    },
@@ -2806,7 +3210,7 @@ window.BB_DATA = {
    "history": "After 1989 the city shipped ~42 monumental statues out to this site on the edge of town, opened 1993. Star exhibit: a replica of Stalin's 8m statue boots on a tribune, since the original was toppled in the 1956 uprising, leaving only the boots on the plinth.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276834-Reviews.html",
     "web": "https://www.mementopark.hu",
     "book": null
    }
@@ -2876,7 +3280,7 @@ window.BB_DATA = {
    "history": "Built 1854-59 in Moorish style by Ludwig Förster with an organ that Franz Liszt reportedly played at the inauguration. During WWII it sat inside the Pest ghetto; the Tree of Life weeping-willow memorial in the garden carries victims' names on its leaves.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany4.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d25432877-Reviews-Dohany_Street_Synagogue-Budapest_Central_Hungary.html",
     "web": "https://dohanystreetsynagogue.hu",
     "book": null
    }
@@ -2911,7 +3315,7 @@ window.BB_DATA = {
    "history": "Took 54 years (1851-1905) after the dome collapsed mid-build in 1868 and had to be rebuilt. At 96m it's exactly as tall as Parliament - neither is allowed to be taller. Inside is Hungary's holiest relic, the mummified right hand of King St Stephen.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Stephens_bas_budapest.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276822-Reviews-St_Stephen_s_Basilica_Szent_Istvan_Bazilika-Budapest_Central_Hungary.html",
     "web": "https://www.basilica.hu/en",
     "book": null
    }
@@ -2933,7 +3337,7 @@ window.BB_DATA = {
    "lng": 19.07773,
    "approx": false,
    "rating": {
-    "ta": null,
+    "ta": 4.3,
     "taN": null,
     "g": null,
     "gN": null
@@ -2944,9 +3348,9 @@ window.BB_DATA = {
    "blurb": "Seven mounted Magyar chieftains and a pillar of Archangel Gabriel. Photogenic, free, and right beside the Széchenyi baths.",
    "tip": "Combine with Vajdahunyad Castle and Széchenyi. Quick morning stop on Saturday.",
    "history": "Built for the 1896 Millennium to celebrate 1,000 years since the Magyars arrived. Originally featured Habsburg kings alongside the chieftains until they were replaced by Hungarian national heroes. Its tomb-like memorial stone is often mistaken for the Unknown Soldier.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hosok_tere%2C_Budapest.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276827-Reviews.html",
     "web": null,
     "book": null
    }
@@ -2981,7 +3385,7 @@ window.BB_DATA = {
    "history": "The hill is named for St Gerard, a bishop pushed to his death in a barrel in 1046. The Citadella was built by the Habsburgs in 1851 to keep a nervous eye on Pest after the 1848 revolution. The Liberty Statue (1947) was a Soviet war memorial; Soviet-soldier figures were removed after 1989.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276878-Reviews-Gellert_Hill-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -3003,8 +3407,8 @@ window.BB_DATA = {
    "lng": 19.04309,
    "approx": false,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.5,
+    "taN": 17700,
     "g": null,
     "gN": null
    },
@@ -3016,7 +3420,7 @@ window.BB_DATA = {
    "history": "Opened 1849 as Budapest's first permanent Danube bridge, designed by Englishman William Tierney Clark. Blown up by retreating Germans in 1945 and rebuilt in 1949. The lions supposedly lack tongues - a myth; they have them, just hidden from below.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276821-Reviews-Szechenyi_Lanchid-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -3050,7 +3454,7 @@ window.BB_DATA = {
    "history": "Opened in 1896 for the Millennium celebrations, it's the second-oldest underground railway in the world after London's (1863) - and the first on continental Europe. It was dug just under the pavement using cut-and-cover. Still rattling after 130 years.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d2501174-Reviews-Underground_Railway_Museum-Budapest_Central_Hungary.html",
     "web": "https://bkk.hu/en/",
     "book": null
    }
@@ -3108,7 +3512,7 @@ window.BB_DATA = {
    "lng": 19.05925,
    "approx": false,
    "rating": {
-    "ta": null,
+    "ta": 4.5,
     "taN": null,
     "g": null,
     "gN": null
@@ -3119,9 +3523,9 @@ window.BB_DATA = {
    "blurb": "Gold-leaf neo-Renaissance opera house on Andrássy. Stand under the chandelier and pretend you own a yacht. Tour or a cheap standing seat.",
    "tip": "A cheap standing/restricted-view seat for an evening show can cost less than the tour. Smart casual if you go.",
    "history": "Opened 1884, designed by Miklós Ybl. Legend says Emperor Franz Joseph insisted it be smaller than Vienna's opera house, so Ybl made it better. Gustav Mahler ran the place in the 1890s. The chandelier alone weighs three tonnes.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascar_Hungarian_State_Opera_House_%284543541887%29.jpg?width=900",
    "links": {
-    "ta": "https://www.tripadvisor.com/--d276812.html",
+    "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276812-Reviews.html",
     "web": "https://www.opera.hu/en",
     "book": "https://www.opera.hu/en"
    }
@@ -3225,7 +3629,7 @@ window.BB_DATA = {
    "history": "A natural cave network enlarged by humans for thousands of years: wine cellars, WWII air-raid shelter, and a legend of Vlad the Impaler (the real Dracula) being held prisoner in Buda in the 1460s.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d19657222-Reviews-Labyrinth-Budapest_Central_Hungary.html",
     "web": "https://labirintus.com",
     "book": null
    }
@@ -3260,7 +3664,7 @@ window.BB_DATA = {
    "history": "Dug into the hill's rock by Pauline monks and consecrated in 1931. The Communists bricked it up in 1951, imprisoned the monks, and hid the entrance. It was reopened to the public in 1989.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d17796663-Reviews-Cave_Church-Budapest_Central_Hungary.html",
     "web": "https://sziklatemplom.hu",
     "book": null
    }
@@ -3294,7 +3698,7 @@ window.BB_DATA = {
    "history": "Opened 1913 in neo-Baroque style, drawing from two thermal springs (74C and 77C). Named after Count István Széchenyi who also championed the Chain Bridge. The outdoor chess boards are a ritual and visitors report that Hungarians take it seriously.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Sz%C3%A9chenyi_Baths_R03.jpg?width=900",
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279029-Reviews-Szechenyi_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
     "web": "https://szechenyibath.com",
     "book": "https://bathsbudapest.com"
    }
@@ -3350,8 +3754,8 @@ window.BB_DATA = {
    "lng": 19.04757,
    "approx": false,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.1,
+    "taN": 3500,
     "g": null,
     "gN": null
    },
@@ -3363,7 +3767,7 @@ window.BB_DATA = {
    "history": "Built around 1550 during the Turkish occupation of Buda, its central octagonal pool sits under an original Ottoman dome on eight pillars. A modern rooftop pool was added in a 2010s refit.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279413-Reviews-Rudas_Baths-Budapest_Central_Hungary.html",
     "web": "https://bathsbudapest.com",
     "book": "https://bathsbudapest.com"
    }
@@ -3396,7 +3800,7 @@ window.BB_DATA = {
    "history": "A bathing site since the 12th century when Knights Hospitaller ran a hospital here; today's neoclassical complex is 19th-century. The courtyard wall is covered in marble plaques from grateful healed patients, including many famous writers and artists.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279411-Reviews-Lukacs_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
     "web": "https://www.lukacsfurdo.hu",
     "book": "https://bathsbudapest.com"
    }
@@ -3415,8 +3819,8 @@ window.BB_DATA = {
    "lng": 19.0704,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4,
+    "taN": 139,
     "g": null,
     "gN": null
    },
@@ -3428,7 +3832,7 @@ window.BB_DATA = {
    "history": "A modest district bath in Ferencváros, next to the Zwack Unicum factory; the herbal liqueur is a Hungarian rite of passage.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7729311-Reviews-Dandar_Bath-Budapest_Central_Hungary.html",
     "web": "https://bathsbudapest.com",
     "book": "https://bathsbudapest.com"
    }
@@ -3462,7 +3866,7 @@ window.BB_DATA = {
    "history": "Built in the 1570s by Pasha Veli Bej, it's one of the oldest Turkish baths in Budapest. It has been renovated several times and retains its original central dome.",
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d3366298-Reviews-Veli_Bej_Bath-Budapest_Central_Hungary.html",
     "web": "https://bathsbudapest.com",
     "book": null
    }
@@ -3518,7 +3922,7 @@ window.BB_DATA = {
    "lng": 19.0817,
    "approx": false,
    "rating": {
-    "ta": null,
+    "ta": 3.8,
     "taN": null,
     "g": null,
     "gN": null
@@ -3531,7 +3935,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d5453116-Reviews-Sparty_Szechenyi_Bath_Party-Budapest_Central_Hungary.html",
     "web": "https://szechenyibath.com/magic-bath-parties-in-budapest/",
     "book": "https://spartybooking.com/entry-tickets/"
    },
@@ -3566,7 +3970,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d6969659-Reviews-Budapest_Pinball_Museum-Budapest_Central_Hungary.html",
     "web": "https://flippermuzeum.hu/en/contact-prices/",
     "book": "https://flippermuzeum.hu/en/contact-prices/"
    }
@@ -3586,8 +3990,8 @@ window.BB_DATA = {
    "lng": 19.07,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 5,
+    "taN": 700,
     "g": null,
     "gN": null
    },
@@ -3599,7 +4003,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d23492767-Reviews-Churchill_Shooting_Range_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -3632,7 +4036,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d6884379-r913420942-E_Exit_Escape_Room_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
@@ -3653,8 +4057,8 @@ window.BB_DATA = {
    "lng": 19.064,
    "approx": true,
    "rating": {
-    "ta": null,
-    "taN": null,
+    "ta": 4.9,
+    "taN": 160,
     "g": null,
     "gN": null
    },
@@ -3666,7 +4070,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d13237730-Reviews-Balta_Dobalas-Budapest_Central_Hungary.html",
     "web": "https://baltadobalas.hu",
     "book": "https://baltadobalas.hu/idopontfoglalas.php"
    }
@@ -3767,7 +4171,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d5617713-Reviews-Palvolgyi_Caves-Budapest_Central_Hungary.html",
     "web": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave",
     "book": null
    }
@@ -3799,7 +4203,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d12571866-r746752821-Ferris_Wheel_of_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -3834,7 +4238,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d1566303-Reviews-TripToBudapest_hu_Free_Budapest_Walking_Tours-Budapest_Central_Hungary.html",
     "web": "https://www.guruwalk.com/walks/66638-budapest-in-the-shadow-of-communism",
     "book": null
    }
@@ -3868,7 +4272,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d670573-Reviews-Ecseri_Flea_Market_Ecseri_bolhapiac-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    }
@@ -3934,7 +4338,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d28157709-Reviews-Zugligeti_Libego-Budapest_Central_Hungary.html",
     "web": "https://bkv.hu/en/content/chairlift_information",
     "book": null
    }
@@ -3967,7 +4371,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279012-Reviews-Gyermekvasut-Budapest_Central_Hungary.html",
     "web": "https://www.gyermekvasut.hu",
     "book": null
    }
@@ -3980,12 +4384,13 @@ window.BB_DATA = {
    "tags": [
     "quirky",
     "museum",
-    "games"
+    "games",
+    "palinka"
    ],
    "district": "VII",
    "address": "Király utca 20, 1061 Budapest",
-   "lat": 47.4998,
-   "lng": 19.057,
+   "lat": 47.4989,
+   "lng": 19.0588,
    "approx": true,
    "rating": {
     "ta": null,
@@ -4001,10 +4406,13 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d15361476-r679185310-PALINKA_MUSEUM_SHOP_BAR-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "also": [
+    "bar"
+   ]
   },
   {
    "id": "puskas-arena-tour",
@@ -4035,7 +4443,7 @@ window.BB_DATA = {
    "history": null,
    "image": null,
    "links": {
-    "ta": null,
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d24109869-Reviews-Puskas_Arena_Park-Budapest_Central_Hungary.html",
     "web": "https://en.puskasarena.com/news/arena-tour-information",
     "book": null
    }
@@ -4654,6 +5062,28 @@ window.BB_DATA = {
   "https://commons.wikimedia.org/wiki/File:Szimpla_Kert_Budapest_1.jpg",
   "https://commons.wikimedia.org/wiki/File:A38_(ship,_Budapest).JPG",
   "https://commons.wikimedia.org/wiki/File:K%C5%91leves_kert_(4).jpg",
+  "https://justbudapest.com/best-sports-bars-budapest/",
+  "https://liberoguide.com/10-best-football-bars-in-budapest/",
+  "https://timeout.com/budapest/bars/best-pubs-and-bars-in-budapest-to-watch-football",
+  "https://www.schlouk-map.com/fr/places/jack-doyles-irish-pub-restaurant",
+  "https://www.inyourpocket.com/hungary/budapest/venues/Becketts",
+  "https://budappest.com/budapest-ziccer-trollfoci-sport-pub-opens-at-new-location/",
+  "https://www.schlouk-map.com/en/places/hopaholic",
+  "https://tablejourney.com/hungary/budapest/breweries/mad-scientist-beer/",
+  "https://welovebudapest.com/en/article/2024/02/23/madhouse-craft-beer-bar-yoga-board-game-market-dj-deak-ferenc-ter/",
+  "https://intravel.net/budapest/restaurants-cafes/first-craft-beer-and-bbq",
+  "https://www.schlouk-map.com/en/places/csakajosor-kft",
+  "https://www.opentable.co.uk/r/leo-rooftop-budapest",
+  "https://hungaryunlocked.com/de/leo-rooftop-dachterrasse-budapest/",
+  "https://standreaskybar.dev.wpo.hu/en/venue",
+  "https://www.schlouk-map.com/en/places/warm-up-cocktail-bar",
+  "https://www.schlouk-map.com/en/places/otkert",
+  "https://welovebudapest.com/hely/otkert/",
+  "https://welovebudapest.com/en/toplist/5-thumping-budapest-nightclubs-now-open-for-autumn-action",
+  "https://tablejourney.com/hungary/budapest/nightlife/toldi-klub/",
+  "https://welovebudapest.com/program/toldi-13-szuletesnap-2025-szeptember/",
+  "https://thebettervacation.com/palinka-museum-tickets",
+  "https://www.schlouk-map.com/en/places/palinka-museum",
   "https://hungaryunlocked.com/budapest-michelin-restaurants-review-tips/",
   "https://hungaryunlocked.com/great-market-hall-budapest-guide/",
   "https://www.budapestbylocals.com/great-market-hall/",
@@ -4712,6 +5142,84 @@ window.BB_DATA = {
   "https://hungaryunlocked.com/margaret-island-budapest/",
   "https://hungaryunlocked.com/labyrinth-of-buda-castle/",
   "https://thebettervacation.com/budapest/cave-church/amp/",
-  "https://commons.wikimedia.org/wiki/Category:Matthias_Church_(Budapest)"
+  "https://commons.wikimedia.org/wiki/Category:Matthias_Church_(Budapest)",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d1078889-Reviews-Old_Man_s_Music_Pub-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d25084380-Reviews-Durer_Kert-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d607031-Reviews-A38_Ship-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d3932556-Reviews-Akvarium_Klub-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d7007279-Reviews-BackStage_Pub-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d6485226-Reviews-Rocktogon_Pub_Roll-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d2442847-Reviews-Hard_Rock_Cafe-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d668397-Reviews-Szimpla_Kert-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d907785-Reviews-Szimpla_Kert-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d3138211-Reviews-Instant_Fogas-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d797853-Reviews-Koleves_Restaurant_and_Garden-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d5011161-Reviews-Csendes_Letterem-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d4994225-Reviews-Anker_t-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/ShowUserReviews-g274887-d7655464-r443478260-Doboz-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d7370133-Reviews-Ellato_Kert-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d6895875-Reviews-Red_Ruin_Bar-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d12370539-Reviews-or10-Hotsy_Totsy_Budapest-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d19126341-Reviews-The_MAGIC_Budapest-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1965935-Reviews-For_Sale_Pub-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d276879-Reviews-Gozsdu_Udvar-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1580627-Reviews-Boutiq_Bar-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d8528872-Reviews-High_Note_SkyBar-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6637437-Reviews-360_Bar-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d4725580-Reviews-Eleszto_Craft_Beer_Bar-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d783758-Reviews-Champs_PUB-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6691676-Reviews-Mazel_Tov-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d696068-Reviews-Menza_Restaurant_and_Cafe-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d692825-Reviews-Cafe_Kor-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d789922-Reviews-or630-Frici_Papa_Kifozdeje-Budapest_Central_Hungary.html",
+  "https://reservours.com/en/gettogulyas",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d9856765-Reviews-Getto_Gulyas-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/ShowUserReviews-g274887-d3351231-r1042332985-Hungarikum_Bisztro-Budapest_Central_Hungary.html",
+  "https://intravel.net/budapest/restaurants-cafes/koleves-restaurant",
+  "https://intravel.net/budapest/restaurants-cafes/borkonyha-winekitchen-restaurant",
+  "https://intravel.net/budapest/restaurants-cafes/babel-budapest",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d3700225-Reviews-Bors_GasztroBar-Budapest_Central_Hungary.html",
+  "https://intravel.net/budapest/restaurants-cafes/bors-gasztrobar",
+  "https://intravel.net/budapest/restaurants-cafes/belli-di-mamma",
+  "https://intravel.net/budapest/restaurants-cafes/bp-barbq",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d276128-Reviews-Central_Market_Hall-Budapest_Central_Hungary.html",
+  "https://intravel.net/budapest/restaurants-cafes/molnars-kurtoskalacs",
+  "https://www.tripadvisor.com/Restaurant_Review-g274887-d952413-Reviews-Gerbeaud-Budapest_Central_Hungary.html",
+  "https://intravel.net/budapest/restaurants-cafes/cafe-gerbeaud",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d276817-Reviews-Hungarian_Parliament_Building-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/--d276804.html",
+  "https://www.tripadvisor.com/--d276803.html",
+  "https://www.tripadvisor.com/--d325279.html",
+  "https://www.tripadvisor.com/--d276834.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d25432877-Reviews-Dohany_Street_Synagogue-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d276822-Reviews-St_Stephen_s_Basilica_Szent_Istvan_Bazilika-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/--d276827.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d276867-Reviews-Citadella-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d276821-Reviews-Szechenyi_Lanchid-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d2501174-Reviews-Underground_Railway_Museum-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/--d276812.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d19657222-Reviews-Labyrinth-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d17796663-Reviews-Cave_Church-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d279029-Reviews-Szechenyi_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d279413-Reviews-Rudas_Baths-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d279411-Reviews-Lukacs_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d7729311-Reviews-Dandar_Bath-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d3366298-Reviews-Veli_Bej_Bath-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d5453116-Reviews-Sparty_Szechenyi_Bath_Party-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d6969659-Reviews-Budapest_Pinball_Museum-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d23492767-Reviews-Churchill_Shooting_Range_Budapest-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/ShowUserReviews-g274887-d6884379-r913420942-E_Exit_Escape_Room_Budapest-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d13237730-Reviews-Balta_Dobalas-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d5617713-Reviews-Palvolgyi_Caves-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/ShowUserReviews-g274887-d12571866-r746752821-Ferris_Wheel_of_Budapest-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d1566303-Reviews-TripToBudapest_hu_Free_Budapest_Walking_Tours-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d670573-Reviews-Ecseri_Flea_Market_Ecseri_bolhapiac-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d28157709-Reviews-Zugligeti_Libego-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d279012-Reviews-Gyermekvasut-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/ShowUserReviews-g274887-d15361476-r679185310-PALINKA_MUSEUM_SHOP_BAR-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d24109869-Reviews-Puskas_Arena_Park-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d7074492-Reviews-Groupama_Arena-Budapest_Central_Hungary.html"
  ]
 };

@@ -99,6 +99,8 @@ function applyRatings(p) {
     g: ok(r.g, 5) ? r.g : p.rating?.g ?? null,
     gN: ok(r.gN, 1e7) ? Math.round(r.gN) : p.rating?.gN ?? null,
   };
+  // a score from a handful of reviews is noise, not a rating
+  for (const [v, n] of [['ta', 'taN'], ['g', 'gN']]) if (p.rating[n] != null && p.rating[n] < 15) { p.rating[v] = null; p.rating[n] = null; }
   if (r.taUrl && /^https:\/\/www\.tripadvisor\.[a-z.]+\/.+-d\d+-/.test(r.taUrl)) p.links.ta = r.taUrl;
   if (r.image && !p.image && /^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\//.test(r.image)) p.image = r.image;
   if (r.closed === true) p.closed = true;

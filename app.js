@@ -837,6 +837,7 @@
     parts.push(`<div><h2 class="d-title" id="detailTitle">${esc(p.name)}</h2>${p.sub ? `<p class="d-sub">${esc(p.sub)}</p>` : ''}</div>`);
     if (metaBits.length) parts.push(`<div class="d-meta">${metaBits.join('')}</div>`);
     if (p.closed) parts.push(`<div class="callout is-warn">${icon('alert')}<div><strong>Closed during your trip</strong>${esc(p.hours || '')}</div></div>`);
+    if (p.warn) parts.push(`<div class="callout is-warn">${icon('alert')}<div><strong>Heads up</strong>${esc(p.warn)}</div></div>`);
     if (p.unconfirmed) parts.push(`<div class="callout">${icon('info')}<div><strong>Check it’s open</strong>We couldn’t confirm this one is still trading in 2026. Look at Google Maps before you go.</div></div>`);
 
     if (p.type === 'event') {
