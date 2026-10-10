@@ -218,7 +218,7 @@ window.BB_DATA = {
     {
      "time": "20:00",
      "title": "MTK Budapest v Vasas",
-     "sub": "NB I. Kick-off 20:00 (19:00 UK) per your booking. Two fixture sites now say Sat 17 Oct 17:00, so check your tickets.",
+     "sub": "NB I. Kick-off 20:00 (19:00 UK).",
      "ref": "mtk-vasas",
      "who": "all",
      "booked": true,
@@ -472,7 +472,7 @@ window.BB_DATA = {
    "tip": "Gates open 18:00 (per your booking): grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min door-to-door from the centre; arrive by 19:30.",
    "getThere": "Tram stop 'Hidegkuti Nándor Stadion' is ~130 m away (tram 37/37A listed; one source says tram 1 - check BKK Futár / Google Maps live). Roughly 15-25 min from the centre by tram/metro; Bolt ~10-15 min.",
    "rules": "Bring passport/photo ID to be safe. Bag, pyro and alcohol rules were not confirmed; expect bag checks and light beer only.",
-   "notes": "Opponent Vasas FC is from MTK's own match page (OTP Bank Liga 2026/27 round 10, Fri 16 Oct, 20:00); eredmenyek.com instead shows MTK-Vasas on 17 Oct, and the June fixture release was provisional, so verify on mtkbudapest.hu. Capacity 5,014 (most FotMob pages). Food/beer/hospitality at the ground NOT found. Tram line number conflicting between sources.",
+   "notes": "Date and time confirmed by the booking: Friday 16 Oct, gates from 18:00, kick-off 20:00. Opponent per MTK’s own fixture page.",
    "links": {
     "web": "https://www.mtkbudapest.hu/hu/merkozesek",
     "book": null,
@@ -480,8 +480,7 @@ window.BB_DATA = {
    },
    "image": null,
    "district": null,
-   "price": null,
-   "warn": "Check your tickets. Your booking says Friday 20:00, but two fixture sites (penzcentrum.hu and eredmenyek.com) list MTK v Vasas for Saturday 17 Oct at 17:00. Go by the ticket, and check mtkbudapest.hu before Friday."
+   "price": null
   }
  ],
  "airport": {

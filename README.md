@@ -35,7 +35,7 @@ Commit and push `data.js`. Until then, anyone can drop their own pin from **Info
 
 - **Fradi v Plzeň:** kick-off at 21:00 is verified. Confirm on uefa.com before you go.
 - **Karting:** the Hungaroring GoKart Center location is verified.
-- **MTK v Vasas:** the booking says Fri 16 Oct, 20:00, but two fixture sites list it for Sat 17 Oct, 17:00. The app flags this, so check the tickets.
+- **MTK v Vasas:** Fri 16 Oct, gates 18:00, kick-off 20:00, confirmed by the booking.
 - **Map pins:** most venue pins are placed from street addresses and may be a few doors out. The Google Maps button always goes to the right place.
 - **Ratings:** about 46 of 114 places have a verified Tripadvisor or Google score (`content/ratings.json`). Scores based on fewer than 15 reviews are hidden. Places without a score link to their live ratings and photos instead.
 - **Closures:** Gellért Baths has been closed since Oct 2025 and Király Baths is also shut. Both are marked closed in the app.
