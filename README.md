@@ -1,4 +1,4 @@
-# Bastards on Tour
+# Bastards on Tour 2026
 
 An Airbnb-style guide to Budapest for the lads' weekend, **Thu 15 – Sun 18 Oct 2026**. It's a static web app with no build step and no API keys. It works on phones and can be added to the home screen.
 

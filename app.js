@@ -1,4 +1,4 @@
-/* Bastards on Tour — the lads' Budapest app. Vanilla JS, no build step. */
+/* Bastards on Tour 2026 — the lads' Budapest app. Vanilla JS, no build step. */
 (() => {
   'use strict';
 
@@ -264,7 +264,7 @@
   /* ---------------- distance ---------------- */
   const DEAK = { lat: 47.4979, lng: 19.0544 };
   function origin() {
-    if (BASE.lat != null) return { ...BASE, label: BASE.approx ? 'the flat (roughly)' : 'the Airbnb' };
+    if (BASE.lat != null) return { ...BASE, label: 'the Airbnb' };
     if (state.userLoc) return { ...state.userLoc, label: 'you' };
     return { ...DEAK, label: 'Deák tér' };
   }
@@ -277,13 +277,13 @@
   function distOf(p) { return p.lat == null || p.hidePin ? null : km(origin(), p); }
   function distText(p, long = false) {
     const d = distOf(p);
-    if (d == null) return '';
+    if (d == null || p.type === 'base') return '';
     const o = origin().label;
-    if (d < 0.08) return long ? `Right by ${o}` : 'Right here';
+    if (d < 0.08) return `Right by ${o}`;
     const walk = Math.round((d * 1.25 / 4.8) * 60);
-    if (walk <= 35) return long ? `${walk} min walk from ${o}` : `${walk} min walk`;
+    if (walk <= 35) return `${walk} min walk from ${o}`;
     const drive = Math.round(d / 28 * 60 + 6);
-    return long ? `${d.toFixed(1)} km from ${o}, about ${drive} min by Bolt` : `${d.toFixed(1)} km · ~${drive} min by car`;
+    return long ? `${d.toFixed(1)} km from ${o}, about ${drive} min by Bolt` : `${d.toFixed(1)} km from ${o} · ~${drive} min by car`;
   }
 
   /* ---------------- ratings ---------------- */
@@ -738,7 +738,7 @@
     return `<div>
       ${heroHtml()}
       ${rowSection('The must-sees', 'The best of Budapest: the landmarks, the baths, the bars and the food you shouldn’t miss', 'must', C('must'), 24)}
-      ${BASE.lat != null ? rowSection('Around the flat', `Within a ${NEAR_WALK_MIN}-minute walk${BASE.approx ? ' of roughly where the flat is' : ''}, closest first`, 'near', allItems().filter(catById.get('near').test).sort((a, b) => distOf(a) - distOf(b)), 12) : ''}
+      ${BASE.lat != null ? rowSection('Around the Airbnb', `Within a ${NEAR_WALK_MIN}-minute walk of the Airbnb, closest first`, 'near', allItems().filter(catById.get('near').test).sort((a, b) => distOf(a) - distOf(b)), 12) : ''}
       ${rowSection('Top bars in Budapest', 'The ones everyone should hit at least once, from ruin bars to rooftops and the post-it note pub', 'top', C('top'), 14)}
       ${rowSection('Booked and paid for', 'Two matches and karting. Times are Budapest time.', 'booked', booked)}
       ${rowSection('Rock bars', 'Sweaty basements, live covers and metal on the stereo', 'rock', C('rock'))}
@@ -1073,7 +1073,7 @@
       showSheet(detailRoot);
     }
     if (desktopMQ.matches && !refresh) selectPin(id, { fly: true, card: false });
-    document.title = `${p.name} · Bastards on Tour`;
+    document.title = `${p.name} · Bastards on Tour 2026`;
   }
   function closeDetail() {
     if (!detailOpenId) return;
@@ -1084,7 +1084,7 @@
     if (!detailOpenId) return;
     detailOpenId = null;
     hideSheet(detailRoot);
-    document.title = 'Bastards on Tour';
+    document.title = 'Bastards on Tour 2026';
     lastFocus?.focus?.({ preventScroll: true });
   }
 
@@ -1740,7 +1740,7 @@
     switch (act) {
       case 'share': {
         const p = byId.get(t.dataset.id);
-        share(p.name, `${p.name}, from the Bastards on Tour app`, shareUrl(p.id));
+        share(p.name, `${p.name}, from the Bastards on Tour 2026 app`, shareUrl(p.id));
         break;
       }
       case 'copy': copy(t.dataset.text, 'Address copied'); break;
@@ -1761,7 +1761,7 @@
       case 'clear-filters': clearFilters(); break;
       case 'share-faves': {
         const items = [...state.faves].map((id) => byId.get(id)).filter(Boolean);
-        const text = 'Bastards on Tour shortlist:\n' + items.map((p) => `• ${p.name} – ${gmapsUrl(p)}`).join('\n');
+        const text = 'Bastards on Tour 2026 shortlist:\n' + items.map((p) => `• ${p.name} – ${gmapsUrl(p)}`).join('\n');
         share('Our Budapest shortlist', text, location.href.split('#')[0]);
         break;
       }
