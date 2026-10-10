@@ -33,7 +33,7 @@ window.BB_DATA = {
   "lng": 19.0664,
   "checkIn": null,
   "listing": "https://www.airbnb.co.uk/rooms/35732548",
-  "note": "Rough spot from the Airbnb map: beside Lemezkuckó record shop on Király utca, by the Király utca tram stop (trams 4 and 6). The exact address comes later.",
+  "note": "Rough spot from the Airbnb map: beside Lemezkuckó record shop on Király utca, by the Király utca tram stop (trams 4 and 6). Full address coming soon.",
   "near": "Lemezkuckó record shop (Király utca 67)"
  },
  "plan": [
@@ -175,6 +175,11 @@ window.BB_DATA = {
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Groupama_Arena_Budapest_%2817267881892%29.jpg?width=960",
    "district": null,
    "price": null,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Groupama_Ar%C3%A9na_f%C5%91bej%C3%A1rat.JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Groupama_Arena_02.jpg?width=960"
+   ],
+   "commonsCat": "Category:Groupama Arena",
    "wiki": "hu:Groupama Aréna"
   },
   {
@@ -215,6 +220,13 @@ window.BB_DATA = {
    "district": null,
    "price": null,
    "imageKind": "nearby",
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungaroring,_Mogyor%C3%B3d_12.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungaroring_2003.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Formula_1_Hungarian_Grand_Prix_2011_(3).JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/2022_ETCR_-_RD2_-_Hungaroring_(52186703505).jpg?width=960"
+   ],
+   "commonsCat": "Category:Hungaroring",
    "wiki": "Hungaroring"
   },
   {
@@ -254,6 +266,10 @@ window.BB_DATA = {
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%9Aj_Hidegkuti_N%C3%A1ndor_Stadion_-_The_main_stand_%282017%29.jpg?width=960",
    "district": null,
    "price": null,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/MTK_stadion_-_l%C3%A9gi_fot%C3%B3.jpg?width=960"
+   ],
+   "commonsCat": "Category:Hidegkuti Nándor Stadium",
    "wiki": "Hidegkuti Nándor Stadion"
   }
  ],
@@ -542,6 +558,11 @@ window.BB_DATA = {
    "notes": "Event-driven: check the a38.hu programme for your nights.",
    "pick": true,
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/A38_(ship,_Budapest).JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/A38_1.jpg?width=960"
+   ],
+   "commonsCat": "Category:A38 (ship, 1968)",
    "wiki": "A38 (ship)"
   },
   {
@@ -721,6 +742,14 @@ window.BB_DATA = {
    },
    "pick": true,
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Szimpla_Kert_(26688416599).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/A_Bar_in_Szimpla_Kert.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Szimpla_Kert_Trabant.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Romkocsma_Szimpla_Kert_Budapest.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/T%C3%BCk%C3%B6rn%C3%A9zet_Szimpla_romkocsma.JPG?width=960"
+   ],
+   "commonsCat": "Category:Szimpla Kert",
    "wiki": "Szimpla Kert"
   },
   {
@@ -751,7 +780,7 @@ window.BB_DATA = {
    "blurb": "Huge party complex: about 18 bars, 7 dancefloors, garden, loads of genres under one roof. This is where the weekend ends at 5am.",
    "tip": "Free before midnight, small cover after. Pick a floor and stick to it; the maze is easy to get lost in with mates.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Ak%C3%A1cfa_utca,_Fogas.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d3138211-Reviews-Instant_Fogas-Budapest_Central_Hungary.html",
     "web": "https://instant-fogas.com",
@@ -759,7 +788,12 @@ window.BB_DATA = {
    },
    "pick": true,
    "must": true,
-   "imageKind": "building"
+   "imageKind": "building",
+   "imageCaption": "The Fogas entrance on Akácfa utca",
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51,_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960"
+   ],
+   "commonsCat": "Category:Akácfa Street, 51 (Fogasház)"
   },
   {
    "id": "koleves-kert",
@@ -1080,6 +1114,13 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-yard._'C'_yard._Arcades._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-yard._'B'_yard._Bldg_-3._-_Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-yard._'D'_yard._Bldg_-5._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-yard._Dob_Street's_gateway._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?width=960"
+   ],
+   "commonsCat": "Category:Gozsdu courtyard",
    "wiki": "Gozsdu-udvar"
   },
   {
@@ -2587,7 +2628,11 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
-   "must": true
+   "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Street_Food_Karav%C3%A1n,_3.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Street_Food_Karav%C3%A1n,_2.jpg?width=960"
+   ]
   },
   {
    "id": "szimply",
@@ -2700,6 +2745,11 @@ window.BB_DATA = {
     "sight"
    ],
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Mercado_Central_-_Grand_Market_Hall_-_Nagycsarnok_-_02.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Central_market_hall,_Budapest.jpg?width=960"
+   ],
+   "commonsCat": "Category:Grand Market Hall, Budapest",
    "wiki": "Great Market Hall, Budapest"
   },
   {
@@ -2746,7 +2796,8 @@ window.BB_DATA = {
    "type": "food",
    "tags": [
     "brunch",
-    "hungarian"
+    "hungarian",
+    "coffee"
    ],
    "district": "XI",
    "address": "Bartók Béla út 29, 1114 Budapest",
@@ -2844,6 +2895,395 @@ window.BB_DATA = {
    "wiki": "Café Gerbeaud"
   },
   {
+   "id": "espresso-embassy",
+   "name": "Espresso Embassy",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee",
+    "cake",
+    "breakfast"
+   ],
+   "district": "V",
+   "address": "Arany János utca 15, 1051 Budapest",
+   "lat": 47.5035,
+   "lng": 19.0525,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 07:30–17:00 · Sat–Sun 08:30–17:00 (sources disagree on closing: some say 19:00 on weekdays)",
+   "blurb": "Budapest's flagship specialty roaster-bar, ranked 17th in a June 2026 list of Europe's best coffee shops. Small, busy and serious about the brew. About 15 minutes' walk from the flat.",
+   "tip": "Get a cortado or a filter, plus a pastry. Go early on Saturday or you'll queue. Flat white about 1,500 HUF (£3.50).",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": "https://espressoembassy.hu",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Beef pörkölt with nokedli"
+  },
+  {
+   "id": "madal-cafe-kiraly",
+   "name": "Madal Café",
+   "sub": "Király utca",
+   "type": "food",
+   "tags": [
+    "coffee",
+    "brunch",
+    "cake"
+   ],
+   "district": "VII",
+   "address": "Király utca 7, 1075 Budapest",
+   "lat": 47.4983,
+   "lng": 19.056,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 07:30–19:30 · Sat–Sun 08:30–19:30 (third-party listings, not checked with the cafe)",
+   "blurb": "Big, bright branch of a proper Budapest specialty chain, opened late 2024 on the street you're staying on. Good beans, decent croissants and room for the lads to sit.",
+   "tip": "Single-origin filter or a flat white, plus a croissant. Easy first stop of the day on the walk into town.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": "https://madalcafe.hu",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Coffee and a croissant"
+  },
+  {
+   "id": "kern-collective-coffee",
+   "name": "Kern Collective Coffee",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee",
+    "cheap"
+   ],
+   "district": "VI",
+   "address": "Király utca 34, 1061 Budapest",
+   "lat": 47.5012,
+   "lng": 19.0627,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Check Google Maps for opening times on the day",
+   "blurb": "Student-friendly specialty bar five minutes from the flat, opened 2022. Scruffy in a good way, with free wifi and takeaway if you're in a rush for the next pub.",
+   "tip": "One of the two closest proper coffees to the flat. Grab a flat white to go on the way to anywhere (about 1,200 HUF, £3).",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "unconfirmed": true,
+   "imageKind": "illustrative",
+   "imageCaption": "Beef pörkölt with nokedli"
+  },
+  {
+   "id": "arabica-kiraly",
+   "name": "% Arabica Király",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee"
+   ],
+   "district": "VI",
+   "address": "Király utca 40, 1061 Budapest",
+   "lat": 47.5015,
+   "lng": 19.064,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 08:00–17:00 · Sat–Sun 09:00–18:00 (listings conflict on weekend closing)",
+   "blurb": "Minimalist Japanese coffee bar with Zsolnay tiles and its own roaster, opened early 2025, a three-minute stagger from the flat. Pricier than the locals' places, but the coffee is smooth.",
+   "tip": "Go for the latte or the Kyoto-style coffee with condensed milk. Expect to pay a bit over 1,500 HUF (£3.50+).",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Beef pörkölt with nokedli"
+  },
+  {
+   "id": "fekete-budapest",
+   "name": "Fekete",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee",
+    "brunch",
+    "cake"
+   ],
+   "district": "V",
+   "address": "Múzeum körút 5, 1053 Budapest",
+   "lat": 47.4929,
+   "lng": 19.0602,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 08:00–19:00 · Sat 08:30–19:00 · Sun 09:00–18:00 (another guide says daily 08:00–19:00)",
+   "blurb": "Tucked in a courtyard near Astoria. A tiny espresso bar plus a separate brew and food room, so you can actually sit. A reliable specialty pick that's still on the 2026 lists.",
+   "tip": "Try a V60 or AeroPress, and the homemade cake. Weekend mornings get packed and the bar is tiny.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Coffee and croissant"
+  },
+  {
+   "id": "my-little-melbourne",
+   "name": "My Little Melbourne",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee",
+    "brunch",
+    "breakfast"
+   ],
+   "district": "VII",
+   "address": "Madách Imre út 3, 1075 Budapest",
+   "lat": 47.4972,
+   "lng": 19.0566,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 07:30–17:00 · Sat–Sun 08:30–17:00 (an older review says weekdays to 19:00)",
+   "blurb": "One of Budapest's original specialty coffee shops (since 2012), Aussie style and still on the 2026 third-wave lists. Small, friendly and a short walk from Király utca.",
+   "tip": "Flat white and a toastie or something eggy for breakfast. Good hangover fixer, about 1,400 HUF (£3.30) for the coffee.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Coffee and croissant"
+  },
+  {
+   "id": "dorado-cafe",
+   "name": "Dorado Café",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee",
+    "brunch"
+   ],
+   "district": "VII",
+   "address": "Klauzál utca 35, 1072 Budapest",
+   "lat": 47.4996,
+   "lng": 19.0655,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 08:30–17:00 · Sat 09:00–17:00 · Sun 09:00–15:00 (directory listing, not checked with the cafe)",
+   "blurb": "Calm, small specialty cafe near Klauzál tér, run by a Hungarian-Spanish couple. Quiet during the week, so a good place to recover before the evening starts.",
+   "tip": "Espresso tonic or avocado toast. Short menu, friendly baristas, a ten minute walk from the flat.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "unconfirmed": true,
+   "imageKind": "illustrative",
+   "imageCaption": "Coffee and croissant"
+  },
+  {
+   "id": "vivinas-cafe-roastery",
+   "name": "Vivina's Café & Roastery",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee",
+    "roastery",
+    "brunch",
+    "breakfast"
+   ],
+   "district": "V",
+   "address": "Szerb utca 17–19, 1056 Budapest",
+   "lat": 47.4902,
+   "lng": 19.0582,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 08:00–17:00 (one listing says 17:30) · Sat 09:00–17:00 · Sun 09:30–15:00",
+   "blurb": "Roastery and cafe with a proper terrace, ranked 79th in a 2026 list of Europe's best coffee shops. Strong brunch menu, so it does the job for a long, slow Saturday morning.",
+   "tip": "Beans are roasted in house: get a filter, then a breakfast plate. Sunday opens late (09:30), so no early starts.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Cappuccino and breakfast"
+  },
+  {
+   "id": "mantra-specialty-coffee",
+   "name": "Mantra Specialty Coffee Bar",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee"
+   ],
+   "district": "V",
+   "address": "Veres Pálné utca 17, 1053 Budapest",
+   "lat": 47.4912,
+   "lng": 19.057,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 08:00–18:00 · Sat–Sun 08:30–18:00 (other listings give Sunday closed or later times)",
+   "blurb": "Compact specialty bar near Ferenciek tere that rotates two guest roasters a day. A nerdy, quiet stop if you're wandering the Váci utca end of town.",
+   "tip": "Ask what the two roasters are today and go filter. Check Sunday opening before you make a trip of it.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Hungarian goulash and paprikás"
+  },
+  {
+   "id": "kontakt-budapest",
+   "name": "Kontakt",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee"
+   ],
+   "district": "V",
+   "address": "Károly körút 22, 1052 Budapest",
+   "lat": 47.4958,
+   "lng": 19.0577,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 08:00–16:00 or 18:00 · Sat 09:00–16:00 or 17:00 · Sun closed or 09:00–17:00 (listings conflict: check before you go)",
+   "blurb": "A purists' spot on the Kiskörút, a short stroll from Deák tér. Rotating European and Hungarian roasters on espresso and filter, and no fuss.",
+   "tip": "Plain coffee only, no sugar bowl in sight. Check Sunday opening first.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Hungarian goulash and paprikás"
+  },
+  {
+   "id": "tamp-and-pull",
+   "name": "Tamp & Pull",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "coffee"
+   ],
+   "district": "IX",
+   "address": "Czuczor utca 3, 1093 Budapest",
+   "lat": 47.4858,
+   "lng": 19.0654,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 07:30–18:00 · Sat 08:00–17:00 · Sun 08:00–15:00 (another listing says Sun closed)",
+   "blurb": "Respected small espresso bar south of the centre, on the 2026 third-wave lists. Worth the walk or a tram if you're heading towards the river or Fővám tér anyway.",
+   "tip": "Espresso or a flat white, standing at the bar. Ask about the Sopron roast. Not near Király utca, so combine it with other plans.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Hungarian goulash and paprikás"
+  },
+  {
    "id": "hungarian-parliament",
    "name": "Hungarian Parliament Building",
    "sub": null,
@@ -2878,6 +3318,14 @@ window.BB_DATA = {
     "book": "https://jegymester.hu/parlament"
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Parliament_Building_from_across_the_Danube,_2025-01-11.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Parliament_Building,_Budapest,_Hungary-2548_-_Start_of_the_Night_Cruise_(7814823114).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_(8130437015).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungary-0062_-_Hungarian_Parliament_Building_(7270467104).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest-Parliament-0001.jpg?width=960"
+   ],
+   "commonsCat": "Category:Hungarian Parliament Building",
    "wiki": "Hungarian Parliament Building"
   },
   {
@@ -2915,6 +3363,14 @@ window.BB_DATA = {
     "book": null
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Buda_Castle_from_the_Danube_River.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/The_Former_Royal_Palace_on_the_Buda_bankside.JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Castillo_de_Buda_-_Buda_Castle_-_04.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Budav%C3%A1ri_Palota_(Buda_Castle)_(31224644612).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Buda_Castle_-_Palazzo_Reale_Budapest.jpg?width=960"
+   ],
+   "commonsCat": "Category:Buda Castle",
    "wiki": "Buda Castle"
   },
   {
@@ -2952,6 +3408,14 @@ window.BB_DATA = {
     "book": null
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Fishermans_bastion_Budapest_IMG_1429.JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman_s_Bastion.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungary-0034_-_Fisherman's_Bastion_(7260817042).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman's_Bastion,_Budapest,_Hungary.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Fisherman's_Bastion_to_the_Hungarian_Parliament_Building,_2016_Hungary_-_Budapest_(27877629173).jpg?width=960"
+   ],
+   "commonsCat": "Category:Fisherman's Bastion",
    "wiki": "Fisherman's Bastion"
   },
   {
@@ -2987,6 +3451,12 @@ window.BB_DATA = {
     "web": "https://www.matyas-templom.hu",
     "book": null
    },
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church,_Budapest,_2017.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church,_Budapest_07.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church_or_Buda_Castle_Coronation_Church_(officially_known_as_the_Buda_Castle's_Church_of_Our_Lady)._Moon_and_Stars._-_Buda_Castle_Quarter,_Budapest.JPG?width=960"
+   ],
+   "commonsCat": "Category:Matthias Church (Budapest)",
    "wiki": "Matthias Church"
   },
   {
@@ -3025,6 +3495,11 @@ window.BB_DATA = {
     "book": "https://sziklakorhaz.eu/en/informacio"
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest._I._Lovas_%C3%BAt._4.-_Hospital_in_the_Rock_-_Secret_Military_Hospital_and_Nuclear_Bunker.JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest._I._Lovas_%C3%BAt_4.-_Hospital_in_the_Rock_and_Castle_Walls._Sour_Soup_tower.JPG?width=960"
+   ],
+   "commonsCat": "Category:Hospital in the Rock",
    "wiki": "Hospital in the Rock"
   },
   {
@@ -3062,6 +3537,14 @@ window.BB_DATA = {
     "book": null
    },
    "notes": "It closed in mid-September 2026 for a content review and reopened on 22 Sep.",
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_(37766898364).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_(37766885184).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest-Terror_Museum.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/House_of_Terror,_Budapest.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Terror_Haza_Muzeum-Hosok_fala_20131201_02.jpg?width=960"
+   ],
+   "commonsCat": "Category:House of Terror Museum",
    "wiki": "House of Terror"
   },
   {
@@ -3135,6 +3618,14 @@ window.BB_DATA = {
     "book": null
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Shoes_Danube_Promenade_IMGP1297.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungary-0045_-_Shoes_on_the_Danube_(7263586734).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungary-0057_-_Shoes_on_the_Danube_(7263603836).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Cip%C5%91k_a_Duna-parton_(38450346722).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Shoes_on_the_Danube_Promenade_(Holocaust_monument,_Budapest).jpg?width=960"
+   ],
+   "commonsCat": "Category:Shoes on the Danube Promenade",
    "wiki": "Shoes on the Danube Bank"
   },
   {
@@ -3171,6 +3662,12 @@ window.BB_DATA = {
     "web": "https://dohanystreetsynagogue.hu",
     "book": null
    },
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Synagoge_Budapest_2014.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Synagogue-Budapest.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Nagy_zsinagoga_budapest.jpg?width=960"
+   ],
+   "commonsCat": "Category:Great Synagogue in Dohány Street",
    "wiki": "Dohány Street Synagogue"
   },
   {
@@ -3208,6 +3705,14 @@ window.BB_DATA = {
     "book": null
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Stephen's_Basilica_Budapest.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/St_Stephens_bas_budapest.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/HUN-2015-Budapest-St._Stephen's_Basilica.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/St._Stephen's_Basilica_by_night.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Szent_Istv%C3%A1n-bazilika,_St._Stephen's_Basilica_(11374602996).jpg?width=960"
+   ],
+   "commonsCat": "Category:Saint Stephen's Basilica (Budapest)",
    "wiki": "St. Stephen's Basilica"
   },
   {
@@ -3244,6 +3749,14 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Heroes_Square_Budapest_2010_01.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/The_Millennium_Monument_in_Heroes'_Square,_Budapest,_Hungary.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/HUN-2015-Budapest-Heroes%E2%80%99_Square.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hosok_tere,_Budapest.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Millennium_Monument,_H%C5%91s%C3%B6k_tere_(Heroes'_Square),_Budapest,_Hungary_-_200512.jpg?width=960"
+   ],
+   "commonsCat": "Category:Hősök tere (Budapest 14)",
    "wiki": "Heroes' Square (Budapest)"
   },
   {
@@ -3281,6 +3794,14 @@ window.BB_DATA = {
     "book": null
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Citadella,_Szabads%C3%A1g_szobor,_Gell%C3%A9rt_hegy_az_Erzs%C3%A9bet_h%C3%ADdr%C3%B3l_---_Budapest.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budape%C5%A1%C5%A5,_Gell%C3%A9rt_hegy,_Szabads%C3%A1g_szobor.JPG?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Gell%C3%A9rt_socha_svobody_2.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Freiheitsstatue_IMGP1996.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budape%C5%A1%C5%A5,_Gellert-hegy,_pam%C3%A1tn%C3%ADk.JPG?width=960"
+   ],
+   "commonsCat": "Category:Statue of Liberty (Budapest)",
    "wiki": "Citadella"
   },
   {
@@ -3318,6 +3839,13 @@ window.BB_DATA = {
     "book": null
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Sz%C3%A9chenyi_L%C3%A1nch%C3%ADd_(37766929614).jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Chain_Bridge_Budapest_Hungary.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Chain_Bridge_-_panoramio.jpg?width=960"
+   ],
+   "commonsCat": "Category:Chain Bridge, Budapest",
    "wiki": "Széchenyi Chain Bridge"
   },
   {
@@ -3607,6 +4135,14 @@ window.BB_DATA = {
     "book": "https://bathsbudapest.com"
    },
    "must": true,
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Sz%C3%A9chenyi_Baths_R01.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Sz%C3%A9chenyi_Baths_R03.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest-Bains_Sz%C3%A9chenyi_f%C3%BCrd%C5%91-coupole.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Sz%C3%A9chenyi_f%C3%BCrd%C5%91,_M%C3%A1rv%C3%A1nyterem.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Gy%C3%B3gyf%C3%BCrd%C5%91_thermal_spa_in_Budapest_013.JPG?width=960"
+   ],
+   "commonsCat": "Category:Széchenyi Gyógyfürdő",
    "wiki": "Széchenyi thermal bath"
   },
   {
@@ -3680,6 +4216,12 @@ window.BB_DATA = {
    },
    "must": true,
    "imageKind": "building",
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Rudas_f%C3%BCrd%C5%91,_panor%C3%A1mamedence.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Rudas_Bath_W_mid_part,_2016_Budapest.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Rudas_f%C3%BCrd%C5%91,_szaunavil%C3%A1g,_aroma_szauna,_3.jpg?width=960"
+   ],
+   "commonsCat": "Category:Rudas Gyógyfürdő",
    "wiki": "Rudas Baths"
   },
   {
@@ -5131,6 +5673,11 @@ window.BB_DATA = {
   "https://europeancoffeetrip.com/cafe/kelet-budapest/",
   "https://tablejourney.com/hungary/budapest/dish/kurtoskalacs/",
   "https://travel.sygic.com/en/poi/cafe-gerbeaud-poi:1482",
+  "https://welovebudapest.com/cikk/2025/01/29/gasztro-arabica-kiraly-utca-kavezo-specialty-kave/",
+  "https://europeancoffeetrip.com/cafe/arabica-budapestkiraly-budapest/",
+  "https://welovebudapest.com/cikk/2022/07/06/gasztro-nemzetkozi-talalkozohely-a-specialty-kavek-szerelmeseinek-megnyilt-a-kern-collective-coffee-a-kiraly-utcaban",
+  "https://caffeatlas.com/dorado-budapest",
+  "https://europeancoffeetrip.com/cafe/mantracoffee-budapest",
   "https://www.timeout.com/news/one-of-budapests-most-iconic-thermal-baths-is-closing-for-renovations-until-2028-100125",
   "https://budappest.com/gellert-thermal-baths-renovation-panoramic-danube-views-and-restored-art-nouveau-splendor-coming-2028/",
   "https://hungaryunlocked.com/budapest-thermal-baths-szechenyi-gellert-rudas-insider-guide/",

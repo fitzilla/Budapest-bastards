@@ -53,6 +53,7 @@
     bottle: '<path d="M10 2h4v4.2l2 3V21a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V9.2l2-3z"/><path d="M8 13h8M8 17h8"/>',
     tv: '<rect x="2" y="7" width="20" height="14" rx="2"/><path d="m17 2-5 5-5-5"/>',
     moon: '<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>',
+    coffee: '<path d="M10 2v2M14 2v2M6 2v2M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/>',
     utensils: '<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>',
     soup: '<path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z"/><path d="M7 21h10M19.5 12 22 6"/><path d="M16 3c.3.1.8.5.7 1.4 0 .8-.9 1.2-1 2-.1.8.3 1.2.7 1.6M11 3c.3.1.8.5.7 1.4 0 .8-.9 1.2-1 2-.1.8.3 1.2.7 1.6M6 3c.3.1.8.5.7 1.4 0 .8-.9 1.2-1 2-.1.8.3 1.2.7 1.6"/>',
     landmark: '<path d="M3 22h18M6 18v-7M10 18v-7M14 18v-7M18 18v-7M12 2l8 5H4z"/>',
@@ -110,10 +111,11 @@
   function kindOf(p) {
     if (p.type === 'event') return /fradi/.test(p.id) ? 'fradi' : /mtk/.test(p.id) ? 'mtk' : 'kart';
     if (p.type === 'bar' && hasAny(p, ['rock', 'metal'])) return 'rock';
+    if (p.type === 'food' && has(p, 'coffee')) return 'coffee';
     return p.type;
   }
-  const KIND_ICON = { fradi: 'ball', mtk: 'ball', kart: 'flag', rock: 'guitar', bar: 'beer', food: 'utensils', sight: 'landmark', bath: 'waves', activity: 'zap', travel: 'plane', base: 'home' };
-  const KIND_COLOR = { fradi: 'fradi', mtk: 'mtk', kart: 'event', rock: 'rock', bar: 'bar', food: 'food', sight: 'sight', bath: 'bath', activity: 'activity', travel: 'travel', base: 'base' };
+  const KIND_ICON = { fradi: 'ball', mtk: 'ball', kart: 'flag', rock: 'guitar', bar: 'beer', coffee: 'coffee', food: 'utensils', sight: 'landmark', bath: 'waves', activity: 'zap', travel: 'plane', base: 'home' };
+  const KIND_COLOR = { fradi: 'fradi', mtk: 'mtk', kart: 'event', rock: 'rock', bar: 'bar', coffee: 'coffee', food: 'food', sight: 'sight', bath: 'bath', activity: 'activity', travel: 'travel', base: 'base' };
   const iconOf = (p) => KIND_ICON[kindOf(p)] || 'pin';
   const colorVar = (p) => {
     const k = kindOf(p);
@@ -142,6 +144,7 @@
         return t.includes('quirky') ? 'Odd bar' : 'Bar';
       case 'food':
         if (p.also?.includes('bar')) return 'Ruin bar & kitchen';
+        if (t.includes('coffee')) return t.includes('roastery') ? 'Coffee roasters' : 'Coffee';
         if (t.includes('michelin')) return 'Michelin Guide';
         if (t.includes('market')) return 'Market';
         if (t.includes('langos')) return 'Lángos';
@@ -192,7 +195,7 @@
     }
     return {
       id: 'base', type: 'base', name: b.name || 'The Airbnb',
-      sub: b.address || (b.localPin ? 'Pinned on this phone' : b.near ? `Near ${b.near} · exact address TBC` : 'Address TBC'),
+      sub: b.address || (b.localPin ? 'Pinned on this phone' : b.near ? `Near ${b.near} · full address coming soon` : 'Full address coming soon'),
       address: b.address, lat: b.lat ?? null, lng: b.lng ?? null, localPin: !!b.localPin,
       approx: !b.address && !b.localPin && b.lat != null, near: b.near || null,
       tags: [], rating: {}, links: { web: b.listing || null }, checkIn: b.checkIn, note: b.note,
@@ -234,7 +237,8 @@
     { id: 'rooftops', label: 'Rooftops & cocktails', icon: 'martini', test: (p) => p.type === 'bar' && hasAny(p, ['cocktail', 'rooftop', 'speakeasy']) },
     { id: 'late', label: 'Late & clubs', icon: 'moon', test: (p) => is(p, 'bar') && hasAny(p, ['club', 'late-night']) },
     { id: 'sports', label: 'Sports & beer', icon: 'tv', test: (p) => p.type === 'bar' && hasAny(p, ['sports', 'craft-beer']) },
-    { id: 'eat', label: 'Eat', icon: 'utensils', test: (p) => p.type === 'food' },
+    { id: 'eat', label: 'Eat', icon: 'utensils', test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
+    { id: 'coffee', label: 'Best coffee', icon: 'coffee', test: (p) => has(p, 'coffee') },
     { id: 'dishes', label: 'Must-try food', icon: 'soup', dishes: true, test: (p) => dishPlaceIds.has(p.id) },
     { id: 'history', label: 'History', icon: 'landmark', test: (p) => is(p, 'sight') },
     { id: 'baths', label: 'Baths', icon: 'waves', test: (p) => p.type === 'bath' },
@@ -319,13 +323,47 @@
     if (m) return (m[1] === 'commons' ? 'https://commons.wikimedia.org' : `https://${m[1]}.wikipedia.org`) + '/wiki/File:' + m[2];
     return null;
   }
+  /* extra photos for the detail gallery: hand-picked Commons files first, then the place's Commons category */
+  const runtimeGallery = new Map();
+  const photoKey = (u) => { try { return decodeURIComponent((filePage(u) || u).split('File:').pop().split('?')[0]).replace(/ /g, '_').toLowerCase(); } catch { return u; } };
+  const galleryOf = (p) => {
+    const seen = new Set([photoKey(imgOf(p) || '')]);
+    return [...(p.gallery || []), ...(runtimeGallery.get(p.id) || [])].filter((u) => u && !seen.has(photoKey(u)) && seen.add(photoKey(u))).slice(0, 9);
+  };
+  const galSlide = (u) => {
+    const pg = filePage(u);
+    return `<div class="d-slide"><div class="card-media"><img src="${esc(u)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="window.__bbGalFail(this)"></div>${pg ? `<a class="d-credit" href="${esc(pg)}" target="_blank" rel="noopener">Photo: Wikimedia Commons ↗</a>` : ''}</div>`;
+  };
+  function syncCount(hero) {
+    const sl = hero && $('.d-slides', hero);
+    if (!sl) return;
+    const n = sl.children.length;
+    hero.classList.toggle('has-gallery', n > 1);
+    $('.d-count span', hero).textContent = `${Math.min(n, Math.round(sl.scrollLeft / Math.max(1, sl.clientWidth)) + 1)} / ${n}`;
+  }
+  window.__bbGalFail = (img) => { const hero = img.closest('.d-hero'); img.closest('.d-slide')?.remove(); syncCount(hero); };
+  async function loadCommonsCat(p) {
+    if (!p.commonsCat || runtimeGallery.has(p.id)) return;
+    const cache = store.get('gal', {});
+    const hit = cache[p.commonsCat];
+    if (hit && Date.now() - hit.t < 14 * 864e5) { runtimeGallery.set(p.id, hit.u); return; }
+    try {
+      const r = await fetch(`https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&origin=*&generator=categorymembers&gcmtype=file&gcmlimit=40&gcmtitle=${encodeURIComponent(p.commonsCat)}&prop=imageinfo&iiprop=url|mime&iiurlwidth=960`);
+      if (!r.ok) return;
+      const pages = ((await r.json()).query || {}).pages || [];
+      const u = pages.filter((pg) => pg.imageinfo?.[0]?.mime === 'image/jpeg' && isPhoto(pg.title)).map((pg) => pg.imageinfo[0].thumburl).filter(Boolean).slice(0, 8);
+      cache[p.commonsCat] = { u, t: Date.now() };
+      store.set('gal', cache);
+      runtimeGallery.set(p.id, u);
+    } catch { /* offline: the hand-picked photos still show */ }
+  }
+  // a page's lead image is sometimes a logo, crest or map: only take photos
+  const isPhoto = (u) => !!u && !/\.(svg|png|gif)(\/|$|\?)|logo|emblem|crest|coat_of_arms|wappen|c%C3%ADmer|címer|flag_of|locator|_map\b| map\b|diagram|plan\b|térkép/i.test(u);
   async function loadWikiImages() {
     const items = [...EVENTS, AIRPORT, ...PLACES, ...D.dishes].filter((x) => x.wiki);
     const cache = store.get('wikiimg', {});
     const key = (x) => x.wiki;
     const fresh = (e) => e && Date.now() - e.t < 7 * 864e5;
-    // a page's lead image is sometimes a logo, crest or map: only take photos
-    const isPhoto = (u) => !!u && !/\.(svg|png|gif)(\/|$|\?)|logo|emblem|crest|coat_of_arms|wappen|c%C3%ADmer|flag_of|locator|_map\b|diagram/i.test(u);
     const apply = () => { for (const x of items) { const c = cache[key(x)]; if (isPhoto(c?.u)) runtimeImg.set(x.id, c.u); } paintImages(); };
     apply();
     const byLang = new Map();
@@ -619,7 +657,7 @@
 
   /* ---------------- rendering: categories ---------------- */
   function renderCats() {
-    $('#cats').innerHTML = CATS.filter((c) => !c.needsBase || BASE.lat != null).map((c) => `<button type="button" class="cat${c.warn ? ' is-warn' : ''}" data-cat="${c.id}" aria-current="${state.cat === c.id && !state.q}">${icon(c.icon)}<span>${esc(c.label)}</span></button>`).join('');
+    $('#cats').innerHTML = CATS.filter((c) => (!c.needsBase || BASE.lat != null) && (c.id === 'all' || allItems().some(c.test))).map((c) => `<button type="button" class="cat${c.warn ? ' is-warn' : ''}" data-cat="${c.id}" aria-current="${state.cat === c.id && !state.q}">${icon(c.icon)}<span>${esc(c.label)}</span></button>`).join('');
   }
   function setCat(id, push = true) {
     if (!catById.has(id)) id = 'all';
@@ -848,7 +886,7 @@
       <p class="muted">${WX.live ? 'Live forecast from Open-Meteo, refreshed every few hours.' : `Typical mid-October: highs around ${D.climate.avgHigh}°, lows around ${D.climate.avgLow}°. The live forecast switches on once the trip is within 16 days.`} Bring a jacket for the matches.</p>`;
 
     const B = BASE;
-    const baseBody = `<dl class="kv"><dt>Address</dt><dd>${esc(B.address || 'TBC, coming soon')}</dd><dt>Check-in</dt><dd>${esc(B.checkIn || 'TBC')}</dd></dl>
+    const baseBody = `<dl class="kv"><dt>Address</dt><dd>${esc(B.address || 'Full address coming soon')}</dd><dt>Check-in</dt><dd>${esc(B.checkIn || 'TBC')}</dd></dl>
       <p>${esc(D.base.note)}</p>
       ${D.base.lat == null ? `<div class="base-form">
         <div class="field"><label for="basePaste">Paste a Google Maps link or coordinates</label><input id="basePaste" type="text" inputmode="url" placeholder="e.g. 47.4979, 19.0632" autocomplete="off"></div>
@@ -887,7 +925,7 @@
     pane.innerHTML = `<header class="page-head"><h1>Info</h1><p>The 2026 essentials: weather, apps, money, scams and how to say cheers.</p></header>
       <div class="info-list">
         ${acc('weather', 'cloudsun', 'Weather', WX.live ? 'Live forecast' : 'Mid-October averages', weather, isOpen('weather', true))}
-        ${acc('base', 'home', 'The Airbnb', B.address || (B.localPin ? 'Pinned on this phone' : 'Address TBC'), baseBody, isOpen('base', false))}
+        ${acc('base', 'home', 'The Airbnb', B.address || (B.localPin ? 'Pinned on this phone' : 'Full address coming soon'), baseBody, isOpen('base', false))}
         ${acc('airport', 'plane', 'Airport & transfers', `Land ${LAND} Thu · back by ${AIRPORT_BY} Sun`, airportBody, isOpen('airport', false))}
         ${P('taxis')}
         ${P('transport')}
@@ -940,7 +978,7 @@
       if (whoLabel(p.who)) parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
     }
     if (p.type === 'base') {
-      if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>This is where the flat shows on the Airbnb map${p.near ? `, beside ${esc(p.near)}` : ''}. The exact address comes later. Distances in the app are measured from this spot.</div></div>`);
+      if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>This is where the flat shows on the Airbnb map${p.near ? `, beside ${esc(p.near)}` : ''}. Full address coming soon. Every distance and walking time in the app is measured from this spot.</div></div>`);
       parts.push(`<p class="d-blurb">${esc(p.note || '')}</p>`);
       parts.push(`<div class="d-actions">${p.lat != null ? `<a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions home</a>` : ''}<a class="btn btn-soft" href="#/info" data-act="goto-base-info">${icon('pin')}${p.lat != null ? 'Change pin' : 'Set the pin'}</a>${p.links.web ? `<a class="btn btn-soft" href="${esc(p.links.web)}" target="_blank" rel="noopener">${icon('ext')}Listing</a>` : ''}</div>`);
       return parts;
@@ -1011,12 +1049,25 @@
     const credit = !creditText ? '' : page
       ? `<a class="d-credit" href="${esc(page)}" target="_blank" rel="noopener">${esc(creditText)} ↗</a>`
       : `<span class="d-credit">${esc(creditText)}</span>`;
-    detailBody.innerHTML = `<div class="d-hero"><div class="card-media">${media(p)}</div>${credit}
+    const extras = galleryOf(p);
+    detailBody.innerHTML = `<div class="d-hero${extras.length ? ' has-gallery' : ''}"><div class="d-slides"><div class="d-slide"><div class="card-media">${media(p)}</div>${credit}</div>${extras.map(galSlide).join('')}</div>
+      <span class="d-count" aria-hidden="true"><span>1 / ${extras.length + 1}</span></span>
       <div class="d-top"><button type="button" class="d-btn" data-close aria-label="Close">${icon(desktopMQ.matches ? 'x' : 'back')}</button>
         <div class="d-top-right"><button type="button" class="d-btn" data-act="share" data-id="${esc(p.id)}" aria-label="Share">${icon('share')}</button>
         ${p.type === 'base' ? '' : `<button type="button" class="d-btn" data-fav="${esc(p.id)}" aria-pressed="${isFav(p.id)}" aria-label="${isFav(p.id) ? 'Remove from faves' : 'Save to faves'}">${icon('heart')}</button>`}</div></div></div>
       <div class="d-body">${detailHtml(p).join('')}</div>`;
     detailBody.scrollTop = 0;
+    const hero = $('.d-hero', detailBody);
+    $('.d-slides', hero).addEventListener('scroll', () => syncCount(hero), { passive: true });
+    if (p.commonsCat && !runtimeGallery.has(p.id)) {
+      loadCommonsCat(p).then(() => {
+        if (detailOpenId !== p.id || !hero.isConnected) return;
+        const sl = $('.d-slides', hero);
+        const have = new Set([...sl.querySelectorAll('img')].map((i) => i.getAttribute('src')));
+        sl.insertAdjacentHTML('beforeend', galleryOf(p).filter((u) => !have.has(u)).map(galSlide).join(''));
+        syncCount(hero);
+      });
+    }
     if (!wasOpen) {
       lastFocus = document.activeElement;
       showSheet(detailRoot);
@@ -1061,15 +1112,16 @@
     const sheet = $('.sheet', root);
     const scroller = $('.sheet-scroll', root);
     const backdrop = $('.sheet-backdrop', root);
-    let y0 = 0, t0 = 0, dy = 0, dragging = false, startTop = 0, tracking = false;
+    let x0 = 0, y0 = 0, t0 = 0, dy = 0, dragging = false, startTop = 0, tracking = false;
     sheet.addEventListener('touchstart', (e) => {
       if (desktopMQ.matches || e.touches.length > 1) return;
       tracking = true; dragging = false; dy = 0;
-      y0 = e.touches[0].clientY; t0 = performance.now(); startTop = scroller.scrollTop;
+      x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; t0 = performance.now(); startTop = scroller.scrollTop;
     }, { passive: true });
     sheet.addEventListener('touchmove', (e) => {
       if (!tracking) return;
       const d = e.touches[0].clientY - y0;
+      if (!dragging && Math.abs(e.touches[0].clientX - x0) > Math.abs(d)) { tracking = false; return; } // sideways: a gallery swipe
       if (!dragging) {
         if (startTop <= 0 && scroller.scrollTop <= 0 && d > 6) { dragging = true; y0 = e.touches[0].clientY; t0 = performance.now(); }
         else if (d < -4 || scroller.scrollTop > 0) { tracking = false; return; }
@@ -1317,7 +1369,7 @@
 
   function pinHtml(p) {
     if (p.type === 'travel') return `<span class="pin-dot">${icon('plane')}</span><span class="pin-label">Airport<small>Terminal 2 · BUD</small></span>`;
-    if (p.type === 'base') return `<span class="pin-dot">${icon('home')}</span><span class="pin-label">The flat<small>${esc(p.approx ? 'roughly here' : p.address || 'our base')}</small></span>`;
+    if (p.type === 'base') return `<span class="pin-dot">${icon('home')}</span><span class="pin-label">The flat<small>${esc(p.approx ? 'full address soon' : p.address || 'our base')}</small></span>`;
     const label = p.type === 'event' ? `${esc(shortEventName(p))}<small>${esc(WEEKDAY.format(at(p.date, p.start || '00:00')))} ${esc(p.start || '')}</small>` : esc(p.name);
     return `<span class="pin-dot">${icon(iconOf(p))}</span><span class="pin-label">${label}</span>`;
   }

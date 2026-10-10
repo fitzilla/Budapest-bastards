@@ -31,9 +31,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Zr%C3%ADnyi_utca_4,_%C3%96tkert,_Budapest_%288397971428%29.jpg"
  },
  "instant-fogas": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Ak%C3%A1cfa_utca,_Fogas.jpg?width=960",
   "kind": "building",
-  "source": "https://commons.wikimedia.org/wiki/File:Ak%C3%A1cfa_utca_51,_2018_Erzs%C3%A9betv%C3%A1ros.jpg"
+  "caption": "The Fogas entrance on Akácfa utca",
+  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_Ak%C3%A1cfa_utca,_Fogas.jpg",
+  "gallery": [
+   "Akácfa utca 51, 2018 Erzsébetváros.jpg"
+  ],
+  "commonsCat": "Category:Akácfa Street, 51 (Fogasház)"
  },
  "robot-club": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
@@ -59,7 +64,14 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg?width=960",
   "wiki": "en:Gozsdu-udvar",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg",
+  "gallery": [
+   "Gozsdu-yard. 'C' yard. Arcades. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG",
+   "Gozsdu-yard. 'B' yard. Bldg -3. - Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG",
+   "Gozsdu-yard. 'D' yard. Bldg -5. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG",
+   "Gozsdu-yard. Dob Street's gateway. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG"
+  ],
+  "commonsCat": "Category:Gozsdu courtyard"
  },
  "durer-kert": {
   "wiki": "en:Dürer Kert",
@@ -75,7 +87,12 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok_%282%29.jpg?width=960",
   "wiki": "en:Great Market Hall, Budapest",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:Budapest_-_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok_%282%29.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Budapest_-_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok_%282%29.jpg",
+  "gallery": [
+   "Budapest - Mercado Central - Grand Market Hall - Nagycsarnok - 02.jpg",
+   "Central market hall, Budapest.jpg"
+  ],
+  "commonsCat": "Category:Grand Market Hall, Budapest"
  },
  "hold-street-market": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V._V%C3%A1s%C3%A1rcsarnok%2C_kij%C3%A1r%C3%A1s%2C_Lip%C3%B3tv%C3%A1ros%2C_2016_Budapest.jpg?width=960",
@@ -116,7 +133,11 @@
  "karavan": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Street_Food_Karavan_Budapest_%2831519360372%29.jpg?width=960",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:Street_Food_Karavan_Budapest_%2831519360372%29.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Street_Food_Karavan_Budapest_%2831519360372%29.jpg",
+  "gallery": [
+   "Budapest, Street Food Karaván, 3.jpg",
+   "Budapest, Street Food Karaván, 2.jpg"
+  ]
  },
  "szimpla-farmers-market": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szimpla_Kert_Farmers%27_Market_%2830579247464%29.jpg?width=960",
@@ -127,7 +148,13 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudas_F%C3%BCrd%C5%91.jpg?width=960",
   "wiki": "en:Rudas Baths",
   "kind": "building",
-  "source": "https://commons.wikimedia.org/wiki/File:Rudas_F%C3%BCrd%C5%91.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Rudas_F%C3%BCrd%C5%91.jpg",
+  "gallery": [
+   "Rudas fürdő, panorámamedence.jpg",
+   "Rudas Bath W mid part, 2016 Budapest.jpg",
+   "Rudas fürdő, szaunavilág, aroma szauna, 3.jpg"
+  ],
+  "commonsCat": "Category:Rudas Gyógyfürdő"
  },
  "lukacs-baths": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szent_Luk%C3%A1cs_Gy%C3%B3gyf%C3%BCrd%C5%91.jpg?width=960",
@@ -197,19 +224,35 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Groupama_Arena_Budapest_%2817267881892%29.jpg?width=960",
   "wiki": "hu:Groupama Aréna",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:Groupama_Arena_Budapest_%2817267881892%29.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Groupama_Arena_Budapest_%2817267881892%29.jpg",
+  "gallery": [
+   "Groupama Aréna főbejárat.JPG",
+   "Groupama Arena 02.jpg"
+  ],
+  "commonsCat": "Category:Groupama Arena"
  },
  "karting-hungaroring": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungaroring_pit_lane.JPG?width=960",
   "wiki": "en:Hungaroring",
   "kind": "nearby",
-  "source": "https://commons.wikimedia.org/wiki/File:Hungaroring_pit_lane.JPG"
+  "source": "https://commons.wikimedia.org/wiki/File:Hungaroring_pit_lane.JPG",
+  "gallery": [
+   "Hungaroring, Mogyoród 12.jpg",
+   "Hungaroring 2003.jpg",
+   "Formula 1 Hungarian Grand Prix 2011 (3).JPG",
+   "2022 ETCR - RD2 - Hungaroring (52186703505).jpg"
+  ],
+  "commonsCat": "Category:Hungaroring"
  },
  "mtk-vasas": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%9Aj_Hidegkuti_N%C3%A1ndor_Stadion_-_The_main_stand_%282017%29.jpg?width=960",
   "wiki": "en:Hidegkuti Nándor Stadion",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:%C3%9Aj_Hidegkuti_N%C3%A1ndor_Stadion_-_The_main_stand_%282017%29.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:%C3%9Aj_Hidegkuti_N%C3%A1ndor_Stadion_-_The_main_stand_%282017%29.jpg",
+  "gallery": [
+   "MTK stadion - légi fotó.jpg"
+  ],
+  "commonsCat": "Category:Hidegkuti Nándor Stadium"
  },
  "old-mans-music-pub": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
@@ -492,5 +535,144 @@
   "kind": "nearby",
   "caption": "A cruise boat passing Parliament",
   "source": "https://commons.wikimedia.org/wiki/File:Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg"
+ },
+ "szimpla-kert": {
+  "gallery": [
+   "Budapest - Szimpla Kert (26688416599).jpg",
+   "A Bar in Szimpla Kert.jpg",
+   "Szimpla Kert Trabant.jpg",
+   "Romkocsma Szimpla Kert Budapest.jpg",
+   "Tükörnézet Szimpla romkocsma.JPG"
+  ],
+  "commonsCat": "Category:Szimpla Kert"
+ },
+ "hungarian-parliament": {
+  "gallery": [
+   "Hungarian Parliament Building from across the Danube, 2025-01-11.jpg",
+   "Hungarian Parliament Building, Budapest, Hungary-2548 - Start of the Night Cruise (7814823114).jpg",
+   "Hungarian Parliament Building from across the Danube from Gellért Hill. Budapest sunset (8130437015).jpg",
+   "Hungary-0062 - Hungarian Parliament Building (7270467104).jpg",
+   "Budapest-Parliament-0001.jpg"
+  ],
+  "commonsCat": "Category:Hungarian Parliament Building"
+ },
+ "fishermans-bastion": {
+  "gallery": [
+   "Fishermans bastion Budapest IMG 1429.JPG",
+   "Fisherman s Bastion.jpg",
+   "Hungary-0034 - Fisherman's Bastion (7260817042).jpg",
+   "Fisherman's Bastion, Budapest, Hungary.jpg",
+   "View from Fisherman's Bastion to the Hungarian Parliament Building, 2016 Hungary - Budapest (27877629173).jpg"
+  ],
+  "commonsCat": "Category:Fisherman's Bastion"
+ },
+ "buda-castle": {
+  "gallery": [
+   "Buda Castle from the Danube River.jpg",
+   "The Former Royal Palace on the Buda bankside.JPG",
+   "Budapest - Castillo de Buda - Buda Castle - 04.jpg",
+   "Budapest Budavári Palota (Buda Castle) (31224644612).jpg",
+   "Buda Castle - Palazzo Reale Budapest.jpg"
+  ],
+  "commonsCat": "Category:Buda Castle"
+ },
+ "st-stephens-basilica": {
+  "gallery": [
+   "Saint Stephen's Basilica Budapest.jpg",
+   "St Stephens bas budapest.jpg",
+   "HUN-2015-Budapest-St. Stephen's Basilica.jpg",
+   "St. Stephen's Basilica by night.jpg",
+   "Szent István-bazilika, St. Stephen's Basilica (11374602996).jpg"
+  ],
+  "commonsCat": "Category:Saint Stephen's Basilica (Budapest)"
+ },
+ "chain-bridge": {
+  "gallery": [
+   "Széchenyi Chain Bridge in Budapest at night.jpg",
+   "Budapest - Széchenyi Lánchíd (37766929614).jpg",
+   "Chain Bridge Budapest Hungary.jpg",
+   "Budapest - Chain Bridge - panoramio.jpg"
+  ],
+  "commonsCat": "Category:Chain Bridge, Budapest"
+ },
+ "shoes-on-the-danube": {
+  "gallery": [
+   "Shoes Danube Promenade IMGP1297.jpg",
+   "Hungary-0045 - Shoes on the Danube (7263586734).jpg",
+   "Hungary-0057 - Shoes on the Danube (7263603836).jpg",
+   "Budapest - Cipők a Duna-parton (38450346722).jpg",
+   "Shoes on the Danube Promenade (Holocaust monument, Budapest).jpg"
+  ],
+  "commonsCat": "Category:Shoes on the Danube Promenade"
+ },
+ "gellert-hill-citadella": {
+  "gallery": [
+   "Citadella, Szabadság szobor, Gellért hegy az Erzsébet hídról --- Budapest.jpg",
+   "Budapešť, Gellért hegy, Szabadság szobor.JPG",
+   "Budapest Gellért socha svobody 2.jpg",
+   "Budapest Freiheitsstatue IMGP1996.jpg",
+   "Budapešť, Gellert-hegy, památník.JPG"
+  ],
+  "commonsCat": "Category:Statue of Liberty (Budapest)"
+ },
+ "hospital-in-the-rock": {
+  "gallery": [
+   "Budapest. I. Lovas út. 4.- Hospital in the Rock - Secret Military Hospital and Nuclear Bunker.JPG",
+   "Budapest. I. Lovas út 4.- Hospital in the Rock and Castle Walls. Sour Soup tower.JPG"
+  ],
+  "commonsCat": "Category:Hospital in the Rock"
+ },
+ "szechenyi-baths": {
+  "gallery": [
+   "Budapest Széchenyi Baths R01.jpg",
+   "Budapest Széchenyi Baths R03.jpg",
+   "Budapest-Bains Széchenyi fürdő-coupole.jpg",
+   "Budapest, Széchenyi fürdő, Márványterem.jpg",
+   "Széchenyi Gyógyfürdő thermal spa in Budapest 013.JPG"
+  ],
+  "commonsCat": "Category:Széchenyi Gyógyfürdő"
+ },
+ "dohany-synagogue": {
+  "gallery": [
+   "Synagoge Budapest 2014.jpg",
+   "Synagogue-Budapest.jpg",
+   "Nagy zsinagoga budapest.jpg"
+  ],
+  "commonsCat": "Category:Great Synagogue in Dohány Street"
+ },
+ "house-of-terror": {
+  "gallery": [
+   "Budapest - Terror Háza Múzeum (37766898364).jpg",
+   "Budapest - Terror Háza Múzeum (37766885184).jpg",
+   "Budapest-Terror Museum.jpg",
+   "House of Terror, Budapest.jpg",
+   "Budapest Terror Haza Muzeum-Hosok fala 20131201 02.jpg"
+  ],
+  "commonsCat": "Category:House of Terror Museum"
+ },
+ "a38-ship": {
+  "gallery": [
+   "A38 (ship, Budapest).JPG",
+   "A38 1.jpg"
+  ],
+  "commonsCat": "Category:A38 (ship, 1968)"
+ },
+ "heroes-square": {
+  "gallery": [
+   "Heroes Square Budapest 2010 01.jpg",
+   "The Millennium Monument in Heroes' Square, Budapest, Hungary.jpg",
+   "HUN-2015-Budapest-Heroes’ Square.jpg",
+   "Hosok tere, Budapest.jpg",
+   "Millennium Monument, Hősök tere (Heroes' Square), Budapest, Hungary - 200512.jpg"
+  ],
+  "commonsCat": "Category:Hősök tere (Budapest 14)"
+ },
+ "matthias-church": {
+  "gallery": [
+   "Matthias Church, Budapest, 2017.jpg",
+   "Matthias Church, Budapest 07.jpg",
+   "Matthias Church or Buda Castle Coronation Church (officially known as the Buda Castle's Church of Our Lady). Moon and Stars. - Buda Castle Quarter, Budapest.JPG"
+  ],
+  "commonsCat": "Category:Matthias Church (Budapest)"
  }
 }

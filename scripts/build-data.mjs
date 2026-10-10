@@ -32,6 +32,7 @@ function applyLayers(p) {
   }
   return p;
 }
+const commonsUrl = (f) => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(String(f).replace(/^File:/, '').replace(/ /g, '_')).replace(/%2C/g, ',').replace(/%28/g, '(').replace(/%29/g, ')')}?width=960`;
 // attach a Wikipedia title (for a runtime lead photo) and any extra verified Commons photo
 function applyMedia(x) {
   const img = images[x.id];
@@ -40,6 +41,9 @@ function applyMedia(x) {
     if (img.kind && img.kind !== 'venue') x.imageKind = img.kind;
     if (img.caption) x.imageCaption = img.caption;
   }
+  // extra photos for the swipeable gallery: Commons file names, plus a category the app can top up from
+  if (Array.isArray(img?.gallery) && img.gallery.length) x.gallery = img.gallery.map(commonsUrl);
+  if (img?.commonsCat && /^Category:/.test(img.commonsCat)) x.commonsCat = img.commonsCat;
   const w = img?.wiki || wiki[x.id]; // titles seen in search results beat ones from memory
   if (w && !x.id.startsWith('_')) x.wiki = String(w).replace(/^en:/, '');
   return x;
@@ -48,6 +52,7 @@ const R = {
   events: read('content/research/events_logistics.json'),
   bars: read('content/research/bars.json'),
   barsExtra: readOpt('content/research/bars_extra.json', { items: [], sources: [] }),
+  coffee: readOpt('content/research/coffee.json', { items: [], sources: [] }),
   food: read('content/research/food.json'),
   sights: read('content/research/sights.json'),
 };
@@ -152,7 +157,7 @@ function validate(p) {
 
 // ---- places
 const places = [];
-for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['sights', R.sights]]) {
+for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['coffee', R.coffee], ['sights', R.sights]]) {
   for (const src of data.items) {
     if (removed.has(`${file}:${src.id}`)) continue;
     places.push(applyMedia(applyRatings(applyPatch(applyLayers(normPlace(src, file))))));
@@ -328,7 +333,7 @@ const out = {
   climate: R.events.weatherClimate,
   localEvents: R.events.localEvents,
   sparty: R.sights.sparty,
-  sources: [...new Set([...R.events.sources, ...R.bars.sources, ...(R.barsExtra.sources || []), ...R.food.sources, ...R.sights.sources,
+  sources: [...new Set([...R.events.sources, ...R.bars.sources, ...(R.barsExtra.sources || []), ...R.food.sources, ...(R.coffee.sources || []), ...R.sights.sources,
     ...Object.values(ratings).flatMap((r) => r?.sources || [])])],
 };
 

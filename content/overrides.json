@@ -273,6 +273,11 @@
   "communist-free-walking-tour": {
    "lat": 47.50085,
    "lng": 19.05385
+  },
+  "kelet-kavezo": {
+   "addTags": [
+    "coffee"
+   ]
   }
  }
 }
