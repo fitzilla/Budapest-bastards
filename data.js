@@ -398,9 +398,10 @@ window.BB_DATA = {
     "book": "https://meccsjegy.fradi.hu/jegyarak?lang=en",
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7074492-Reviews-Groupama_Arena-Budapest_Central_Hungary.html"
    },
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Groupama_Arena_Budapest_%2817267881892%29.jpg?width=960",
    "district": null,
-   "price": null
+   "price": null,
+   "wiki": "hu:Groupama Aréna"
   },
   {
    "id": "karting-hungaroring",
@@ -440,9 +441,10 @@ window.BB_DATA = {
     "book": "https://hungaroringkartcenter.hu/en/booking",
     "ta": "https://www.tripadvisor.com/Attraction_Review-g2290737-d7398297-Reviews-Hungaroring_Kart_Center-Mogyorod_Pest_County_Central_Hungary.html"
    },
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungaroring_pit_lane.JPG?width=960",
    "district": null,
-   "price": null
+   "price": null,
+   "wiki": "Hungaroring"
   },
   {
    "id": "mtk-vasas",
@@ -478,9 +480,10 @@ window.BB_DATA = {
     "book": null,
     "ta": null
    },
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%9Aj_Hidegkuti_N%C3%A1ndor_Stadion_-_The_main_stand_%282017%29.jpg?width=960",
    "district": null,
-   "price": null
+   "price": null,
+   "wiki": "Hidegkuti Nándor Stadion"
   }
  ],
  "airport": {
@@ -537,7 +540,8 @@ window.BB_DATA = {
    "book": null
   },
   "image": null,
-  "price": null
+  "price": null,
+  "wiki": "Budapest Ferenc Liszt International Airport"
  },
  "places": [
   {
@@ -639,7 +643,7 @@ window.BB_DATA = {
    "blurb": "Labyrinthine basement across from Gozsdu Udvar with live rock, blues and rockabilly most nights. Free in, cheap beer, no tourist-trap vibe.",
    "tip": "Autumn is peak programming (summer is quieter), so your October dates are ideal. Back rooms are calmer if the main room is mental.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinoza_Restaurant%2C_theater%2C_cafe%2C_gallery._Upstairs_with_decorative_brick_facade._-_Budapest_District_VII._Dob_Street_15.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html",
     "web": null,
@@ -714,7 +718,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d25084380-Reviews-Durer_Kert-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Dürer Kert"
   },
   {
    "id": "a38-ship",
@@ -749,7 +754,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d607031-Reviews-A38_Ship-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "A38 (ship)"
   },
   {
    "id": "akvarium-klub",
@@ -779,12 +785,13 @@ window.BB_DATA = {
    "blurb": "Club and gig venue sunk under Erzsébet tér's pond, right in the centre. Big hall for gigs, small hall for DJs, free metal night in the past.",
    "tip": "Had a 2026 renovation/summer-closure scare and a programme shift; Oct 2026 shows are listed, but confirm on akvariumklub.hu first.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aquarium_Club._-_Erzs%C3%A9bet_Square._Budapest.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d3932556-Reviews-Akvarium_Klub-Budapest_Central_Hungary.html",
     "web": "https://akvariumklub.hu",
     "book": null
-   }
+   },
+   "wiki": "Akvárium Klub"
   },
   {
    "id": "backstage-pub",
@@ -846,7 +853,7 @@ window.BB_DATA = {
    "blurb": "The Hard Rock Cafe, memorabilia and burgers on the corner of Vörösmarty tér. Safe, touristy, good for a feed and a Premier League pre-game.",
    "tip": "Pricey vs ruin bars. Fine for dinner or a rock-themed pint, not for a big night out.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hard_Rock_cafe%2C_Budapest_01.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d2442847-Reviews-Hard_Rock_Cafe-Budapest_Central_Hungary.html",
     "web": null,
@@ -880,7 +887,7 @@ window.BB_DATA = {
    "blurb": "One of the last proper rock clubs downtown, a basement under the Instant-Fogas complex with rock-disco nights.",
    "tip": "Reopened 2017 per old reports; confirm it's still running before you go.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://instant-fogas.com",
@@ -921,7 +928,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d668397-Reviews-Szimpla_Kert-Budapest_Central_Hungary.html",
     "web": "https://szimpla.hu",
     "book": null
-   }
+   },
+   "wiki": "Szimpla Kert"
   },
   {
    "id": "instant-fogas",
@@ -951,7 +959,7 @@ window.BB_DATA = {
    "blurb": "Huge party complex: ~18 bars, 7 dancefloors, garden, loads of genres under one roof. This is where the weekend ends at 5am.",
    "tip": "Free before midnight, small cover after. Pick a floor and stick to it; the maze is easy to get lost in with mates.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d3138211-Reviews-Instant_Fogas-Budapest_Central_Hungary.html",
     "web": "https://instant-fogas.com",
@@ -1156,7 +1164,7 @@ window.BB_DATA = {
    "blurb": "Communist-kitsch ruin pub in a brick basement: pop-art propaganda, puns, 'people's prices'. Gloriously daft.",
    "tip": "Easy to miss the basement entrance, near Ferenciek tere. Walk-in only.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Red_Ruin_B%C3%A1r%2C_2.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d6895875-Reviews-Red_Ruin_Bar-Budapest_Central_Hungary.html",
     "web": null,
@@ -1223,7 +1231,7 @@ window.BB_DATA = {
    "blurb": "Wizarding-themed den that nails the atmosphere. Butterbeer-ish potions and food; fun daytime wild card if one of you is a Potter nerd.",
    "tip": "Book ahead, especially weekends. More restaurant than boozer: close early-ish.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Haj%C3%B3s_utca_25%2C_The_MAGIC_Budapest%2C_1.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d19126341-Reviews-The_MAGIC_Budapest-Budapest_Central_Hungary.html",
     "web": null,
@@ -1289,12 +1297,13 @@ window.BB_DATA = {
    "blurb": "Passage of seven connected courtyards packed with bars, terraces and restaurants. Easy bar-hop in one go.",
    "tip": "Touristy and pricier than basement bars; good first stop to meet up before heading off.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276879-Reviews-Gozsdu_Udvar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Gozsdu-udvar"
   },
   {
    "id": "boutiq-bar",
@@ -1559,7 +1568,7 @@ window.BB_DATA = {
    "blurb": "Two floors of Irish pub on Liszt Ferenc tér, multi-screen Premier League and Champions League, and a terrace for when the pints need fresh air. A proper expat footy local.",
    "tip": "Square terraces get lively but it's pricier than the Jewish Quarter dives - go for the match, then roll on to cheaper rounds.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Becketts_%C3%ADr_pub%2C_t%C3%A1bla%2C_Liszt_Ferenc_t%C3%A9r_11%2C_2016_Budapest.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -1659,7 +1668,7 @@ window.BB_DATA = {
    "blurb": "The city-centre taproom of Mad Scientist brewery: 24 rotating taps, bistro grub and DJ sets on Thursday and Saturday. Hop-forward pints a stone's throw from Deák tér.",
    "tip": "Thursday and Saturday are the DJ nights - turn up for the beer, stay for the tunes. Confirm it's open on the day before trekking over.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Anker-palota%2C_26.jpeg?width=960",
    "links": {
     "ta": null,
     "web": "https://madhousebudapest.hu",
@@ -1860,7 +1869,7 @@ window.BB_DATA = {
    "blurb": "Basilica-side club with proper Thursday to Saturday all-nighters: big sound, big queue, big headache. Seriously good for a late one.",
    "tip": "Entry 18+ with a physical ID (no digital IDs or photocopies). VIP queue is 25+. Go after 00:30 or you'll be dancing with the cleaner.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zr%C3%ADnyi_utca_4%2C_%C3%96tkert%2C_Budapest_%288397971428%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://otkert.hu",
@@ -1894,7 +1903,7 @@ window.BB_DATA = {
    "blurb": "Cinema by day, underground techno and house by night. Same team as Lärm, a dark basement dancefloor that still feels like a proper night out.",
    "tip": "Check the event calendar - club nights aren't nightly. Saturday is the safest bet. Bring cash for the cloakroom.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Toldi_Klub%2C_Neonhull%C3%A1m.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -1928,7 +1937,7 @@ window.BB_DATA = {
    "blurb": "Retro 70s canteen chic on Liszt Ferenc tér. Hungarian classics, a proper wine list and people-watching from the terrace. Good first-night shout for a big group.",
    "tip": "Hortobágyi palacsinta (savoury pancakes in veal paprikash). Book ahead for Fri/Sat dinner for 6+.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menza_Restaurant%2C_Budapest_04.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d696068-Reviews-Menza_Restaurant_and_Cafe-Budapest_Central_Hungary.html",
     "web": null,
@@ -1994,7 +2003,7 @@ window.BB_DATA = {
    "blurb": "Six-table shoebox of a bistro by Hold Street market hall. Unfussy pork, liver and offal done properly. Tiny, so only for a small group or an early lunch.",
    "tip": "Breaded veal liver, pork belly or the wild boar ribs. Book at least two days ahead; walk-ins rarely get in.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V._V%C3%A1s%C3%A1rcsarnok%2C_kij%C3%A1r%C3%A1s%2C_Lip%C3%B3tv%C3%A1ros%2C_2016_Budapest.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -2029,7 +2038,7 @@ window.BB_DATA = {
    "blurb": "Budapest's cheapest sit-down Hungarian dinner since 1997. Canteen tables, shared benches, big plates, tiny bill. Perfect for a hangover or a pre-bar fill-up.",
    "tip": "Daily menu (under ~3,000 HUF per tourism guide), főzelék or pörkölt with nokedli. Cash preferred; no booking.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Frici_Papa_Kif%C5%91zd%C3%A9je_at_55_Kir%C3%A1ly_Street_Budapest%2C_Erzs%C3%A9betv%C3%A1ros%2C_Hungary_-_panoramio.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d789922-Reviews-or630-Frici_Papa_Kifozdeje-Budapest_Central_Hungary.html",
     "web": null,
@@ -2165,7 +2174,7 @@ window.BB_DATA = {
    "blurb": "Old Óbuda tavern, famed for bone marrow and a Krúdy-era vibe. Out of the centre, but worth the taxi if you want proper Hungarian portions on a lazy Sunday.",
    "tip": "Bone marrow with toast, then a big meaty main. Take a taxi or tram; book for 6+.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A9hli_vend%C3%A9gl%C5%91_Budapest_M%C3%B3kus_utca_22.JPG?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -2268,7 +2277,7 @@ window.BB_DATA = {
    "blurb": "Gorgeous Mediterranean courtyard in a Jewish Quarter ruin. Middle Eastern sharing plates, great cocktails, perfect for a big group night out.",
    "tip": "Shakshuka for brunch, mezze to share. Book a week ahead for weekends; card issues reported, bring cash backup.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazel_Tov_Ruin_Bar_%2842253982234%29.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6691676-Reviews-Mazel_Tov-Budapest_Central_Hungary.html",
     "web": "https://www.mazeltov.hu/en",
@@ -2442,7 +2451,7 @@ window.BB_DATA = {
    "blurb": "Hungary's first Michelin-star restaurant (2010), on the buzzy Ráday utca. Elegant tasting menus, quality service. Dress to impress.",
    "tip": "Tasting menu. Phone line takes bookings daily 9:00-23:30. Book now, weekends fill fast.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Costes_Restaurant%2C_Budapest_01.JPG?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -2721,7 +2730,7 @@ window.BB_DATA = {
    "blurb": "Courtyard of food trucks and bars next to Szimpla. Lángos, burgers, gyros, chimney cake, all in one gloriously chaotic pit-stop.",
    "tip": "Lángos, a burger truck, and a chimney cake for pudding. Easy to split a group across trucks.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Street_Food_Karavan_Budapest_%2831519360372%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -2789,7 +2798,7 @@ window.BB_DATA = {
    "blurb": "The famous ruin pub turns into a Sunday farmers market, with cheese, honey, jam and street food stalls. Ideal if you're up for Sunday brunch.",
    "tip": "Browse stalls then grab brunch upstairs. Check opening times on the day (the end time varies).",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szimpla_Kert_Farmers%27_Market_%2830579247464%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -2827,7 +2836,7 @@ window.BB_DATA = {
    "blurb": "Neo-Gothic food cathedral. Paprika, sausages, pálinka downstairs; lángos and goulash upstairs. Do it Saturday morning before the footy.",
    "tip": "Upstairs: lángos and goulash (touristy). Downstairs: sausage, salami, paprika to take home. Go before 13:00 on Saturday.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok_%282%29.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276128-Reviews-Central_Market_Hall-Budapest_Central_Hungary.html",
     "web": null,
@@ -2835,7 +2844,8 @@ window.BB_DATA = {
    },
    "also": [
     "sight"
-   ]
+   ],
+   "wiki": "Great Market Hall, Budapest"
   },
   {
    "id": "hold-street-market",
@@ -2863,12 +2873,13 @@ window.BB_DATA = {
    "blurb": "1891 market hall with a food gallery of small kitchens upstairs. Quieter and more local than the Great Market Hall.",
    "tip": "Browse for lunch Saturday morning. Verify it is open as a Google Maps flag showed it as temporarily closed.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V._V%C3%A1s%C3%A1rcsarnok%2C_kij%C3%A1r%C3%A1s%2C_Lip%C3%B3tv%C3%A1ros%2C_2016_Budapest.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "hu:Hold utcai vásárcsarnok"
   },
   {
    "id": "kelet-kavezo",
@@ -2963,12 +2974,13 @@ window.BB_DATA = {
    "blurb": "Grand 1858 confectioner on Vörösmarty tér. Touristy, pricey, gorgeous. Come for cake and a coffee-house atmosphere.",
    "tip": "Dobos torta or Somlói galuska. 15% service charge reported. Skip the queue and sit inside.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_Gerbeaud_Budapest_1999.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d952413-Reviews-Gerbeaud-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Café Gerbeaud"
   },
   {
    "id": "hungarian-parliament",
@@ -3003,7 +3015,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276817-Reviews-Hungarian_Parliament_Building-Budapest_Central_Hungary.html",
     "web": "https://www.parlament.hu",
     "book": "https://jegymester.hu/parlament"
-   }
+   },
+   "wiki": "Hungarian Parliament Building"
   },
   {
    "id": "buda-castle",
@@ -3038,7 +3051,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276804-Reviews.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Buda Castle"
   },
   {
    "id": "fishermans-bastion",
@@ -3073,7 +3087,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276803-Reviews.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Fisherman's Bastion"
   },
   {
    "id": "matthias-church",
@@ -3107,7 +3122,8 @@ window.BB_DATA = {
     "ta": null,
     "web": "https://www.matyas-templom.hu",
     "book": null
-   }
+   },
+   "wiki": "Matthias Church"
   },
   {
    "id": "hospital-in-the-rock",
@@ -3143,7 +3159,8 @@ window.BB_DATA = {
     "ta": null,
     "web": "https://sziklakorhaz.eu/en/informacio",
     "book": "https://sziklakorhaz.eu/en/informacio"
-   }
+   },
+   "wiki": "Hospital in the Rock"
   },
   {
    "id": "house-of-terror",
@@ -3178,7 +3195,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d325279-Reviews.html",
     "web": "https://www.terrorhaza.hu/en",
     "book": null
-   }
+   },
+   "wiki": "House of Terror"
   },
   {
    "id": "memento-park",
@@ -3213,7 +3231,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276834-Reviews.html",
     "web": "https://www.mementopark.hu",
     "book": null
-   }
+   },
+   "wiki": "Memento Park"
   },
   {
    "id": "shoes-on-the-danube",
@@ -3248,7 +3267,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Shoes on the Danube Bank"
   },
   {
    "id": "dohany-synagogue",
@@ -3283,7 +3303,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d25432877-Reviews-Dohany_Street_Synagogue-Budapest_Central_Hungary.html",
     "web": "https://dohanystreetsynagogue.hu",
     "book": null
-   }
+   },
+   "wiki": "Dohány Street Synagogue"
   },
   {
    "id": "st-stephens-basilica",
@@ -3318,7 +3339,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276822-Reviews-St_Stephen_s_Basilica_Szent_Istvan_Bazilika-Budapest_Central_Hungary.html",
     "web": "https://www.basilica.hu/en",
     "book": null
-   }
+   },
+   "wiki": "St. Stephen's Basilica"
   },
   {
    "id": "heroes-square",
@@ -3353,7 +3375,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276827-Reviews.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Heroes' Square (Budapest)"
   },
   {
    "id": "gellert-hill-citadella",
@@ -3388,7 +3411,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276878-Reviews-Gellert_Hill-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Citadella"
   },
   {
    "id": "chain-bridge",
@@ -3423,7 +3447,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276821-Reviews-Szechenyi_Lanchid-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Széchenyi Chain Bridge"
   },
   {
    "id": "millennium-underground-m1",
@@ -3457,7 +3482,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d2501174-Reviews-Underground_Railway_Museum-Budapest_Central_Hungary.html",
     "web": "https://bkk.hu/en/",
     "book": null
-   }
+   },
+   "wiki": "Line 1 (Budapest Metro)"
   },
   {
    "id": "vajdahunyad-castle",
@@ -3493,7 +3519,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Vajdahunyad Castle"
   },
   {
    "id": "hungarian-state-opera",
@@ -3528,7 +3555,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276812-Reviews.html",
     "web": "https://www.opera.hu/en",
     "book": "https://www.opera.hu/en"
-   }
+   },
+   "wiki": "Hungarian State Opera House"
   },
   {
    "id": "andrassy-ut",
@@ -3563,7 +3591,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Andrássy Avenue"
   },
   {
    "id": "margaret-island",
@@ -3598,7 +3627,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Margaret Island"
   },
   {
    "id": "buda-castle-labyrinth",
@@ -3632,7 +3662,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d19657222-Reviews-Labyrinth-Budapest_Central_Hungary.html",
     "web": "https://labirintus.com",
     "book": null
-   }
+   },
+   "wiki": "hu:Budavári Labirintus"
   },
   {
    "id": "cave-church",
@@ -3667,7 +3698,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d17796663-Reviews-Cave_Church-Budapest_Central_Hungary.html",
     "web": "https://sziklatemplom.hu",
     "book": null
-   }
+   },
+   "wiki": "Gellért Hill Cave"
   },
   {
    "id": "szechenyi-baths",
@@ -3701,7 +3733,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279029-Reviews-Szechenyi_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
     "web": "https://szechenyibath.com",
     "book": "https://bathsbudapest.com"
-   }
+   },
+   "wiki": "Széchenyi thermal bath"
   },
   {
    "id": "gellert-baths",
@@ -3735,7 +3768,8 @@ window.BB_DATA = {
     "web": "https://gellertspa.com",
     "book": null
    },
-   "closed": true
+   "closed": true,
+   "wiki": "Gellért Baths"
   },
   {
    "id": "rudas-baths",
@@ -3765,12 +3799,13 @@ window.BB_DATA = {
    "blurb": "A 16th-century Ottoman dome with 36-40C pools, plus a rooftop jacuzzi with a Danube view. Go late on a Saturday night: dark, steamy, atmospheric.",
    "tip": "Night session is mixed and swimsuit mandatory. Pre-book online; flip-flops and a towel essential.",
    "history": "Built around 1550 during the Turkish occupation of Buda, its central octagonal pool sits under an original Ottoman dome on eight pillars. A modern rooftop pool was added in a 2010s refit.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudas_F%C3%BCrd%C5%91.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279413-Reviews-Rudas_Baths-Budapest_Central_Hungary.html",
     "web": "https://bathsbudapest.com",
     "book": "https://bathsbudapest.com"
-   }
+   },
+   "wiki": "Rudas Baths"
   },
   {
    "id": "lukacs-baths",
@@ -3798,12 +3833,13 @@ window.BB_DATA = {
    "blurb": "The locals' favourite - old-school, a bit scruffy, good thermal pools and a drinking hall, with a famous wall of marble thank-you plaques.",
    "tip": "Good low-key alternative if Széchenyi is rammed. Check opening hours at lukacsfurdo.hu. Take cash/card, towel.",
    "history": "A bathing site since the 12th century when Knights Hospitaller ran a hospital here; today's neoclassical complex is 19th-century. The courtyard wall is covered in marble plaques from grateful healed patients, including many famous writers and artists.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szent_Luk%C3%A1cs_Gy%C3%B3gyf%C3%BCrd%C5%91.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279411-Reviews-Lukacs_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
     "web": "https://www.lukacsfurdo.hu",
     "book": "https://bathsbudapest.com"
-   }
+   },
+   "wiki": "Lukács Baths"
   },
   {
    "id": "dandar-baths",
@@ -3830,12 +3866,13 @@ window.BB_DATA = {
    "blurb": "Budget locals' bath next to the Unicum factory. No-frills indoor pool, cheap and quiet. Cheap enough to tick the thermal box if Széchenyi's rammed.",
    "tip": "Pair with a Zwack Unicum visit. Bring your own towel; not tourist-ready.",
    "history": "A modest district bath in Ferencváros, next to the Zwack Unicum factory; the herbal liqueur is a Hungarian rite of passage.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dand%C3%A1r_Bath_%281930%29._Entrance._-_Vaskapu_Street%2C_Budapest.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7729311-Reviews-Dandar_Bath-Budapest_Central_Hungary.html",
     "web": "https://bathsbudapest.com",
     "book": "https://bathsbudapest.com"
-   }
+   },
+   "wiki": "hu:Dandár utcai gyógyfürdő"
   },
   {
    "id": "veli-bej-bath",
@@ -3864,12 +3901,13 @@ window.BB_DATA = {
    "blurb": "Tiny, 16th-century Ottoman dome bath. Dark, hot, quiet and strictly no-messing. Sessions are 3 hours.",
    "tip": "No online booking - just turn up. Swim trunks; follow house rules (no loud banter).",
    "history": "Built in the 1570s by Pasha Veli Bej, it's one of the oldest Turkish baths in Budapest. It has been renovated several times and retains its original central dome.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Veli_Bej_f%C3%BCrd%C5%91.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d3366298-Reviews-Veli_Bej_Bath-Budapest_Central_Hungary.html",
     "web": "https://bathsbudapest.com",
     "book": null
-   }
+   },
+   "wiki": "hu:Veli bej fürdő"
   },
   {
    "id": "kiraly-baths",
@@ -3903,7 +3941,8 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
-   "closed": true
+   "closed": true,
+   "wiki": "Király Baths"
   },
   {
    "id": "sparty-szechenyi",
@@ -3933,13 +3972,14 @@ window.BB_DATA = {
    "blurb": "The legendary bath-party: DJs, lasers and bikinis in outdoor thermal pools. Peak lad-weekend material. Sells out.",
    "tip": "Book immediately. Bring waterproof phone pouch. Only outdoor pools are open.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Gy%C3%B3gyf%C3%BCrd%C5%91_thermal_spa_in_Budapest_013.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d5453116-Reviews-Sparty_Szechenyi_Bath_Party-Budapest_Central_Hungary.html",
     "web": "https://szechenyibath.com/magic-bath-parties-in-budapest/",
     "book": "https://spartybooking.com/entry-tickets/"
    },
-   "hidePin": true
+   "hidePin": true,
+   "wiki": "Széchenyi thermal bath"
   },
   {
    "id": "pinball-museum",
@@ -3973,7 +4013,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d6969659-Reviews-Budapest_Pinball_Museum-Budapest_Central_Hungary.html",
     "web": "https://flippermuzeum.hu/en/contact-prices/",
     "book": "https://flippermuzeum.hu/en/contact-prices/"
-   }
+   },
+   "wiki": "hu:Flippermúzeum"
   },
   {
    "id": "churchill-shooting-range",
@@ -4106,7 +4147,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "Danube"
   },
   {
    "id": "beerbus-budapest",
@@ -4169,12 +4211,13 @@ window.BB_DATA = {
    "blurb": "An hour underground in a limestone cave 20 minutes from the centre: stalactites, narrow passages and an easy tour.",
    "tip": "Take bus 65 from Kolosy tér. Adventure caving (≈EUR 50) is a tougher option.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palvolgyi1_Szepvolgyi162.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d5617713-Reviews-Palvolgyi_Caves-Budapest_Central_Hungary.html",
     "web": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave",
     "book": null
-   }
+   },
+   "wiki": "hu:Pál-völgyi-barlang"
   },
   {
    "id": "budapest-eye",
@@ -4201,12 +4244,13 @@ window.BB_DATA = {
    "blurb": "Giant wheel in Erzsébet tér, right on the pub trail. Free views exist elsewhere, but this is quick and central.",
    "tip": "Free views from Gellért Hill and the Bastion beat it - go only if you're doing the bar crawl nearby.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_V._Erzs%C3%A9bet_t%C3%A9r%2C_Budapest_Sziget_Eye.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/ShowUserReviews-g274887-d12571866-r746752821-Ferris_Wheel_of_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "hu:Budapest Eye"
   },
   {
    "id": "communist-free-walking-tour",
@@ -4236,7 +4280,7 @@ window.BB_DATA = {
    "blurb": "Two hours on the Soviet years: secret police, Stalin and why queues were normal. A good morning hangover-walk.",
    "tip": "Book via Guruwalk/Free Walking Tour; tip the guide properly (~3,000-5,000 HUF each).",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagy_Imre_statue%2C_J%C3%A1szai_Mari_t%C3%A9r.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d1566303-Reviews-TripToBudapest_hu_Free_Budapest_Walking_Tours-Budapest_Central_Hungary.html",
     "web": "https://www.guruwalk.com/walks/66638-budapest-in-the-shadow-of-communism",
@@ -4270,12 +4314,13 @@ window.BB_DATA = {
    "blurb": "Soviet badges, gas masks and a half-century of other Eastern Bloc junk. Haggle hard.",
    "tip": "Sat is the best day; it's a trek, so a Sunday visit conflicts with your 13:30 airport run.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%281%29.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d670573-Reviews-Ecseri_Flea_Market_Ecseri_bolhapiac-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "wiki": "hu:Ecseri piac"
   },
   {
    "id": "tank-driving",
@@ -4336,12 +4381,13 @@ window.BB_DATA = {
    "blurb": "A 1960s chairlift up János Hill. Wobbly retro fun and an easy way up to the Elizabeth Lookout.",
    "tip": "It reopens on Saturday 17 Oct only; check BKV for weather closures before schlepping out.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_chairlift._Zugligeti_%28bottom%29_station_building_from_the_street_%28South%29._-_Budapest_12th_district._Zugligeti_Road_97.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d28157709-Reviews-Zugligeti_Libego-Budapest_Central_Hungary.html",
     "web": "https://bkv.hu/en/content/chairlift_information",
     "book": null
-   }
+   },
+   "wiki": "hu:Budapesti libegő"
   },
   {
    "id": "childrens-railway",
@@ -4369,12 +4415,13 @@ window.BB_DATA = {
    "blurb": "A narrow-gauge forest railway staffed by schoolkids in uniform. Soviet-era quirk that still works.",
    "tip": "Pair with the Zugliget chairlift, but it's a long trip for a short thing.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyermek_vasut_001.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279012-Reviews-Gyermekvasut-Budapest_Central_Hungary.html",
     "web": "https://www.gyermekvasut.hu",
     "book": null
-   }
+   },
+   "wiki": "Budapest Children's Railway"
   },
   {
    "id": "palinka-museum",
@@ -4441,12 +4488,13 @@ window.BB_DATA = {
    "blurb": "Hungary's national stadium. Walk the tunnel, sit in the dugout and see a tribute to Ferenc Puskás, the Galloping Major.",
    "tip": "Confirm English-language availability and match-day closures before heading out.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pusk%C3%A1s_Ar%C3%A9na_03.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d24109869-Reviews-Puskas_Arena_Park-Budapest_Central_Hungary.html",
     "web": "https://en.puskasarena.com/news/arena-tour-information",
     "book": null
-   }
+   },
+   "wiki": "Puskás Aréna"
   }
  ],
  "dishes": [
@@ -4465,7 +4513,8 @@ window.BB_DATA = {
     "koleves-vendeglo"
    ],
    "whereText": "Gettó Gulyás, Menza, Hungarikum, Frici Papa",
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Guly%C3%A1s.jpg?width=900"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Guly%C3%A1s.jpg?width=900",
+   "wiki": "Goulash"
   },
   {
    "id": "porkolt",
@@ -4480,7 +4529,8 @@ window.BB_DATA = {
     "menza"
    ],
    "whereText": "Frici Papa, Kéhli, Menza",
-   "image": null
+   "image": null,
+   "wiki": "Pörkölt"
   },
   {
    "id": "paprikas-csirke",
@@ -4495,7 +4545,8 @@ window.BB_DATA = {
     "frici-papa"
    ],
    "whereText": "Hungarikum, Menza, Frici Papa",
-   "image": null
+   "image": null,
+   "wiki": "Chicken paprikash"
   },
   {
    "id": "halaszle",
@@ -4509,7 +4560,8 @@ window.BB_DATA = {
     "kehli-vendeglo"
    ],
    "whereText": "Traditional Hungarian restaurants, ask for it by name",
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hal%C3%A1szl%C3%A9%2C_2.jpg?width=900"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hal%C3%A1szl%C3%A9%2C_2.jpg?width=900",
+   "wiki": "Fisherman's soup"
   },
   {
    "id": "toltott-kaposzta",
@@ -4524,7 +4576,8 @@ window.BB_DATA = {
     "menza"
    ],
    "whereText": "Gettó Gulyás, Fülemüle",
-   "image": null
+   "image": null,
+   "wiki": "hu:Töltött káposzta"
   },
   {
    "id": "langos",
@@ -4539,7 +4592,8 @@ window.BB_DATA = {
     "great-market-hall"
    ],
    "whereText": "Retró Lángos, Karaván, Great Market Hall",
-   "image": null
+   "image": null,
+   "wiki": "Lángos"
   },
   {
    "id": "kurtoskalacs",
@@ -4553,7 +4607,8 @@ window.BB_DATA = {
     "karavan"
    ],
    "whereText": "Molnár's, Karaván",
-   "image": null
+   "image": null,
+   "wiki": "Kürtőskalács"
   },
   {
    "id": "turo-rudi",
@@ -4564,7 +4619,8 @@ window.BB_DATA = {
    "what": "Curd cheese bar in dark chocolate. The nation's favourite snack; grab from any shop.",
    "where": [],
    "whereText": "Any Spar, Tesco or corner shop",
-   "image": null
+   "image": null,
+   "wiki": "Túró Rudi"
   },
   {
    "id": "dobos-torta",
@@ -4577,7 +4633,8 @@ window.BB_DATA = {
     "gerbeaud"
    ],
    "whereText": "Gerbeaud, any proper cukrászda",
-   "image": null
+   "image": null,
+   "wiki": "Dobos torte"
   },
   {
    "id": "retes",
@@ -4591,7 +4648,8 @@ window.BB_DATA = {
     "gerbeaud"
    ],
    "whereText": "Great Market Hall, cafés",
-   "image": null
+   "image": null,
+   "wiki": "hu:Rétes"
   },
   {
    "id": "fozelek",
@@ -4604,7 +4662,8 @@ window.BB_DATA = {
     "frici-papa"
    ],
    "whereText": "Frici Papa, canteens",
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Babf%C5%91zel%C3%A9k.jpg?width=900"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Babf%C5%91zel%C3%A9k.jpg?width=900",
+   "wiki": "Főzelék"
   },
   {
    "id": "hurka-kolbasz",
@@ -4617,7 +4676,8 @@ window.BB_DATA = {
     "great-market-hall"
    ],
    "whereText": "Great Market Hall, butchers",
-   "image": null
+   "image": null,
+   "wiki": "hu:Hurka"
   },
   {
    "id": "libamaj",
@@ -4631,7 +4691,8 @@ window.BB_DATA = {
     "kispiac-bisztro"
    ],
    "whereText": "Fülemüle, Kispiac",
-   "image": null
+   "image": null,
+   "wiki": "Foie gras"
   },
   {
    "id": "somloi-galuska",
@@ -4645,7 +4706,8 @@ window.BB_DATA = {
     "menza"
    ],
    "whereText": "Gerbeaud, Menza",
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soml%C3%B3i_galuska%2C_2.jpg?width=900"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soml%C3%B3i_galuska%2C_2.jpg?width=900",
+   "wiki": "Somlói galuska"
   },
   {
    "id": "unicum",
@@ -4656,7 +4718,8 @@ window.BB_DATA = {
    "what": "Herbal bitter, 40% ABV, tastes like medicine. Hungarians sip it after dinner and swear it cures everything.",
    "where": [],
    "whereText": "Any bar or restaurant",
-   "image": null
+   "image": null,
+   "wiki": "Unicum"
   },
   {
    "id": "palinka",
@@ -4669,7 +4732,8 @@ window.BB_DATA = {
     "great-market-hall"
    ],
    "whereText": "Great Market Hall, most bars",
-   "image": null
+   "image": null,
+   "wiki": "Pálinka"
   },
   {
    "id": "froccs",
@@ -4680,7 +4744,8 @@ window.BB_DATA = {
    "what": "Wine plus soda water. Cheap, refreshing, and a proper session drink. Try a háztartási or kisfröccs.",
    "where": [],
    "whereText": "Anywhere with a bar",
-   "image": null
+   "image": null,
+   "wiki": "Fröccs"
   },
   {
    "id": "tokaji-aszu",
@@ -4693,7 +4758,8 @@ window.BB_DATA = {
     "borkonyha"
    ],
    "whereText": "Borkonyha, wine bars",
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokaji_6p_1989.jpg?width=900"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokaji_6p_1989.jpg?width=900",
+   "wiki": "Tokaji"
   },
   {
    "id": "beer",
@@ -4707,7 +4773,8 @@ window.BB_DATA = {
     "szimpla-farmers-market"
    ],
    "whereText": "Any pub, Szimpla, Karaván",
-   "image": null
+   "image": null,
+   "wiki": "Dreher Breweries"
   }
  ],
  "practical": [

@@ -1,9 +1,9 @@
 // Offline support: app shell is network-first (so updates land straight away), map tiles,
 // fonts and photos are cached as you browse so the map still works with patchy roaming.
-const VERSION = 'bb-v1';
+const VERSION = 'bb-v2';
 const SHELL = [
   './', './index.html', './styles.css', './app.js', './data.js',
-  './vendor/maplibre-gl.js', './vendor/maplibre-gl.css',
+  './vendor/maplibre-gl.js', './vendor/maplibre-gl.css', './vendor/fonts.css',
   './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png',
 ];
 const RUNTIME = 'bb-runtime-v1';
@@ -54,7 +54,7 @@ self.addEventListener('fetch', (e) => {
   }
 
   // tiles, glyphs, fonts, photos: cache first
-  const cacheFirst = /(^|\.)openfreemap\.org$|basemaps\.cartocdn\.com$|elevation-tiles-prod|fonts\.(googleapis|gstatic)\.com$|wikimedia\.org$/;
+  const cacheFirst = /(^|\.)openfreemap\.org$|basemaps\.cartocdn\.com$|arcgisonline\.com$|opentopomap\.org$|elevation-tiles-prod|fonts\.(googleapis|gstatic)\.com$|wikimedia\.org$/;
   if (cacheFirst.test(url.hostname) || cacheFirst.test(url.pathname)) {
     e.respondWith((async () => {
       const hit = await caches.match(req);

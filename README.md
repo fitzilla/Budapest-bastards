@@ -1,4 +1,4 @@
-# Budapest Bastards
+# Bastards on Tour
 
 An Airbnb-style guide to Budapest for the lads' weekend, **Thu 15 – Sun 18 Oct 2026**. It's a static web app with no build step and no API keys. It works on phones and can be added to the home screen.
 
@@ -42,4 +42,4 @@ Commit and push `data.js`. Until then, anyone can drop their own pin from **Info
 
 ## Tech
 
-Plain HTML, CSS and JS. MapLibre GL 4.7.1 is vendored in `vendor/`. Map tiles come from OpenFreeMap, falling back to CARTO. Terrain comes from AWS Terrain Tiles and the weather from Open-Meteo. A service worker caches the app, map tiles and photos so it copes with patchy roaming.
+Plain HTML, CSS and JS. MapLibre GL 4.7.1 is vendored in `vendor/`, and so are the fonts (Big Shoulders Display and Barlow, SIL OFL). The map has three styles: **Map** (OpenFreeMap vector, falling back to CARTO), **Satellite** (Esri World Imagery with road and place labels) and **Terrain** (Esri World Topo, falling back to OpenTopoMap). All three sit on AWS Terrain Tiles for 3D hills. Photos come from Wikimedia Commons (`content/images.json`) or, failing that, from the item's Wikipedia article, fetched at runtime (`content/wiki.json`). Weather comes from Open-Meteo. A service worker caches the app, fonts, map tiles and photos so it copes with patchy roaming.

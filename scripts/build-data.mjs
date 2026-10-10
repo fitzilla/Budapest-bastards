@@ -10,6 +10,16 @@ const trip = read('content/trip.json');
 const over = read('content/overrides.json');
 const readOpt = (p, d) => (existsSync(join(root, p)) ? read(p) : d);
 const ratings = readOpt('content/ratings.json', {});
+const wiki = readOpt('content/wiki.json', {});
+const images = readOpt('content/images.json', {});
+// attach a Wikipedia title (for a runtime lead photo) and any extra verified Commons photo
+function applyMedia(x) {
+  const img = images[x.id];
+  if (img?.image && !x.image && /^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\//.test(img.image)) x.image = img.image;
+  const w = img?.wiki || wiki[x.id]; // titles seen in search results beat ones from memory
+  if (w && !x.id.startsWith('_')) x.wiki = String(w).replace(/^en:/, '');
+  return x;
+}
 const R = {
   events: read('content/research/events_logistics.json'),
   bars: read('content/research/bars.json'),
@@ -121,7 +131,7 @@ const places = [];
 for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['sights', R.sights]]) {
   for (const src of data.items) {
     if (removed.has(`${file}:${src.id}`)) continue;
-    places.push(applyRatings(applyPatch(normPlace(src, file))));
+    places.push(applyMedia(applyRatings(applyPatch(normPlace(src, file)))));
   }
 }
 const ids = new Map();
@@ -149,6 +159,7 @@ const events = R.events.events.map((e) => {
     image: null, district: null, price: null,
   });
   applyRatings(ev);
+  applyMedia(ev);
   validate(ev);
   return ev;
 });
@@ -164,6 +175,7 @@ const airport = applyPatch({
   arrival: A.arrival, departure: A.departure, options: A.options, leaveBy: A.leaveBy,
   rating: {}, links: { web: 'https://www.bud.hu/en', ta: null, book: null }, image: null, price: null,
 });
+applyMedia(airport);
 validate(airport);
 ids.set('airport', 'airport');
 
@@ -175,7 +187,7 @@ const dishes = R.food.dishes.map((d) => ({
     return true;
   }),
   whereText: d.whereText || null, image: d.image || null,
-}));
+})).map(applyMedia);
 
 // ---- plan: check refs
 for (const day of trip.plan) {
@@ -215,5 +227,8 @@ writeFileSync(join(root, 'data.js'),
 const count = (t) => places.filter((p) => p.type === t).length;
 const rated = places.filter((p) => p.rating.g != null || p.rating.ta != null).length;
 console.log(`ratings: ${rated}/${places.length} places have a verified score`);
+const all = [...places, ...events, airport, ...dishes];
+console.log(`photos: ${all.filter((x) => x.image).length}/${all.length} have a Commons photo, ${all.filter((x) => !x.image && x.wiki).length} more get a Wikipedia lead photo at runtime`);
+for (const id of Object.keys(wiki)) if (!id.startsWith('_') && !all.some((x) => x.id === id)) warnings.push(`wiki.json: unknown id ${id}`);
 console.log(`data.js: ${events.length} events, ${count('bar')} bars, ${count('food')} food, ${count('sight')} sights, ${count('bath')} baths, ${count('activity')} activities, ${dishes.length} dishes`);
 if (warnings.length) { console.log(`\n${warnings.length} warning(s):`); for (const w of warnings) console.log(' - ' + w); }

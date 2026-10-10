@@ -1,4 +1,4 @@
-/* Budapest Bastards — the lads' Budapest app. Vanilla JS, no build step. */
+/* Bastards on Tour — the lads' Budapest app. Vanilla JS, no build step. */
 (() => {
   'use strict';
 
@@ -297,15 +297,68 @@
   const shareUrl = (id) => location.href.split('#')[0] + '#/p/' + id;
 
   /* ---------------- media ---------------- */
+  // real photos: the item's own Commons photo first, else its Wikipedia article's lead image (fetched at runtime)
+  const runtimeImg = new Map();
+  const imgOf = (p) => p.image || runtimeImg.get(p.id) || null;
+  const imgTag = (u, pid) => `<img src="${esc(u)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-pid="${esc(pid)}" onload="this.classList.add('ok')" onerror="window.__bbImgFail(this)">`;
+  window.__bbImgFail = (img) => {
+    const alt = runtimeImg.get(img.dataset.pid);
+    if (alt && img.getAttribute('src') !== alt && !img.dataset.retried) { img.dataset.retried = '1'; img.src = alt; }
+    else img.remove();
+  };
+  async function loadWikiImages() {
+    const items = [...EVENTS, AIRPORT, ...PLACES, ...D.dishes].filter((x) => x.wiki);
+    const cache = store.get('wikiimg', {});
+    const key = (x) => x.wiki;
+    const fresh = (e) => e && Date.now() - e.t < 7 * 864e5;
+    const apply = () => { for (const x of items) { const c = cache[key(x)]; if (c?.u) runtimeImg.set(x.id, c.u); } paintImages(); };
+    apply();
+    const byLang = new Map();
+    for (const x of items) {
+      if (fresh(cache[key(x)])) continue;
+      const lang = x.wiki.startsWith('hu:') ? 'hu' : 'en';
+      if (!byLang.has(lang)) byLang.set(lang, new Set());
+      byLang.get(lang).add(lang === 'hu' ? x.wiki.slice(3) : x.wiki);
+    }
+    for (const [lang, set] of byLang) {
+      const titles = [...set];
+      for (let i = 0; i < titles.length; i += 40) {
+        const chunk = titles.slice(i, i + 40);
+        try {
+          const r = await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&origin=*&redirects=1&prop=pageimages&piprop=thumbnail&pithumbsize=960&titles=${encodeURIComponent(chunk.join('|'))}`);
+          if (!r.ok) continue;
+          const q = (await r.json()).query || {};
+          const hop = new Map([...(q.normalized || []), ...(q.redirects || [])].map((n) => [n.from, n.to]));
+          const thumbs = new Map((q.pages || []).map((pg) => [pg.title, pg.thumbnail?.source || null]));
+          for (const t of chunk) {
+            let k = t;
+            for (let n = 0; n < 3 && hop.has(k); n++) k = hop.get(k);
+            cache[(lang === 'hu' ? 'hu:' : '') + t] = { u: thumbs.get(k) || null, t: Date.now() };
+          }
+        } catch { /* offline: try again next launch */ }
+      }
+    }
+    store.set('wikiimg', cache);
+    apply();
+  }
+  // drop freshly fetched photos into placeholders that are already on screen
+  function paintImages() {
+    $$('.ph[data-pid]').forEach((ph) => {
+      const u = runtimeImg.get(ph.dataset.pid);
+      if (!u || ph.parentElement.querySelector('img')) return;
+      ph.insertAdjacentHTML('afterend', imgTag(u, ph.dataset.pid));
+    });
+  }
+
   function media(p, { top } = {}) {
     const c = colorVar(p);
-    const ph = `<div class="ph" style="--c:${c}">
+    const ph = `<div class="ph" data-pid="${esc(p.id)}" style="--c:${c}">
       <span class="ph-top">${esc(top ?? (p.district ? 'District ' + p.district : labelOf(p)))}</span>
       ${icon(iconOf(p), 'ph-ic')}
       <span class="ph-name">${esc(p.name)}</span>
     </div>`;
-    if (!p.image) return ph;
-    return ph + `<img src="${esc(p.image)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="this.remove()">`;
+    const u = imgOf(p);
+    return u ? ph + imgTag(u, p.id) : ph;
   }
 
   /* ---------------- favourites ---------------- */
@@ -584,7 +637,7 @@
     })() : '';
     return `<section class="hero" aria-label="Trip">
       <p class="hero-eyebrow">Budapest · Thu 15 – Sun 18 Oct 2026</p>
-      <h1 class="hero-title">Budapest Bastards</h1>
+      <h1 class="hero-title">Bastards on Tour</h1>
       <div class="hero-count"><b class="tnum">${esc(big)}</b><span>${esc(small)}</span></div>
       ${nextHtml}
       <div data-wx-slot="strip">${wxSlot('strip')}</div>
@@ -911,7 +964,7 @@
     detailPushed = pushed;
     const wasOpen = !!detailOpenId;
     detailOpenId = id;
-    const credit = p.image ? '<span class="d-credit">Photo: Wikimedia Commons</span>' : '';
+    const credit = imgOf(p) ? '<span class="d-credit">Photo: Wikimedia Commons</span>' : '';
     detailBody.innerHTML = `<div class="d-hero"><div class="card-media">${media(p)}</div>${credit}
       <div class="d-top"><button type="button" class="d-btn" data-close aria-label="Close">${icon(desktopMQ.matches ? 'x' : 'back')}</button>
         <div class="d-top-right"><button type="button" class="d-btn" data-act="share" data-id="${esc(p.id)}" aria-label="Share">${icon('share')}</button>
@@ -923,7 +976,7 @@
       showSheet(detailRoot);
     }
     if (desktopMQ.matches && !refresh) selectPin(id, { fly: true, card: false });
-    document.title = `${p.name} · Budapest Bastards`;
+    document.title = `${p.name} · Bastards on Tour`;
   }
   function closeDetail() {
     if (!detailOpenId) return;
@@ -934,7 +987,7 @@
     if (!detailOpenId) return;
     detailOpenId = null;
     hideSheet(detailRoot);
-    document.title = 'Budapest Bastards';
+    document.title = 'Bastards on Tour';
     lastFocus?.focus?.({ preventScroll: true });
   }
 
@@ -1048,6 +1101,48 @@
     dark: ['https://tiles.openfreemap.org/styles/dark', 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json', 'https://tiles.openfreemap.org/styles/liberty'],
   };
   const HOME_VIEW = { center: [19.0625, 47.4985], zoom: 13.4, pitch: 55, bearing: -18 };
+  let mapKind = store.get('mapKind', 'map');
+  let baseTileErrors = 0;
+  const ESRI = (svc) => `https://server.arcgisonline.com/ArcGIS/rest/services/${svc}/MapServer/tile/{z}/{y}/{x}`;
+  // satellite = Esri imagery with road and place labels; terrain = topo map (Esri, with OpenTopoMap as the backup)
+  function rasterStyle(kind, backup = false) {
+    const raster = (tiles, extra = {}) => ({ type: 'raster', tiles, tileSize: 256, maxzoom: 19, ...extra });
+    const sources = {};
+    const layers = [{ id: 'bg', type: 'background', paint: { 'background-color': kind === 'sat' ? '#1d2620' : '#e9e5dc' } }];
+    if (kind === 'sat') {
+      sources.base = raster([ESRI('World_Imagery')], { attribution: 'Imagery © Esri, Maxar, Earthstar Geographics' });
+      sources.roads = raster([ESRI('Reference/World_Transportation')]);
+      sources.places = raster([ESRI('Reference/World_Boundaries_and_Places')], { attribution: 'Labels © Esri' });
+      layers.push({ id: 'base', type: 'raster', source: 'base' }, { id: 'roads', type: 'raster', source: 'roads', paint: { 'raster-opacity': 0.85 } }, { id: 'places', type: 'raster', source: 'places' });
+    } else {
+      sources.base = backup
+        ? raster(['a', 'b', 'c'].map((x) => `https://${x}.tile.opentopomap.org/{z}/{x}/{y}.png`), { maxzoom: 17, attribution: '© OpenTopoMap (CC-BY-SA), © OpenStreetMap contributors' })
+        : raster([ESRI('World_Topo_Map')], { attribution: '© Esri, HERE, Garmin, USGS, © OpenStreetMap contributors' });
+      layers.push({ id: 'base', type: 'raster', source: 'base' });
+    }
+    return { version: 8, sources, layers };
+  }
+  function firstStyle() {
+    baseTileErrors = 0;
+    if (mapKind === 'sat' || mapKind === 'terrain') {
+      styleQueue = mapKind === 'terrain' ? [rasterStyle('terrain', true)] : [];
+      return rasterStyle(mapKind);
+    }
+    styleQueue = [...STYLES[isDark() ? 'dark' : 'light']];
+    return styleQueue.shift();
+  }
+  function syncKindButtons() {
+    $$('#mapStyles [data-kind]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.kind === mapKind));
+  }
+  function setMapKind(kind) {
+    if (kind === mapKind) return;
+    mapKind = kind;
+    store.set('mapKind', kind);
+    syncKindButtons();
+    if (!map) return;
+    styleOk = false;
+    map.setStyle(firstStyle(), { diff: false });
+  }
 
   function webglOk() {
     try { const c = document.createElement('canvas'); return !!(c.getContext('webgl2') || c.getContext('webgl')); } catch { return false; }
@@ -1055,10 +1150,9 @@
   function initMap() {
     if (map || !window.maplibregl) { if (!window.maplibregl) $('#mapFallback').hidden = false; return; }
     if (!webglOk()) { $('#mapFallback').hidden = false; return; }
-    styleQueue = [...STYLES[isDark() ? 'dark' : 'light']];
     map = new maplibregl.Map({
       container: 'map',
-      style: styleQueue.shift(),
+      style: firstStyle(),
       center: BASE.lat != null ? [BASE.lng, BASE.lat] : HOME_VIEW.center,
       zoom: BASE.lat != null ? 14.4 : HOME_VIEW.zoom,
       pitch: want3D ? HOME_VIEW.pitch : 0,
@@ -1072,6 +1166,8 @@
     map.on('style.load', () => {
       styleOk = true;
       decorateStyle();
+      // keep the credits tucked behind the (i) so they don't sit over the List button
+      requestAnimationFrame(() => $('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show'));
       if (!mapReady) {
         mapReady = true;
         buildMarkers();
@@ -1082,6 +1178,7 @@
     });
     map.on('error', (e) => {
       if (e?.sourceId === 'bb-dem') { dropTerrain(); return; }
+      if (e?.sourceId === 'base' && mapKind === 'terrain' && styleQueue.length && ++baseTileErrors >= 4) { map.setStyle(styleQueue.shift(), { diff: false }); return; }
       if (styleOk || e?.sourceId) return; // tile hiccups after load are harmless
       if (styleQueue.length) map.setStyle(styleQueue.shift());
       else $('#mapFallback').hidden = false;
@@ -1225,7 +1322,7 @@
     const vis = [...markers.values()].filter(({ el }) => !el.hidden).map(({ p }) => p);
     if (!vis.length) return;
     // keep the city readable: drop far-flung pins unless the booked stuff is on show
-    const far = (p) => km(DEAK, p) > 9;
+    const far = (p) => km(DEAK, p) > 6;
     const showFar = all || (state.tab === 'explore' && state.cat === 'booked') || state.tab === 'plans' || state.tab === 'info';
     const pts = showFar ? vis : vis.filter((p) => !far(p));
     const use = pts.length ? pts : vis;
@@ -1540,7 +1637,7 @@
     switch (act) {
       case 'share': {
         const p = byId.get(t.dataset.id);
-        share(p.name, `${p.name}, from the Budapest Bastards app`, shareUrl(p.id));
+        share(p.name, `${p.name}, from the Bastards on Tour app`, shareUrl(p.id));
         break;
       }
       case 'copy': copy(t.dataset.text, 'Address copied'); break;
@@ -1561,7 +1658,7 @@
       case 'clear-filters': clearFilters(); break;
       case 'share-faves': {
         const items = [...state.faves].map((id) => byId.get(id)).filter(Boolean);
-        const text = 'Budapest Bastards shortlist:\n' + items.map((p) => `• ${p.name} – ${gmapsUrl(p)}`).join('\n');
+        const text = 'Bastards on Tour shortlist:\n' + items.map((p) => `• ${p.name} – ${gmapsUrl(p)}`).join('\n');
         share('Our Budapest shortlist', text, location.href.split('#')[0]);
         break;
       }
@@ -1650,11 +1747,12 @@
 
   // theme flips restyle the map
   darkMQ.addEventListener?.('change', () => {
-    if (!map) return;
+    if (!map || mapKind !== 'map') return;
     styleOk = false;
-    styleQueue = [...STYLES[isDark() ? 'dark' : 'light']];
-    map.setStyle(styleQueue.shift());
+    map.setStyle(firstStyle());
   });
+  $('#mapStyles').addEventListener('click', (e) => { const b = e.target.closest('[data-kind]'); if (b) setMapKind(b.dataset.kind); });
+  syncKindButtons();
   desktopMQ.addEventListener?.('change', (e) => {
     if (e.matches) { initMap(); setTimeout(() => map?.resize(), 50); setView('list'); }
   });
@@ -1676,6 +1774,7 @@
   booted = true;
   if (desktopMQ.matches) initMap();
   loadWeather();
+  loadWikiImages();
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     navigator.serviceWorker.register('sw.js').catch(() => { /* offline support is a bonus */ });
   }
