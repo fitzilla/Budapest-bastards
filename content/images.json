@@ -468,5 +468,29 @@
   "kind": "illustrative",
   "caption": "Ikarus 260 beer bus, Budapest",
   "source": "https://commons.wikimedia.org/wiki/File:Budapest_Bank_%C3%A9s_Ikarus_260_s%C3%B6rbusz,_2019_Ter%C3%A9zv%C3%A1ros.jpg"
+ },
+ "airport": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Liszt_Ferenc_International_Airport_-_Entrance_Terminal_2B_(2018).jpg?width=960",
+  "kind": "building",
+  "caption": "Terminal 2B entrance",
+  "source": "https://commons.wikimedia.org/wiki/File:Budapest_Liszt_Ferenc_International_Airport_-_Entrance_Terminal_2B_(2018).jpg"
+ },
+ "millennium-underground-m1": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_M1_metr%C3%B3,_Oktogon,_18.jpg?width=960",
+  "kind": "venue",
+  "caption": "M1 at Oktogon",
+  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_M1_metr%C3%B3,_Oktogon,_18.jpg"
+ },
+ "beer": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lager_beer_in_glass.jpg?width=960",
+  "kind": "venue",
+  "caption": "A cold lager",
+  "source": "https://commons.wikimedia.org/wiki/File:Lager_beer_in_glass.jpg"
+ },
+ "prosecco-danube-cruise": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg?width=960",
+  "kind": "nearby",
+  "caption": "A cruise boat passing Parliament",
+  "source": "https://commons.wikimedia.org/wiki/File:Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg"
  }
 }

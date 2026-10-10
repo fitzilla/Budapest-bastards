@@ -324,7 +324,9 @@
     const cache = store.get('wikiimg', {});
     const key = (x) => x.wiki;
     const fresh = (e) => e && Date.now() - e.t < 7 * 864e5;
-    const apply = () => { for (const x of items) { const c = cache[key(x)]; if (c?.u) runtimeImg.set(x.id, c.u); } paintImages(); };
+    // a page's lead image is sometimes a logo, crest or map: only take photos
+    const isPhoto = (u) => !!u && !/\.(svg|png|gif)(\/|$|\?)|logo|emblem|crest|coat_of_arms|wappen|c%C3%ADmer|flag_of|locator|_map\b|diagram/i.test(u);
+    const apply = () => { for (const x of items) { const c = cache[key(x)]; if (isPhoto(c?.u)) runtimeImg.set(x.id, c.u); } paintImages(); };
     apply();
     const byLang = new Map();
     for (const x of items) {

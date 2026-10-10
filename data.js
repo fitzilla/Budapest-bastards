@@ -310,9 +310,11 @@ window.BB_DATA = {
    "ta": null,
    "book": null
   },
-  "image": null,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Liszt_Ferenc_International_Airport_-_Entrance_Terminal_2B_(2018).jpg?width=960",
   "price": null,
   "venue": "Budapest Airport Terminal 2",
+  "imageKind": "building",
+  "imageCaption": "Terminal 2B entrance",
   "wiki": "Budapest Ferenc Liszt International Airport"
  },
  "places": [
@@ -3345,12 +3347,13 @@ window.BB_DATA = {
    "blurb": "Tiny yellow 1890s trains running just under the surface of Andrássy út. Quaint, ancient and still in service.",
    "tip": "Ride it from Deák tér to Hősök tere and back: 11 stops, about 12 minutes, rich period tile detailing.",
    "history": "Opened in 1896 for the Millennium celebrations, it's the second-oldest underground railway in the world after London's (1863), and the first on continental Europe. It was dug just under the pavement using cut-and-cover. Still rattling after 130 years.",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_M1_metr%C3%B3,_Oktogon,_18.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d2501174-Reviews-Underground_Railway_Museum-Budapest_Central_Hungary.html",
     "web": "https://bkk.hu/en/",
     "book": null
    },
+   "imageCaption": "M1 at Oktogon",
    "wiki": "Line 1 (Budapest Metro)"
   },
   {
@@ -4028,13 +4031,15 @@ window.BB_DATA = {
    "blurb": "75 minutes of Parliament lit up and bottomless fizz. Cheap, loud, perfect for a pre-dinner warm-up.",
    "tip": "Pick the late-evening slot; sit upstairs but wrap up. Book online ahead for the weekend.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "must": true,
+   "imageKind": "nearby",
+   "imageCaption": "A cruise boat passing Parliament",
    "wiki": "Danube"
   },
   {
@@ -4668,7 +4673,8 @@ window.BB_DATA = {
     "szimpla-farmers-market"
    ],
    "whereText": "Any pub, Szimpla, Karaván",
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lager_beer_in_glass.jpg?width=960",
+   "imageCaption": "A cold lager",
    "wiki": "Dreher Breweries"
   }
  ],
