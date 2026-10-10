@@ -843,7 +843,8 @@
       ${B.links.web ? `<a href="${esc(B.links.web)}" target="_blank" rel="noopener">Open the Airbnb listing ${icon('ext', 'ic-sm')}</a>` : ''}`;
 
     const A = AIRPORT;
-    const airportBody = `<dl class="kv"><dt>Flight out</dt><dd>${esc(flightLine(FL.out, 'out') || 'Number TBC')}</dd><dt>Flight home</dt><dd>${esc(flightLine(FL.home, 'home') || 'Number TBC')}</dd><dt>Land</dt><dd>${esc(A.arrival)}</dd><dt>Fly home</dt><dd>${esc(A.departure)}</dd></dl>
+    const airportBody = `<a class="btn btn-primary btn-block" href="${esc(gdirUrl(A))}" target="_blank" rel="noopener">${icon('nav')}Directions to the airport</a>
+      <dl class="kv"><dt>Flight out</dt><dd>${esc(flightLine(FL.out, 'out') || 'Number TBC')}</dd><dt>Flight home</dt><dd>${esc(flightLine(FL.home, 'home') || 'Number TBC')}</dd><dt>Land</dt><dd>${esc(A.arrival)}</dd><dt>Fly home</dt><dd>${esc(A.departure)}</dd></dl>
       ${A.options.map((o) => `<div><h3>${esc(o.name)}</h3><p>${esc(o.price)}. ${esc(o.time)}. ${esc(o.howToPay)}</p></div>`).join('')}
       <div class="callout">${icon('clock')}<div><strong>Sunday leave-by</strong>${esc(A.leaveBy)}</div></div>`;
 
@@ -1289,6 +1290,7 @@
   }
 
   function pinHtml(p) {
+    if (p.type === 'travel') return `<span class="pin-dot">${icon('plane')}</span><span class="pin-label">Airport<small>Terminal 2 · BUD</small></span>`;
     if (p.type === 'base') return `<span class="pin-dot">${icon('home')}</span><span class="pin-label">The flat<small>${esc(p.approx ? 'roughly here' : p.address || 'our base')}</small></span>`;
     const label = p.type === 'event' ? `${esc(shortEventName(p))}<small>${esc(WEEKDAY.format(at(p.date, p.start || '00:00')))} ${esc(p.start || '')}</small>` : esc(p.name);
     return `<span class="pin-dot">${icon(iconOf(p))}</span><span class="pin-label">${label}</span>`;
@@ -1306,7 +1308,7 @@
     if (p.lat == null || p.hidePin || markers.has(p.id)) return;
     const el = document.createElement('button');
     el.type = 'button';
-    el.className = `pin k-${kindOf(p)}${p.type === 'event' || p.type === 'base' ? ' is-labelled' : ''}${p.approx ? ' is-approx' : ''}`;
+    el.className = `pin k-${kindOf(p)}${p.type === 'event' || p.type === 'base' || p.type === 'travel' ? ' is-labelled' : ''}${p.approx ? ' is-approx' : ''}`;
     el.setAttribute('aria-label', p.name);
     el.innerHTML = pinHtml(p);
     el.addEventListener('click', (e) => { e.stopPropagation(); e.preventDefault(); selectPin(p.id, { fly: false, card: true }); });
@@ -1316,16 +1318,17 @@
   function removeMarker(id) { const x = markers.get(id); if (x) { x.m.remove(); markers.delete(id); } }
 
   function visibleIds() {
-    if (state.onlyFaves && state.tab === 'explore') return new Set([...state.faves, 'base']);
+    const always = ['base', 'airport'];
+    if (state.onlyFaves && state.tab === 'explore') return new Set([...state.faves, ...always]);
     if (state.tab === 'plans') {
       const ids = new Set(['airport', 'base']);
       for (const it of PLAN) { if (it.ref) ids.add(it.ref); (it.refs || []).forEach((r) => ids.add(r)); }
       return ids;
     }
-    if (state.tab === 'faves') return new Set([...state.faves, 'base']);
+    if (state.tab === 'faves') return new Set([...state.faves, ...always]);
     if (state.tab === 'info') return new Set([...EVENTS.map((e) => e.id), 'airport', 'base']);
-    if (state.cat === 'strip' && !state.q) return new Set(['base']);
-    return new Set([...results().map((p) => p.id), 'base']);
+    if (state.cat === 'strip' && !state.q) return new Set(always);
+    return new Set([...results().map((p) => p.id), ...always]);
   }
   function syncMarkers({ fit = false } = {}) {
     if (!mapReady) return;
@@ -1724,6 +1727,12 @@
   $('#ctrlFit').addEventListener('click', () => fitVisible({ all: true }));
   $('#ctrlLocate').addEventListener('click', locate);
   $('#ctrlTour').addEventListener('click', () => (tour ? endTour() : startTour()));
+  $('#ctrlAirport').addEventListener('click', () => {
+    if (tour) endTour();
+    if (mapReady) selectPin('airport', { fly: true, card: true });
+    else { state.pendingSelect = 'airport'; initMap(); }
+  });
+  $('#ctrlAirport').innerHTML = icon('plane');
   $('#ctrlFit').innerHTML = icon('fit');
   $('#ctrlLocate').innerHTML = icon('locate');
   $('#ctrlTour').innerHTML = icon('play');

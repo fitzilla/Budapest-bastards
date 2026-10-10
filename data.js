@@ -300,6 +300,7 @@ window.BB_DATA = {
   },
   "image": null,
   "price": null,
+  "venue": "Budapest Airport Terminal 2",
   "wiki": "Budapest Ferenc Liszt International Airport"
  },
  "places": [

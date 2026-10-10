@@ -11,7 +11,8 @@
   "patch": {
     "airport": {
       "lat": 47.4334,
-      "lng": 19.2617
+      "lng": 19.2617,
+      "venue": "Budapest Airport Terminal 2"
     },
     "bors-gasztrobar": {
       "lat": 47.49668,
