@@ -3287,6 +3287,613 @@ window.BB_DATA = {
    "imageCaption": "Coffee and croissant"
   },
   {
+   "id": "kadar-etkezde",
+   "name": "Kádár Étkezde",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "cheap",
+    "breakfast"
+   ],
+   "district": "VII",
+   "address": "Klauzál tér 9, 1072 Budapest",
+   "lat": 47.498,
+   "lng": 19.0638,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Tue–Sat 10:45–16:30 · Sun–Mon closed (breakfast added May 2026)",
+   "blurb": "Legendary old-school canteen on Klauzál tér, back since autumn 2025. Főzelék, pörkölt and pancakes at near-communist prices, plus a proper Hungarian breakfast now.",
+   "tip": "Főzelék with a fried egg or a pörkölt: about 1,650–2,500 HUF for a dish (£4–6). Daytime only. Half the tables book online, the rest are walk-in.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%B6rk%C3%B6lt.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": "https://kadaretkezde.hu",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Pörkölt with nokedli"
+  },
+  {
+   "id": "n28-wine-and-kitchen",
+   "name": "N28 Wine and Kitchen",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "michelin",
+    "booking-needed"
+   ],
+   "district": "VI",
+   "address": "Nagymező utca 28, 1065 Budapest",
+   "lat": 47.50395,
+   "lng": 19.0601,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Tue–Sat 12:00–23:00 · Sun–Mon closed",
+   "blurb": "Michelin Bib Gourmand Hungarian kitchen and wine bar a few minutes from the flat. Open kitchen, almost all Hungarian wine and grown-up food without the silly prices.",
+   "tip": "Daily Hungarian plates with a Hungarian red: about 9,000–13,000 HUF (£21–31) a head with wine. Book for Fri or Sat.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%B6rk%C3%B6lt.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Pörkölt with nokedli"
+  },
+  {
+   "id": "bock-bisztro",
+   "name": "Bock Bisztró",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "hungarian",
+    "booking-needed"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 43-49, 1073 Budapest",
+   "lat": 47.5009,
+   "lng": 19.068,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Mon–Sat 12:00–00:00 · Sun closed",
+   "blurb": "Proper modern Hungarian cooking in the Corinthia hotel on the Nagykörút, with a big list of Villány reds from the Bock family. A sit-down dinner with a bit of class.",
+   "tip": "Veal cheek pörkölt and a Villány red: about 9,000–14,000 HUF (£21–33) a head with wine. Book ahead for Fri and Sat.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Beef pörkölt with nokedli"
+  },
+  {
+   "id": "csirke-csibesz",
+   "name": "Csirke Csibész",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "street-food",
+    "hungarian",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VI",
+   "address": "Nagymező utca 35, 1065 Budapest",
+   "lat": 47.5042,
+   "lng": 19.0603,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": 4.7,
+    "gN": 1167
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Open until 05:00 Wed–Sat (opening time not confirmed)",
+   "blurb": "Tiny 30-year-old corner joint doing a breaded chicken roll with Russian salad. Cheap, greasy and serving till 5am Wed to Sat. Textbook end-of-night fuel.",
+   "tip": "Crispy chicken roll with Russian salad: roughly 1,500–2,500 HUF (£4–6). Small place, so expect a short wait when the bars kick out.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CHICKEN_SCHNITZEL_-_M%26S_cafe_2025-05-16.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Breaded chicken schnitzel"
+  },
+  {
+   "id": "pizza-me-wesselenyi",
+   "name": "Pizza Me",
+   "sub": "Wesselényi utca",
+   "type": "food",
+   "tags": [
+    "pizza",
+    "street-food",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Wesselényi utca 35, 1077 Budapest",
+   "lat": 47.499,
+   "lng": 19.066,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Reported open until 06:00 every night (2024 guide): check Google Maps",
+   "blurb": "Italian-style pizza by the slice, a few minutes from the ruin bars and open until dawn. Point at a slice, eat it on the pavement, carry on.",
+   "tip": "Two slices and a drink: about 1,800–3,000 HUF (£4–7). Expect a queue once the bars shut. Cash or card, no booking.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eq_it-na_pizza-margherita_sep2005_sml.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A Neapolitan pizza"
+  },
+  {
+   "id": "szeraj-kebab",
+   "name": "Szeráj",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "kebab",
+    "late-night",
+    "cheap"
+   ],
+   "district": "V",
+   "address": "Szent István körút 13, 1055 Budapest",
+   "lat": 47.5134,
+   "lng": 19.0512,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Reported daily 09:00–04:00, Fri–Sat to 05:00 (older listing): check Google Maps",
+   "blurb": "Turkish place on the Nagykörút that one guide calls the best eat-in or takeaway kebab in the city. Big menu, plenty of seats and hours that run deep into the night.",
+   "tip": "Mixed kebab plate or a wrap with a drink: roughly 3,000–5,000 HUF (£7–12). Walk-ins fine. About 25 min walk or a tram ride away.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%B6ner_kebap.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A chicken döner"
+  },
+  {
+   "id": "deep-burger-dob",
+   "name": "Deep Burger",
+   "sub": "Dob utca",
+   "type": "food",
+   "tags": [
+    "burger",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dob utca 20, 1072 Budapest",
+   "lat": 47.4997,
+   "lng": 19.0638,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Late hours reported, exact times not confirmed: check Google Maps",
+   "blurb": "Small downtown burger chain that We Love Budapest tips for a post-party burger. The Dob utca branch sits right in the ruin-bar zone. Quick, greasy and cheap enough.",
+   "tip": "Burger and chips with a drink: about 3,500–5,000 HUF (£8–12). Check Maps for current late hours before relying on it.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Burger_et_frites_douala.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "unconfirmed": true,
+   "imageKind": "illustrative",
+   "imageCaption": "Burger and chips"
+  },
+  {
+   "id": "hachi-ko-ramen",
+   "name": "Hachi-Ko",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "asian"
+   ],
+   "district": "VII",
+   "address": "Madách Imre út 3, 1075 Budapest",
+   "lat": 47.49735,
+   "lng": 19.0569,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Wed 12:00–22:00 · Thu 12:00–23:00 · Fri–Sat 12:00–00:00 · Sun 12:00–22:00",
+   "blurb": "New ramen and izakaya spot by Madách tér from the Hachi team, opened January 2026. Cold-brew dashi broths and small plates, and it stays open till midnight Fri and Sat.",
+   "tip": "Ramen 4,380–5,480 HUF (£10–13), add a couple of small plates. Walk in early, or ask about booking.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shoyu_Ramen.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A bowl of shoyu ramen"
+  },
+  {
+   "id": "94-konyha-bar",
+   "name": "94' Konyha & Bar",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "asian",
+    "michelin",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Falk Miksa utca 10, 1055 Budapest",
+   "lat": 47.5092,
+   "lng": 19.0468,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Tue–Sun 12:00–23:00 · Mon closed",
+   "blurb": "Michelin Bib Gourmand Vietnamese kitchen: proper pho and a beef fried rice with XO sauce in a plain, friendly room. Top quality for not much money. About 25 min walk.",
+   "tip": "Pho plus the 94' Gohan: roughly 5,000–8,000 HUF (£12–19) a head. Book for Fri and Sat nights.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pho-Beef-Noodles-2008.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A bowl of beef pho"
+  },
+  {
+   "id": "pho-18",
+   "name": "Phở 18",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "asian",
+    "cheap"
+   ],
+   "district": "IX",
+   "address": "Ráday utca 18, 1092 Budapest",
+   "lat": 47.4883,
+   "lng": 19.0636,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": 4.5,
+    "gN": 957
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Mon–Sat 11:00–22:00 · Sun 12:00–21:00",
+   "blurb": "Vietnamese on Ráday utca with big bowls of pho, plus pad thai and bao. Good value, friendly staff and a short stagger to the Ráday bars afterwards.",
+   "tip": "Duck or beef pho: roughly 3,000–5,000 HUF (£7–12) a head. Soup is the hangover cure of choice. Walk-ins fine.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pho-Beef-Noodles-2008.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A bowl of beef pho"
+  },
+  {
+   "id": "bombay-budapest",
+   "name": "Bombay Budapest",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "indian",
+    "vegetarian",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Október 6. utca 17, 1051 Budapest",
+   "lat": 47.5019,
+   "lng": 19.0526,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Wed and Sun 11:30–23:00 · Thu–Sat 11:30–00:00",
+   "blurb": "Contemporary Indian near the Basilica with a strong vegetarian list and the usual hits. Reviews are mixed on service and speed, so go hungry and patient.",
+   "tip": "Butter chicken, lamb curry and plenty of naan to share: about 6,000–9,000 HUF (£14–21) a head. Book Fri and Sat.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_tikka_masala.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Chicken tikka masala and naan"
+  },
+  {
+   "id": "arriba-taqueria-terez",
+   "name": "Arriba Taqueria",
+   "sub": "Teréz körút",
+   "type": "food",
+   "tags": [
+    "mexican",
+    "cheap"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 25, 1067 Budapest",
+   "lat": 47.5058,
+   "lng": 19.062,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Check Google Maps for opening times",
+   "blurb": "Build-your-own tacos and burritos close to Oktogon. Not Mexico City, but quick, cheap and a good break from paprika. A local reviewer rated it the best taqueria they'd tried in town.",
+   "tip": "Three tacos and a drink: about 3,500–5,000 HUF (£8–12). Order at the counter, no booking needed.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tacos_al_pastor_en_Los_G%C3%BCeros_de_Boturini.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A plate of tacos al pastor"
+  },
+  {
+   "id": "forni-di-napoli-bazilika",
+   "name": "Forni di Napoli",
+   "sub": "Bazilika",
+   "type": "food",
+   "tags": [
+    "pizza",
+    "italian",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Október 6. utca 19, 1051 Budapest",
+   "lat": 47.5017,
+   "lng": 19.0527,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Daily 12:00–00:00 (kitchen until 23:00)",
+   "blurb": "Award-winning Neapolitan pizza two minutes from the Basilica. Blistered wood-fired crust, a menu of around 30 pizzas, so even the fussy one in the group is sorted.",
+   "tip": "Pizza plus a beer: about 4,500–7,000 HUF (£11–16) a head. Book for Fri and Sat evenings.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eq_it-na_pizza-margherita_sep2005_sml.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A Neapolitan pizza"
+  },
+  {
+   "id": "hot-stone-steakhouse",
+   "name": "Hot Stone Steakhouse",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "steak",
+    "booking-needed"
+   ],
+   "district": "V",
+   "address": "Október 6. utca 7, 1051 Budapest",
+   "lat": 47.5012,
+   "lng": 19.0521,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Lunch and dinner daily (exact hours not confirmed): check before booking",
+   "blurb": "Cook your own steak on a lava stone heated to 400 degrees, steps from the Basilica. A bit of theatre and a different beast to Pampas.",
+   "tip": "Priced by the gram: budget roughly 12,000–20,000 HUF (£28–47) a head with a drink. Book ahead for the weekend.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steak_auf_Grill.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "unconfirmed": true,
+   "imageKind": "illustrative",
+   "imageCaption": "Steak on the grill"
+  },
+  {
+   "id": "bigfish-seafood-bistro",
+   "name": "Bigfish Seafood Bistro",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "fish",
+    "booking-needed"
+   ],
+   "district": "VI",
+   "address": "Andrássy út 44, 1061 Budapest",
+   "lat": 47.504,
+   "lng": 19.0617,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Daily 12:00–22:00",
+   "blurb": "Budapest's go-to seafood bistro on Andrássy út, with sea fish brought in from the Budaörs market. Grilled fish, oysters and proper seafood plates, five minutes from the flat.",
+   "tip": "Grilled fish of the day with a starter: about 9,000–14,000 HUF (£21–33) a head. Book for weekend evenings.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dorade_dish.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Grilled sea bream"
+  },
+  {
+   "id": "cirkusz-cafe",
+   "name": "Cirkusz Café",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "breakfast",
+    "brunch"
+   ],
+   "district": "VII",
+   "address": "Dob utca 25, 1074 Budapest",
+   "lat": 47.4996,
+   "lng": 19.0643,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Daily 07:30–16:00",
+   "blurb": "Big breakfast place on Dob utca, open from 7:30 every day. Full English, bagels, Benedicts and a pulled-pork omelette. Proper hangover armour.",
+   "tip": "English breakfast and a coffee: about 4,500–6,500 HUF (£11–15). Busiest 10 to noon, so go early or expect a wait.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Full_English_Breakfast.JPG?width=960",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A full English breakfast"
+  },
+  {
+   "id": "goli-bistro",
+   "name": "Goli",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "michelin",
+    "booking-needed",
+    "middle-eastern"
+   ],
+   "district": "V",
+   "address": "Arany János utca 32, 1051 Budapest",
+   "lat": 47.5048,
+   "lng": 19.0508,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": null,
+   "hours": "Tue–Sat 12:00–22:30 · Sun closed · Mon closed per Michelin (OpenTable says open)",
+   "blurb": "Middle Eastern cooking with a Michelin Bib Gourmand, near the Basilica. Mezze and grills built for sharing, and good value for the quality.",
+   "tip": "Share a pile of mezze and grills: about 7,000–10,000 HUF (£16–24) a head. Book, especially Fri and Sat.",
+   "history": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mezze_platter.jpg?width=960",
+   "links": {
+    "ta": null,
+    "web": "https://goli.hu",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A mezze platter"
+  },
+  {
    "id": "hungarian-parliament",
    "name": "Hungarian Parliament Building",
    "sub": null,

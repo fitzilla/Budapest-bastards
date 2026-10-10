@@ -53,6 +53,7 @@ const R = {
   bars: read('content/research/bars.json'),
   barsExtra: readOpt('content/research/bars_extra.json', { items: [], sources: [] }),
   coffee: readOpt('content/research/coffee.json', { items: [], sources: [] }),
+  foodExtra: readOpt('content/research/food_extra.json', { items: [], sources: [] }),
   food: read('content/research/food.json'),
   sights: read('content/research/sights.json'),
 };
@@ -157,7 +158,7 @@ function validate(p) {
 
 // ---- places
 const places = [];
-for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['coffee', R.coffee], ['sights', R.sights]]) {
+for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['coffee', R.coffee], ['food_extra', R.foodExtra], ['sights', R.sights]]) {
   for (const src of data.items) {
     if (removed.has(`${file}:${src.id}`)) continue;
     places.push(applyMedia(applyRatings(applyPatch(applyLayers(normPlace(src, file))))));
@@ -244,9 +245,18 @@ function illoCategory(x) {
   if (x.type === 'food') {
     if (t.has('coffee')) return 'cafe';
     if (t.has('soup')) return 'soup';
+    if (/csirke|chicken/i.test(x.name)) return 'chicken';
+    if (t.has('asian')) return /ramen/i.test(x.id + ' ' + x.name) ? 'ramen' : 'pho';
+    if (t.has('indian')) return 'indian';
+    if (t.has('mexican')) return 'mexican';
+    if (t.has('kebab')) return 'kebab';
+    if (t.has('middle-eastern')) return 'mezze';
+    if (t.has('fish')) return 'fish';
+    if (t.has('breakfast') && !t.has('hungarian')) return 'breakfast';
     if (t.has('burger')) return 'burger';
     if (t.has('steak')) return 'steak';
     if (t.has('pizza')) return 'pizza';
+    if (t.has('michelin') && t.has('hungarian') && !t.has('fine-dining')) return 'hungarian';
     if (t.has('michelin') || t.has('fine-dining')) return 'finedining';
     if (t.has('brunch')) return 'cafe';
     if (t.has('dessert')) return 'sweets';

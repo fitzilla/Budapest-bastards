@@ -147,6 +147,13 @@
         if (t.includes('coffee')) return t.includes('roastery') ? 'Coffee roasters' : 'Coffee';
         if (t.includes('michelin')) return 'Michelin Guide';
         if (t.includes('market')) return 'Market';
+        if (t.includes('asian')) return /ramen/i.test(p.name) ? 'Ramen' : 'Asian';
+        if (t.includes('indian')) return 'Indian';
+        if (t.includes('mexican')) return 'Mexican';
+        if (t.includes('kebab')) return 'Kebab';
+        if (t.includes('middle-eastern')) return 'Middle Eastern';
+        if (t.includes('fish')) return 'Seafood';
+        if (t.includes('breakfast') && !t.includes('hungarian')) return 'Breakfast';
         if (t.includes('langos')) return 'Lángos';
         if (t.includes('street-food')) return 'Street food';
         if (t.includes('brunch')) return 'Brunch';
@@ -180,7 +187,7 @@
     'ruin-bar': 'Ruin bar', 'live-music': 'Live music', 'craft-beer': 'Craft beer', 'late-night': 'Open late',
     'booking-needed': 'Book ahead', 'group-friendly': 'Good for groups', 'street-food': 'Street food',
     'fine-dining': 'Fine dining', 'night-bathing': 'Night bathing', 'escape-room': 'Escape room',
-    'beer-bike': 'Beer bus', ww2: 'WW2', langos: 'Lángos', palinka: 'Pálinka', michelin: 'Michelin Guide',
+    'beer-bike': 'Beer bus', burger: 'Burgers', fish: 'Fish & seafood', bbq: 'BBQ', vegetarian: 'Veggie friendly', ww2: 'WW2', langos: 'Lángos', palinka: 'Pálinka', michelin: 'Michelin Guide',
     sparty: 'Sparty', cheap: 'Cheap', quirky: 'Odd', speakeasy: 'Speakeasy',
   };
   const tagLabel = (t) => TAG_LABEL[t] || t.charAt(0).toUpperCase() + t.slice(1).replace(/-/g, ' ');
@@ -229,7 +236,7 @@
     { id: 'must', label: 'Must-sees', icon: 'award', test: (p) => !!p.must },
     { id: 'near', label: 'Near the Airbnb', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed },
     { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
-    { id: 'eat', label: 'Food', icon: 'utensils', test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
+    { id: 'eat', label: 'Food', icon: 'utensils', chips: ['hungarian', 'street-food', 'late-night', 'burger', 'pizza', 'asian', 'steak', 'fish', 'michelin', 'breakfast', 'cheap'], test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },
     { id: 'bars', label: 'All bars', icon: 'beer', test: (p) => is(p, 'bar') },
@@ -790,7 +797,9 @@
     const pool = allItems().filter(cat.test);
     const counts = new Map();
     for (const p of pool) for (const t of p.tags || []) if (!HIDDEN_TAGS.has(t)) counts.set(t, (counts.get(t) || 0) + 1);
-    const tags = [...counts].filter(([, n]) => n >= 2 && n < pool.length).sort((a, b) => b[1] - a[1]).slice(0, 8);
+    // a hand-picked set where it reads better (food by cuisine), otherwise the most common tags
+    const tags = cat.chips ? cat.chips.filter((t) => counts.has(t)).map((t) => [t, counts.get(t)])
+      : [...counts].filter(([, n]) => n >= 2 && n < pool.length).sort((a, b) => b[1] - a[1]).slice(0, 8);
     if (!tags.length) return '';
     return `<div class="chip-row" style="margin-top:14px">${tags.map(([t]) => `<button type="button" class="chip chip-sm" data-tag="${esc(t)}" aria-pressed="${state.filters.tags.has(t)}">${esc(tagLabel(t))}</button>`).join('')}</div>`;
   }

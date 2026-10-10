@@ -318,5 +318,83 @@
    "caption": "A bowl of goulash soup",
    "source": "https://commons.wikimedia.org/wiki/File:Hungarian_Guly%C3%A1s.jpg"
   }
+ ],
+ "pho": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pho-Beef-Noodles-2008.jpg?width=960",
+   "caption": "A bowl of beef pho",
+   "source": "https://commons.wikimedia.org/wiki/File:Pho-Beef-Noodles-2008.jpg"
+  }
+ ],
+ "ramen": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shoyu_Ramen.jpg?width=960",
+   "caption": "A bowl of shoyu ramen",
+   "source": "https://commons.wikimedia.org/wiki/File:Shoyu_Ramen.jpg"
+  }
+ ],
+ "mexican": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tacos_al_pastor_en_Los_G%C3%BCeros_de_Boturini.jpg?width=960",
+   "caption": "A plate of tacos al pastor",
+   "source": "https://commons.wikimedia.org/wiki/File:Tacos_al_pastor_en_Los_G%C3%BCeros_de_Boturini.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg?width=960",
+   "caption": "Tacos three ways",
+   "source": "https://commons.wikimedia.org/wiki/File:001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg"
+  }
+ ],
+ "kebab": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%B6ner_kebap.jpg?width=960",
+   "caption": "A chicken döner",
+   "source": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_kebap.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%B6ner_Kebab_auf_Teller.jpg?width=960",
+   "caption": "A döner kebab plate",
+   "source": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_Kebab_auf_Teller.jpg"
+  }
+ ],
+ "indian": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_tikka_masala.jpg?width=960",
+   "caption": "Chicken tikka masala and naan",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicken_tikka_masala.jpg"
+  }
+ ],
+ "breakfast": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Full_English_Breakfast.JPG?width=960",
+   "caption": "A full English breakfast",
+   "source": "https://commons.wikimedia.org/wiki/File:Full_English_Breakfast.JPG"
+  }
+ ],
+ "fish": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seafood_in_Spain_-_Gran_Canaria_grilled_fish_and_seafood_plate.jpg?width=960",
+   "caption": "A grilled fish and seafood plate",
+   "source": "https://commons.wikimedia.org/wiki/File:Seafood_in_Spain_-_Gran_Canaria_grilled_fish_and_seafood_plate.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dorade_dish.jpg?width=960",
+   "caption": "Grilled sea bream",
+   "source": "https://commons.wikimedia.org/wiki/File:Dorade_dish.jpg"
+  }
+ ],
+ "chicken": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CHICKEN_SCHNITZEL_-_M%26S_cafe_2025-05-16.jpg?width=960",
+   "caption": "Breaded chicken schnitzel",
+   "source": "https://commons.wikimedia.org/wiki/File:CHICKEN_SCHNITZEL_-_M%26S_cafe_2025-05-16.jpg"
+  }
+ ],
+ "mezze": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mezze_platter.jpg?width=960",
+   "caption": "A mezze platter",
+   "source": "https://commons.wikimedia.org/wiki/File:Mezze_platter.jpg"
+  }
  ]
 }
