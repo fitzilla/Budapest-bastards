@@ -625,7 +625,7 @@
     const changed = state.cat !== id;
     state.cat = id;
     state.q = '';
-    if (changed) { state.filters.tags.clear(); }
+    if (changed) { state.filters.tags.clear(); clearSelection(); }
     $$('#cats .cat').forEach((b) => b.setAttribute('aria-current', b.dataset.cat === id));
     const btn = $(`#cats [data-cat="${id}"]`);
     const rail = $('#cats');
@@ -1246,7 +1246,9 @@
     requestAnimationFrame(() => {
       for (const { m } of markers.values()) m.setLngLat(m.getLngLat());
       userMarker?.setLngLat(userMarker.getLngLat());
-      if (lastFit && performance.now() - lastFit < 4000) fitVisible({ all: lastFitAll });
+      const sel = markers.get(state.selected);
+      if (sel && performance.now() < flyUntil + 2000) flyToPlace(sel.p);
+      else if (lastFit && performance.now() - lastFit < 4000) fitVisible({ all: lastFitAll });
     });
   }
 
@@ -1335,12 +1337,16 @@
     el.innerHTML = pinHtml(p);
     el.addEventListener('click', (e) => { e.stopPropagation(); e.preventDefault(); selectPin(p.id, { fly: false, card: true }); });
     const m = new maplibregl.Marker({ element: el, anchor: 'center' }).setLngLat([p.lng, p.lat]).addTo(map);
+    // MapLibre labels every marker "Map marker" and fades ones it thinks a hill hides; keep the name and full opacity
+    el.setAttribute('aria-label', p.name);
+    el.dataset.id = p.id;
+    m.setOpacity('1', '1');
     markers.set(p.id, { m, el, p });
   }
   function removeMarker(id) { const x = markers.get(id); if (x) { x.m.remove(); markers.delete(id); } }
 
   function visibleIds() {
-    const always = ['base', 'airport'];
+    const always = ['base', 'airport', ...(state.selected ? [state.selected] : [])];
     if (state.onlyFaves && state.tab === 'explore') return new Set([...state.faves, ...always]);
     if (state.tab === 'plans') {
       const ids = new Set(['airport', 'base']);
@@ -1359,9 +1365,9 @@
     try { map.setLayoutProperty('bb-route', 'visibility', (state.tab === 'explore' && state.cat === 'booked' && !state.q) || state.tab === 'plans' || state.tab === 'info' ? 'visible' : 'none'); } catch { /* ignore */ }
     if (fit) fitVisible();
   }
-  let lastFit = 0, lastFitAll = false, fitGen = 0;
+  let lastFit = 0, lastFitAll = false, fitGen = 0, flyUntil = 0;
   function fitVisible({ all = false } = {}) {
-    if (!mapReady) return;
+    if (!mapReady || performance.now() < flyUntil) return;
     lastFit = performance.now(); lastFitAll = all;
     const gen = ++fitGen;
     const vis = [...markers.values()].filter(({ el }) => !el.hidden).map(({ p }) => p);
@@ -1412,13 +1418,16 @@
     if (!cur) return;
     cur.el.hidden = false;
     cur.el.classList.add('is-active');
-    if (fly) flyToPlace(cur.p);
+    if (fly) { fitGen++; flyUntil = performance.now() + 2500; flyToPlace(cur.p); }
     if (card) showMapCard(cur.p);
   }
   function clearSelection() {
-    markers.get(state.selected)?.el.classList.remove('is-active');
+    const prev = markers.get(state.selected);
     state.selected = null;
     $('#mapCard').hidden = true;
+    if (!prev) return;
+    prev.el.classList.remove('is-active');
+    if (mapReady && !visibleIds().has(prev.p.id)) prev.el.hidden = true;
   }
   function flyToPlace(p, opts = {}) {
     if (!mapReady || p.lat == null) return;
@@ -1687,9 +1696,9 @@
         closeDetail();
         setTimeout(() => {
           if (state.tab !== 'explore') { location.hash = '#/'; }
-          if (mapReady) { if (!desktopMQ.matches) setView('map'); setTimeout(() => selectPin(id, { fly: true, card: true }), 80); return; }
           state.pendingSelect = id;
           if (!desktopMQ.matches) setView('map');
+          if (mapReady) { setTimeout(() => { state.pendingSelect = null; selectPin(id, { fly: true, card: true }); }, 80); return; }
           initMap();
         }, 80);
         break;
