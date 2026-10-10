@@ -1068,6 +1068,7 @@
       dragRotate: true,
       touchPitch: true,
     });
+    if (/[?&]debug\b/.test(location.search)) window.__bbmap = map;
     map.on('style.load', () => {
       styleOk = true;
       decorateStyle();
@@ -1080,7 +1081,7 @@
       }
     });
     map.on('error', (e) => {
-      if (e?.sourceId === 'bb-dem') { try { map.setTerrain(null); } catch { /* ignore */ } return; }
+      if (e?.sourceId === 'bb-dem') { dropTerrain(); return; }
       if (styleOk || e?.sourceId) return; // tile hiccups after load are harmless
       if (styleQueue.length) map.setStyle(styleQueue.shift());
       else $('#mapFallback').hidden = false;
@@ -1089,10 +1090,23 @@
       if (baseDropMode) { setBase(e.lngLat.lat, e.lngLat.lng); return; }
       if (!e.originalEvent.defaultPrevented) clearSelection();
     });
-    const stopTour = () => { if (tour) endTour(); };
+    const stopTour = () => { fitGen++; if (tour) endTour(); };
     map.on('dragstart', stopTour);
     map.on('zoomstart', (e) => { if (e.originalEvent) stopTour(); });
     $('#ctrl3d').setAttribute('aria-pressed', want3D);
+  }
+
+  // hills tiles failed: go flat, and re-seat the pins (they were placed on the old 3D ground)
+  let terrainDead = false;
+  function dropTerrain() {
+    if (terrainDead) return;
+    terrainDead = true;
+    try { map.setTerrain(null); } catch { /* ignore */ }
+    requestAnimationFrame(() => {
+      for (const { m } of markers.values()) m.setLngLat(m.getLngLat());
+      userMarker?.setLngLat(userMarker.getLngLat());
+      if (lastFit && performance.now() - lastFit < 4000) fitVisible({ all: lastFitAll });
+    });
   }
 
   function decorateStyle() {
@@ -1130,7 +1144,7 @@
       if (!map.getSource('bb-dem')) {
         map.addSource('bb-dem', { type: 'raster-dem', tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'], encoding: 'terrarium', tileSize: 256, maxzoom: 13 });
       }
-      map.setTerrain(want3D ? { source: 'bb-dem', exaggeration: 1.35 } : null);
+      map.setTerrain(want3D && !terrainDead ? { source: 'bb-dem', exaggeration: 1.35 } : null);
     } catch { /* terrain not supported */ }
     try {
       if (typeof map.setSky === 'function') {
@@ -1157,9 +1171,9 @@
   }
 
   function pinHtml(p) {
-    if (p.type === 'base') return `${icon('home')}<span class="pin-label">The flat<small>${esc(p.approx ? 'roughly here' : p.address || 'our base')}</small></span>`;
+    if (p.type === 'base') return `<span class="pin-dot">${icon('home')}</span><span class="pin-label">The flat<small>${esc(p.approx ? 'roughly here' : p.address || 'our base')}</small></span>`;
     const label = p.type === 'event' ? `${esc(shortEventName(p))}<small>${esc(WEEKDAY.format(at(p.date, p.start || '00:00')))} ${esc(p.start || '')}</small>` : esc(p.name);
-    return `${icon(iconOf(p))}<span class="pin-label">${label}</span>`;
+    return `<span class="pin-dot">${icon(iconOf(p))}</span><span class="pin-label">${label}</span>`;
   }
   function shortEventName(p) {
     if (/fradi/.test(p.id)) return 'Fradi v Plzeň';
@@ -1203,8 +1217,11 @@
     try { map.setLayoutProperty('bb-route', 'visibility', (state.tab === 'explore' && state.cat === 'booked' && !state.q) || state.tab === 'plans' || state.tab === 'info' ? 'visible' : 'none'); } catch { /* ignore */ }
     if (fit) fitVisible();
   }
+  let lastFit = 0, lastFitAll = false, fitGen = 0;
   function fitVisible({ all = false } = {}) {
     if (!mapReady) return;
+    lastFit = performance.now(); lastFitAll = all;
+    const gen = ++fitGen;
     const vis = [...markers.values()].filter(({ el }) => !el.hidden).map(({ p }) => p);
     if (!vis.length) return;
     // keep the city readable: drop far-flung pins unless the booked stuff is on show
@@ -1219,7 +1236,29 @@
     // cameraForBounds assumes a flat map, so back off a little when tilted
     const cam = map.cameraForBounds(b, { padding: pad, bearing, maxZoom: 15.5 });
     if (!cam) return;
-    const target = { center: cam.center, zoom: Math.min(15.5, cam.zoom - (want3D ? 0.55 : 0)), pitch: want3D ? 50 : 0, bearing };
+    const target = { center: cam.center, zoom: Math.min(15.5, cam.zoom - (want3D ? 0.15 : 0)), pitch: want3D ? 50 : 0, bearing };
+    let tries = 0;
+    // the tilt stretches whatever is nearest the camera, so check every pin landed on screen and back off if not
+    // runs outside MapLibre's render loop, and gives up if a newer fit has started
+    const check = () => setTimeout(() => {
+      if (gen !== fitGen || tries++ > 4) return;
+      const c = map.getContainer();
+      const box = { l: pad.left ?? pad, r: c.clientWidth - (pad.right ?? pad), t: pad.top ?? pad, b: c.clientHeight - (pad.bottom ?? pad) };
+      let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+      for (const p of use) {
+        const pt = map.project([p.lng, p.lat]);
+        minX = Math.min(minX, pt.x); maxX = Math.max(maxX, pt.x); minY = Math.min(minY, pt.y); maxY = Math.max(maxY, pt.y);
+      }
+      const inside = minX >= box.l - 8 && maxX <= box.r + 8 && minY >= box.t - 8 && maxY <= box.b + 8;
+      const room = Math.min((box.r - box.l) / Math.max(1, maxX - minX), (box.b - box.t) / Math.max(1, maxY - minY));
+      if (inside && room < 1.35) return;
+      const mid = map.unproject([(minX + maxX) / 2 - ((box.l + box.r) / 2 - c.clientWidth / 2), (minY + maxY) / 2 - ((box.t + box.b) / 2 - c.clientHeight / 2)]);
+      map.once('moveend', check);
+      const dz = inside ? Math.min(1.5, Math.log2(room) * 0.8) : -0.4;
+      const next = { center: mid, zoom: Math.min(16, map.getZoom() + dz) };
+      if (reduceMotion.matches) map.jumpTo(next); else map.easeTo({ ...next, duration: 350 });
+    }, 0);
+    map.once('moveend', check);
     if (reduceMotion.matches) map.jumpTo(target); else map.easeTo({ ...target, duration: 900 });
   }
   function selectPin(id, { fly = false, card = true } = {}) {
@@ -1337,7 +1376,7 @@
     if (!mapReady) return;
     try {
       map.getStyle().layers.filter((l) => l.type === 'fill-extrusion').forEach((l) => map.setLayoutProperty(l.id, 'visibility', want3D ? 'visible' : 'none'));
-      map.setTerrain(want3D ? { source: 'bb-dem', exaggeration: 1.35 } : null);
+      map.setTerrain(want3D && !terrainDead ? { source: 'bb-dem', exaggeration: 1.35 } : null);
     } catch { /* ignore */ }
     map.easeTo({ pitch: want3D ? 55 : 0, bearing: want3D ? -18 : 0, duration: reduceMotion.matches ? 0 : 700 });
   }
