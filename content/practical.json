@@ -1,0 +1,244 @@
+[
+ {
+  "id": "taxis",
+  "title": "Taxis & ride apps",
+  "items": [
+   {
+    "title": "Regulated taxi tariff (from 1 Aug 2026)",
+    "body": "Licensed cabs: 1,300 HUF base (about £3), 521 HUF per km (about £1.20), 130 HUF per waiting minute. Airport trips add an 800 HUF surcharge, so the meter starts at 2,100 HUF. The first rise since 2023.",
+    "link": "https://xpatloop.com/channels/2026/06/taxi-fares-to-rise-in-budapest-from-1-august.html"
+   },
+   {
+    "title": "Airport to city by taxi",
+    "body": "Főtaxi runs the official rank outside Terminal 2. The flat is about 20 km away, so at the 2026 tariff expect roughly 12,000–15,000 HUF (£28–35) depending on traffic. Bolt shows the price up front.",
+    "link": "https://budappest.com/budapest-airport-just-made-getting-a-taxi-more-complicated-heres-what-to-know/"
+   },
+   {
+    "title": "Bolt",
+    "body": "The go-to app. Shows the price before you get in and works with licensed taxis. Can surge on busy Friday and Saturday nights, so order early. Big group? Book a Bolt XL or split across cars.",
+    "link": null
+   },
+   {
+    "title": "Uber and Főtaxi",
+    "body": "Uber came back in 2024 via a partnership with Főtaxi, so you get a licensed yellow cab at the regulated tariff. At the airport, follow the signs to the ride-hailing pick-up zone in the app.",
+    "link": "https://budappest.com/a-major-change-at-budapest-airport-fotaxi-and-uber-join-forces-for-smarter-travel/"
+   },
+   {
+    "title": "Flagging a cab",
+    "body": "If you must flag one, use a marked, yellow, licensed car with a visible meter, company logo and roof light. Phone numbers vary, so lean on the apps instead.",
+    "link": null
+   },
+   {
+    "title": "Scams to avoid",
+    "body": "Never get into an unmarked or touting cab (esp. outside Keleti station and clubs). FCDO says some drivers get commission for steering you to certain bars, so do not ask them where to drink. Agree the price or use the app.",
+    "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+   }
+  ]
+ },
+ {
+  "id": "transport",
+  "title": "Public transport",
+  "items": [
+   {
+    "title": "Tickets & prices",
+    "body": "Single ticket 500 HUF (about £1.20). 24-hour travelcard 2,750 HUF (about £6.50), 72-hour 5,750 HUF (about £13.50), per the 2026 BKK tariff tables. Check bkk.hu or the app before you buy.",
+    "link": "https://www.mavcsoport.hu/sites/default/files/upload/page/helykozi_menetdijtablazat_2._kiadas_ervenyes_2026_06.12-tol.pdf"
+   },
+   {
+    "title": "BudapestGO app",
+    "body": "Official BKK app for tickets, travelcards and journey planning. The 72-hour travelcard covers the whole weekend. Validate any paper ticket: inspectors check often and fines are steep.",
+    "link": "https://bkk.hu"
+   },
+   {
+    "title": "100E airport bus",
+    "body": "Direct from the airport to Kálvin tér and Deák Ferenc tér. Fare reported as 2,500 HUF (about £6), so confirm on bkk.hu. Tap a contactless card or phone on the validator by the door, or buy in the BudapestGO app.",
+    "link": "https://budapezt.com/100e-bus-budapest/"
+   },
+   {
+    "title": "Metro lines",
+    "body": "M2 (red) and M1 (yellow, little Millennium line) are handy in the centre; M3 (blue) goes to Népliget (Fradi); M4 (green) is the shiny driverless one. Metro runs about 04:30-23:00.",
+    "link": null
+   },
+   {
+    "title": "Night & 24h services",
+    "body": "Tram 6 runs all night around the Nagykörút, the big ring road a few minutes from the flat, and night buses (9xx) take over after the metro closes. Handy for getting back from the bars; watch your pockets.",
+    "link": null
+   },
+   {
+    "title": "Useful stops",
+    "body": "Deák Ferenc tér (M1, M2 and M3 meet), Kálvin tér (M3/M4), Blaha Lujza tér (M2, trams 4 and 6), Népliget (M3, for Fradi), Király utca tram stop (trams 4 and 6, by the flat).",
+    "link": null
+   }
+  ]
+ },
+ {
+  "id": "money",
+  "title": "Money",
+  "items": [
+   {
+    "title": "The forint (HUF)",
+    "body": "You pay in forints. About £1 = 425 HUF (late-summer 2026 rate), so 1,000 HUF is about £2.35 and 10,000 HUF about £23.50. Check the live rate in your banking app before you go.",
+    "link": "https://longforecast.com/gbp-huf"
+   },
+   {
+    "title": "What a beer costs",
+    "body": "Local pub: about 800–1,000 HUF a half-litre (£1.90–2.35). Tourist-area bars: roughly 1,200–2,000 HUF (£2.80–4.70). Expect more in clubs and on Váci utca. Supermarket cans are far cheaper.",
+    "link": "https://budapezt.com/budapest-beer-prices/"
+   },
+   {
+    "title": "Cards",
+    "body": "Contactless works almost everywhere, including bars, shops and the 100E bus. Carry a little cash for tips, public toilets and small cafés. A fee-free travel card saves on every purchase.",
+    "link": null
+   },
+   {
+    "title": "ATMs & DCC",
+    "body": "Skip Euronet ATMs: poor rates and high fees. Use a bank ATM (OTP, K&H, Erste). If a card machine or ATM offers to charge you in pounds, say no and pay in HUF: that 'convenient' conversion costs you extra.",
+    "link": null
+   },
+   {
+    "title": "Tipping & service charge",
+    "body": "Tip about 10% in bars and 10-15% in restaurants if service is not included. Check the bill: many places add 'szervizdíj' (service charge), often 12-15%, so do not tip twice. Tip in cash.",
+    "link": null
+   }
+  ]
+ },
+ {
+  "id": "phone",
+  "title": "Phone & data",
+  "items": [
+   {
+    "title": "UK roaming post-Brexit",
+    "body": "Free EU roaming is no longer guaranteed. Reported daily passes: EE about £2.50, Vodafone about £2.57, Three about £2, Sky £2. O2 and giffgaff reported as included within fair-use caps. Rates vary by plan, so check yours.",
+    "link": "https://www.airalo.com/blog/is-data-roaming-free-europe-uk"
+   },
+   {
+    "title": "Flying from Dublin",
+    "body": "UK networks treat the Republic of Ireland as home, so Dublin Airport is free. Hungary is not: roaming rules kick in when you land in Budapest. Check your plan before Thursday.",
+    "link": null
+   },
+   {
+    "title": "Smaller networks",
+    "body": "Tesco Mobile, iD, Lebara, Smarty and others each have their own EU roaming rules, and some newer plans now charge. Check your account or app before you fly. Networks must text you when charges start.",
+    "link": null
+   },
+   {
+    "title": "eSIM option",
+    "body": "An eSIM such as Airalo (or similar) is often cheaper than a daily roaming pass for a four-day weekend. Install it before you fly and keep data roaming off for your UK SIM.",
+    "link": "https://www.airalo.com/blog/is-data-roaming-free-europe-uk"
+   },
+   {
+    "title": "Wi-Fi",
+    "body": "Most bars, cafés and flats have free Wi-Fi. Download offline Google Maps and the BudapestGO app before leaving the airport.",
+    "link": null
+   }
+  ]
+ },
+ {
+  "id": "safety",
+  "title": "Safety & scams",
+  "items": [
+   {
+    "title": "UK FCDO travel advice",
+    "body": "Read the FCDO’s Hungary advice before you go. It covers crime, scams and entry rules, and it is what your travel insurer will expect you to have followed.",
+    "link": "https://www.gov.uk/foreign-travel-advice/hungary"
+   },
+   {
+    "title": "The bar/club bill scam (FCDO)",
+    "body": "FCDO warns some bars, clubs and restaurants charge inflated prices, and tourists have been taken to cash machines to pay. Check the priced menu and the bill. Never follow street 'invites' into a bar.",
+    "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+   },
+   {
+    "title": "The 'have a drink with us' scam",
+    "body": "Friendly strangers (often women) invite you to a bar, then a huge bill lands with heavies on the door. No priced menu on show? Walk away, and agree prices before you order.",
+    "link": null
+   },
+   {
+    "title": "Drink spiking",
+    "body": "FCDO notes reports of drink spiking in Budapest bars. Buy your own drinks, keep them in sight, do not accept drinks from strangers and look after your mates.",
+    "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+   },
+   {
+    "title": "Pickpockets",
+    "body": "Hot spots: trams 4 and 6, M1, Váci utca, Keleti station, the market hall. Phones in front pockets, wallet zipped. Never leave phones on bar tables.",
+    "link": null
+   },
+   {
+    "title": "Menu scams & fake police",
+    "body": "On Váci utca check menu prices before you order; some places charge for bread or 'live music'. Plainclothes 'police' asking to check your wallet are fake. Ask for ID and say you will go to the station.",
+    "link": null
+   }
+  ]
+ },
+ {
+  "id": "emergency",
+  "title": "Emergency",
+  "items": [
+   {
+    "title": "Numbers",
+    "body": "112 for everything (English-speaking operators). Police 107, ambulance 104, fire 105. FCDO 24/7 help line for British nationals: +44 20 7008 5000.",
+    "link": "https://www.gov.uk/world/organisations/british-embassy-budapest"
+   },
+   {
+    "title": "British Embassy Budapest",
+    "body": "Füge utca 5–7, 1022 Budapest (Buda side). For urgent help at any hour, ring the FCDO on +44 20 7008 5000; it puts you through to the embassy team. In-person visits are by appointment.",
+    "link": "https://www.gov.uk/world/organisations/british-embassy-budapest"
+   },
+   {
+    "title": "Irish passport holders",
+    "body": "If you travel on an Irish passport you can also use the Embassy of Ireland, Szabadság tér 7, 1054 Budapest, +36 1 301 4960. Out of hours, leave a voicemail or ring DFA Dublin +353 1 408 2000.",
+    "link": "https://www.ireland.ie/en/hungary/budapest/"
+   },
+   {
+    "title": "Lost your passport?",
+    "body": "Report it to the police (rendőrség) and get a written report, then contact the embassy. A UK Emergency Travel Document is applied for online and gets you home. Keep a photo of your passport.",
+    "link": "https://www.gov.uk/world/organisations/british-embassy-budapest"
+   },
+   {
+    "title": "Health cover",
+    "body": "Take your GHIC (state cover for necessary care) and travel insurance. They do not cover repatriation or everything a private clinic charges. Call 112 or 104 in an emergency.",
+    "link": null
+   },
+   {
+    "title": "24h pharmacy",
+    "body": "Look for 'éjjel-nappali gyógyszertár' (open all night) on Google Maps; there are a handful in the centre. Have paracetamol and rehydration salts ready for Saturday.",
+    "link": null
+   }
+  ]
+ },
+ {
+  "id": "plugs-and-misc",
+  "title": "Plugs & misc",
+  "items": [
+   {
+    "title": "Plugs & power",
+    "body": "Hungary is 230V, 50Hz, with Type C/F sockets (two round pins). UK and Irish Type G plugs will not fit, so pack a Type C/F adaptor. A power bank helps on long nights.",
+    "link": null
+   },
+   {
+    "title": "Time",
+    "body": "Hungary is one hour ahead of the UK and Ireland (CEST, UTC+2, until Sun 25 Oct 2026). Put your watch forward an hour when you land.",
+    "link": null
+   },
+   {
+    "title": "Passport & entry",
+    "body": "British passports: issued less than 10 years before you arrive and valid 3 months after you leave. Non-EU visitors go through the EU Entry/Exit System, so allow extra time. Irish passports just need to be valid.",
+    "link": "https://www.gov.uk/foreign-travel-advice/hungary/entry-requirements"
+   },
+   {
+    "title": "Smoking",
+    "body": "Smoking is banned in enclosed public places and within 5 m of entrances. Many bars have smoking terraces or courtyards. Expect to be asked to move.",
+    "link": null
+   },
+   {
+    "title": "Drinking age & ID",
+    "body": "Legal drinking age is 18. Carry your passport (or a photo of it), especially for match entry.",
+    "link": null
+   },
+   {
+    "title": "Weather",
+    "body": "Mid-October averages about 16°C by day and 7°C at night. Pack a jacket and a layer for late nights, plus a small brolly. The app’s forecast updates as the trip gets closer.",
+    "link": null
+   }
+  ]
+ }
+]

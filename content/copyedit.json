@@ -1,0 +1,469 @@
+{
+ "_readme": "Copy-edited text fields (Oct 2026). Applied on top of content/research/*.json.",
+ "patch": {
+  "old-mans-music-pub": {
+   "hours": "Live music about 21:00–23:00 nightly, then DJ till late. Check before you go."
+  },
+  "lampas": {
+   "hours": "Wed 20:00–02:00 · Thu–Sat 20:00–04:00 · Sun–Tue closed"
+  },
+  "blastbeat-bar": {
+   "tip": "Cash-friendly dive with a grungy reputation on hygiene, so keep expectations low. The pin is approximate; check Maps."
+  },
+  "durer-kert": {
+   "hours": "Varies by gig; check the programme. 18+ after 23:00."
+  },
+  "akvarium-klub": {
+   "tip": "Had a renovation and summer-closure scare in 2026, plus a programme shift. October shows are listed, but check akvariumklub.hu before you go."
+  },
+  "backstage-pub": {
+   "hours": "Thu from 19:00 · Fri–Sat 19:00–04:00 · Sun–Wed closed"
+  },
+  "robot-club": {
+   "tip": "Reportedly reopened in 2017. Check it's still running before you go."
+  },
+  "szimpla-kert": {
+   "hours": "Mon–Fri 15:00–04:00 · Sat 12:00–04:00 · Sun 09:00–04:00"
+  },
+  "instant-fogas": {
+   "hours": "Wed–Sat 22:00–06:00; free before midnight. Some guides say nightly. Check before you go.",
+   "blurb": "Huge party complex: about 18 bars, 7 dancefloors, garden, loads of genres under one roof. This is where the weekend ends at 5am."
+  },
+  "koleves-kert": {
+   "hours": "Garden season Apr–Oct · Mon closed · Evening hours: check before you go.",
+   "tip": "Seasonal and weather-dependent, so check Facebook that it's open this late in the season."
+  },
+  "csendes-letterem": {
+   "hours": "Mon–Sat 14:00–00:00 · Sun 15:00–00:00"
+  },
+  "ankert": {
+   "tip": "Unclear whether it's open in October, so check before you go. Pin is approximate."
+  },
+  "doboz": {
+   "hours": "Wed–Sat 18:00–06:00. Check before you go.",
+   "tip": "18+ with ID. Entry may include a drink on ticketed nights."
+  },
+  "ellato-kert": {
+   "hours": "Daily 12:00–04:00. Check before you go.",
+   "tip": "It closed in 2019 and reopened later. Check it's open before you head over."
+  },
+  "hotsy-totsy": {
+   "hours": "Sun–Wed 18:00–00:00 · Thu–Sat 18:00–02:00",
+   "tip": "Walk-in seating only: arrive early Thu–Sat. Cocktails about 3,500–5,000 HUF."
+  },
+  "the-magic-budapest": {
+   "hours": "Mon–Fri 11:00–22:00 · Sat–Sun 10:00–22:00. Check before you go."
+  },
+  "boutiq-bar": {
+   "tip": "Mixed drinks about €12–16. Book ahead for Fri and Sat. Check the address before you go."
+  },
+  "high-note-skybar": {
+   "hours": "Mon–Thu 16:00–00:00 · Fri–Sun 14:00–00:00. Check before you go.",
+   "tip": "Smart casual, no gym wear or flip-flops. Cocktails about 5,900–6,200 HUF. Book a sunset table."
+  },
+  "360-bar": {
+   "hours": "Mon–Wed, Sun 14:00–00:00 · Thu–Sat 14:00–02:00",
+   "tip": "Discreet street door, take the lift to the 6th floor. Small cover of about 1,000 HUF Thu–Sun."
+  },
+  "elesztohaz": {
+   "blurb": "Huge craft beer house with dozens of Hungarian taps in Ferencváros. Beer geek heaven with no pretension.",
+   "tip": "Check it's open on your night before you go. It's out of the Jewish Quarter, so tram or metro."
+  },
+  "champs-sports-pub": {
+   "hours": "Opens around noon and runs late. Check match days.",
+   "tip": "Pin is approximate (street only). Check which matches are on over 17–18 Oct."
+  },
+  "jack-doyles-irish-pub": {
+   "hours": "Mon closed · Tue–Thu 17:00–23:30 · Fri–Sat mid-afternoon to about 01:00 · Sun until 23:00. Check match days before you go.",
+   "tip": "Tiny and fills up early, so book a table for any kick-off or you'll be watching through a gap in someone's shoulders."
+  },
+  "stifler-sport-bar": {
+   "hours": "Daily about 13:00–05:00 · Pool and games room until about 23:00. Check before you go.",
+   "blurb": "27 telly screens, a pool and games den in the basement, and kitchen-sink American bar vibes until the small hours. Loud, daft and exactly where the lads end up at 2am."
+  },
+  "becketts-irish-bar": {
+   "hours": "Mon–Wed 11:30–00:00 · Thu 11:30–01:00 · Fri–Sat 11:30–02:00 · Sun 12:00–01:00. Check match days.",
+   "tip": "The square's terraces get lively, but it's pricier than the Jewish Quarter dives. Go for the match, then roll on to cheaper rounds."
+  },
+  "ziccer-trollfoci-sport-pub": {
+   "hours": "Mon–Thu, Sun 16:00–00:00 · Fri–Sat 16:00–01:00. Check Facebook for match days before you go.",
+   "tip": "Rammed on big match nights, so arrive early for a spot. Check Facebook for which games they are showing.",
+   "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local: bring your best 'Hajrá Magyarok'."
+  },
+  "hopaholic": {
+   "hours": "Mon–Sat 16:00–00:00 · Sun closed. Thu–Sat may run to 02:00. Check before you go.",
+   "tip": "Check the chalkboard before ordering: the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint."
+  },
+  "madhouse-by-mad-scientist": {
+   "hours": "Last known: Thu–Sun, with DJ nights Thu and Sat. Check madhousebudapest.hu before you go.",
+   "tip": "Thursday and Saturday are the DJ nights: turn up for the beer, stay for the tunes. Confirm it's open before trekking over."
+  },
+  "first-craft-beer-bbq": {
+   "hours": "Most days until about 01:00–02:00. Check before you go.",
+   "tip": "Book via their reservation page for groups. Their original taproom is out on Váci út (district XIII/IV border). Skip it; this one's central."
+  },
+  "csak-a-jo-sor": {
+   "hours": "Mon–Sat 14:00–22:00 · Sun closed. Some listings say it closes at 19:00. Check before you go.",
+   "tip": "Closes early (about 22:00) and shuts Sundays: a warm-up stop before Hopaholic. Check hours by phone: +36 1 798 0036."
+  },
+  "leo-rooftop": {
+   "hours": "Daily 12:00–00:00 · Kitchen until 22:00 · Last order 23:00. Tables in two-hour slots.",
+   "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the pretty photos before the football gets going.",
+   "tip": "Book a table on OpenTable (two-hour slots, cocktails about 6,700–7,500 HUF) and aim for sunset. Smart casual: leave the club shirts at the hotel."
+  },
+  "st-andrea-wine-skybar": {
+   "hours": "Daily 15:00–00:00 · Kitchen until 23:00 · Last entry 23:00",
+   "tip": "Groups of 8+ face a 15,000 HUF per person minimum spend, so split into smaller tables or ask first. Book ahead on weekend evenings."
+  },
+  "warm-up-cocktail-bar": {
+   "hours": "Mon–Wed, Sun 18:00–00:00 · Thu 18:00–01:00 · Fri–Sat 18:00–03:00. Check before you go.",
+   "blurb": "Small, dark Jewish Quarter cocktail den built around Hungarian spirits like pálinka and Unicum. Ask for a surprise: no menu needed, just a firm handshake with the bartender.",
+   "tip": "Book on Instagram/Facebook for weekends; walk-ins often queue. Budget about 3,500–5,000 HUF per cocktail."
+  },
+  "otkert": {
+   "hours": "Thu–Sat 23:00–05:00. Some listings say Friday starts at 23:59. Check before you go."
+  },
+  "toldi-klub": {
+   "hours": "Sat 14:00–06:00: cinema by day, club night from 23:00. Check the programme for Thu and Fri.",
+   "tip": "Check the event calendar: club nights aren't nightly. Saturday is the safest bet. Bring cash for the cloakroom."
+  },
+  "shoes-on-the-danube": {
+   "blurb": "60 pairs of rusting cast-iron shoes along the water's edge. Quiet, moving, quick: don't be loud here."
+  },
+  "gellert-baths": {
+   "blurb": "The Art Nouveau icon with stained glass and the wave pool, but closed until at least 2028. Pick Rudas or Széchenyi instead.",
+   "priceText": "Closed. No tickets in 2026.",
+   "hours": "Closed since 1 Oct 2025 for a major renovation. Reopening targeted for 2028 (some guides say late 2028–early 2029). Don't plan around it.",
+   "history": "Opened 1918 as part of the Gellért Hotel, which was damaged in WWII. The renovation (reported at about 20bn HUF) is meant to add a panoramic sunbathing terrace and a wellness area."
+  },
+  "lukacs-baths": {
+   "blurb": "The locals' favourite: old-school, a bit scruffy, good thermal pools and a drinking hall, with a famous wall of marble thank-you plaques.",
+   "priceText": "Day ticket 7,000 HUF Mon–Thu; 8,000 HUF Fri–Sun; online complex ticket 8,900 HUF.",
+   "hours": "Daily 07:00–19:00 (some say 06:00–20:00); ticket desk closes an hour before closing. Check lukacsfurdo.hu before you go.",
+   "tip": "Good low-key alternative if Széchenyi is rammed. Bring a towel and cash or card."
+  },
+  "for-sale-pub": {
+   "blurb": "The post-it note bar: every inch of wall and ceiling covered in visitors' handwritten notes, straw and peanut shells on the floor. Grab a pen, leave your mark, drink. Opposite the Great Market Hall."
+  },
+  "menza": {
+   "hours": "Daily about 11:00–23:00 (kitchen until about 22:30). Open late Thu–Sat and for Sunday lunch. Check before you go.",
+   "tip": "Hortobágyi palacsinta (savoury pancakes in veal paprikash). Book ahead for Fri and Sat dinner for 6+."
+  },
+  "cafe-kor": {
+   "hours": "Mon–Sat opens between 10:00 and 12:00, closes 22:00 · Sun closed. Check before you go."
+  },
+  "kispiac-bisztro": {
+   "hours": "Mon–Sat about 12:00–22:00 · Sun closed. Monday may also be closed. Check before you go."
+  },
+  "frici-papa": {
+   "hours": "About 11:00–23:00 (kitchen may stop earlier) · Sun closed · No bookings. Check before you go.",
+   "tip": "Daily menu under about 3,000 HUF: főzelék or pörkölt with nokedli. Cash preferred; no booking."
+  },
+  "getto-gulyas": {
+   "hours": "No walk-ins after 19:00, so reserve. Small room. Check opening hours before you go."
+  },
+  "hungarikum-bisztro": {
+   "hours": "Daily about 12:00–14:30 and 18:00–22:00. Online reservation recommended. Check before you go."
+  },
+  "porc-es-prezli": {
+   "hours": "Busiest on Saturday evening. Check Google Maps for current opening hours before you go."
+  },
+  "kehli-vendeglo": {
+   "hours": "Mon–Fri 12:00–22:00 · Sat 12:00–22:30 · Sun 12:00–21:00. Good for Sunday lunch. Check before you go."
+  },
+  "koleves-vendeglo": {
+   "hours": "Daily about 11:30–23:00 · Weekday lunch menu until 16:00. Check before you go."
+  },
+  "fulemule": {
+   "hours": "Check opening hours before you go."
+  },
+  "mazel-tov": {
+   "hours": "Mon–Fri 12:00–23:00 · Sat–Sun 10:30–00:00. Open late Thu–Sat; Sunday brunch and lunch available.",
+   "tip": "Shakshuka for brunch, mezze to share. Book a week ahead for weekends. Card issues have been reported, so bring cash as backup."
+  },
+  "stand25-bisztro": {
+   "hours": "Mon–Sat 12:00–16:00 and 17:30–00:00 · Sun closed. Last listed in the Michelin guide for 2024/25. Check before you go.",
+   "tip": "Go for the Hungarian classics as tasting-style plates. Book ahead."
+  },
+  "stand": {
+   "hours": "Tue–Sat 18:00–00:00 · Sun–Mon closed",
+   "tip": "Tasting menu only. Bookings open about 60 days ahead on SevenRooms and tables are held for 20 minutes. Probably sold out by now, so try cancellations."
+  },
+  "borkonyha": {
+   "hours": "Mon–Fri from 18:00 · Sat 12:00–00:00 · Sun closed",
+   "tip": "Tasting menu over à la carte. Book online 2–4 weeks ahead for weekends; try for a Sat lunch slot at short notice."
+  },
+  "rumour": {
+   "hours": "Tue–Sat 17:00–23:00 · Sun–Mon closed · Counter seating, 21 seats",
+   "blurb": "Michelin-starred 21-seat chef’s counter hidden behind an unmarked door. Eleven courses of modern Hungarian with theatre.",
+   "tip": "Eleven-course counter tasting (about 60,000–85,000 HUF). Book about 3 weeks ahead; arrive early."
+  },
+  "costes": {
+   "hours": "Wed–Sun evenings about 18:30–00:00 · Mon–Tue closed. Check before you go.",
+   "tip": "Tasting menu. Phone line takes bookings daily 09:00–23:30. Book now, weekends fill fast."
+  },
+  "babel": {
+   "hours": "Tue–Fri 17:30–00:00 · Sat 12:00–15:00 and evening · Sun–Mon closed"
+  },
+  "bors-gasztrobar": {
+   "hours": "Mon–Thu, Sun about 11:30–21:00 · Fri–Sat until 22:00. Expect a queue at lunch. Check before you go."
+  },
+  "zing-burger": {
+   "hours": "Karaván courtyard branch: daily 11:30–23:59, possibly to 01:00 Thu–Sat. Other branches stay open longer. Check before you go."
+  },
+  "pampas-steakhouse": {
+   "hours": "Daily from about 12:00 · Closes 22:00 Mon–Wed and Sun, 23:00 Thu–Sat. Book for Saturday night. Check before you go.",
+   "blurb": "Argentine-style steakhouse, glossy and meaty. Dozen-plus premium cuts, big wine list. OpenTable rating 4.6–4.8 from around 550–600 reviews.",
+   "tip": "Choose your cut from the trolley and share sides. Book via OpenTable; mains from about €50."
+  },
+  "belli-di-mamma": {
+   "hours": "Mon–Thu 17:00–23:00 · Fri–Sun 12:00–23:00. Check before you go.",
+   "tip": "Order a margherita first and judge them on that. Pies about 3,700–6,300 HUF. Book for 6+."
+  },
+  "bp-barbq": {
+   "hours": "Daily 11:00–00:00 at the previous site. Moved to this address on 6 Oct 2026. Check before you go.",
+   "tip": "Brisket sandwich or a ribs platter to share. It's a new site, so check the Google Maps pin."
+  },
+  "retro-langos": {
+   "hours": "Daily about 11:00–22:00 (one source says from 09:00). Check before you go."
+  },
+  "karavan": {
+   "hours": "Daily 11:30–23:59, possibly to 01:00 Thu–Sat. Check before you go."
+  },
+  "szimply": {
+   "hours": "Mon–Sat about 09:00–16:00 (one source says an 08:00 start) · Sun closed. Check before you go."
+  },
+  "szimpla-farmers-market": {
+   "hours": "Sun only: Szimpla opens about 09:00. Farmers market about 09:00–14:00 (may run to 15:00). Check before you go.",
+   "tip": "Browse the stalls, then grab brunch upstairs. The finishing time varies."
+  },
+  "great-market-hall": {
+   "hours": "Mon–Fri 06:00–18:00 · Sat 06:00–16:00 · Sun usually closed (one recent guide says 10:00–16:00). Check before you go."
+  },
+  "hold-street-market": {
+   "hours": "Mon 06:30–17:00 · Tue–Fri 06:30–18:00 · Sat 06:30–14:00 (some say 16:00) · Sun closed. Check before you go.",
+   "tip": "Browse for lunch on Saturday morning. Google Maps has shown it as temporarily closed, so check first."
+  },
+  "kelet-kavezo": {
+   "hours": "Mon–Fri about 07:30–22:00 or 23:00 · Sat–Sun about 09:00–22:00 or 23:00. Check before you go.",
+   "tip": "Order and pay at the counter. Try the savoury brunch plate and a filter coffee. Best on Sat or Sun mornings after 09:00."
+  },
+  "molnars-kurtoskalacs": {
+   "hours": "Daily about 10:00–22:00. Check before you go."
+  },
+  "gerbeaud": {
+   "hours": "Daily about 09:00–20:00 · Fri–Sat to 21:00. Open all weekend. Check before you go.",
+   "tip": "Dobos torta or Somlói galuska. May add a 15% service charge. Skip the queue and sit inside."
+  },
+  "hungarian-parliament": {
+   "priceText": "About 7,000 HUF per adult with an EU/EEA passport (Irish passport); about 14,000 HUF with a non-EU passport (British passport). Bring passports. Resale sites charge more.",
+   "hours": "English tours run daily in time slots, roughly 08:00–18:00 in season. Restricted when Parliament is sitting. Check the booking page for Sat 17 and Sun 18 Oct slots.",
+   "blurb": "The postcard shot of Budapest. Gothic Revival wedding cake with 691 rooms, miles of gold leaf and the actual Crown of St Stephen under the dome. Book ahead or miss out.",
+   "tip": "Tours sell out 1–3 weeks ahead and walk-ups can be refused on sitting days. Book now on the official ticket page; best selfie is from the Buda bank at night.",
+   "history": "Built 1885–1904, modelled partly on Westminster. Architect Imre Steindl reportedly went blind before it was finished and died before completion. Millions of bricks, around 40kg of gold leaf, and exactly 96m tall to nod to the 896 Magyar conquest."
+  },
+  "buda-castle": {
+   "priceText": "Courtyards and terraces free. The Hungarian National Gallery and Budapest History Museum charge separately; check prices before you go.",
+   "hours": "Grounds open all day, free · Museums typically Tue–Sun daytime, Mon closed. Check each museum for 17 and 18 Oct.",
+   "history": "Home to kings since the 13th century, trashed by the Ottomans in 1686 and by the Red Army and Wehrmacht in the 1944–45 siege. The communists rebuilt it in a stripped-down Baroque, then archaeologists dug up medieval bits underneath. Layers upon layers."
+  },
+  "fishermans-bastion": {
+   "priceText": "Lower terraces free. Upper tower walkways about 1,700 HUF per adult, reportedly free early morning and evening.",
+   "hours": "Lower terraces free 24/7. Upper walkway ticket kiosk open in the daytime only. No pre-booking. Check exact hours before you go.",
+   "blurb": "Seven white fairytale turrets with the best Danube-and-Parliament panorama going. Looks medieval, is actually 1890s Disney.",
+   "history": "Not a fortress at all: built 1895–1902 by Frigyes Schulek as a decorative viewing terrace for the 1896 Millennium. Seven towers represent the seven Magyar tribes. The fishermen of the name guarded this stretch of the medieval wall, or sold fish at the foot of the hill, depending who you ask."
+  },
+  "matthias-church": {
+   "priceText": "Admission roughly 1,800–3,100 HUF, though prices may have changed. The tower is a separate ticket. Check the official site before you go.",
+   "hours": "1 Apr–31 Oct: Mon–Fri 09:00–17:00 · Sat 09:00–12:00 · Sun 13:00–17:00. So Sat 17 Oct is 09:00–12:00; Sun 18 Oct only from 13:00 (you'll have left). Closed for services and events."
+  },
+  "hospital-in-the-rock": {
+   "priceText": "Guided tour only, about €24–30. A €100 price you may see online is a bundled walking tour. Check the booking page before you go.",
+   "hours": "Daily 10:00–19:00 (last tour about 18:00) · Some public holidays closed · Guided tours only",
+   "history": "Carved out of natural caves under Buda Castle for WWII, it treated hundreds during the 1944–45 siege and the 1956 uprising. In the 1950s it was converted into a secret nuclear-war bunker, kept classified until 2002. The museum opened in 2008."
+  },
+  "house-of-terror": {
+   "priceText": "Listed at 2,000 HUF plus 500 HUF for the permanent exhibition; one 2026 blog says about 4,000 HUF per adult. Check before you go.",
+   "hours": "Tue–Sun 10:00–18:00 · Mon closed. Open both Sat 17 and Sun 18 Oct."
+  },
+  "memento-park": {
+   "priceText": "Adult 3,000 HUF · students 1,800 HUF · under 6 free · Budapest Card free",
+   "hours": "Daily May–Oct 10:00–18:00 (one source says 17:00). Open Sat 17 and Sun 18 Oct, but it's out in District XXII: allow 3–4 hours return. Check before you go.",
+   "tip": "Bus 150 from Kelenföld station (M4 line). A Sunday-morning visit conflicts with your 13:30 airport run, so do it Saturday.",
+   "history": "After 1989 the city shipped about 42 monumental statues out to this site on the edge of town, opened 1993. Star exhibit: a replica of Stalin's 8m statue boots on a tribune, since the original was toppled in the 1956 uprising, leaving only the boots on the plinth."
+  },
+  "dohany-synagogue": {
+   "priceText": "About 8,500–14,500 HUF per adult (the most recent guide says 14,500 HUF); fast-track online about 9,051 HUF. Check before you go.",
+   "hours": "Sun–Thu 10:00–16:00 except Mon · Fri 10:00–14:00 · Sat closed (Sabbath). So Sat 17 Oct closed; Sun 18 Oct 10:00–16:00, last ticket an hour earlier.",
+   "tip": "Closed Saturday: go Sunday morning (10:00 prompt) or just admire the outside. Cover shoulders; men may need a head covering.",
+   "history": "Built 1854–59 in Moorish style by Ludwig Förster, with an organ that Franz Liszt reportedly played at the inauguration. During WWII it sat inside the Pest ghetto; the Tree of Life weeping-willow memorial in the garden carries victims' names on its leaves."
+  },
+  "st-stephens-basilica": {
+   "priceText": "Church tour about 9,455 HUF adult; extended tour with dome terrace and treasury about 15,122 HUF.",
+   "hours": "Church interior: Mon–Fri about 09:00–17:00 · Sat about 09:00–13:00 · Sun from 13:00. Dome terrace daily about 09:00–19:00 (last sale 18:30). Check before you go.",
+   "history": "Took 54 years (1851–1905) after the dome collapsed mid-build in 1868 and had to be rebuilt. At 96m it's exactly as tall as Parliament: neither is allowed to be taller. Inside is Hungary's holiest relic, the mummified right hand of King St Stephen."
+  },
+  "gellert-hill-citadella": {
+   "priceText": "Park and terraces free. The new 'Bastion of Freedom' exhibition is about 4,900 HUF per adult.",
+   "hours": "Hill and park open daily from morning. The Citadella reopened in spring 2026 (delayed to 5 Apr by wind). Evening views are best.",
+   "tip": "Walk up from Liberty Bridge or Elizabeth Bridge (about 30 minutes), or take bus 27 most of the way. Sunset is just before 18:00: go up before your Saturday night out."
+  },
+  "chain-bridge": {
+   "hours": "Pedestrian access 24/7. Renovation of the bridge deck was completed around 2022–2023.",
+   "history": "Opened 1849 as Budapest's first permanent Danube bridge, designed by Englishman William Tierney Clark. Blown up by retreating Germans in 1945 and rebuilt in 1949. The lions supposedly lack tongues. A myth: they have them, just hidden from below."
+  },
+  "millennium-underground-m1": {
+   "priceText": "Standard BKK ticket. Check the current price before you go.",
+   "hours": "Trains daily from early morning to about 23:00. Museum hours unknown. Check before you go.",
+   "blurb": "Tiny yellow 1890s trains running just under the surface of Andrássy út. Quaint, ancient and still in service.",
+   "tip": "Ride it from Deák tér to Hősök tere and back: 11 stops, about 12 minutes, rich period tile detailing.",
+   "history": "Opened in 1896 for the Millennium celebrations, it's the second-oldest underground railway in the world after London's (1863), and the first on continental Europe. It was dug just under the pavement using cut-and-cover. Still rattling after 130 years."
+  },
+  "vajdahunyad-castle": {
+   "priceText": "Grounds free. The Agricultural Museum inside has a separate ticket; check the price before you go.",
+   "hours": "Grounds open 24/7 (park). Agricultural Museum Tue–Sun daytime. Check before you go.",
+   "history": "Built for the 1896 Millennium Exhibition in cardboard and timber as a 'greatest hits' of Hungarian architecture: Romanesque, Gothic, Renaissance, Baroque. It proved so popular it was rebuilt in stone and brick in 1904–08. Now it houses an agricultural museum."
+  },
+  "hungarian-state-opera": {
+   "priceText": "English guided tour about 12,000 HUF. The cheapest seat for a performance costs less than the tour.",
+   "hours": "English tours reportedly daily at 13:30, 15:00 and 16:30; weekend times may differ. Evening performances vary, so check the programme."
+  },
+  "andrassy-ut": {
+   "hours": "Street, open 24/7; shops and cafés on regular hours.",
+   "blurb": "Budapest's Champs-Élysées: a UNESCO-listed boulevard of mansions, Opera, fashion shops and cafés. Great for the Sunday-morning stroll."
+  },
+  "margaret-island": {
+   "priceText": "Free entry. Bike hire about 1,500–2,500 HUF per hour; four-person pedal carts (bringóhintó) about 3,000–5,000 HUF per hour (estimates).",
+   "hours": "Park open 24/7. Musical Fountain runs to 31 Oct, daily 10:00–22:00 with a 21:00 grand finale. Rental hours vary. Check before you go."
+  },
+  "buda-castle-labyrinth": {
+   "priceText": "About 3,000 HUF per adult (some listings say €13).",
+   "hours": "Daily 10:00–19:30 (some listings say 11:00–18:30). One listing shows it as currently closed. Check before you go.",
+   "tip": "Bring a jacket; it's chilly. Combine with Hospital in the Rock. Check it's open before you go."
+  },
+  "cave-church": {
+   "priceText": "About 1,400 HUF per adult, including audioguide.",
+   "hours": "Mon–Sat about 09:30–19:30 · Sun closed. Closed to tourists during Mass. Monday closing time may differ. Check before you go.",
+   "tip": "Closed Sunday: go on Saturday on your way up to the Citadella. Cover your shoulders.",
+   "history": "Dug into the hill's rock by Pauline monks and consecrated in 1931. The communists bricked it up in 1951, imprisoned the monks, and hid the entrance. It was reopened to the public in 1989."
+  },
+  "szechenyi-baths": {
+   "priceText": "Locker ticket about 14,800 HUF Fri–Sun (13,200 Mon–Thu; 15,800 peak days). Cabin about 1,000 HUF extra. Fast Track online 16,800 HUF at weekends. Towels: bring your own or buy from about 6,900 HUF.",
+   "hours": "Mon–Fri 07:00–20:00 · Sat–Sun 08:00–20:00. Sparty runs here on Sat 17 Oct night (see Sparty).",
+   "history": "Opened 1913 in neo-Baroque style, drawing from two thermal springs (74°C and 77°C). Named after Count István Széchenyi, who also championed the Chain Bridge. The outdoor chess boards are a ritual, and locals reportedly take them very seriously."
+  },
+  "rudas-baths": {
+   "priceText": "All-zone day ticket 15,000 HUF Fri–Sun (12,000 Mon–Thu; 16,000 holidays). Night bathing Fri and Sat 15,000 HUF, online only.",
+   "hours": "Wellness zone and rooftop roughly 06:00–20:00 Tue–Sun. Night bathing Fri and Sat 22:00–03:00. Weekends are mixed; swimsuit required. The Sat 17 Oct night session applies. Check before you go.",
+   "blurb": "A 16th-century Ottoman dome with 36–40°C pools, plus a rooftop jacuzzi with a Danube view. Go late on a Saturday night: dark, steamy, atmospheric."
+  },
+  "dandar-baths": {
+   "priceText": "Adult about 3,500 HUF weekdays, 4,000 HUF weekends (earlier figures). Weekend prices have reportedly risen sharply in 2026. Check before you go.",
+   "hours": "Opens about 09:00 daily; closing time unknown. Reduced prices reported during ongoing renovation. Check before you go.",
+   "blurb": "Budget locals' bath next to the Unicum factory. No-frills indoor pool, quiet and cheap enough to tick the thermal box if Széchenyi's rammed."
+  },
+  "veli-bej-bath": {
+   "priceText": "About 5,700–7,200 HUF; 3-hour sessions only. Pay at the door; no online booking.",
+   "hours": "Reportedly reopened Sat 5 Sep 2026 after summer maintenance. Strict 14+ policy. Check before you go.",
+   "tip": "No online booking: just turn up. Swim trunks; follow house rules (no loud banter)."
+  },
+  "kiraly-baths": {
+   "priceText": "Closed",
+   "hours": "Closed for restoration since 2019 or 2020; no reopening date published as of 2026.",
+   "tip": "Closed: choose Rudas for an Ottoman-bath experience instead."
+  },
+  "sparty-szechenyi": {
+   "priceText": "Basic ticket with locker 25,375 HUF (about €65). Premium with locker, four drinks coupons and 19:00 warm-up 31,621 HUF (about €81). One source says €59.",
+   "tip": "Book immediately. Bring a waterproof phone pouch. Only outdoor pools are open."
+  },
+  "pinball-museum": {
+   "priceText": "5,500 HUF adult (4,000 under-26 and over-62), with unlimited free play on all machines.",
+   "hours": "Wed–Fri 16:00–00:00 · Sat 13:00–00:00 · Sun 11:00–22:00 · Mon–Tue closed"
+  },
+  "churchill-shooting-range": {
+   "priceText": "Packages from about £70 to £235 per person (Expedia lists them in US dollars: basic about $96, Hollywood about $121 with AK-47, Gamer about $191, All-In about $314).",
+   "hours": "Pre-booking required. Transport to the venue is not included. Check times for 17 and 18 Oct before you go.",
+   "tip": "Book a package in advance; bring ID. The pin here is approximate, so check the address on your booking."
+  },
+  "e-exit-escape-room": {
+   "priceText": "Secret Subway (75 min), per person: 12,000 HUF for 2 players, 7,000 HUF for 4, 6,000 HUF for 6. Max 6 per room.",
+   "hours": "Timeslots vary. Pre-book. Check times for 17 and 18 Oct before you go.",
+   "tip": "Split into two teams of 4–6 and compete. MystIQueRoom (Districts V/XIII) is another option at about 5,990 HUF per person for six."
+  },
+  "balta-axe-throwing": {
+   "priceText": "About £18–21 per person for 60–90 minutes (Expedia lists about $24–28).",
+   "hours": "Book via the website, or by phone within 24 hours. Check times for 17 and 18 Oct before you go.",
+   "blurb": "Beer in one hand, axe in the other, in a controlled lane. Sets of throws with a coach. Easy, loud, brilliant."
+  },
+  "prosecco-danube-cruise": {
+   "priceText": "About £22 per person for the 75-minute unlimited prosecco cruise (listed at about $29); simpler evening cruises from about £13–16.",
+   "hours": "Daily day and evening departures. Book online. Check Sat 17 Oct times before you go."
+  },
+  "beerbus-budapest": {
+   "priceText": "About £22 per person for 60 minutes, £31 for 90 minutes (listed at about $29 and $41).",
+   "hours": "Tours depart daily in season. Check times for 17 and 18 Oct before you go.",
+   "blurb": "Pedal-powered beer bikes are reportedly banned in the city, so the electric BeerBus carries the beer instead. A sightseeing pub-on-wheels."
+  },
+  "palvolgyi-cave": {
+   "hours": "Tue–Sun, tours at quarter past each hour from 10:15, last tour 16:15 · Mon closed",
+   "tip": "Take bus 65 from Kolosy tér. Adventure caving (about €50) is a tougher option."
+  },
+  "budapest-eye": {
+   "priceText": "4,900 HUF standard (age 12+); priority 6,900 HUF; priority with sparkling wine 8,900 HUF.",
+   "hours": "Daily 11:00–23:00 · Fri–Sat to 00:00 · Open all year",
+   "tip": "Free views from Gellért Hill and the Bastion beat it: go only if you're doing the bar crawl nearby."
+  },
+  "communist-free-walking-tour": {
+   "priceText": "Pay what you wish (tip-based); minimum of 2 people.",
+   "hours": "Schedule varies by day. Check the booking page for a Sunday-morning departure before you go.",
+   "tip": "Book via Guruwalk/Free Walking Tour; tip the guide properly (about 3,000–5,000 HUF each)."
+  },
+  "ecseri-flea-market": {
+   "priceText": "Free entry. Prices are up for haggling.",
+   "hours": "Sat from about 05:00 or 06:00 to 15:00 · Sun 08:00–13:00. Far out in District XIX. Check before you go."
+  },
+  "tank-driving": {
+   "priceText": "Pricey: about £550 per person for the armoured-carrier rides and about £1,000 for a T-55 (Expedia lists AU$1,117 and AU$2,102).",
+   "hours": "Pre-booking only. Check times for 17 and 18 Oct before you go.",
+   "blurb": "Drive a real Soviet-era tank across a field. Silly money, silly fun, proper stag-do energy.",
+   "tip": "Book well ahead. The pin is approximate, so confirm the location with the operator."
+  },
+  "zugliget-chairlift": {
+   "priceText": "One-way 3,000 HUF adult; return 4,000 HUF. Budapest Card free.",
+   "hours": "Closed for maintenance 28 Sep–16 Oct 2026; reopens Sat 17 Oct with reduced hours 10:00–17:00 (26–31 Oct 10:00–16:00). Weather-dependent.",
+   "tip": "Reopens Sat 17 Oct after maintenance. Check bkk.hu for weather closures before heading out."
+  },
+  "childrens-railway": {
+   "priceText": "Around 1,000 HUF adult single leg; 500 HUF child. Check before you go.",
+   "hours": "Runs most days; Mon closed Sep–Apr. Timetable for 17 and 18 Oct unknown. Check before you go."
+  },
+  "palinka-museum": {
+   "priceText": "Entry about €10 (£9); tasting packages about €24–45 depending on how many pálinkas. Third-party prices, so check at the door.",
+   "hours": "Daily 14:00–00:00 · Last tour two hours before closing · 18+",
+   "tip": "Go for the 6 or 8 tasting option as a group; designate a navigator for Saturday night."
+  },
+  "puskas-arena-tour": {
+   "priceText": "Combined museum and stadium tour 6,900 HUF adult (4,500 discounted); stadium tour alone 4,000 HUF. Prices from July 2025; check before you go.",
+   "hours": "Stadium tours 11:00, 13:30, 15:00 · Museum tours 12:00, 13:30. Tours were Hungarian-only in 2025. Matchday closures possible.",
+   "tip": "Check English-language availability and match-day closures before you head out."
+  },
+  "fradi-plzen": {
+   "blurb": "Thursday-night European football in Budapest: Fradi’s green-and-white ultras against the Czech side. The sides drew 1–1 here in Sept 2025, with a 94th-minute Fradi equaliser. Expect noise.",
+   "tip": "Kick-off is 21:00 Budapest time (20:00 home time). Aim to be through security by 20:15. Pre-match pints on Ráday utca near Kálvin tér, then the M3.",
+   "rules": "Take your passport: Hungarian stadium entry can check the ticket name against ID. That's confirmed for Hungary internationals but not for Fradi league-phase games, so check before you go. No pyro, glass or weapons. A Fradi fan card is normally needed to buy tickets; yours are already booked.",
+   "getThere": "M3 (blue) to Népliget: the stadium is right next to the station, a few minutes' walk. About 10–12 min from Deák Ferenc tér or Kálvin tér (no changes). Bolt from District VII is about 10–15 min if the M3 is rammed.",
+   "notes": "Kick-off 21:00 Budapest time (20:00 home time) per UEFA's fixture list. Gates-open time not announced yet. Check before you go."
+  },
+  "karting-hungaroring": {
+   "tip": "Leave the centre by 10:30 in two Bolts (or one minibus) to arrive about 11:30, allowing for Friday traffic and check-in. Eat first: it's miles from a kebab.",
+   "rules": "Wear closed shoes (trainers). Venues will refuse anyone who has been drinking. Helmets are normally provided. Check before you go. Site prices are in HUF plus 27% VAT.",
+   "getThere": "Easiest: Bolt or taxi, about 25–35 min and 20–25 km via the M3. Cheap but slow: M2 to Örs vezér tere, HÉV H8 to Szilasliget or Mogyoród, then a 2.5 km (35–40 min) walk. Not recommended in a hurry.",
+   "notes": "Booked for 12:00. The venue is inside the Hungaroring grounds and runs on a temporary track during the circuit's renovation. A taxi from the centre is about 12,000–14,000 HUF."
+  },
+  "mtk-vasas": {
+   "rules": "Bring passport or photo ID to be safe. Expect bag checks and light beer only. Check bag, pyro and alcohol rules before you go.",
+   "getThere": "Tram stop 'Hidegkuti Nándor Stadion' is about 130 m away (tram 37/37A listed). Roughly 15–25 min from the centre by tram or metro; Bolt about 10–15 min. Check BKK Futár or Google Maps for the live route.",
+   "notes": "Booked: Friday 16 Oct, gates from 18:00, kick-off 19:00 Budapest time (18:00 home time)."
+  }
+ }
+}

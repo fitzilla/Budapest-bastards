@@ -162,10 +162,10 @@ window.BB_DATA = {
     "g": null,
     "gN": null
    },
-   "blurb": "Thursday-night European football in Budapest: Fradi's green-and-white ultras vs the Czech champions. Last meeting (Sept 2025) ended 1-1 with a 94th-minute Fradi equaliser. Expect noise.",
-   "tip": "Kick-off is 21:00 Hungarian time = 20:00 UK time (clocks are +1h from UK). Be through security by 20:15. Pre-match pints on Ráday utca near Kálvin tér, then hop on the M3.",
-   "getThere": "M3 (blue) to Népliget - the stadium is right next to the station, a few minutes' walk. About 10-12 min from Deák Ferenc tér / Kálvin tér (no changes). Bolt from District VII is ~10-15 min if the M3 is rammed.",
-   "rules": "Take your PASSPORT: Hungarian stadium entry can check ticket name against ID (confirmed for Hungary internationals, not verified for Fradi league-phase games). No pyro, glass or weapons. Fradi fan card normally needed to BUY tickets; yours are already booked.",
+   "blurb": "Thursday-night European football in Budapest: Fradi’s green-and-white ultras against the Czech side. The sides drew 1–1 here in Sept 2025, with a 94th-minute Fradi equaliser. Expect noise.",
+   "tip": "Kick-off is 21:00 Budapest time (20:00 home time). Aim to be through security by 20:15. Pre-match pints on Ráday utca near Kálvin tér, then the M3.",
+   "getThere": "M3 (blue) to Népliget: the stadium is right next to the station, a few minutes' walk. About 10–12 min from Deák Ferenc tér or Kálvin tér (no changes). Bolt from District VII is about 10–15 min if the M3 is rammed.",
+   "rules": "Take your passport: Hungarian stadium entry can check the ticket name against ID. That's confirmed for Hungary internationals but not for Fradi league-phase games, so check before you go. No pyro, glass or weapons. A Fradi fan card is normally needed to buy tickets; yours are already booked.",
    "notes": "Kick-off 21:00 Budapest time (20:00 UK) per UEFA’s fixture list; check uefa.com on the day. Gates-open time not published yet.",
    "links": {
     "web": "https://www.fradi.hu/en/club/groupama-arena",
@@ -202,9 +202,9 @@ window.BB_DATA = {
     "gN": null
    },
    "blurb": "Race wheel-to-wheel on the same estate that hosts F1. Settle the lads' pecking order before the football. Loser buys the first round.",
-   "tip": "Leave the centre by 10:30 in two Bolts (or one minibus) to arrive about 11:30 and allow for Friday traffic and check-in. Eat first; the venue is a long way from a kebab.",
-   "getThere": "Easiest: Bolt/taxi, ~25-35 min, ~20-25 km via M3. Cheap-but-slow: M2 to Örs vezér tere, HÉV H8 to Szilasliget/Mogyoród, then a 2.5 km (35-40 min) walk. Not recommended in a hurry.",
-   "rules": "Wear closed shoes (trainers). Venues will refuse anyone who has been drinking. Helmets are normally provided - confirm with the venue. Site prices are in HUF plus 27% VAT.",
+   "tip": "Leave the centre by 10:30 in two Bolts (or one minibus) to arrive about 11:30, allowing for Friday traffic and check-in. Eat first: it's miles from a kebab.",
+   "getThere": "Easiest: Bolt or taxi, about 25–35 min and 20–25 km via the M3. Cheap but slow: M2 to Örs vezér tere, HÉV H8 to Szilasliget or Mogyoród, then a 2.5 km (35–40 min) walk. Not recommended in a hurry.",
+   "rules": "Wear closed shoes (trainers). Venues will refuse anyone who has been drinking. Helmets are normally provided. Check before you go. Site prices are in HUF plus 27% VAT.",
    "notes": "Booked for 12:00. The venue is inside the Hungaroring grounds and runs on a temporary track during the circuit’s renovation. A taxi from the centre is roughly 12,000–14,000 HUF.",
    "links": {
     "web": "https://hungaroringkartcenter.hu/en/booking",
@@ -243,8 +243,8 @@ window.BB_DATA = {
    },
    "blurb": "Proper old-school Budapest derby-flavoured league football in a tiny modern ground named after a Magical Magyar legend. Cheap, close to the pitch, lots of banter.",
    "tip": "Gates open 18:00: grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min from the flat and aim to be in by 18:30.",
-   "getThere": "Tram stop 'Hidegkuti Nándor Stadion' is ~130 m away (tram 37/37A listed; one source says tram 1 - check BKK Futár / Google Maps live). Roughly 15-25 min from the centre by tram/metro; Bolt ~10-15 min.",
-   "rules": "Bring passport/photo ID to be safe. Bag, pyro and alcohol rules were not confirmed; expect bag checks and light beer only.",
+   "getThere": "Tram stop 'Hidegkuti Nándor Stadion' is about 130 m away (tram 37/37A listed). Roughly 15–25 min from the centre by tram or metro; Bolt about 10–15 min. Check BKK Futár or Google Maps for the live route.",
+   "rules": "Bring passport or photo ID to be safe. Expect bag checks and light beer only. Check bag, pyro and alcohol rules before you go.",
    "notes": "Confirmed by the booking: Friday 16 Oct, gates from 18:00, kick-off 19:00 Budapest time (18:00 UK). Opponent per MTK’s own fixture page.",
    "links": {
     "web": "https://www.mtkbudapest.hu/hu/merkozesek",
@@ -340,7 +340,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Live music ~21:00–23:00 nightly, then DJ till late (guide listings; unconfirmed for 2026)",
+   "hours": "Live music about 21:00–23:00 nightly, then DJ till late. Check before you go.",
    "blurb": "Sweaty basement, live covers every night, then a DJ and a dancefloor. Proper old-school rock-and-pint chaos with zero airs and graces.",
    "tip": "Gets rammed by 22:00 on weekends. Go early for a table near the band or accept getting wedged at the bar.",
    "history": null,
@@ -378,7 +378,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": null,
+   "hours": "Mon–Thu 17:00–02:00 · Fri–Sat 17:00–04:00 · Sun closed",
    "blurb": "Red-lit basement with graffiti walls: punk, rock and metal gigs and tribute nights. Cheap beer, loud guitars, 150-capacity bunker. Your kind of place.",
    "tip": "A separate 'Saloon' area is open on weekdays for a quieter pint. Check their socials for the Thu–Sat gig line-up.",
    "history": null,
@@ -388,6 +388,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "notes": "Hours from listings; check the gig calendar for 15–17 Oct.",
    "imageKind": "street",
    "imageCaption": "Dohány utca, Budapest"
   },
@@ -415,7 +416,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Wed 20:00–02:00; Thu–Sat 20:00–04:00; closed Sun–Tue",
+   "hours": "Daily from about 16:00 (Time Out); older listings say Wed–Sat until 04:00",
    "blurb": "Labyrinthine basement across from Gozsdu Udvar with live rock, blues and rockabilly most nights. Free in, cheap beer, no tourist-trap vibe.",
    "tip": "Autumn is peak programming (summer is quieter), so your October dates are ideal. Back rooms are calmer if the main room is mental.",
    "history": null,
@@ -454,7 +455,7 @@ window.BB_DATA = {
    "priceText": null,
    "hours": null,
    "blurb": "Proper metal dive bar, walls plastered with metal relics. Cheap drinks, loud riffs, scruffy and proud. Not for the faint of heart.",
-   "tip": "Cash-friendly dive: some reviewers flag hygiene, so keep expectations grungy. Pin location approximate; check Maps.",
+   "tip": "Cash-friendly dive with a grungy reputation on hygiene, so keep expectations low. The pin is approximate; check Maps.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvinus_Egyetem-St%C3%BAdium_Irodah%C3%A1z%2C_K%C3%B6zrakt%C3%A1r_utca%2C_Czuczor_utca%2C_2017_Ferencv%C3%A1ros.jpg?width=960",
    "links": {
@@ -462,6 +463,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "unconfirmed": true,
    "imageKind": "street",
    "imageCaption": "Czuczor utca corner, Ferencváros"
   },
@@ -489,7 +491,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Gig nights vary; check the programme (18+ after 23:00)",
+   "hours": "Varies by gig; check the programme. 18+ after 23:00.",
    "blurb": "Budapest's big rock and metal gig complex on the Buda waterfront: three stages plus a garden. Metal, hardcore and big touring bands.",
    "tip": "Buy tickets in advance and check there is actually a gig on 15–18 Oct. Out of the centre, so take a taxi or tram home.",
    "history": null,
@@ -525,7 +527,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": null,
+   "hours": "Restaurant daily from 08:00 · Gigs from about 19:00 · Club nights 23:30–04:00",
    "blurb": "Concert venue and club on a converted Ukrainian stone-carrier ship moored on the Danube. Gigs upstairs, parties below, views for free.",
    "tip": "Tram 4/6 to Petőfi híd. Check the gig calendar; the deck bar is lovely, but it is a proper ticketed venue on show nights.",
    "history": null,
@@ -535,6 +537,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "notes": "Event-driven: check the a38.hu programme for your nights.",
    "pick": true,
    "must": true,
    "wiki": "A38 (ship)"
@@ -565,7 +568,7 @@ window.BB_DATA = {
    "priceText": null,
    "hours": null,
    "blurb": "Club and gig venue sunk under Erzsébet tér's pond, right in the centre. Big hall for gigs, small hall for DJs, free metal night in the past.",
-   "tip": "Had a 2026 renovation/summer-closure scare and a programme shift; Oct 2026 shows are listed, but confirm on akvariumklub.hu first.",
+   "tip": "Had a renovation and summer-closure scare in 2026, plus a programme shift. October shows are listed, but check akvariumklub.hu before you go.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aquarium_Club._-_Erzs%C3%A9bet_Square._Budapest.JPG?width=960",
    "links": {
@@ -573,6 +576,7 @@ window.BB_DATA = {
     "web": "https://akvariumklub.hu",
     "book": null
    },
+   "notes": "Shows are listed into autumn 2026: check akvariumklub.hu for what is on.",
    "wiki": "Akvárium Klub"
   },
   {
@@ -598,7 +602,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Thu from 19:00; Fri–Sat 19:00–04:00; closed Sun–Wed",
+   "hours": "Thu 19:00–00:00 · Fri–Sat 19:00–04:00 · Sun–Wed closed",
    "blurb": "Small live rock and blues club near Heroes' Square. Tribute bands (KISS, etc.), local covers, a sing-along lock-in vibe.",
    "tip": "Out past Oktogon so grab a taxi. Pin is approximate (±300m). Gig schedule on backstagepub.hu.",
    "history": null,
@@ -621,7 +625,7 @@ window.BB_DATA = {
     "pub"
    ],
    "district": "V",
-   "address": "Deák Ferenc utca 3, 1052 Budapest",
+   "address": "Váci utca 1 (corner of Deák Ferenc utca), 1052 Budapest",
    "lat": 47.49665,
    "lng": 19.0515,
    "approx": true,
@@ -633,7 +637,7 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": null,
+   "hours": "Sun–Thu 12:00–23:00 · Fri–Sat 12:00–00:00",
    "blurb": "The Hard Rock Cafe, memorabilia and burgers on the corner of Vörösmarty tér. Safe, touristy, good for a feed and a Premier League pre-game.",
    "tip": "Pricey vs ruin bars. Fine for dinner or a rock-themed pint, not for a big night out.",
    "history": null,
@@ -667,9 +671,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": null,
+   "hours": "Inside Instant-Fogas (daily 18:00–06:00) · The Robot room is busiest Thu–Sat",
    "blurb": "One of the last proper rock clubs downtown, a basement under the Instant-Fogas complex with rock-disco nights.",
-   "tip": "Reopened 2017 per old reports; confirm it's still running before you go.",
+   "tip": "Reportedly reopened in 2017. Check it's still running before you go.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
@@ -677,7 +681,6 @@ window.BB_DATA = {
     "web": "https://instant-fogas.com",
     "book": null
    },
-   "unconfirmed": true,
    "imageKind": "building"
   },
   {
@@ -704,7 +707,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Mon–Fri 15:00–04:00; Sat 12:00–04:00; Sun 09:00–04:00",
+   "hours": "Mon–Fri 15:00–04:00 · Sat 12:00–04:00 · Sun 09:00–04:00",
    "blurb": "The original ruin bar (2002): mismatched rooms, a Trabant to drink in, graffiti everywhere. Rite of passage; you will hit it at least once.",
    "tip": "Free entry, glass deposit. Heaving on Fri–Sat nights, so go at 16:00 for a quieter, photo-friendly first pint. Watch your phone.",
    "history": null,
@@ -742,8 +745,8 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Wed–Sat 22:00–06:00 per one guide (others say nightly); free before midnight",
-   "blurb": "Huge party complex: ~18 bars, 7 dancefloors, garden, loads of genres under one roof. This is where the weekend ends at 5am.",
+   "hours": "Daily 18:00–06:00 · Busiest Thu–Sat",
+   "blurb": "Huge party complex: about 18 bars, 7 dancefloors, garden, loads of genres under one roof. This is where the weekend ends at 5am.",
    "tip": "Free before midnight, small cover after. Pick a floor and stick to it; the maze is easy to get lost in with mates.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
@@ -778,9 +781,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Garden season Apr–Oct; evening hours unconfirmed",
+   "hours": "Tue–Wed, Sun 12:00–22:00 · Thu–Sat 12:00–23:00 · Mon closed",
    "blurb": "Garden bar attached to the Kőleves restaurant: chilled ruin-bar courtyard, grill, and a relaxed crowd. Less rowdy than Szimpla.",
-   "tip": "Seasonal and weather-dependent, so check it is open (Facebook) given the mid-October date. Closed Mondays per a 2026 guide.",
+   "tip": "Seasonal and weather-dependent, so check Facebook that it's open this late in the season.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%91leves_kert_%284%29.jpg?width=900",
    "links": {
@@ -813,7 +816,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Mon–Sat 14:00–00:00; Sun 15:00–00:00 (July 2026 listing)",
+   "hours": "Mon–Sat 14:00–00:00 · Sun 15:00–00:00",
    "blurb": "Vintage-style ruin pub in the Inner City: bohemian, intimate, good for chatting rather than shouting. Great pre-Szimpla warm-up.",
    "tip": "Closes at midnight, so it's a pre-game, not a finisher. Ten minutes' walk from the Jewish Quarter.",
    "history": null,
@@ -826,43 +829,6 @@ window.BB_DATA = {
    "pick": true,
    "imageKind": "street",
    "imageCaption": "Ferenczy István utca corner, Károlyi Mansion"
-  },
-  {
-   "id": "ankert",
-   "name": "Anker't",
-   "sub": null,
-   "type": "bar",
-   "tags": [
-    "ruin-bar",
-    "pub",
-    "late-night"
-   ],
-   "district": "VI",
-   "address": "Paulay Ede utca 33, 1061 Budapest",
-   "lat": 47.5003,
-   "lng": 19.0611,
-   "approx": true,
-   "rating": {
-    "ta": null,
-    "taN": null,
-    "g": null,
-    "gN": null
-   },
-   "price": 1,
-   "priceText": null,
-   "hours": null,
-   "blurb": "Big ruin-bar courtyard with room for 800 on a Friday. Calmer than Szimpla, cocktails and loud tunes.",
-   "tip": "Sources differ on its seasonal status; confirm it is open in October before heading over. Pin approximate.",
-   "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulay_Ede_utca_6-8._Fortepan_763.jpg?width=960",
-   "links": {
-    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4994225-Reviews-Anker_t-Budapest_Central_Hungary.html",
-    "web": null,
-    "book": null
-   },
-   "unconfirmed": true,
-   "imageKind": "street",
-   "imageCaption": "Paulay Ede utca, Budapest"
   },
   {
    "id": "doboz",
@@ -887,9 +853,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Wed–Sat 18:00–06:00 (reseller listing)",
+   "hours": "Wed–Sat 18:00–06:00. Check before you go.",
    "blurb": "Labyrinth of rooms with eight music styles, a grill bar and two dancefloors. Cheap and fun until sunrise.",
-   "tip": "18+ with ID. Entry may include a drink on ticketed nights. Check hours as only reseller listings confirm them.",
+   "tip": "18+ with ID. Entry may include a drink on ticketed nights.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klauz%C3%A1l_street.jpg?width=960",
    "links": {
@@ -924,9 +890,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Daily 12:00–04:00 (undated listing)",
+   "hours": "Daily 12:00–04:00. Check before you go.",
    "blurb": "Classic courtyard ruin bar and taqueria on Kazinczy. Chill, cheap drinks and pub grub.",
-   "tip": "It closed in 2019 and reopened later; the status is from undated listings, so confirm before heading over.",
+   "tip": "It closed in 2019 and reopened later. Check it's open before you head over.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
    "links": {
@@ -961,7 +927,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": null,
+   "hours": "Daily 14:00–04:00 (some guides say from 16:00)",
    "blurb": "Communist-kitsch ruin pub in a brick basement: pop-art propaganda, puns, 'people's prices'. Gloriously daft.",
    "tip": "Easy to miss the basement entrance, near Ferenciek tere. Walk-in only.",
    "history": null,
@@ -995,9 +961,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Sun–Wed 18:00–00:00; Thu–Sat 18:00–02:00",
+   "hours": "Sun–Wed 18:00–00:00 · Thu–Sat 18:00–02:00",
    "blurb": "1920s cellar speakeasy with architecture-themed cocktails and a hidden private room. Dress up slightly, behave properly.",
-   "tip": "Walk-in seating only: arrive early Thu–Sat. Cocktails ~3,500–5,000 HUF.",
+   "tip": "Walk-in seating only: arrive early Thu–Sat. Cocktails about 3,500–5,000 HUF.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%ADp_utca_a_Doh%C3%A1ny_utca_%C3%A9s_a_R%C3%A1k%C3%B3czi_%C3%BAt_k%C3%B6z%C3%B6tt%2C_Gutmann_%C3%A1ruh%C3%A1z._Fortepan_100783.jpg?width=960",
    "links": {
@@ -1031,7 +997,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Mon–Fri 11:00–22:00; Sat–Sun 10:00–22:00 (one guide)",
+   "hours": "Mon–Fri 11:00–22:00 · Sat–Sun 10:00–22:00. Check before you go.",
    "blurb": "Wizarding-themed den that nails the atmosphere. Butterbeer-ish potions and food; fun daytime wild card if one of you is a Potter nerd.",
    "tip": "Book ahead, especially weekends. More restaurant than boozer: close early-ish.",
    "history": null,
@@ -1065,7 +1031,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": null,
+   "hours": "Daily from 12:00 or 14:00 until about 01:00",
    "blurb": "The post-it note bar: every inch of wall and ceiling is covered in handwritten notes from visitors, with straw and peanut shells on the floor. Grab a pen, leave your mark, drink. Opposite the Great Market Hall.",
    "tip": "Book ahead if eating at weekends. Cheaper and calmer than the Jewish Quarter.",
    "history": null,
@@ -1102,7 +1068,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": null,
+   "hours": "The passage is open round the clock; each bar sets its own hours, mostly late",
    "blurb": "Passage of seven connected courtyards packed with bars, terraces and restaurants. Easy bar-hop in one go.",
    "tip": "Touristy and pricier than basement bars; good first stop to meet up before heading off.",
    "history": null,
@@ -1136,9 +1102,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": null,
+   "hours": "Wed 18:00–00:00 · Thu 18:00–01:00 · Fri–Sat 18:00–02:00 · Sun–Tue closed",
    "blurb": "Long-running (since 2008) cocktail bar with a bartender's-choice menu. Smart, grown-up pre-game or post-dinner nightcap.",
-   "tip": "Mixed drinks ~€12–16. Book ahead for Fri and Sat. Address from memory; confirm.",
+   "tip": "Mixed drinks about €12–16. Book ahead for Fri and Sat. Check the address before you go.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulay_Ede_utca_6-8._Fortepan_763.jpg?width=960",
    "links": {
@@ -1172,9 +1138,9 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "Mon–Thu 16:00–00:00; Fri–Sun 14:00–00:00 (sources differ)",
+   "hours": "Mon–Thu 16:00–00:00 · Fri–Sun 14:00–00:00. Check before you go.",
    "blurb": "Rooftop at the Aria Hotel with eye-level views of the Basilica dome. Splash out for sunset cocktails and a photo that will wind up your mates.",
-   "tip": "Smart casual, no gym wear or flip-flops. Cocktails ~5,900–6,200 HUF. Book a sunset table.",
+   "tip": "Smart casual, no gym wear or flip-flops. Cocktails about 5,900–6,200 HUF. Book a sunset table.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hercegprim%C3%A1s_utca_9%2C_m%C5%B1eml%C3%A9k%2C_2017_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
    "links": {
@@ -1210,9 +1176,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Mon–Wed & Sun 14:00–00:00; Thu–Sat 14:00–02:00",
+   "hours": "Mon–Wed, Sun 14:00–00:00 · Thu–Sat 14:00–02:00",
    "blurb": "Rooftop terrace over Andrássy Avenue with a genuine 360-degree skyline. Great for a mid-afternoon pint or a pre-club cocktail.",
-   "tip": "Discreet street door, take the lift to the 6th floor. Small cover (~1,000 HUF) Thu–Sun per one guide.",
+   "tip": "Discreet street door, take the lift to the 6th floor. Small cover of about 1,000 HUF Thu–Sun.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_P%C3%A1risi_Nagy%C3%A1ruh%C3%A1z_%2837703806914%29.jpg?width=960",
    "links": {
@@ -1247,9 +1213,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": null,
-   "blurb": "Huge craft beer house with dozens of Hungarian taps in the Ferencváros. Beer geek heaven with no pretension.",
-   "tip": "Not confirmed this session; verify it's open on your night. Out of the Jewish Quarter by tram/metro.",
+   "hours": "Daily 15:00–03:00 (some listings say 04:00) · Kitchen until 23:00",
+   "blurb": "Huge craft beer house with dozens of Hungarian taps in Ferencváros. Beer geek heaven with no pretension.",
+   "tip": "Check it's open on your night before you go. It's out of the Jewish Quarter, so tram or metro.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garden_of_Semmelweis_University._-_T%C5%B1zolt%C3%B3_Street%2C_Budapest_District_IX.JPG?width=960",
    "links": {
@@ -1257,7 +1223,6 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
-   "unconfirmed": true,
    "pick": true,
    "imageKind": "street",
    "imageCaption": "Tűzoltó utca, Ferencváros"
@@ -1284,9 +1249,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Opens around noon; late-night (check match days)",
+   "hours": "Daily from about 12:00 until 23:30 · Sat until 02:00",
    "blurb": "Many screens, Jewish Quarter location, opens at midday unlike most bars nearby. Football on every wall.",
-   "tip": "Pin approximate to the street (house number unconfirmed). Check which matches are being shown on the 17th and 18th Oct.",
+   "tip": "Pin is approximate (street only). Check which matches are on over 17–18 Oct.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany_utca_28.jpg?width=960",
    "links": {
@@ -1320,9 +1285,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Tue-Thu 17:00-23:30; Fri-Sat from mid-afternoon to ~01:00 (one guide says 02:00); Sun to 23:00; closed Mon. Listings disagree - check match days.",
+   "hours": "Mon closed · Tue–Thu 17:00–23:30 · Fri–Sat mid-afternoon to about 01:00 · Sun until 23:00. Check match days before you go.",
    "blurb": "Tucked down an alley off the Pest high street: Irish pub, Sky Sports, Guinness and elbow-to-elbow lads. Your kind of Friday pre-match warm-up.",
-   "tip": "Tiny and fills up early - book a table for any kick-off, or you'll be watching through a gap in someone's shoulders.",
+   "tip": "Tiny and fills up early, so book a table for any kick-off or you'll be watching through a gap in someone's shoulders.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pilvax_K%C3%A1v%C3%A9h%C3%A1z%2C_Budapest.jpg?width=960",
    "links": {
@@ -1357,8 +1322,8 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Daily c.13:00-05:00; pool/games room reportedly to 23:00 (undated guides - confirm).",
-   "blurb": "27 telly screens, a pool and games den in the basement and kitchen-sink American bar vibes until the small hours. Loud, daft and exactly where the lads end up at 2am.",
+   "hours": "Daily about 13:00–05:00",
+   "blurb": "27 telly screens, a pool and games den in the basement, and kitchen-sink American bar vibes until the small hours. Loud, daft and exactly where the lads end up at 2am.",
    "tip": "Reviews are mixed on service, so order at the bar and keep an eye on the tab. Don't confuse it with Stifler House (the club) around the corner on Dob utca.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erzsebet_korut_19.jpg?width=960",
@@ -1393,9 +1358,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Listing (undated): Mon-Wed 11:30-00:00, Thu 11:30-01:00, Fri-Sat 11:30-02:00, Sun 12:00-01:00. Confirm for match days.",
+   "hours": "Mon–Wed 11:30–00:00 · Thu 11:30–01:00 · Fri–Sat 11:30–02:00 · Sun 12:00–01:00. Check match days.",
    "blurb": "Two floors of Irish pub on Liszt Ferenc tér, multi-screen Premier League and Champions League, and a terrace for when the pints need fresh air. A proper expat footy local.",
-   "tip": "Square terraces get lively but it's pricier than the Jewish Quarter dives - go for the match, then roll on to cheaper rounds.",
+   "tip": "The square's terraces get lively, but it's pricier than the Jewish Quarter dives. Go for the match, then roll on to cheaper rounds.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Becketts_%C3%ADr_pub%2C_t%C3%A1bla%2C_Liszt_Ferenc_t%C3%A9r_11%2C_2016_Budapest.jpg?width=960",
    "links": {
@@ -1428,9 +1393,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Hours not confirmed in search; older guide: Mon-Thu/Sun 16:00-00:00, Fri-Sat 16:00-01:00. Check Facebook for match days.",
-   "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local - bring your best 'Hajrá Magyarok'.",
-   "tip": "Most recent report says Ó utca 36 (an older guide said 66) - check the pin first. Rammed on big match nights, so arrive early for a spot.",
+   "hours": "Mon–Thu, Sun 16:00–00:00 · Fri–Sat 16:00–01:00. Check Facebook for match days before you go.",
+   "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local: bring your best 'Hajrá Magyarok'.",
+   "tip": "Rammed on big match nights, so arrive early for a spot. Check Facebook for which games they are showing.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_O_utca.jpg?width=960",
    "links": {
@@ -1463,9 +1428,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Listings conflict: Mon-Sat 16:00-24:00 (Sun closed), or Thu-Sat to 02:00. Treat as 16:00 to midnight at minimum.",
+   "hours": "Mon–Sat 16:00–00:00 · Sun closed. Thu–Sat may run to 02:00. Check before you go.",
    "blurb": "Tiny Jewish Quarter craft temple: ten rotating taps and 250+ breweries in bottles. Beer nerds nod solemnly; everyone else just discovers pints that taste of something.",
-   "tip": "Check the chalkboard before ordering - the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint.",
+   "tip": "Check the chalkboard before ordering: the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
@@ -1498,9 +1463,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Hours not confirmed in search (2024: Thu-Sun with DJ nights Thu and Sat). Check madhousebudapest.hu.",
+   "hours": "Last known: Thu–Sun, with DJ nights Thu and Sat. Check madhousebudapest.hu before you go.",
    "blurb": "The city-centre taproom of Mad Scientist brewery: 24 rotating taps, bistro grub and DJ sets on Thursday and Saturday. Hop-forward pints a stone's throw from Deák tér.",
-   "tip": "Thursday and Saturday are the DJ nights - turn up for the beer, stay for the tunes. Confirm it's open on the day before trekking over.",
+   "tip": "Thursday and Saturday are the DJ nights: turn up for the beer, stay for the tunes. Confirm it's open before trekking over.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Anker-palota%2C_26.jpeg?width=960",
    "links": {
@@ -1533,9 +1498,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Hours not confirmed; an aggregator lists open until c.01:00-02:00 most days. Check before going.",
+   "hours": "Mon–Wed, Sun 12:00–01:00 · Thu–Sat 12:00–02:00",
    "blurb": "Hungarian craft brewery's city pub: house-brewed beer on tap plus proper smoky BBQ. Soak up the lagers before the Jewish Quarter swallows you whole.",
-   "tip": "Book via their reservation page for groups. Their original taproom is out on Váci út (district XIII/IV border) - skip it, this one's central.",
+   "tip": "Book via their reservation page for groups. Their original taproom is out on Váci út (district XIII/IV border). Skip it; this one's central.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dob_utca_%28Budapest_VII.%29.jpg?width=960",
    "links": {
@@ -1568,9 +1533,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Listings: Mon-Sat 14:00-22:00 (one says to 19:00), Sun closed. Ownership changed in 2020 - confirm.",
+   "hours": "Mon–Sat 14:00–22:00 · Sun closed (one listing says it shuts at 19:00)",
    "blurb": "Part bottle shop, part boffin's den: shelves of craft beer from Hungary and abroad that you can crack open on the spot. The tiny shop for lads who read the labels.",
-   "tip": "Closes early (about 22:00) and shuts Sundays - fine for a warm-up crawl, then head to Hopaholic. Confirm hours by phone: +36 1 798 0036.",
+   "tip": "Closes early (about 22:00) and shuts Sundays: a warm-up stop before Hopaholic. Check hours by phone: +36 1 798 0036.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kert%C3%A9sz_utca_32.%2C_ortodox_iskola_%C3%A9s_hitk%C3%B6zs%C3%A9gi_napk%C3%B6zi_otthon._Fortepan_105228.jpg?width=960",
    "links": {
@@ -1603,9 +1568,9 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "Daily 12:00-00:00 (kitchen to 22:00, last order 23:00). Tables in two-hour slots.",
-   "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views and pricey cocktails - one for the pretty photos before the football gets going.",
-   "tip": "Book a table on OpenTable (two-hour slots, cocktails ~6,700-7,500 Ft) and aim for sunset. Smart casual - leave the club shirts at the hotel.",
+   "hours": "Daily 12:00–00:00 · Kitchen until 22:00 · Last order 23:00. Tables in two-hour slots.",
+   "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the pretty photos before the football gets going.",
+   "tip": "Book a table on OpenTable (two-hour slots, cocktails about 6,700–7,500 HUF) and aim for sunset. Smart casual: leave the club shirts at the hotel.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budav%C3%A1ri_Sikl%C3%B3_%28Budapest_Castle_Hill_Funicular%29.jpg?width=960",
    "links": {
@@ -1639,9 +1604,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Mon-Sun 15:00-24:00 (kitchen to 23:00; last entry 23:00).",
+   "hours": "Daily 15:00–00:00 · Kitchen until 23:00 · Last entry 23:00",
    "blurb": "Top-floor terrace on Vörösmarty tér with a lift, wine list and cocktails. Rooftop panorama of Pest's roofs without Chain Bridge queues.",
-   "tip": "Groups of 8+ face a 15,000 Ft/person minimum spend, so split into smaller tables or ask first. Book ahead on weekend evenings.",
+   "tip": "Groups of 8+ face a 15,000 HUF per person minimum spend, so split into smaller tables or ask first. Book ahead on weekend evenings.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_De%C3%A1k_Ferenc_utca.jpg?width=960",
    "links": {
@@ -1675,9 +1640,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Per Schlouk: Mon-Wed & Sun 18:00-00:00, Thu to 01:00, Fri-Sat 18:00-03:00 (other listings differ).",
-   "blurb": "Small, dark Jewish Quarter cocktail den built around Hungarian spirits like pálinka and Unicum. Ask for a surprise - no menu needed, just a firm handshake with the bartender.",
-   "tip": "Book on Instagram/Facebook for weekends - walk-ins often queue. Budget about 3,500-5,000 Ft per cocktail.",
+   "hours": "Mon–Wed, Sun 18:00–00:00 · Thu 18:00–01:00 · Fri–Sat 18:00–03:00. Check before you go.",
+   "blurb": "Small, dark Jewish Quarter cocktail den built around Hungarian spirits like pálinka and Unicum. Ask for a surprise: no menu needed, just a firm handshake with the bartender.",
+   "tip": "Book on Instagram/Facebook for weekends; walk-ins often queue. Budget about 3,500–5,000 HUF per cocktail.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_VII._R%C3%A1k%C3%B3czi_%C3%BAt_30%2C_Nagy_Di%C3%B3fa_utca_sarok._-_Fortepan_102343.jpg?width=960",
    "links": {
@@ -1710,7 +1675,7 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Thu-Sat 23:00-05:00 (some listings start Friday 23:59).",
+   "hours": "Thu–Sat 23:00–05:00. Some listings say Friday starts at 23:59. Check before you go.",
    "blurb": "Basilica-side club with proper Thursday to Saturday all-nighters: big sound, big queue, big headache. Seriously good for a late one.",
    "tip": "Entry 18+ with a physical ID (no digital IDs or photocopies). VIP queue is 25+. Go after 00:30 or you'll be dancing with the cleaner.",
    "history": null,
@@ -1744,9 +1709,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Cinema by day; club night opens 23:00 Sat (listing: Sat 14:00-06:00). Check programme for Thu/Fri.",
+   "hours": "Sat 14:00–06:00: cinema by day, club night from 23:00. Check the programme for Thu and Fri.",
    "blurb": "Cinema by day, underground techno and house by night. Same team as Lärm, a dark basement dancefloor that still feels like a proper night out.",
-   "tip": "Check the event calendar - club nights aren't nightly. Saturday is the safest bet. Bring cash for the cloakroom.",
+   "tip": "Check the event calendar: club nights aren't nightly. Saturday is the safest bet. Bring cash for the cloakroom.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Toldi_Klub%2C_Neonhull%C3%A1m.jpg?width=960",
    "links": {
@@ -1778,9 +1743,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Daily c. 11:00-23:00 (kitchen to ~22:30; sources vary). Open Thu/Fri/Sat late and Sun lunch. Confirm on the day.",
+   "hours": "Daily about 11:00–23:00 (kitchen until about 22:30). Open late Thu–Sat and for Sunday lunch. Check before you go.",
    "blurb": "Retro 70s canteen chic on Liszt Ferenc tér. Hungarian classics, a proper wine list and people-watching from the terrace. Good first-night shout for a big group.",
-   "tip": "Hortobágyi palacsinta (savoury pancakes in veal paprikash). Book ahead for Fri/Sat dinner for 6+.",
+   "tip": "Hortobágyi palacsinta (savoury pancakes in veal paprikash). Book ahead for Fri and Sat dinner for 6+.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menza_Restaurant%2C_Budapest_04.jpg?width=960",
    "links": {
@@ -1811,7 +1776,7 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Mon-Sat approx 10:00/12:00-22:00; CLOSED Sunday (sources differ on opening time). Fine Thu-Sat.",
+   "hours": "Mon–Sat opens between 10:00 and 12:00, closes 22:00 · Sun closed. Check before you go.",
    "blurb": "Tiny, buzzing bistro behind the Basilica where locals actually eat. Proper Hungarian cooking, no gimmicks. Fits a big lads' table only if you book.",
    "tip": "Go for the daily specials board. Reservations are essentially always needed, so book days ahead.",
    "history": null,
@@ -1846,7 +1811,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Mon-Sat approx 12:00-22:00; closed Sun (one source also says Mon). Check before going.",
+   "hours": "Mon–Sat about 12:00–22:00 · Sun closed. Monday may also be closed. Check before you go.",
    "blurb": "Six-table shoebox of a bistro by Hold Street market hall. Unfussy pork, liver and offal done properly. Tiny, so only for a small group or an early lunch.",
    "tip": "Breaded veal liver, pork belly or the wild boar ribs. Book at least two days ahead; walk-ins rarely get in.",
    "history": null,
@@ -1881,10 +1846,10 @@ window.BB_DATA = {
     "gN": 13185
    },
    "price": 1,
-   "priceText": null,
-   "hours": "Listing says ~11:00-23:00 (kitchen may stop earlier), closed Sun - listing dated, so confirm. No bookings.",
+   "priceText": "Daily menu under about 3,000 HUF (£7). Cash preferred.",
+   "hours": "Mon–Sat about 11:00–22:00 (kitchen may stop earlier) · Sun closed",
    "blurb": "Budapest's cheapest sit-down Hungarian dinner since 1997. Canteen tables, shared benches, big plates, tiny bill. Perfect for a hangover or a pre-bar fill-up.",
-   "tip": "Daily menu (under ~3,000 HUF per tourism guide), főzelék or pörkölt with nokedli. Cash preferred; no booking.",
+   "tip": "Daily menu under about 3,000 HUF: főzelék or pörkölt with nokedli. Cash preferred; no booking.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Frici_Papa_Kif%C5%91zd%C3%A9je_at_55_Kir%C3%A1ly_Street_Budapest%2C_Erzs%C3%A9betv%C3%A1ros%2C_Hungary_-_panoramio.jpg?width=960",
    "links": {
@@ -1917,7 +1882,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Opening hours not verified; guides say reserve, no walk-ins after 19:00. Small room.",
+   "hours": "No walk-ins after 19:00, so reserve. Small room. Check opening hours before you go.",
    "blurb": "Old-school Hungarian grub in the Jewish Quarter. Goulash, stuffed cabbage and the famous túrógombóc, in a room too small for a stag-sized mob.",
    "tip": "Goulash plus túrógombóc (cottage-cheese dumplings). Reserve a day ahead; best for groups of 4 or fewer.",
    "history": null,
@@ -1954,7 +1919,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Daily approx 12:00-14:30 and 18:00-22:00 (sources vary). Online reservation recommended.",
+   "hours": "Daily about 12:00–14:30 and 18:00–22:00. Online reservation recommended. Check before you go.",
    "blurb": "Hearty, no-nonsense Hungarian a stone's throw from Parliament. Goulash soup, paprikash and strudel, served by people who know what they're doing.",
    "tip": "Gulyásleves then chicken paprikás with nokedli. Small room, so book online for lunch or dinner.",
    "history": null,
@@ -1990,7 +1955,7 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Hours not verified for 2026 - check Google Maps. Usually busiest Sat evening.",
+   "hours": "Busiest on Saturday evening. Check Google Maps for current opening hours before you go.",
    "blurb": "Pork, duck and goose in a lively room next to the Opera. Loud, proper portions, occasionally pricey service charge. A new sister bistro (Pici Pörc) opened opposite in Aug 2026.",
    "tip": "Duck breast or goose with something hearty. Almost always fully booked, so reserve well ahead.",
    "history": null,
@@ -2025,7 +1990,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Mon-Fri 12:00-22:00, Sat 12:00-22:30, Sun 12:00-21:00 (one source) - good for Sunday lunch.",
+   "hours": "Mon–Fri 12:00–22:00 · Sat 12:00–22:30 · Sun 12:00–21:00. Good for Sunday lunch. Check before you go.",
    "blurb": "Old Óbuda tavern, famed for bone marrow and a Krúdy-era vibe. Out of the centre, but worth the taxi if you want proper Hungarian portions on a lazy Sunday.",
    "tip": "Bone marrow with toast, then a big meaty main. Take a taxi or tram; book for 6+.",
    "history": null,
@@ -2059,7 +2024,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Hours vary by source (about 11:30-23:00 daily); weekday lunch menu until 16:00. Confirm.",
+   "hours": "Daily about 11:30–23:00 · Weekday lunch menu until 16:00. Check before you go.",
    "blurb": "Jewish Quarter staple with a leafy garden next door. Hungarian-meets-modern plates, decent for a group who can't agree.",
    "tip": "Lunch menu on weekdays is good value. Ask for the garden if it's dry.",
    "history": null,
@@ -2094,7 +2059,7 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Hours not verified - check before going.",
+   "hours": "Check opening hours before you go.",
    "blurb": "Cosy old-school place for Jewish-Hungarian classics near Astoria/Blaha. Lescó, goose liver and sólet, none of it light.",
    "tip": "Sólet (bean and meat stew) or fried goose liver. Call ahead for a group.",
    "history": null,
@@ -2132,9 +2097,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Official site: Mon-Fri 12:00-23:00, Sat-Sun 10:30-00:00. Open late Thu-Sat; Sun brunch/lunch available.",
+   "hours": "Mon–Fri 12:00–23:00 · Sat–Sun 10:30–00:00. Open late Thu–Sat; Sunday brunch and lunch available.",
    "blurb": "Gorgeous Mediterranean courtyard in a Jewish Quarter ruin. Middle Eastern sharing plates, great cocktails, perfect for a big group night out.",
-   "tip": "Shakshuka for brunch, mezze to share. Book a week ahead for weekends; card issues reported, bring cash backup.",
+   "tip": "Shakshuka for brunch, mezze to share. Book a week ahead for weekends. Card issues have been reported, so bring cash as backup.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazel_Tov_Ruin_Bar_%2842253982234%29.jpg?width=960",
    "links": {
@@ -2170,9 +2135,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Mon-Sat 12:00-16:00 and 17:30-24:00 per Michelin; CLOSED Sunday. Still listed in Michelin 2024/25 - verify 2026.",
+   "hours": "Mon–Sat 12:00–16:00 and 17:30–00:00 · Sun closed",
    "blurb": "Refined Hungarian from the Stand team in a relaxed bistro, Michelin Plate. Buda side, so a short taxi from VII. Not the cheapest feed but proper nosh.",
-   "tip": "Go for the Hungarian classics tasting-style plates. Book ahead and check it is still open at this address.",
+   "tip": "Go for the Hungarian classics as tasting-style plates. Book ahead.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?width=960",
    "links": {
@@ -2207,9 +2172,9 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "Tue-Sat 18:00-00:00; closed Sun and Mon. Open Thu/Fri/Sat evenings.",
+   "hours": "Tue–Sat 18:00–00:00 · Sun–Mon closed",
    "blurb": "Budapest's only two-Michelin-star restaurant. Dinner, not a meal: smart Hungarian tasting menus. Put the good shirt on, lads.",
-   "tip": "Tasting menu only. Bookings open about 60 days ahead (SevenRooms) and tables are held for 20 mins. Probably sold out by now - try cancellations.",
+   "tip": "Tasting menu only. Bookings open about 60 days ahead on SevenRooms and tables are held for 20 minutes. Probably sold out by now, so try cancellations.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9kely_Mih%C3%A1ly_utca_4-6%2C_Budapest_%2838408981376%29.jpg?width=960",
    "links": {
@@ -2244,9 +2209,9 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "Mon-Fri from 18:00, Sat 12:00-24:00; closed Sun. Open Thu/Fri/Sat; no Sunday service.",
+   "hours": "Mon–Fri from 18:00 · Sat 12:00–00:00 · Sun closed",
    "blurb": "One-star Hungarian by the Basilica. Slick but unstuffy, huge Hungarian wine list. The best 'treat ourselves' dinner without tipping into silly.",
-   "tip": "Tasting menu over à la carte. Book online 2-4 weeks ahead for weekends; try for a Sat lunch slot at short notice.",
+   "tip": "Tasting menu over à la carte. Book online 2–4 weeks ahead for weekends; try for a Sat lunch slot at short notice.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sas_Stra%C3%9Fe_3%2C_Eingang%2C_2021_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
    "links": {
@@ -2268,7 +2233,7 @@ window.BB_DATA = {
     "booking-needed"
    ],
    "district": "V",
-   "address": "Petőfi tér 3-5, 1051 Budapest",
+   "address": "Petőfi tér 3, 1051 Budapest",
    "lat": 47.494,
    "lng": 19.051,
    "approx": true,
@@ -2280,9 +2245,9 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "Tue-Sat 17:00-23:00; closed Sun and Mon. Counter seating (21 seats).",
-   "blurb": "Michelin-starred 21-seat chef's counter hidden behind an unmarked door. Eleven courses of modern Hungarian with theatre. Address reported two ways - check booking email.",
-   "tip": "Eleven-course counter tasting (roughly 60,000-85,000 HUF). Book about 3 weeks ahead; arrive early.",
+   "hours": "Tue–Sat 17:00–23:00 · Sun–Mon closed · Counter seating, 21 seats",
+   "blurb": "Michelin-starred 21-seat chef’s counter hidden behind an unmarked door. Eleven courses of modern Hungarian with theatre.",
+   "tip": "Eleven-course counter tasting (about 60,000–85,000 HUF). Book about 3 weeks ahead; arrive early.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pet%C5%91fi-szobor_k%C3%A9peslapon%2C_Budapest_1898.jpg?width=960",
    "links": {
@@ -2316,9 +2281,9 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "One guide: Wed-Sun evenings approx 18:30-24:00; closed Mon/Tue. Hours conflict - confirm directly.",
+   "hours": "Wed–Sun evenings about 18:30–00:00 · Mon–Tue closed. Check before you go.",
    "blurb": "Hungary's first Michelin-star restaurant (2010), on the buzzy Ráday utca. Elegant tasting menus, quality service. Dress to impress.",
-   "tip": "Tasting menu. Phone line takes bookings daily 9:00-23:30. Book now, weekends fill fast.",
+   "tip": "Tasting menu. Phone line takes bookings daily 09:00–23:30. Book now, weekends fill fast.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Costes_Restaurant%2C_Budapest_01.JPG?width=960",
    "links": {
@@ -2351,7 +2316,7 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "Tue-Fri 17:30-24:00, Sat 12:00-15:00 and evening; closed Sun and Mon.",
+   "hours": "Tue–Fri 17:30–00:00 · Sat 12:00–15:00 and evening · Sun–Mon closed",
    "blurb": "One Michelin star since 2019, tucked near Elisabeth Bridge. Modern Hungarian with a bit of flair. Sat lunch is the lads-friendly slot before footy.",
    "tip": "Saturday lunch tasting menu. Book online; ask about a lunch slot if dinner is gone.",
    "history": null,
@@ -2388,7 +2353,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "About 11:30-21:00 Mon-Thu/Sun, to 22:00 Fri-Sat (sources vary). Expect a queue at lunch.",
+   "hours": "Mon–Thu, Sun about 11:30–21:00 · Fri–Sat until 22:00. Expect a queue at lunch. Check before you go.",
    "blurb": "Tiny soup-and-baguette bar with Star Wars decor and ridiculous queues for good reason. Cheap, cheerful and next to the ruin pubs.",
    "tip": "Daily soup or a stuffed baguette. Eat at the counter or take it away; no booking.",
    "history": null,
@@ -2427,7 +2392,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Karaván courtyard open daily 11:30-23:59 (reports of 01:00 Thu-Sat). Other branches have longer hours.",
+   "hours": "Karaván courtyard branch: daily 11:30–23:59, possibly to 01:00 Thu–Sat. Other branches stay open longer. Check before you go.",
    "blurb": "Budapest's home-grown burger chain. Smashed burgers, no frills, handy when beers are flowing next door.",
    "tip": "Classic double cheeseburger and fries. Loyalty-card stamps if you're round for the weekend.",
    "history": null,
@@ -2463,9 +2428,9 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "Daily approx 12:00-23:00 (one listing shows Thu-Sat 23:00, Mon-Wed/Sun 22:00). Book for Sat night.",
-   "blurb": "Argentine-style steakhouse, glossy and meaty. Dozen-plus premium cuts, big wine list. OpenTable rating 4.6-4.8 across ~550-600 reviews.",
-   "tip": "Choose your cut from the trolley and share sides. Book via OpenTable; mains from about 50 EUR.",
+   "hours": "Daily from about 12:00 · Closes 22:00 Mon–Wed and Sun, 23:00 Thu–Sat. Book for Saturday night. Check before you go.",
+   "blurb": "Argentine-style steakhouse, glossy and meaty. Dozen-plus premium cuts, big wine list. OpenTable rating 4.6–4.8 from around 550–600 reviews.",
+   "tip": "Choose your cut from the trolley and share sides. Book via OpenTable; mains from about €50.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A1mh%C3%A1z_k%C3%B6r%C3%BAt_5.%2C_1958_Budapest_-_Fortepan_103225.jpg?width=960",
    "links": {
@@ -2499,9 +2464,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Listing (unclear): Mon-Thu 17:00-23:00, Fri-Sun 12:00-23:00. Confirm. Open Sun lunch.",
+   "hours": "Mon–Thu 17:00–23:00 · Fri–Sun 12:00–23:00. Check before you go.",
    "blurb": "Only Hungarian pizzeria in Europe's Top 50 (No. 40, 2026). Proper Neapolitan pies, right in the party district. Lads can argue over toppings later.",
-   "tip": "Order a margherita first and judge them on that. Pies roughly 3,700-6,300 HUF. Book for 6+.",
+   "tip": "Order a margherita first and judge them on that. Pies about 3,700–6,300 HUF. Book for 6+.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
    "links": {
@@ -2535,9 +2500,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Old listing: daily 11:00-24:00. Moved to this address on 6 Oct 2026 - recheck hours.",
+   "hours": "Daily 11:00–00:00 at the previous site. Moved to this address on 6 Oct 2026. Check before you go.",
    "blurb": "Texas-style brisket, ribs and wings. Just moved from Akácfa to Hercegprímás utca (opened 6 Oct 2026). Smoky, sticky and sociable.",
-   "tip": "Brisket sandwich or a ribs platter to share. New site, so check it is open and Google Maps pin.",
+   "tip": "Brisket sandwich or a ribs platter to share. It's a new site, so check the Google Maps pin.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hercegprim%C3%A1s_utca_9%2C_m%C5%B1eml%C3%A9k%2C_2017_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
    "links": {
@@ -2572,7 +2537,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Reported daily 11:00-22:00 (one source says 9:00). Address conflicts between sources (Arany János u. 9) - confirm.",
+   "hours": "Daily about 11:00–22:00 (one source says from 09:00). Check before you go.",
    "blurb": "Lángos central: crispy fried dough piled high with garlic, sour cream and cheese. The textbook belly-liner.",
    "tip": "Classic lángos (about 3,500 HUF in 2026). Add extra garlic, regret nothing.",
    "history": null,
@@ -2610,7 +2575,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Daily 11:30-23:59 (Sep 2026 guide); another says to 01:00 Thu-Sat. Open Sun.",
+   "hours": "Daily 11:30–23:59, possibly to 01:00 Thu–Sat. Check before you go.",
    "blurb": "Courtyard of food trucks and bars next to Szimpla. Lángos, burgers, gyros, chimney cake, all in one gloriously chaotic pit-stop.",
    "tip": "Lángos, a burger truck, and a chimney cake for pudding. Easy to split a group across trucks.",
    "history": null,
@@ -2644,7 +2609,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Mon-Sat approx 9:00-16:00 (8:00 start claimed); closed Sundays. Good for Fri/Sat hangover brunch.",
+   "hours": "Mon–Sat about 09:00–16:00 (one source says an 08:00 start) · Sun closed. Check before you go.",
    "blurb": "Relaxed, light-filled brunch place from the Szimpla family in a historic alley. Eggs, coffee, juices and recovery vibes.",
    "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the post-match recovery here.",
    "history": null,
@@ -2681,9 +2646,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Sundays: Szimpla opens ~9:00; farmers market approx 9:00-14:00/15:00 (sources vary).",
+   "hours": "Sun only: Szimpla opens about 09:00. Farmers market about 09:00–14:00 (may run to 15:00). Check before you go.",
    "blurb": "The famous ruin pub turns into a Sunday farmers market, with cheese, honey, jam and street food stalls. Ideal if you're up for Sunday brunch.",
-   "tip": "Browse stalls then grab brunch upstairs. Check opening times on the day (the end time varies).",
+   "tip": "Browse the stalls, then grab brunch upstairs. The finishing time varies.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szimpla_Kert_Farmers%27_Market_%2830579247464%29.jpg?width=960",
    "links": {
@@ -2719,7 +2684,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Mon-Fri 6:00-18:00, Sat 6:00-16:00 (most sources). Sunday: Oct 2026 guide says 10:00-16:00 but older/official English page say closed - confirm. Lángos upstairs.",
+   "hours": "Mon–Fri 06:00–18:00 · Sat 06:00–15:00 · Sun mostly shut, so go on Saturday",
    "blurb": "Neo-Gothic food cathedral. Paprika, sausages, pálinka downstairs; lángos and goulash upstairs. Do it Saturday morning before the footy.",
    "tip": "Upstairs: lángos and goulash (touristy). Downstairs: sausage, salami, paprika to take home. Go before 13:00 on Saturday.",
    "history": null,
@@ -2757,9 +2722,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Mon 6:30-17:00, Tue-Fri 6:30-18:00, Sat 6:30-14:00/16:00 (sources vary); closed Sunday. One listing flagged it temporarily closed - verify.",
+   "hours": "Mon 06:30–17:00 · Tue–Fri 06:30–18:00 · Sat 06:30–14:00 (some say 16:00) · Sun closed. Check before you go.",
    "blurb": "1891 market hall with a food gallery of small kitchens upstairs. Quieter and more local than the Great Market Hall.",
-   "tip": "Browse for lunch Saturday morning. Verify it is open as a Google Maps flag showed it as temporarily closed.",
+   "tip": "Browse for lunch on Saturday morning. Google Maps has shown it as temporarily closed, so check first.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V._V%C3%A1s%C3%A1rcsarnok%2C_kij%C3%A1r%C3%A1s%2C_Lip%C3%B3tv%C3%A1ros%2C_2016_Budapest.jpg?width=960",
    "links": {
@@ -2767,6 +2732,8 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "unconfirmed": true,
+   "notes": "Now branded Belvárosi Piac (Downtown Market).",
    "imageKind": "building",
    "wiki": "hu:Hold utcai vásárcsarnok"
   },
@@ -2792,9 +2759,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Weekdays approx 7:30-22:00/23:00, weekends 9:00-22:00/23:00 (sources vary).",
+   "hours": "Mon–Fri about 07:30–22:00 or 23:00 · Sat–Sun about 09:00–22:00 or 23:00. Check before you go.",
    "blurb": "Bookish Buda café-gallery with good filter coffee, bagels and savoury plates. A calm recovery spot away from Pest.",
-   "tip": "Order and pay at the counter. Savoury brunch plate and a filter coffee. Sat/Sun mornings after 9.",
+   "tip": "Order and pay at the counter. Try the savoury brunch plate and a filter coffee. Best on Sat or Sun mornings after 09:00.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelet_K%C3%A1v%C3%A9z%C3%B3_%C3%A9s_Gal%C3%A9ria.jpg?width=960",
    "links": {
@@ -2827,7 +2794,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Daily approx 10:00-22:00 (single source).",
+   "hours": "Daily about 10:00–22:00. Check before you go.",
    "blurb": "Famous chimney cake stall on Váci utca. Warm, sugary, cinnamon-dusted spiral of joy to eat while strolling.",
    "tip": "Cinnamon or walnut chimney cake. Ask for it fresh from the grill and watch the bake.",
    "history": null,
@@ -2862,9 +2829,9 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Approx 9:00-20:00 (to 21:00 Fri/Sat), sources vary. Open all weekend.",
+   "hours": "Daily about 09:00–20:00 · Fri–Sat to 21:00. Open all weekend. Check before you go.",
    "blurb": "Grand 1858 confectioner on Vörösmarty tér. Touristy, pricey, gorgeous. Come for cake and a coffee-house atmosphere.",
-   "tip": "Dobos torta or Somlói galuska. 15% service charge reported. Skip the queue and sit inside.",
+   "tip": "Dobos torta or Somlói galuska. May add a 15% service charge. Skip the queue and sit inside.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_Gerbeaud_Budapest_1999.jpg?width=960",
    "links": {
@@ -2897,11 +2864,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "Sources conflict: ~7,000 HUF EEA adult vs ~14,000 HUF non-EEA adult (UK lads count as non-EEA, bring passports). Resale sites charge more.",
-   "hours": "English tours run daily in time slots (roughly 8:00-18:00 in season per guides; sources conflict). Restricted when Parliament is sitting. Check Sat 17 / Sun 18 Oct slots on the booking page.",
-   "blurb": "The postcard shot of Budapest. Gothic Revival wedding cake with 691 rooms, miles of gold leaf and the actual Crown of St Stephen under the dome. Book ahead or get nowt.",
-   "tip": "Tours sell out 1-3 weeks ahead and walk-ups can be refused on sitting days. Book now on the official ticket page; best selfie is from the Buda bank at night.",
-   "history": "Built 1885-1904 and modelled partly on Westminster. Architect Imre Steindl reportedly went blind before it was finished and died before completion. Millions of bricks, around 40kg of gold leaf, and exactly 96m tall to nod to the 896 Magyar conquest.",
+   "priceText": "EU/EEA passport (Irish): 7,000 HUF adult. Non-EU passport (British): 14,000 HUF adult. Official 2026 prices; bring the passport you booked with.",
+   "hours": "Tours daily in time slots, roughly 08:00–16:00, from the Visitor Centre · Restricted on sitting days",
+   "blurb": "The postcard shot of Budapest. Gothic Revival wedding cake with 691 rooms, miles of gold leaf and the actual Crown of St Stephen under the dome. Book ahead or miss out.",
+   "tip": "Tours sell out 1–3 weeks ahead and walk-ups can be refused on sitting days. Book now on the official ticket page; best selfie is from the Buda bank at night.",
+   "history": "Built 1885–1904, modelled partly on Westminster. Architect Imre Steindl reportedly went blind before it was finished and died before completion. Millions of bricks, around 40kg of gold leaf, and exactly 96m tall to nod to the 896 Magyar conquest.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parliament_Building%2C_Budapest%2C_outside.jpg?width=900",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276817-Reviews-Hungarian_Parliament_Building-Budapest_Central_Hungary.html",
@@ -2934,11 +2901,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Courtyards and terraces free; Hungarian National Gallery & Budapest History Museum charge separately (prices not verified)",
-   "hours": "Grounds open all day, free. Museums typically Tue-Sun daytime, closed Mon (not verified for 17/18 Oct - check each museum).",
+   "priceText": "Courtyards and terraces free. The Hungarian National Gallery and Budapest History Museum charge separately; check prices before you go.",
+   "hours": "Grounds open all day, free · Museums typically Tue–Sun daytime, Mon closed. Check each museum for 17 and 18 Oct.",
    "blurb": "Hilltop palace towering over the Danube with the best views of Pest. Funicular, lions, a Turul bird and a proper dragon-slaying fountain. Free to wander.",
    "tip": "Take the Sikló funicular up and walk back down. The Matthias Fountain in the courtyard shows Corvinus hunting with his hounds.",
-   "history": "Home to kings since the 13th century, trashed by the Ottomans in 1686 and by the Red Army and Wehrmacht in the 1944-45 siege. The communists rebuilt it in a stripped-down Baroque, then archaeologists dug up medieval bits underneath. Layers upon layers.",
+   "history": "Home to kings since the 13th century, trashed by the Ottomans in 1686 and by the Red Army and Wehrmacht in the 1944–45 siege. The communists rebuilt it in a stripped-down Baroque, then archaeologists dug up medieval bits underneath. Layers upon layers.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Buda_Castle_-_Palazzo_Reale_Budapest.jpg?width=900",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276804-Reviews.html",
@@ -2971,11 +2938,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Lower terraces free; upper tower walkways about 1,700 HUF adult (2026 travel guide); free early morning and evening per one source",
-   "hours": "Lower terraces free 24/7. Upper walkway ticket kiosk operates in the daytime only (exact hours not verified). No pre-booking.",
-   "blurb": "Seven white fairytale turrets with the best Danube-and-Parliament panorama going. Looks medieval, is actually Victorian-era Disney.",
+   "priceText": "Upper terrace 1,700 HUF adult (850 reduced) · Lower terraces free",
+   "hours": "Lower terraces free 24/7 · Upper terrace ticketed 09:00–19:00, free outside those hours",
+   "blurb": "Seven white fairytale turrets with the best Danube-and-Parliament panorama going. Looks medieval, is actually 1890s Disney.",
    "tip": "Go at sunrise or after dark for no ticket, no crowds. Sat 17 Oct is best saved for the evening blue hour.",
-   "history": "Not a fortress at all - built 1895-1902 by Frigyes Schulek as a decorative viewing terrace for the 1896 Millennium. Seven towers represent the seven Magyar tribes. The fishermen of the name guarded this stretch of the medieval wall, or sold fish at the foot of the hill, depending who you ask.",
+   "history": "Not a fortress at all: built 1895–1902 by Frigyes Schulek as a decorative viewing terrace for the 1896 Millennium. Seven towers represent the seven Magyar tribes. The fishermen of the name guarded this stretch of the medieval wall, or sold fish at the foot of the hill, depending who you ask.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman%27s_Bastion%2C_Budapest%2C_Hungary.jpg?width=900",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276803-Reviews.html",
@@ -3007,8 +2974,8 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "Admission price sources conflict (older listings ~1,800-3,100 HUF); tower is a separate ticket - check official site",
-   "hours": "Official: 1 Apr-31 Oct Mon-Fri 9-17, Sat 9-12, Sun 13-17. So Sat 17 Oct 9:00-12:00; Sun 18 Oct only from 13:00 (you'll have left). Closed for services/events.",
+   "priceText": "Church 3,400 HUF adult (5,000 with audioguide) · Tower is a separate ticket, about 4,000 HUF",
+   "hours": "1 Apr–31 Oct: Mon–Fri 09:00–17:00 · Sat 09:00–12:00 · Sun 13:00–17:00. So Sat 17 Oct is 09:00–12:00; Sun 18 Oct only from 13:00 (you'll have left). Closed for services and events.",
    "blurb": "Technicolour Zsolnay roof tiles and a gloriously over-the-top neo-Gothic interior. Looks like a Habsburg wedding cake got a tattoo sleeve.",
    "tip": "Sat morning window is short: be in by 9:00 and out before the noon close. Shoulders covered.",
    "history": "Officially the Church of Our Lady, but named for King Matthias Corvinus who got married in it (twice). The Ottomans turned it into a mosque for 145 years. Schulek's 19th-century rebuild added the multicoloured tile roof. The last Habsburg king, Charles IV, was crowned here in 1916.",
@@ -3044,11 +3011,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "Guided tour only. Price sources conflict (older guides ~EUR 24-30; one 2026 blog quotes EUR 100 but that is a bundled walking tour) - check booking page",
-   "hours": "Official site: open daily 10:00-19:00 (last tour ~18:00). Some public holidays closed. Guided tours only.",
+   "priceText": "Guided tour only, about €30 (around £26) per adult, charged in HUF. Sources disagree, so check when you book. Pay by card.",
+   "hours": "Daily 10:00–19:00 (last tour about 18:00) · Some public holidays closed · Guided tours only",
    "blurb": "A secret hospital then Cold War nuclear bunker in the caves under Castle Hill. Wax dummies, rusty Soviet kit and an air-raid vibe. Properly spooky.",
    "tip": "Book the English tour online; kids under 7 not admitted. Pair with the Labyrinth and Matthias Church in one Castle Hill morning.",
-   "history": "Carved out of natural caves under Buda Castle for WWII, it treated hundreds during the 1944-45 siege and the 1956 uprising. In the 1950s it was converted into a secret nuclear-war bunker, kept classified until 2002. The museum opened in 2008.",
+   "history": "Carved out of natural caves under Buda Castle for WWII, it treated hundreds during the 1944–45 siege and the 1956 uprising. In the 1950s it was converted into a secret nuclear-war bunker, kept classified until 2002. The museum opened in 2008.",
    "image": null,
    "links": {
     "ta": null,
@@ -3081,8 +3048,8 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "Official museum.hu listing (Feb 2026) shows 2,000 HUF + 500 HUF for the permanent exhibition; a 2026 blog says ~4,000 Ft adult. Verify.",
-   "hours": "Tue-Sun 10:00-18:00, closed Mon (official listing and guides agree). Open both Sat 17 and Sun 18 Oct.",
+   "priceText": "Listed at 2,000 HUF plus 500 HUF for the permanent exhibition; one 2026 blog says about 4,000 HUF per adult. Check before you go.",
+   "hours": "Tue–Sun 10:00–18:00 · Mon closed",
    "blurb": "Hungary's brutal 20th century in one grim, impressive building. Fascists then communists used the same cellars. Sobering, not a laugh, but properly gripping.",
    "tip": "Go Sunday morning when it's quieter (opens 10:00). Allow 90 minutes. Not a place for banter.",
    "history": "This address was HQ of the Arrow Cross (Hungarian Nazis) in 1944, then of the ÁVO/ÁVH communist secret police. The basement cells you walk through are original. The facade's sinister overhanging roof carries cut-outs of the Arrow Cross symbol and the communist star.",
@@ -3092,6 +3059,7 @@ window.BB_DATA = {
     "web": "https://www.terrorhaza.hu/en",
     "book": null
    },
+   "notes": "It closed in mid-September 2026 for a content review and reopened on 22 Sep.",
    "wiki": "House of Terror"
   },
   {
@@ -3117,11 +3085,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "Adult 3,000 HUF (students 1,800; under 6 free; Budapest Card free)",
-   "hours": "Reported May-Oct 10:00-18:00 daily (one source says 10:00-17:00). Open Sat 17 and Sun 18 Oct but it's out in District XXII: allow 3-4 hours return.",
+   "priceText": "Adult 3,000 HUF · students 1,800 HUF · under 6 free · Budapest Card free",
+   "hours": "Daily May–Oct 10:00–18:00 (one source says 17:00). Open Sat 17 and Sun 18 Oct, but it's out in District XXII: allow 3–4 hours return. Check before you go.",
    "blurb": "Giant bronze Lenins, Marx, Engels and Soviet soldiers dumped in a field when communism fell. Pure Cold War cosplay. See Stalin's boots.",
-   "tip": "Bus 150 from Kelenföld station (M4 line); a Sunday-morning visit conflicts with your 13:30 airport run - do it Saturday.",
-   "history": "After 1989 the city shipped ~42 monumental statues out to this site on the edge of town, opened 1993. Star exhibit: a replica of Stalin's 8m statue boots on a tribune, since the original was toppled in the 1956 uprising, leaving only the boots on the plinth.",
+   "tip": "Bus 150 from Kelenföld station (M4 line). A Sunday-morning visit conflicts with your 13:30 airport run, so do it Saturday.",
+   "history": "After 1989 the city shipped about 42 monumental statues out to this site on the edge of town, opened 1993. Star exhibit: a replica of Stalin's 8m statue boots on a tribune, since the original was toppled in the 1956 uprising, leaving only the boots on the plinth.",
    "image": null,
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Attraction_Review-g274887-d276834-Reviews.html",
@@ -3155,7 +3123,7 @@ window.BB_DATA = {
    "price": 1,
    "priceText": "Free",
    "hours": "Open-air memorial, accessible 24/7.",
-   "blurb": "60 pairs of rusting cast-iron shoes along the water's edge. Quiet, moving, quick - don't be loud here.",
+   "blurb": "60 pairs of rusting cast-iron shoes along the water's edge. Quiet, moving, quick: don't be loud here.",
    "tip": "Combine with a Parliament-front stroll. Leave a stone, not a selfie-fest.",
    "history": "Created in 2005 by film director Can Togay and sculptor Gyula Pauer to remember the Jews shot into the Danube by Arrow Cross militiamen in 1944-45. Victims were made to take off their shoes (valuable) first.",
    "image": null,
@@ -3190,11 +3158,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "Sources conflict: ~8,500-14,500 HUF adult (2026 guide updated Sep 2026 says 14,500 Ft); fast-track online ~9,051 HUF",
-   "hours": "Guides: Sun-Thu 10-16 (Fri to 14), CLOSED Saturday (Sabbath) and Mon. So Sat 17 Oct closed; Sun 18 Oct 10:00-16:00, last ticket 1h earlier.",
+   "priceText": "About 14,500 HUF per adult (Sep 2026 guide); older guides quote less.",
+   "hours": "Closed Sat 17 Oct (Sabbath) · Sun 18 Oct from 10:00 to about 16:00, last ticket an hour before closing",
    "blurb": "Largest synagogue in Europe, with Moorish twin onion domes and a Holocaust garden. Right in the middle of the party district.",
-   "tip": "Closed Saturday - go Sunday morning (10:00 prompt) or just admire the exterior. Cover shoulders, men may need a head covering.",
-   "history": "Built 1854-59 in Moorish style by Ludwig Förster with an organ that Franz Liszt reportedly played at the inauguration. During WWII it sat inside the Pest ghetto; the Tree of Life weeping-willow memorial in the garden carries victims' names on its leaves.",
+   "tip": "Closed Saturday: go Sunday morning (10:00 prompt) or just admire the outside. Cover shoulders; men may need a head covering.",
+   "history": "Built 1854–59 in Moorish style by Ludwig Förster, with an organ that Franz Liszt reportedly played at the inauguration. During WWII it sat inside the Pest ghetto; the Tree of Life weeping-willow memorial in the garden carries victims' names on its leaves.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany4.jpg?width=900",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d25432877-Reviews-Dohany_Street_Synagogue-Budapest_Central_Hungary.html",
@@ -3226,11 +3194,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "Church tour ~9,455 HUF adult; extended tour incl. dome terrace & treasury ~15,122 HUF (2026 guide)",
-   "hours": "Church interior: Mon-Fri approx 9-17, Sat ~9-13 (sources conflict), Sun from 13:00. Panorama/dome terrace daily ~9-19 (last sale 18:30), not verified.",
+   "priceText": "Church 2,600 HUF · Dome terrace and treasury 5,000 HUF · Combined 6,800 HUF",
+   "hours": "Church Mon–Sat about 09:00–17:45 (Sat can close early for weddings), Sun from 13:00 · Dome terrace daily 09:00–19:00",
    "blurb": "Bigger than it looks inside: an enormous neoclassical basilica and a 360-degree dome terrace over the whole city.",
    "tip": "Dome terrace is a roofed-over alternative to the Bastion for daytime views; the church itself opens only from 13:00 on Sunday.",
-   "history": "Took 54 years (1851-1905) after the dome collapsed mid-build in 1868 and had to be rebuilt. At 96m it's exactly as tall as Parliament - neither is allowed to be taller. Inside is Hungary's holiest relic, the mummified right hand of King St Stephen.",
+   "history": "Took 54 years (1851–1905) after the dome collapsed mid-build in 1868 and had to be rebuilt. At 96m it's exactly as tall as Parliament: neither is allowed to be taller. Inside is Hungary's holiest relic, the mummified right hand of King St Stephen.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Stephens_bas_budapest.jpg?width=900",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276822-Reviews-St_Stephen_s_Basilica_Szent_Istvan_Bazilika-Budapest_Central_Hungary.html",
@@ -3299,10 +3267,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Park and terraces free; new 'Bastion of Freedom' exhibition about 4,900 HUF adult (2026 travel guide)",
-   "hours": "Hill and park open daily from morning; Citadella reopened spring 2026 (planned 28 Mar, reported 5 Apr after wind delay). Evening views are best.",
+   "priceText": "Park and terraces free. The new 'Bastion of Freedom' exhibition is about 4,900 HUF per adult.",
+   "hours": "Hill and park open daily from morning. The Citadella reopened in spring 2026 (delayed to 5 Apr by wind). Evening views are best.",
    "blurb": "Best sunset spot in the city. 235m, 30-minute puff-up from Liberty Bridge, and the whole Danube is at your feet. Statue of a lady holding a palm leaf.",
-   "tip": "Walk up from the Elizabeth Bridge side (bus 27 also runs up). Do the sunset before your Saturday night out.",
+   "tip": "Walk up from Liberty Bridge or Elizabeth Bridge (about 30 minutes), or take bus 27 most of the way. Sunset is just before 18:00: go up before your Saturday night out.",
    "history": "The hill is named for St Gerard, a bishop pushed to his death in a barrel in 1046. The Citadella was built by the Habsburgs in 1851 to keep a nervous eye on Pest after the 1848 revolution. The Liberty Statue (1947) was a Soviet war memorial; Soviet-soldier figures were removed after 1989.",
    "image": null,
    "links": {
@@ -3337,10 +3305,10 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": "Free",
-   "hours": "Pedestrian access 24/7. Renovation of the bridge deck was completed around 2022-2023 (per sources).",
+   "hours": "Pedestrian access 24/7. Renovation of the bridge deck was completed around 2022–2023.",
    "blurb": "The grand lion-guarded bridge between Buda and Pest. Glows like a necklace at night. Walk across, grab a pastry on the other side.",
    "tip": "Cross at dusk for the lit-up view to Parliament. The renovation is finished and it's open to pedestrians.",
-   "history": "Opened 1849 as Budapest's first permanent Danube bridge, designed by Englishman William Tierney Clark. Blown up by retreating Germans in 1945 and rebuilt in 1949. The lions supposedly lack tongues - a myth; they have them, just hidden from below.",
+   "history": "Opened 1849 as Budapest's first permanent Danube bridge, designed by Englishman William Tierney Clark. Blown up by retreating Germans in 1945 and rebuilt in 1949. The lions supposedly lack tongues. A myth: they have them, just hidden from below.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg?width=900",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d276821-Reviews-Szechenyi_Lanchid-Budapest_Central_Hungary.html",
@@ -3372,11 +3340,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Standard BKK ticket applies (price not verified for Oct 2026)",
-   "hours": "Trains run daily from early morning until about 23:00 (not verified for 17/18 Oct). Museum hours not verified.",
-   "blurb": "Tiny yellow Victorian trains running just under the surface of Andrássy út. Quaint, ancient and still in service.",
-   "tip": "Ride it from Deák tér to Hősök tere and back: 11 stops, ~12 minutes, rich Victorian tile detailing.",
-   "history": "Opened in 1896 for the Millennium celebrations, it's the second-oldest underground railway in the world after London's (1863) - and the first on continental Europe. It was dug just under the pavement using cut-and-cover. Still rattling after 130 years.",
+   "priceText": "Standard BKK ticket. Check the current price before you go.",
+   "hours": "Trains daily from early morning to about 23:00. Museum hours unknown. Check before you go.",
+   "blurb": "Tiny yellow 1890s trains running just under the surface of Andrássy út. Quaint, ancient and still in service.",
+   "tip": "Ride it from Deák tér to Hősök tere and back: 11 stops, about 12 minutes, rich period tile detailing.",
+   "history": "Opened in 1896 for the Millennium celebrations, it's the second-oldest underground railway in the world after London's (1863), and the first on continental Europe. It was dug just under the pavement using cut-and-cover. Still rattling after 130 years.",
    "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d2501174-Reviews-Underground_Railway_Museum-Budapest_Central_Hungary.html",
@@ -3409,11 +3377,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Grounds free; Agricultural Museum inside has separate ticket (price not verified)",
-   "hours": "Grounds open 24/7 (park). Agricultural Museum Tue-Sun daytime (not verified).",
+   "priceText": "Grounds free. The Agricultural Museum inside has a separate ticket; check the price before you go.",
+   "hours": "Grounds open 24/7 (park). Agricultural Museum Tue–Sun daytime. Check before you go.",
    "blurb": "A fairy-tale castle that is actually four architectural styles in one. Boating lake in summer, ice rink in winter. Photogenic. Free.",
    "tip": "Takes 15 minutes. Pair with Heroes' Square and the baths.",
-   "history": "Built for the 1896 Millennium Exhibition in cardboard and timber as a 'greatest hits' of Hungarian architecture - Romanesque, Gothic, Renaissance, Baroque. It proved so popular it was rebuilt in stone and brick in 1904-08. Now it houses an agricultural museum.",
+   "history": "Built for the 1896 Millennium Exhibition in cardboard and timber as a 'greatest hits' of Hungarian architecture: Romanesque, Gothic, Renaissance, Baroque. It proved so popular it was rebuilt in stone and brick in 1904–08. Now it houses an agricultural museum.",
    "image": null,
    "links": {
     "ta": null,
@@ -3445,8 +3413,8 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "English guided tour ~12,000 HUF (Oct 2026 guide); the cheapest seat for a performance costs less than the tour",
-   "hours": "English tours reportedly daily at 13:30, 15:00 and 16:30 (weekend times may differ; not verified). Evening performances vary - check the programme.",
+   "priceText": "English guided tour about 12,000 HUF. The cheapest seat for a performance costs less than the tour.",
+   "hours": "English tours reportedly daily at 13:30, 15:00 and 16:30; weekend times may differ. Evening performances vary, so check the programme.",
    "blurb": "Gold-leaf neo-Renaissance opera house on Andrássy. Stand under the chandelier and pretend you own a yacht. Tour or a cheap standing seat.",
    "tip": "A cheap standing/restricted-view seat for an evening show can cost less than the tour. Smart casual if you go.",
    "history": "Opened 1884, designed by Miklós Ybl. Legend says Emperor Franz Joseph insisted it be smaller than Vienna's opera house, so Ybl made it better. Gustav Mahler ran the place in the 1890s. The chandelier alone weighs three tonnes.",
@@ -3482,8 +3450,8 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": "Free",
-   "hours": "Street, open 24/7; shops/cafes on regular hours.",
-   "blurb": "Budapest's Champs-Élysées: a UNESCO-listed boulevard of mansions, Opera, fashion shops and cafes. Great for the Sunday-morning stroll.",
+   "hours": "Street, open 24/7; shops and cafés on regular hours.",
+   "blurb": "Budapest's Champs-Élysées: a UNESCO-listed boulevard of mansions, Opera, fashion shops and cafés. Great for the Sunday-morning stroll.",
    "tip": "Walk the whole thing Sunday morning, grab a coffee and a pastry on the way, and end up at Heroes' Square.",
    "history": "Laid out in the 1870s and named for Count Gyula Andrássy, it linked the city centre to the City Park. Under it runs the 1896 M1 Underground. Its tree-lined 2.5km stretch passes the Opera, Terror House and Liszt Academy.",
    "image": null,
@@ -3517,8 +3485,8 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Free entry. Bike hire ~1,500-2,500 HUF/hr; four-person pedal carts (bringóhintó) ~3,000-5,000 HUF/hr (2026 guide estimates)",
-   "hours": "Park open 24/7. Musical Fountain season to 31 Oct, daily 10-22 with a 21:00 grand finale (check - one report of shutdown). Rentals available in Oct, hours not verified.",
+   "priceText": "Free entry. Bike hire about 1,500–2,500 HUF per hour; four-person pedal carts (bringóhintó) about 3,000–5,000 HUF per hour (estimates).",
+   "hours": "Park open 24/7. Musical Fountain runs to 31 Oct, daily 10:00–22:00 with a 21:00 grand finale. Rental hours vary. Check before you go.",
    "blurb": "A traffic-free island in the Danube: bikes, pedal-carts, a water tower, ruined convent and a dancing fountain. Perfect hangover walk.",
    "tip": "Hire a four-seat pedal cart for a laugh. Bus 26 runs through. Walk from Margaret Bridge in 5 minutes.",
    "history": "Named for Saint Margaret, daughter of King Béla IV, who was promised to God during the 1241 Mongol invasion and spent her life in the island's convent. In the 19th century Palatine Joseph turned it into a landscaped garden. Cars are banned.",
@@ -3552,10 +3520,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "About 3,000 HUF adult (one listing; another says EUR 13)",
-   "hours": "Sources conflict: daily 10:00-19:30 or 11:00-18:30; one listing carries a 'currently closed' note - verify before going.",
+   "priceText": "About 3,000 HUF per adult (some listings say €13).",
+   "hours": "Daily 10:00–19:30 (some listings say 11:00–18:30). One listing shows it as currently closed. Check before you go.",
    "blurb": "A 1.5km cave maze under Castle Hill: medieval dungeons, Dracula lore and a dim night tour. Dark, silly, atmospheric.",
-   "tip": "Confirm it's open (reports of a closure note). Bring a jacket; it's chilly. Combine with Hospital in the Rock.",
+   "tip": "Bring a jacket; it's chilly. Combine with Hospital in the Rock. Check it's open before you go.",
    "history": "A natural cave network enlarged by humans for thousands of years: wine cellars, WWII air-raid shelter, and a legend of Vlad the Impaler (the real Dracula) being held prisoner in Buda in the 1460s.",
    "image": null,
    "links": {
@@ -3563,6 +3531,7 @@ window.BB_DATA = {
     "web": "https://labirintus.com",
     "book": null
    },
+   "unconfirmed": true,
    "wiki": "hu:Budavári Labirintus"
   },
   {
@@ -3588,11 +3557,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "About 1,400 HUF adult incl. audioguide (2026 guide)",
-   "hours": "Mon-Sat ~9:30-19:30, CLOSED Sunday; closed to tourists during Mass (sources conflict on Monday closing time).",
+   "priceText": "About 1,400 HUF per adult, including audioguide.",
+   "hours": "Mon–Sat 09:30–19:30 · Sun closed · No visits during Mass",
    "blurb": "A church inside a cave at the foot of Gellért Hill. Dark, atmospheric and weirdly beautiful. Ten minutes and you've seen one of the city's oddest sights.",
-   "tip": "Closed Sunday - go on Saturday on your way up to the Citadella. Cover your shoulders.",
-   "history": "Dug into the hill's rock by Pauline monks and consecrated in 1931. The Communists bricked it up in 1951, imprisoned the monks, and hid the entrance. It was reopened to the public in 1989.",
+   "tip": "Closed Sunday: go on Saturday on your way up to the Citadella. Cover your shoulders.",
+   "history": "Dug into the hill's rock by Pauline monks and consecrated in 1931. The communists bricked it up in 1951, imprisoned the monks, and hid the entrance. It was reopened to the public in 1989.",
    "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d17796663-Reviews-Cave_Church-Budapest_Central_Hungary.html",
@@ -3623,11 +3592,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "Full-day locker ticket 14,800 HUF Fri/weekend (13,200 Mon-Thu; 15,800 holiday/peak). Cabin ~+1,000 HUF. Fast Track online 16,800 HUF weekend. Towels: bring own or buy from ~6,900 HUF.",
-   "hours": "Reported Sat-Sun 8:00-20:00 (Mon-Fri 7:00-20:00). Sparty runs here Sat 17 Oct night (see Sparty).",
+   "priceText": "Locker ticket about 14,800 HUF Fri–Sun (13,200 Mon–Thu; 15,800 peak days). Cabin about 1,000 HUF extra. Fast Track online 16,800 HUF at weekends. Towels: bring your own or buy from about 6,900 HUF.",
+   "hours": "Mon–Fri 07:00–20:00 · Sat–Sun 08:00–20:00. Sparty runs here on Sat 17 Oct night (see Sparty).",
    "blurb": "Europe's biggest medicinal bath. Hot yellow palace, steaming outdoor pools and old men playing chess in the water. A proper lad-trip classic.",
    "tip": "Book Fast Track online. Bring flip-flops, a towel and swim shorts. Cabin if you want privacy, locker if you're fine sharing a changing room.",
-   "history": "Opened 1913 in neo-Baroque style, drawing from two thermal springs (74C and 77C). Named after Count István Széchenyi who also championed the Chain Bridge. The outdoor chess boards are a ritual and visitors report that Hungarians take it seriously.",
+   "history": "Opened 1913 in neo-Baroque style, drawing from two thermal springs (74°C and 77°C). Named after Count István Széchenyi, who also championed the Chain Bridge. The outdoor chess boards are a ritual, and locals reportedly take them very seriously.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Sz%C3%A9chenyi_Baths_R03.jpg?width=900",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279029-Reviews-Szechenyi_Thermal_Bath_and_Swimming_Pool-Budapest_Central_Hungary.html",
@@ -3658,11 +3627,11 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "CLOSED - no 2026 tickets",
-   "hours": "CLOSED since 1 October 2025 for a major renovation. Reopening targeted for 2028 (some guides say late 2028-early 2029). Do not plan around it.",
-   "blurb": "The Art Nouveau icon with stained glass and the wave pool - but closed until at least 2028. Pick Rudas or Széchenyi instead.",
+   "priceText": "Closed. No tickets in 2026.",
+   "hours": "Closed since 1 Oct 2025 for a major renovation. Reopening targeted for 2028 (some guides say late 2028–early 2029). Don't plan around it.",
+   "blurb": "The Art Nouveau icon with stained glass and the wave pool, but closed until at least 2028. Pick Rudas or Széchenyi instead.",
    "tip": "Closed: swap to Rudas or Széchenyi. Its Art Nouveau facade is still worth a photo from the Liberty Bridge.",
-   "history": "Opened 1918 as part of the Gellért Hotel, which was damaged in WWII. The renovation (reported ~20bn HUF) is meant to add a panoramic sunbathing terrace and a wellness area.",
+   "history": "Opened 1918 as part of the Gellért Hotel, which was damaged in WWII. The renovation (reported at about 20bn HUF) is meant to add a panoramic sunbathing terrace and a wellness area.",
    "image": null,
    "links": {
     "ta": null,
@@ -3695,9 +3664,9 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "All-zone day ticket 15,000 HUF Fri-Sun (12,000 Mon-Thu; 16,000 holidays). Night bathing Fri & Sat 15,000 HUF, online only (2026 guides).",
-   "hours": "Wellness zone/rooftop roughly 6:00-20:00 Tue-Sun (sources conflict). Night bathing Fri & Sat 22:00-03:00. Weekends mixed - swimsuit required. Sat 17 Oct night session applies.",
-   "blurb": "A 16th-century Ottoman dome with 36-40C pools, plus a rooftop jacuzzi with a Danube view. Go late on a Saturday night: dark, steamy, atmospheric.",
+   "priceText": "All-zone day ticket 15,000 HUF Fri–Sun (12,000 Mon–Thu; 16,000 holidays). Night bathing Fri and Sat 15,000 HUF, online only.",
+   "hours": "Wellness zone and rooftop roughly 06:00–20:00 Tue–Sun. Night bathing Fri and Sat 22:00–03:00. Weekends are mixed; swimsuit required. The Sat 17 Oct night session applies. Check before you go.",
+   "blurb": "A 16th-century Ottoman dome with 36–40°C pools, plus a rooftop jacuzzi with a Danube view. Go late on a Saturday night: dark, steamy, atmospheric.",
    "tip": "Night session is mixed and swimsuit mandatory. Pre-book online; flip-flops and a towel essential.",
    "history": "Built around 1550 during the Turkish occupation of Buda, its central octagonal pool sits under an original Ottoman dome on eight pillars. A modern rooftop pool was added in a 2010s refit.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudas_F%C3%BCrd%C5%91.jpg?width=960",
@@ -3731,10 +3700,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "Day ticket 7,000 HUF Mon-Thu; 8,000 HUF Fri-Sun (TicketLens); online complex ticket 8,900 HUF",
-   "hours": "Reported daily 7:00-19:00 (some say 6-20); ticket desk closes an hour before close. Check lukacsfurdo.hu.",
-   "blurb": "The locals' favourite - old-school, a bit scruffy, good thermal pools and a drinking hall, with a famous wall of marble thank-you plaques.",
-   "tip": "Good low-key alternative if Széchenyi is rammed. Check opening hours at lukacsfurdo.hu. Take cash/card, towel.",
+   "priceText": "Day ticket 7,000 HUF Mon–Thu; 8,000 HUF Fri–Sun; online complex ticket 8,900 HUF.",
+   "hours": "Daily 07:00–19:00 (some say 06:00–20:00); ticket desk closes an hour before closing. Check lukacsfurdo.hu before you go.",
+   "blurb": "The locals' favourite: old-school, a bit scruffy, good thermal pools and a drinking hall, with a famous wall of marble thank-you plaques.",
+   "tip": "Good low-key alternative if Széchenyi is rammed. Bring a towel and cash or card.",
    "history": "A bathing site since the 12th century when Knights Hospitaller ran a hospital here; today's neoclassical complex is 19th-century. The courtyard wall is covered in marble plaques from grateful healed patients, including many famous writers and artists.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szent_Luk%C3%A1cs_Gy%C3%B3gyf%C3%BCrd%C5%91.jpg?width=960",
    "links": {
@@ -3765,9 +3734,9 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Standard adult ~3,500 HUF weekday / ~4,000 HUF weekend (earlier source); 2026 reports of sharp weekend rises - verify",
-   "hours": "Reported opens ~9:00 daily; closing time not confirmed. A source mentions reduced prices during ongoing renovation.",
-   "blurb": "Budget locals' bath next to the Unicum factory. No-frills indoor pool, cheap and quiet. Cheap enough to tick the thermal box if Széchenyi's rammed.",
+   "priceText": "Indoor about 3,500 HUF weekdays, 4,000 weekends; with sauna about 4,000–4,500 HUF. 2026 rises reported.",
+   "hours": "Daily from about 09:00; closing time varies (around 19:00)",
+   "blurb": "Budget locals' bath next to the Unicum factory. No-frills indoor pool, quiet and cheap enough to tick the thermal box if Széchenyi's rammed.",
    "tip": "Pair with a Zwack Unicum visit. Bring your own towel; not tourist-ready.",
    "history": "A modest district bath in Ferencváros, next to the Zwack Unicum factory; the herbal liqueur is a Hungarian rite of passage.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dand%C3%A1r_Bath_%281930%29._Entrance._-_Vaskapu_Street%2C_Budapest.JPG?width=960",
@@ -3776,6 +3745,7 @@ window.BB_DATA = {
     "web": "https://bathsbudapest.com",
     "book": "https://bathsbudapest.com"
    },
+   "notes": "Fully reopened after its renovation. 14+ only.",
    "imageKind": "building",
    "wiki": "hu:Dandár utcai gyógyfürdő"
   },
@@ -3801,10 +3771,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "About 5,700-7,200 HUF (2026 guides); 3-hour sessions only; pay at the door, no online booking",
-   "hours": "Reportedly reopened Sat 5 Sep 2026 after summer maintenance; verify. Strict 14+ policy.",
+   "priceText": "About 5,700–7,200 HUF; 3-hour sessions only. Pay at the door; no online booking.",
+   "hours": "Mon–Tue 15:00–21:00 · Wed–Sun 06:00–12:00 and 15:00–21:00 · 14+ only",
    "blurb": "Tiny, 16th-century Ottoman dome bath. Dark, hot, quiet and strictly no-messing. Sessions are 3 hours.",
-   "tip": "No online booking - just turn up. Swim trunks; follow house rules (no loud banter).",
+   "tip": "No online booking: just turn up. Swim trunks; follow house rules (no loud banter).",
    "history": "Built in the 1570s by Pasha Veli Bej, it's one of the oldest Turkish baths in Budapest. It has been renovated several times and retains its original central dome.",
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Veli_Bej_f%C3%BCrd%C5%91.jpg?width=960",
    "links": {
@@ -3812,6 +3782,7 @@ window.BB_DATA = {
     "web": "https://bathsbudapest.com",
     "book": null
    },
+   "notes": "Shut for maintenance in late August; ring +36 1 438 8400 to check it has reopened.",
    "imageKind": "building",
    "wiki": "hu:Veli bej fürdő"
   },
@@ -3836,10 +3807,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "CLOSED",
-   "hours": "Closed for restoration since 2019/2020; no reopening date published as of 2026.",
+   "priceText": "Closed",
+   "hours": "Closed for restoration since 2019 or 2020; no reopening date published as of 2026.",
    "blurb": "Small Ottoman-era bath in Víziváros. Closed with no reopening date. Don't build a plan on it.",
-   "tip": "Closed - choose Rudas for an Ottoman-bath experience instead.",
+   "tip": "Closed: choose Rudas for an Ottoman-bath experience instead.",
    "history": "Ottoman-era bath finished in 1578. Plans for a reopening via a Turkish-Hungarian foundation were reported in 2024 but no date is set.",
    "image": null,
    "links": {
@@ -3873,10 +3844,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 4,
-   "priceText": "Basic ticket with locker 25,375 HUF (~EUR 65); Premium with locker + 4 drinks coupons and 19:00 warm-up 31,621 HUF (~EUR 81); one source says EUR 59",
-   "hours": "Saturday night, ~21:30-02:00 (warm-up from 19:00 in the Pavilion Garden for Premium). Listed for Sat 17 Oct 2026 per Baths Budapest/Széchenyi pages (availability not verified). 18+ only.",
+   "priceText": "Basic ticket with locker 25,375 HUF (about €65). Premium with locker, four drinks coupons and 19:00 warm-up 31,621 HUF (about €81). One source says €59.",
+   "hours": "Saturday nights about 21:30–02:00 (Premium warm-up from 19:00) · 18+",
    "blurb": "The legendary bath-party: DJs, lasers and bikinis in outdoor thermal pools. Peak lad-weekend material. Sells out.",
-   "tip": "Book immediately. Bring waterproof phone pouch. Only outdoor pools are open.",
+   "tip": "Book immediately. Bring a waterproof phone pouch. Only outdoor pools are open.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Gy%C3%B3gyf%C3%BCrd%C5%91_thermal_spa_in_Budapest_013.JPG?width=960",
    "links": {
@@ -3884,6 +3855,7 @@ window.BB_DATA = {
     "web": "https://szechenyibath.com/magic-bath-parties-in-budapest/",
     "book": "https://spartybooking.com/entry-tickets/"
    },
+   "notes": "We could not confirm a Sat 17 Oct date yet: check the official booking page before you plan around it.",
    "hidePin": true,
    "must": true,
    "wiki": "Széchenyi thermal bath"
@@ -3910,8 +3882,8 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "5,500 HUF adult (4,000 under-26/over-62), unlimited free-play on all machines (official site snippet)",
-   "hours": "Official: Wed-Fri 16:00-24:00, Sat 13:00-24:00, Sun 11:00-22:00; closed Mon/Tue.",
+   "priceText": "5,500 HUF adult (4,000 under-26 and over-62), with unlimited free play on all machines.",
+   "hours": "Wed–Fri 16:00–00:00 · Sat 13:00–00:00 · Sun 11:00–22:00 · Mon–Tue closed",
    "blurb": "Pinball and arcade machines on free-play for one ticket. Competitive lad-gold for a rainy Saturday afternoon.",
    "tip": "Great Sat afternoon/pre-dinner plan. Tickets at the door or online; arcade tournaments get serious.",
    "history": null,
@@ -3944,10 +3916,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 3,
-   "priceText": "Packages via Expedia (USD): basic ~$96, Hollywood ~$121 (incl. AK-47), Gamer ~$191, All-In ~$314 per person. HUF price not verified.",
-   "hours": "Not verified for 17/18 Oct. Pre-book required; transport to venue not included.",
+   "priceText": "Packages from about £70 to £235 per person (Expedia lists them in US dollars: basic about $96, Hollywood about $121 with AK-47, Gamer about $191, All-In about $314).",
+   "hours": "Pre-booking required. Transport to the venue is not included. Check times for 17 and 18 Oct before you go.",
    "blurb": "AK-47s, shotguns and handguns on a safe indoor range. Lad-weekend staple. Reserve a slot early.",
-   "tip": "Book a package in advance; bring ID. Check the address on your booking - coordinates here are approximate.",
+   "tip": "Book a package in advance; bring ID. The pin here is approximate, so check the address on your booking.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trap_shooting_range.JPG?width=960",
    "links": {
@@ -3969,7 +3941,7 @@ window.BB_DATA = {
     "games"
    ],
    "district": "VII",
-   "address": "District VII, exact address not verified - see booking page",
+   "address": null,
    "lat": 47.503,
    "lng": 19.065,
    "approx": true,
@@ -3980,10 +3952,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "Per person: 12,000 HUF for 2, 7,000 for 4, 6,000 for 6 (Secret Subway, 75 min). Max 6 per room (2026 guide, Sep 2026).",
-   "hours": "Timeslots vary - not verified for 17/18 Oct. Pre-book.",
+   "priceText": "Secret Subway (75 min), per person: 12,000 HUF for 2 players, 7,000 HUF for 4, 6,000 HUF for 6. Max 6 per room.",
+   "hours": "Timeslots vary. Pre-book. Check times for 17 and 18 Oct before you go.",
    "blurb": "Six lads, a locked room and an hour to prove who's actually clever. Reliable team-building (or team-breaking).",
-   "tip": "Split into two teams of 4-6 and compete. MystIQueRoom (Districts V/XIII) is another option at ~5,990 HUF pp for six.",
+   "tip": "Split into two teams of 4–6 and compete. MystIQueRoom (Districts V/XIII) is another option at about 5,990 HUF per person for six.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
    "links": {
@@ -4016,9 +3988,9 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "About $24-25 per person for 60 minutes; ~$27-28 for 90 minutes (Expedia listings)",
-   "hours": "Book via website; reservation within 24h by phone. Times not verified for 17/18 Oct.",
-   "blurb": "Beer in one hand, axe in the other - in a controlled lane. Sets of throws with a coach. Easy, loud, brilliant.",
+   "priceText": "About £18–21 per person for 60–90 minutes (Expedia lists about $24–28).",
+   "hours": "Book via the website, or by phone within 24 hours. Check times for 17 and 18 Oct before you go.",
+   "blurb": "Beer in one hand, axe in the other, in a controlled lane. Sets of throws with a coach. Easy, loud, brilliant.",
    "tip": "Great pre-night-out activity in the party district. Book a lane for the group.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Doh%C3%A1ny_Stra%C3%9Fe_32-34%2C_Eingang%2C_2021_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
@@ -4051,8 +4023,8 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "About USD 29 per person for a 75-minute unlimited prosecco cruise; cheaper evening options from ~EUR 15-19 (2026 guides)",
-   "hours": "Daily day and evening departures (exact Sat 17 Oct times not verified). Book online.",
+   "priceText": "About £22 per person for the 75-minute unlimited prosecco cruise (listed at about $29); simpler evening cruises from about £13–16.",
+   "hours": "Daily day and evening departures. Book online. Check Sat 17 Oct times before you go.",
    "blurb": "75 minutes of Parliament lit up and bottomless fizz. Cheap, loud, perfect for a pre-dinner warm-up.",
    "tip": "Pick the late-evening slot; sit upstairs but wrap up. Book online ahead for the weekend.",
    "history": null,
@@ -4086,9 +4058,9 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "About USD 29 for 60 min; ~USD 41 for 90 min per person (Expedia public tour listing)",
-   "hours": "Tours depart daily in season (times not verified for 17/18 Oct).",
-   "blurb": "Pedal-powered beer bikes are reportedly banned in the city; the electric BeerBus carries the beer instead. A sightseeing pub-on-wheels.",
+   "priceText": "About £22 per person for 60 minutes, £31 for 90 minutes (listed at about $29 and $41).",
+   "hours": "Tours depart daily in season. Check times for 17 and 18 Oct before you go.",
+   "blurb": "Pedal-powered beer bikes are reportedly banned in the city, so the electric BeerBus carries the beer instead. A sightseeing pub-on-wheels.",
    "tip": "Check your booking page for the meeting point; this is a rough city-centre pin.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Bank_%C3%A9s_Ikarus_260_s%C3%B6rbusz%2C_2019_Ter%C3%A9zv%C3%A1ros.jpg?width=960",
@@ -4124,9 +4096,9 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": "3,900 HUF adult (2,800 discounted); combined ticket with Szemlő-hegy cave 5,900 HUF. Budapest Card free.",
-   "hours": "Official: Tue-Sun 10:00-16:00, tours start at :15 past each hour, last at 16:15. Closed Mondays.",
+   "hours": "Tue–Sun, tours at quarter past each hour from 10:15, last tour 16:15 · Mon closed",
    "blurb": "An hour underground in a limestone cave 20 minutes from the centre: stalactites, narrow passages and an easy tour.",
-   "tip": "Take bus 65 from Kolosy tér. Adventure caving (≈EUR 50) is a tougher option.",
+   "tip": "Take bus 65 from Kolosy tér. Adventure caving (about €50) is a tougher option.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palvolgyi1_Szepvolgyi162.jpg?width=960",
    "links": {
@@ -4156,10 +4128,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "4,900 HUF standard (age 12+); priority 6,900; priority with sparkling wine 8,900 (Aug 2026 guide)",
-   "hours": "Reported 11:00-23:00, Fri & Sat to midnight, open all year.",
+   "priceText": "4,900 HUF standard (age 12+); priority 6,900 HUF; priority with sparkling wine 8,900 HUF.",
+   "hours": "Daily 11:00–23:00 · Fri–Sat to 00:00 · Open all year",
    "blurb": "Giant wheel in Erzsébet tér, right on the pub trail. Free views exist elsewhere, but this is quick and central.",
-   "tip": "Free views from Gellért Hill and the Bastion beat it - go only if you're doing the bar crawl nearby.",
+   "tip": "Free views from Gellért Hill and the Bastion beat it: go only if you're doing the bar crawl nearby.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_V._Erzs%C3%A9bet_t%C3%A9r%2C_Budapest_Sziget_Eye.JPG?width=960",
    "links": {
@@ -4181,9 +4153,9 @@ window.BB_DATA = {
     "free"
    ],
    "district": "V",
-   "address": "Meeting point per listing: Imre Nagy statue (Jászai Mari tér / Kossuth area)",
-   "lat": 47.5076,
-   "lng": 19.0468,
+   "address": "Szent István tér 1, 1051 Budapest (St Stephen’s Basilica)",
+   "lat": 47.50085,
+   "lng": 19.05385,
    "approx": true,
    "rating": {
     "ta": null,
@@ -4192,10 +4164,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Pay-what-you-wish (tip-based); minimum of 2 people (Guruwalk listing)",
-   "hours": "Schedule varies by day; Sunday-morning departure not confirmed - check booking.",
+   "priceText": "Pay what you wish (tip-based); minimum of 2 people.",
+   "hours": "Schedule varies by day. Check the booking page for a Sunday-morning departure before you go.",
    "blurb": "Two hours on the Soviet years: secret police, Stalin and why queues were normal. A good morning hangover-walk.",
-   "tip": "Book via Guruwalk/Free Walking Tour; tip the guide properly (~3,000-5,000 HUF each).",
+   "tip": "Book via Guruwalk/Free Walking Tour; tip the guide properly (about 3,000–5,000 HUF each).",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagy_Imre_statue%2C_J%C3%A1szai_Mari_t%C3%A9r.jpg?width=960",
    "links": {
@@ -4203,6 +4175,7 @@ window.BB_DATA = {
     "web": "https://www.guruwalk.com/walks/66638-budapest-in-the-shadow-of-communism",
     "book": null
    },
+   "notes": "This is the meeting point for Guruwalk’s “Reds in Budapest” tour. Other operators meet elsewhere, so check your booking.",
    "imageKind": "nearby"
   },
   {
@@ -4227,8 +4200,8 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Free entry; bargain",
-   "hours": "Sat roughly 5:00/6:00-15:00 (sources conflict); Sun 8:00-13:00. Far out in District XIX.",
+   "priceText": "Free entry. Prices are up for haggling.",
+   "hours": "Sat from about 05:00 or 06:00 to 15:00 · Sun 08:00–13:00. Far out in District XIX. Check before you go.",
    "blurb": "Soviet badges, gas masks and a half-century of other Eastern Bloc junk. Haggle hard.",
    "tip": "Sat is the best day; it's a trek, so a Sunday visit conflicts with your 13:30 airport run.",
    "history": null,
@@ -4261,10 +4234,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 4,
-   "priceText": "MTLB + BTR ride AU$1,117 pp; T-55 AU$2,102 pp (Expedia, third-party pricing)",
-   "hours": "Not verified for 17/18 Oct. Pre-booking only.",
-   "blurb": "Drive a real Soviet-era tank across a field. Silly money, silly fun - proper stag-do energy.",
-   "tip": "Book well ahead. Coordinates are approximate; confirm location with the operator.",
+   "priceText": "Pricey: about £550 per person for the armoured-carrier rides and about £1,000 for a T-55 (Expedia lists AU$1,117 and AU$2,102).",
+   "hours": "Pre-booking only. Check times for 17 and 18 Oct before you go.",
+   "blurb": "Drive a real Soviet-era tank across a field. Silly money, silly fun, proper stag-do energy.",
+   "tip": "Book well ahead. The pin is approximate, so confirm the location with the operator.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
    "links": {
@@ -4296,10 +4269,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "One-way 3,000 HUF adult; return 4,000 HUF (BKV page); Budapest Card free",
-   "hours": "Closed for maintenance 28 Sep-16 Oct 2026; reopens Sat 17 Oct at reduced hours 10:00-17:00 (26-31 Oct 10:00-16:00). Weather-dependent.",
+   "priceText": "One-way 3,000 HUF adult; return 4,000 HUF. Budapest Card free.",
+   "hours": "Closed for maintenance until Fri 16 Oct; due to reopen Sat 17 Oct, about 10:00–17:00, weather permitting",
    "blurb": "A 1960s chairlift up János Hill. Wobbly retro fun and an easy way up to the Elizabeth Lookout.",
-   "tip": "It reopens on Saturday 17 Oct only; check BKV for weather closures before schlepping out.",
+   "tip": "Reopens Sat 17 Oct after maintenance. Check bkk.hu for weather closures before heading out.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_chairlift._Zugligeti_%28bottom%29_station_building_from_the_street_%28South%29._-_Budapest_12th_district._Zugligeti_Road_97.JPG?width=960",
    "links": {
@@ -4330,8 +4303,8 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 1,
-   "priceText": "Around 1,000 HUF adult single leg; 500 HUF child (2026 guide, unverified)",
-   "hours": "Runs most days except Mondays Sep-Apr; timetable for 17/18 Oct not verified.",
+   "priceText": "Around 1,000 HUF adult single leg; 500 HUF child. Check before you go.",
+   "hours": "Runs most days; Mon closed Sep–Apr. Timetable for 17 and 18 Oct unknown. Check before you go.",
    "blurb": "A narrow-gauge forest railway staffed by schoolkids in uniform. Soviet-era quirk that still works.",
    "tip": "Pair with the Zugliget chairlift, but it's a long trip for a short thing.",
    "history": null,
@@ -4366,10 +4339,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "EUR 10 entry only; EUR 25 with 4 tastings, EUR 24 with 6, EUR 45 with 8 (third-party site)",
-   "hours": "Daily 14:00-midnight; last tour two hours before closing; 18+.",
+   "priceText": "Entry about €10 (£9); tasting packages about €24–45 depending on how many pálinkas. Third-party prices, so check at the door.",
+   "hours": "Daily 14:00–00:00 · Last tour two hours before closing · 18+",
    "blurb": "A museum of Hungary's fruit firewater with a tasting you won't want to stop. Worth doing before Szimpla.",
-   "tip": "Do the 6-8 tasting option together; designate a navigator for Saturday night.",
+   "tip": "Go for the 6 or 8 tasting option as a group; designate a navigator for Saturday night.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20190110_p%C3%A1link%C3%A1s_szett.jpg?width=960",
    "links": {
@@ -4405,10 +4378,10 @@ window.BB_DATA = {
     "gN": null
    },
    "price": 2,
-   "priceText": "Combined museum+stadium 6,900 HUF adult (4,500 discounted); stadium tour alone 4,000 (official page, dated Jul 2025)",
-   "hours": "Stadium tours at 11:00, 13:30, 15:00; museum tours 12:00, 13:30; tours were Hungarian-only per 2025 page; matchday closures possible.",
+   "priceText": "Combined museum and stadium tour 6,900 HUF adult (4,500 discounted); stadium tour alone 4,000 HUF. Prices from July 2025; check before you go.",
+   "hours": "Stadium tours 11:00, 13:30, 15:00 · Museum tours 12:00, 13:30. Tours were Hungarian-only in 2025. Matchday closures possible.",
    "blurb": "Hungary's national stadium. Walk the tunnel, sit in the dugout and see a tribute to Ferenc Puskás, the Galloping Major.",
-   "tip": "Confirm English-language availability and match-day closures before heading out.",
+   "tip": "Check English-language availability and match-day closures before you head out.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pusk%C3%A1s_Ar%C3%A9na_03.jpg?width=960",
    "links": {
@@ -4706,27 +4679,32 @@ window.BB_DATA = {
    "items": [
     {
      "title": "Regulated taxi tariff (from 1 Aug 2026)",
-     "body": "Base fare 1,300 HUF, 521 HUF per km, 130 HUF per minute waiting (the first rise since 2023; an 18% hike). Airport trips add an 800 HUF surcharge, so the meter starts at 2,100 HUF.",
+     "body": "Licensed cabs: 1,300 HUF base (about £3), 521 HUF per km (about £1.20), 130 HUF per waiting minute. Airport trips add an 800 HUF surcharge, so the meter starts at 2,100 HUF. The first rise since 2023.",
      "link": "https://xpatloop.com/channels/2026/06/taxi-fares-to-rise-in-budapest-from-1-august.html"
     },
     {
+     "title": "Airport to city by taxi",
+     "body": "Főtaxi runs the official rank outside Terminal 2. The flat is about 20 km away, so at the 2026 tariff expect roughly 12,000–15,000 HUF (£28–35) depending on traffic. Bolt shows the price up front.",
+     "link": "https://budappest.com/budapest-airport-just-made-getting-a-taxi-more-complicated-heres-what-to-know/"
+    },
+    {
      "title": "Bolt",
-     "body": "The go-to app for Brits. Shows the price before you get in. Works with licensed taxis and private cars. Can surge on match nights, so order early.",
+     "body": "The go-to app. Shows the price before you get in and works with licensed taxis. Can surge on busy Friday and Saturday nights, so order early. Big group? Book a Bolt XL or split across cars.",
      "link": null
     },
     {
      "title": "Uber and Főtaxi",
-     "body": "Uber left in 2016 but returned in April 2024 via a partnership with Főtaxi (licensed yellow cabs). The Főtaxi app and Uber both work; Főtaxi is also the airport's official operator.",
+     "body": "Uber came back in 2024 via a partnership with Főtaxi, so you get a licensed yellow cab at the regulated tariff. At the airport, follow the signs to the ride-hailing pick-up zone in the app.",
      "link": "https://budappest.com/a-major-change-at-budapest-airport-fotaxi-and-uber-join-forces-for-smarter-travel/"
     },
     {
-     "title": "City Taxi / Főtaxi / Taxi 4x4",
-     "body": "If you must flag a cab, use a marked, yellow, licensed car with a visible meter, company logo and roof light. Phone numbers vary - rely on the apps instead.",
+     "title": "Flagging a cab",
+     "body": "If you must flag one, use a marked, yellow, licensed car with a visible meter, company logo and roof light. Phone numbers vary, so lean on the apps instead.",
      "link": null
     },
     {
      "title": "Scams to avoid",
-     "body": "Never take an unmarked or touting cab (esp. outside Keleti station and clubs). FCDO warns some drivers take commission to steer you to specific bars. Always agree the price or use the app.",
+     "body": "Never get into an unmarked or touting cab (esp. outside Keleti station and clubs). FCDO says some drivers get commission for steering you to certain bars, so do not ask them where to drink. Agree the price or use the app.",
      "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
     }
    ]
@@ -4737,13 +4715,18 @@ window.BB_DATA = {
    "items": [
     {
      "title": "Tickets & prices",
-     "body": "Single ticket 500 HUF (since 1 Jun 2025; 700 HUF from the driver). 24-hour travelcard 2,750 HUF, 72-hour 5,750 HUF (2026 MÁV/BKK tariff table, valid from 12 June 2026).",
-     "link": "https://www.mavcsoport.hu/sites/default/files/upload/page/helykozi_menetdijtablazat_2026_10_01.pdf"
+     "body": "Single ticket 500 HUF (about £1.20). 24-hour travelcard 2,750 HUF (about £6.50), 72-hour 5,750 HUF (about £13.50), per the 2026 BKK tariff tables. Check bkk.hu or the app before you buy.",
+     "link": "https://www.mavcsoport.hu/sites/default/files/upload/page/helykozi_menetdijtablazat_2._kiadas_ervenyes_2026_06.12-tol.pdf"
     },
     {
      "title": "BudapestGO app",
-     "body": "Official BKK app for tickets, travelcards and journey planning. Buy the 72h travelcard (5,750 HUF) for the whole weekend. Always validate paper tickets - inspectors in blue armbands fine hard.",
+     "body": "Official BKK app for tickets, travelcards and journey planning. The 72-hour travelcard covers the whole weekend. Validate any paper ticket: inspectors check often and fines are steep.",
      "link": "https://bkk.hu"
+    },
+    {
+     "title": "100E airport bus",
+     "body": "Direct from the airport to Kálvin tér and Deák Ferenc tér. Fare reported as 2,500 HUF (about £6), so confirm on bkk.hu. Tap a contactless card or phone on the validator by the door, or buy in the BudapestGO app.",
+     "link": "https://budapezt.com/100e-bus-budapest/"
     },
     {
      "title": "Metro lines",
@@ -4752,12 +4735,12 @@ window.BB_DATA = {
     },
     {
      "title": "Night & 24h services",
-     "body": "Trams 4 and 6 run all night around the Nagykörút; replacement night buses (9xx series) after the metro closes. Handy for getting back from ruin bars - but watch your pockets.",
+     "body": "Tram 6 runs all night around the Nagykörút, the big ring road a few minutes from the flat, and night buses (9xx) take over after the metro closes. Handy for getting back from the bars; watch your pockets.",
      "link": null
     },
     {
      "title": "Useful stops",
-     "body": "Deák Ferenc tér (all three M lines meet), Kálvin tér (M3/M4), Blaha Lujza tér (M2/trams 4&6), Népliget (M3, stadium).",
+     "body": "Deák Ferenc tér (M1, M2 and M3 meet), Kálvin tér (M3/M4), Blaha Lujza tér (M2, trams 4 and 6), Népliget (M3, for Fradi), Király utca tram stop (trams 4 and 6, by the flat).",
      "link": null
     }
    ]
@@ -4768,22 +4751,27 @@ window.BB_DATA = {
    "items": [
     {
      "title": "The forint (HUF)",
-     "body": "Roughly 1 GBP = 420-424 HUF (Sept 2026 snapshot; the pound was ~421 in July). So 1,000 HUF is about £2.40, a beer ~1,500-2,000 HUF (general knowledge). Check the live rate before you go.",
+     "body": "You pay in forints. About £1 = 425 HUF (late-summer 2026 rate), so 1,000 HUF is about £2.35 and 10,000 HUF about £23.50. Check the live rate in your banking app before you go.",
      "link": "https://longforecast.com/gbp-huf"
     },
     {
+     "title": "What a beer costs",
+     "body": "Local pub: about 800–1,000 HUF a half-litre (£1.90–2.35). Tourist-area bars: roughly 1,200–2,000 HUF (£2.80–4.70). Expect more in clubs and on Váci utca. Supermarket cans are far cheaper.",
+     "link": "https://budapezt.com/budapest-beer-prices/"
+    },
+    {
      "title": "Cards",
-     "body": "Contactless is accepted almost everywhere, including trams (via app) and bars. Carry some cash for tips, public toilets and small cafés.",
+     "body": "Contactless works almost everywhere, including bars, shops and the 100E bus. Carry a little cash for tips, public toilets and small cafés. A fee-free travel card saves on every purchase.",
      "link": null
     },
     {
      "title": "ATMs & DCC",
-     "body": "Avoid Euronet ATMs (poor rates, high fees). Use a bank ATM (OTP, K&H, Erste). Always choose to pay in forints (HUF) if a terminal offers GBP - dynamic currency conversion is a rip-off.",
+     "body": "Skip Euronet ATMs: poor rates and high fees. Use a bank ATM (OTP, K&H, Erste). If a card machine or ATM offers to charge you in pounds, say no and pay in HUF: that 'convenient' conversion costs you extra.",
      "link": null
     },
     {
      "title": "Tipping & service charge",
-     "body": "Tip 10-15% in restaurants and bars if service is not included. Check the bill: many places add 'szervizdíj' (service charge) of 12-15% - then do not tip twice. Tip in cash.",
+     "body": "Tip about 10% in bars and 10-15% in restaurants if service is not included. Check the bill: many places add 'szervizdíj' (service charge), often 12-15%, so do not tip twice. Tip in cash.",
      "link": null
     }
    ]
@@ -4794,12 +4782,22 @@ window.BB_DATA = {
    "items": [
     {
      "title": "UK roaming post-Brexit",
-     "body": "Charges vary by network and plan. Reported EU rates: EE ~£2.59/day, Vodafone ~£2.57/day, Three ~£2/day; O2 often free subject to a fair-use cap. Ofcom rules require alerts. Check YOUR plan before landing.",
-     "link": "https://cellesim.com/en/blog/uk-eu-roaming-charges-2026-your-guide-to-avoiding-bill-shock"
+     "body": "Free EU roaming is no longer guaranteed. Reported daily passes: EE about £2.50, Vodafone about £2.57, Three about £2, Sky £2. O2 and giffgaff reported as included within fair-use caps. Rates vary by plan, so check yours.",
+     "link": "https://www.airalo.com/blog/is-data-roaming-free-europe-uk"
+    },
+    {
+     "title": "Flying from Dublin",
+     "body": "UK networks treat the Republic of Ireland as home, so Dublin Airport is free. Hungary is not: roaming rules kick in when you land in Budapest. Check your plan before Thursday.",
+     "link": null
+    },
+    {
+     "title": "Smaller networks",
+     "body": "Tesco Mobile, iD, Lebara, Smarty and others each have their own EU roaming rules, and some newer plans now charge. Check your account or app before you fly. Networks must text you when charges start.",
+     "link": null
     },
     {
      "title": "eSIM option",
-     "body": "An eSIM such as Airalo (or similar) can be cheaper than daily roaming for a four-day weekend. Install it before you fly, and keep data roaming off for your UK SIM.",
+     "body": "An eSIM such as Airalo (or similar) is often cheaper than a daily roaming pass for a four-day weekend. Install it before you fly and keep data roaming off for your UK SIM.",
      "link": "https://www.airalo.com/blog/is-data-roaming-free-europe-uk"
     },
     {
@@ -4814,28 +4812,33 @@ window.BB_DATA = {
    "title": "Safety & scams",
    "items": [
     {
-     "title": "The bar/club scam (FCDO)",
-     "body": "UK FCDO warns some bars, clubs and restaurants inflate prices; tourists have been taken to cash machines to pay. Check menus and bills, and report incidents to police. Never follow street 'invites' into a bar.",
+     "title": "UK FCDO travel advice",
+     "body": "Read the FCDO’s Hungary advice before you go. It covers crime, scams and entry rules, and it is what your travel insurer will expect you to have followed.",
+     "link": "https://www.gov.uk/foreign-travel-advice/hungary"
+    },
+    {
+     "title": "The bar/club bill scam (FCDO)",
+     "body": "FCDO warns some bars, clubs and restaurants charge inflated prices, and tourists have been taken to cash machines to pay. Check the priced menu and the bill. Never follow street 'invites' into a bar.",
      "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
     },
     {
      "title": "The 'have a drink with us' scam",
-     "body": "Friendly strangers invite you to a bar, then a huge bill arrives with heavy security on the door. If a place has no priced menu on show, walk away, and agree prices before you order.",
-     "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+     "body": "Friendly strangers (often women) invite you to a bar, then a huge bill lands with heavies on the door. No priced menu on show? Walk away, and agree prices before you order.",
+     "link": null
     },
     {
      "title": "Drink spiking",
-     "body": "FCDO notes reports of drink spiking in Budapest bars. Buy your own drinks, keep them in sight and look after your mates.",
+     "body": "FCDO notes reports of drink spiking in Budapest bars. Buy your own drinks, keep them in sight, do not accept drinks from strangers and look after your mates.",
      "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
     },
     {
      "title": "Pickpockets",
-     "body": "Hot spots: trams 4 and 6, M1, Váci utca, Keleti station, the market hall. Phones in front pockets, wallet zipped. Do not leave phones on bar tables.",
+     "body": "Hot spots: trams 4 and 6, M1, Váci utca, Keleti station, the market hall. Phones in front pockets, wallet zipped. Never leave phones on bar tables.",
      "link": null
     },
     {
      "title": "Menu scams & fake police",
-     "body": "On Váci utca check the menu prices and ask before ordering; some places charge for bread or 'live music'. Plainclothes 'police' asking to check your wallet are fake - ask for a badge and police station.",
+     "body": "On Váci utca check menu prices before you order; some places charge for bread or 'live music'. Plainclothes 'police' asking to check your wallet are fake. Ask for ID and say you will go to the station.",
      "link": null
     }
    ]
@@ -4846,17 +4849,32 @@ window.BB_DATA = {
    "items": [
     {
      "title": "Numbers",
-     "body": "112 for everything (English-speaking operators). Police 107, ambulance 104, fire 105. UK Embassy Budapest can help with lost passports - save the number before you go.",
-     "link": "https://www.gov.uk/foreign-travel-advice/hungary"
+     "body": "112 for everything (English-speaking operators). Police 107, ambulance 104, fire 105. FCDO 24/7 help line for British nationals: +44 20 7008 5000.",
+     "link": "https://www.gov.uk/world/organisations/british-embassy-budapest"
     },
     {
-     "title": "Tourist police",
-     "body": "Budapest has English-speaking police help for visitors; I could not confirm a specific tourist-police number or office for 2026, so use 112 or visit the nearest police station (rendőrség).",
+     "title": "British Embassy Budapest",
+     "body": "Füge utca 5–7, 1022 Budapest (Buda side). For urgent help at any hour, ring the FCDO on +44 20 7008 5000; it puts you through to the embassy team. In-person visits are by appointment.",
+     "link": "https://www.gov.uk/world/organisations/british-embassy-budapest"
+    },
+    {
+     "title": "Irish passport holders",
+     "body": "If you travel on an Irish passport you can also use the Embassy of Ireland, Szabadság tér 7, 1054 Budapest, +36 1 301 4960. Out of hours, leave a voicemail or ring DFA Dublin +353 1 408 2000.",
+     "link": "https://www.ireland.ie/en/hungary/budapest/"
+    },
+    {
+     "title": "Lost your passport?",
+     "body": "Report it to the police (rendőrség) and get a written report, then contact the embassy. A UK Emergency Travel Document is applied for online and gets you home. Keep a photo of your passport.",
+     "link": "https://www.gov.uk/world/organisations/british-embassy-budapest"
+    },
+    {
+     "title": "Health cover",
+     "body": "Take your GHIC (state cover for necessary care) and travel insurance. They do not cover repatriation or everything a private clinic charges. Call 112 or 104 in an emergency.",
      "link": null
     },
     {
      "title": "24h pharmacy",
-     "body": "Look for 'éjjel-nappali gyógyszertár' (open all night) on Google Maps; there are a handful in the centre. Out-of-hours pharmacies show a sign for on-duty ('ügyelet'). Have paracetamol and rehydration for Saturday.",
+     "body": "Look for 'éjjel-nappali gyógyszertár' (open all night) on Google Maps; there are a handful in the centre. Have paracetamol and rehydration salts ready for Saturday.",
      "link": null
     }
    ]
@@ -4867,8 +4885,18 @@ window.BB_DATA = {
    "items": [
     {
      "title": "Plugs & power",
-     "body": "230V, 50Hz, Type C and F (two round pins). UK plugs need an adaptor. Bring a power bank; match nights are long.",
+     "body": "Hungary is 230V, 50Hz, with Type C/F sockets (two round pins). UK and Irish Type G plugs will not fit, so pack a Type C/F adaptor. A power bank helps on long nights.",
      "link": null
+    },
+    {
+     "title": "Time",
+     "body": "Hungary is one hour ahead of the UK and Ireland (CEST, UTC+2, until Sun 25 Oct 2026). Put your watch forward an hour when you land.",
+     "link": null
+    },
+    {
+     "title": "Passport & entry",
+     "body": "British passports: issued less than 10 years before you arrive and valid 3 months after you leave. Non-EU visitors go through the EU Entry/Exit System, so allow extra time. Irish passports just need to be valid.",
+     "link": "https://www.gov.uk/foreign-travel-advice/hungary/entry-requirements"
     },
     {
      "title": "Smoking",
@@ -4877,12 +4905,12 @@ window.BB_DATA = {
     },
     {
      "title": "Drinking age & ID",
-     "body": "Legal drinking age is 18. Foreigners are expected to carry ID: carry your passport (or a photocopy and photo of it), especially for match entry.",
+     "body": "Legal drinking age is 18. Carry your passport (or a photo of it), especially for match entry.",
      "link": null
     },
     {
-     "title": "Time & weather",
-     "body": "Hungary is on CEST (UTC+2) until Sun 25 Oct 2026, so one hour AHEAD of UK time. Pack a jacket: it is crisp by night.",
+     "title": "Weather",
+     "body": "Mid-October averages about 16°C by day and 7°C at night. Pack a jacket and a layer for late nights, plus a small brolly. The app’s forecast updates as the trip gets closer.",
      "link": null
     }
    ]
@@ -4991,7 +5019,6 @@ window.BB_DATA = {
   "body": "A Sparty is listed for Sat 17 Oct 2026 on the Baths Budapest and Széchenyi party pages (per search results; ticket availability not verified). Runs ~21:30-02:00 (18+ only), outdoor pools only. Basic ticket with locker ~25,375 HUF (~EUR 65); Premium (locker, drink coupons, 19:00 warm-up) ~31,621 HUF (~EUR 81). Other guides quote around EUR 59. Sells out - book on the official booking site.",
   "link": "https://spartybooking.com/entry-tickets/"
  },
- "stripWarning": "Budapest strip clubs are notorious for scams: inflated bills of hundreds or thousands of euros, forced 'tabs', and heavies at the door. Hungarian police and the US Embassy have warned about it. Never follow street promoters or anyone who approaches you. Agree prices in writing, pay per drink, never hand over your card. We list none.",
  "sources": [
   "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-by-team/",
   "https://www.globalgameguide.com/article/2026-27-uefa-europa-league-guide",

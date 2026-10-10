@@ -1,266 +1,278 @@
 {
-  "_readme": "Corrections applied on top of content/research/*.json by scripts/build-data.mjs. 'remove' drops duplicates; 'patch' merges fields into an item by id.",
-  "remove": [
-    "bars:karavan-food-court",
-    "bars:mazel-tov",
-    "sights:great-market-hall",
-    "sights:szimpla-sunday-market",
-    "bars:rocktogon",
-    "bars_extra:palinka-museum-and-bar"
-  ],
-  "patch": {
-    "airport": {
-      "lat": 47.4334,
-      "lng": 19.2617,
-      "venue": "Budapest Airport Terminal 2"
-    },
-    "bors-gasztrobar": {
-      "lat": 47.49668,
-      "lng": 19.06305,
-      "must": true
-    },
-    "karavan": {
-      "lat": 47.4973,
-      "lng": 19.0635,
-      "must": true
-    },
-    "zing-burger": {
-      "lat": 47.49745,
-      "lng": 19.06362
-    },
-    "koleves-kert": {
-      "lat": 47.4983,
-      "lng": 19.0643,
-      "pick": true
-    },
-    "koleves-vendeglo": {
-      "lat": 47.49852,
-      "lng": 19.06418
-    },
-    "a38-ship": {
-      "lat": 47.4763,
-      "lng": 19.0617,
-      "pick": true,
-      "must": true
-    },
-    "akvarium-klub": {
-      "lat": 47.4982,
-      "lng": 19.0534
-    },
-    "boutiq-bar": {
-      "lat": 47.4995,
-      "lng": 19.0557,
-      "pick": true
-    },
-    "doboz": {
-      "lat": 47.499,
-      "lng": 19.0647,
-      "pick": true
-    },
-    "ellato-kert": {
-      "lat": 47.4993,
-      "lng": 19.0647
-    },
-    "robot-club": {
-      "lat": 47.49932,
-      "lng": 19.06628
-    },
-    "stand": {
-      "lat": 47.4987,
-      "lng": 19.0574
-    },
-    "szimply": {
-      "lat": 47.4992,
-      "lng": 19.0567
-    },
-    "house-of-terror": {
-      "lat": 47.50695,
-      "lng": 19.06505
-    },
-    "shoes-on-the-danube": {
-      "lat": 47.5045,
-      "lng": 19.045,
-      "must": true
-    },
-    "gellert-baths": {
-      "lat": 47.48385,
-      "lng": 19.05145
-    },
-    "lukacs-baths": {
-      "lat": 47.5193,
-      "lng": 19.0376
-    },
-    "palvolgyi-cave": {
-      "lat": 47.5297,
-      "lng": 19.0154
-    },
-    "zugliget-chairlift": {
-      "lat": 47.5167,
-      "lng": 18.9748
-    },
-    "mazel-tov": {
-      "lat": 47.4991,
-      "lng": 19.0659,
-      "also": [
-        "bar"
-      ],
-      "addTags": [
-        "ruin-bar",
-        "late-night"
-      ],
-      "pick": true,
-      "must": true
-    },
-    "great-market-hall": {
-      "also": [
-        "sight"
-      ],
-      "addTags": [
-        "history"
-      ],
-      "must": true
-    },
-    "szimpla-farmers-market": {
-      "hidePin": true
-    },
-    "sparty-szechenyi": {
-      "hidePin": true,
-      "must": true
-    },
-    "e-exit-escape-room": {
-      "hidePin": true
-    },
-    "beerbus-budapest": {
-      "hidePin": true
-    },
-    "champs-sports-pub": {
-      "address": "Dohány utca 20, 1074 Budapest",
-      "lat": 47.49655,
-      "lng": 19.0621
-    },
-    "old-mans-music-pub": {
-      "unconfirmed": true
-    },
-    "ankert": {
-      "unconfirmed": true
-    },
-    "madhouse-by-mad-scientist": {
-      "lat": 47.4989,
-      "lng": 19.0566
-    },
-    "first-craft-beer-bbq": {
-      "lat": 47.4979,
-      "lng": 19.0574
-    },
-    "palinka-museum": {
-      "lat": 47.4989,
-      "lng": 19.0588,
-      "also": [
-        "bar"
-      ],
-      "addTags": [
-        "palinka"
-      ],
-      "district": "VI"
-    },
-    "mtk-vasas": {
-      "start": "19:00",
-      "arriveFrom": "18:00",
-      "end": "21:00",
-      "notes": "Confirmed by the booking: Friday 16 Oct, gates from 18:00, kick-off 19:00 Budapest time (18:00 UK). Opponent per MTK’s own fixture page.",
-      "tip": "Gates open 18:00: grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min from the flat and aim to be in by 18:30."
-    },
-    "for-sale-pub": {
-      "sub": "The post-it note bar",
-      "blurb": "The post-it note bar: every inch of wall and ceiling is covered in handwritten notes from visitors, with straw and peanut shells on the floor. Grab a pen, leave your mark, drink. Opposite the Great Market Hall.",
-      "addTags": [
-        "live-music"
-      ],
-      "pick": true,
-      "must": true
-    },
-    "karting-hungaroring": {
-      "arriveFrom": null,
-      "who": "all",
-      "notes": "Booked for 12:00. The venue is inside the Hungaroring grounds and runs on a temporary track during the circuit’s renovation. A taxi from the centre is roughly 12,000–14,000 HUF."
-    },
-    "szimpla-kert": {
-      "pick": true,
-      "must": true
-    },
-    "instant-fogas": {
-      "pick": true,
-      "must": true
-    },
-    "csendes-letterem": {
-      "pick": true
-    },
-    "lampas": {
-      "pick": true
-    },
-    "hotsy-totsy": {
-      "pick": true
-    },
-    "high-note-skybar": {
-      "pick": true,
-      "must": true
-    },
-    "360-bar": {
-      "pick": true,
-      "must": true
-    },
-    "elesztohaz": {
-      "pick": true
-    },
-    "fradi-plzen": {
-      "who": {
-        "only": [
-          "Phil",
-          "Chris",
-          "Paul"
-        ]
-      },
-      "notes": "Kick-off 21:00 Budapest time (20:00 UK) per UEFA’s fixture list; check uefa.com on the day. Gates-open time not published yet."
-    },
-    "hungarian-parliament": {
-      "must": true
-    },
-    "fishermans-bastion": {
-      "must": true
-    },
-    "buda-castle": {
-      "must": true
-    },
-    "st-stephens-basilica": {
-      "must": true
-    },
-    "chain-bridge": {
-      "must": true
-    },
-    "gellert-hill-citadella": {
-      "must": true
-    },
-    "hospital-in-the-rock": {
-      "must": true
-    },
-    "szechenyi-baths": {
-      "must": true
-    },
-    "rudas-baths": {
-      "must": true
-    },
-    "churchill-shooting-range": {
-      "must": true
-    },
-    "prosecco-danube-cruise": {
-      "must": true
-    },
-    "getto-gulyas": {
-      "must": true
-    },
-    "otkert": {
-      "lat": 47.50058,
-      "lng": 19.05175
-    }
+ "_readme": "Corrections applied on top of content/research/*.json by scripts/build-data.mjs. 'remove' drops duplicates; 'patch' merges fields into an item by id.",
+ "remove": [
+  "bars:karavan-food-court",
+  "bars:mazel-tov",
+  "sights:great-market-hall",
+  "sights:szimpla-sunday-market",
+  "bars:rocktogon",
+  "bars_extra:palinka-museum-and-bar",
+  "bars:ankert"
+ ],
+ "patch": {
+  "airport": {
+   "lat": 47.4334,
+   "lng": 19.2617,
+   "venue": "Budapest Airport Terminal 2"
+  },
+  "bors-gasztrobar": {
+   "lat": 47.49668,
+   "lng": 19.06305,
+   "must": true
+  },
+  "karavan": {
+   "lat": 47.4973,
+   "lng": 19.0635,
+   "must": true
+  },
+  "zing-burger": {
+   "lat": 47.49745,
+   "lng": 19.06362
+  },
+  "koleves-kert": {
+   "lat": 47.4983,
+   "lng": 19.0643,
+   "pick": true
+  },
+  "koleves-vendeglo": {
+   "lat": 47.49852,
+   "lng": 19.06418
+  },
+  "a38-ship": {
+   "lat": 47.4763,
+   "lng": 19.0617,
+   "pick": true,
+   "must": true
+  },
+  "akvarium-klub": {
+   "lat": 47.4982,
+   "lng": 19.0534
+  },
+  "boutiq-bar": {
+   "lat": 47.4995,
+   "lng": 19.0557,
+   "pick": true
+  },
+  "doboz": {
+   "lat": 47.499,
+   "lng": 19.0647,
+   "pick": true
+  },
+  "ellato-kert": {
+   "lat": 47.4993,
+   "lng": 19.0647
+  },
+  "robot-club": {
+   "lat": 47.49932,
+   "lng": 19.06628
+  },
+  "stand": {
+   "lat": 47.4987,
+   "lng": 19.0574
+  },
+  "szimply": {
+   "lat": 47.4992,
+   "lng": 19.0567
+  },
+  "house-of-terror": {
+   "lat": 47.50695,
+   "lng": 19.06505
+  },
+  "shoes-on-the-danube": {
+   "lat": 47.5045,
+   "lng": 19.045,
+   "must": true
+  },
+  "gellert-baths": {
+   "lat": 47.48385,
+   "lng": 19.05145
+  },
+  "lukacs-baths": {
+   "lat": 47.5193,
+   "lng": 19.0376
+  },
+  "palvolgyi-cave": {
+   "lat": 47.5297,
+   "lng": 19.0154
+  },
+  "zugliget-chairlift": {
+   "lat": 47.5167,
+   "lng": 18.9748
+  },
+  "mazel-tov": {
+   "lat": 47.4991,
+   "lng": 19.0659,
+   "also": [
+    "bar"
+   ],
+   "addTags": [
+    "ruin-bar",
+    "late-night"
+   ],
+   "pick": true,
+   "must": true
+  },
+  "great-market-hall": {
+   "also": [
+    "sight"
+   ],
+   "addTags": [
+    "history"
+   ],
+   "must": true
+  },
+  "szimpla-farmers-market": {
+   "hidePin": true
+  },
+  "sparty-szechenyi": {
+   "hidePin": true,
+   "must": true
+  },
+  "e-exit-escape-room": {
+   "hidePin": true,
+   "address": null
+  },
+  "beerbus-budapest": {
+   "hidePin": true
+  },
+  "champs-sports-pub": {
+   "address": "Dohány utca 20, 1074 Budapest",
+   "lat": 47.49655,
+   "lng": 19.0621
+  },
+  "old-mans-music-pub": {
+   "unconfirmed": true
+  },
+  "madhouse-by-mad-scientist": {
+   "lat": 47.4989,
+   "lng": 19.0566
+  },
+  "first-craft-beer-bbq": {
+   "lat": 47.4979,
+   "lng": 19.0574
+  },
+  "palinka-museum": {
+   "lat": 47.4989,
+   "lng": 19.0588,
+   "also": [
+    "bar"
+   ],
+   "addTags": [
+    "palinka"
+   ],
+   "district": "VI"
+  },
+  "mtk-vasas": {
+   "start": "19:00",
+   "arriveFrom": "18:00",
+   "end": "21:00",
+   "notes": "Confirmed by the booking: Friday 16 Oct, gates from 18:00, kick-off 19:00 Budapest time (18:00 UK). Opponent per MTK’s own fixture page.",
+   "tip": "Gates open 18:00: grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min from the flat and aim to be in by 18:30."
+  },
+  "for-sale-pub": {
+   "sub": "The post-it note bar",
+   "blurb": "The post-it note bar: every inch of wall and ceiling is covered in handwritten notes from visitors, with straw and peanut shells on the floor. Grab a pen, leave your mark, drink. Opposite the Great Market Hall.",
+   "addTags": [
+    "live-music"
+   ],
+   "pick": true,
+   "must": true
+  },
+  "karting-hungaroring": {
+   "arriveFrom": null,
+   "who": "all",
+   "notes": "Booked for 12:00. The venue is inside the Hungaroring grounds and runs on a temporary track during the circuit’s renovation. A taxi from the centre is roughly 12,000–14,000 HUF."
+  },
+  "szimpla-kert": {
+   "pick": true,
+   "must": true
+  },
+  "instant-fogas": {
+   "pick": true,
+   "must": true
+  },
+  "csendes-letterem": {
+   "pick": true
+  },
+  "lampas": {
+   "pick": true
+  },
+  "hotsy-totsy": {
+   "pick": true
+  },
+  "high-note-skybar": {
+   "pick": true,
+   "must": true
+  },
+  "360-bar": {
+   "pick": true,
+   "must": true
+  },
+  "elesztohaz": {
+   "pick": true
+  },
+  "fradi-plzen": {
+   "who": {
+    "only": [
+     "Phil",
+     "Chris",
+     "Paul"
+    ]
+   },
+   "notes": "Kick-off 21:00 Budapest time (20:00 UK) per UEFA’s fixture list; check uefa.com on the day. Gates-open time not published yet."
+  },
+  "hungarian-parliament": {
+   "must": true
+  },
+  "fishermans-bastion": {
+   "must": true
+  },
+  "buda-castle": {
+   "must": true
+  },
+  "st-stephens-basilica": {
+   "must": true
+  },
+  "chain-bridge": {
+   "must": true
+  },
+  "gellert-hill-citadella": {
+   "must": true
+  },
+  "hospital-in-the-rock": {
+   "must": true
+  },
+  "szechenyi-baths": {
+   "must": true
+  },
+  "rudas-baths": {
+   "must": true
+  },
+  "churchill-shooting-range": {
+   "must": true
+  },
+  "prosecco-danube-cruise": {
+   "must": true
+  },
+  "getto-gulyas": {
+   "must": true
+  },
+  "otkert": {
+   "lat": 47.50058,
+   "lng": 19.05175
+  },
+  "blastbeat-bar": {
+   "unconfirmed": true
+  },
+  "hold-street-market": {
+   "unconfirmed": true
+  },
+  "buda-castle-labyrinth": {
+   "unconfirmed": true
+  },
+  "communist-free-walking-tour": {
+   "lat": 47.50085,
+   "lng": 19.05385
   }
+ }
 }

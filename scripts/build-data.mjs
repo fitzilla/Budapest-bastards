@@ -328,7 +328,6 @@ const out = {
   climate: R.events.weatherClimate,
   localEvents: R.events.localEvents,
   sparty: R.sights.sparty,
-  stripWarning: R.bars.stripWarning,
   sources: [...new Set([...R.events.sources, ...R.bars.sources, ...(R.barsExtra.sources || []), ...R.food.sources, ...R.sights.sources,
     ...Object.values(ratings).flatMap((r) => r?.sources || [])])],
 };
