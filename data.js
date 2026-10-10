@@ -525,6 +525,7 @@ window.BB_DATA = {
     "book": null
    },
    "pick": true,
+   "must": true,
    "wiki": "A38 (ship)"
   },
   {
@@ -703,6 +704,7 @@ window.BB_DATA = {
     "book": null
    },
    "pick": true,
+   "must": true,
    "wiki": "Szimpla Kert"
   },
   {
@@ -740,6 +742,7 @@ window.BB_DATA = {
     "book": null
    },
    "pick": true,
+   "must": true,
    "imageKind": "building"
   },
   {
@@ -1062,6 +1065,7 @@ window.BB_DATA = {
     "book": null
    },
    "pick": true,
+   "must": true,
    "imageKind": "street",
    "imageCaption": "Vámház körút and Great Market Hall"
   },
@@ -1168,6 +1172,7 @@ window.BB_DATA = {
     "book": null
    },
    "pick": true,
+   "must": true,
    "imageKind": "street",
    "imageCaption": "Hercegprímás utca, Lipótváros"
   },
@@ -1205,6 +1210,7 @@ window.BB_DATA = {
     "book": null
    },
    "pick": true,
+   "must": true,
    "imageKind": "building",
    "imageCaption": "Párisi Nagy Áruház, Andrássy út 39"
   },
@@ -1910,6 +1916,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "imageKind": "street",
    "imageCaption": "Wesselényi utca at Erzsébet körút"
   },
@@ -2127,7 +2134,8 @@ window.BB_DATA = {
    "also": [
     "bar"
    ],
-   "pick": true
+   "pick": true,
+   "must": true
   },
   {
    "id": "stand25-bisztro",
@@ -2379,6 +2387,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "imageKind": "street",
    "imageCaption": "Kazinczy utca, Budapest"
   },
@@ -2599,7 +2608,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "must": true
   },
   {
    "id": "szimply",
@@ -2711,6 +2721,7 @@ window.BB_DATA = {
    "also": [
     "sight"
    ],
+   "must": true,
    "wiki": "Great Market Hall, Budapest"
   },
   {
@@ -2886,6 +2897,7 @@ window.BB_DATA = {
     "web": "https://www.parlament.hu",
     "book": "https://jegymester.hu/parlament"
    },
+   "must": true,
    "wiki": "Hungarian Parliament Building"
   },
   {
@@ -2922,6 +2934,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "wiki": "Buda Castle"
   },
   {
@@ -2958,6 +2971,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "wiki": "Fisherman's Bastion"
   },
   {
@@ -3030,6 +3044,7 @@ window.BB_DATA = {
     "web": "https://sziklakorhaz.eu/en/informacio",
     "book": "https://sziklakorhaz.eu/en/informacio"
    },
+   "must": true,
    "wiki": "Hospital in the Rock"
   },
   {
@@ -3138,6 +3153,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "wiki": "Shoes on the Danube Bank"
   },
   {
@@ -3210,6 +3226,7 @@ window.BB_DATA = {
     "web": "https://www.basilica.hu/en",
     "book": null
    },
+   "must": true,
    "wiki": "St. Stephen's Basilica"
   },
   {
@@ -3282,6 +3299,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "wiki": "Citadella"
   },
   {
@@ -3318,6 +3336,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "wiki": "Széchenyi Chain Bridge"
   },
   {
@@ -3604,6 +3623,7 @@ window.BB_DATA = {
     "web": "https://szechenyibath.com",
     "book": "https://bathsbudapest.com"
    },
+   "must": true,
    "wiki": "Széchenyi thermal bath"
   },
   {
@@ -3675,6 +3695,7 @@ window.BB_DATA = {
     "web": "https://bathsbudapest.com",
     "book": "https://bathsbudapest.com"
    },
+   "must": true,
    "imageKind": "building",
    "wiki": "Rudas Baths"
   },
@@ -3853,6 +3874,7 @@ window.BB_DATA = {
     "book": "https://spartybooking.com/entry-tickets/"
    },
    "hidePin": true,
+   "must": true,
    "wiki": "Széchenyi thermal bath"
   },
   {
@@ -3922,6 +3944,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "imageKind": "illustrative",
    "imageCaption": "A trap shooting range"
   },
@@ -4028,6 +4051,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "must": true,
    "wiki": "Danube"
   },
   {

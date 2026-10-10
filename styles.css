@@ -25,6 +25,8 @@
   --c-activity: #cf2f74;
   --c-travel: #3d3734;
   --c-base: #1f1a17;
+  --gold: #e8b007;
+  --gold-ink: #241a00;
   --fradi: #0b7a3e;
   --mtk: #1d4ed8;
   --good: #2f8a3e;
@@ -312,6 +314,8 @@ p { margin: 0; }
   backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
 }
 .card-badge.is-booked { background: var(--paprika); color: var(--on-paprika); }
+.card-badge.is-must { display: inline-flex; align-items: center; gap: 5px; background: var(--gold); color: var(--gold-ink); }
+.card-badge.is-must .ic { width: 14px; height: 14px; stroke-width: 2.4; }
 .card-badge.is-closed { background: var(--ink); color: var(--paper); }
 .heart {
   position: absolute; z-index: 2; top: 8px; right: 8px;
@@ -566,6 +570,13 @@ p { margin: 0; }
   pointer-events: none; z-index: -1;
 }
 .pin.is-dim { opacity: .35; }
+.pin.is-must .pin-dot::after {
+  content: "★"; position: absolute; top: -7px; right: -7px;
+  width: 16px; height: 16px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--gold); color: var(--gold-ink); border: 1.5px solid var(--paper);
+  font-size: 9.5px; line-height: 1;
+}
 .k-event { --c: var(--c-event); }
 .k-bar { --c: var(--c-bar); }
 .k-rock { --c: var(--c-rock); }
@@ -805,6 +816,14 @@ p { margin: 0; }
 .d-credit { position: absolute; z-index: 2; right: 10px; bottom: 8px; max-width: calc(100% - 20px); font-size: 11px; color: #fff; text-decoration: none; text-shadow: 0 1px 3px rgba(0, 0, 0, .7); display: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .d-hero:has(img.ok) .d-credit { display: block; }
 .d-body { padding: 22px var(--gutter) calc(32px + var(--safe-b)); display: grid; gap: 18px; }
+.d-must {
+  justify-self: start; display: inline-flex; align-items: center; gap: 6px;
+  height: 28px; padding: 0 12px; border-radius: var(--r-pill);
+  background: var(--gold); color: var(--gold-ink);
+  font-size: 12.5px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase;
+  margin-bottom: -8px;
+}
+.d-must .ic { width: 15px; height: 15px; stroke-width: 2.4; }
 .d-title { font: 900 38px/.95 var(--font-display); text-transform: uppercase; letter-spacing: .005em; }
 .d-sub { font-size: 15px; color: var(--ink-2); margin-top: 6px; }
 .d-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 14px; color: var(--ink-2); }

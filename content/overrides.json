@@ -16,11 +16,13 @@
     },
     "bors-gasztrobar": {
       "lat": 47.49668,
-      "lng": 19.06305
+      "lng": 19.06305,
+      "must": true
     },
     "karavan": {
       "lat": 47.4973,
-      "lng": 19.0635
+      "lng": 19.0635,
+      "must": true
     },
     "zing-burger": {
       "lat": 47.49745,
@@ -38,7 +40,8 @@
     "a38-ship": {
       "lat": 47.4763,
       "lng": 19.0617,
-      "pick": true
+      "pick": true,
+      "must": true
     },
     "akvarium-klub": {
       "lat": 47.4982,
@@ -76,7 +79,8 @@
     },
     "shoes-on-the-danube": {
       "lat": 47.5045,
-      "lng": 19.045
+      "lng": 19.045,
+      "must": true
     },
     "gellert-baths": {
       "lat": 47.48385,
@@ -104,7 +108,8 @@
         "ruin-bar",
         "late-night"
       ],
-      "pick": true
+      "pick": true,
+      "must": true
     },
     "great-market-hall": {
       "also": [
@@ -112,13 +117,15 @@
       ],
       "addTags": [
         "history"
-      ]
+      ],
+      "must": true
     },
     "szimpla-farmers-market": {
       "hidePin": true
     },
     "sparty-szechenyi": {
-      "hidePin": true
+      "hidePin": true,
+      "must": true
     },
     "e-exit-escape-room": {
       "hidePin": true
@@ -168,7 +175,8 @@
       "addTags": [
         "live-music"
       ],
-      "pick": true
+      "pick": true,
+      "must": true
     },
     "karting-hungaroring": {
       "arriveFrom": null,
@@ -176,10 +184,12 @@
       "notes": "Booked for 12:00. The venue is inside the Hungaroring grounds and runs on a temporary track during the circuit’s renovation. A taxi from the centre is roughly 12,000–14,000 HUF."
     },
     "szimpla-kert": {
-      "pick": true
+      "pick": true,
+      "must": true
     },
     "instant-fogas": {
-      "pick": true
+      "pick": true,
+      "must": true
     },
     "csendes-letterem": {
       "pick": true
@@ -191,10 +201,12 @@
       "pick": true
     },
     "high-note-skybar": {
-      "pick": true
+      "pick": true,
+      "must": true
     },
     "360-bar": {
-      "pick": true
+      "pick": true,
+      "must": true
     },
     "elesztohaz": {
       "pick": true
@@ -208,6 +220,42 @@
         ]
       },
       "notes": "Kick-off 21:00 Budapest time (20:00 UK) per UEFA’s fixture list; check uefa.com on the day. Gates-open time not published yet."
+    },
+    "hungarian-parliament": {
+      "must": true
+    },
+    "fishermans-bastion": {
+      "must": true
+    },
+    "buda-castle": {
+      "must": true
+    },
+    "st-stephens-basilica": {
+      "must": true
+    },
+    "chain-bridge": {
+      "must": true
+    },
+    "gellert-hill-citadella": {
+      "must": true
+    },
+    "hospital-in-the-rock": {
+      "must": true
+    },
+    "szechenyi-baths": {
+      "must": true
+    },
+    "rudas-baths": {
+      "must": true
+    },
+    "churchill-shooting-range": {
+      "must": true
+    },
+    "prosecco-danube-cruise": {
+      "must": true
+    },
+    "getto-gulyas": {
+      "must": true
     }
   }
 }

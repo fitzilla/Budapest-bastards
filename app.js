@@ -97,6 +97,7 @@
     history: '<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.7 2.8L3 8"/><path d="M3 3v5h5M12 7v5l4 2"/>',
     alert: '<path d="m21.7 18-8-14a2 2 0 0 0-3.5 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.7-3"/><path d="M12 9v4M12 17h.01"/>',
     bookmark: '<path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>',
+    award: '<circle cx="12" cy="8.5" r="6"/><path d="M15.5 13.4 17 22l-5-3-5 3 1.5-8.6"/>',
     tag: '<path d="M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4z"/><circle cx="7.5" cy="7.5" r="1.2"/>',
   };
   const icon = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${I[name] || I.pin}</svg>`;
@@ -216,9 +217,13 @@
   const allItems = () => [...EVENTS, AIRPORT, BASE, ...PLACES];
   const dishPlaceIds = new Set(D.dishes.flatMap((d) => d.where));
 
+  // the gold badge, worded for what the place is
+  const mustLabel = (p) => (!p.must ? '' : is(p, 'bar') ? 'Must visit' : p.type === 'sight' ? 'Must see' : p.type === 'food' ? 'Must eat' : 'Must do');
+
   /* ---------------- categories ---------------- */
   const CATS = [
     { id: 'all', label: 'All', icon: 'compass', test: (p) => p.type !== 'base' || !p.hidePin },
+    { id: 'must', label: 'Must-sees', icon: 'award', test: (p) => !!p.must },
     { id: 'near', label: 'Near the flat', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed },
     { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
@@ -398,7 +403,8 @@
   function badgeFor(p) {
     if (p.type === 'event') return '<span class="card-badge is-booked">Booked</span>';
     if (p.closed) return '<span class="card-badge is-closed">Closed</span>';
-    if (p.pick) return '<span class="card-badge">Must-visit</span>';
+    if (p.must) return `<span class="card-badge is-must">${icon('award', 'ic-sm')}${mustLabel(p)}</span>`;
+    if (p.pick) return '<span class="card-badge">Top bar</span>';
     const r = p.rating || {};
     if (((r.g ?? 0) >= 4.6 && (r.gN ?? 0) >= 1000) || ((r.ta ?? 0) >= 4.5 && (r.taN ?? 0) >= 2000)) return '<span class="card-badge">Crowd favourite</span>';
     if (has(p, 'sparty')) return '<span class="card-badge">Sat 17 Oct</span>';
@@ -595,6 +601,7 @@
     } else {
       // recommended: closed places sink; once we know where the flat is, places on the doorstep float up
       list = list.slice().sort((a, b) => (a.closed ? 1 : 0) - (b.closed ? 1 : 0)
+        || (b.must ? 1 : 0) - (a.must ? 1 : 0)
         || (nearFlat(b) ? 1 : 0) - (nearFlat(a) ? 1 : 0)
         || (nearFlat(a) && nearFlat(b) ? distOf(a) - distOf(b) : 0));
     }
@@ -683,11 +690,12 @@
   }
   function homeHtml() {
     const C = (id) => allItems().filter(catById.get(id).test).filter((p) => !p.closed)
-      .sort((a, b) => (nearFlat(b) ? 1 : 0) - (nearFlat(a) ? 1 : 0) || (nearFlat(a) && nearFlat(b) ? distOf(a) - distOf(b) : 0));
+      .sort((a, b) => (b.must ? 1 : 0) - (a.must ? 1 : 0) || (nearFlat(b) ? 1 : 0) - (nearFlat(a) ? 1 : 0) || (nearFlat(a) && nearFlat(b) ? distOf(a) - distOf(b) : 0));
     const booked = EVENTS.slice().sort((a, b) => at(a.date, a.start).getTime() - at(b.date, b.start).getTime());
     const dishes = D.dishes.slice(0, 10);
     return `<div>
       ${heroHtml()}
+      ${rowSection('The must-sees', 'The best of Budapest: the landmarks, the baths, the bars and the food you shouldn’t miss', 'must', C('must'), 24)}
       ${BASE.lat != null ? rowSection('Around the flat', `Within a ${NEAR_WALK_MIN}-minute walk${BASE.approx ? ' of roughly where the flat is' : ''}, closest first`, 'near', allItems().filter(catById.get('near').test).sort((a, b) => distOf(a) - distOf(b)), 12) : ''}
       ${rowSection('Top bars in Budapest', 'The ones everyone should hit at least once, from ruin bars to rooftops and the post-it note pub', 'top', C('top'), 14)}
       ${rowSection('Booked and paid for', 'Two matches and karting. Times are Budapest time.', 'booked', booked)}
@@ -910,6 +918,7 @@
     if (dt) metaBits.push(`<span>${icon('walk', 'ic-sm')}${esc(dt)}</span>`);
     if (p.price) metaBits.push(`<span>${esc(priceText(p.price))}</span>`);
 
+    if (p.must) parts.push(`<p class="d-must">${icon('award', 'ic-sm')}${mustLabel(p)}</p>`);
     parts.push(`<div><h2 class="d-title" id="detailTitle">${esc(p.name)}</h2>${p.sub ? `<p class="d-sub">${esc(p.sub)}</p>` : ''}</div>`);
     if (metaBits.length) parts.push(`<div class="d-meta">${metaBits.join('')}</div>`);
     if (p.closed) parts.push(`<div class="callout is-warn">${icon('alert')}<div><strong>Closed during your trip</strong>${esc(p.hours || '')}</div></div>`);
@@ -1319,7 +1328,7 @@
     if (p.lat == null || p.hidePin || markers.has(p.id)) return;
     const el = document.createElement('button');
     el.type = 'button';
-    el.className = `pin k-${kindOf(p)}${p.type === 'event' || p.type === 'base' || p.type === 'travel' ? ' is-labelled' : ''}${p.approx ? ' is-approx' : ''}`;
+    el.className = `pin k-${kindOf(p)}${p.type === 'event' || p.type === 'base' || p.type === 'travel' ? ' is-labelled' : ''}${p.approx ? ' is-approx' : ''}${p.must ? ' is-must' : ''}`;
     el.setAttribute('aria-label', p.name);
     el.innerHTML = pinHtml(p);
     el.addEventListener('click', (e) => { e.stopPropagation(); e.preventDefault(); selectPin(p.id, { fly: false, card: true }); });
