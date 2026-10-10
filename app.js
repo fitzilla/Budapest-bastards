@@ -291,7 +291,7 @@
     const n = reviews(p);
     return `<span class="card-rating">${icon('star', 'ic-fill')}${s.toFixed(1)}${n ? `<span class="card-rating-n">(${fmtInt(n)})</span>` : ''}</span>`;
   }
-  const priceText = (n) => (n ? '€'.repeat(n) : '');
+  const priceText = (n) => (n ? '£'.repeat(n) : '');
 
   /* ---------------- links ---------------- */
   const placeQuery = (p) => (p.address ? `${p.venue || p.name}, ${p.address}` : p.lat != null ? `${p.lat},${p.lng}` : `${p.name}, Budapest`);
@@ -794,7 +794,7 @@
       </section>`;
     }).join('');
     const nextCard = nx ? `<div class="next-card"><small>${nx.live ? 'Happening now' : 'Next up'}</small><strong>${esc(nx.item.title)}</strong><span>${esc(DAY_FMT.format(nx.item.at))} at ${esc(nx.item.time)}${nx.live ? '' : ` · in ${esc(untilText(nx.item.at))}`}</span></div>` : '';
-    pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Thu 15 – Sun 18 Oct. All times are Budapest time, one hour ahead of home (Ireland and the UK).</p></header>
+    pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Thu 15 – Sun 18 Oct. All times are Budapest time, one hour ahead of the UK.</p></header>
 
       ${nextCard}
       ${days}
@@ -1119,8 +1119,8 @@
     $('#filterBody').innerHTML = `
       <section class="f-section"><h3>Sort</h3><p>Distances are measured from ${esc(o)}.</p>
         <div class="seg" role="group" aria-label="Sort">${[['rec', 'Recommended'], ['near', 'Nearest'], ['top', 'Top rated']].map(([k, l]) => `<button type="button" data-sort="${k}" aria-pressed="${f.sort === k}">${l}</button>`).join('')}</div></section>
-      <section class="f-section"><h3>Price</h3><p>€ is cheap as chips. €€€€ is a Michelin dinner.</p>
-        <div class="chip-wrap">${[1, 2, 3, 4].map((n) => `<button type="button" class="chip" data-price="${n}" aria-pressed="${f.price.has(n)}">${'€'.repeat(n)}</button>`).join('')}</div></section>
+      <section class="f-section"><h3>Price</h3><p>£ is cheap as chips. ££££ is a Michelin dinner.</p>
+        <div class="chip-wrap">${[1, 2, 3, 4].map((n) => `<button type="button" class="chip" data-price="${n}" aria-pressed="${f.price.has(n)}">${'£'.repeat(n)}</button>`).join('')}</div></section>
       <section class="f-section"><h3>Quick ones</h3><p>Combine as many as you like.</p>
         <div class="chip-wrap">
           <button type="button" class="chip" data-flag="late" aria-pressed="${f.late}">${icon('moon', 'ic-sm')}Open late</button>
