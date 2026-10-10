@@ -55,11 +55,6 @@
   "kind": "building",
   "source": "https://commons.wikimedia.org/wiki/File:Budapest,_Anker-palota,_26.jpeg"
  },
- "lampas": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinoza_Restaurant%2C_theater%2C_cafe%2C_gallery._Upstairs_with_decorative_brick_facade._-_Budapest_District_VII._Dob_Street_15.JPG?width=960",
-  "kind": "building",
-  "source": "https://commons.wikimedia.org/wiki/File:Spinoza_Restaurant,_theater,_cafe,_gallery._Upstairs_with_decorative_brick_facade._-_Budapest_District_VII._Dob_Street_15.JPG"
- },
  "gozsdu-udvar": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg?width=960",
   "wiki": "en:Gozsdu-udvar",
@@ -254,90 +249,6 @@
   ],
   "commonsCat": "Category:Hidegkuti Nándor Stadium"
  },
- "old-mans-music-pub": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Akácfa utca, Erzsébetváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Ak%C3%A1cfa_utca_51,_2018_Erzs%C3%A9betv%C3%A1ros.jpg"
- },
- "hopaholic": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Akácfa utca, Erzsébetváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Ak%C3%A1cfa_utca_51,_2018_Erzs%C3%A9betv%C3%A1ros.jpg"
- },
- "barhole-music": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany_utca_28.jpg?width=960",
-  "kind": "street",
-  "caption": "Dohány utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Dohany_utca_28.jpg"
- },
- "champs-sports-pub": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany_utca_28.jpg?width=960",
-  "kind": "street",
-  "caption": "Dohány utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Dohany_utca_28.jpg"
- },
- "blastbeat-bar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvinus_Egyetem-St%C3%BAdium_Irodah%C3%A1z%2C_K%C3%B6zrakt%C3%A1r_utca%2C_Czuczor_utca%2C_2017_Ferencv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Czuczor utca corner, Ferencváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Corvinus_Egyetem-St%C3%BAdium_Irodah%C3%A1z,_K%C3%B6zrakt%C3%A1r_utca,_Czuczor_utca,_2017_Ferencv%C3%A1ros.jpg"
- },
- "backstage-pub": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_V%C3%A1rosligeti_fasor%2C_3.jpg?width=960",
-  "kind": "street",
-  "caption": "Városligeti fasor, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_V%C3%A1rosligeti_fasor,_3.jpg"
- },
- "csendes-letterem": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A1rolyi_Mansion%2C_corner_of_K%C3%A1rolyi_Mih%C3%A1ly_and_Ferenczy_Istv%C3%A1n_Sts.%2C_2011_Budape%C5%A1%C5%A5_1224.jpg?width=960",
-  "kind": "street",
-  "caption": "Ferenczy István utca corner, Károlyi Mansion",
-  "source": "https://commons.wikimedia.org/wiki/File:K%C3%A1rolyi_Mansion,_corner_of_K%C3%A1rolyi_Mih%C3%A1ly_and_Ferenczy_Istv%C3%A1n_Sts.,_2011_Budape%C5%A1%C5%A5_1224.jpg"
- },
- "ankert": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulay_Ede_utca_6-8._Fortepan_763.jpg?width=960",
-  "kind": "street",
-  "caption": "Paulay Ede utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Paulay_Ede_utca_6-8._Fortepan_763.jpg"
- },
- "boutiq-bar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulay_Ede_utca_6-8._Fortepan_763.jpg?width=960",
-  "kind": "street",
-  "caption": "Paulay Ede utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Paulay_Ede_utca_6-8._Fortepan_763.jpg"
- },
- "doboz": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klauz%C3%A1l_street.jpg?width=960",
-  "kind": "street",
-  "caption": "Klauzál utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Klauz%C3%A1l_street.jpg"
- },
- "ellato-kert": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
-  "kind": "street",
-  "caption": "Kazinczy utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Kazinczy_utca,_Budapest.jpg"
- },
- "hotsy-totsy": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%ADp_utca_a_Doh%C3%A1ny_utca_%C3%A9s_a_R%C3%A1k%C3%B3czi_%C3%BAt_k%C3%B6z%C3%B6tt%2C_Gutmann_%C3%A1ruh%C3%A1z._Fortepan_100783.jpg?width=960",
-  "kind": "street",
-  "caption": "Síp utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:S%C3%ADp_utca_a_Doh%C3%A1ny_utca_%C3%A9s_a_R%C3%A1k%C3%B3czi_%C3%BAt_k%C3%B6z%C3%B6tt,_Gutmann_%C3%A1ruh%C3%A1z._Fortepan_100783.jpg"
- },
- "for-sale-pub": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/F%C5%91v%C3%A1m_%28Dimitrov%29_t%C3%A9r%2C_szemben_a_V%C3%A1mh%C3%A1z_%28Tolbuhin%29_k%C3%B6r%C3%BAt_%C3%A9s_a_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok._Fortepan_50631.jpg?width=960",
-  "kind": "street",
-  "caption": "Vámház körút and Great Market Hall",
-  "source": "https://commons.wikimedia.org/wiki/File:F%C5%91v%C3%A1m_(Dimitrov)_t%C3%A9r,_szemben_a_V%C3%A1mh%C3%A1z_(Tolbuhin)_k%C3%B6r%C3%BAt_%C3%A9s_a_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok._Fortepan_50631.jpg"
- },
- "high-note-skybar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hercegprim%C3%A1s_utca_9%2C_m%C5%B1eml%C3%A9k%2C_2017_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Hercegprímás utca, Lipótváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Hercegprim%C3%A1s_utca_9,_m%C5%B1eml%C3%A9k,_2017_Lip%C3%B3tv%C3%A1ros.jpg"
- },
  "360-bar": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_view_from_the_St._Stephen's_Basilica_to_the_Fisherman's_Bastion.jpg?width=960",
   "kind": "view",
@@ -347,71 +258,11 @@
    "Budapest - Párisi Nagyáruház (37703806914).jpg"
   ]
  },
- "elesztohaz": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garden_of_Semmelweis_University._-_T%C5%B1zolt%C3%B3_Street%2C_Budapest_District_IX.JPG?width=960",
-  "kind": "street",
-  "caption": "Tűzoltó utca, Ferencváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Garden_of_Semmelweis_University._-_T%C5%B1zolt%C3%B3_Street,_Budapest_District_IX.JPG"
- },
- "jack-doyles-irish-pub": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pilvax_K%C3%A1v%C3%A9h%C3%A1z%2C_Budapest.jpg?width=960",
-  "kind": "building",
-  "caption": "Pilvax Kávéház, Pilvax köz",
-  "source": "https://commons.wikimedia.org/wiki/File:Pilvax_K%C3%A1v%C3%A9h%C3%A1z,_Budapest.jpg"
- },
  "stifler-sport-bar": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erzsebet_korut_19.jpg?width=960",
   "kind": "building",
   "caption": "Erzsébet körút 19, Budapest",
   "source": "https://commons.wikimedia.org/wiki/File:Erzsebet_korut_19.jpg"
- },
- "ziccer-trollfoci-sport-pub": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_O_utca.jpg?width=960",
-  "kind": "street",
-  "caption": "Ó utca, Terézváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Budapest_O_utca.jpg"
- },
- "first-craft-beer-bbq": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dob_utca_%28Budapest_VII.%29.jpg?width=960",
-  "kind": "street",
-  "caption": "Dob utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Dob_utca_(Budapest_VII.).jpg"
- },
- "csak-a-jo-sor": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kert%C3%A9sz_utca_32.%2C_ortodox_iskola_%C3%A9s_hitk%C3%B6zs%C3%A9gi_napk%C3%B6zi_otthon._Fortepan_105228.jpg?width=960",
-  "kind": "street",
-  "caption": "Kertész utca, Erzsébetváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Kert%C3%A9sz_utca_32.,_ortodox_iskola_%C3%A9s_hitk%C3%B6zs%C3%A9gi_napk%C3%B6zi_otthon._Fortepan_105228.jpg"
- },
- "leo-rooftop": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budav%C3%A1ri_Sikl%C3%B3_%28Budapest_Castle_Hill_Funicular%29.jpg?width=960",
-  "kind": "street",
-  "caption": "Clark Ádám tér, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Budav%C3%A1ri_Sikl%C3%B3_(Budapest_Castle_Hill_Funicular).jpg"
- },
- "st-andrea-wine-skybar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_De%C3%A1k_Ferenc_utca.jpg?width=960",
-  "kind": "street",
-  "caption": "Deák Ferenc utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_De%C3%A1k_Ferenc_utca.jpg"
- },
- "warm-up-cocktail-bar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_VII._R%C3%A1k%C3%B3czi_%C3%BAt_30%2C_Nagy_Di%C3%B3fa_utca_sarok._-_Fortepan_102343.jpg?width=960",
-  "kind": "street",
-  "caption": "Nagy Diófa utca corner, Rákóczi út",
-  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_VII._R%C3%A1k%C3%B3czi_%C3%BAt_30,_Nagy_Di%C3%B3fa_utca_sarok._-_Fortepan_102343.jpg"
- },
- "cafe-kor": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sas_utca_BUD.JPG?width=960",
-  "kind": "street",
-  "caption": "Sas utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Sas_utca_BUD.JPG"
- },
- "getto-gulyas": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erzs%C3%A9bet_k%C3%B6r%C3%BAt_-_Wessel%C3%A9nyi_utca_villamosmeg%C3%A1ll%C3%B3_-_panoramio.jpg?width=960",
-  "kind": "street",
-  "caption": "Wesselényi utca at Erzsébet körút",
-  "source": "https://commons.wikimedia.org/wiki/File:Erzs%C3%A9bet_k%C3%B6r%C3%BAt_-_Wessel%C3%A9nyi_utca_villamosmeg%C3%A1ll%C3%B3_-_panoramio.jpg"
  },
  "porc-es-prezli": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bajcsy-Zsilinszky_%C3%BAt_15_%C3%A9s_17%2C_2020_Ter%C3%A9zv%C3%A1ros.jpg?width=960",
@@ -419,95 +270,17 @@
   "caption": "Corner building, Bajcsy-Zsilinszky út / Lázár utca",
   "source": "https://commons.wikimedia.org/wiki/File:Bajcsy-Zsilinszky_%C3%BAt_15_%C3%A9s_17,_2020_Ter%C3%A9zv%C3%A1ros.jpg"
  },
- "koleves-vendeglo": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
-  "kind": "street",
-  "caption": "Kazinczy utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Kazinczy_utca,_Budapest.jpg"
- },
- "stand": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9kely_Mih%C3%A1ly_utca_4-6%2C_Budapest_%2838408981376%29.jpg?width=960",
-  "kind": "street",
-  "caption": "Székely Mihály utca, Terézváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Sz%C3%A9kely_Mih%C3%A1ly_utca_4-6,_Budapest_(38408981376).jpg"
- },
  "borkonyha": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sas_Stra%C3%9Fe_3%2C_Eingang%2C_2021_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
   "kind": "building",
   "caption": "Sas utca 3 entrance",
   "source": "https://commons.wikimedia.org/wiki/File:Sas_Stra%C3%9Fe_3,_Eingang,_2021_Lip%C3%B3tv%C3%A1ros.jpg"
  },
- "rumour": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pet%C5%91fi-szobor_k%C3%A9peslapon%2C_Budapest_1898.jpg?width=960",
-  "kind": "street",
-  "caption": "Petőfi statue, Petőfi tér (1898 postcard)",
-  "source": "https://commons.wikimedia.org/wiki/File:Pet%C5%91fi-szobor_k%C3%A9peslapon,_Budapest_1898.jpg"
- },
- "babel": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Piarista_k%C3%B6z.JPG?width=960",
-  "kind": "street",
-  "caption": "Piarista köz, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Piarista_k%C3%B6z.JPG"
- },
- "bors-gasztrobar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
-  "kind": "street",
-  "caption": "Kazinczy utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Kazinczy_utca,_Budapest.jpg"
- },
- "zing-burger": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazinczy_utca%2C_Budapest.jpg?width=960",
-  "kind": "street",
-  "caption": "Kazinczy utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Kazinczy_utca,_Budapest.jpg"
- },
- "pampas-steakhouse": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A1mh%C3%A1z_k%C3%B6r%C3%BAt_5.%2C_1958_Budapest_-_Fortepan_103225.jpg?width=960",
-  "kind": "street",
-  "caption": "Vámház körút, 1958 (Fortepan)",
-  "source": "https://commons.wikimedia.org/wiki/File:V%C3%A1mh%C3%A1z_k%C3%B6r%C3%BAt_5.,_1958_Budapest_-_Fortepan_103225.jpg"
- },
- "belli-di-mamma": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Akácfa utca, Erzsébetváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Ak%C3%A1cfa_utca_51,_2018_Erzs%C3%A9betv%C3%A1ros.jpg"
- },
- "bp-barbq": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hercegprim%C3%A1s_utca_9%2C_m%C5%B1eml%C3%A9k%2C_2017_Lip%C3%B3tv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Hercegprímás utca, near the Basilica",
-  "source": "https://commons.wikimedia.org/wiki/File:Hercegprim%C3%A1s_utca_9,_m%C5%B1eml%C3%A9k,_2017_Lip%C3%B3tv%C3%A1ros.jpg"
- },
- "retro-langos": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bajcsy-Zsilinszky_%C3%BAt_21_%C3%A9s_19B%2C_2020_Ter%C3%A9zv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Bajcsy-Zsilinszky út, Terézváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Bajcsy-Zsilinszky_%C3%BAt_21_%C3%A9s_19B,_2020_Ter%C3%A9zv%C3%A1ros.jpg"
- },
- "szimply": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A1roly_k%C3%B6r%C3%BAt_13-15%2C_2022_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Károly körút, Erzsébetváros",
-  "source": "https://commons.wikimedia.org/wiki/File:K%C3%A1roly_k%C3%B6r%C3%BAt_13-15,_2022_Erzs%C3%A9betv%C3%A1ros.jpg"
- },
  "kelet-kavezo": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelet_K%C3%A1v%C3%A9z%C3%B3_%C3%A9s_Gal%C3%A9ria.jpg?width=960",
   "kind": "venue",
   "caption": "Kelet Kávézó és Galéria",
   "source": "https://commons.wikimedia.org/wiki/File:Kelet_K%C3%A1v%C3%A9z%C3%B3_%C3%A9s_Gal%C3%A9ria.jpg"
- },
- "molnars-kurtoskalacs": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_V%C3%A1ci_utca.JPG?width=960",
-  "kind": "street",
-  "caption": "Váci utca, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_V%C3%A1ci_utca.JPG"
- },
- "balta-axe-throwing": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Doh%C3%A1ny_Stra%C3%9Fe_32-34%2C_Eingang%2C_2021_Erzs%C3%A9betv%C3%A1ros.jpg?width=960",
-  "kind": "street",
-  "caption": "Dohány utca, Erzsébetváros",
-  "source": "https://commons.wikimedia.org/wiki/File:Doh%C3%A1ny_Stra%C3%9Fe_32-34,_Eingang,_2021_Erzs%C3%A9betv%C3%A1ros.jpg"
  },
  "beerbus-budapest": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Bank_%C3%A9s_Ikarus_260_s%C3%B6rbusz%2C_2019_Ter%C3%A9zv%C3%A1ros.jpg?width=960",
@@ -677,5 +450,11 @@
    "Matthias Church or Buda Castle Coronation Church (officially known as the Buda Castle's Church of Our Lady). Moon and Stars. - Buda Castle Quarter, Budapest.JPG"
   ],
   "commonsCat": "Category:Matthias Church (Budapest)"
+ },
+ "retro-langos": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Retro_L%C3%A1ngos_B%C3%BCf%C3%A9.jpg?width=960",
+  "kind": "venue",
+  "caption": "Retro Lángos Büfé (2016)",
+  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_Retro_L%C3%A1ngos_B%C3%BCf%C3%A9.jpg"
  }
 }

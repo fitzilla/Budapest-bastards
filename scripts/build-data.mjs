@@ -238,9 +238,12 @@ function illoCategory(x) {
     if (t.has('sports')) return 'sports';
     if (t.has('palinka')) return 'palinka';
     if (t.has('club')) return 'club';
+    if (t.has('ruin-bar')) return 'ruin';
     return 'pub';
   }
   if (x.type === 'food') {
+    if (t.has('coffee')) return 'cafe';
+    if (t.has('soup')) return 'soup';
     if (t.has('burger')) return 'burger';
     if (t.has('steak')) return 'steak';
     if (t.has('pizza')) return 'pizza';
@@ -253,6 +256,9 @@ function illoCategory(x) {
     if (t.has('shooting')) return 'shooting';
     if (t.has('palinka')) return 'palinka';
     if (t.has('beer-bike')) return 'pub';
+    if (t.has('escape-room')) return 'escape';
+    if (/axe/i.test(x.id + ' ' + x.name)) return 'axe';
+    if (/tank/i.test(x.id + ' ' + x.name)) return 'tank';
     return 'adventure';
   }
   return null;

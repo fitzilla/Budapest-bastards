@@ -351,14 +351,16 @@
       const r = await fetch(`https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&origin=*&generator=categorymembers&gcmtype=file&gcmlimit=40&gcmtitle=${encodeURIComponent(p.commonsCat)}&prop=imageinfo&iiprop=url|mime&iiurlwidth=960`);
       if (!r.ok) return;
       const pages = ((await r.json()).query || {}).pages || [];
-      const u = pages.filter((pg) => pg.imageinfo?.[0]?.mime === 'image/jpeg' && isPhoto(pg.title)).map((pg) => pg.imageinfo[0].thumburl).filter(Boolean).slice(0, 8);
+      const u = pages.filter((pg) => pg.imageinfo?.[0]?.mime === 'image/jpeg' && isPhoto(pg.title) && isRecent(pg.title)).map((pg) => pg.imageinfo[0].thumburl).filter(Boolean).slice(0, 8);
       cache[p.commonsCat] = { u, t: Date.now() };
       store.set('gal', cache);
       runtimeGallery.set(p.id, u);
     } catch { /* offline: the hand-picked photos still show */ }
   }
   // a page's lead image is sometimes a logo, crest or map: only take photos
-  const isPhoto = (u) => !!u && !/\.(svg|png|gif)(\/|$|\?)|logo|emblem|crest|coat_of_arms|wappen|c%C3%ADmer|címer|flag_of|locator|_map\b| map\b|diagram|plan\b|térkép/i.test(u);
+  // also no archive shots (Fortepan, postcards, drawings): they're history, not what the place looks like now
+  const isPhoto = (u) => !!u && !/\.(svg|png|gif)(\/|$|\?)|logo|emblem|crest|coat_of_arms|wappen|c%C3%ADmer|címer|flag_of|locator|_map\b| map\b|diagram|plan\b|térkép|fortepan|postcard|k%C3%A9peslap|képeslap|drawing|engraving|lithograph|painting|rajz|metszet/i.test(u);
+  const isRecent = (title) => !/\b(18\d\d|19[0-8]\d)\b/.test(title);
   async function loadWikiImages() {
     const items = [...EVENTS, AIRPORT, ...PLACES, ...D.dishes].filter((x) => x.wiki);
     const cache = store.get('wikiimg', {});

@@ -104,9 +104,19 @@
  ],
  "club": [
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg?width=960",
-   "caption": "Live music on a lit stage",
-   "source": "https://commons.wikimedia.org/wiki/File:Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg?width=960",
+   "caption": "A packed club dancefloor",
+   "source": "https://commons.wikimedia.org/wiki/File:Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tresor_Nightclub_Berlin_DJ_2.jpg?width=960",
+   "caption": "A DJ in a techno club",
+   "source": "https://commons.wikimedia.org/wiki/File:Tresor_Nightclub_Berlin_DJ_2.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Matrix_Nightclub_Berlin_DJ_Booth.jpg?width=960",
+   "caption": "A club DJ booth",
+   "source": "https://commons.wikimedia.org/wiki/File:Matrix_Nightclub_Berlin_DJ_Booth.jpg"
   }
  ],
  "hungarian": [
@@ -233,11 +243,6 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/25m_shooting_range_Pilsen.jpg?width=960",
    "caption": "A 25 m shooting range",
    "source": "https://commons.wikimedia.org/wiki/File:25m_shooting_range_Pilsen.jpg"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trap_shooting_range.JPG?width=960",
-   "caption": "A trap shooting range",
-   "source": "https://commons.wikimedia.org/wiki/File:Trap_shooting_range.JPG"
   }
  ],
  "adventure": [
@@ -262,6 +267,56 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20190110_p%C3%A1link%C3%A1s_szett.jpg?width=960",
    "caption": "A pálinka set",
    "source": "https://commons.wikimedia.org/wiki/File:20190110_p%C3%A1link%C3%A1s_szett.jpg"
+  }
+ ],
+ "ruin": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Bar_in_Szimpla_Kert.jpg?width=960",
+   "caption": "Inside Szimpla Kert, the original ruin bar",
+   "source": "https://commons.wikimedia.org/wiki/File:A_Bar_in_Szimpla_Kert.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Romkocsma_Szimpla_Kert_Budapest.jpg?width=960",
+   "caption": "Szimpla Kert, the original ruin bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Romkocsma_Szimpla_Kert_Budapest.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Szimpla_Kert_(26688416599).jpg?width=960",
+   "caption": "Inside Szimpla Kert, the original ruin bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Budapest_-_Szimpla_Kert_(26688416599).jpg"
+  }
+ ],
+ "escape": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escaperoom.jpg?width=960",
+   "caption": "An escape room",
+   "source": "https://commons.wikimedia.org/wiki/File:Escaperoom.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escape_Room_by_Midgaard_Event.jpg?width=960",
+   "caption": "Escape room puzzle set",
+   "source": "https://commons.wikimedia.org/wiki/File:Escape_Room_by_Midgaard_Event.jpg"
+  }
+ ],
+ "axe": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
+   "caption": "Axe throwing game",
+   "source": "https://commons.wikimedia.org/wiki/File:Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG"
+  }
+ ],
+ "tank": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Challenger_2_tank_tracks_in_mud_MOD_45149587.jpg?width=960",
+   "caption": "A tank churning up the mud",
+   "source": "https://commons.wikimedia.org/wiki/File:Challenger_2_tank_tracks_in_mud_MOD_45149587.jpg"
+  }
+ ],
+ "soup": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Guly%C3%A1s.jpg?width=960",
+   "caption": "A bowl of goulash soup",
+   "source": "https://commons.wikimedia.org/wiki/File:Hungarian_Guly%C3%A1s.jpg"
   }
  ]
 }

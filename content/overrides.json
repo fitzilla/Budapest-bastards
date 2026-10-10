@@ -18,7 +18,13 @@
   "bors-gasztrobar": {
    "lat": 47.49668,
    "lng": 19.06305,
-   "must": true
+   "must": true,
+   "tags": [
+    "street-food",
+    "cheap",
+    "late-night",
+    "soup"
+   ]
   },
   "karavan": {
    "lat": 47.4973,
