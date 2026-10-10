@@ -660,6 +660,7 @@ p { margin: 0; }
 .tl-item.is-notme .tl-title, .tl-item.is-notme .tl-sub { opacity: .45; }
 .tl-item.is-notme .tl-dot { opacity: .5; }
 .tl-item.is-past { opacity: .55; }
+.tl-empty { margin-top: 8px; padding: 14px 16px; border-radius: 14px; background: var(--paper-2); color: var(--ink-2); font-size: 14.5px; }
 
 /* ---------- faves ---------- */
 .fav-list { display: grid; gap: 12px; margin-top: 18px; }

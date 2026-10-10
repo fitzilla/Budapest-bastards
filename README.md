@@ -2,8 +2,8 @@
 
 An Airbnb-style guide to Budapest for the lads' weekend, **Thu 15 – Sun 18 Oct 2026**. It's a static web app with no build step and no API keys. It works on phones and can be added to the home screen.
 
-- **Explore**: rock bars, ruin bars, odd bars, rooftops, clubs, restaurants, must-try food, history, baths and things to do. Includes search, filters and a 3D map with Buda's hills and extruded buildings.
-- **The plan**: a day-by-day timeline. Booked items are marked, along with who is going to each one. Pick your name to highlight your own plans. Kick-off times include the live forecast for that hour.
+- **Explore**: top bars (including For Sale Pub, the post-it note bar), rock bars, ruin bars, odd bars, rooftops, clubs, restaurants, must-try food, history, baths and things to do. Includes search, filters and a 3D map with Buda's hills and extruded buildings.
+- **The plan**: only what's booked: landing, the two matches, karting and the airport deadline, plus who is going to each one. Pick your name to highlight your own plans. Kick-off times include the live forecast for that hour.
 - **Faves**: save places on your own phone and send the shortlist to the group chat.
 - **Info**: weather, the airport, 2026 taxi apps and tariffs, transport, money, roaming, scams, emergency numbers, the baths and Hungarian phrases.
 - Every place has a Google Maps directions button, plus links to its Google and Tripadvisor reviews and photos. Each place also has its own link (`#/p/<id>`) you can share.

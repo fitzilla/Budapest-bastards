@@ -220,6 +220,7 @@
   const CATS = [
     { id: 'all', label: 'All', icon: 'compass', test: (p) => p.type !== 'base' || !p.hidePin },
     { id: 'near', label: 'Near the flat', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed },
+    { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },
     { id: 'bars', label: 'All bars', icon: 'beer', test: (p) => is(p, 'bar') && !has(p, 'strip') },
@@ -389,6 +390,7 @@
   function badgeFor(p) {
     if (p.type === 'event') return '<span class="card-badge is-booked">Booked</span>';
     if (p.closed) return '<span class="card-badge is-closed">Closed</span>';
+    if (p.pick) return '<span class="card-badge">Must-visit</span>';
     const r = p.rating || {};
     if (((r.g ?? 0) >= 4.6 && (r.gN ?? 0) >= 1000) || ((r.ta ?? 0) >= 4.5 && (r.taN ?? 0) >= 2000)) return '<span class="card-badge">Crowd favourite</span>';
     if (has(p, 'sparty')) return '<span class="card-badge">Sat 17 Oct</span>';
@@ -660,6 +662,7 @@
     return `<div>
       ${heroHtml()}
       ${BASE.lat != null ? rowSection('Around the flat', `Within a ${NEAR_WALK_MIN}-minute walk${BASE.approx ? ' of roughly where the flat is' : ''}, closest first`, 'near', allItems().filter(catById.get('near').test).sort((a, b) => distOf(a) - distOf(b)), 12) : ''}
+      ${rowSection('Top bars in Budapest', 'The ones everyone should hit at least once, from ruin bars to rooftops and the post-it note pub', 'top', C('top'), 14)}
       ${rowSection('Booked and paid for', 'Two matches and karting. Times are Budapest time.', 'booked', booked)}
       ${rowSection('Rock bars', 'Sweaty basements, live covers and metal on the stereo', 'rock', C('rock'))}
       ${rowSection('Ruin bars', 'Derelict buildings full of bars. Budapest invented them.', 'ruin', C('ruin'))}
@@ -756,7 +759,7 @@
       return `<section class="day" id="day-${day.date}">
         <div class="day-head"><h2>${esc(day.title)} ${esc(String(Number(day.date.slice(8))))}<small>${esc(day.theme)}</small></h2>
           <span class="day-wx" title="${w.live ? 'Forecast' : 'Typical for mid-October'}">${icon(w.live ? m.i : 'cloudsun')}${w.hi ?? '–'}° / ${w.lo ?? '–'}°${w.rain != null ? ` · ${w.rain}%` : ''}</span></div>
-        <ol class="tl">${items}</ol>
+        ${items ? `<ol class="tl">${items}</ol>` : '<p class="tl-empty">Nothing booked.</p>'}
       </section>`;
     }).join('');
     const nextCard = nx ? `<div class="next-card"><small>${nx.live ? 'Happening now' : 'Next up for ' + esc(me && me !== 'Someone else' ? me : 'the crew')}</small><strong>${esc(nx.item.title)}</strong><span>${esc(DAY_FMT.format(nx.item.at))} at ${esc(nx.item.time)}${nx.live ? '' : ` · in ${esc(untilText(nx.item.at))}`}</span></div>` : '';
@@ -765,7 +768,7 @@
         <div class="chip-row">${crew.map((n) => `<button type="button" class="chip" data-me="${esc(n)}" aria-pressed="${me === n}">${esc(n)}</button>`).join('')}</div></div>
       ${nextCard}
       ${days}
-      <p class="small-print">Booked items come from your bookings. Ideas are suggestions, so ignore them freely. Kick-off times were checked in Oct 2026; confirm on the club sites on the day.</p>`;
+      <p class="small-print">Only what's booked and paid for. Kick-off times come from your bookings and the club sites; check them again on the day.</p>`;
     if (keepScroll) window.scrollTo({ top: y });
   }
 

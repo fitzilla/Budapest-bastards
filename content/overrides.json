@@ -27,7 +27,8 @@
     },
     "koleves-kert": {
       "lat": 47.4983,
-      "lng": 19.0643
+      "lng": 19.0643,
+      "pick": true
     },
     "koleves-vendeglo": {
       "lat": 47.49852,
@@ -35,7 +36,8 @@
     },
     "a38-ship": {
       "lat": 47.4763,
-      "lng": 19.0617
+      "lng": 19.0617,
+      "pick": true
     },
     "akvarium-klub": {
       "lat": 47.4982,
@@ -43,11 +45,13 @@
     },
     "boutiq-bar": {
       "lat": 47.4995,
-      "lng": 19.0557
+      "lng": 19.0557,
+      "pick": true
     },
     "doboz": {
       "lat": 47.499,
-      "lng": 19.0647
+      "lng": 19.0647,
+      "pick": true
     },
     "ellato-kert": {
       "lat": 47.4993,
@@ -98,7 +102,8 @@
       "addTags": [
         "ruin-bar",
         "late-night"
-      ]
+      ],
+      "pick": true
     },
     "great-market-hall": {
       "also": [
@@ -155,6 +160,41 @@
       "end": "21:00",
       "notes": "Confirmed by the booking: Friday 16 Oct, gates from 18:00, kick-off 19:00 Budapest time (18:00 UK). Opponent per MTK’s own fixture page.",
       "tip": "Gates open 18:00: grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min from the flat and aim to be in by 18:30."
+    },
+    "for-sale-pub": {
+      "sub": "The post-it note bar",
+      "blurb": "The post-it note bar: every inch of wall and ceiling is covered in handwritten notes from visitors, with straw and peanut shells on the floor. Grab a pen, leave your mark, drink. Opposite the Great Market Hall.",
+      "addTags": [
+        "live-music"
+      ],
+      "pick": true
+    },
+    "karting-hungaroring": {
+      "arriveFrom": null
+    },
+    "szimpla-kert": {
+      "pick": true
+    },
+    "instant-fogas": {
+      "pick": true
+    },
+    "csendes-letterem": {
+      "pick": true
+    },
+    "lampas": {
+      "pick": true
+    },
+    "hotsy-totsy": {
+      "pick": true
+    },
+    "high-note-skybar": {
+      "pick": true
+    },
+    "360-bar": {
+      "pick": true
+    },
+    "elesztohaz": {
+      "pick": true
     }
   }
 }

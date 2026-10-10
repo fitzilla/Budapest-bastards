@@ -30,63 +30,21 @@ window.BB_DATA = {
   {
    "date": "2026-10-15",
    "title": "Thursday",
-   "theme": "Arrive, pints, Fradi under the lights",
+   "theme": "Arrival and Fradi",
    "items": [
     {
      "time": "12:20",
-     "title": "Wheels down at BUD",
-     "sub": "The crew lands at Terminal 2. Aaron's arrival time is TBC.",
+     "title": "Land at Budapest Airport",
+     "sub": "Terminal 2. Aaron's arrival time TBC.",
      "ref": "airport",
      "who": "all",
      "booked": true,
      "kind": "travel"
     },
     {
-     "time": "13:15",
-     "title": "Into town",
-     "sub": "100E express bus to Deák tér (2,500 HUF, tap your card at the door), then M1 two stops to Oktogon and a 5-minute walk. Or split two Bolts straight to the door.",
-     "ref": "airport",
-     "who": "all",
-     "kind": "travel"
-    },
-    {
-     "time": "14:30",
-     "title": "Drop bags at the Airbnb",
-     "sub": "Beside Lemezkuckó record shop on Király utca, by the tram 4/6 stop. Exact address and check-in time TBC.",
-     "ref": "base",
-     "who": "all",
-     "kind": "base"
-    },
-    {
-     "time": "15:30",
-     "title": "First pint and a lángos",
-     "sub": "Szimpla is calm at this hour. Karaván street food is next door.",
-     "refs": [
-      "szimpla-kert",
-      "karavan",
-      "bors-gasztrobar"
-     ],
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "19:15",
-     "title": "Head to Groupama Aréna",
-     "sub": "Tram 4 or 6 to Corvin-negyed, then the M3 (blue) to Népliget. About 25 minutes from the flat. Bring your passports.",
-     "ref": "fradi-plzen",
-     "who": {
-      "only": [
-       "Aaron",
-       "Chris",
-       "Phil"
-      ]
-     },
-     "kind": "travel"
-    },
-    {
      "time": "21:00",
      "title": "Ferencváros v Viktoria Plzeň",
-     "sub": "Europa League. Kick-off 21:00 (20:00 UK).",
+     "sub": "Europa League at Groupama Aréna. Kick-off 21:00 (20:00 UK).",
      "ref": "fradi-plzen",
      "who": {
       "only": [
@@ -97,71 +55,18 @@ window.BB_DATA = {
      },
      "booked": true,
      "kind": "event"
-    },
-    {
-     "time": "21:00",
-     "title": "Everyone else: Jewish Quarter crawl",
-     "sub": "Instant-Fogas, Mazel Tov and Doboz are all within a few minutes of each other.",
-     "refs": [
-      "instant-fogas",
-      "mazel-tov",
-      "doboz"
-     ],
-     "who": {
-      "except": [
-       "Aaron",
-       "Chris",
-       "Phil"
-      ]
-     },
-     "kind": "idea"
-    },
-    {
-     "time": "23:15",
-     "title": "Regroup in District VII",
-     "sub": "Instant-Fogas for the big rooms and dancefloors, Lámpás for a live band, or Szimpla if you missed it earlier.",
-     "refs": [
-      "instant-fogas",
-      "lampas",
-      "szimpla-kert"
-     ],
-     "who": "all",
-     "kind": "idea"
     }
    ]
   },
   {
    "date": "2026-10-16",
    "title": "Friday",
-   "theme": "Karting, then MTK",
+   "theme": "Karting and MTK",
    "items": [
-    {
-     "time": "09:30",
-     "title": "Proper breakfast",
-     "sub": "The kart track is a long way from any food. Eat first.",
-     "refs": [
-      "szimply",
-      "frici-papa"
-     ],
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "10:30",
-     "title": "Bolts to Mogyoród",
-     "sub": "Two cars, 25–35 min, around 12,000–14,000 HUF each. Aim to arrive by 11:30.",
-     "ref": "karting-hungaroring",
-     "who": {
-      "except": [
-       "Filippo"
-      ]
-     },
-     "kind": "travel"
-    },
     {
      "time": "12:00",
      "title": "Go-karting at the Hungaroring",
-     "sub": "Closed shoes. Nobody drinks before. Loser buys the first round.",
+     "sub": "Hungaroring GoKart Center, Mogyoród.",
      "ref": "karting-hungaroring",
      "who": {
       "except": [
@@ -172,44 +77,9 @@ window.BB_DATA = {
      "kind": "event"
     },
     {
-     "time": "12:00",
-     "title": "Filippo's free morning",
-     "sub": "Széchenyi Baths or the Basilica dome while the others crash into each other.",
-     "refs": [
-      "szechenyi-baths",
-      "st-stephens-basilica"
-     ],
-     "who": {
-      "only": [
-       "Filippo"
-      ]
-     },
-     "kind": "idea"
-    },
-    {
-     "time": "14:30",
-     "title": "Back in town for a late lunch",
-     "sub": "Cheap Hungarian canteen food or Bors' soups and baguettes.",
-     "refs": [
-      "frici-papa",
-      "bors-gasztrobar",
-      "getto-gulyas"
-     ],
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "17:15",
-     "title": "Head to the MTK ground",
-     "sub": "Tram to the Hidegkuti Nándor Stadion stop, or a Bolt in 10–15 min. André Rieu is on at the MVM Dome, so traffic will be heavy.",
-     "ref": "mtk-vasas",
-     "who": "all",
-     "kind": "travel"
-    },
-    {
      "time": "18:00",
      "title": "Gates open at MTK",
-     "sub": "In from 18:00. Grab a beer and a sausage.",
+     "sub": "Új Hidegkuti Nándor Stadion.",
      "ref": "mtk-vasas",
      "who": "all",
      "booked": true,
@@ -223,132 +93,24 @@ window.BB_DATA = {
      "who": "all",
      "booked": true,
      "kind": "event"
-    },
-    {
-     "time": "21:15",
-     "title": "Rock bar night",
-     "sub": "Barhole for metal and punk, Lámpás for live bands, then Instant-Fogas until late.",
-     "refs": [
-      "barhole-music",
-      "lampas",
-      "instant-fogas"
-     ],
-     "who": "all",
-     "kind": "idea"
     }
    ]
   },
   {
    "date": "2026-10-17",
    "title": "Saturday",
-   "theme": "Free day. Baths, history, carnage",
-   "items": [
-    {
-     "time": "10:30",
-     "title": "Soak it off at Széchenyi",
-     "sub": "Outdoor hot pools in City Park. Buy a timed ticket online to skip the queue.",
-     "ref": "szechenyi-baths",
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "13:00",
-     "title": "Lángos at the Great Market Hall",
-     "sub": "Food stalls upstairs. Expect it to be busy on a Saturday.",
-     "ref": "great-market-hall",
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "14:30",
-     "title": "Castle District, or go shooting",
-     "sub": "Fisherman's Bastion and the Hospital in the Rock bunker, or the Churchill shooting range.",
-     "refs": [
-      "fishermans-bastion",
-      "hospital-in-the-rock",
-      "churchill-shooting-range"
-     ],
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "17:30",
-     "title": "Sunset from the Citadella",
-     "sub": "Sunset is about 17:53. The whole city lights up below you.",
-     "ref": "gellert-hill-citadella",
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "19:30",
-     "title": "Big group dinner",
-     "sub": "Book ahead for a table of lads on a Saturday.",
-     "refs": [
-      "menza",
-      "getto-gulyas",
-      "bp-barbq"
-     ],
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "21:30",
-     "title": "Sparty, or the ruin bars",
-     "sub": "The Széchenyi bath party is listed for tonight and sells out. Book it, or do Szimpla and A38.",
-     "refs": [
-      "sparty-szechenyi",
-      "szimpla-kert",
-      "a38-ship"
-     ],
-     "who": "all",
-     "kind": "idea"
-    }
-   ]
+   "theme": "Free day",
+   "items": []
   },
   {
    "date": "2026-10-18",
    "title": "Sunday",
-   "theme": "Brunch, pack, fly",
+   "theme": "Fly home",
    "items": [
     {
-     "time": "09:30",
-     "title": "Szimpla Sunday farmers' market",
-     "sub": "Breakfast in the original ruin bar, with sausages and pastries from the stalls.",
-     "ref": "szimpla-farmers-market",
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "10:30",
-     "title": "Hangover brunch",
-     "sub": "Eggs, coffee and silence.",
-     "refs": [
-      "szimply",
-      "kelet-kavezo"
-     ],
-     "who": "all",
-     "kind": "idea"
-    },
-    {
-     "time": "11:45",
-     "title": "Order the Bolts",
-     "sub": "Order now so the cars arrive as you leave.",
-     "ref": "base",
-     "who": "all",
-     "kind": "base"
-    },
-    {
-     "time": "12:15",
-     "title": "Leave for the airport",
-     "sub": "Latest sensible departure: 12:45 by Bolt (about 30 min on Sunday roads) or 12:15 on the 100E.",
-     "ref": "airport",
-     "who": "all",
-     "kind": "travel"
-    },
-    {
      "time": "14:45",
-     "title": "At BUD, no later than this",
-     "sub": "Terminal 2. Duty-free pálinka for the hangover home.",
+     "title": "Be at Budapest Airport",
+     "sub": "Terminal 2, no later than 14:45.",
      "ref": "airport",
      "who": "all",
      "booked": true,
@@ -413,7 +175,7 @@ window.BB_DATA = {
    ],
    "date": "2026-10-16",
    "start": "12:00",
-   "arriveFrom": "11:30",
+   "arriveFrom": null,
    "end": "13:30",
    "who": {
     "except": [
@@ -648,7 +410,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "blastbeat-bar",
@@ -755,6 +518,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "pick": true,
    "wiki": "A38 (ship)"
   },
   {
@@ -929,6 +693,7 @@ window.BB_DATA = {
     "web": "https://szimpla.hu",
     "book": null
    },
+   "pick": true,
    "wiki": "Szimpla Kert"
   },
   {
@@ -964,7 +729,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d3138211-Reviews-Instant_Fogas-Budapest_Central_Hungary.html",
     "web": "https://instant-fogas.com",
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "koleves-kert",
@@ -997,7 +763,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d797853-Reviews-Koleves_Restaurant_and_Garden-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "csendes-letterem",
@@ -1031,7 +798,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d5011161-Reviews-Csendes_Letterem-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "ankert",
@@ -1100,7 +868,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "ellato-kert",
@@ -1203,7 +972,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12370539-Reviews-or10-Hotsy_Totsy_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "the-magic-budapest",
@@ -1241,11 +1011,12 @@ window.BB_DATA = {
   {
    "id": "for-sale-pub",
    "name": "For Sale Pub",
-   "sub": null,
+   "sub": "The post-it note bar",
    "type": "bar",
    "tags": [
     "quirky",
-    "pub"
+    "pub",
+    "live-music"
    ],
    "district": "V",
    "address": "Vámház körút 2, 1053 Budapest",
@@ -1261,7 +1032,7 @@ window.BB_DATA = {
    "price": 2,
    "priceText": null,
    "hours": null,
-   "blurb": "Walls and ceiling covered in scribbled notes and peanut shells. Sit, drink, leave your mark. Across from the Central Market Hall.",
+   "blurb": "The post-it note bar: every inch of wall and ceiling is covered in handwritten notes from visitors, with straw and peanut shells on the floor. Grab a pen, leave your mark, drink. Opposite the Great Market Hall.",
    "tip": "Book ahead if eating at weekends. Cheaper and calmer than the Jewish Quarter.",
    "history": null,
    "image": null,
@@ -1269,7 +1040,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1965935-Reviews-For_Sale_Pub-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "gozsdu-udvar",
@@ -1336,7 +1108,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1580627-Reviews-Boutiq_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "high-note-skybar",
@@ -1369,7 +1142,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d8528872-Reviews-High_Note_SkyBar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "360-bar",
@@ -1403,7 +1177,8 @@ window.BB_DATA = {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d6637437-Reviews-360_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   }
+   },
+   "pick": true
   },
   {
    "id": "elesztohaz",
@@ -1437,7 +1212,8 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
-   "unconfirmed": true
+   "unconfirmed": true,
+   "pick": true
   },
   {
    "id": "champs-sports-pub",
@@ -2285,7 +2061,8 @@ window.BB_DATA = {
    },
    "also": [
     "bar"
-   ]
+   ],
+   "pick": true
   },
   {
    "id": "stand25-bisztro",
