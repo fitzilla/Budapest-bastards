@@ -254,7 +254,7 @@ window.BB_DATA = {
     "gN": null
    },
    "blurb": "Proper old-school Budapest derby-flavoured league football in a tiny modern ground named after a Magical Magyar legend. Cheap, close to the pitch, lots of banter.",
-   "tip": "Gates open 18:00: grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min from the flat and aim to be in by 18:30.",
+   "tip": "Gates open 18:00: grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min from the Airbnb and aim to be in by 18:30.",
    "getThere": "Tram stop 'Hidegkuti Nándor Stadion' is about 130 m away (tram 37/37A listed). Roughly 15–25 min from the centre by tram or metro; Bolt about 10–15 min. Check BKK Futár or Google Maps for the live route.",
    "rules": "Bring passport or photo ID to be safe. Expect bag checks and light beer only. Check bag, pyro and alcohol rules before you go.",
    "notes": "Confirmed by the booking: Friday 16 Oct, gates from 18:00, kick-off 19:00 Budapest time (18:00 UK). Opponent per MTK’s own fixture page.",
@@ -319,7 +319,7 @@ window.BB_DATA = {
     "notes": "Pickup point and airport status NOT confirmed in this research. Estimate is not sourced. Follow in-app pickup instructions; do not accept touts."
    }
   ],
-  "leaveBy": "Sunday: have the whole crew out of the flat by 12:00 and you are at BUD about 12:45-13:00, well ahead of 14:45. Absolute latest to leave the centre: 12:45 by taxi/Bolt (Sunday roads are quiet, ~30 min) or 12:15 by 100E (~40 min + stop time). Order Bolts at 11:45.",
+  "leaveBy": "Sunday: have the whole crew out of the Airbnb by 12:00 and you are at BUD about 12:45-13:00, well ahead of 14:45. Absolute latest to leave the centre: 12:45 by taxi/Bolt (Sunday roads are quiet, ~30 min) or 12:15 by 100E (~40 min + stop time). Order Bolts at 11:45.",
   "rating": {},
   "links": {
    "web": "https://www.bud.hu/en",
@@ -2921,7 +2921,7 @@ window.BB_DATA = {
    "price": 2,
    "priceText": null,
    "hours": "Mon–Fri 07:30–17:00 · Sat–Sun 08:30–17:00 (sources disagree on closing: some say 19:00 on weekdays)",
-   "blurb": "Budapest's flagship specialty roaster-bar, ranked 17th in a June 2026 list of Europe's best coffee shops. Small, busy and serious about the brew. About 15 minutes' walk from the flat.",
+   "blurb": "Budapest's flagship specialty roaster-bar, ranked 17th in a June 2026 list of Europe's best coffee shops. Small, busy and serious about the brew. About 15 minutes' walk from the Airbnb.",
    "tip": "Get a cortado or a filter, plus a pastry. Go early on Saturday or you'll queue. Flat white about 1,500 HUF (£3.50).",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
@@ -2992,8 +2992,8 @@ window.BB_DATA = {
    "price": 1,
    "priceText": null,
    "hours": "Check Google Maps for opening times on the day",
-   "blurb": "Student-friendly specialty bar five minutes from the flat, opened 2022. Scruffy in a good way, with free wifi and takeaway if you're in a rush for the next pub.",
-   "tip": "One of the two closest proper coffees to the flat. Grab a flat white to go on the way to anywhere (about 1,200 HUF, £3).",
+   "blurb": "Student-friendly specialty bar five minutes from the Airbnb, opened 2022. Scruffy in a good way, with free wifi and takeaway if you're in a rush for the next pub.",
+   "tip": "One of the two closest proper coffees to the Airbnb. Grab a flat white to go on the way to anywhere (about 1,200 HUF, £3).",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
    "links": {
@@ -3027,7 +3027,7 @@ window.BB_DATA = {
    "price": 2,
    "priceText": null,
    "hours": "Mon–Fri 08:00–17:00 · Sat–Sun 09:00–18:00 (listings conflict on weekend closing)",
-   "blurb": "Minimalist Japanese coffee bar with Zsolnay tiles and its own roaster, opened early 2025, a three-minute stagger from the flat. Pricier than the locals' places, but the coffee is smooth.",
+   "blurb": "Minimalist Japanese coffee bar with Zsolnay tiles and its own roaster, opened early 2025, a three-minute stagger from the Airbnb. Pricier than the locals' places, but the coffee is smooth.",
    "tip": "Go for the latte or the Kyoto-style coffee with condensed milk. Expect to pay a bit over 1,500 HUF (£3.50+).",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
@@ -3135,7 +3135,7 @@ window.BB_DATA = {
    "priceText": null,
    "hours": "Mon–Fri 08:30–17:00 · Sat 09:00–17:00 · Sun 09:00–15:00 (directory listing, not checked with the cafe)",
    "blurb": "Calm, small specialty cafe near Klauzál tér, run by a Hungarian-Spanish couple. Quiet during the week, so a good place to recover before the evening starts.",
-   "tip": "Espresso tonic or avocado toast. Short menu, friendly baristas, a ten minute walk from the flat.",
+   "tip": "Espresso tonic or avocado toast. Short menu, friendly baristas, a ten minute walk from the Airbnb.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
    "links": {
@@ -5235,7 +5235,7 @@ window.BB_DATA = {
     },
     {
      "title": "Airport to city by taxi",
-     "body": "Főtaxi runs the official rank outside Terminal 2. The flat is about 20 km away, so at the 2026 tariff expect roughly 12,000–15,000 HUF (£28–35) depending on traffic. Bolt shows the price up front.",
+     "body": "Főtaxi runs the official rank outside Terminal 2. The Airbnb is about 20 km away, so at the 2026 tariff expect roughly 12,000–15,000 HUF (£28–35) depending on traffic. Bolt shows the price up front.",
      "link": "https://budappest.com/budapest-airport-just-made-getting-a-taxi-more-complicated-heres-what-to-know/"
     },
     {
@@ -5286,12 +5286,12 @@ window.BB_DATA = {
     },
     {
      "title": "Night & 24h services",
-     "body": "Tram 6 runs all night around the Nagykörút, the big ring road a few minutes from the flat, and night buses (9xx) take over after the metro closes. Handy for getting back from the bars; watch your pockets.",
+     "body": "Tram 6 runs all night around the Nagykörút, the big ring road a few minutes from the Airbnb, and night buses (9xx) take over after the metro closes. Handy for getting back from the bars; watch your pockets.",
      "link": null
     },
     {
      "title": "Useful stops",
-     "body": "Deák Ferenc tér (M1, M2 and M3 meet), Kálvin tér (M3/M4), Blaha Lujza tér (M2, trams 4 and 6), Népliget (M3, for Fradi), Király utca tram stop (trams 4 and 6, by the flat).",
+     "body": "Deák Ferenc tér (M1, M2 and M3 meet), Kálvin tér (M3/M4), Blaha Lujza tér (M2, trams 4 and 6), Népliget (M3, for Fradi), Király utca tram stop (trams 4 and 6, by the Airbnb).",
      "link": null
     }
    ]

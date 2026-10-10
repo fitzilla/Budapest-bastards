@@ -227,7 +227,7 @@
   const CATS = [
     { id: 'all', label: 'All', icon: 'compass', test: (p) => p.type !== 'base' || !p.hidePin },
     { id: 'must', label: 'Must-sees', icon: 'award', test: (p) => !!p.must },
-    { id: 'near', label: 'Near the flat', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed },
+    { id: 'near', label: 'Near the Airbnb', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed },
     { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },
@@ -451,7 +451,7 @@
     const r = p.rating || {};
     if (((r.g ?? 0) >= 4.6 && (r.gN ?? 0) >= 1000) || ((r.ta ?? 0) >= 4.5 && (r.taN ?? 0) >= 2000)) return '<span class="card-badge">Crowd favourite</span>';
     if (has(p, 'sparty')) return '<span class="card-badge">Sat 17 Oct</span>';
-    if (nearFlat(p)) return `<span class="card-badge">${walkMin(BASE, p) <= 5 ? 'On the doorstep' : 'Near the flat'}</span>`;
+    if (nearFlat(p)) return `<span class="card-badge">${walkMin(BASE, p) <= 5 ? 'On the doorstep' : 'Near the Airbnb'}</span>`;
     return '';
   }
   function cardLines(p, { long } = {}) {
@@ -644,7 +644,7 @@
       const t = (p) => (p.type === 'event' ? at(p.date, p.start || '00:00').getTime() : p.type === 'travel' ? 0 : 1);
       list = list.slice().sort((a, b) => t(a) - t(b));
     } else {
-      // recommended: closed places sink; once we know where the flat is, places on the doorstep float up
+      // recommended: closed places sink; once we know where the Airbnb is, places on the doorstep float up
       list = list.slice().sort((a, b) => (a.closed ? 1 : 0) - (b.closed ? 1 : 0)
         || (b.must ? 1 : 0) - (a.must ? 1 : 0)
         || (nearFlat(b) ? 1 : 0) - (nearFlat(a) ? 1 : 0)
@@ -983,7 +983,7 @@
       if (whoLabel(p.who)) parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
     }
     if (p.type === 'base') {
-      if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>This is where the flat shows on the Airbnb map${p.near ? `, beside ${esc(p.near)}` : ''}. Full address coming soon. Every distance and walking time in the app is measured from this spot.</div></div>`);
+      if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>This is where it shows on the Airbnb listing map${p.near ? `, beside ${esc(p.near)}` : ''}. Full address coming soon. Every distance and walking time in the app is measured from this spot.</div></div>`);
       parts.push(`<p class="d-blurb">${esc(p.note || '')}</p>`);
       parts.push(`<div class="d-actions">${p.lat != null ? `<a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions home</a>` : ''}<a class="btn btn-soft" href="#/info" data-act="goto-base-info">${icon('pin')}${p.lat != null ? 'Change pin' : 'Set the pin'}</a>${p.links.web ? `<a class="btn btn-soft" href="${esc(p.links.web)}" target="_blank" rel="noopener">${icon('ext')}Listing</a>` : ''}</div>`);
       return parts;
@@ -1375,7 +1375,7 @@
 
   function pinHtml(p) {
     if (p.type === 'travel') return `<span class="pin-dot">${icon('plane')}</span><span class="pin-label">Airport<small>Terminal 2 · BUD</small></span>`;
-    if (p.type === 'base') return `<span class="pin-dot">${icon('home')}</span><span class="pin-label">The flat<small>${esc(p.approx ? 'full address soon' : p.address || 'our base')}</small></span>`;
+    if (p.type === 'base') return `<span class="pin-dot">${icon('home')}</span><span class="pin-label">The Airbnb<small>${esc(p.approx ? 'full address soon' : p.address || 'our base')}</small></span>`;
     const label = p.type === 'event' ? `${esc(shortEventName(p))}<small>${esc(WEEKDAY.format(at(p.date, p.start || '00:00')))} ${esc(p.start || '')}</small>` : esc(p.name);
     return `<span class="pin-dot">${icon(iconOf(p))}</span><span class="pin-label">${label}</span>`;
   }
