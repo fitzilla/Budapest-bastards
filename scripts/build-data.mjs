@@ -13,6 +13,25 @@ const ratings = readOpt('content/ratings.json', {});
 const wiki = readOpt('content/wiki.json', {});
 const images = readOpt('content/images.json', {});
 const illustrative = readOpt('content/illustrative.json', {});
+const copyedit = readOpt('content/copyedit.json', { patch: {} }).patch || {};
+const verified = readOpt('content/verified.json', {});
+const practicalOverride = readOpt('content/practical.json', null);
+const TEXT_FIELDS = ['blurb', 'tip', 'hours', 'priceText', 'history', 'rules', 'getThere', 'notes', 'sub'];
+// cleaned copy and checked facts sit between the raw research and the hand-written overrides
+function applyLayers(p) {
+  const ce = copyedit[p.id];
+  if (ce) for (const f of TEXT_FIELDS) if (typeof ce[f] === 'string' && ce[f].trim()) p[f] = ce[f].trim();
+  const v = verified[p.id];
+  if (v && !p.id.startsWith('_')) {
+    if (v.hours) p.hours = v.hours;
+    if (v.priceText) p.priceText = v.priceText;
+    if (v.address) p.address = v.address;
+    if (v.status === 'closed' || v.status === 'temporarily-closed') p.closed = true;
+    if (v.status === 'open') { delete p.unconfirmed; }
+    if (v.note) p.notes = v.note;
+  }
+  return p;
+}
 // attach a Wikipedia title (for a runtime lead photo) and any extra verified Commons photo
 function applyMedia(x) {
   const img = images[x.id];
@@ -136,7 +155,7 @@ const places = [];
 for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['sights', R.sights]]) {
   for (const src of data.items) {
     if (removed.has(`${file}:${src.id}`)) continue;
-    places.push(applyMedia(applyRatings(applyPatch(normPlace(src, file)))));
+    places.push(applyMedia(applyRatings(applyPatch(applyLayers(normPlace(src, file))))));
   }
 }
 const ids = new Map();
@@ -154,7 +173,7 @@ const events = R.events.events.map((e) => {
   let who = 'all';
   if (Array.isArray(e.who)) who = { only: e.who };
   else if (typeof e.who === 'string' && e.who.startsWith('all-except:')) who = { except: e.who.slice(11).split(',') };
-  const ev = applyPatch({
+  const ev = applyPatch(applyLayers({
     id: e.id, name, sub, type: 'event', tags: ['booked'],
     date: e.date, start: e.start, arriveFrom: e.arriveFrom, end: e.end, who,
     venue: e.venue, address: e.address, lat: num(e.lat), lng: num(e.lng), approx: false,
@@ -162,7 +181,7 @@ const events = R.events.events.map((e) => {
     blurb: e.blurb, tip: e.tip, getThere: e.getThere, rules: e.rules, notes: e.notes || null,
     links: { web: e.links?.website || null, book: e.links?.tickets || null, ta: null },
     image: null, district: null, price: null,
-  });
+  }));
   applyRatings(ev);
   applyMedia(ev);
   validate(ev);
@@ -292,7 +311,7 @@ for (const le of R.events.localEvents || []) {
 }
 
 // ---- practical (drop emoji; the app draws its own icons)
-const practical = R.events.practical.map(({ emoji, ...s }) => s);
+const practical = (Array.isArray(practicalOverride) ? practicalOverride : R.events.practical).map(({ emoji, ...s }) => s);
 
 const out = {
   built: new Date().toISOString().slice(0, 10),

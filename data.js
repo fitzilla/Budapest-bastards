@@ -1699,8 +1699,8 @@ window.BB_DATA = {
    ],
    "district": "V",
    "address": "Zrínyi utca 4/A, 1051 Budapest",
-   "lat": 47.5012,
-   "lng": 19.0529,
+   "lat": 47.50058,
+   "lng": 19.05175,
    "approx": true,
    "rating": {
     "ta": null,
@@ -4354,7 +4354,7 @@ window.BB_DATA = {
     "games",
     "palinka"
    ],
-   "district": "VII",
+   "district": "VI",
    "address": "Király utca 20, 1061 Budapest",
    "lat": 47.4989,
    "lng": 19.0588,
