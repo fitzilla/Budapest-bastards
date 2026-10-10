@@ -702,9 +702,11 @@
     const fly = new Date(D.trip.airportBy);
     let big, small;
     if (t < land) {
-      const days = Math.ceil((land - t) / 864e5);
-      if (days > 1) { big = days; small = 'days until wheels down in Budapest'; }
-      else { big = untilText(land); small = 'until wheels down. Passports, lads.'; }
+      // calendar days in Budapest, so it matches the date on everyone's phone
+      const ymd = (x) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Budapest' }).format(x);
+      const days = Math.round((Date.parse(ymd(land)) - Date.parse(ymd(t))) / 864e5);
+      if (days > 1) { big = days; small = 'days until Budapest'; }
+      else { big = untilText(land); small = 'until Budapest. Passports, lads.'; }
     } else if (t < fly) {
       const dayN = TRIP_DAYS.findIndex((d) => d === new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Budapest' }).format(t)) + 1;
       big = `Day ${dayN || '–'}`; small = 'of four. Pace yourselves. Or don’t.';
@@ -1530,7 +1532,7 @@
   function startTour() {
     if (!mapReady) return;
     const stops = [
-      { id: 'airport', label: `Thu ${LAND}`, title: 'Wheels down at BUD' },
+      { id: 'airport', label: `Thu ${LAND}`, title: 'Land at Budapest Airport' },
       BASE.lat != null ? { id: 'base', label: 'Thu afternoon', title: 'Bags down at the Airbnb' } : null,
       { id: 'fradi-plzen', label: evLabel('fradi-plzen'), title: 'Fradi v Plzeň at Groupama Aréna' },
       { id: 'karting-hungaroring', label: evLabel('karting-hungaroring'), title: 'Karting at the Hungaroring' },
