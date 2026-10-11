@@ -54,6 +54,7 @@ const R = {
   barsExtra: readOpt('content/research/bars_extra.json', { items: [], sources: [] }),
   coffee: readOpt('content/research/coffee.json', { items: [], sources: [] }),
   foodExtra: readOpt('content/research/food_extra.json', { items: [], sources: [] }),
+  shops: readOpt('content/research/shops.json', { items: [], sources: [] }),
   food: read('content/research/food.json'),
   sights: read('content/research/sights.json'),
 };
@@ -158,7 +159,7 @@ function validate(p) {
 
 // ---- places
 const places = [];
-for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['coffee', R.coffee], ['food_extra', R.foodExtra], ['sights', R.sights]]) {
+for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['coffee', R.coffee], ['food_extra', R.foodExtra], ['sights', R.sights], ['shops', R.shops]]) {
   for (const src of data.items) {
     if (removed.has(`${file}:${src.id}`)) continue;
     places.push(applyMedia(applyRatings(applyPatch(applyLayers(normPlace(src, file))))));
@@ -348,6 +349,7 @@ const out = {
   phrases: R.events.phrases,
   climate: R.events.weatherClimate,
   localEvents: R.events.localEvents,
+  shopsInfo: R.shops.goodToKnow || [],
   sparty: R.sights.sparty,
   sources: [...new Set([...R.events.sources, ...R.bars.sources, ...(R.barsExtra.sources || []), ...R.food.sources, ...(R.coffee.sources || []), ...R.sights.sources,
     ...Object.values(ratings).flatMap((r) => r?.sources || [])])],
@@ -373,5 +375,5 @@ const all = [...places, ...events, airport, ...dishes];
 console.log(`photos: ${all.filter((x) => x.image && x.imageKind !== 'illustrative').length}/${all.length} real Commons photos, ${all.filter((x) => !x.image && x.wiki).length} more from Wikipedia at runtime, ${illoCount} illustrative, ${all.filter((x) => !x.image && !x.wiki).length} with none`);
 for (const id of Object.keys(wiki)) if (!id.startsWith('_') && !all.some((x) => x.id === id)) warnings.push(`wiki.json: unknown id ${id}`);
 console.log(`version: ${version}`);
-console.log(`data.js: ${events.length} events, ${count('bar')} bars, ${count('food')} food, ${count('sight')} sights, ${count('bath')} baths, ${count('activity')} activities, ${dishes.length} dishes`);
+console.log(`data.js: ${events.length} events, ${count('bar')} bars, ${count('food')} food, ${count('sight')} sights, ${count('bath')} baths, ${count('activity')} activities, ${count('shop')} shops, ${dishes.length} dishes`);
 if (warnings.length) { console.log(`\n${warnings.length} warning(s):`); for (const w of warnings) console.log(' - ' + w); }

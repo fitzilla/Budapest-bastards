@@ -21,6 +21,7 @@
   --c-rock: #6d3fd8;
   --c-food: #2f8a3e;
   --c-coffee: #8a5530;
+  --c-shop: #4f6475;
   --c-sight: #2a63d4;
   --c-bath: #0b8aa3;
   --c-activity: #cf2f74;
@@ -61,7 +62,7 @@
     --ink: #f3eee9; --ink-2: #b3a99f; --ink-3: #7d736b; --line: #2f2a27;
     --paprika: #f0475a; --paprika-press: #ff6273; --paprika-soft: #3b1a20; --on-paprika: #ffffff;
     --scrim: rgba(0, 0, 0, .6); --glass: rgba(30, 27, 25, .88);
-    --c-event: #f0475a; --c-bar: #e2a52a; --c-rock: #a07cff; --c-food: #4cc463; --c-coffee: #d29a6a; --c-sight: #5d93ff;
+    --c-event: #f0475a; --c-bar: #e2a52a; --c-rock: #a07cff; --c-food: #4cc463; --c-coffee: #d29a6a; --c-shop: #9db3c6; --c-sight: #5d93ff;
     --c-bath: #2ec4dd; --c-activity: #f2649f; --c-travel: #cfc6be; --c-base: #f3eee9;
     --fradi: #2fb36a; --mtk: #6b8cff; --good: #4cc463; --warn: #f59e0b;
     --shadow-1: 0 1px 2px rgba(0, 0, 0, .4), 0 2px 8px rgba(0, 0, 0, .3);
@@ -75,7 +76,7 @@
   --ink: #f3eee9; --ink-2: #b3a99f; --ink-3: #7d736b; --line: #2f2a27;
   --paprika: #f0475a; --paprika-press: #ff6273; --paprika-soft: #3b1a20; --on-paprika: #ffffff;
   --scrim: rgba(0, 0, 0, .6); --glass: rgba(30, 27, 25, .88);
-  --c-event: #f0475a; --c-bar: #e2a52a; --c-rock: #a07cff; --c-food: #4cc463; --c-coffee: #d29a6a; --c-sight: #5d93ff;
+  --c-event: #f0475a; --c-bar: #e2a52a; --c-rock: #a07cff; --c-food: #4cc463; --c-coffee: #d29a6a; --c-shop: #9db3c6; --c-sight: #5d93ff;
   --c-bath: #2ec4dd; --c-activity: #f2649f; --c-travel: #cfc6be; --c-base: #f3eee9;
   --fradi: #2fb36a; --mtk: #6b8cff; --good: #4cc463; --warn: #f59e0b;
   --shadow-1: 0 1px 2px rgba(0, 0, 0, .4), 0 2px 8px rgba(0, 0, 0, .3);
@@ -584,6 +585,7 @@ p { margin: 0; }
 .k-rock { --c: var(--c-rock); }
 .k-food { --c: var(--c-food); }
 .k-coffee { --c: var(--c-coffee); }
+.k-shop { --c: var(--c-shop); }
 .k-sight { --c: var(--c-sight); }
 .k-bath { --c: var(--c-bath); }
 .k-activity { --c: var(--c-activity); }
@@ -969,3 +971,14 @@ p { margin: 0; }
 .dish-list .dish-body { padding: 10px 12px 12px; gap: 3px; }
 .dish-list .dish-name { font-size: 20px; }
 .dish-list .dish-what { font-size: 13.5px; line-height: 1.4; }
+
+/* shops list in the Info tab */
+.shop-list { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 2px; }
+.shop-list a { display: grid; grid-template-columns: 34px 1fr 16px; align-items: center; gap: 12px; padding: 10px 2px; color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); }
+.shop-list li:last-child a { border-bottom: 0; }
+.shop-ic { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: var(--c); color: #fff; }
+.shop-ic .ic { width: 17px; height: 17px; }
+.shop-txt { display: grid; gap: 2px; min-width: 0; }
+.shop-txt b { font-weight: 700; }
+.shop-txt small { color: var(--ink-2); font-size: 12.5px; }
+.shop-list .ic:last-child { width: 16px; height: 16px; color: var(--ink-3, var(--ink-2)); }

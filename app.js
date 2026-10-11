@@ -53,6 +53,7 @@
     bottle: '<path d="M10 2h4v4.2l2 3V21a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V9.2l2-3z"/><path d="M8 13h8M8 17h8"/>',
     tv: '<rect x="2" y="7" width="20" height="14" rx="2"/><path d="m17 2-5 5-5-5"/>',
     moon: '<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>',
+    cart: '<circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>',
     coffee: '<path d="M10 2v2M14 2v2M6 2v2M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/>',
     utensils: '<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>',
     soup: '<path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z"/><path d="M7 21h10M19.5 12 22 6"/><path d="M16 3c.3.1.8.5.7 1.4 0 .8-.9 1.2-1 2-.1.8.3 1.2.7 1.6M11 3c.3.1.8.5.7 1.4 0 .8-.9 1.2-1 2-.1.8.3 1.2.7 1.6M6 3c.3.1.8.5.7 1.4 0 .8-.9 1.2-1 2-.1.8.3 1.2.7 1.6"/>',
@@ -112,10 +113,11 @@
     if (p.type === 'event') return /fradi/.test(p.id) ? 'fradi' : /mtk/.test(p.id) ? 'mtk' : 'kart';
     if (p.type === 'bar' && hasAny(p, ['rock', 'metal'])) return 'rock';
     if (p.type === 'food' && has(p, 'coffee')) return 'coffee';
+    if (p.type === 'shop') return 'shop';
     return p.type;
   }
-  const KIND_ICON = { fradi: 'ball', mtk: 'ball', kart: 'flag', rock: 'guitar', bar: 'beer', coffee: 'coffee', food: 'utensils', sight: 'landmark', bath: 'waves', activity: 'zap', travel: 'plane', base: 'home' };
-  const KIND_COLOR = { fradi: 'fradi', mtk: 'mtk', kart: 'event', rock: 'rock', bar: 'bar', coffee: 'coffee', food: 'food', sight: 'sight', bath: 'bath', activity: 'activity', travel: 'travel', base: 'base' };
+  const KIND_ICON = { fradi: 'ball', mtk: 'ball', kart: 'flag', rock: 'guitar', bar: 'beer', coffee: 'coffee', shop: 'cart', food: 'utensils', sight: 'landmark', bath: 'waves', activity: 'zap', travel: 'plane', base: 'home' };
+  const KIND_COLOR = { fradi: 'fradi', mtk: 'mtk', kart: 'event', rock: 'rock', bar: 'bar', coffee: 'coffee', shop: 'shop', food: 'food', sight: 'sight', bath: 'bath', activity: 'activity', travel: 'travel', base: 'base' };
   const iconOf = (p) => KIND_ICON[kindOf(p)] || 'pin';
   const colorVar = (p) => {
     const k = kindOf(p);
@@ -163,6 +165,14 @@
         if (t.includes('dessert')) return 'Cake & sweets';
         if (t.includes('jewish')) return 'Jewish Quarter kitchen';
         return 'Hungarian';
+      case 'shop':
+        if (t.includes('24h')) return t.includes('pharmacy') ? '24-hour pharmacy' : 'Open 24 hours';
+        if (t.includes('pharmacy')) return 'Pharmacy';
+        if (t.includes('tobacco')) return 'Tobacconist';
+        if (t.includes('drugstore')) return 'Drugstore';
+        if (t.includes('bottle-shop')) return 'Bottle shop';
+        if (t.includes('supermarket')) return t.includes('late-night') ? 'Supermarket, open late' : 'Supermarket';
+        return t.includes('late-night') ? 'Late-night shop' : 'Shop';
       case 'sight':
         if (t.includes('castle')) return 'Castle';
         if (t.includes('church')) return 'Church';
@@ -187,7 +197,7 @@
     'ruin-bar': 'Ruin bar', 'live-music': 'Live music', 'craft-beer': 'Craft beer', 'late-night': 'Open late',
     'booking-needed': 'Book ahead', 'group-friendly': 'Good for groups', 'street-food': 'Street food',
     'fine-dining': 'Fine dining', 'night-bathing': 'Night bathing', 'escape-room': 'Escape room',
-    'beer-bike': 'Beer bus', burger: 'Burgers', fish: 'Fish & seafood', bbq: 'BBQ', vegetarian: 'Veggie friendly', ww2: 'WW2', langos: 'Lángos', palinka: 'Pálinka', michelin: 'Michelin Guide',
+    'beer-bike': 'Beer bus', '24h': 'Open 24 hours', 'bottle-shop': 'Bottle shop', tobacco: 'Tobacco', 'big-shop': 'Big shop', burger: 'Burgers', fish: 'Fish & seafood', bbq: 'BBQ', vegetarian: 'Veggie friendly', ww2: 'WW2', langos: 'Lángos', palinka: 'Pálinka', michelin: 'Michelin Guide',
     sparty: 'Sparty', cheap: 'Cheap', quirky: 'Odd', speakeasy: 'Speakeasy',
   };
   const tagLabel = (t) => TAG_LABEL[t] || t.charAt(0).toUpperCase() + t.slice(1).replace(/-/g, ' ');
@@ -232,12 +242,13 @@
 
   /* ---------------- categories ---------------- */
   const CATS = [
-    { id: 'all', label: 'All', icon: 'compass', test: (p) => p.type !== 'base' || !p.hidePin },
+    { id: 'all', label: 'All', icon: 'compass', test: (p) => p.type !== 'shop' && (p.type !== 'base' || !p.hidePin) },
     { id: 'must', label: 'Must-sees', icon: 'award', test: (p) => !!p.must },
-    { id: 'near', label: 'Near the Airbnb', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed },
+    { id: 'near', label: 'Near the Airbnb', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed && p.type !== 'shop' },
     { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
     { id: 'eat', label: 'Food', icon: 'utensils', chips: ['hungarian', 'street-food', 'late-night', 'burger', 'pizza', 'asian', 'steak', 'fish', 'michelin', 'breakfast', 'cheap'], test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
+    { id: 'shops', label: 'Shops', icon: 'cart', sort: 'dist', chips: ['supermarket', 'late-night', '24h', 'pharmacy', 'tobacco', 'drugstore', 'bottle-shop'], test: (p) => p.type === 'shop' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },
     { id: 'bars', label: 'All bars', icon: 'beer', test: (p) => is(p, 'bar') },
     { id: 'ruin', label: 'Ruin bars', icon: 'brick', test: (p) => is(p, 'bar') && has(p, 'ruin-bar') },
@@ -899,6 +910,12 @@
       <p class="muted">${WX.live ? 'Live forecast from Open-Meteo, refreshed every few hours.' : `Typical mid-October: highs around ${D.climate.avgHigh}°, lows around ${D.climate.avgLow}°. The live forecast switches on once the trip is within 16 days.`} Bring a jacket for the matches.</p>`;
 
     const B = BASE;
+    const shopList = PLACES.filter((p) => p.type === 'shop').sort((a, b) => (distOf(a) ?? 1e9) - (distOf(b) ?? 1e9));
+    const shopsBody = !shopList.length ? '' : `<ul class="shop-list">${shopList.map((p) => `<li><a href="#/p/${esc(p.id)}">
+        <span class="shop-ic k-shop">${icon('cart')}</span>
+        <span class="shop-txt"><b>${esc(p.name)}</b><small>${esc([labelOf(p), distText(p)].filter(Boolean).join(' · '))}</small>${p.hours ? `<small>${esc(p.hours)}</small>` : ''}</span>${icon('chev')}</a></li>`).join('')}</ul>
+      ${(D.shopsInfo || []).map((g) => `<div class="callout">${icon('info')}<div><strong>${esc(g.title)}</strong>${esc(g.body)}${g.link ? ` <a href="${esc(g.link)}" target="_blank" rel="noopener">Source</a>` : ''}</div></div>`).join('')}
+      <a class="btn btn-line" href="#/c/shops">${icon('map')}Show them on the map</a>`;
     const baseBody = `<dl class="kv"><dt>Address</dt><dd>${esc(B.address || 'Full address coming soon')}</dd><dt>Check-in</dt><dd>${esc(B.checkIn || 'TBC')}</dd></dl>
       <p>${esc(D.base.note)}</p>
       ${D.base.lat == null ? `<div class="base-form">
@@ -939,6 +956,7 @@
       <div class="info-list">
         ${acc('weather', 'cloudsun', 'Weather', WX.live ? 'Live forecast' : 'Mid-October averages', weather, isOpen('weather', true))}
         ${acc('base', 'home', 'The Airbnb', B.address || (B.localPin ? 'Pinned on this phone' : 'Full address coming soon'), baseBody, isOpen('base', false))}
+        ${shopsBody ? acc('shops', 'cart', 'Shops near the Airbnb', 'Supermarkets, late shops, pharmacy, tobacco', shopsBody, isOpen('shops', false)) : ''}
         ${acc('airport', 'plane', 'Airport & transfers', `Land ${LAND} Thu · back by ${AIRPORT_BY} Sun`, airportBody, isOpen('airport', false))}
         ${P('taxis')}
         ${P('transport')}
@@ -1003,7 +1021,7 @@
     if (p.type !== 'travel') {
       parts.push(`<div class="d-ratings">
         <a class="d-rating" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener"><small>GOOGLE</small>${r.g != null ? `<b>${icon('star', 'ic-fill')}${r.g.toFixed(1)}</b><span>${r.gN ? fmtInt(r.gN) + ' reviews' : 'Reviews & photos'}</span>` : `<b>${icon('camera')}Photos</b><span>Live rating & reviews</span>`}</a>
-        <a class="d-rating" href="${esc(taUrl(p))}" target="_blank" rel="noopener"><small>TRIPADVISOR</small>${r.ta != null ? `<b>${icon('star', 'ic-fill')}${r.ta.toFixed(1)}</b><span>${r.taN ? fmtInt(r.taN) + ' reviews' : 'Reviews'}</span>` : `<b>${icon('chat')}Reviews</b><span>What people say</span>`}</a>
+        ${p.type === 'shop' ? '' : `<a class="d-rating" href="${esc(taUrl(p))}" target="_blank" rel="noopener"><small>TRIPADVISOR</small>${r.ta != null ? `<b>${icon('star', 'ic-fill')}${r.ta.toFixed(1)}</b><span>${r.taN ? fmtInt(r.taN) + ' reviews' : 'Reviews'}</span>` : `<b>${icon('chat')}Reviews</b><span>What people say</span>`}</a>`}
       </div>`);
     }
     const actions = [];
