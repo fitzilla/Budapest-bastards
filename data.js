@@ -364,15 +364,13 @@ window.BB_DATA = {
    "blurb": "Red-lit basement with graffiti walls: punk, rock and metal gigs and tribute nights. Cheap beer, loud guitars, 150-capacity bunker. Your kind of place.",
    "tip": "A separate 'Saloon' area is open on weekdays for a quieter pint. Check their socials for the Thu–Sat gig line-up.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_performance_near_the_amplifier_(Unsplash).jpg?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "notes": "Hours from listings; check the gig calendar for 15–17 Oct.",
-   "imageKind": "illustrative",
-   "imageCaption": "Guitarist playing by the amp"
+   "notes": "Hours from listings; check the gig calendar for 15–17 Oct."
   },
   {
    "id": "lampas",
@@ -402,15 +400,13 @@ window.BB_DATA = {
    "blurb": "Labyrinthine basement across from Gozsdu Udvar with live rock, blues and rockabilly most nights. Free in, cheap beer, no tourist-trap vibe.",
    "tip": "Autumn is peak programming (summer is quieter), so your October dates are ideal. Back rooms are calmer if the main room is mental.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_performance_near_the_amplifier_(Unsplash).jpg?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true,
-   "imageKind": "illustrative",
-   "imageCaption": "Guitarist playing by the amp"
+   "pick": true
   },
   {
    "id": "blastbeat-bar",
@@ -440,15 +436,13 @@ window.BB_DATA = {
    "blurb": "Proper metal dive bar, walls plastered with metal relics. Cheap drinks, loud riffs, scruffy and proud. Not for the faint of heart.",
    "tip": "Cash-friendly dive with a grungy reputation on hygiene, so keep expectations low. The pin is approximate; check Maps.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_Guitars_20171014_212855_ubt.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
-   "unconfirmed": true,
-   "imageKind": "illustrative",
-   "imageCaption": "Electric guitars"
+   "unconfirmed": true
   },
   {
    "id": "durer-kert",
@@ -593,14 +587,12 @@ window.BB_DATA = {
    "blurb": "Small live rock and blues club near Heroes' Square. Tribute bands (KISS, etc.), local covers, a sing-along lock-in vibe.",
    "tip": "Out past Oktogon so grab a taxi. Pin is approximate (±300m). Gig schedule on backstagepub.hu.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_performance_near_the_amplifier_(Unsplash).jpg?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7007279-Reviews-BackStage_Pub-Budapest_Central_Hungary.html",
     "web": "https://backstagepub.hu",
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "Guitarist playing by the amp"
+   }
   },
   {
    "id": "hard-rock-cafe-budapest",
@@ -818,15 +810,13 @@ window.BB_DATA = {
    "blurb": "Vintage-style ruin pub in the Inner City: bohemian, intimate, good for chatting rather than shouting. Great pre-Szimpla warm-up.",
    "tip": "Closes at midnight, so it's a pre-game, not a finisher. Ten minutes' walk from the Jewish Quarter.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Bar_in_Szimpla_Kert.jpg?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d5011161-Reviews-Csendes_Letterem-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true,
-   "imageKind": "illustrative",
-   "imageCaption": "Inside Szimpla Kert, the original ruin bar"
+   "pick": true
   },
   {
    "id": "doboz",
@@ -855,15 +845,13 @@ window.BB_DATA = {
    "blurb": "Labyrinth of rooms with eight music styles, a grill bar and two dancefloors. Cheap and fun until sunrise.",
    "tip": "18+ with ID. Entry may include a drink on ticketed nights.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
-   "pick": true,
-   "imageKind": "illustrative",
-   "imageCaption": "A packed club dancefloor"
+   "pick": true
   },
   {
    "id": "red-ruin",
@@ -926,15 +914,13 @@ window.BB_DATA = {
    "blurb": "1920s cellar speakeasy with architecture-themed cocktails and a hidden private room. Dress up slightly, behave properly.",
    "tip": "Walk-in seating only: arrive early Thu–Sat. Cocktails about 3,500–5,000 HUF.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flaming_cocktails.jpg?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12370539-Reviews-or10-Hotsy_Totsy_Budapest-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true,
-   "imageKind": "illustrative",
-   "imageCaption": "Flaming cocktails"
+   "pick": true
   },
   {
    "id": "the-magic-budapest",
@@ -996,16 +982,14 @@ window.BB_DATA = {
    "blurb": "The post-it note bar: every inch of wall and ceiling is covered in handwritten notes from visitors, with straw and peanut shells on the floor. Grab a pen, leave your mark, drink. Opposite the Great Market Hall.",
    "tip": "Book ahead if eating at weekends. Cheaper and calmer than the Jewish Quarter.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1965935-Reviews-For_Sale_Pub-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
    "pick": true,
-   "must": true,
-   "imageKind": "illustrative",
-   "imageCaption": "A pint of Arany Ászok lager"
+   "must": true
   },
   {
    "id": "gozsdu-udvar",
@@ -1073,15 +1057,13 @@ window.BB_DATA = {
    "blurb": "Long-running (since 2008) cocktail bar with a bartender's-choice menu. Smart, grown-up pre-game or post-dinner nightcap.",
    "tip": "Mixed drinks about €12–16. Book ahead for Fri and Sat. Check the address before you go.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flaming_cocktails.jpg?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d1580627-Reviews-Boutiq_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true,
-   "imageKind": "illustrative",
-   "imageCaption": "Flaming cocktails"
+   "pick": true
   },
   {
    "id": "high-note-skybar",
@@ -1109,16 +1091,14 @@ window.BB_DATA = {
    "blurb": "Rooftop at the Aria Hotel with eye-level views of the Basilica dome. Splash out for sunset cocktails and a photo that will wind up your mates.",
    "tip": "Smart casual, no gym wear or flip-flops. Cocktails about 5,900–6,200 HUF. Book a sunset table.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_%288130437015%29.jpg?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d8528872-Reviews-High_Note_SkyBar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
    "pick": true,
-   "must": true,
-   "imageKind": "illustrative",
-   "imageCaption": "Parliament across the Danube at sunset"
+   "must": true
   },
   {
    "id": "360-bar",
@@ -1187,15 +1167,13 @@ window.BB_DATA = {
    "blurb": "Huge craft beer house with dozens of Hungarian taps in Ferencváros. Beer geek heaven with no pretension.",
    "tip": "Check it's open on your night before you go. It's out of the Jewish Quarter, so tram or metro.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Timber_Brewing_flight_of_beer.jpg?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4725580-Reviews-Eleszto_Craft_Beer_Bar-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
-   "pick": true,
-   "imageKind": "illustrative",
-   "imageCaption": "A flight of craft beers"
+   "pick": true
   },
   {
    "id": "champs-sports-pub",
@@ -1223,14 +1201,12 @@ window.BB_DATA = {
    "blurb": "Many screens, Jewish Quarter location, opens at midday unlike most bars nearby. Football on every wall.",
    "tip": "Pin is approximate (street only). Check which matches are on over 17–18 Oct.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
+   "image": null,
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d783758-Reviews-Champs_PUB-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "A pint of Arany Ászok lager"
+   }
   },
   {
    "id": "jack-doyles-irish-pub",
@@ -1259,14 +1235,12 @@ window.BB_DATA = {
    "blurb": "Tucked down an alley off the Pest high street: Irish pub, Sky Sports, Guinness and elbow-to-elbow lads. Your kind of Friday pre-match warm-up.",
    "tip": "Tiny and fills up early, so book a table for any kick-off or you'll be watching through a gap in someone's shoulders.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guinness_Glass_2010.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "A pint of Guinness"
+   }
   },
   {
    "id": "stifler-sport-bar",
@@ -1296,14 +1270,12 @@ window.BB_DATA = {
    "blurb": "27 telly screens, a pool and games den in the basement, and kitchen-sink American bar vibes until the small hours. Loud, daft and exactly where the lads end up at 2am.",
    "tip": "Reviews are mixed on service, so order at the bar and keep an eye on the tab. Don't confuse it with Stifler House (the club) around the corner on Dob utca.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "A pint of Arany Ászok lager"
+   }
   },
   {
    "id": "becketts-irish-bar",
@@ -1367,14 +1339,12 @@ window.BB_DATA = {
    "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local: bring your best 'Hajrá Magyarok'.",
    "tip": "Rammed on big match nights, so arrive early for a spot. Check Facebook for which games they are showing.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "A pint of Arany Ászok lager"
+   }
   },
   {
    "id": "hopaholic",
@@ -1402,14 +1372,12 @@ window.BB_DATA = {
    "blurb": "Tiny Jewish Quarter craft temple: ten rotating taps and 250+ breweries in bottles. Beer nerds nod solemnly; everyone else just discovers pints that taste of something.",
    "tip": "Check the chalkboard before ordering: the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Timber_Brewing_flight_of_beer.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": "https://hopaholic.hu",
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "A flight of craft beers"
+   }
   },
   {
    "id": "madhouse-by-mad-scientist",
@@ -1472,14 +1440,12 @@ window.BB_DATA = {
    "blurb": "Hungarian craft brewery's city pub: house-brewed beer on tap plus proper smoky BBQ. Soak up the lagers before the Jewish Quarter swallows you whole.",
    "tip": "Book via their reservation page for groups. Their original taproom is out on Váci út (district XIII/IV border). Skip it; this one's central.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "Craft beer bottles lined up on a bar counter"
+   }
   },
   {
    "id": "csak-a-jo-sor",
@@ -1507,14 +1473,12 @@ window.BB_DATA = {
    "blurb": "Part bottle shop, part boffin's den: shelves of craft beer from Hungary and abroad that you can crack open on the spot. The tiny shop for lads who read the labels.",
    "tip": "Closes early (about 22:00) and shuts Sundays: a warm-up stop before Hopaholic. Check hours by phone: +36 1 798 0036.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "Craft beer bottles lined up on a bar counter"
+   }
   },
   {
    "id": "leo-rooftop",
@@ -1542,14 +1506,12 @@ window.BB_DATA = {
    "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset.",
    "tip": "Book a table on OpenTable (two-hour slots, cocktails about 6,700–7,500 HUF) and aim for sunset. Smart casual: leave the club shirts at the hotel.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_over_the_Danube_-_Budapest.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": "https://leobudapest.hu",
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "Sunset over the Danube"
+   }
   },
   {
    "id": "st-andrea-wine-skybar",
@@ -1578,14 +1540,12 @@ window.BB_DATA = {
    "blurb": "Top-floor terrace on Vörösmarty tér with a lift, wine list and cocktails. Rooftop panorama of Pest's roofs without Chain Bridge queues.",
    "tip": "Groups of 8+ face a 15,000 HUF per person minimum spend, so split into smaller tables or ask first. Book ahead on weekend evenings.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_%288130437015%29.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "Parliament across the Danube at sunset"
+   }
   },
   {
    "id": "warm-up-cocktail-bar",
@@ -1614,14 +1574,12 @@ window.BB_DATA = {
    "blurb": "Small, dark Jewish Quarter cocktail den built around Hungarian spirits like pálinka and Unicum. Ask for a surprise: no menu needed, just a firm handshake with the bartender.",
    "tip": "Book on Instagram/Facebook for weekends; walk-ins often queue. Budget about 3,500–5,000 HUF per cocktail.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cocktails_mit_Schirmchen.jpg?width=960",
+   "image": null,
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "Cocktails with paper umbrellas"
+   }
   },
   {
    "id": "otkert",
