@@ -216,6 +216,8 @@
       address: b.address, lat: b.lat ?? null, lng: b.lng ?? null, localPin: !!b.localPin,
       approx: !b.address && !b.localPin && b.lat != null, near: b.near || null,
       tags: [], rating: {}, links: { web: b.listing || null }, checkIn: b.checkIn, note: b.note,
+      title: b.title || null, sleeps: b.sleeps || null, reviews: b.reviews || null,
+      image: b.image || null, imageKind: b.image ? 'listing' : undefined, gallery: b.gallery || undefined,
       hidePin: b.lat == null,
     };
   }
@@ -994,7 +996,7 @@
         <span class="shop-txt"><b>${esc(p.name)}</b><small>${esc([labelOf(p), distText(p)].filter(Boolean).join(' · '))}</small>${p.hours ? `<small>${esc(p.hours)}</small>` : ''}</span>${icon('chev')}</a></li>`).join('')}</ul>
       ${(D.shopsInfo || []).map((g) => `<div class="callout">${icon('info')}<div><strong>${esc(g.title)}</strong>${esc(g.body)}${g.link ? ` <a href="${esc(g.link)}" target="_blank" rel="noopener">Source</a>` : ''}</div></div>`).join('')}
       <a class="btn btn-line" href="#/c/shops">${icon('map')}Show them on the map</a>`;
-    const baseBody = `<dl class="kv"><dt>Address</dt><dd>${esc(B.address || 'Full address coming soon')}</dd><dt>Check-in</dt><dd>${esc(B.checkIn || 'TBC')}</dd></dl>
+    const baseBody = `<dl class="kv"><dt>Address</dt><dd>${esc(B.address || 'Full address coming soon')}</dd>${B.sleeps ? `<dt>Sleeps</dt><dd>${esc(B.sleeps)}</dd>` : ''}${B.reviews ? `<dt>Reviews</dt><dd>${esc(B.reviews)}</dd>` : ''}<dt>Check-in</dt><dd>${esc(B.checkIn || 'TBC')}</dd></dl>
       <p>${esc(D.base.note)}</p>
       ${D.base.lat == null ? `<div class="base-form">
         <div class="field"><label for="basePaste">Paste a Google Maps link or coordinates</label><input id="basePaste" type="text" inputmode="url" placeholder="e.g. 47.4979, 19.0632" autocomplete="off"></div>
@@ -1089,6 +1091,8 @@
     }
     if (p.type === 'base') {
       if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>This is where it shows on the Airbnb listing map${p.near ? `, beside ${esc(p.near)}` : ''}. Full address coming soon. Every distance and walking time in the app is measured from this spot.</div></div>`);
+      const facts = [p.title && fact('home', 'On Airbnb', p.title), p.sleeps && fact('users', 'Sleeps', p.sleeps), p.reviews && fact('star', 'Reviews', p.reviews)].filter(Boolean);
+      if (facts.length) parts.push(`<div class="d-facts">${facts.join('')}</div>`);
       parts.push(`<p class="d-blurb">${esc(p.note || '')}</p>`);
       parts.push(`<div class="d-actions">${p.lat != null ? `<a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions home</a>` : ''}<a class="btn btn-soft" href="#/info" data-act="goto-base-info">${icon('pin')}${p.lat != null ? 'Change pin' : 'Set the pin'}</a>${p.links.web ? `<a class="btn btn-soft" href="${esc(p.links.web)}" target="_blank" rel="noopener">${icon('ext')}Listing</a>` : ''}</div>`);
       return parts;
@@ -1155,8 +1159,9 @@
       : p.imageKind === 'building' ? `The building${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
       : p.imageKind === 'street' ? `The street outside${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
       : p.imageKind === 'view' ? `The view${p.imageCaption ? ' ' + p.imageCaption : ''} · Wikimedia Commons`
+      : p.imageKind === 'listing' ? 'Photos from the Airbnb listing'
       : 'Photo: Wikimedia Commons';
-    const page = filePage(imgOf(p));
+    const page = p.imageKind === 'listing' ? p.links?.web : filePage(imgOf(p));
     const credit = !creditText ? '' : page
       ? `<a class="d-credit" href="${esc(page)}" target="_blank" rel="noopener">${esc(creditText)} ↗</a>`
       : `<span class="d-credit">${esc(creditText)}</span>`;
