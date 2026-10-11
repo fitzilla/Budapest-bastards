@@ -396,5 +396,47 @@
    "caption": "A mezze platter",
    "source": "https://commons.wikimedia.org/wiki/File:Mezze_platter.jpg"
   }
+ ],
+ "spar": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SPAR,_Budapest,_Szigony_utca_12._(b).jpg?width=960",
+   "caption": "A Spar in Budapest",
+   "source": "https://commons.wikimedia.org/wiki/File:SPAR,_Budapest,_Szigony_utca_12._(b).jpg"
+  }
+ ],
+ "lidl": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lidl,_Mogyor%C3%B3di_Stra%C3%9Fe,_2021_Zugl%C3%B3.jpg?width=960",
+   "caption": "A Budapest Lidl",
+   "source": "https://commons.wikimedia.org/wiki/File:Lidl,_Mogyor%C3%B3di_Stra%C3%9Fe,_2021_Zugl%C3%B3.jpg"
+  }
+ ],
+ "dm": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A1rdony_-_dm-drogerie_markt.jpg?width=960",
+   "caption": "A dm drugstore",
+   "source": "https://commons.wikimedia.org/wiki/File:G%C3%A1rdony_-_dm-drogerie_markt.jpg"
+  }
+ ],
+ "rossmann": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rossmann_drugstore,_Zs%C3%B3kav%C3%A1r_street,_2018_%C3%9Ajpalota.jpg?width=960",
+   "caption": "A Budapest Rossmann",
+   "source": "https://commons.wikimedia.org/wiki/File:Rossmann_drugstore,_Zs%C3%B3kav%C3%A1r_street,_2018_%C3%9Ajpalota.jpg"
+  }
+ ],
+ "pharmacy": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pharmacy_sign,_Korosy_Street,_2016_Budapest.jpg?width=960",
+   "caption": "A Budapest pharmacy sign",
+   "source": "https://commons.wikimedia.org/wiki/File:Pharmacy_sign,_Korosy_Street,_2016_Budapest.jpg"
+  }
+ ],
+ "cityspar": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/City_SPAR_-_Budapest,_T%C5%B1zolt%C3%B3_utca_50-56._(a).jpg?width=960",
+   "caption": "A City Spar in Budapest",
+   "source": "https://commons.wikimedia.org/wiki/File:City_SPAR_-_Budapest,_T%C5%B1zolt%C3%B3_utca_50-56._(a).jpg"
+  }
  ]
 }

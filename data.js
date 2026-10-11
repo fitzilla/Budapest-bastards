@@ -5573,12 +5573,14 @@ window.BB_DATA = {
    "blurb": "The nearest proper supermarket, right on the körút corner by the Airbnb. Beer, water, snacks and a hangover breakfast sorted.",
    "tip": "Sunday closing is early (16:00), so do not leave it late.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/City_SPAR_-_Budapest,_T%C5%B1zolt%C3%B3_utca_50-56._(a).jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://www.spar.hu/uzletek/city-spar-budapest-vi-1066-terez-koerut-2-",
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A City Spar in Budapest"
   },
   {
    "id": "spar-szupermarket-terez-korut-28",
@@ -5606,12 +5608,14 @@ window.BB_DATA = {
    "blurb": "The bigger Spar up towards Oktogon. Best bet for a full lads' shop: crates, mixers, ice, breakfast stuff.",
    "tip": "Closes at 21:00, so be sorted well before the 22:00 alcohol cut-off.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SPAR,_Budapest,_Szigony_utca_12._(b).jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://www.spar.hu/uzletek/spar-szupermarket-budapest-1066-terez-koerut-28-",
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A Spar in Budapest"
   },
   {
    "id": "lidl-kiraly-utca-112",
@@ -5640,12 +5644,14 @@ window.BB_DATA = {
    "blurb": "Cheapest big shop nearby and open until 22:00. Best spot for crates, snacks and a proper fry-up shop.",
    "tip": "Open later than the Spars, so it is the one for a last beer run before 22:00. Pin is from the address: check Maps.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lidl,_Mogyor%C3%B3di_Stra%C3%9Fe,_2021_Zugl%C3%B3.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://www.lidl.hu/s/hu-HU/uzletkereso/budapest/vi-kiraly-utca-112/",
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A Budapest Lidl"
   },
   {
    "id": "spar-market-erzsebet-korut-27",
@@ -5672,12 +5678,14 @@ window.BB_DATA = {
    "blurb": "Handy Spar a few minutes south down the körút towards Blaha Lujza tér.",
    "tip": "spar.hu has two listings for this building: Sunday close is 18:00 or 19:00, so go early.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SPAR,_Budapest,_Szigony_utca_12._(b).jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://www.spar.hu/uzletek/spar-market-budapest-1073-erzsebet-krt-27",
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A Spar in Budapest"
   },
   {
    "id": "lidl-rakoczi-ut-48",
@@ -5705,12 +5713,13 @@ window.BB_DATA = {
    "blurb": "Backup big Lidl at Blaha Lujza tér, on the metro. Longer walk than the Király utca one.",
    "tip": "On the M2 at Blaha Lujza tér if the nearer Lidl is rammed.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lidl_logo_(Budapest,_Blaha_Lujza_t%C3%A9r_%C3%97_R%C3%A1k%C3%B3czi_%C3%BAt).jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://www.lidl.hu/s/hu-HU/uzletkereso/budapest/vii-rakoczi-ut-48-blaha-lujza-ter/",
     "book": null
-   }
+   },
+   "imageCaption": "The Lidl at Blaha Lujza tér"
   },
   {
    "id": "terez-gyogyszertar-terez-korut-41",
@@ -5738,12 +5747,14 @@ window.BB_DATA = {
    "blurb": "Round-the-clock chemist for paracetamol, rehydration salts and plasters when the weekend bites back.",
    "tip": "At night you are served through a hatch. Ring the bell and have cash or a card ready.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pharmacy_sign,_Korosy_Street,_2016_Budapest.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A Budapest pharmacy sign"
   },
   {
    "id": "dm-kiraly-utca-34",
@@ -5770,12 +5781,14 @@ window.BB_DATA = {
    "blurb": "Toiletries, deodorant, toothpaste and hangover kit. Open on Sundays, which is the bit that matters.",
    "tip": "Close earlier on Sunday (18:00), so do not leave it late.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A1rdony_-_dm-drogerie_markt.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://www.dm.hu/store/u00l/budapest/kiraly-utca-34",
     "book": null
-   }
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A dm drugstore"
   },
   {
    "id": "rossmann-kiraly-utca-51",
@@ -5802,13 +5815,15 @@ window.BB_DATA = {
    "blurb": "Rossmann on Király utca, practically next door. Rossmann says its Budapest shops open on Sundays.",
    "tip": "Address from an older Rossmann listing: check it is still there before you trek over.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rossmann_drugstore,_Zs%C3%B3kav%C3%A1r_street,_2018_%C3%9Ajpalota.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://www.rossmann.hu/sajtoszoba/a-drogeriaban-is-atveheto-a-rossmann-online-leadott-rendelese",
     "book": null
    },
-   "unconfirmed": true
+   "unconfirmed": true,
+   "imageKind": "illustrative",
+   "imageCaption": "A Budapest Rossmann"
   }
  ],
  "dishes": [

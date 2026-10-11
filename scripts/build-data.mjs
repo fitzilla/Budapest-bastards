@@ -263,6 +263,15 @@ function illoCategory(x) {
     if (t.has('dessert')) return 'sweets';
     return 'hungarian';
   }
+  if (x.type === 'shop') {
+    if (t.has('pharmacy')) return 'pharmacy';
+    if (/city spar/i.test(x.name)) return 'cityspar';
+    if (/spar/i.test(x.name)) return 'spar';
+    if (/lidl/i.test(x.name)) return 'lidl';
+    if (/rossmann/i.test(x.name)) return 'rossmann';
+    if (/\bdm\b/i.test(x.name)) return 'dm';
+    return null;
+  }
   if (x.type === 'activity') {
     if (t.has('shooting')) return 'shooting';
     if (t.has('palinka')) return 'palinka';

@@ -456,5 +456,11 @@
   "kind": "venue",
   "caption": "Retro Lángos Büfé (2016)",
   "source": "https://commons.wikimedia.org/wiki/File:Budapest,_Retro_L%C3%A1ngos_B%C3%BCf%C3%A9.jpg"
+ },
+ "lidl-rakoczi-ut-48": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lidl_logo_(Budapest,_Blaha_Lujza_t%C3%A9r_%C3%97_R%C3%A1k%C3%B3czi_%C3%BAt).jpg?width=960",
+  "kind": "venue",
+  "caption": "The Lidl at Blaha Lujza tér",
+  "source": "https://commons.wikimedia.org/wiki/File:Lidl_logo_(Budapest,_Blaha_Lujza_t%C3%A9r_%C3%97_R%C3%A1k%C3%B3czi_%C3%BAt).jpg"
  }
 }
