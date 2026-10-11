@@ -982,3 +982,6 @@ p { margin: 0; }
 .shop-txt b { font-weight: 700; }
 .shop-txt small { color: var(--ink-2); font-size: 12.5px; }
 .shop-list .ic:last-child { width: 16px; height: 16px; color: var(--ink-3, var(--ink-2)); }
+
+/* the detail credit already says "Illustrative photo", so the corner tag would only overlap it */
+.d-hero .media-note { display: none; }

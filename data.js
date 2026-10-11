@@ -1264,7 +1264,7 @@ window.BB_DATA = {
    "blurb": "Huge craft beer house with dozens of Hungarian taps in Ferencváros. Beer geek heaven with no pretension.",
    "tip": "Check it's open on your night before you go. It's out of the Jewish Quarter, so tram or metro.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beer_tap.JPG?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Timber_Brewing_flight_of_beer.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d4725580-Reviews-Eleszto_Craft_Beer_Bar-Budapest_Central_Hungary.html",
     "web": null,
@@ -1272,7 +1272,7 @@ window.BB_DATA = {
    },
    "pick": true,
    "imageKind": "illustrative",
-   "imageCaption": "Draught beer tap"
+   "imageCaption": "A flight of craft beers"
   },
   {
    "id": "champs-sports-pub",
@@ -1479,14 +1479,14 @@ window.BB_DATA = {
    "blurb": "Tiny Jewish Quarter craft temple: ten rotating taps and 250+ breweries in bottles. Beer nerds nod solemnly; everyone else just discovers pints that taste of something.",
    "tip": "Check the chalkboard before ordering: the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Timber_Brewing_flight_of_beer.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://hopaholic.hu",
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "A flight of craft beers"
+   "imageCaption": "Craft beer bottles lined up on a bar counter"
   },
   {
    "id": "madhouse-by-mad-scientist",
@@ -1584,14 +1584,14 @@ window.BB_DATA = {
    "blurb": "Part bottle shop, part boffin's den: shelves of craft beer from Hungary and abroad that you can crack open on the spot. The tiny shop for lads who read the labels.",
    "tip": "Closes early (about 22:00) and shuts Sundays: a warm-up stop before Hopaholic. Check hours by phone: +36 1 798 0036.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beer_tap.JPG?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Draught beer tap"
+   "imageCaption": "Craft beer bottles lined up on a bar counter"
   },
   {
    "id": "leo-rooftop",
