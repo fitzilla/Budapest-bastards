@@ -570,27 +570,49 @@
 
   /* ---------------- weather (Open-Meteo, no key) ---------------- */
   const WX = { daily: null, hourly: null, live: false };
-  const WMO = (c) => {
-    if (c == null) return { i: 'cloud', t: '' };
-    if (c === 0) return { i: 'sun', t: 'Clear' };
-    if (c === 1) return { i: 'sun', t: 'Mostly clear' };
-    if (c === 2) return { i: 'cloudsun', t: 'Partly cloudy' };
-    if (c === 3) return { i: 'cloud', t: 'Overcast' };
-    if (c === 45 || c === 48) return { i: 'fog', t: 'Fog' };
-    if (c >= 51 && c <= 57) return { i: 'rain', t: 'Drizzle' };
-    if (c >= 61 && c <= 67) return { i: 'rain', t: 'Rain' };
-    if (c >= 71 && c <= 77) return { i: 'snow', t: 'Snow' };
-    if (c >= 80 && c <= 82) return { i: 'rain', t: 'Showers' };
-    if (c >= 85 && c <= 86) return { i: 'snow', t: 'Snow showers' };
-    if (c >= 95) return { i: 'storm', t: 'Thunderstorms' };
-    return { i: 'cloud', t: '' };
+  // weather codes -> a plain word and a coloured icon (night versions where it matters)
+  const WMO = (c, night = false) => {
+    if (c == null) return { k: 'cloudsun', t: '' };
+    if (c === 0) return night ? { k: 'moon', t: 'Clear' } : { k: 'sun', t: 'Sunny' };
+    if (c === 1) return night ? { k: 'moon', t: 'Mostly clear' } : { k: 'sun', t: 'Mostly sunny' };
+    if (c === 2) return night ? { k: 'cloudmoon', t: 'Partly cloudy' } : { k: 'cloudsun', t: 'Sunny spells' };
+    if (c === 3) return { k: 'cloud', t: 'Cloudy' };
+    if (c === 45 || c === 48) return { k: 'fog', t: 'Foggy' };
+    if (c >= 51 && c <= 57) return { k: 'drizzle', t: 'Drizzle' };
+    if (c >= 61 && c <= 67) return { k: 'rain', t: c >= 65 ? 'Heavy rain' : 'Rain' };
+    if (c >= 71 && c <= 77) return { k: 'snow', t: 'Snow' };
+    if (c >= 80 && c <= 82) return { k: night ? 'rain' : 'showers', t: 'Showers' };
+    if (c >= 85 && c <= 86) return { k: 'snow', t: 'Snow showers' };
+    if (c >= 95) return { k: 'storm', t: 'Thunderstorms' };
+    return { k: 'cloud', t: '' };
   };
+  const WX_CLOUD = 'M9.5 25.5h13.2a5.3 5.3 0 0 0 .9-10.5 7.3 7.3 0 0 0-14-1.8A5.8 5.8 0 0 0 9.5 25.5Z';
+  const WX_SUN = (cx, cy, r) => `<circle cx="${cx}" cy="${cy}" r="${r}" fill="#FFC83D"/><g stroke="#FFC83D" stroke-width="2" stroke-linecap="round">${[0, 45, 90, 135, 180, 225, 270, 315].map((a) => { const t = (a * Math.PI) / 180, r1 = r + 2.6, r2 = r + 5; return `<path d="M${(cx + r1 * Math.cos(t)).toFixed(1)} ${(cy + r1 * Math.sin(t)).toFixed(1)}L${(cx + r2 * Math.cos(t)).toFixed(1)} ${(cy + r2 * Math.sin(t)).toFixed(1)}"/>`; }).join('')}</g>`;
+  const WX_MOON = (tx = 0, ty = 0, sc = 1) => `<path transform="translate(${tx} ${ty}) scale(${sc})" d="M20.5 5.5a10.5 10.5 0 1 0 6 18.6A9 9 0 0 1 20.5 5.5Z" fill="#FFE29A"/>`;
+  const cloud = (t = '', back = false) => `<path${t ? ` transform="${t}"` : ''} d="${WX_CLOUD}" fill="var(${back ? '--wx-cloud2' : '--wx-cloud'})"/>`;
+  const drops = (n = 3, col = '#6EC1FF') => `<g stroke="${col}" stroke-width="2.2" stroke-linecap="round">${[[11, 25], [16.5, 25], [22, 25]].slice(0, n).map(([x, y]) => `<path d="M${x} ${y}l-1.5 3.6"/>`).join('')}</g>`;
+  const WXI = {
+    sun: WX_SUN(16, 16, 6),
+    moon: WX_MOON(),
+    cloudsun: WX_SUN(11.5, 11, 4.4) + cloud('translate(3 2.5) scale(.9)'),
+    cloudmoon: WX_MOON(-2, -2, 0.7) + cloud('translate(3 2.5) scale(.9)'),
+    cloud: cloud('translate(-3 -3) scale(.85)', true) + cloud('translate(3 1.5) scale(.9)'),
+    fog: cloud('translate(0 -4)') + '<g stroke="var(--wx-cloud2)" stroke-width="2.2" stroke-linecap="round"><path d="M7 25.5h18M10 29h12"/></g>',
+    drizzle: cloud('translate(0 -4)') + drops(2),
+    rain: cloud('translate(0 -4)') + drops(3),
+    showers: WX_SUN(10.5, 9, 4) + cloud('translate(2 -2) scale(.92)') + drops(3),
+    storm: cloud('translate(0 -4)') + '<path d="M17.5 19.5l-4.5 6.5h3.6l-1.6 5 5.6-7.4h-3.7l1.9-4.1Z" fill="#FFC83D"/>',
+    snow: cloud('translate(0 -4)') + '<g fill="#fff" stroke="var(--wx-cloud2)" stroke-width=".8"><circle cx="11" cy="27" r="1.6"/><circle cx="16.5" cy="29" r="1.6"/><circle cx="22" cy="27" r="1.6"/></g>',
+  };
+  const wxi = (k, cls = '') => `<svg class="wxi ${cls}" viewBox="0 0 32 32" aria-hidden="true">${WXI[k] || WXI.cloudsun}</svg>`;
+  const isNightHour = (hh) => { const h = Number(String(hh).slice(0, 2)); return h < 7 || h >= 19; };
+  const rainWord = (r) => (r == null ? '' : r < 15 ? 'Dry' : `${r}% rain`);
   const TRIP_DAYS = D.plan.map((d) => d.date);
   function wxDay(date) {
     const d = WX.daily;
     if (d) {
       const i = d.time.indexOf(date);
-      if (i >= 0) return { live: true, hi: Math.round(d.temperature_2m_max[i]), lo: Math.round(d.temperature_2m_min[i]), rain: d.precipitation_probability_max?.[i], code: d.weather_code[i], sunset: d.sunset?.[i]?.slice(11) };
+      if (i >= 0) return { live: true, hi: Math.round(d.temperature_2m_max[i]), lo: Math.round(d.temperature_2m_min[i]), rain: d.precipitation_probability_max?.[i], code: d.weather_code[i], sunset: d.sunset?.[i]?.slice(11), wind: d.wind_speed_10m_max?.[i] != null ? Math.round(d.wind_speed_10m_max[i]) : null, mm: d.precipitation_sum?.[i] };
     }
     const c = D.climate || {};
     return { live: false, hi: c.avgHigh, lo: c.avgLow, rain: null, code: null, sunset: c.sunset?.[date] };
@@ -601,39 +623,92 @@
     const key = `${date}T${time.slice(0, 2)}:00`;
     const i = h.time.indexOf(key);
     if (i < 0) return null;
-    return { temp: Math.round(h.temperature_2m[i]), rain: h.precipitation_probability?.[i], code: h.weather_code?.[i] };
+    return { temp: Math.round(h.temperature_2m[i]), feels: h.apparent_temperature?.[i] != null ? Math.round(h.apparent_temperature[i]) : null, rain: h.precipitation_probability?.[i], code: h.weather_code?.[i], wind: h.wind_speed_10m?.[i] != null ? Math.round(h.wind_speed_10m[i]) : null };
   }
   async function loadWeather() {
-    const cached = store.get('wx', null);
+    const cached = store.get('wx2', null);
     if (cached && cached.d && Date.now() - cached.t < 3 * 36e5) applyWx(cached.d);
     try {
       const url = 'https://api.open-meteo.com/v1/forecast?latitude=47.4979&longitude=19.0402'
-        + '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunset'
-        + '&hourly=temperature_2m,precipitation_probability,weather_code&timezone=Europe%2FBudapest&forecast_days=16';
+        + '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,wind_speed_10m_max,sunset'
+        + '&hourly=temperature_2m,apparent_temperature,precipitation_probability,weather_code,wind_speed_10m&timezone=Europe%2FBudapest&forecast_days=16';
       const r = await fetch(url, { cache: 'no-store' });
       if (!r.ok) throw new Error('weather ' + r.status);
       const d = await r.json();
-      store.set('wx', { t: Date.now(), d });
+      store.set('wx2', { t: Date.now(), d });
+      store.del('wx');
       applyWx(d);
     } catch { /* offline or rate-limited: climate averages stay up */ }
   }
   function applyWx(d) {
     if (!d?.daily?.time) return;
-    WX.daily = d.daily; WX.hourly = d.hourly; WX.live = TRIP_DAYS.some((x) => d.daily.time.includes(x));
+    WX.daily = d.daily; WX.hourly = d.hourly; WX.live = TRIP_DAYS.some((x) => d.daily.time.includes(x)); WX.at = Date.now();
     $$('[data-wx-slot]').forEach((el) => { el.innerHTML = wxSlot(el.dataset.wxSlot); });
     if (state.tab === 'plans') renderPlans(true);
     if (state.tab === 'info') renderInfo(true);
     if (detailOpenId) { const y = detailBody.scrollTop; openDetail(detailOpenId, { pushed: detailPushed, refresh: true }); detailBody.scrollTop = y; }
+  }
+  const nextDay = (date) => { const d = new Date(date + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + 1); return d.toISOString().slice(0, 10); };
+  // hour by hour for one day, running on into the small hours for the walk home
+  function wxHours(date) {
+    const slots = [['09', date], ['12', date], ['15', date], ['18', date], ['21', date], ['00', nextDay(date)], ['03', nextDay(date)]];
+    const cells = slots.map(([hh, d]) => {
+      const w = wxAt(d, hh + ':00');
+      if (!w) return '';
+      const m = WMO(w.code, isNightHour(hh));
+      return `<div class="wx-h"><small>${hh}:00</small>${wxi(m.k, 'wxi-sm')}<b class="tnum">${w.temp}°</b><small class="tnum">${w.rain != null && w.rain >= 15 ? w.rain + '%' : '&nbsp;'}</small></div>`;
+    }).join('');
+    if (!cells) return '';
+    const day = wxDay(date);
+    const eve = wxAt(date, '21:00');
+    const bits = [day.sunset && `Sunset ${day.sunset}`, eve?.feels != null && `feels like ${eve.feels}° at 21:00`, day.wind != null && `wind up to ${day.wind} km/h`].filter(Boolean).join(' · ');
+    return `<div class="wx-hours"><div class="wx-hgrid">${cells}</div>${bits ? `<p>${esc(bits.charAt(0).toUpperCase() + bits.slice(1))}</p>` : ''}</div>`;
+  }
+  function wxPlanRows() {
+    const rows = EVENTS.slice().sort((a, b) => at(a.date, a.start) - at(b.date, b.start)).map((e) => {
+      const w = wxAt(e.date, e.start);
+      if (!w) return '';
+      const m = WMO(w.code, isNightHour(e.start));
+      const feels = w.feels != null && w.feels <= w.temp - 2 ? `, feels ${w.feels}°` : '';
+      return `<li>${wxi(m.k, 'wxi-sm')}<span><b>${esc(shortEventName(e))}</b> ${esc(WEEKDAY.format(at(e.date, e.start)))} ${esc(e.start)}</span><span class="tnum">${w.temp}°${feels} · ${esc(rainWord(w.rain) || m.t)}</span></li>`;
+    }).filter(Boolean);
+    // coldest walk home: 23:00–03:00 on the three nights out
+    let cold = null;
+    for (const date of TRIP_DAYS.slice(0, 3)) for (const [hh, d] of [['23', date], ['00', nextDay(date)], ['01', nextDay(date)], ['02', nextDay(date)], ['03', nextDay(date)]]) {
+      const w = wxAt(d, hh + ':00');
+      const v = w ? (w.feels ?? w.temp) : null;
+      if (v != null && (!cold || v < cold.v)) cold = { v, hh, date };
+    }
+    if (cold) rows.push(`<li>${wxi('moon', 'wxi-sm')}<span><b>Walking home</b> ${esc(WEEKDAY.format(at(cold.date, '12:00')))} night</span><span class="tnum">feels ${cold.v}° at ${cold.hh}:00</span></li>`);
+    return rows.length ? `<ul class="wx-plan">${rows.join('')}</ul>` : '';
+  }
+  function wxTip() {
+    const days = TRIP_DAYS.map((d) => ({ d, ...wxDay(d) }));
+    const lows = days.map((x) => x.lo).filter((v) => v != null);
+    const low = lows.length ? Math.min(...lows) : null;
+    const wet = days.filter((x) => x.rain != null).sort((a, b) => b.rain - a.rain)[0];
+    const coat = low == null ? 'a jacket' : low <= 8 ? 'a proper warm jacket for the nights' : low <= 12 ? 'a jacket or hoodie for the evenings' : 'a light layer for the evenings';
+    const brolly = !wet ? '' : wet.rain >= 50 ? `Bring a brolly: ${WEEKDAY.format(at(wet.d, '12:00'))} looks wet` : wet.rain >= 30 ? 'A small brolly, just in case' : 'No brolly needed';
+    return `Pack ${coat}.${brolly ? ' ' + brolly + '.' : ''}`;
   }
   function wxSlot(kind) {
     if (kind === 'strip') {
       const days = TRIP_DAYS.map((date) => {
         const w = wxDay(date);
         const m = WMO(w.code);
-        return `<div class="wx-day"><span>${esc(WEEKDAY.format(at(date, '12:00')))}</span>${icon(w.live ? m.i : 'cloudsun')}<b>${w.hi ?? '–'}°</b><small>${w.lo ?? '–'}°${w.rain != null ? ` · ${w.rain}%` : ''}</small></div>`;
+        const open = state.wxOpen === date;
+        return `<button type="button" class="wx-day" data-act="wx-day" data-date="${date}" aria-expanded="${open}" ${w.live ? '' : 'disabled'}>
+          <span class="wx-dow">${esc(WEEKDAY.format(at(date, '12:00')))}</span>${wxi(w.live ? m.k : 'cloudsun')}
+          <span class="wx-t">${esc(w.live ? m.t : 'Typical')}</span>
+          <b class="tnum">${w.hi ?? '–'}°</b><small class="tnum">Low ${w.lo ?? '–'}°</small>
+          ${w.live ? `<small class="wx-r">${esc(rainWord(w.rain))}</small>` : ''}</button>`;
       }).join('');
-      const note = WX.live ? 'Live forecast for Budapest. High, low and chance of rain.' : 'Typical mid-October weather. The live forecast appears about 16 days out.';
-      return `<div class="wx-strip">${days}</div><p class="wx-note">${note}</p>`;
+      if (!WX.live) return `<div class="wx-strip">${days}</div><p class="wx-tip">${esc(wxTip())}</p><p class="wx-note">Typical mid-October weather. The live forecast switches on about 16 days out.</p>`;
+      const upd = WX.at ? new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Budapest' }).format(WX.at) : '';
+      return `<div class="wx-strip">${days}</div>${state.wxOpen ? wxHours(state.wxOpen) : ''}
+        ${wxPlanRows()}
+        <p class="wx-tip">${esc(wxTip())}</p>
+        <p class="wx-note">Live forecast for Budapest${upd ? ', updated ' + upd : ''}. Tap a day for hour by hour.</p>`;
     }
     return '';
   }
@@ -843,7 +918,7 @@
             ${it.sub ? `<p class="tl-sub">${esc(it.sub)}</p>` : ''}
             <div class="tl-meta">
               ${it.booked ? '<span class="badge badge-booked">Booked</span>' : it.kind === 'idea' ? '<span class="badge badge-idea">Idea</span>' : ''}
-              ${wx ? `<span class="badge badge-wx">${icon(WMO(wx.code).i, 'ic-sm')}${wx.temp}°${wx.rain != null ? ` · ${wx.rain}% rain` : ''}</span>` : ''}
+              ${wx ? `<span class="badge badge-wx">${wxi(WMO(wx.code, isNightHour(it.time)).k, 'wxi-xs')}${wx.temp}°${wx.rain != null ? ` · ${esc(rainWord(wx.rain))}` : ''}</span>` : ''}
               ${whoLabel(it.who) ? `<span class="who">${icon('users')}${esc(whoLabel(it.who))}</span>` : ''}
               ${flightChip(it)}
             </div>
@@ -853,7 +928,7 @@
       }).join('');
       return `<section class="day" id="day-${day.date}">
         <div class="day-head"><h2>${esc(day.title)} ${esc(String(Number(day.date.slice(8))))}<small>${esc(day.theme)}</small></h2>
-          <span class="day-wx" title="${w.live ? 'Forecast' : 'Typical for mid-October'}">${icon(w.live ? m.i : 'cloudsun')}${w.hi ?? '–'}° / ${w.lo ?? '–'}°${w.rain != null ? ` · ${w.rain}%` : ''}</span></div>
+          <span class="day-wx" title="${w.live ? 'Forecast' : 'Typical for mid-October'}">${wxi(w.live ? m.k : 'cloudsun', 'wxi-xs')}${w.hi ?? '–'}° / ${w.lo ?? '–'}°${w.rain != null ? ` · ${esc(rainWord(w.rain))}` : ''}</span></div>
         ${items ? `<ol class="tl">${items}</ol>` : '<p class="tl-empty">Nothing booked.</p>'}
       </section>`;
     }).join('');
@@ -902,12 +977,15 @@
     const SHORT = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', timeZone: 'Europe/Budapest' });
     const wxRows = TRIP_DAYS.map((date) => {
       const w = wxDay(date); const m = WMO(w.code);
-      return `<div class="wx-row"><div><b>${esc(SHORT.format(at(date, '12:00')))}</b>${w.sunset ? `<small>Sunset ${esc(w.sunset)}</small>` : ''}</div><div class="wx-cond">${icon(w.live ? m.i : 'cloudsun')}<span>${esc(w.live ? m.t : 'Typical')}</span></div><div class="tnum">${w.hi ?? '–'}°<small>${w.lo ?? '–'}°</small></div><div class="tnum wx-rain">${w.rain != null ? icon('rain', 'ic-sm') + w.rain + '%' : ''}</div></div>`;
+      const row = `<div class="wx-row"><div><b>${esc(SHORT.format(at(date, '12:00')))}</b>${w.sunset ? `<small>Sunset ${esc(w.sunset)}</small>` : ''}</div><div class="wx-cond">${wxi(w.live ? m.k : 'cloudsun')}<span>${esc(w.live ? m.t : 'Typical')}</span></div><div class="tnum">${w.hi ?? '–'}°<small>low ${w.lo ?? '–'}°</small></div><div class="tnum wx-rain">${esc(rainWord(w.rain))}</div></div>`;
+      const hours = w.live ? wxHours(date) : '';
+      return hours ? `<details class="wx-more"><summary>${row}</summary>${hours}</details>` : row;
     }).join('');
-    const kick = EVENTS.map((e) => { const w = wxAt(e.date, e.start); return w ? `<li>${esc(e.name)}: ${w.temp}°, ${esc(WMO(w.code).t.toLowerCase())}${w.rain != null ? `, ${w.rain}% chance of rain` : ''}</li>` : ''; }).join('');
+    const plan = WX.live ? wxPlanRows() : '';
     const weather = `<div class="wx-list">${wxRows}</div>
-      ${kick ? `<div><h3>At kick-off</h3><ul style="margin:4px 0 0;padding-left:18px">${kick}</ul></div>` : ''}
-      <p class="muted">${WX.live ? 'Live forecast from Open-Meteo, refreshed every few hours.' : `Typical mid-October: highs around ${D.climate.avgHigh}°, lows around ${D.climate.avgLow}°. The live forecast switches on once the trip is within 16 days.`} Bring a jacket for the matches.</p>`;
+      ${plan ? `<div><h3>At your bookings</h3>${plan}</div>` : ''}
+      <p class="wx-tip">${esc(wxTip())}</p>
+      <p class="muted">${WX.live ? 'Live forecast from Open-Meteo, refreshed every few hours. Tap a day for hour by hour.' : `Typical mid-October: highs around ${D.climate.avgHigh}°, lows around ${D.climate.avgLow}°. The live forecast switches on once the trip is within 16 days.`}</p>`;
 
     const B = BASE;
     const shopList = PLACES.filter((p) => p.type === 'shop').sort((a, b) => (distOf(a) ?? 1e9) - (distOf(b) ?? 1e9));
@@ -1005,7 +1083,7 @@
       parts.push(`<div class="d-event">
         <div><small>Date</small><b>${esc(WEEKDAY.format(d))} ${esc(String(Number(p.date.slice(8))))}</b><span>October</span></div>
         <div><small>${p.id.includes('kart') ? 'Start' : 'Kick-off'}</small><b>${esc(p.start || 'TBC')}</b><span>${p.start ? esc(ukTime(p.start)) + ' home time' : ''}</span></div>
-        <div><small>${p.arriveFrom ? 'Gates' : 'Weather'}</small><b>${esc(p.arriveFrom || (wx ? wx.temp + '°' : '–'))}</b><span>${p.arriveFrom ? 'open' : wx ? esc(WMO(wx.code).t) : 'forecast soon'}</span></div>
+        <div><small>${p.arriveFrom ? 'Gates' : 'Weather'}</small><b>${esc(p.arriveFrom || (wx ? wx.temp + '°' : '–'))}</b><span>${p.arriveFrom ? 'open' : wx ? esc(WMO(wx.code, isNightHour(p.start)).t) : 'forecast soon'}</span></div>
       </div>`);
       if (whoLabel(p.who)) parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
     }
@@ -1797,6 +1875,11 @@
         break;
       }
       case 'close-card': e.preventDefault(); clearSelection(); break;
+      case 'wx-day': {
+        state.wxOpen = state.wxOpen === t.dataset.date ? null : t.dataset.date;
+        $$('[data-wx-slot]').forEach((el) => { el.innerHTML = wxSlot(el.dataset.wxSlot); });
+        break;
+      }
       case 'clear-filters': clearFilters(); break;
       case 'share-faves': {
         const items = [...state.faves].map((id) => byId.get(id)).filter(Boolean);
