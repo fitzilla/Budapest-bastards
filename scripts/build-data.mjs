@@ -237,7 +237,8 @@ function illoCategory(x) {
     if (t.has('rooftop')) return 'rooftop';
     if (t.has('cocktail') || t.has('speakeasy')) return 'cocktail';
     if (t.has('craft-beer')) return 'craftbeer';
-    if (t.has('sports')) return 'sports';
+    if (/irish/i.test(x.name)) return 'irish';
+    if (t.has('sports')) return 'pub'; // a pint, not strangers' faces
     if (t.has('palinka')) return 'palinka';
     if (t.has('club')) return 'club';
     if (t.has('ruin-bar')) return 'ruin';

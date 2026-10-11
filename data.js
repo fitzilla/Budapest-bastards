@@ -1232,14 +1232,14 @@ window.BB_DATA = {
    "blurb": "Many screens, Jewish Quarter location, opens at midday unlike most bars nearby. Football on every wall.",
    "tip": "Pin is approximate (street only). Check which matches are on over 17–18 Oct.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Watching_football_match.JPG?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
    "links": {
     "ta": "https://www.tripadvisor.co.uk/Restaurant_Review-g274887-d783758-Reviews-Champs_PUB-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Friends watching a football match"
+   "imageCaption": "A pint of Arany Ászok lager"
   },
   {
    "id": "jack-doyles-irish-pub",
@@ -1268,14 +1268,14 @@ window.BB_DATA = {
    "blurb": "Tucked down an alley off the Pest high street: Irish pub, Sky Sports, Guinness and elbow-to-elbow lads. Your kind of Friday pre-match warm-up.",
    "tip": "Tiny and fills up early, so book a table for any kick-off or you'll be watching through a gap in someone's shoulders.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Watching_football_match.JPG?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guinness_Glass_2010.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Friends watching a football match"
+   "imageCaption": "A pint of Guinness"
   },
   {
    "id": "stifler-sport-bar",
@@ -1376,14 +1376,14 @@ window.BB_DATA = {
    "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local: bring your best 'Hajrá Magyarok'.",
    "tip": "Rammed on big match nights, so arrive early for a spot. Check Facebook for which games they are showing.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Watching_football_match.JPG?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soros_poh%C3%A1r_borsodi.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Friends watching a football match"
+   "imageCaption": "A glass of Hungarian lager"
   },
   {
    "id": "hopaholic",

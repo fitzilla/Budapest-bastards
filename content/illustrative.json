@@ -90,18 +90,6 @@
    "source": "https://commons.wikimedia.org/wiki/File:Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg"
   }
  ],
- "sports": [
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Football_match_in_cinema.jpg?width=960",
-   "caption": "Fans watching football on a big screen",
-   "source": "https://commons.wikimedia.org/wiki/File:Football_match_in_cinema.jpg"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Watching_football_match.JPG?width=960",
-   "caption": "Friends watching a football match",
-   "source": "https://commons.wikimedia.org/wiki/File:Watching_football_match.JPG"
-  }
- ],
  "club": [
   {
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg?width=960",
@@ -437,6 +425,18 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/City_SPAR_-_Budapest,_T%C5%B1zolt%C3%B3_utca_50-56._(a).jpg?width=960",
    "caption": "A City Spar in Budapest",
    "source": "https://commons.wikimedia.org/wiki/File:City_SPAR_-_Budapest,_T%C5%B1zolt%C3%B3_utca_50-56._(a).jpg"
+  }
+ ],
+ "irish": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guinness_da_Bar.jpg?width=960",
+   "caption": "A pint of Guinness on the bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Guinness_da_Bar.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guinness_Glass_2010.jpg?width=960",
+   "caption": "A pint of Guinness",
+   "source": "https://commons.wikimedia.org/wiki/File:Guinness_Glass_2010.jpg"
   }
  ]
 }
