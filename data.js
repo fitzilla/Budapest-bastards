@@ -186,7 +186,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Groupama_Ar%C3%A9na_f%C5%91bej%C3%A1rat.JPG?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Groupama_Arena_02.jpg?width=960"
    ],
-   "commonsCat": "Category:Groupama Arena",
    "wiki": "hu:Groupama Aréna"
   },
   {
@@ -233,7 +232,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Formula_1_Hungarian_Grand_Prix_2011_(3).JPG?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/2022_ETCR_-_RD2_-_Hungaroring_(52186703505).jpg?width=960"
    ],
-   "commonsCat": "Category:Hungaroring",
    "wiki": "Hungaroring"
   },
   {
@@ -276,7 +274,6 @@ window.BB_DATA = {
    "gallery": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/MTK_stadion_-_l%C3%A9gi_fot%C3%B3.jpg?width=960"
    ],
-   "commonsCat": "Category:Hidegkuti Nándor Stadium",
    "wiki": "Hidegkuti Nándor Stadion"
   }
  ],
@@ -532,7 +529,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/A38_(ship,_Budapest).JPG?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/A38_1.jpg?width=960"
    ],
-   "commonsCat": "Category:A38 (ship, 1968)",
    "wiki": "A38 (ship)"
   },
   {
@@ -719,7 +715,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Romkocsma_Szimpla_Kert_Budapest.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/T%C3%BCk%C3%B6rn%C3%A9zet_Szimpla_romkocsma.JPG?width=960"
    ],
-   "commonsCat": "Category:Szimpla Kert",
    "wiki": "Szimpla Kert"
   },
   {
@@ -762,8 +757,7 @@ window.BB_DATA = {
    "imageCaption": "The Fogas entrance on Akácfa utca",
    "gallery": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Ak%C3%A1cfa_utca_51,_2018_Erzs%C3%A9betv%C3%A1ros.jpg?width=960"
-   ],
-   "commonsCat": "Category:Akácfa Street, 51 (Fogasház)"
+   ]
   },
   {
    "id": "koleves-kert",
@@ -1053,7 +1047,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-yard._'D'_yard._Bldg_-5._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-yard._Dob_Street's_gateway._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?width=960"
    ],
-   "commonsCat": "Category:Gozsdu courtyard",
    "wiki": "Gozsdu-udvar"
   },
   {
@@ -2686,7 +2679,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Mercado_Central_-_Grand_Market_Hall_-_Nagycsarnok_-_02.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Central_market_hall,_Budapest.jpg?width=960"
    ],
-   "commonsCat": "Category:Grand Market Hall, Budapest",
    "wiki": "Great Market Hall, Budapest"
   },
   {
@@ -3797,7 +3789,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Hungary-0062_-_Hungarian_Parliament_Building_(7270467104).jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest-Parliament-0001.jpg?width=960"
    ],
-   "commonsCat": "Category:Hungarian Parliament Building",
    "wiki": "Hungarian Parliament Building"
   },
   {
@@ -3842,7 +3833,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Budav%C3%A1ri_Palota_(Buda_Castle)_(31224644612).jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Buda_Castle_-_Palazzo_Reale_Budapest.jpg?width=960"
    ],
-   "commonsCat": "Category:Buda Castle",
    "wiki": "Buda Castle"
   },
   {
@@ -3887,7 +3877,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman's_Bastion,_Budapest,_Hungary.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Fisherman's_Bastion_to_the_Hungarian_Parliament_Building,_2016_Hungary_-_Budapest_(27877629173).jpg?width=960"
    ],
-   "commonsCat": "Category:Fisherman's Bastion",
    "wiki": "Fisherman's Bastion"
   },
   {
@@ -3928,7 +3917,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church,_Budapest_07.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church_or_Buda_Castle_Coronation_Church_(officially_known_as_the_Buda_Castle's_Church_of_Our_Lady)._Moon_and_Stars._-_Buda_Castle_Quarter,_Budapest.JPG?width=960"
    ],
-   "commonsCat": "Category:Matthias Church (Budapest)",
    "wiki": "Matthias Church"
   },
   {
@@ -3971,7 +3959,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest._I._Lovas_%C3%BAt._4.-_Hospital_in_the_Rock_-_Secret_Military_Hospital_and_Nuclear_Bunker.JPG?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest._I._Lovas_%C3%BAt_4.-_Hospital_in_the_Rock_and_Castle_Walls._Sour_Soup_tower.JPG?width=960"
    ],
-   "commonsCat": "Category:Hospital in the Rock",
    "wiki": "Hospital in the Rock"
   },
   {
@@ -4016,7 +4003,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/House_of_Terror,_Budapest.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Terror_Haza_Muzeum-Hosok_fala_20131201_02.jpg?width=960"
    ],
-   "commonsCat": "Category:House of Terror Museum",
    "wiki": "House of Terror"
   },
   {
@@ -4097,7 +4083,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Cip%C5%91k_a_Duna-parton_(38450346722).jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Shoes_on_the_Danube_Promenade_(Holocaust_monument,_Budapest).jpg?width=960"
    ],
-   "commonsCat": "Category:Shoes on the Danube Promenade",
    "wiki": "Shoes on the Danube Bank"
   },
   {
@@ -4139,7 +4124,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Synagogue-Budapest.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Nagy_zsinagoga_budapest.jpg?width=960"
    ],
-   "commonsCat": "Category:Great Synagogue in Dohány Street",
    "wiki": "Dohány Street Synagogue"
   },
   {
@@ -4184,7 +4168,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/St._Stephen's_Basilica_by_night.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Szent_Istv%C3%A1n-bazilika,_St._Stephen's_Basilica_(11374602996).jpg?width=960"
    ],
-   "commonsCat": "Category:Saint Stephen's Basilica (Budapest)",
    "wiki": "St. Stephen's Basilica"
   },
   {
@@ -4228,7 +4211,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Hosok_tere,_Budapest.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Millennium_Monument,_H%C5%91s%C3%B6k_tere_(Heroes'_Square),_Budapest,_Hungary_-_200512.jpg?width=960"
    ],
-   "commonsCat": "Category:Hősök tere (Budapest 14)",
    "wiki": "Heroes' Square (Budapest)"
   },
   {
@@ -4273,7 +4255,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Freiheitsstatue_IMGP1996.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budape%C5%A1%C5%A5,_Gellert-hegy,_pam%C3%A1tn%C3%ADk.JPG?width=960"
    ],
-   "commonsCat": "Category:Statue of Liberty (Budapest)",
    "wiki": "Citadella"
   },
   {
@@ -4317,7 +4298,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Chain_Bridge_Budapest_Hungary.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Chain_Bridge_-_panoramio.jpg?width=960"
    ],
-   "commonsCat": "Category:Chain Bridge, Budapest",
    "wiki": "Széchenyi Chain Bridge"
   },
   {
@@ -4614,7 +4594,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Sz%C3%A9chenyi_f%C3%BCrd%C5%91,_M%C3%A1rv%C3%A1nyterem.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Gy%C3%B3gyf%C3%BCrd%C5%91_thermal_spa_in_Budapest_013.JPG?width=960"
    ],
-   "commonsCat": "Category:Széchenyi Gyógyfürdő",
    "wiki": "Széchenyi thermal bath"
   },
   {
@@ -4658,7 +4637,6 @@ window.BB_DATA = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Rudas_Bath_W_mid_part,_2016_Budapest.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Rudas_f%C3%BCrd%C5%91,_szaunavil%C3%A1g,_aroma_szauna,_3.jpg?width=960"
    ],
-   "commonsCat": "Category:Rudas Gyógyfürdő",
    "wiki": "Rudas Baths"
   },
   {

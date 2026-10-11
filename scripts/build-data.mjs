@@ -43,7 +43,8 @@ function applyMedia(x) {
   }
   // extra photos for the swipeable gallery: Commons file names, plus a category the app can top up from
   if (Array.isArray(img?.gallery) && img.gallery.length) x.gallery = img.gallery.map(commonsUrl);
-  if (img?.commonsCat && /^Category:/.test(img.commonsCat)) x.commonsCat = img.commonsCat;
+  // runtime top-ups from a whole Commons category are off: unvetted photos (selfies, randoms) slipped through
+  // if (img?.commonsCat && /^Category:/.test(img.commonsCat)) x.commonsCat = img.commonsCat;
   const w = img?.wiki || wiki[x.id]; // titles seen in search results beat ones from memory
   if (w && !x.id.startsWith('_')) x.wiki = String(w).replace(/^en:/, '');
   return x;
