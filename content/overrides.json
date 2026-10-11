@@ -71,7 +71,8 @@
   },
   "robot-club": {
    "lat": 47.49932,
-   "lng": 19.06628
+   "lng": 19.06628,
+   "tip": "It's one of the rooms inside Instant-Fogas, so you get both in one night. Busiest Thursday to Saturday."
   },
   "stand": {
    "lat": 47.4987,
@@ -79,7 +80,8 @@
   },
   "szimply": {
    "lat": 47.4992,
-   "lng": 19.0567
+   "lng": 19.0567,
+   "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the Sunday recovery here."
   },
   "house-of-terror": {
    "lat": 47.50695,
@@ -123,7 +125,8 @@
    "addTags": [
     "history"
    ],
-   "must": true
+   "must": true,
+   "blurb": "Neo-Gothic food cathedral. Paprika, sausages, pálinka downstairs; lángos and goulash upstairs. Do it Saturday morning: most of it is shut on Sunday."
   },
   "szimpla-farmers-market": {
    "hidePin": true
@@ -235,7 +238,8 @@
    "must": true
   },
   "chain-bridge": {
-   "must": true
+   "must": true,
+   "hours": "Open 24/7 on foot. Cars have been banned since the 2023 renovation, so it is a nice walk across."
   },
   "gellert-hill-citadella": {
    "must": true
@@ -289,6 +293,12 @@
   },
   "retro-langos": {
    "notes": "The Bajcsy-Zsilinszky út branch shut on 31 Aug 2026 for a revamp, due back on 8 Oct: check Google Maps. If it is still shut, the Vécsey utca 3 branch by Parliament is open daily 11:00–22:00."
+  },
+  "babel": {
+   "blurb": "One Michelin star since 2019, tucked near Elisabeth Bridge. Modern Hungarian with a bit of flair. Saturday lunch is the easiest table to get."
+  },
+  "leo-rooftop": {
+   "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset."
   }
  }
 }
