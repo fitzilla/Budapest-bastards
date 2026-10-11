@@ -459,5 +459,11 @@
   "gallery": [
    "Flippermúzeum bejárat2.jpg"
   ]
+ },
+ "lampas": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_performance_near_the_amplifier_(Unsplash).jpg?width=960",
+  "caption": "Guitarist playing by the amp",
+  "source": "https://commons.wikimedia.org/wiki/File:Guitar_performance_near_the_amplifier_(Unsplash).jpg",
+  "kind": "illustrative"
  }
 }

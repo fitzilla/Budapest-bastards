@@ -364,7 +364,7 @@ window.BB_DATA = {
    "blurb": "Red-lit basement with graffiti walls: punk, rock and metal gigs and tribute nights. Cheap beer, loud guitars, 150-capacity bunker. Your kind of place.",
    "tip": "A separate 'Saloon' area is open on weekdays for a quieter pint. Check their socials for the Thu–Sat gig line-up.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coma_band_playing_live.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_performance_near_the_amplifier_(Unsplash).jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html",
     "web": null,
@@ -372,7 +372,7 @@ window.BB_DATA = {
    },
    "notes": "Hours from listings; check the gig calendar for 15–17 Oct.",
    "imageKind": "illustrative",
-   "imageCaption": "Rock band playing live"
+   "imageCaption": "Guitarist playing by the amp"
   },
   {
    "id": "lampas",
@@ -402,7 +402,7 @@ window.BB_DATA = {
    "blurb": "Labyrinthine basement across from Gozsdu Udvar with live rock, blues and rockabilly most nights. Free in, cheap beer, no tourist-trap vibe.",
    "tip": "Autumn is peak programming (summer is quieter), so your October dates are ideal. Back rooms are calmer if the main room is mental.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vader_band_playing_live_3.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_performance_near_the_amplifier_(Unsplash).jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html",
     "web": null,
@@ -410,7 +410,7 @@ window.BB_DATA = {
    },
    "pick": true,
    "imageKind": "illustrative",
-   "imageCaption": "Live metal band on stage"
+   "imageCaption": "Guitarist playing by the amp"
   },
   {
    "id": "blastbeat-bar",
@@ -440,7 +440,7 @@ window.BB_DATA = {
    "blurb": "Proper metal dive bar, walls plastered with metal relics. Cheap drinks, loud riffs, scruffy and proud. Not for the faint of heart.",
    "tip": "Cash-friendly dive with a grungy reputation on hygiene, so keep expectations low. The pin is approximate; check Maps.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vader_band_playing_live_3.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_Guitars_20171014_212855_ubt.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -448,7 +448,7 @@ window.BB_DATA = {
    },
    "unconfirmed": true,
    "imageKind": "illustrative",
-   "imageCaption": "Live metal band on stage"
+   "imageCaption": "Electric guitars"
   },
   {
    "id": "durer-kert",
@@ -593,14 +593,14 @@ window.BB_DATA = {
    "blurb": "Small live rock and blues club near Heroes' Square. Tribute bands (KISS, etc.), local covers, a sing-along lock-in vibe.",
    "tip": "Out past Oktogon so grab a taxi. Pin is approximate (±300m). Gig schedule on backstagepub.hu.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coma_band_playing_live.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guitar_performance_near_the_amplifier_(Unsplash).jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7007279-Reviews-BackStage_Pub-Budapest_Central_Hungary.html",
     "web": "https://backstagepub.hu",
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Rock band playing live"
+   "imageCaption": "Guitarist playing by the amp"
   },
   {
    "id": "hard-rock-cafe-budapest",
