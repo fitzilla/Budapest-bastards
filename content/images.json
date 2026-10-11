@@ -468,5 +468,15 @@
   "caption": "Craft beer bottles lined up on a bar counter",
   "source": "https://commons.wikimedia.org/wiki/File:Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg",
   "kind": "illustrative"
+ },
+ "pinball-museum": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flipperm%C3%BAzeum_bej%C3%A1rat1.jpg?width=960",
+  "kind": "venue",
+  "caption": "The entrance",
+  "source": "https://commons.wikimedia.org/wiki/File:Flipperm%C3%BAzeum_bej%C3%A1rat1.jpg",
+  "gallery": [
+   "Flippermúzeum bejárat2.jpg",
+   "Flippermúzeum bejárat3.jpg"
+  ]
  }
 }

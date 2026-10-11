@@ -4834,12 +4834,17 @@ window.BB_DATA = {
    "blurb": "Pinball and arcade machines on free-play for one ticket. Competitive lad-gold for a rainy Saturday afternoon.",
    "tip": "Great Sat afternoon/pre-dinner plan. Tickets at the door or online; arcade tournaments get serious.",
    "history": null,
-   "image": null,
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flipperm%C3%BAzeum_bej%C3%A1rat1.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d6969659-Reviews-Budapest_Pinball_Museum-Budapest_Central_Hungary.html",
     "web": "https://flippermuzeum.hu/en/contact-prices/",
     "book": "https://flippermuzeum.hu/en/contact-prices/"
    },
+   "imageCaption": "The entrance",
+   "gallery": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Flipperm%C3%BAzeum_bej%C3%A1rat2.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Flipperm%C3%BAzeum_bej%C3%A1rat3.jpg?width=960"
+   ],
    "wiki": "hu:Flippermúzeum"
   },
   {
