@@ -11,7 +11,8 @@
   "bars:old-mans-music-pub",
   "bars:ellato-kert",
   "sights:gellert-baths",
-  "sights:kiraly-baths"
+  "sights:kiraly-baths",
+  "food_extra:bock-bisztro"
  ],
  "patch": {
   "airport": {

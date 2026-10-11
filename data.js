@@ -3292,41 +3292,6 @@ window.BB_DATA = {
    "imageCaption": "Pörkölt with nokedli"
   },
   {
-   "id": "bock-bisztro",
-   "name": "Bock Bisztró",
-   "sub": null,
-   "type": "food",
-   "tags": [
-    "hungarian",
-    "booking-needed"
-   ],
-   "district": "VII",
-   "address": "Erzsébet körút 43-49, 1073 Budapest",
-   "lat": 47.5009,
-   "lng": 19.068,
-   "approx": true,
-   "rating": {
-    "ta": null,
-    "taN": null,
-    "g": null,
-    "gN": null
-   },
-   "price": 3,
-   "priceText": null,
-   "hours": "Mon–Sat 12:00–00:00 · Sun closed",
-   "blurb": "Proper modern Hungarian cooking in the Corinthia hotel on the Nagykörút, with a big list of Villány reds from the Bock family. A sit-down dinner with a bit of class.",
-   "tip": "Veal cheek pörkölt and a Villány red: about 9,000–14,000 HUF (£21–33) a head with wine. Book ahead for Fri and Sat.",
-   "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?width=960",
-   "links": {
-    "ta": null,
-    "web": null,
-    "book": null
-   },
-   "imageKind": "illustrative",
-   "imageCaption": "Beef pörkölt with nokedli"
-  },
-  {
    "id": "csirke-csibesz",
    "name": "Csirke Csibész",
    "sub": null,
