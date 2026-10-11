@@ -1108,12 +1108,16 @@
         ${p.type === 'shop' ? '' : `<a class="d-rating" href="${esc(taUrl(p))}" target="_blank" rel="noopener"><small>TRIPADVISOR</small>${r.ta != null ? `<b>${icon('star', 'ic-fill')}${r.ta.toFixed(1)}</b><span>${r.taN ? fmtInt(r.taN) + ' reviews' : 'Reviews'}</span>` : `<b>${icon('chat')}Reviews</b><span>What people say</span>`}</a>`}
       </div>`);
     }
+    // Google Maps pair: how to get there, and the place's own listing (reviews, photos, hours, closures)
+    if (!p.hidePin || p.address) parts.push(`<div class="d-maps">
+        <a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions</a>
+        <a class="btn btn-line" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener">${icon('pin')}Maps listing</a>
+      </div>`);
     const actions = [];
-    if (!p.hidePin || p.address) actions.push(`<a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions in Google Maps</a>`);
     if (p.links?.book) actions.push(`<a class="btn btn-soft" href="${esc(p.links.book)}" target="_blank" rel="noopener">${icon('ticket')}${p.type === 'event' ? 'Tickets' : 'Book'}</a>`);
     if (p.links?.web) actions.push(`<a class="btn btn-soft" href="${esc(p.links.web)}" target="_blank" rel="noopener">${icon('globe')}Website</a>`);
     if (!p.hidePin && p.lat != null) actions.push(`<button type="button" class="btn btn-soft" data-act="show-on-map" data-id="${esc(p.id)}">${icon('map')}On our map</button>`);
-    parts.push(`<div class="d-actions">${actions.join('')}</div>`);
+    if (actions.length) parts.push(`<div class="d-actions">${actions.join('')}</div>`);
 
     if (p.blurb) parts.push(`<p class="d-blurb">${esc(p.blurb)}</p>`);
     if (p.tip) parts.push(`<div class="callout">${icon('sparkles')}<div><strong>Insider tip</strong>${esc(p.tip)}</div></div>`);
@@ -1615,7 +1619,7 @@
         <p class="card-line">${esc(labelOf(p))}${p.district ? ' · District ' + esc(p.district) : ''}</p>
         <h3 class="card-title">${esc(p.name)}</h3>
         <p class="card-line">${esc(p.type === 'event' ? `${DAY_FMT.format(at(p.date, p.start))} · ${p.start}` : distText(p) || p.sub || '')}</p>
-        ${p.lat != null ? `<div class="map-card-actions"><a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions</a></div>` : ''}
+        ${p.lat != null ? `<div class="map-card-actions"><a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions</a><a class="btn btn-line" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener" aria-label="Google Maps listing">${icon('pin')}Listing</a></div>` : ''}
       </div>
       <button type="button" class="map-card-close" data-act="close-card" aria-label="Close">${icon('x')}</button>
     </div>`;
