@@ -228,8 +228,6 @@ window.BB_DATA = {
    "imageKind": "nearby",
    "gallery": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Hungaroring,_Mogyor%C3%B3d_12.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Hungaroring_2003.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Formula_1_Hungarian_Grand_Prix_2011_(3).JPG?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/2022_ETCR_-_RD2_-_Hungaroring_(52186703505).jpg?width=960"
    ],
    "wiki": "Hungaroring"
@@ -2560,8 +2558,7 @@ window.BB_DATA = {
    },
    "must": true,
    "gallery": [
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Street_Food_Karav%C3%A1n,_3.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Street_Food_Karav%C3%A1n,_2.jpg?width=960"
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_Street_Food_Karav%C3%A1n,_3.jpg?width=960"
    ]
   },
   {
@@ -3914,7 +3911,6 @@ window.BB_DATA = {
    },
    "gallery": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church,_Budapest,_2017.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church,_Budapest_07.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Church_or_Buda_Castle_Coronation_Church_(officially_known_as_the_Buda_Castle's_Church_of_Our_Lady)._Moon_and_Stars._-_Buda_Castle_Quarter,_Budapest.JPG?width=960"
    ],
    "wiki": "Matthias Church"
@@ -3998,10 +3994,8 @@ window.BB_DATA = {
    "notes": "It closed in mid-September 2026 for a content review and reopened on 22 Sep.",
    "gallery": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_(37766898364).jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_(37766885184).jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest-Terror_Museum.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/House_of_Terror,_Budapest.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Terror_Haza_Muzeum-Hosok_fala_20131201_02.jpg?width=960"
+    "https://commons.wikimedia.org/wiki/Special:FilePath/House_of_Terror,_Budapest.jpg?width=960"
    ],
    "wiki": "House of Terror"
   },
@@ -4121,8 +4115,7 @@ window.BB_DATA = {
    },
    "gallery": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Synagoge_Budapest_2014.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Synagogue-Budapest.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Nagy_zsinagoga_budapest.jpg?width=960"
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Synagogue-Budapest.jpg?width=960"
    ],
    "wiki": "Dohány Street Synagogue"
   },
@@ -4295,7 +4288,6 @@ window.BB_DATA = {
    "gallery": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Sz%C3%A9chenyi_L%C3%A1nch%C3%ADd_(37766929614).jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Chain_Bridge_Budapest_Hungary.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Chain_Bridge_-_panoramio.jpg?width=960"
    ],
    "wiki": "Széchenyi Chain Bridge"
@@ -4820,8 +4812,7 @@ window.BB_DATA = {
    },
    "imageCaption": "The entrance",
    "gallery": [
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Flipperm%C3%BAzeum_bej%C3%A1rat2.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Flipperm%C3%BAzeum_bej%C3%A1rat3.jpg?width=960"
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Flipperm%C3%BAzeum_bej%C3%A1rat2.jpg?width=960"
    ],
    "wiki": "hu:Flippermúzeum"
   },

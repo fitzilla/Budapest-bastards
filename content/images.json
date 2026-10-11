@@ -130,8 +130,7 @@
   "kind": "venue",
   "source": "https://commons.wikimedia.org/wiki/File:Street_Food_Karavan_Budapest_%2831519360372%29.jpg",
   "gallery": [
-   "Budapest, Street Food Karaván, 3.jpg",
-   "Budapest, Street Food Karaván, 2.jpg"
+   "Budapest, Street Food Karaván, 3.jpg"
   ]
  },
  "szimpla-farmers-market": {
@@ -233,8 +232,6 @@
   "source": "https://commons.wikimedia.org/wiki/File:Hungaroring_pit_lane.JPG",
   "gallery": [
    "Hungaroring, Mogyoród 12.jpg",
-   "Hungaroring 2003.jpg",
-   "Formula 1 Hungarian Grand Prix 2011 (3).JPG",
    "2022 ETCR - RD2 - Hungaroring (52186703505).jpg"
   ],
   "commonsCat": "Category:Hungaroring"
@@ -366,7 +363,6 @@
   "gallery": [
    "Széchenyi Chain Bridge in Budapest at night.jpg",
    "Budapest - Széchenyi Lánchíd (37766929614).jpg",
-   "Chain Bridge Budapest Hungary.jpg",
    "Budapest - Chain Bridge - panoramio.jpg"
   ],
   "commonsCat": "Category:Chain Bridge, Budapest"
@@ -411,18 +407,15 @@
  "dohany-synagogue": {
   "gallery": [
    "Synagoge Budapest 2014.jpg",
-   "Synagogue-Budapest.jpg",
-   "Nagy zsinagoga budapest.jpg"
+   "Synagogue-Budapest.jpg"
   ],
   "commonsCat": "Category:Great Synagogue in Dohány Street"
  },
  "house-of-terror": {
   "gallery": [
    "Budapest - Terror Háza Múzeum (37766898364).jpg",
-   "Budapest - Terror Háza Múzeum (37766885184).jpg",
    "Budapest-Terror Museum.jpg",
-   "House of Terror, Budapest.jpg",
-   "Budapest Terror Haza Muzeum-Hosok fala 20131201 02.jpg"
+   "House of Terror, Budapest.jpg"
   ],
   "commonsCat": "Category:House of Terror Museum"
  },
@@ -446,7 +439,6 @@
  "matthias-church": {
   "gallery": [
    "Matthias Church, Budapest, 2017.jpg",
-   "Matthias Church, Budapest 07.jpg",
    "Matthias Church or Buda Castle Coronation Church (officially known as the Buda Castle's Church of Our Lady). Moon and Stars. - Buda Castle Quarter, Budapest.JPG"
   ],
   "commonsCat": "Category:Matthias Church (Budapest)"
@@ -475,8 +467,7 @@
   "caption": "The entrance",
   "source": "https://commons.wikimedia.org/wiki/File:Flipperm%C3%BAzeum_bej%C3%A1rat1.jpg",
   "gallery": [
-   "Flippermúzeum bejárat2.jpg",
-   "Flippermúzeum bejárat3.jpg"
+   "Flippermúzeum bejárat2.jpg"
   ]
  }
 }
