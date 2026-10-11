@@ -71,8 +71,8 @@
    ],
    "district": "VI",
    "address": "Király utca 34, 1061 Budapest",
-   "lat": 47.5012,
-   "lng": 19.0627,
+   "lat": 47.49985,
+   "lng": 19.06105,
    "coordSource": "estimated-from-address",
    "rating": {
     "tripadvisor": null,
@@ -82,8 +82,8 @@
    },
    "price": 1,
    "hours": "Check Google Maps for opening times on the day",
-   "blurb": "Student-friendly specialty bar five minutes from the Airbnb, opened 2022. Scruffy in a good way, with free wifi and takeaway if you're in a rush for the next pub.",
-   "tip": "One of the two closest proper coffees to the Airbnb. Grab a flat white to go on the way to anywhere (about 1,200 HUF, £3).",
+   "blurb": "Student-friendly specialty bar a few minutes up Király utca from the Airbnb, opened 2022. Scruffy in a good way, with free wifi and takeaway if you're in a rush for the next pub.",
+   "tip": "One of the closest proper coffees to the Airbnb. Grab a flat white to go on the way to anywhere (about 1,200 HUF, £3).",
    "image": null,
    "links": {
     "tripadvisor": null,
@@ -100,8 +100,8 @@
    ],
    "district": "VI",
    "address": "Király utca 40, 1061 Budapest",
-   "lat": 47.5015,
-   "lng": 19.064,
+   "lat": 47.5002,
+   "lng": 19.0619,
    "coordSource": "estimated-from-address",
    "rating": {
     "tripadvisor": null,
@@ -111,7 +111,7 @@
    },
    "price": 2,
    "hours": "Mon–Fri 08:00–17:00 · Sat–Sun 09:00–18:00 (listings conflict on weekend closing)",
-   "blurb": "Minimalist Japanese coffee bar with Zsolnay tiles and its own roaster, opened early 2025, a three-minute stagger from the Airbnb. Pricier than the locals' places, but the coffee is smooth.",
+   "blurb": "Minimalist Japanese coffee bar with Zsolnay tiles and its own roaster, opened early 2025, a short stagger down Király utca from the Airbnb. Pricier than the locals' places, but the coffee is smooth.",
    "tip": "Go for the latte or the Kyoto-style coffee with condensed milk. Expect to pay a bit over 1,500 HUF (£3.50+).",
    "image": null,
    "links": {

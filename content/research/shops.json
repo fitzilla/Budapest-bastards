@@ -1,0 +1,186 @@
+{
+ "_readme": "Shops near the Airbnb, researched Oct 2026 (Sonnet agent + spot checks). Coordinates estimated from addresses.",
+ "items": [
+  {
+   "id": "city-spar-terez-korut-2",
+   "name": "City SPAR Teréz körút 2",
+   "type": "shop",
+   "tags": [
+    "supermarket"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 2, 1066 Budapest",
+   "lat": 47.5025,
+   "lng": 19.0668,
+   "coordSource": "estimated-from-address",
+   "hours": "Mon–Sat 07:00–21:00 · Sun 08:00–16:00",
+   "blurb": "The nearest proper supermarket, right on the körút corner by the Airbnb. Beer, water, snacks and a hangover breakfast sorted.",
+   "tip": "Sunday closing is early (16:00), so do not leave it late.",
+   "links": {
+    "website": "https://www.spar.hu/uzletek/city-spar-budapest-vi-1066-terez-koerut-2-"
+   }
+  },
+  {
+   "id": "spar-szupermarket-terez-korut-28",
+   "name": "SPAR szupermarket Teréz körút 28",
+   "type": "shop",
+   "tags": [
+    "supermarket",
+    "big-shop"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 28, 1066 Budapest",
+   "lat": 47.505,
+   "lng": 19.0632,
+   "coordSource": "estimated-from-address",
+   "hours": "Mon–Sat 06:30–21:00 · Sun 08:00–18:00",
+   "blurb": "The bigger Spar up towards Oktogon. Best bet for a full lads' shop: crates, mixers, ice, breakfast stuff.",
+   "tip": "Closes at 21:00, so be sorted well before the 22:00 alcohol cut-off.",
+   "links": {
+    "website": "https://www.spar.hu/uzletek/spar-szupermarket-budapest-1066-terez-koerut-28-"
+   }
+  },
+  {
+   "id": "lidl-kiraly-utca-112",
+   "name": "Lidl Király utca 112",
+   "type": "shop",
+   "tags": [
+    "supermarket",
+    "big-shop",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Király utca 112, 1061 Budapest",
+   "lat": 47.5054,
+   "lng": 19.0729,
+   "coordSource": "estimated-from-address",
+   "hours": "Mon–Sat 06:30–22:00 · Sun 07:00–20:00",
+   "blurb": "Cheapest big shop nearby and open until 22:00. Best spot for crates, snacks and a proper fry-up shop.",
+   "tip": "Open later than the Spars, so it is the one for a last beer run before 22:00. Pin is from the address: check Maps.",
+   "links": {
+    "website": "https://www.lidl.hu/s/hu-HU/uzletkereso/budapest/vi-kiraly-utca-112/"
+   }
+  },
+  {
+   "id": "spar-market-erzsebet-korut-27",
+   "name": "SPAR market Erzsébet körút 27",
+   "type": "shop",
+   "tags": [
+    "supermarket"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 27, 1073 Budapest",
+   "lat": 47.499,
+   "lng": 19.0697,
+   "coordSource": "estimated-from-address",
+   "hours": "Mon–Sat 07:00–21:00 · Sun 08:00–19:00",
+   "blurb": "Handy Spar a few minutes south down the körút towards Blaha Lujza tér.",
+   "tip": "spar.hu has two listings for this building: Sunday close is 18:00 or 19:00, so go early.",
+   "links": {
+    "website": "https://www.spar.hu/uzletek/spar-market-budapest-1073-erzsebet-krt-27"
+   }
+  },
+  {
+   "id": "lidl-rakoczi-ut-48",
+   "name": "Lidl Blaha Lujza tér",
+   "type": "shop",
+   "tags": [
+    "supermarket",
+    "big-shop"
+   ],
+   "district": "VII",
+   "address": "Rákóczi út 48., 1074 Budapest",
+   "lat": 47.4968,
+   "lng": 19.0712,
+   "coordSource": "estimated-from-address",
+   "hours": "Check Google Maps for hours",
+   "blurb": "Backup big Lidl at Blaha Lujza tér, on the metro. Longer walk than the Király utca one.",
+   "tip": "On the M2 at Blaha Lujza tér if the nearer Lidl is rammed.",
+   "links": {
+    "website": "https://www.lidl.hu/s/hu-HU/uzletkereso/budapest/vii-rakoczi-ut-48-blaha-lujza-ter/"
+   }
+  },
+  {
+   "id": "terez-gyogyszertar-terez-korut-41",
+   "name": "Teréz Gyógyszertár",
+   "type": "shop",
+   "tags": [
+    "pharmacy",
+    "24h"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 41, 1067 Budapest",
+   "lat": 47.5075,
+   "lng": 19.0603,
+   "coordSource": "estimated-from-address",
+   "hours": "Reported open 24 hours, with a night bell: phone first if it matters",
+   "blurb": "Round-the-clock chemist for paracetamol, rehydration salts and plasters when the weekend bites back.",
+   "tip": "At night you are served through a hatch. Ring the bell and have cash or a card ready.",
+   "links": {
+    "website": null
+   }
+  },
+  {
+   "id": "dm-kiraly-utca-34",
+   "name": "dm drogéria",
+   "type": "shop",
+   "tags": [
+    "drugstore"
+   ],
+   "district": "VI",
+   "address": "Király utca 34, 1061 Budapest",
+   "lat": 47.4998,
+   "lng": 19.061,
+   "coordSource": "estimated-from-address",
+   "hours": "Mon–Fri 08:00–20:00 · Sat 09:00–19:00 · Sun 10:00–18:00",
+   "blurb": "Toiletries, deodorant, toothpaste and hangover kit. Open on Sundays, which is the bit that matters.",
+   "tip": "Close earlier on Sunday (18:00), so do not leave it late.",
+   "links": {
+    "website": "https://www.dm.hu/store/u00l/budapest/kiraly-utca-34"
+   }
+  },
+  {
+   "id": "rossmann-kiraly-utca-51",
+   "name": "Rossmann",
+   "type": "shop",
+   "tags": [
+    "drugstore"
+   ],
+   "district": "VII",
+   "address": "Király utca 51, 1073 Budapest",
+   "lat": 47.5008,
+   "lng": 19.0636,
+   "coordSource": "estimated-from-address",
+   "hours": "Check Google Maps for hours",
+   "blurb": "Rossmann on Király utca, practically next door. Rossmann says its Budapest shops open on Sundays.",
+   "tip": "Address from an older Rossmann listing: check it is still there before you trek over.",
+   "links": {
+    "website": "https://www.rossmann.hu/sajtoszoba/a-drogeriaban-is-atveheto-a-rossmann-online-leadott-rendelese"
+   },
+   "verification": "not-confirmed-this-session"
+  }
+ ],
+ "goodToKnow": [
+  {
+   "title": "Buy the booze before 22:00",
+   "body": "District VII rules stop shops selling alcohol 22:00–06:00, and 2026 guides say the same for District VI: the shop stays open but the drink is locked away. Stock up before 10pm, and no wandering the street with an open can.",
+   "link": "https://erzsebetvaros.hu/uploads/files/php7ZaJrq-1697701051-25_2020%20Az%20%C3%BCzeletek%20%C3%A9jszakai%20nyitvatart%C3%A1s%C3%A1r%C3%B3l%20-%2020231019.pdf"
+  },
+  {
+   "title": "Fags and vapes: tobacco shops only",
+   "body": "Cigarettes and vapes are only sold in a Nemzeti Dohánybolt (state tobacco shop), not in supermarkets. Look for the Nemzeti Dohánybolt sign with the 18 logo and blacked-out windows. Take photo ID. Google Maps shows the nearest.",
+   "link": "https://en.wikipedia.org/wiki/Nemzeti_Doh%C3%A1nybolt"
+  },
+  {
+   "title": "Bottle deposit: 50 HUF back",
+   "body": "Most cans and bottles carry a 50 HUF deposit (REpont logo). Feed them empty, unwashed, into the machines in bigger shops and take the voucher to the till. Small shops may take them by hand.",
+   "link": "https://www.portfolio.hu/uzlet/20240207/ujitas-a-magyar-boltokban-igy-mukodnek-a-palackokat-visszavalto-automatak-video-667671"
+  },
+  {
+   "title": "Sundays are fine",
+   "body": "Supermarkets and dm open on Sundays, just shorter hours (the corner Spar shuts at 16:00). No public holidays fall on 15–18 Oct.",
+   "link": null
+  }
+ ],
+ "sources": []
+}

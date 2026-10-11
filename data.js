@@ -2980,8 +2980,8 @@ window.BB_DATA = {
    ],
    "district": "VI",
    "address": "Király utca 34, 1061 Budapest",
-   "lat": 47.5012,
-   "lng": 19.0627,
+   "lat": 47.49985,
+   "lng": 19.06105,
    "approx": true,
    "rating": {
     "ta": null,
@@ -2992,8 +2992,8 @@ window.BB_DATA = {
    "price": 1,
    "priceText": null,
    "hours": "Check Google Maps for opening times on the day",
-   "blurb": "Student-friendly specialty bar five minutes from the Airbnb, opened 2022. Scruffy in a good way, with free wifi and takeaway if you're in a rush for the next pub.",
-   "tip": "One of the two closest proper coffees to the Airbnb. Grab a flat white to go on the way to anywhere (about 1,200 HUF, £3).",
+   "blurb": "Student-friendly specialty bar a few minutes up Király utca from the Airbnb, opened 2022. Scruffy in a good way, with free wifi and takeaway if you're in a rush for the next pub.",
+   "tip": "One of the closest proper coffees to the Airbnb. Grab a flat white to go on the way to anywhere (about 1,200 HUF, £3).",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
    "links": {
@@ -3015,8 +3015,8 @@ window.BB_DATA = {
    ],
    "district": "VI",
    "address": "Király utca 40, 1061 Budapest",
-   "lat": 47.5015,
-   "lng": 19.064,
+   "lat": 47.5002,
+   "lng": 19.0619,
    "approx": true,
    "rating": {
     "ta": null,
@@ -3027,7 +3027,7 @@ window.BB_DATA = {
    "price": 2,
    "priceText": null,
    "hours": "Mon–Fri 08:00–17:00 · Sat–Sun 09:00–18:00 (listings conflict on weekend closing)",
-   "blurb": "Minimalist Japanese coffee bar with Zsolnay tiles and its own roaster, opened early 2025, a three-minute stagger from the Airbnb. Pricier than the locals' places, but the coffee is smooth.",
+   "blurb": "Minimalist Japanese coffee bar with Zsolnay tiles and its own roaster, opened early 2025, a short stagger down Király utca from the Airbnb. Pricier than the locals' places, but the coffee is smooth.",
    "tip": "Go for the latte or the Kyoto-style coffee with condensed milk. Expect to pay a bit over 1,500 HUF (£3.50+).",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
@@ -5547,6 +5547,268 @@ window.BB_DATA = {
     "book": null
    },
    "wiki": "Puskás Aréna"
+  },
+  {
+   "id": "city-spar-terez-korut-2",
+   "name": "City SPAR Teréz körút 2",
+   "sub": null,
+   "type": "shop",
+   "tags": [
+    "supermarket"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 2, 1066 Budapest",
+   "lat": 47.5025,
+   "lng": 19.0668,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": null,
+   "priceText": null,
+   "hours": "Mon–Sat 07:00–21:00 · Sun 08:00–16:00",
+   "blurb": "The nearest proper supermarket, right on the körút corner by the Airbnb. Beer, water, snacks and a hangover breakfast sorted.",
+   "tip": "Sunday closing is early (16:00), so do not leave it late.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://www.spar.hu/uzletek/city-spar-budapest-vi-1066-terez-koerut-2-",
+    "book": null
+   }
+  },
+  {
+   "id": "spar-szupermarket-terez-korut-28",
+   "name": "SPAR szupermarket Teréz körút 28",
+   "sub": null,
+   "type": "shop",
+   "tags": [
+    "supermarket",
+    "big-shop"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 28, 1066 Budapest",
+   "lat": 47.505,
+   "lng": 19.0632,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": null,
+   "priceText": null,
+   "hours": "Mon–Sat 06:30–21:00 · Sun 08:00–18:00",
+   "blurb": "The bigger Spar up towards Oktogon. Best bet for a full lads' shop: crates, mixers, ice, breakfast stuff.",
+   "tip": "Closes at 21:00, so be sorted well before the 22:00 alcohol cut-off.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://www.spar.hu/uzletek/spar-szupermarket-budapest-1066-terez-koerut-28-",
+    "book": null
+   }
+  },
+  {
+   "id": "lidl-kiraly-utca-112",
+   "name": "Lidl Király utca 112",
+   "sub": null,
+   "type": "shop",
+   "tags": [
+    "supermarket",
+    "big-shop",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Király utca 112, 1061 Budapest",
+   "lat": 47.5054,
+   "lng": 19.0729,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": null,
+   "priceText": null,
+   "hours": "Mon–Sat 06:30–22:00 · Sun 07:00–20:00",
+   "blurb": "Cheapest big shop nearby and open until 22:00. Best spot for crates, snacks and a proper fry-up shop.",
+   "tip": "Open later than the Spars, so it is the one for a last beer run before 22:00. Pin is from the address: check Maps.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://www.lidl.hu/s/hu-HU/uzletkereso/budapest/vi-kiraly-utca-112/",
+    "book": null
+   }
+  },
+  {
+   "id": "spar-market-erzsebet-korut-27",
+   "name": "SPAR market Erzsébet körút 27",
+   "sub": null,
+   "type": "shop",
+   "tags": [
+    "supermarket"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 27, 1073 Budapest",
+   "lat": 47.499,
+   "lng": 19.0697,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": null,
+   "priceText": null,
+   "hours": "Mon–Sat 07:00–21:00 · Sun 08:00–19:00",
+   "blurb": "Handy Spar a few minutes south down the körút towards Blaha Lujza tér.",
+   "tip": "spar.hu has two listings for this building: Sunday close is 18:00 or 19:00, so go early.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://www.spar.hu/uzletek/spar-market-budapest-1073-erzsebet-krt-27",
+    "book": null
+   }
+  },
+  {
+   "id": "lidl-rakoczi-ut-48",
+   "name": "Lidl Blaha Lujza tér",
+   "sub": null,
+   "type": "shop",
+   "tags": [
+    "supermarket",
+    "big-shop"
+   ],
+   "district": "VII",
+   "address": "Rákóczi út 48., 1074 Budapest",
+   "lat": 47.4968,
+   "lng": 19.0712,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": null,
+   "priceText": null,
+   "hours": "Check Google Maps for hours",
+   "blurb": "Backup big Lidl at Blaha Lujza tér, on the metro. Longer walk than the Király utca one.",
+   "tip": "On the M2 at Blaha Lujza tér if the nearer Lidl is rammed.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://www.lidl.hu/s/hu-HU/uzletkereso/budapest/vii-rakoczi-ut-48-blaha-lujza-ter/",
+    "book": null
+   }
+  },
+  {
+   "id": "terez-gyogyszertar-terez-korut-41",
+   "name": "Teréz Gyógyszertár",
+   "sub": null,
+   "type": "shop",
+   "tags": [
+    "pharmacy",
+    "24h"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 41, 1067 Budapest",
+   "lat": 47.5075,
+   "lng": 19.0603,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": null,
+   "priceText": null,
+   "hours": "Reported open 24 hours, with a night bell: phone first if it matters",
+   "blurb": "Round-the-clock chemist for paracetamol, rehydration salts and plasters when the weekend bites back.",
+   "tip": "At night you are served through a hatch. Ring the bell and have cash or a card ready.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "dm-kiraly-utca-34",
+   "name": "dm drogéria",
+   "sub": null,
+   "type": "shop",
+   "tags": [
+    "drugstore"
+   ],
+   "district": "VI",
+   "address": "Király utca 34, 1061 Budapest",
+   "lat": 47.4998,
+   "lng": 19.061,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": null,
+   "priceText": null,
+   "hours": "Mon–Fri 08:00–20:00 · Sat 09:00–19:00 · Sun 10:00–18:00",
+   "blurb": "Toiletries, deodorant, toothpaste and hangover kit. Open on Sundays, which is the bit that matters.",
+   "tip": "Close earlier on Sunday (18:00), so do not leave it late.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://www.dm.hu/store/u00l/budapest/kiraly-utca-34",
+    "book": null
+   }
+  },
+  {
+   "id": "rossmann-kiraly-utca-51",
+   "name": "Rossmann",
+   "sub": null,
+   "type": "shop",
+   "tags": [
+    "drugstore"
+   ],
+   "district": "VII",
+   "address": "Király utca 51, 1073 Budapest",
+   "lat": 47.5008,
+   "lng": 19.0636,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": null,
+   "priceText": null,
+   "hours": "Check Google Maps for hours",
+   "blurb": "Rossmann on Király utca, practically next door. Rossmann says its Budapest shops open on Sundays.",
+   "tip": "Address from an older Rossmann listing: check it is still there before you trek over.",
+   "history": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://www.rossmann.hu/sajtoszoba/a-drogeriaban-is-atveheto-a-rossmann-online-leadott-rendelese",
+    "book": null
+   },
+   "unconfirmed": true
   }
  ],
  "dishes": [
@@ -6172,7 +6434,28 @@ window.BB_DATA = {
    "link": "https://www.eredmenyek.com/foci/magyarorszag/nb-i/"
   }
  ],
- "shopsInfo": [],
+ "shopsInfo": [
+  {
+   "title": "Buy the booze before 22:00",
+   "body": "District VII rules stop shops selling alcohol 22:00–06:00, and 2026 guides say the same for District VI: the shop stays open but the drink is locked away. Stock up before 10pm, and no wandering the street with an open can.",
+   "link": "https://erzsebetvaros.hu/uploads/files/php7ZaJrq-1697701051-25_2020%20Az%20%C3%BCzeletek%20%C3%A9jszakai%20nyitvatart%C3%A1s%C3%A1r%C3%B3l%20-%2020231019.pdf"
+  },
+  {
+   "title": "Fags and vapes: tobacco shops only",
+   "body": "Cigarettes and vapes are only sold in a Nemzeti Dohánybolt (state tobacco shop), not in supermarkets. Look for the Nemzeti Dohánybolt sign with the 18 logo and blacked-out windows. Take photo ID. Google Maps shows the nearest.",
+   "link": "https://en.wikipedia.org/wiki/Nemzeti_Doh%C3%A1nybolt"
+  },
+  {
+   "title": "Bottle deposit: 50 HUF back",
+   "body": "Most cans and bottles carry a 50 HUF deposit (REpont logo). Feed them empty, unwashed, into the machines in bigger shops and take the voucher to the till. Small shops may take them by hand.",
+   "link": "https://www.portfolio.hu/uzlet/20240207/ujitas-a-magyar-boltokban-igy-mukodnek-a-palackokat-visszavalto-automatak-video-667671"
+  },
+  {
+   "title": "Sundays are fine",
+   "body": "Supermarkets and dm open on Sundays, just shorter hours (the corner Spar shuts at 16:00). No public holidays fall on 15–18 Oct.",
+   "link": null
+  }
+ ],
  "sparty": {
   "onDate": "2026-10-17",
   "body": "A Sparty is listed for Sat 17 Oct 2026 on the Baths Budapest and Széchenyi party pages (per search results; ticket availability not verified). Runs ~21:30-02:00 (18+ only), outdoor pools only. Basic ticket with locker ~25,375 HUF (~EUR 65); Premium (locker, drink coupons, 19:00 warm-up) ~31,621 HUF (~EUR 81). Other guides quote around EUR 59. Sells out - book on the official booking site.",
