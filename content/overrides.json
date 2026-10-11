@@ -8,7 +8,10 @@
   "bars:rocktogon",
   "bars_extra:palinka-museum-and-bar",
   "bars:ankert",
-  "bars:old-mans-music-pub"
+  "bars:old-mans-music-pub",
+  "bars:ellato-kert",
+  "sights:gellert-baths",
+  "sights:kiraly-baths"
  ],
  "patch": {
   "airport": {
@@ -65,10 +68,6 @@
    "lng": 19.0647,
    "pick": true
   },
-  "ellato-kert": {
-   "lat": 47.4993,
-   "lng": 19.0647
-  },
   "robot-club": {
    "lat": 47.49932,
    "lng": 19.06628
@@ -90,10 +89,6 @@
    "lng": 19.045,
    "must": true
   },
-  "gellert-baths": {
-   "lat": 47.48385,
-   "lng": 19.05145
-  },
   "lukacs-baths": {
    "lat": 47.5193,
    "lng": 19.0376
@@ -104,7 +99,8 @@
   },
   "zugliget-chairlift": {
    "lat": 47.5167,
-   "lng": 18.9748
+   "lng": 18.9748,
+   "tip": "Check bkk.hu before heading out: it shuts for maintenance and bad weather, and a renovation is due to start."
   },
   "mazel-tov": {
    "lat": 47.4991,
@@ -282,6 +278,16 @@
    "addTags": [
     "coffee"
    ]
+  },
+  "tank-driving": {
+   "address": "Kőérberki út 36/A, 1112 Budapest",
+   "district": "XI",
+   "lat": 47.4585,
+   "lng": 18.995,
+   "tip": "Book well ahead and ring the operator for the exact meeting point: listings disagree on where you start."
+  },
+  "retro-langos": {
+   "notes": "The Bajcsy-Zsilinszky út branch shut on 31 Aug 2026 for a revamp, due back on 8 Oct: check Google Maps. If it is still shut, the Vécsey utca 3 branch by Parliament is open daily 11:00–22:00."
   }
  }
 }

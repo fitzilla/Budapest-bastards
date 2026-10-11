@@ -874,43 +874,6 @@ window.BB_DATA = {
    "imageCaption": "A packed club dancefloor"
   },
   {
-   "id": "ellato-kert",
-   "name": "Ellátó Kert",
-   "sub": null,
-   "type": "bar",
-   "tags": [
-    "ruin-bar",
-    "pub",
-    "cheap"
-   ],
-   "district": "VII",
-   "address": "Kazinczy utca 48, 1075 Budapest",
-   "lat": 47.4993,
-   "lng": 19.0647,
-   "approx": true,
-   "rating": {
-    "ta": 4.4,
-    "taN": 86,
-    "g": null,
-    "gN": null
-   },
-   "price": 1,
-   "priceText": null,
-   "hours": "Daily 12:00–04:00. Check before you go.",
-   "blurb": "Classic courtyard ruin bar and taqueria on Kazinczy. Chill, cheap drinks and pub grub.",
-   "tip": "It closed in 2019 and reopened later. Check it's open before you head over.",
-   "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Bar_in_Szimpla_Kert.jpg?width=960",
-   "links": {
-    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d7370133-Reviews-Ellato_Kert-Budapest_Central_Hungary.html",
-    "web": null,
-    "book": null
-   },
-   "unconfirmed": true,
-   "imageKind": "illustrative",
-   "imageCaption": "Inside Szimpla Kert, the original ruin bar"
-  },
-  {
    "id": "red-ruin",
    "name": "Red Ruin",
    "sub": null,
@@ -2563,6 +2526,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "notes": "The Bajcsy-Zsilinszky út branch shut on 31 Aug 2026 for a revamp, due back on 8 Oct: check Google Maps. If it is still shut, the Vécsey utca 3 branch by Parliament is open daily 11:00–22:00.",
    "imageCaption": "Retro Lángos Büfé (2016)"
   },
   {
@@ -4725,41 +4689,6 @@ window.BB_DATA = {
    "wiki": "Széchenyi thermal bath"
   },
   {
-   "id": "gellert-baths",
-   "name": "Gellért Thermal Baths",
-   "sub": null,
-   "type": "bath",
-   "tags": [
-    "bath",
-    "landmark"
-   ],
-   "district": "XI",
-   "address": "Kelenhegyi út 4, 1118 Budapest",
-   "lat": 47.48385,
-   "lng": 19.05145,
-   "approx": false,
-   "rating": {
-    "ta": null,
-    "taN": null,
-    "g": null,
-    "gN": null
-   },
-   "price": 3,
-   "priceText": "Closed. No tickets in 2026.",
-   "hours": "Closed since 1 Oct 2025 for a major renovation. Reopening targeted for 2028 (some guides say late 2028–early 2029). Don't plan around it.",
-   "blurb": "The Art Nouveau icon with stained glass and the wave pool, but closed until at least 2028. Pick Rudas or Széchenyi instead.",
-   "tip": "Closed: swap to Rudas or Széchenyi. Its Art Nouveau facade is still worth a photo from the Liberty Bridge.",
-   "history": "Opened 1918 as part of the Gellért Hotel, which was damaged in WWII. The renovation (reported at about 20bn HUF) is meant to add a panoramic sunbathing terrace and a wellness area.",
-   "image": null,
-   "links": {
-    "ta": null,
-    "web": "https://gellertspa.com",
-    "book": null
-   },
-   "closed": true,
-   "wiki": "Gellért Baths"
-  },
-  {
    "id": "rudas-baths",
    "name": "Rudas Baths",
    "sub": "Ottoman bath, rooftop pool & night bathing",
@@ -4909,41 +4838,6 @@ window.BB_DATA = {
    "notes": "Shut for maintenance in late August; ring +36 1 438 8400 to check it has reopened.",
    "imageKind": "building",
    "wiki": "hu:Veli bej fürdő"
-  },
-  {
-   "id": "kiraly-baths",
-   "name": "Király Baths",
-   "sub": null,
-   "type": "bath",
-   "tags": [
-    "bath",
-    "history"
-   ],
-   "district": "I",
-   "address": "Fő utca 84, 1011 Budapest",
-   "lat": 47.5087,
-   "lng": 19.0396,
-   "approx": true,
-   "rating": {
-    "ta": null,
-    "taN": null,
-    "g": null,
-    "gN": null
-   },
-   "price": 1,
-   "priceText": "Closed",
-   "hours": "Closed for restoration since 2019 or 2020; no reopening date published as of 2026.",
-   "blurb": "Small Ottoman-era bath in Víziváros. Closed with no reopening date. Don't build a plan on it.",
-   "tip": "Closed: choose Rudas for an Ottoman-bath experience instead.",
-   "history": "Ottoman-era bath finished in 1578. Plans for a reopening via a Turkish-Hungarian foundation were reported in 2024 but no date is set.",
-   "image": null,
-   "links": {
-    "ta": null,
-    "web": null,
-    "book": null
-   },
-   "closed": true,
-   "wiki": "Király Baths"
   },
   {
    "id": "sparty-szechenyi",
@@ -5348,10 +5242,10 @@ window.BB_DATA = {
     "adrenaline",
     "communist"
    ],
-   "district": "XXII",
-   "address": "Kőérberki út 36/A, 1223 Budapest",
-   "lat": 47.423,
-   "lng": 19.013,
+   "district": "XI",
+   "address": "Kőérberki út 36/A, 1112 Budapest",
+   "lat": 47.4585,
+   "lng": 18.995,
    "approx": true,
    "rating": {
     "ta": null,
@@ -5363,7 +5257,7 @@ window.BB_DATA = {
    "priceText": "Pricey: about £550 per person for the armoured-carrier rides and about £1,000 for a T-55 (Expedia lists AU$1,117 and AU$2,102).",
    "hours": "Pre-booking only. Check times for 17 and 18 Oct before you go.",
    "blurb": "Drive a real Soviet-era tank across a field. Silly money, silly fun, proper stag-do energy.",
-   "tip": "Book well ahead. The pin is approximate, so confirm the location with the operator.",
+   "tip": "Book well ahead and ring the operator for the exact meeting point: listings disagree on where you start.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Challenger_2_tank_tracks_in_mud_MOD_45149587.jpg?width=960",
    "links": {
@@ -5398,7 +5292,7 @@ window.BB_DATA = {
    "priceText": "One-way 3,000 HUF adult; return 4,000 HUF. Budapest Card free.",
    "hours": "Closed for maintenance until Fri 16 Oct; due to reopen Sat 17 Oct, about 10:00–17:00, weather permitting",
    "blurb": "A 1960s chairlift up János Hill. Wobbly retro fun and an easy way up to the Elizabeth Lookout.",
-   "tip": "Reopens Sat 17 Oct after maintenance. Check bkk.hu for weather closures before heading out.",
+   "tip": "Check bkk.hu before heading out: it shuts for maintenance and bad weather, and a renovation is due to start.",
    "history": null,
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_chairlift._Zugligeti_%28bottom%29_station_building_from_the_street_%28South%29._-_Budapest_12th_district._Zugligeti_Road_97.JPG?width=960",
    "links": {
@@ -5735,8 +5629,8 @@ window.BB_DATA = {
    ],
    "district": "VI",
    "address": "Király utca 34, 1061 Budapest",
-   "lat": 47.4998,
-   "lng": 19.061,
+   "lat": 47.49962,
+   "lng": 19.06078,
    "approx": true,
    "rating": {
     "ta": null,
