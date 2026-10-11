@@ -364,7 +364,7 @@ window.BB_DATA = {
    "blurb": "Red-lit basement with graffiti walls: punk, rock and metal gigs and tribute nights. Cheap beer, loud guitars, 150-capacity bunker. Your kind of place.",
    "tip": "A separate 'Saloon' area is open on weekdays for a quieter pint. Check their socials for the Thu–Sat gig line-up.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coma_band_playing_live.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html",
     "web": null,
@@ -372,7 +372,7 @@ window.BB_DATA = {
    },
    "notes": "Hours from listings; check the gig calendar for 15–17 Oct.",
    "imageKind": "illustrative",
-   "imageCaption": "Live music on a lit stage"
+   "imageCaption": "Rock band playing live"
   },
   {
    "id": "lampas",
@@ -440,7 +440,7 @@ window.BB_DATA = {
    "blurb": "Proper metal dive bar, walls plastered with metal relics. Cheap drinks, loud riffs, scruffy and proud. Not for the faint of heart.",
    "tip": "Cash-friendly dive with a grungy reputation on hygiene, so keep expectations low. The pin is approximate; check Maps.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vader_band_playing_live_3.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -448,7 +448,7 @@ window.BB_DATA = {
    },
    "unconfirmed": true,
    "imageKind": "illustrative",
-   "imageCaption": "Live music on a lit stage"
+   "imageCaption": "Live metal band on stage"
   },
   {
    "id": "durer-kert",
@@ -1296,14 +1296,14 @@ window.BB_DATA = {
    "blurb": "27 telly screens, a pool and games den in the basement, and kitchen-sink American bar vibes until the small hours. Loud, daft and exactly where the lads end up at 2am.",
    "tip": "Reviews are mixed on service, so order at the bar and keep an eye on the tab. Don't confuse it with Stifler House (the club) around the corner on Dob utca.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erzsebet_korut_19.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
-   "imageKind": "building",
-   "imageCaption": "Erzsébet körút 19, Budapest"
+   "imageKind": "illustrative",
+   "imageCaption": "A pint of Arany Ászok lager"
   },
   {
    "id": "becketts-irish-bar",
@@ -1367,14 +1367,14 @@ window.BB_DATA = {
    "blurb": "A Hungarian football-fan temple with Euro 2016 and 1950s Golden Team memorabilia, plenty of telly and a projector. Less tourist, more terrace-chant local: bring your best 'Hajrá Magyarok'.",
    "tip": "Rammed on big match nights, so arrive early for a spot. Check Facebook for which games they are showing.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soros_poh%C3%A1r_borsodi.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "A glass of Hungarian lager"
+   "imageCaption": "A pint of Arany Ászok lager"
   },
   {
    "id": "hopaholic",
@@ -1402,14 +1402,14 @@ window.BB_DATA = {
    "blurb": "Tiny Jewish Quarter craft temple: ten rotating taps and 250+ breweries in bottles. Beer nerds nod solemnly; everyone else just discovers pints that taste of something.",
    "tip": "Check the chalkboard before ordering: the list turns over fast. It's small, so go early or off-peak and expect to pay a bit more per pint.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Timber_Brewing_flight_of_beer.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://hopaholic.hu",
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Craft beer bottles lined up on a bar counter"
+   "imageCaption": "A flight of craft beers"
   },
   {
    "id": "madhouse-by-mad-scientist",
@@ -1472,14 +1472,14 @@ window.BB_DATA = {
    "blurb": "Hungarian craft brewery's city pub: house-brewed beer on tap plus proper smoky BBQ. Soak up the lagers before the Jewish Quarter swallows you whole.",
    "tip": "Book via their reservation page for groups. Their original taproom is out on Váci út (district XIII/IV border). Skip it; this one's central.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beer_taps.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "A row of beer taps"
+   "imageCaption": "Craft beer bottles lined up on a bar counter"
   },
   {
    "id": "csak-a-jo-sor",
@@ -2475,14 +2475,14 @@ window.BB_DATA = {
    "blurb": "Texas-style brisket, ribs and wings. Just moved from Akácfa to Hercegprímás utca (opened 6 Oct 2026). Smoky, sticky and sociable.",
    "tip": "Brisket sandwich or a ribs platter to share. It's a new site, so check the Google Maps pin.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rib_eye_steak_-_400_gr.JPG?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grilled_flank_steak.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Barbecued rib-eye steak"
+   "imageCaption": "Grilled steak, sliced"
   },
   {
    "id": "retro-langos",
@@ -2775,12 +2775,13 @@ window.BB_DATA = {
    "blurb": "Grand 1858 confectioner on Vörösmarty tér. Touristy, pricey, gorgeous. Come for cake and a coffee-house atmosphere.",
    "tip": "Dobos torta or Somlói galuska. May add a 15% service charge. Skip the queue and sit inside.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_Gerbeaud_Budapest_1999.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_V%C3%B6r%C3%B6smarty_t%C3%A9r_7-8,_Gerbeaud-h%C3%A1z,_1.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d952413-Reviews-Gerbeaud-Budapest_Central_Hungary.html",
     "web": null,
     "book": null
    },
+   "imageCaption": "Gerbeaud on Vörösmarty tér",
    "wiki": "Café Gerbeaud"
   },
   {
@@ -2810,14 +2811,14 @@ window.BB_DATA = {
    "blurb": "Budapest's flagship specialty roaster-bar, ranked 17th in a June 2026 list of Europe's best coffee shops. Small, busy and serious about the brew. About 15 minutes' walk from the Airbnb.",
    "tip": "Get a cortado or a filter, plus a pastry. Go early on Saturday or you'll queue. Flat white about 1,500 HUF (£3.50).",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://espressoembassy.hu",
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Coffee and a croissant"
+   "imageCaption": "Cappuccino and breakfast"
   },
   {
    "id": "madal-cafe-kiraly",
@@ -2952,14 +2953,14 @@ window.BB_DATA = {
    "blurb": "Tucked in a courtyard near Astoria. A tiny espresso bar plus a separate brew and food room, so you can actually sit. A reliable specialty pick that's still on the 2026 lists.",
    "tip": "Try a V60 or AeroPress, and the homemade cake. Weekend mornings get packed and the bar is tiny.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Coffee and croissant"
+   "imageCaption": "Cappuccino and breakfast"
   },
   {
    "id": "my-little-melbourne",
@@ -2988,14 +2989,14 @@ window.BB_DATA = {
    "blurb": "One of Budapest's original specialty coffee shops (since 2012), Aussie style and still on the 2026 third-wave lists. Small, friendly and a short walk from Király utca.",
    "tip": "Flat white and a toastie or something eggy for breakfast. Good hangover fixer, about 1,400 HUF (£3.30) for the coffee.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Coffee and croissant"
+   "imageCaption": "Cappuccino and breakfast"
   },
   {
    "id": "dorado-cafe",
@@ -3023,7 +3024,7 @@ window.BB_DATA = {
    "blurb": "Calm, small specialty cafe near Klauzál tér, run by a Hungarian-Spanish couple. Quiet during the week, so a good place to recover before the evening starts.",
    "tip": "Espresso tonic or avocado toast. Short menu, friendly baristas, a few minutes from the Airbnb.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -3031,7 +3032,7 @@ window.BB_DATA = {
    },
    "unconfirmed": true,
    "imageKind": "illustrative",
-   "imageCaption": "Coffee and croissant"
+   "imageCaption": "Cappuccino and breakfast"
   },
   {
    "id": "vivinas-cafe-roastery",
@@ -3061,14 +3062,14 @@ window.BB_DATA = {
    "blurb": "Roastery and cafe with a proper terrace, ranked 79th in a 2026 list of Europe's best coffee shops. Strong brunch menu, so it does the job for a long, slow Saturday morning.",
    "tip": "Beans are roasted in house: get a filter, then a breakfast plate. Sunday opens late (09:30), so no early starts.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Cappuccino and breakfast"
+   "imageCaption": "Coffee and a croissant"
   },
   {
    "id": "mantra-specialty-coffee",
@@ -3095,14 +3096,14 @@ window.BB_DATA = {
    "blurb": "Compact specialty bar near Ferenciek tere that rotates two guest roasters a day. A nerdy, quiet stop if you're wandering the Váci utca end of town.",
    "tip": "Ask what the two roasters are today and go filter. Check Sunday opening before you make a trip of it.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Coffee and croissant"
+   "imageCaption": "Cappuccino and breakfast"
   },
   {
    "id": "kontakt-budapest",
@@ -3129,14 +3130,14 @@ window.BB_DATA = {
    "blurb": "A purists' spot on the Kiskörút, a short stroll from Deák tér. Rotating European and Hungarian roasters on espresso and filter, and no fuss.",
    "tip": "Plain coffee only, no sugar bowl in sight. Check Sunday opening first.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_on_a_table_%28Unsplash%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Coffee and croissant"
+   "imageCaption": "Cappuccino and breakfast"
   },
   {
    "id": "tamp-and-pull",
@@ -3163,14 +3164,14 @@ window.BB_DATA = {
    "blurb": "Respected small espresso bar south of the centre, on the 2026 third-wave lists. Worth the walk or a tram if you're heading towards the river or Fővám tér anyway.",
    "tip": "Espresso or a flat white, standing at the bar. Ask about the Sopron roast. Not near Király utca, so combine it with other plans.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Coffee and croissant"
+   "imageCaption": "Coffee and a croissant"
   },
   {
    "id": "kadar-etkezde",
@@ -3272,7 +3273,7 @@ window.BB_DATA = {
    "blurb": "Tiny 30-year-old corner joint doing a breaded chicken roll with Russian salad. Cheap, greasy and serving till 5am Wed to Sat. Textbook end-of-night fuel.",
    "tip": "Crispy chicken roll with Russian salad: roughly 1,500–2,500 HUF (£4–6). Small place, so expect a short wait when the bars kick out.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CHICKEN_SCHNITZEL_-_M%26S_cafe_2025-05-16.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_schnitzel_with_fries_and_salad.jpg?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -3628,7 +3629,7 @@ window.BB_DATA = {
    "blurb": "Cook your own steak on a lava stone heated to 400 degrees, steps from the Basilica. A bit of theatre and a different beast to Pampas.",
    "tip": "Priced by the gram: budget roughly 12,000–20,000 HUF (£28–47) a head with a drink. Book ahead for the weekend.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steak_auf_Grill.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rib_eye_steak_-_400_gr.JPG?width=960",
    "links": {
     "ta": null,
     "web": null,
@@ -3636,7 +3637,7 @@ window.BB_DATA = {
    },
    "unconfirmed": true,
    "imageKind": "illustrative",
-   "imageCaption": "Steak on the grill"
+   "imageCaption": "Barbecued rib-eye steak"
   },
   {
    "id": "bigfish-seafood-bistro",
@@ -4107,14 +4108,13 @@ window.BB_DATA = {
    "blurb": "Largest synagogue in Europe, with Moorish twin onion domes and a Holocaust garden. Right in the middle of the party district.",
    "tip": "Closed Saturday: go Sunday morning (10:00 prompt) or just admire the outside. Cover shoulders; men may need a head covering.",
    "history": "Built 1854–59 in Moorish style by Ludwig Förster, with an organ that Franz Liszt reportedly played at the inauguration. During WWII it sat inside the Pest ghetto; the Tree of Life weeping-willow memorial in the garden carries victims' names on its leaves.",
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany4.jpg?width=900",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Synagoge_Budapest_2014.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d25432877-Reviews-Dohany_Street_Synagogue-Budapest_Central_Hungary.html",
     "web": "https://dohanystreetsynagogue.hu",
     "book": null
    },
    "gallery": [
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Synagoge_Budapest_2014.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Synagogue-Budapest.jpg?width=960"
    ],
    "wiki": "Dohány Street Synagogue"
@@ -4914,14 +4914,14 @@ window.BB_DATA = {
    "blurb": "Beer in one hand, axe in the other, in a controlled lane. Sets of throws with a coach. Easy, loud, brilliant.",
    "tip": "Great pre-night-out activity in the party district. Book a lane for the group.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomasville_Tomahawk_Axe_Throwing.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d13237730-Reviews-Balta_Dobalas-Budapest_Central_Hungary.html",
     "web": "https://baltadobalas.hu",
     "book": "https://baltadobalas.hu/idopontfoglalas.php"
    },
    "imageKind": "illustrative",
-   "imageCaption": "Axe throwing game"
+   "imageCaption": "An axe-throwing venue"
   },
   {
    "id": "prosecco-danube-cruise",
@@ -5023,13 +5023,14 @@ window.BB_DATA = {
    "blurb": "An hour underground in a limestone cave 20 minutes from the centre: stalactites, narrow passages and an easy tour.",
    "tip": "Take bus 65 from Kolosy tér. Adventure caving (about €50) is a tougher option.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palvolgyi1_Szepvolgyi162.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A1l-v%C3%B6lgyi-barlang,_bej%C3%A1rat.jpg?width=960",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d5617713-Reviews-Palvolgyi_Caves-Budapest_Central_Hungary.html",
     "web": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave",
     "book": null
    },
-   "wiki": "hu:Pál-völgyi-barlang"
+   "imageCaption": "The cave entrance",
+   "wiki": "Pál-völgy Cave"
   },
   {
    "id": "budapest-eye",
@@ -5479,13 +5480,14 @@ window.BB_DATA = {
    "blurb": "Backup big Lidl at Blaha Lujza tér, on the metro. Longer walk than the Király utca one.",
    "tip": "On the M2 at Blaha Lujza tér if the nearer Lidl is rammed.",
    "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lidl_logo_(Budapest,_Blaha_Lujza_t%C3%A9r_%C3%97_R%C3%A1k%C3%B3czi_%C3%BAt).jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lidl,_Mogyor%C3%B3di_Stra%C3%9Fe,_2021_Zugl%C3%B3.jpg?width=960",
    "links": {
     "ta": null,
     "web": "https://www.lidl.hu/s/hu-HU/uzletkereso/budapest/vii-rakoczi-ut-48-blaha-lujza-ter/",
     "book": null
    },
-   "imageCaption": "The Lidl at Blaha Lujza tér"
+   "imageKind": "illustrative",
+   "imageCaption": "A Budapest Lidl"
   },
   {
    "id": "terez-gyogyszertar-terez-korut-41",
@@ -5868,8 +5870,8 @@ window.BB_DATA = {
     "szimpla-farmers-market"
    ],
    "whereText": "Any pub, Szimpla, Karaván",
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lager_beer_in_glass.jpg?width=960",
-   "imageCaption": "A cold lager",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
+   "imageCaption": "A pint of Hungarian lager",
    "wiki": "Dreher Breweries"
   }
  ],

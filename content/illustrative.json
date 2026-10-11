@@ -2,19 +2,9 @@
  "_readme": "Generic, clearly labelled illustrative photos (Wikimedia Commons) used only where a place has no photo of its own.",
  "pub": [
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soros_poh%C3%A1r_borsodi.jpg?width=960",
-   "caption": "A glass of Hungarian lager",
-   "source": "https://commons.wikimedia.org/wiki/File:Soros_poh%C3%A1r_borsodi.jpg"
-  },
-  {
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
    "caption": "A pint of Arany Ászok lager",
    "source": "https://commons.wikimedia.org/wiki/File:Arany_%C3%81szok_beer.JPG"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pint_of_beer.jpg?width=960",
-   "caption": "A pint of lager",
-   "source": "https://commons.wikimedia.org/wiki/File:Pint_of_beer.jpg"
   }
  ],
  "rock": [
@@ -27,11 +17,6 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vader_band_playing_live_3.jpg?width=960",
    "caption": "Live metal band on stage",
    "source": "https://commons.wikimedia.org/wiki/File:Vader_band_playing_live_3.jpg"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg?width=960",
-   "caption": "Live music on a lit stage",
-   "source": "https://commons.wikimedia.org/wiki/File:Musicians_performing_live_on_stage_during_an_outdoor_concert_at_night_with_bright_stage_lights_in_a_vibrant_atmosphere.jpg"
   }
  ],
  "cocktail": [
@@ -75,11 +60,6 @@
  ],
  "craftbeer": [
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beer_taps.jpg?width=960",
-   "caption": "A row of beer taps",
-   "source": "https://commons.wikimedia.org/wiki/File:Beer_taps.jpg"
-  },
-  {
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Timber_Brewing_flight_of_beer.jpg?width=960",
    "caption": "A flight of craft beers",
    "source": "https://commons.wikimedia.org/wiki/File:Big_Timber_Brewing_flight_of_beer.jpg"
@@ -95,16 +75,6 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg?width=960",
    "caption": "A packed club dancefloor",
    "source": "https://commons.wikimedia.org/wiki/File:Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tresor_Nightclub_Berlin_DJ_2.jpg?width=960",
-   "caption": "A DJ in a techno club",
-   "source": "https://commons.wikimedia.org/wiki/File:Tresor_Nightclub_Berlin_DJ_2.jpg"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Matrix_Nightclub_Berlin_DJ_Booth.jpg?width=960",
-   "caption": "A club DJ booth",
-   "source": "https://commons.wikimedia.org/wiki/File:Matrix_Nightclub_Berlin_DJ_Booth.jpg"
   }
  ],
  "hungarian": [
@@ -146,11 +116,6 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rib_eye_steak_-_400_gr.JPG?width=960",
    "caption": "Barbecued rib-eye steak",
    "source": "https://commons.wikimedia.org/wiki/File:Rib_eye_steak_-_400_gr.JPG"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steak_auf_Grill.jpg?width=960",
-   "caption": "Steak on the grill",
-   "source": "https://commons.wikimedia.org/wiki/File:Steak_auf_Grill.jpg"
   }
  ],
  "pizza": [
@@ -197,11 +162,6 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning-breakfast-croissant_%2824244330501%29.jpg?width=960",
    "caption": "Coffee and a croissant",
    "source": "https://commons.wikimedia.org/wiki/File:Morning-breakfast-croissant_(24244330501).jpg"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_croissant.jpg?width=960",
-   "caption": "Coffee and croissant",
-   "source": "https://commons.wikimedia.org/wiki/File:Cafe_croissant.jpg"
   }
  ],
  "sweets": [
@@ -243,11 +203,6 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escape_Room_by_Midgaard_Event.jpg?width=960",
    "caption": "Escape room puzzle set",
    "source": "https://commons.wikimedia.org/wiki/File:Escape_Room_by_Midgaard_Event.jpg"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
-   "caption": "Axe throwing game",
-   "source": "https://commons.wikimedia.org/wiki/File:Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG"
   }
  ],
  "palinka": [
@@ -288,9 +243,9 @@
  ],
  "axe": [
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG?width=960",
-   "caption": "Axe throwing game",
-   "source": "https://commons.wikimedia.org/wiki/File:Ming_Culture_Village_-_axe_throwing_-_P1060947.JPG"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomasville_Tomahawk_Axe_Throwing.jpg?width=960",
+   "caption": "An axe-throwing venue",
+   "source": "https://commons.wikimedia.org/wiki/File:Thomasville_Tomahawk_Axe_Throwing.jpg"
   }
  ],
  "tank": [
@@ -373,9 +328,9 @@
  ],
  "chicken": [
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CHICKEN_SCHNITZEL_-_M%26S_cafe_2025-05-16.jpg?width=960",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_schnitzel_with_fries_and_salad.jpg?width=960",
    "caption": "Breaded chicken schnitzel",
-   "source": "https://commons.wikimedia.org/wiki/File:CHICKEN_SCHNITZEL_-_M%26S_cafe_2025-05-16.jpg"
+   "source": "https://commons.wikimedia.org/wiki/File:Chicken_schnitzel_with_fries_and_salad.jpg"
   }
  ],
  "mezze": [

@@ -73,10 +73,10 @@
   "source": "https://en.wikipedia.org/wiki/D%C3%BCrer_Kert"
  },
  "gerbeaud": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe_Gerbeaud_Budapest_1999.jpg?width=960",
-  "wiki": "en:Café Gerbeaud",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest,_V%C3%B6r%C3%B6smarty_t%C3%A9r_7-8,_Gerbeaud-h%C3%A1z,_1.jpg?width=960",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:Cafe_Gerbeaud_Budapest_1999.jpg"
+  "caption": "Gerbeaud on Vörösmarty tér",
+  "source": "https://commons.wikimedia.org/wiki/File:Budapest,_V%C3%B6r%C3%B6smarty_t%C3%A9r_7-8,_Gerbeaud-h%C3%A1z,_1.jpg"
  },
  "great-market-hall": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok_%282%29.jpg?width=960",
@@ -175,10 +175,10 @@
   "source": "https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_Gy%C3%B3gyf%C3%BCrd%C5%91_thermal_spa_in_Budapest_013.JPG"
  },
  "palvolgyi-cave": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palvolgyi1_Szepvolgyi162.jpg?width=960",
-  "wiki": "hu:Pál-völgyi-barlang",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A1l-v%C3%B6lgyi-barlang,_bej%C3%A1rat.jpg?width=960",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:Palvolgyi1_Szepvolgyi162.jpg"
+  "caption": "The cave entrance",
+  "source": "https://commons.wikimedia.org/wiki/File:P%C3%A1l-v%C3%B6lgyi-barlang,_bej%C3%A1rat.jpg"
  },
  "budapest-eye": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_V._Erzs%C3%A9bet_t%C3%A9r%2C_Budapest_Sziget_Eye.JPG?width=960",
@@ -255,12 +255,6 @@
    "Budapest - Párisi Nagyáruház (37703806914).jpg"
   ]
  },
- "stifler-sport-bar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erzsebet_korut_19.jpg?width=960",
-  "kind": "building",
-  "caption": "Erzsébet körút 19, Budapest",
-  "source": "https://commons.wikimedia.org/wiki/File:Erzsebet_korut_19.jpg"
- },
  "porc-es-prezli": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bajcsy-Zsilinszky_%C3%BAt_15_%C3%A9s_17%2C_2020_Ter%C3%A9zv%C3%A1ros.jpg?width=960",
   "kind": "building",
@@ -298,10 +292,10 @@
   "source": "https://commons.wikimedia.org/wiki/File:Budapest,_M1_metr%C3%B3,_Oktogon,_18.jpg"
  },
  "beer": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lager_beer_in_glass.jpg?width=960",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
   "kind": "venue",
-  "caption": "A cold lager",
-  "source": "https://commons.wikimedia.org/wiki/File:Lager_beer_in_glass.jpg"
+  "caption": "A pint of Hungarian lager",
+  "source": "https://commons.wikimedia.org/wiki/File:Arany_%C3%81szok_beer.JPG"
  },
  "prosecco-danube-cruise": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg?width=960",
@@ -406,10 +400,12 @@
  },
  "dohany-synagogue": {
   "gallery": [
-   "Synagoge Budapest 2014.jpg",
    "Synagogue-Budapest.jpg"
   ],
-  "commonsCat": "Category:Great Synagogue in Dohány Street"
+  "commonsCat": "Category:Great Synagogue in Dohány Street",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Synagoge_Budapest_2014.jpg?width=960",
+  "kind": "venue",
+  "source": "https://commons.wikimedia.org/wiki/File:Synagoge_Budapest_2014.jpg"
  },
  "house-of-terror": {
   "gallery": [
@@ -448,12 +444,6 @@
   "kind": "venue",
   "caption": "Retro Lángos Büfé (2016)",
   "source": "https://commons.wikimedia.org/wiki/File:Budapest,_Retro_L%C3%A1ngos_B%C3%BCf%C3%A9.jpg"
- },
- "lidl-rakoczi-ut-48": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lidl_logo_(Budapest,_Blaha_Lujza_t%C3%A9r_%C3%97_R%C3%A1k%C3%B3czi_%C3%BAt).jpg?width=960",
-  "kind": "venue",
-  "caption": "The Lidl at Blaha Lujza tér",
-  "source": "https://commons.wikimedia.org/wiki/File:Lidl_logo_(Budapest,_Blaha_Lujza_t%C3%A9r_%C3%97_R%C3%A1k%C3%B3czi_%C3%BAt).jpg"
  },
  "csak-a-jo-sor": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?width=960",
