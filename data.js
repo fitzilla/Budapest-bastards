@@ -2269,7 +2269,8 @@ window.BB_DATA = {
     "ta": null,
     "web": null,
     "book": null
-   }
+   },
+   "notes": "Costes is in DiningCity Restaurant Week until 18 Oct 2026, the first Michelin-starred restaurant to take part: worth checking for a cheaper set-menu table."
   },
   {
    "id": "babel",
@@ -2687,43 +2688,6 @@ window.BB_DATA = {
    ],
    "commonsCat": "Category:Grand Market Hall, Budapest",
    "wiki": "Great Market Hall, Budapest"
-  },
-  {
-   "id": "hold-street-market",
-   "name": "Hold Street Market Hall",
-   "sub": "Belvárosi Piac",
-   "type": "food",
-   "tags": [
-    "market",
-    "cheap"
-   ],
-   "district": "V",
-   "address": "Hold utca 13, 1054 Budapest",
-   "lat": 47.50385,
-   "lng": 19.0487,
-   "approx": true,
-   "rating": {
-    "ta": null,
-    "taN": null,
-    "g": null,
-    "gN": null
-   },
-   "price": 1,
-   "priceText": null,
-   "hours": "Mon 06:30–17:00 · Tue–Fri 06:30–18:00 · Sat 06:30–14:00 (some say 16:00) · Sun closed. Check before you go.",
-   "blurb": "1891 market hall with a food gallery of small kitchens upstairs. Quieter and more local than the Great Market Hall.",
-   "tip": "Browse for lunch on Saturday morning. Google Maps has shown it as temporarily closed, so check first.",
-   "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/V._V%C3%A1s%C3%A1rcsarnok%2C_kij%C3%A1r%C3%A1s%2C_Lip%C3%B3tv%C3%A1ros%2C_2016_Budapest.jpg?width=960",
-   "links": {
-    "ta": null,
-    "web": null,
-    "book": null
-   },
-   "unconfirmed": true,
-   "notes": "Now branded Belvárosi Piac (Downtown Market).",
-   "imageKind": "building",
-   "wiki": "hu:Hold utcai vásárcsarnok"
   },
   {
    "id": "kelet-kavezo",
@@ -5992,6 +5956,11 @@ window.BB_DATA = {
      "link": "https://budapezt.com/100e-bus-budapest/"
     },
     {
+     "title": "Tram works until 22 Nov",
+     "body": "Works in Buda mean trams 4 and 6 run as one 4-6 service between Széll Kálmán tér and Újbuda-központ. The Pest side by the Airbnb is unaffected. Night trams may be cut at weekends, so check BudapestGO before relying on one.",
+     "link": "https://bkk.hu"
+    },
+    {
      "title": "Metro lines",
      "body": "M2 (red) and M1 (yellow, little Millennium line) are handy in the centre; M3 (blue) goes to Népliget (Fradi); M4 (green) is the shiny driverless one. Metro runs about 04:30-23:00.",
      "link": null
@@ -6257,17 +6226,24 @@ window.BB_DATA = {
  "localEvents": [
   {
    "name": "André Rieu live",
-   "date": "2026-10-16 and 2026-10-17, 19:30",
+   "date": "Fri 16 Oct, 19:30 (doors 18:00)",
    "where": "MVM Dome, Budapest",
-   "body": "Two nights of waltz-and-violins at the MVM Dome, starting 19:30. On Friday that lands right around MTK (gates 18:00, kick-off 19:00), so expect busy trams and slower taxis that evening.",
-   "link": "https://www.jambase.com/venue/papp-laszlo-budapest-sportarena"
+   "body": "Waltzes and violins at the MVM Dome. Friday is confirmed; some sellers list a second show on Saturday. Friday lands at the same time as MTK, so expect busy trams and slower taxis that evening.",
+   "link": "https://www.jegy.hu"
   },
   {
    "name": "Sparty (Széchenyi bath party)",
-   "date": "2026-10-17 (Saturday) - unconfirmed",
+   "date": "Sat 17 Oct, 21:30–02:00",
    "where": "Széchenyi Thermal Bath, City Park",
-   "body": "Sparty normally runs Saturday nights Feb-Dec, so 17 Oct is likely but the date and price were not confirmed. Tickets were quoted around 65 EUR in one guide. Book via the official site.",
+   "body": "The bath party at Széchenyi runs Saturday nights, 18+. Third-party sellers quote about 25,400 HUF (£60) basic or 31,600 HUF (£74) with drinks. Check the official site for the date before booking.",
    "link": "https://www.szechenyibath.hu"
+  },
+  {
+   "name": "Pavilon closing party",
+   "date": "Thu 15 – Sat 17 Oct, from about 16:00",
+   "where": "Pavilon, Nehru part, District IX (by Petőfi Bridge, Pest side)",
+   "body": "The riverside bar is throwing a three-day send-off on exactly your dates, per Resident Advisor. It has had a \"last night\" before, so check their socials first.",
+   "link": "https://ra.co"
   }
  ],
  "shopsInfo": [

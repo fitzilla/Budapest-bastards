@@ -12,7 +12,8 @@
   "bars:ellato-kert",
   "sights:gellert-baths",
   "sights:kiraly-baths",
-  "food_extra:bock-bisztro"
+  "food_extra:bock-bisztro",
+  "food:hold-street-market"
  ],
  "patch": {
   "airport": {
@@ -269,9 +270,6 @@
   "blastbeat-bar": {
    "unconfirmed": true
   },
-  "hold-street-market": {
-   "unconfirmed": true
-  },
   "buda-castle-labyrinth": {
    "unconfirmed": true
   },
@@ -299,6 +297,9 @@
   },
   "leo-rooftop": {
    "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset."
+  },
+  "costes": {
+   "notes": "Costes is in DiningCity Restaurant Week until 18 Oct 2026, the first Michelin-starred restaurant to take part: worth checking for a cheaper set-menu table."
   }
  }
 }
