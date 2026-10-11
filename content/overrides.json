@@ -7,7 +7,8 @@
   "sights:szimpla-sunday-market",
   "bars:rocktogon",
   "bars_extra:palinka-museum-and-bar",
-  "bars:ankert"
+  "bars:ankert",
+  "bars:old-mans-music-pub"
  ],
  "patch": {
   "airport": {
@@ -145,9 +146,6 @@
    "address": "Dohány utca 20, 1074 Budapest",
    "lat": 47.49655,
    "lng": 19.0621
-  },
-  "old-mans-music-pub": {
-   "unconfirmed": true
   },
   "madhouse-by-mad-scientist": {
    "lat": 47.4989,

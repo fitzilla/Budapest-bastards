@@ -335,44 +335,6 @@ window.BB_DATA = {
  },
  "places": [
   {
-   "id": "old-mans-music-pub",
-   "name": "Old Man's Music Pub",
-   "sub": null,
-   "type": "bar",
-   "tags": [
-    "rock",
-    "live-music",
-    "pub",
-    "late-night"
-   ],
-   "district": "VII",
-   "address": "Akácfa utca 13, 1073 Budapest",
-   "lat": 47.5005,
-   "lng": 19.0653,
-   "approx": true,
-   "rating": {
-    "ta": null,
-    "taN": null,
-    "g": null,
-    "gN": null
-   },
-   "price": 1,
-   "priceText": null,
-   "hours": "Live music about 21:00–23:00 nightly, then DJ till late. Check before you go.",
-   "blurb": "Sweaty basement, live covers every night, then a DJ and a dancefloor. Proper old-school rock-and-pint chaos with zero airs and graces.",
-   "tip": "Gets rammed by 22:00 on weekends. Go early for a table near the band or accept getting wedged at the bar.",
-   "history": null,
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vader_band_playing_live_3.jpg?width=960",
-   "links": {
-    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d1078889-Reviews-Old_Man_s_Music_Pub-Budapest_Central_Hungary.html",
-    "web": null,
-    "book": null
-   },
-   "unconfirmed": true,
-   "imageKind": "illustrative",
-   "imageCaption": "Live metal band on stage"
-  },
-  {
    "id": "barhole-music",
    "name": "BARhole Music",
    "sub": null,
