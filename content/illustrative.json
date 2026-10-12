@@ -2,9 +2,14 @@
  "_readme": "Generic, clearly labelled illustrative photos (Wikimedia Commons) used only where a place has no photo of its own.",
  "pub": [
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arany_%C3%81szok_beer.JPG?width=960",
-   "caption": "A pint of Arany Ászok lager",
-   "source": "https://commons.wikimedia.org/wiki/File:Arany_%C3%81szok_beer.JPG"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House,_High_Street,_Newport,_August_2026_02.jpg?width=960",
+   "caption": "A pint of lager in a pub",
+   "source": "https://commons.wikimedia.org/wiki/File:Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House,_High_Street,_Newport,_August_2026_02.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pinta_Patagonia_Amber_Lager.jpg?width=960",
+   "caption": "A pint of lager",
+   "source": "https://commons.wikimedia.org/wiki/File:Pinta_Patagonia_Amber_Lager.jpg"
   }
  ],
  "cocktail": [
@@ -186,11 +191,6 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escaperoom.jpg?width=960",
    "caption": "An escape room",
    "source": "https://commons.wikimedia.org/wiki/File:Escaperoom.jpg"
-  },
-  {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escape_Room_by_Midgaard_Event.jpg?width=960",
-   "caption": "Escape room puzzle set",
-   "source": "https://commons.wikimedia.org/wiki/File:Escape_Room_by_Midgaard_Event.jpg"
   }
  ],
  "palinka": [
@@ -219,21 +219,26 @@
  ],
  "escape": [
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escaperoom.jpg?width=960",
-   "caption": "An escape room",
-   "source": "https://commons.wikimedia.org/wiki/File:Escaperoom.jpg"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escape_Room_-_%22The_Expedition%22_(Escape_Quest_Bethesda).jpg?width=960",
+   "caption": "Solving clues in an escape room",
+   "source": "https://commons.wikimedia.org/wiki/File:Escape_Room_-_%22The_Expedition%22_(Escape_Quest_Bethesda).jpg"
   },
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escape_Room_by_Midgaard_Event.jpg?width=960",
-   "caption": "Escape room puzzle set",
-   "source": "https://commons.wikimedia.org/wiki/File:Escape_Room_by_Midgaard_Event.jpg"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Escape_Quest_-_The_Black_Widow_1.jpg?width=960",
+   "caption": "A themed escape room",
+   "source": "https://commons.wikimedia.org/wiki/File:Escape_Quest_-_The_Black_Widow_1.jpg"
   }
  ],
  "axe": [
   {
-   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomasville_Tomahawk_Axe_Throwing.jpg?width=960",
-   "caption": "An axe-throwing venue",
-   "source": "https://commons.wikimedia.org/wiki/File:Thomasville_Tomahawk_Axe_Throwing.jpg"
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack_of_Clubs_Throwing_Axe.jpg?width=960",
+   "caption": "An axe thrown into a target",
+   "source": "https://commons.wikimedia.org/wiki/File:Jack_of_Clubs_Throwing_Axe.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tavla_080413.jpg?width=960",
+   "caption": "A well-used axe-throwing target",
+   "source": "https://commons.wikimedia.org/wiki/File:Tavla_080413.jpg"
   }
  ],
  "tank": [
