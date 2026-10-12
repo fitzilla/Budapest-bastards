@@ -233,7 +233,18 @@ for (const day of trip.plan) {
 // ---- illustrative photos for anything still without one (labelled as such in the app)
 function illoCategory(x) {
   const t = new Set(x.tags || []);
-  // no stand-ins for bars: a photo of some other bar misrepresents this one, so they get the placeholder tile
+  if (x.type === 'bar') {
+    if (t.has('rock') || t.has('metal')) return null; // no honest stand-in for a specific gig dive: placeholder tile until a real photo
+    if (t.has('rooftop')) return 'rooftop';
+    if (t.has('cocktail') || t.has('speakeasy')) return 'cocktail';
+    if (t.has('craft-beer')) return 'craftbeer';
+    if (/irish/i.test(x.name)) return 'irish';
+    if (t.has('sports')) return 'pub'; // a pint, not strangers' faces
+    if (t.has('palinka')) return 'palinka';
+    if (t.has('club')) return 'club';
+    if (t.has('ruin-bar')) return 'ruin';
+    return 'pub';
+  }
   if (x.type === 'food') {
     if (t.has('coffee')) return 'cafe';
     if (t.has('soup')) return 'soup';

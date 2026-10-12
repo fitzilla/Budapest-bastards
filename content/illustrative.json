@@ -7,6 +7,64 @@
    "source": "https://commons.wikimedia.org/wiki/File:Arany_%C3%81szok_beer.JPG"
   }
  ],
+ "cocktail": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cocktails.jpg?width=960",
+   "caption": "Cocktails on a bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Cocktails.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cocktails_mit_Schirmchen.jpg?width=960",
+   "caption": "Cocktails with paper umbrellas",
+   "source": "https://commons.wikimedia.org/wiki/File:Cocktails_mit_Schirmchen.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flaming_cocktails.jpg?width=960",
+   "caption": "Flaming cocktails",
+   "source": "https://commons.wikimedia.org/wiki/File:Flaming_cocktails.jpg"
+  }
+ ],
+ "rooftop": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Parlament_bei_Nacht.jpg?width=960",
+   "caption": "Parliament and the Danube at night",
+   "source": "https://commons.wikimedia.org/wiki/File:Budapest_Parlament_bei_Nacht.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_%288130437015%29.jpg?width=960",
+   "caption": "Parliament across the Danube at sunset",
+   "source": "https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_(8130437015).jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parlamento_de_Budapest_de_noche.JPG?width=960",
+   "caption": "Budapest Parliament by night",
+   "source": "https://commons.wikimedia.org/wiki/File:Parlamento_de_Budapest_de_noche.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_over_the_Danube_-_Budapest.jpg?width=960",
+   "caption": "Sunset over the Danube",
+   "source": "https://commons.wikimedia.org/wiki/File:Sunset_over_the_Danube_-_Budapest.jpg"
+  }
+ ],
+ "craftbeer": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Timber_Brewing_flight_of_beer.jpg?width=960",
+   "caption": "A flight of craft beers",
+   "source": "https://commons.wikimedia.org/wiki/File:Big_Timber_Brewing_flight_of_beer.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?width=960",
+   "caption": "Craft beer bottles lined up on a bar counter",
+   "source": "https://commons.wikimedia.org/wiki/File:Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg"
+  }
+ ],
+ "club": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg?width=960",
+   "caption": "A packed club dancefloor",
+   "source": "https://commons.wikimedia.org/wiki/File:Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg"
+  }
+ ],
  "hungarian": [
   {
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%B6rk%C3%B6lt.jpg?width=960",
@@ -140,6 +198,23 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20190110_p%C3%A1link%C3%A1s_szett.jpg?width=960",
    "caption": "A pálinka set",
    "source": "https://commons.wikimedia.org/wiki/File:20190110_p%C3%A1link%C3%A1s_szett.jpg"
+  }
+ ],
+ "ruin": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Bar_in_Szimpla_Kert.jpg?width=960",
+   "caption": "Inside Szimpla Kert, the original ruin bar",
+   "source": "https://commons.wikimedia.org/wiki/File:A_Bar_in_Szimpla_Kert.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Romkocsma_Szimpla_Kert_Budapest.jpg?width=960",
+   "caption": "Szimpla Kert, the original ruin bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Romkocsma_Szimpla_Kert_Budapest.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_-_Szimpla_Kert_(26688416599).jpg?width=960",
+   "caption": "Inside Szimpla Kert, the original ruin bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Budapest_-_Szimpla_Kert_(26688416599).jpg"
   }
  ],
  "escape": [
@@ -293,6 +368,18 @@
    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/City_SPAR_-_Budapest,_T%C5%B1zolt%C3%B3_utca_50-56._(a).jpg?width=960",
    "caption": "A City Spar in Budapest",
    "source": "https://commons.wikimedia.org/wiki/File:City_SPAR_-_Budapest,_T%C5%B1zolt%C3%B3_utca_50-56._(a).jpg"
+  }
+ ],
+ "irish": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guinness_da_Bar.jpg?width=960",
+   "caption": "A pint of Guinness on the bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Guinness_da_Bar.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guinness_Glass_2010.jpg?width=960",
+   "caption": "A pint of Guinness",
+   "source": "https://commons.wikimedia.org/wiki/File:Guinness_Glass_2010.jpg"
   }
  ]
 }
