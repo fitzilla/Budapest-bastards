@@ -1,0 +1,23 @@
+# Lives only on the image-check branch: a push there checks every photo against Wikimedia
+# and commits the report and thumbnails back to that branch. main never runs it.
+name: image-check
+on:
+  push:
+    branches: [image-check]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: node scripts/check-images.mjs
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add image-check
+          git commit -q -m "Image check results" || exit 0
+          git push
