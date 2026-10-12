@@ -1,11 +1,1 @@
-[
-  { "label": "sofitel", "q": "Sofitel Budapest Chain Bridge", "limit": 8 },
-  { "label": "varkert", "q": "Várkert Casino Budapest", "limit": 8 },
-  { "label": "varkert2", "q": "Ybl Miklós tér Várkert kioszk", "limit": 8 },
-  { "label": "tropicana", "q": "\"Vigadó utca\" Budapest", "limit": 8 },
-  { "label": "grandcasino", "q": "\"Deák Ferenc utca\" Budapest", "limit": 10 },
-  { "label": "corvin", "q": "Corvin Casino Budapest", "limit": 6 },
-  { "label": "roulette", "q": "roulette wheel casino", "limit": 10 },
-  { "label": "chips", "q": "casino chips table", "limit": 8 },
-  { "label": "blackjack", "q": "blackjack table casino", "limit": 8 }
-]
+[]
