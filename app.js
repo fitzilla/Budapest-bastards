@@ -206,7 +206,7 @@
     'booking-needed': 'Book ahead', 'group-friendly': 'Good for groups', 'street-food': 'Street food',
     'fine-dining': 'Fine dining', 'night-bathing': 'Night bathing', 'escape-room': 'Escape room',
     'beer-bike': 'Beer bus', '24h': 'Open 24 hours', 'bottle-shop': 'Bottle shop', tobacco: 'Tobacco', 'big-shop': 'Big shop', burger: 'Burgers', fish: 'Fish & seafood', bbq: 'BBQ', vegetarian: 'Veggie friendly', ww2: 'WW2', langos: 'Lángos', palinka: 'Pálinka', michelin: 'Michelin Guide',
-    casino: 'Casino', poker: 'Poker', sparty: 'Sparty', cheap: 'Cheap', quirky: 'Odd', speakeasy: 'Speakeasy',
+    casino: 'Casino', roulette: 'Roulette', blackjack: 'Blackjack', sparty: 'Sparty', cheap: 'Cheap', quirky: 'Odd', speakeasy: 'Speakeasy',
   };
   const tagLabel = (t) => TAG_LABEL[t] || t.charAt(0).toUpperCase() + t.slice(1).replace(/-/g, ' ');
   const HIDDEN_TAGS = new Set(['booked', 'travel', 'bath', 'pub']);
@@ -265,7 +265,7 @@
     { id: 'odd', label: 'Odd bars', icon: 'sparkles', test: (p) => p.type === 'bar' && hasAny(p, ['quirky', 'speakeasy', 'games']) },
     { id: 'rooftops', label: 'Rooftops & cocktails', icon: 'martini', test: (p) => p.type === 'bar' && hasAny(p, ['cocktail', 'rooftop', 'speakeasy']) },
     { id: 'late', label: 'Late & clubs', icon: 'moon', test: (p) => is(p, 'bar') && hasAny(p, ['club', 'late-night']) },
-    { id: 'casino', label: 'Casinos', icon: 'dice', note: 'Bring your passport: every casino registers ID at the door. 18+ only.', test: (p) => has(p, 'casino') },
+    { id: 'casino', label: 'Casinos', icon: 'dice', note: 'Bring your actual passport (no driving licences): they photograph your ID at the door. 18+, free in, smart casual.', test: (p) => has(p, 'casino') },
     { id: 'sports', label: 'Sports & beer', icon: 'tv', test: (p) => p.type === 'bar' && hasAny(p, ['sports', 'craft-beer']) },
     { id: 'coffee', label: 'Best coffee', icon: 'coffee', test: (p) => has(p, 'coffee') },
     { id: 'history', label: 'History', icon: 'landmark', test: (p) => is(p, 'sight') },

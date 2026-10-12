@@ -364,7 +364,6 @@ const out = {
   climate: R.events.weatherClimate,
   localEvents: R.events.localEvents,
   shopsInfo: R.shops.goodToKnow || [],
-  casinoInfo: R.casinos.goodToKnow || null,
   sparty: R.sights.sparty,
   sources: [...new Set([...R.events.sources, ...R.bars.sources, ...(R.barsExtra.sources || []), ...R.food.sources, ...(R.coffee.sources || []), ...R.sights.sources, ...(R.casinos.sources || []),
     ...Object.values(ratings).flatMap((r) => r?.sources || [])])],

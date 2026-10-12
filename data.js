@@ -5721,6 +5721,129 @@ window.BB_DATA = {
    "unconfirmed": true,
    "imageKind": "illustrative",
    "imageCaption": "A Budapest Rossmann"
+  },
+  {
+   "id": "las-vegas-casino-tropicana",
+   "name": "Las Vegas Casino Tropicana",
+   "sub": null,
+   "type": "activity",
+   "tags": [
+    "casino",
+    "24h",
+    "late-night",
+    "roulette",
+    "blackjack"
+   ],
+   "district": "V",
+   "address": "Vigadó utca 2, 1051 Budapest",
+   "lat": 47.4971,
+   "lng": 19.0499,
+   "approx": true,
+   "rating": {
+    "ta": 3.1,
+    "taN": 63,
+    "g": 3.6,
+    "gN": 1110
+   },
+   "price": 2,
+   "priceText": "Free entry. Table minimums aren't published. Guides quote about €2–5 per bet. You can play in forints or euros.",
+   "hours": "Open 24/7. Live tables daily 12:00–04:00.",
+   "blurb": "The nearest casino that's definitely open: a compact room off Vörösmarty tér. Eight live tables, roulette and blackjack till 4am, slots all night.",
+   "tip": "The door is on Vigadó utca (the postal address says Dorottya utca 2). Bring your actual passport. Only the welcome drink is free.",
+   "history": "The state lottery company bought it in 2011. Since 2015 it has been one of the five Las Vegas Casino rooms in Budapest.",
+   "entry": "18+, free entry. First visit you're registered and photographed with your ID: UK lads need the original passport, Irish lads their passport. No driving licences. Smart casual, no sportswear or flip-flops. No photos inside.",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Birds_Eye_Chip_View_%281236662861%29.jpg/960px-Birds_Eye_Chip_View_%281236662861%29.jpg",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d1775558-Reviews-Tropicana_Casino-Budapest_Central_Hungary.html",
+    "web": "https://lasvegascasino.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Casino chips"
+  },
+  {
+   "id": "las-vegas-casino-corvin",
+   "name": "Las Vegas Casino Corvin Sétány",
+   "sub": null,
+   "type": "activity",
+   "tags": [
+    "casino",
+    "24h",
+    "late-night",
+    "roulette",
+    "blackjack"
+   ],
+   "district": "VIII",
+   "address": "Corvin sétány 4, 1082 Budapest",
+   "lat": 47.4857,
+   "lng": 19.0735,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": 3.6,
+    "gN": 1186
+   },
+   "price": 2,
+   "priceText": "Free entry. Minimums aren't published. One listing says tables start at about €2. Most play is cash in forints.",
+   "hours": "Open 24/7. Live tables daily 12:00–04:00.",
+   "blurb": "Budapest's biggest casino: 1,200 m², nine live tables and a sea of slots, a short tram ride down the Grand Boulevard.",
+   "tip": "Tram 4 or 6 south down the Grand Boulevard to Corvin-negyed. Reportedly the lowest table minimums in town, so it suits the skint.",
+   "history": null,
+   "entry": "18+, free entry. First visit you're registered and photographed with your ID: UK lads need the original passport, Irish lads their passport. No driving licences. Smart casual; security on the door is strict.",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Las_Vegas_Casino._-_Budapest.JPG/960px-Las_Vegas_Casino._-_Budapest.JPG",
+   "links": {
+    "ta": null,
+    "web": "https://lasvegascasino.hu/",
+    "book": null
+   },
+   "imageCaption": "Las Vegas Casino on Corvin sétány",
+   "gallery": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Las_Vegas_Casino._E._-_Budapest.JPG/960px-Las_Vegas_Casino._E._-_Budapest.JPG"
+   ]
+  },
+  {
+   "id": "las-vegas-casino-sofitel",
+   "name": "Las Vegas Casino Sofitel",
+   "sub": null,
+   "type": "activity",
+   "tags": [
+    "casino",
+    "24h",
+    "late-night",
+    "roulette",
+    "blackjack"
+   ],
+   "district": "V",
+   "address": "Széchenyi István tér 2, 1051 Budapest",
+   "lat": 47.499,
+   "lng": 19.0488,
+   "approx": true,
+   "rating": {
+    "ta": 2.8,
+    "taN": 161,
+    "g": 3.6,
+    "gN": 2394
+   },
+   "price": 2,
+   "priceText": "Free entry. Minimums aren't published. A reviewer says roulette can be played in euros or forints. Tea and coffee are charged.",
+   "hours": "Listed as open 24 hours. Live-table hours not confirmed.",
+   "blurb": "The original Las Vegas Casino (1992), right by the Chain Bridge. Roulette with a Danube view, if it's still trading while the hotel is rebuilt.",
+   "tip": "The hotel is being rebuilt as SO/ Budapest, so check Google Maps before you walk over. If it's shut, Tropicana is five minutes away.",
+   "history": "Opened in 1992 in the former Atrium Hyatt, later the Sofitel. Stallone and Schwarzenegger reportedly came to the launch. The hotel closed in December 2020 and is being rebuilt as SO/ Budapest. The 2023 plans kept the casino.",
+   "entry": "18+, free entry. Expect a slow first check-in: the original passport (no copies), a tablet form and a photo. UK and Irish lads need their passport. No driving licences. Smart casual.",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Sofitel_Budapest_Chain_Bridge._NE.JPG/960px-Sofitel_Budapest_Chain_Bridge._NE.JPG",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d279697-Reviews-Las_Vegas_Casino-Budapest_Central_Hungary.html",
+    "web": "https://lasvegascasino.hu/",
+    "book": null
+   },
+   "unconfirmed": true,
+   "imageKind": "building",
+   "imageCaption": "The Sofitel by the Chain Bridge, home of the casino",
+   "gallery": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Sofitel-bp.jpg/960px-Sofitel-bp.jpg"
+   ]
   }
  ],
  "dishes": [
@@ -6373,7 +6496,6 @@ window.BB_DATA = {
    "link": null
   }
  ],
- "casinoInfo": null,
  "sparty": {
   "onDate": "2026-10-17",
   "body": "A Sparty is listed for Sat 17 Oct 2026 on the Baths Budapest and Széchenyi party pages (per search results; ticket availability not verified). Runs ~21:30-02:00 (18+ only), outdoor pools only. Basic ticket with locker ~25,375 HUF (~EUR 65); Premium (locker, drink coupons, 19:00 warm-up) ~31,621 HUF (~EUR 81). Other guides quote around EUR 59. Sells out - book on the official booking site.",
@@ -6524,6 +6646,36 @@ window.BB_DATA = {
   "https://hungaryunlocked.com/labyrinth-of-buda-castle/",
   "https://thebettervacation.com/budapest/cave-church/amp/",
   "https://commons.wikimedia.org/wiki/Category:Matthias_Church_(Budapest)",
+  "https://hungaryunlocked.com/casinos-in-budapest/",
+  "https://hungaryunlocked.com/es/casinos-en-budapest/",
+  "https://hungaryunlocked.com/de/casinos-budapest/",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d1775558-Reviews-Tropicana_Casino-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/Attraction_Review-g274887-d279697-Reviews-Las_Vegas_Casino-Budapest_Central_Hungary.html",
+  "https://www.tripadvisor.com/ShowUserReviews-g274887-d279697-r483152813-Las_Vegas_Casino-Budapest_Central_Hungary.html",
+  "https://wanderlog.com/place/details/1743710/tropicana-las-vegas-casino",
+  "https://wanderlog.com/place/details/1743711/las-vegas-casino",
+  "https://wanderlog.com/place/details/1743709/las-vegas-casino-corvin-s%C3%A9t%C3%A1ny",
+  "https://wanderlog.com/place/details/1743708/las-vegas-casino-atlantis",
+  "https://wanderlog.com/place/details/4407539/las-vegas-casino",
+  "https://maps.apple.com/place?place-id=I1A780FC21FB7B7F",
+  "https://intravel.net/budapest/entertainment/las-vegas-casino",
+  "https://justbudapest.com/casino-guide-budapest/",
+  "https://www.worldcasinodirectory.com/casino/las-vegas-casino-corvin-setany",
+  "https://www.worldcasinodirectory.com/casino/las-vegas-casino-atrium-eurocenter",
+  "https://www.casinosavenue.com/en/casino/budapest-casino-las-vegas-corvin-setany/9410",
+  "https://znaki.fm/hu/places/las-vegas-casino-atlantis/",
+  "https://www.lametayel.co.il/articles/74mj84",
+  "https://elitetraveler.com/travel/destination-guides/europe/budapest/the-5-best-things-to-do-at-night-in-budapest",
+  "https://telex.hu/belfold/2023/02/22/sofitel-szalloda-hotel-bontas-atepites-atrium-hyatt",
+  "https://dailynewshungary.com/photos-demolition-of-the-budapest-luxury-hotel-near-chain-bridge-starts/",
+  "https://www.travelagentcentral.com/hotels/ennismore-expands-so-brand-new-signing-budapest",
+  "https://welovebudapest.com/2018/05/22/szivattyuhazbol-kaszino-majd-kreativ-kozpont-uj-funkcioval-nyilt-meg-a-felujitott-ybl-epulet/",
+  "https://www.vg.hu/cegvilag/2016/07/a-varkert-kaszino-az-egyik-mnb-alapitvanye-lett",
+  "https://xpatloop.com/channels/2014/05/hungary-s-economy-ministry-issues-seven-casino-permits.html",
+  "https://444.hu/2024/10/28/a-rekordprofit-ellenere-eladtak-a-debreceni-es-a-nyiregyhazi-kaszinot-habony-arpadnak-es-garancsi-istvannak",
+  "https://telex.hu/gazdasag/2021/09/07/nagy-titokban-35-eves-kaszino-koncessziokat-kaptak-garancsi-istvanek-cege",
+  "https://xpatloop.com/channels/2012/01/smoking-ban-in-hungary-in-effect-from-1-january-2012.html",
+  "https://originalpubcrawls.com/budapest-casino-dress-code-what-you-need-to-know/",
   "https://www.tripadvisor.com/Restaurant_Review-g274887-d1078889-Reviews-Old_Man_s_Music_Pub-Budapest_Central_Hungary.html",
   "https://www.tripadvisor.com/Restaurant_Review-g274887-d19117063-Reviews-Barhole_Music-Budapest_Central_Hungary.html",
   "https://www.tripadvisor.com/Attraction_Review-g274887-d12994772-Reviews-Lampas-Budapest_Central_Hungary.html",

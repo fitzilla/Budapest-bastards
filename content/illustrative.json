@@ -386,5 +386,22 @@
    "caption": "A pint of Guinness",
    "source": "https://commons.wikimedia.org/wiki/File:Guinness_Glass_2010.jpg"
   }
+ ],
+ "casino": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roulette_casino.JPG?width=960",
+   "caption": "A roulette wheel",
+   "source": "https://commons.wikimedia.org/wiki/File:Roulette_casino.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Birds_Eye_Chip_View_(1236662861).jpg?width=960",
+   "caption": "Casino chips",
+   "source": "https://commons.wikimedia.org/wiki/File:Birds_Eye_Chip_View_(1236662861).jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/DelLagoCasinoBlackjackTable.jpg?width=960",
+   "caption": "Blackjack tables",
+   "source": "https://commons.wikimedia.org/wiki/File:DelLagoCasinoBlackjackTable.jpg"
+  }
  ]
 }
