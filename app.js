@@ -49,6 +49,8 @@
     star: '<path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z"/>',
     compass: '<circle cx="12" cy="12" r="9.5"/><path d="m16 8-2.2 5.8L8 16l2.2-5.8z"/>',
     ticket: '<path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2M13 11v2M13 17v2"/>',
+    dice: '<rect width="18" height="18" x="3" y="3" rx="3"/><path d="M8 8h.01"/><path d="M16 8h.01"/><path d="M12 12h.01"/><path d="M8 16h.01"/><path d="M16 16h.01"/>',
+    idcard: '<rect width="20" height="14" x="2" y="5" rx="2"/><circle cx="8" cy="12" r="2.2"/><path d="M13 10h5"/><path d="M13 14h4"/>',
     guitar: '<path d="m11.9 12.1 5.6-5.6"/><path d="m17 4 3 3"/><path d="M19 2.5 21.5 5"/><path d="M8.6 9.4c.6-1 1.6-1.6 2.7-1.6a4.8 4.8 0 0 1 4.9 4.9c0 1.1-.6 2.1-1.6 2.7l-.8.4a2 2 0 0 0-1.1 1.6 4.2 4.2 0 0 1-4.2 4.1A6 6 0 0 1 2.5 15.5a4.2 4.2 0 0 1 4.1-4.2 2 2 0 0 0 1.6-1.1z"/><path d="m6 15.5 2.5 2.5"/>',
     beer: '<path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6M13 12v6"/><path d="M14 7.5c-1 0-1.4.5-3 .5s-2-.5-3-.5-1.7.5-2.5.5a2.5 2.5 0 0 1 0-5c.8 0 1.6.5 2.5.5S9.4 2 11 2s2 1.5 3 1.5 1.7-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.8 0-1.5-.5-2.5-.5Z"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/>',
     brick: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M12 3v6M8 9v6M16 9v6M12 15v6"/>',
@@ -118,10 +120,11 @@
     if (p.type === 'bar' && hasAny(p, ['rock', 'metal'])) return 'rock';
     if (p.type === 'food' && has(p, 'coffee')) return 'coffee';
     if (p.type === 'shop') return 'shop';
+    if (has(p, 'casino')) return 'casino';
     return p.type;
   }
-  const KIND_ICON = { fradi: 'ball', mtk: 'ball', kart: 'flag', rock: 'guitar', bar: 'beer', coffee: 'coffee', shop: 'cart', food: 'utensils', sight: 'landmark', bath: 'waves', activity: 'zap', travel: 'plane', base: 'home' };
-  const KIND_COLOR = { fradi: 'fradi', mtk: 'mtk', kart: 'event', rock: 'rock', bar: 'bar', coffee: 'coffee', shop: 'shop', food: 'food', sight: 'sight', bath: 'bath', activity: 'activity', travel: 'travel', base: 'base' };
+  const KIND_ICON = { fradi: 'ball', mtk: 'ball', kart: 'flag', rock: 'guitar', bar: 'beer', coffee: 'coffee', shop: 'cart', food: 'utensils', sight: 'landmark', bath: 'waves', activity: 'zap', casino: 'dice', travel: 'plane', base: 'home' };
+  const KIND_COLOR = { fradi: 'fradi', mtk: 'mtk', kart: 'event', rock: 'rock', bar: 'bar', coffee: 'coffee', shop: 'shop', food: 'food', sight: 'sight', bath: 'bath', activity: 'activity', casino: 'casino', travel: 'travel', base: 'base' };
   const iconOf = (p) => KIND_ICON[kindOf(p)] || 'pin';
   const colorVar = (p) => {
     const k = kindOf(p);
@@ -185,6 +188,7 @@
         return 'Landmark';
       case 'bath': return t.includes('sparty') ? 'Bath party' : 'Thermal bath';
       case 'activity':
+        if (t.includes('casino')) return 'Casino';
         if (t.includes('shooting')) return 'Shooting range';
         if (t.includes('escape-room')) return 'Escape room';
         if (t.includes('cruise')) return 'River cruise';
@@ -202,7 +206,7 @@
     'booking-needed': 'Book ahead', 'group-friendly': 'Good for groups', 'street-food': 'Street food',
     'fine-dining': 'Fine dining', 'night-bathing': 'Night bathing', 'escape-room': 'Escape room',
     'beer-bike': 'Beer bus', '24h': 'Open 24 hours', 'bottle-shop': 'Bottle shop', tobacco: 'Tobacco', 'big-shop': 'Big shop', burger: 'Burgers', fish: 'Fish & seafood', bbq: 'BBQ', vegetarian: 'Veggie friendly', ww2: 'WW2', langos: 'Lángos', palinka: 'Pálinka', michelin: 'Michelin Guide',
-    sparty: 'Sparty', cheap: 'Cheap', quirky: 'Odd', speakeasy: 'Speakeasy',
+    casino: 'Casino', roulette: 'Roulette', blackjack: 'Blackjack', sparty: 'Sparty', cheap: 'Cheap', quirky: 'Odd', speakeasy: 'Speakeasy',
   };
   const tagLabel = (t) => TAG_LABEL[t] || t.charAt(0).toUpperCase() + t.slice(1).replace(/-/g, ' ');
   const HIDDEN_TAGS = new Set(['booked', 'travel', 'bath', 'pub']);
@@ -261,6 +265,7 @@
     { id: 'odd', label: 'Odd bars', icon: 'sparkles', test: (p) => p.type === 'bar' && hasAny(p, ['quirky', 'speakeasy', 'games']) },
     { id: 'rooftops', label: 'Rooftops & cocktails', icon: 'martini', test: (p) => p.type === 'bar' && hasAny(p, ['cocktail', 'rooftop', 'speakeasy']) },
     { id: 'late', label: 'Late & clubs', icon: 'moon', test: (p) => is(p, 'bar') && hasAny(p, ['club', 'late-night']) },
+    { id: 'casino', label: 'Casinos', icon: 'dice', note: 'Bring your actual passport (no driving licences): they photograph your ID at the door. 18+, free in, smart casual.', test: (p) => has(p, 'casino') },
     { id: 'sports', label: 'Sports & beer', icon: 'tv', test: (p) => p.type === 'bar' && hasAny(p, ['sports', 'craft-beer']) },
     { id: 'coffee', label: 'Best coffee', icon: 'coffee', test: (p) => has(p, 'coffee') },
     { id: 'history', label: 'History', icon: 'landmark', test: (p) => is(p, 'sight') },
@@ -883,7 +888,7 @@
       head = `<div><h1>“${esc(q)}”</h1><p>${plural(items.length + dishes.length, 'result')}</p></div>`;
     } else {
       const n = cat.dishes ? dishes.length : items.length;
-      head = `<div><h1>${esc(cat.label)}</h1><p>${cat.dishes ? plural(n, 'thing') + ' to eat and drink' : plural(n, 'place')}${cat.dishes ? '' : ` · ${esc(state.filters.sort === 'near' ? 'nearest first' : 'distances from ' + origin().label)}`}</p></div>`;
+      head = `<div><h1>${esc(cat.label)}</h1><p>${cat.dishes ? plural(n, 'thing') + ' to eat and drink' : plural(n, 'place')}${cat.dishes ? '' : ` · ${esc(state.filters.sort === 'near' ? 'nearest first' : 'distances from ' + origin().label)}`}</p>${cat.note ? `<p class="cat-note">${icon('info', 'ic-sm')}${esc(cat.note)}</p>` : ''}</div>`;
     }
     if (cat?.id === 'booked') {
       intro = `<p class="muted" style="margin-top:10px;font-size:14px">Everything here is booked and paid for. The full timeline is in <a href="#/plans">The plan</a>.</p>`;
@@ -929,7 +934,7 @@
         const links = [];
         if (ref && ref.id !== 'base') links.push(`<a class="chip chip-sm" href="#/p/${esc(ref.id)}">${icon(iconOf(ref), 'ic-sm')}${esc(ref.type === 'event' ? 'Details' : ref.name)}</a>`);
         if (ref && ref.id === 'base') links.push(`<a class="chip chip-sm" href="#/p/base">${icon('home', 'ic-sm')}The Airbnb</a>`);
-        if (ref && ref.lat != null && !ref.hidePin) links.push(`<a class="chip chip-sm" href="${esc(gdirUrl(ref))}" target="_blank" rel="noopener">${icon('nav', 'ic-sm')}Directions</a>`);
+        if (ref && ref.lat != null && !ref.hidePin) links.push(`<a class="chip chip-sm" href="${esc(gmapsUrl(ref))}" target="_blank" rel="noopener">${icon('pin', 'ic-sm')}Google Maps</a>`);
         for (const r of refs) links.push(`<a class="chip chip-sm" href="#/p/${esc(r.id)}">${esc(r.name)}</a>`);
         return `<li class="tl-item${it.booked ? ' is-booked' : ''}${it.kind === 'travel' ? ' is-travel' : ''}${past ? ' is-past' : ''}${live ? ' is-now' : ''}">
           <time class="tl-time" datetime="${it.at.toISOString()}">${esc(it.time)}</time>
@@ -1125,10 +1130,9 @@
         ${p.type === 'shop' ? '' : `<a class="d-rating" href="${esc(taUrl(p))}" target="_blank" rel="noopener"><small>TRIPADVISOR</small>${r.ta != null ? `<b>${icon('star', 'ic-fill')}${r.ta.toFixed(1)}</b><span>${r.taN ? fmtInt(r.taN) + ' reviews' : 'Reviews'}</span>` : `<b>${icon('chat')}Reviews</b><span>What people say</span>`}</a>`}
       </div>`);
     }
-    // Google Maps pair: how to get there, and the place's own listing (reviews, photos, hours, closures)
+    // one button: the place's own Google Maps listing (directions, reviews, photos, hours, closures all live there)
     if (!p.hidePin || p.address) parts.push(`<div class="d-maps">
-        <a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions</a>
-        <a class="btn btn-line" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener">${icon('pin')}Maps listing</a>
+        <a class="btn btn-primary" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener">${icon('pin')}Open in Google Maps</a>
       </div>`);
     const actions = [];
     if (p.links?.book) actions.push(`<a class="btn btn-soft" href="${esc(p.links.book)}" target="_blank" rel="noopener">${icon('ticket')}${p.type === 'event' ? 'Tickets' : 'Book'}</a>`);
@@ -1154,6 +1158,7 @@
       for (const o of p.options || []) facts.push(fact('car', o.name, `${o.price}. ${o.time}. ${o.howToPay}`));
     } else {
       if (p.hours) facts.push(fact('clock', 'Hours', p.hours));
+      if (p.entry) facts.push(fact('idcard', 'Getting in', p.entry));
       if (p.priceText) facts.push(fact('money', 'Prices', p.priceText));
       if (p.address) facts.push(fact('pin', 'Address', p.address, true));
     }
@@ -1636,7 +1641,7 @@
         <p class="card-line">${esc(labelOf(p))}${p.district ? ' · District ' + esc(p.district) : ''}</p>
         <h3 class="card-title">${esc(p.name)}</h3>
         <p class="card-line">${esc(p.type === 'event' ? `${DAY_FMT.format(at(p.date, p.start))} · ${p.start}` : distText(p) || p.sub || '')}</p>
-        ${p.lat != null ? `<div class="map-card-actions"><a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions</a><a class="btn btn-line" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener" aria-label="Google Maps listing">${icon('pin')}Listing</a></div>` : ''}
+        ${p.lat != null ? `<div class="map-card-actions"><a class="btn btn-primary" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener" aria-label="Open ${esc(p.name)} in Google Maps">${icon('pin')}Google Maps</a></div>` : ''}
       </div>
       <button type="button" class="map-card-close" data-act="close-card" aria-label="Close">${icon('x')}</button>
     </div>`;
@@ -1953,7 +1958,7 @@
   function trackLink(a) {
     const h = a.href;
     const kind = /google\.[a-z.]+\/maps\/dir/.test(h) ? 'directions'
-      : /google\.[a-z.]+\/maps/.test(h) ? 'maps_listing'
+      : /google\.[a-z.]+\/maps/.test(h) ? 'google_maps'
       : /tripadvisor\./.test(h) ? 'tripadvisor'
       : /wikimedia\.org|wikipedia\.org/.test(h) ? 'photo_credit'
       : 'outbound_link';

@@ -191,9 +191,9 @@
   "source": "https://commons.wikimedia.org/wiki/File:Nagy_Imre_statue%2C_J%C3%A1szai_Mari_t%C3%A9r.jpg"
  },
  "ecseri-flea-market": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%281%29.JPG?width=960",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_(2).JPG?width=960",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%281%29.JPG"
+  "source": "https://commons.wikimedia.org/wiki/File:Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_(2).JPG"
  },
  "zugliget-chairlift": {
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_chairlift._Zugligeti_%28bottom%29_station_building_from_the_street_%28South%29._-_Budapest_12th_district._Zugligeti_Road_97.JPG?width=960",
@@ -453,5 +453,23 @@
   "caption": "Craft beer bottles lined up on a bar counter",
   "source": "https://commons.wikimedia.org/wiki/File:Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg",
   "kind": "illustrative"
+ },
+ "las-vegas-casino-corvin": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Las_Vegas_Casino._-_Budapest.JPG?width=960",
+  "kind": "venue",
+  "caption": "Las Vegas Casino on Corvin sétány",
+  "source": "https://commons.wikimedia.org/wiki/File:Las_Vegas_Casino._-_Budapest.JPG",
+  "gallery": [
+   "Las Vegas Casino. E. - Budapest.JPG"
+  ]
+ },
+ "las-vegas-casino-sofitel": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sofitel_Budapest_Chain_Bridge._NE.JPG?width=960",
+  "kind": "building",
+  "caption": "The Sofitel by the Chain Bridge, home of the casino",
+  "source": "https://commons.wikimedia.org/wiki/File:Sofitel_Budapest_Chain_Bridge._NE.JPG",
+  "gallery": [
+   "Sofitel-bp.jpg"
+  ]
  }
 }
