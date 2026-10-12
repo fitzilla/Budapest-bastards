@@ -56,6 +56,7 @@ const R = {
   coffee: readOpt('content/research/coffee.json', { items: [], sources: [] }),
   foodExtra: readOpt('content/research/food_extra.json', { items: [], sources: [] }),
   shops: readOpt('content/research/shops.json', { items: [], sources: [] }),
+  casinos: readOpt('content/research/casinos.json', { items: [], sources: [] }),
   food: read('content/research/food.json'),
   sights: read('content/research/sights.json'),
 };
@@ -102,6 +103,7 @@ function normPlace(src, file) {
     blurb: src.blurb || null,
     tip: src.tip || null,
     history: src.history || null,
+    entry: src.entry || null,
     image: src.image || null,
     links: {
       ta: l.tripadvisor || null,
@@ -160,7 +162,7 @@ function validate(p) {
 
 // ---- places
 const places = [];
-for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['coffee', R.coffee], ['food_extra', R.foodExtra], ['sights', R.sights], ['shops', R.shops]]) {
+for (const [file, data] of [['bars', R.bars], ['bars_extra', R.barsExtra], ['food', R.food], ['coffee', R.coffee], ['food_extra', R.foodExtra], ['sights', R.sights], ['shops', R.shops], ['casinos', R.casinos]]) {
   for (const src of data.items) {
     if (removed.has(`${file}:${src.id}`)) continue;
     places.push(applyMedia(applyRatings(applyPatch(applyLayers(normPlace(src, file))))));
@@ -275,6 +277,7 @@ function illoCategory(x) {
     return null;
   }
   if (x.type === 'activity') {
+    if (t.has('casino')) return 'casino';
     if (t.has('shooting')) return 'shooting';
     if (t.has('palinka')) return 'palinka';
     if (t.has('beer-bike')) return 'pub';
@@ -361,8 +364,9 @@ const out = {
   climate: R.events.weatherClimate,
   localEvents: R.events.localEvents,
   shopsInfo: R.shops.goodToKnow || [],
+  casinoInfo: R.casinos.goodToKnow || null,
   sparty: R.sights.sparty,
-  sources: [...new Set([...R.events.sources, ...R.bars.sources, ...(R.barsExtra.sources || []), ...R.food.sources, ...(R.coffee.sources || []), ...R.sights.sources,
+  sources: [...new Set([...R.events.sources, ...R.bars.sources, ...(R.barsExtra.sources || []), ...R.food.sources, ...(R.coffee.sources || []), ...R.sights.sources, ...(R.casinos.sources || []),
     ...Object.values(ratings).flatMap((r) => r?.sources || [])])],
 };
 

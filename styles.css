@@ -25,6 +25,7 @@
   --c-sight: #2a63d4;
   --c-bath: #0b8aa3;
   --c-activity: #cf2f74;
+  --c-casino: #0e6b4f;
   --c-travel: #3d3734;
   --c-base: #1f1a17;
   --gold: #e8b007;
@@ -63,7 +64,7 @@
     --paprika: #f0475a; --paprika-press: #ff6273; --paprika-soft: #3b1a20; --on-paprika: #ffffff;
     --scrim: rgba(0, 0, 0, .6); --glass: rgba(30, 27, 25, .88);
     --c-event: #f0475a; --c-bar: #e2a52a; --c-rock: #a07cff; --c-food: #4cc463; --c-coffee: #d29a6a; --c-shop: #9db3c6; --c-sight: #5d93ff;
-    --c-bath: #2ec4dd; --wx-cloud: #9aa6b4; --wx-cloud2: #6f7a88; --c-activity: #f2649f; --c-travel: #cfc6be; --c-base: #f3eee9;
+    --c-bath: #2ec4dd; --wx-cloud: #9aa6b4; --wx-cloud2: #6f7a88; --c-activity: #f2649f; --c-casino: #3fc79a; --c-travel: #cfc6be; --c-base: #f3eee9;
     --fradi: #2fb36a; --mtk: #6b8cff; --good: #4cc463; --warn: #f59e0b;
     --shadow-1: 0 1px 2px rgba(0, 0, 0, .4), 0 2px 8px rgba(0, 0, 0, .3);
     --shadow-2: 0 2px 6px rgba(0, 0, 0, .5), 0 12px 32px rgba(0, 0, 0, .55);
@@ -77,7 +78,7 @@
   --paprika: #f0475a; --paprika-press: #ff6273; --paprika-soft: #3b1a20; --on-paprika: #ffffff;
   --scrim: rgba(0, 0, 0, .6); --glass: rgba(30, 27, 25, .88);
   --c-event: #f0475a; --c-bar: #e2a52a; --c-rock: #a07cff; --c-food: #4cc463; --c-coffee: #d29a6a; --c-shop: #9db3c6; --c-sight: #5d93ff;
-  --c-bath: #2ec4dd; --wx-cloud: #9aa6b4; --wx-cloud2: #6f7a88; --c-activity: #f2649f; --c-travel: #cfc6be; --c-base: #f3eee9;
+  --c-bath: #2ec4dd; --wx-cloud: #9aa6b4; --wx-cloud2: #6f7a88; --c-activity: #f2649f; --c-casino: #3fc79a; --c-travel: #cfc6be; --c-base: #f3eee9;
   --fradi: #2fb36a; --mtk: #6b8cff; --good: #4cc463; --warn: #f59e0b;
   --shadow-1: 0 1px 2px rgba(0, 0, 0, .4), 0 2px 8px rgba(0, 0, 0, .3);
   --shadow-2: 0 2px 6px rgba(0, 0, 0, .5), 0 12px 32px rgba(0, 0, 0, .55);
@@ -618,6 +619,7 @@ p { margin: 0; }
 .k-sight { --c: var(--c-sight); }
 .k-bath { --c: var(--c-bath); }
 .k-activity { --c: var(--c-activity); }
+.k-casino { --c: var(--c-casino); }
 .k-travel { --c: var(--c-travel); }
 .k-base { --c: var(--c-base); }
 .k-fradi { --c: var(--fradi); }
@@ -1016,3 +1018,5 @@ p { margin: 0; }
 
 /* the detail credit already says "Illustrative photo", so the corner tag would only overlap it */
 .d-hero .media-note { display: none; }
+.cat-note { display: flex; gap: 6px; align-items: flex-start; margin-top: 6px; font-size: 13px; color: var(--ink-2); }
+.cat-note .ic-sm { flex: none; margin-top: 2px; }
