@@ -38,8 +38,16 @@ Commit and push `data.js`. Until then, anyone can drop their own pin from **Info
 - **MTK v Vasas:** Fri 16 Oct, gates 18:00, kick-off 19:00 Budapest time, confirmed by the booking.
 - **Map pins:** most venue pins are placed from street addresses and may be a few doors out. The Google Maps button always goes to the right place.
 - **Ratings:** about 46 of 114 places have a verified Tripadvisor or Google score (`content/ratings.json`). Scores based on fewer than 15 reviews are hidden. Places without a score link to their live ratings and photos instead.
-- **Closures:** Gellért Baths has been closed since Oct 2025 and Király Baths is also shut. Both are marked closed in the app.
+- **Closures:** places confirmed permanently closed (Gellért and Király Baths, Old Man's, Ellátó, Anker't, Bock, the Hold Street market) have been removed, not replaced.
 
 ## Tech
 
-Plain HTML, CSS and JS. MapLibre GL 4.7.1 is vendored in `vendor/`, and so are the fonts (Big Shoulders Display and Barlow, SIL OFL). The map has three styles: **Map** (OpenFreeMap vector, falling back to CARTO), **Satellite** (Esri World Imagery with road and place labels) and **Terrain** (Esri World Topo, falling back to OpenTopoMap). All three sit on AWS Terrain Tiles for 3D hills. Every place has a photo: the venue itself, the building it's in, or the street outside (Wikimedia Commons, `content/images.json`); a Wikipedia lead photo fetched at runtime (`content/wiki.json`); or, for the last few, a clearly labelled illustrative photo (`content/illustrative.json`). Each credit links to the photo's Commons page for author and licence. Weather comes from Open-Meteo. A service worker caches the app, fonts, map tiles and photos so it copes with patchy roaming.
+Plain HTML, CSS and JS. MapLibre GL 4.7.1 is vendored in `vendor/`, and so are the fonts (Big Shoulders Display and Barlow, SIL OFL). The map has three styles: **Map** (OpenFreeMap vector, falling back to CARTO), **Satellite** (Esri World Imagery with road and place labels) and **Terrain** (Esri World Topo, falling back to OpenTopoMap). All three sit on AWS Terrain Tiles for 3D hills. Photos are the venue itself or the building it's in (Wikimedia Commons, `content/images.json`), a Wikipedia lead photo fetched at runtime (`content/wiki.json`), or a clearly labelled illustrative photo (`content/illustrative.json`). Rock bars with no real photo get a coloured placeholder tile. Each credit links to the photo's Commons page for author and licence. Weather comes from Open-Meteo. A service worker caches the app, fonts, map tiles and photos so it copes with patchy roaming.
+
+## Photos
+
+Photos link straight to Wikimedia's image servers (`thumb.wikimedia.org`), using the sizes and thumbnail paths in `content/imagemeta.json`. Those come from the `image-check` branch: pushing to it runs `.github/workflows/image-check.yml`, which checks every photo exists, load-tests every link, saves 330px thumbnails to look over, and can thumbnail Commons search results (`image-queries.json`) to pick replacements. Copy new sizes into `content/imagemeta.json`, then run `node scripts/build-data.mjs`.
+
+## Analytics
+
+`analytics.js` supports Google Analytics 4 and PostHog. Both stay off until you paste an ID at the top of the file (`GA_ID`, `POSTHOG_KEY`, and `POSTHOG_HOST` for the EU or US cloud). Nothing is sent from localhost. It records a page view for each screen and place opened, plus events for faves, directions and map-listing taps, categories, filters, shares, map controls and photos that fail to load.
