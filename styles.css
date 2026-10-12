@@ -883,7 +883,7 @@ p { margin: 0; }
 .d-rating b { font: 800 25px/1.1 var(--font-display); font-variant-numeric: tabular-nums; display: inline-flex; align-items: center; gap: 6px; }
 .d-rating b .ic { width: 17px; height: 17px; }
 .d-rating span { font-size: 12.5px; color: var(--ink-2); }
-.d-maps { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.d-maps { display: grid; grid-template-columns: 1fr; }
 .d-maps .btn { min-width: 0; white-space: nowrap; }
 .d-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .d-actions .btn { flex: 1 1 140px; }

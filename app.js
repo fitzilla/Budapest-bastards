@@ -929,7 +929,7 @@
         const links = [];
         if (ref && ref.id !== 'base') links.push(`<a class="chip chip-sm" href="#/p/${esc(ref.id)}">${icon(iconOf(ref), 'ic-sm')}${esc(ref.type === 'event' ? 'Details' : ref.name)}</a>`);
         if (ref && ref.id === 'base') links.push(`<a class="chip chip-sm" href="#/p/base">${icon('home', 'ic-sm')}The Airbnb</a>`);
-        if (ref && ref.lat != null && !ref.hidePin) links.push(`<a class="chip chip-sm" href="${esc(gdirUrl(ref))}" target="_blank" rel="noopener">${icon('nav', 'ic-sm')}Directions</a>`);
+        if (ref && ref.lat != null && !ref.hidePin) links.push(`<a class="chip chip-sm" href="${esc(gmapsUrl(ref))}" target="_blank" rel="noopener">${icon('pin', 'ic-sm')}Google Maps</a>`);
         for (const r of refs) links.push(`<a class="chip chip-sm" href="#/p/${esc(r.id)}">${esc(r.name)}</a>`);
         return `<li class="tl-item${it.booked ? ' is-booked' : ''}${it.kind === 'travel' ? ' is-travel' : ''}${past ? ' is-past' : ''}${live ? ' is-now' : ''}">
           <time class="tl-time" datetime="${it.at.toISOString()}">${esc(it.time)}</time>
@@ -1125,10 +1125,9 @@
         ${p.type === 'shop' ? '' : `<a class="d-rating" href="${esc(taUrl(p))}" target="_blank" rel="noopener"><small>TRIPADVISOR</small>${r.ta != null ? `<b>${icon('star', 'ic-fill')}${r.ta.toFixed(1)}</b><span>${r.taN ? fmtInt(r.taN) + ' reviews' : 'Reviews'}</span>` : `<b>${icon('chat')}Reviews</b><span>What people say</span>`}</a>`}
       </div>`);
     }
-    // Google Maps pair: how to get there, and the place's own listing (reviews, photos, hours, closures)
+    // one button: the place's own Google Maps listing (directions, reviews, photos, hours, closures all live there)
     if (!p.hidePin || p.address) parts.push(`<div class="d-maps">
-        <a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions</a>
-        <a class="btn btn-line" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener">${icon('pin')}Maps listing</a>
+        <a class="btn btn-primary" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener">${icon('pin')}Open in Google Maps</a>
       </div>`);
     const actions = [];
     if (p.links?.book) actions.push(`<a class="btn btn-soft" href="${esc(p.links.book)}" target="_blank" rel="noopener">${icon('ticket')}${p.type === 'event' ? 'Tickets' : 'Book'}</a>`);
@@ -1636,7 +1635,7 @@
         <p class="card-line">${esc(labelOf(p))}${p.district ? ' · District ' + esc(p.district) : ''}</p>
         <h3 class="card-title">${esc(p.name)}</h3>
         <p class="card-line">${esc(p.type === 'event' ? `${DAY_FMT.format(at(p.date, p.start))} · ${p.start}` : distText(p) || p.sub || '')}</p>
-        ${p.lat != null ? `<div class="map-card-actions"><a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions</a><a class="btn btn-line" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener" aria-label="Google Maps listing">${icon('pin')}Listing</a></div>` : ''}
+        ${p.lat != null ? `<div class="map-card-actions"><a class="btn btn-primary" href="${esc(gmapsUrl(p))}" target="_blank" rel="noopener" aria-label="Open ${esc(p.name)} in Google Maps">${icon('pin')}Google Maps</a></div>` : ''}
       </div>
       <button type="button" class="map-card-close" data-act="close-card" aria-label="Close">${icon('x')}</button>
     </div>`;
@@ -1953,7 +1952,7 @@
   function trackLink(a) {
     const h = a.href;
     const kind = /google\.[a-z.]+\/maps\/dir/.test(h) ? 'directions'
-      : /google\.[a-z.]+\/maps/.test(h) ? 'maps_listing'
+      : /google\.[a-z.]+\/maps/.test(h) ? 'google_maps'
       : /tripadvisor\./.test(h) ? 'tripadvisor'
       : /wikimedia\.org|wikipedia\.org/.test(h) ? 'photo_credit'
       : 'outbound_link';
