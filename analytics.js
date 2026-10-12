@@ -3,7 +3,7 @@
    and nothing is ever sent from localhost. */
 (() => {
   const GA_ID = 'G-VQKBHWFTPD'; // Google Analytics 4 measurement ID
-  const POSTHOG_KEY = '';      // PostHog project API key, like 'phc_…'
+  const POSTHOG_KEY = 'phc_pZxjL5KmWcPNVN6WsUnDPw87rHWMPizpNFTnHLdTHyyK'; // PostHog project API key
   const POSTHOG_HOST = 'https://eu.i.posthog.com'; // 'https://us.i.posthog.com' for a US PostHog project
 
   const off = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
