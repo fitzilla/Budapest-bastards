@@ -267,7 +267,7 @@
     { id: 'late', label: 'Late & clubs', icon: 'moon', test: (p) => is(p, 'bar') && hasAny(p, ['club', 'late-night']) },
     { id: 'casino', label: 'Casinos', icon: 'dice', note: 'Bring your actual passport (no driving licences): they photograph your ID at the door. 18+, free in, smart casual.', test: (p) => has(p, 'casino') },
     { id: 'sports', label: 'Sports & beer', icon: 'tv', test: (p) => p.type === 'bar' && hasAny(p, ['sports', 'craft-beer']) },
-    { id: 'coffee', label: 'Best coffee', icon: 'coffee', test: (p) => has(p, 'coffee') },
+    { id: 'coffee', label: 'Coffee', icon: 'coffee', test: (p) => has(p, 'coffee') },
     { id: 'history', label: 'History', icon: 'landmark', test: (p) => is(p, 'sight') },
     { id: 'baths', label: 'Baths', icon: 'waves', test: (p) => p.type === 'bath' },
     { id: 'do', label: 'Things to do', icon: 'zap', test: (p) => p.type === 'activity' },
