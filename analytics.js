@@ -2,7 +2,7 @@
    Both are public, client-side keys, so they're safe to commit. Nothing loads while they're blank,
    and nothing is ever sent from localhost. */
 (() => {
-  const GA_ID = '';            // Google Analytics 4 measurement ID, like 'G-ABC123XYZ'
+  const GA_ID = 'G-VQKBHWFTPD'; // Google Analytics 4 measurement ID
   const POSTHOG_KEY = '';      // PostHog project API key, like 'phc_…'
   const POSTHOG_HOST = 'https://eu.i.posthog.com'; // 'https://us.i.posthog.com' for a US PostHog project
 
