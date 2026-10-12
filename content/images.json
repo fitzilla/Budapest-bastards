@@ -56,12 +56,11 @@
   "source": "https://commons.wikimedia.org/wiki/File:Budapest,_Anker-palota,_26.jpeg"
  },
  "gozsdu-udvar": {
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg?width=960",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gozsdu-yard._'C'_yard._Arcades._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?width=960",
   "wiki": "en:Gozsdu-udvar",
   "kind": "venue",
-  "source": "https://commons.wikimedia.org/wiki/File:Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Gozsdu-yard._%27C%27_yard._Arcades._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG",
   "gallery": [
-   "Gozsdu-yard. 'C' yard. Arcades. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG",
    "Gozsdu-yard. 'B' yard. Bldg -3. - Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG",
    "Gozsdu-yard. 'D' yard. Bldg -5. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG",
    "Gozsdu-yard. Dob Street's gateway. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG"
@@ -348,7 +347,6 @@
    "Saint Stephen's Basilica Budapest.jpg",
    "St Stephens bas budapest.jpg",
    "HUN-2015-Budapest-St. Stephen's Basilica.jpg",
-   "St. Stephen's Basilica by night.jpg",
    "Szent István-bazilika, St. Stephen's Basilica (11374602996).jpg"
   ],
   "commonsCat": "Category:Saint Stephen's Basilica (Budapest)"
@@ -383,8 +381,7 @@
  },
  "hospital-in-the-rock": {
   "gallery": [
-   "Budapest. I. Lovas út. 4.- Hospital in the Rock - Secret Military Hospital and Nuclear Bunker.JPG",
-   "Budapest. I. Lovas út 4.- Hospital in the Rock and Castle Walls. Sour Soup tower.JPG"
+   "Budapest. I. Lovas út. 4.- Hospital in the Rock - Secret Military Hospital and Nuclear Bunker.JPG"
   ],
   "commonsCat": "Category:Hospital in the Rock"
  },
@@ -393,7 +390,6 @@
    "Budapest Széchenyi Baths R01.jpg",
    "Budapest Széchenyi Baths R03.jpg",
    "Budapest-Bains Széchenyi fürdő-coupole.jpg",
-   "Budapest, Széchenyi fürdő, Márványterem.jpg",
    "Széchenyi Gyógyfürdő thermal spa in Budapest 013.JPG"
   ],
   "commonsCat": "Category:Széchenyi Gyógyfürdő"
@@ -424,10 +420,8 @@
  },
  "heroes-square": {
   "gallery": [
-   "Heroes Square Budapest 2010 01.jpg",
    "The Millennium Monument in Heroes' Square, Budapest, Hungary.jpg",
    "HUN-2015-Budapest-Heroes’ Square.jpg",
-   "Hosok tere, Budapest.jpg",
    "Millennium Monument, Hősök tere (Heroes' Square), Budapest, Hungary - 200512.jpg"
   ],
   "commonsCat": "Category:Hősök tere (Budapest 14)"

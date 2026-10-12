@@ -1,0 +1,965 @@
+{
+ "_readme": "Commons file sizes and thumbnail URLs from the image-check branch (scripts/check-images.mjs run in GitHub Actions). build-data uses them to link photos straight to upload.wikimedia.org.",
+ "files": {
+  "001 Tacos de carnitas, carne asada y al pastor.jpg": {
+   "w": 4799,
+   "h": 3600,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/330px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "2009-09-gulasch-pörkölt-paprikas-3.jpg": {
+   "w": 2107,
+   "h": 1839,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg/330px-2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "20190110 pálinkás szett.jpg": {
+   "w": 2203,
+   "h": 2798,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/20190110_p%C3%A1link%C3%A1s_szett.jpg/330px-20190110_p%C3%A1link%C3%A1s_szett.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "2022 ETCR - RD2 - Hungaroring (52186703505).jpg": {
+   "w": 7116,
+   "h": 4746,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/2022_ETCR_-_RD2_-_Hungaroring_%2852186703505%29.jpg/330px-2022_ETCR_-_RD2_-_Hungaroring_%2852186703505%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "25m shooting range Pilsen.jpg": {
+   "w": 2048,
+   "h": 1536,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/25m_shooting_range_Pilsen.jpg/330px-25m_shooting_range_Pilsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "A Bar in Szimpla Kert.jpg": {
+   "w": 6000,
+   "h": 4000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/A_Bar_in_Szimpla_Kert.jpg/330px-A_Bar_in_Szimpla_Kert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "A38 (ship, Budapest).JPG": {
+   "w": 4608,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/A38_%28ship%2C_Budapest%29.JPG/330px-A38_%28ship%2C_Budapest%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "A38 1.jpg": {
+   "w": 2592,
+   "h": 1944,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/A38_1.jpg/330px-A38_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Akácfa utca 51, 2018 Erzsébetváros.jpg": {
+   "w": 1200,
+   "h": 1600,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg/330px-Ak%C3%A1cfa_utca_51%2C_2018_Erzs%C3%A9betv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Apricot dessert and its garnish.jpg": {
+   "w": 2679,
+   "h": 1849,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Apricot_dessert_and_its_garnish.jpg/330px-Apricot_dessert_and_its_garnish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Aquarium Club. - Erzsébet Square. Budapest.JPG": {
+   "w": 3264,
+   "h": 2448,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Aquarium_Club._-_Erzs%C3%A9bet_Square._Budapest.JPG/330px-Aquarium_Club._-_Erzs%C3%A9bet_Square._Budapest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Arany Ászok beer.JPG": {
+   "w": 2390,
+   "h": 1944,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Arany_%C3%81szok_beer.JPG/330px-Arany_%C3%81szok_beer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Babfőzelék.jpg": {
+   "w": 3312,
+   "h": 5888,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Babf%C5%91zel%C3%A9k.jpg/330px-Babf%C5%91zel%C3%A9k.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Bajcsy-Zsilinszky út 15 és 17, 2020 Terézváros.jpg": {
+   "w": 1422,
+   "h": 1896,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bajcsy-Zsilinszky_%C3%BAt_15_%C3%A9s_17%2C_2020_Ter%C3%A9zv%C3%A1ros.jpg/330px-Bajcsy-Zsilinszky_%C3%BAt_15_%C3%A9s_17%2C_2020_Ter%C3%A9zv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Becketts ír pub, tábla, Liszt Ferenc tér 11, 2016 Budapest.jpg": {
+   "w": 1704,
+   "h": 2272,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Becketts_%C3%ADr_pub%2C_t%C3%A1bla%2C_Liszt_Ferenc_t%C3%A9r_11%2C_2016_Budapest.jpg/330px-Becketts_%C3%ADr_pub%2C_t%C3%A1bla%2C_Liszt_Ferenc_t%C3%A9r_11%2C_2016_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Big Timber Brewing flight of beer.jpg": {
+   "w": 2048,
+   "h": 1536,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Big_Timber_Brewing_flight_of_beer.jpg/330px-Big_Timber_Brewing_flight_of_beer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Breakfast on a table (Unsplash).jpg": {
+   "w": 2912,
+   "h": 4368,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Breakfast_on_a_table_%28Unsplash%29.jpg/330px-Breakfast_on_a_table_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Buda Castle - Palazzo Reale Budapest.jpg": {
+   "w": 2288,
+   "h": 1712,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Buda_Castle_-_Palazzo_Reale_Budapest.jpg/330px-Buda_Castle_-_Palazzo_Reale_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Buda Castle from the Danube River.jpg": {
+   "w": 6097,
+   "h": 3196,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Buda_Castle_from_the_Danube_River.jpg/330px-Buda_Castle_from_the_Danube_River.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Castillo de Buda - Buda Castle - 04.jpg": {
+   "w": 7455,
+   "h": 3329,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Budapest_-_Castillo_de_Buda_-_Buda_Castle_-_04.jpg/330px-Budapest_-_Castillo_de_Buda_-_Buda_Castle_-_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Chain Bridge - panoramio.jpg": {
+   "w": 4850,
+   "h": 3200,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Budapest_-_Chain_Bridge_-_panoramio.jpg/330px-Budapest_-_Chain_Bridge_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Cipők a Duna-parton (38450346722).jpg": {
+   "w": 5184,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Budapest_-_Cip%C5%91k_a_Duna-parton_%2838450346722%29.jpg/330px-Budapest_-_Cip%C5%91k_a_Duna-parton_%2838450346722%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Központi Vásárcsarnok (2).jpg": {
+   "w": 5184,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Budapest_-_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok_%282%29.jpg/330px-Budapest_-_K%C3%B6zponti_V%C3%A1s%C3%A1rcsarnok_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Mercado Central - Grand Market Hall - Nagycsarnok - 02.jpg": {
+   "w": 3457,
+   "h": 5194,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Budapest_-_Mercado_Central_-_Grand_Market_Hall_-_Nagycsarnok_-_02.jpg/330px-Budapest_-_Mercado_Central_-_Grand_Market_Hall_-_Nagycsarnok_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Párisi Nagyáruház (37703806914).jpg": {
+   "w": 5184,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Budapest_-_P%C3%A1risi_Nagy%C3%A1ruh%C3%A1z_%2837703806914%29.jpg/330px-Budapest_-_P%C3%A1risi_Nagy%C3%A1ruh%C3%A1z_%2837703806914%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Szimpla Kert (26688416599).jpg": {
+   "w": 5184,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Budapest_-_Szimpla_Kert_%2826688416599%29.jpg/330px-Budapest_-_Szimpla_Kert_%2826688416599%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Széchenyi Lánchíd (37766929614).jpg": {
+   "w": 5184,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Budapest_-_Sz%C3%A9chenyi_L%C3%A1nch%C3%ADd_%2837766929614%29.jpg/330px-Budapest_-_Sz%C3%A9chenyi_L%C3%A1nch%C3%ADd_%2837766929614%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest - Terror Háza Múzeum (37766898364).jpg": {
+   "w": 5184,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_%2837766898364%29.jpg/330px-Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_%2837766898364%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest Bank és Ikarus 260 sörbusz, 2019 Terézváros.jpg": {
+   "w": 1983,
+   "h": 1487,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Budapest_Bank_%C3%A9s_Ikarus_260_s%C3%B6rbusz%2C_2019_Ter%C3%A9zv%C3%A1ros.jpg/330px-Budapest_Bank_%C3%A9s_Ikarus_260_s%C3%B6rbusz%2C_2019_Ter%C3%A9zv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest Budavári Palota (Buda Castle) (31224644612).jpg": {
+   "w": 3824,
+   "h": 2150,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Budapest_Budav%C3%A1ri_Palota_%28Buda_Castle%29_%2831224644612%29.jpg/330px-Budapest_Budav%C3%A1ri_Palota_%28Buda_Castle%29_%2831224644612%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest Freiheitsstatue IMGP1996.jpg": {
+   "w": 1340,
+   "h": 2000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Budapest_Freiheitsstatue_IMGP1996.jpg/330px-Budapest_Freiheitsstatue_IMGP1996.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest Gellért socha svobody 2.jpg": {
+   "w": 1600,
+   "h": 2400,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Budapest_Gell%C3%A9rt_socha_svobody_2.jpg/330px-Budapest_Gell%C3%A9rt_socha_svobody_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest Liszt Ferenc International Airport - Entrance Terminal 2B (2018).jpg": {
+   "w": 4032,
+   "h": 3016,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Budapest_Liszt_Ferenc_International_Airport_-_Entrance_Terminal_2B_%282018%29.jpg/330px-Budapest_Liszt_Ferenc_International_Airport_-_Entrance_Terminal_2B_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest Parlament bei Nacht.jpg": {
+   "w": 4000,
+   "h": 2667,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Budapest_Parlament_bei_Nacht.jpg/330px-Budapest_Parlament_bei_Nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest Széchenyi Baths R01.jpg": {
+   "w": 3216,
+   "h": 2136,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Budapest_Sz%C3%A9chenyi_Baths_R01.jpg/330px-Budapest_Sz%C3%A9chenyi_Baths_R01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest Széchenyi Baths R03.jpg": {
+   "w": 2136,
+   "h": 3216,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Budapest_Sz%C3%A9chenyi_Baths_R03.jpg/330px-Budapest_Sz%C3%A9chenyi_Baths_R03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest chairlift. Zugligeti (bottom) station building from the street (South). - Budapest 12th district. Zugligeti Road 97.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Budapest_chairlift._Zugligeti_%28bottom%29_station_building_from_the_street_%28South%29._-_Budapest_12th_district._Zugligeti_Road_97.JPG/330px-Budapest_chairlift._Zugligeti_%28bottom%29_station_building_from_the_street_%28South%29._-_Budapest_12th_district._Zugligeti_Road_97.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Akácfa utca, Fogas.jpg": {
+   "w": 4288,
+   "h": 2848,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Budapest%2C_Ak%C3%A1cfa_utca%2C_Fogas.jpg/330px-Budapest%2C_Ak%C3%A1cfa_utca%2C_Fogas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Anker-palota, 26.jpeg": {
+   "w": 3672,
+   "h": 4184,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Budapest%2C_Anker-palota%2C_26.jpeg/330px-Budapest%2C_Anker-palota%2C_26.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Hajós utca 25, The MAGIC Budapest, 1.jpg": {
+   "w": 4096,
+   "h": 3072,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Budapest%2C_Haj%C3%B3s_utca_25%2C_The_MAGIC_Budapest%2C_1.jpg/330px-Budapest%2C_Haj%C3%B3s_utca_25%2C_The_MAGIC_Budapest%2C_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, M1 metró, Oktogon, 18.jpg": {
+   "w": 4160,
+   "h": 3120,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Budapest%2C_M1_metr%C3%B3%2C_Oktogon%2C_18.jpg/330px-Budapest%2C_M1_metr%C3%B3%2C_Oktogon%2C_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Red Ruin Bár, 2.jpg": {
+   "w": 2848,
+   "h": 4288,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Budapest%2C_Red_Ruin_B%C3%A1r%2C_2.jpg/330px-Budapest%2C_Red_Ruin_B%C3%A1r%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Retro Lángos Büfé.jpg": {
+   "w": 5888,
+   "h": 3312,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Budapest%2C_Retro_L%C3%A1ngos_B%C3%BCf%C3%A9.jpg/330px-Budapest%2C_Retro_L%C3%A1ngos_B%C3%BCf%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Street Food Karaván, 3.jpg": {
+   "w": 5312,
+   "h": 3984,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Budapest%2C_Street_Food_Karav%C3%A1n%2C_3.jpg/330px-Budapest%2C_Street_Food_Karav%C3%A1n%2C_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Széchenyi fürdő, Márványterem.jpg": {
+   "w": 5888,
+   "h": 3312,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Budapest%2C_Sz%C3%A9chenyi_f%C3%BCrd%C5%91%2C_M%C3%A1rv%C3%A1nyterem.jpg/330px-Budapest%2C_Sz%C3%A9chenyi_f%C3%BCrd%C5%91%2C_M%C3%A1rv%C3%A1nyterem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Toldi Klub, Neonhullám.jpg": {
+   "w": 4288,
+   "h": 2848,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Budapest%2C_Toldi_Klub%2C_Neonhull%C3%A1m.jpg/330px-Budapest%2C_Toldi_Klub%2C_Neonhull%C3%A1m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, V. Erzsébet tér, Budapest Sziget Eye.JPG": {
+   "w": 4608,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Budapest%2C_V._Erzs%C3%A9bet_t%C3%A9r%2C_Budapest_Sziget_Eye.JPG/330px-Budapest%2C_V._Erzs%C3%A9bet_t%C3%A9r%2C_Budapest_Sziget_Eye.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Veli Bej fürdő.jpg": {
+   "w": 5888,
+   "h": 3312,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Budapest%2C_Veli_Bej_f%C3%BCrd%C5%91.jpg/330px-Budapest%2C_Veli_Bej_f%C3%BCrd%C5%91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, Vörösmarty tér 7-8, Gerbeaud-ház, 1.jpg": {
+   "w": 4096,
+   "h": 3072,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Budapest%2C_V%C3%B6r%C3%B6smarty_t%C3%A9r_7-8%2C_Gerbeaud-h%C3%A1z%2C_1.jpg/330px-Budapest%2C_V%C3%B6r%C3%B6smarty_t%C3%A9r_7-8%2C_Gerbeaud-h%C3%A1z%2C_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest, view from the St. Stephen's Basilica to the Fisherman's Bastion.jpg": {
+   "w": 2505,
+   "h": 1631,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Budapest%2C_view_from_the_St._Stephen%27s_Basilica_to_the_Fisherman%27s_Bastion.jpg/330px-Budapest%2C_view_from_the_St._Stephen%27s_Basilica_to_the_Fisherman%27s_Bastion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest-Bains Széchenyi fürdő-coupole.jpg": {
+   "w": 4032,
+   "h": 3024,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Budapest-Bains_Sz%C3%A9chenyi_f%C3%BCrd%C5%91-coupole.jpg/330px-Budapest-Bains_Sz%C3%A9chenyi_f%C3%BCrd%C5%91-coupole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest-Parliament-0001.jpg": {
+   "w": 6291,
+   "h": 4653,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Budapest-Parliament-0001.jpg/330px-Budapest-Parliament-0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest-Terror Museum.jpg": {
+   "w": 1800,
+   "h": 1200,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Budapest-Terror_Museum.jpg/330px-Budapest-Terror_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest. I. Lovas út 4.- Hospital in the Rock and Castle Walls. Sour Soup tower.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Budapest._I._Lovas_%C3%BAt_4.-_Hospital_in_the_Rock_and_Castle_Walls._Sour_Soup_tower.JPG/330px-Budapest._I._Lovas_%C3%BAt_4.-_Hospital_in_the_Rock_and_Castle_Walls._Sour_Soup_tower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapest. I. Lovas út. 4.- Hospital in the Rock - Secret Military Hospital and Nuclear Bunker.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Budapest._I._Lovas_%C3%BAt._4.-_Hospital_in_the_Rock_-_Secret_Military_Hospital_and_Nuclear_Bunker.JPG/330px-Budapest._I._Lovas_%C3%BAt._4.-_Hospital_in_the_Rock_-_Secret_Military_Hospital_and_Nuclear_Bunker.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapešť, Gellert-hegy, památník.JPG": {
+   "w": 2136,
+   "h": 2848,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Budape%C5%A1%C5%A5%2C_Gellert-hegy%2C_pam%C3%A1tn%C3%ADk.JPG/330px-Budape%C5%A1%C5%A5%2C_Gellert-hegy%2C_pam%C3%A1tn%C3%ADk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Budapešť, Gellért hegy, Szabadság szobor.JPG": {
+   "w": 2848,
+   "h": 2136,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Budape%C5%A1%C5%A5%2C_Gell%C3%A9rt_hegy%2C_Szabads%C3%A1g_szobor.JPG/330px-Budape%C5%A1%C5%A5%2C_Gell%C3%A9rt_hegy%2C_Szabads%C3%A1g_szobor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Burger et frites douala.jpg": {
+   "w": 3627,
+   "h": 2613,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Burger_et_frites_douala.jpg/330px-Burger_et_frites_douala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Central market hall, Budapest.jpg": {
+   "w": 1280,
+   "h": 960,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Central_market_hall%2C_Budapest.jpg/330px-Central_market_hall%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Challenger 2 tank tracks in mud MOD 45149587.jpg": {
+   "w": 2848,
+   "h": 4288,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Challenger_2_tank_tracks_in_mud_MOD_45149587.jpg/330px-Challenger_2_tank_tracks_in_mud_MOD_45149587.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Chicken schnitzel with fries and salad.jpg": {
+   "w": 960,
+   "h": 838,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Chicken_schnitzel_with_fries_and_salad.jpg/330px-Chicken_schnitzel_with_fries_and_salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Chicken tikka masala.jpg": {
+   "w": 2592,
+   "h": 3888,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Chicken_tikka_masala.jpg/330px-Chicken_tikka_masala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Citadella, Szabadság szobor, Gellért hegy az Erzsébet hídról --- Budapest.jpg": {
+   "w": 2048,
+   "h": 1536,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Citadella%2C_Szabads%C3%A1g_szobor%2C_Gell%C3%A9rt_hegy_az_Erzs%C3%A9bet_h%C3%ADdr%C3%B3l_---_Budapest.jpg/330px-Citadella%2C_Szabads%C3%A1g_szobor%2C_Gell%C3%A9rt_hegy_az_Erzs%C3%A9bet_h%C3%ADdr%C3%B3l_---_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "City SPAR - Budapest, Tűzoltó utca 50-56. (a).jpg": {
+   "w": 3864,
+   "h": 5152,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/City_SPAR_-_Budapest%2C_T%C5%B1zolt%C3%B3_utca_50-56._%28a%29.jpg/330px-City_SPAR_-_Budapest%2C_T%C5%B1zolt%C3%B3_utca_50-56._%28a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Cocktails mit Schirmchen.jpg": {
+   "w": 3264,
+   "h": 2448,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Cocktails_mit_Schirmchen.jpg/330px-Cocktails_mit_Schirmchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Cocktails.jpg": {
+   "w": 4128,
+   "h": 2322,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Cocktails.jpg/330px-Cocktails.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Costes Restaurant, Budapest 01.JPG": {
+   "w": 2560,
+   "h": 1920,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Costes_Restaurant%2C_Budapest_01.JPG/330px-Costes_Restaurant%2C_Budapest_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Cuisine Trois étoiles.jpg": {
+   "w": 1024,
+   "h": 768,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Cuisine_Trois_%C3%A9toiles.jpg/330px-Cuisine_Trois_%C3%A9toiles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Dandár Bath (1930). Entrance. - Vaskapu Street, Budapest.JPG": {
+   "w": 1704,
+   "h": 2272,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dand%C3%A1r_Bath_%281930%29._Entrance._-_Vaskapu_Street%2C_Budapest.JPG/330px-Dand%C3%A1r_Bath_%281930%29._Entrance._-_Vaskapu_Street%2C_Budapest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Dorade dish.jpg": {
+   "w": 4000,
+   "h": 3000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Dorade_dish.jpg/330px-Dorade_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Döner Kebab auf Teller.jpg": {
+   "w": 4928,
+   "h": 3264,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/D%C3%B6ner_Kebab_auf_Teller.jpg/330px-D%C3%B6ner_Kebab_auf_Teller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Döner kebap.jpg": {
+   "w": 1024,
+   "h": 768,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/D%C3%B6ner_kebap.jpg/330px-D%C3%B6ner_kebap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Ecseri Használtcikk Piac - 2013.08.01 (1).JPG": {
+   "w": 4320,
+   "h": 3240,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%281%29.JPG/330px-Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Eq it-na pizza-margherita sep2005 sml.jpg": {
+   "w": 1024,
+   "h": 768,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/330px-Eq_it-na_pizza-margherita_sep2005_sml.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Escape Quest - The Black Widow 1.jpg": {
+   "w": 5000,
+   "h": 3328,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Escape_Quest_-_The_Black_Widow_1.jpg/330px-Escape_Quest_-_The_Black_Widow_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Escape Room - \"The Expedition\" (Escape Quest Bethesda).jpg": {
+   "w": 4032,
+   "h": 3024,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Escape_Room_-_%22The_Expedition%22_%28Escape_Quest_Bethesda%29.jpg/330px-Escape_Room_-_%22The_Expedition%22_%28Escape_Quest_Bethesda%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Escape Room by Midgaard Event.jpg": {
+   "w": 2560,
+   "h": 1920,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Escape_Room_by_Midgaard_Event.jpg/330px-Escape_Room_by_Midgaard_Event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Escaperoom.jpg": {
+   "w": 1600,
+   "h": 778,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Escaperoom.jpg/330px-Escaperoom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg": {
+   "w": 3485,
+   "h": 2325,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg/330px-Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Fisherman s Bastion.jpg": {
+   "w": 3840,
+   "h": 5760,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Fisherman_s_Bastion.jpg/330px-Fisherman_s_Bastion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Fisherman's Bastion, Budapest, Hungary.jpg": {
+   "w": 6000,
+   "h": 4000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Fisherman%27s_Bastion%2C_Budapest%2C_Hungary.jpg/330px-Fisherman%27s_Bastion%2C_Budapest%2C_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Fishermans bastion Budapest IMG 1429.JPG": {
+   "w": 4608,
+   "h": 2592,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Fishermans_bastion_Budapest_IMG_1429.JPG/330px-Fishermans_bastion_Budapest_IMG_1429.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Flaming cocktails.jpg": {
+   "w": 1600,
+   "h": 1200,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Flaming_cocktails.jpg/330px-Flaming_cocktails.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Flippermúzeum bejárat1.jpg": {
+   "w": 1840,
+   "h": 3264,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Flipperm%C3%BAzeum_bej%C3%A1rat1.jpg/330px-Flipperm%C3%BAzeum_bej%C3%A1rat1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Flippermúzeum bejárat2.jpg": {
+   "w": 1840,
+   "h": 3264,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Flipperm%C3%BAzeum_bej%C3%A1rat2.jpg/330px-Flipperm%C3%BAzeum_bej%C3%A1rat2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Frici Papa Kifőzdéje at 55 Király Street Budapest, Erzsébetváros, Hungary - panoramio.jpg": {
+   "w": 2048,
+   "h": 1536,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Frici_Papa_Kif%C5%91zd%C3%A9je_at_55_Kir%C3%A1ly_Street_Budapest%2C_Erzs%C3%A9betv%C3%A1ros%2C_Hungary_-_panoramio.jpg/330px-Frici_Papa_Kif%C5%91zd%C3%A9je_at_55_Kir%C3%A1ly_Street_Budapest%2C_Erzs%C3%A9betv%C3%A1ros%2C_Hungary_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Full English Breakfast.JPG": {
+   "w": 2560,
+   "h": 1920,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Full_English_Breakfast.JPG/330px-Full_English_Breakfast.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Gozsdu-udvar (840. számú műemlék).jpg": {
+   "w": 1064,
+   "h": 1600,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg/330px-Gozsdu-udvar_%28840._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Gozsdu-yard. 'B' yard. Bldg -3. - Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Gozsdu-yard._%27B%27_yard._Bldg_-3._-_Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG/330px-Gozsdu-yard._%27B%27_yard._Bldg_-3._-_Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Gozsdu-yard. 'C' yard. Arcades. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gozsdu-yard._%27C%27_yard._Arcades._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG/330px-Gozsdu-yard._%27C%27_yard._Arcades._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Gozsdu-yard. 'D' yard. Bldg -5. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Gozsdu-yard._%27D%27_yard._Bldg_-5._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG/330px-Gozsdu-yard._%27D%27_yard._Bldg_-5._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Gozsdu-yard. Dob Street's gateway. Monument ID 840 - Budapest 7th district. Király St. 13 & Dob St. 16.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Gozsdu-yard._Dob_Street%27s_gateway._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG/330px-Gozsdu-yard._Dob_Street%27s_gateway._Monument_ID_840_-_Budapest_7th_district._Kir%C3%A1ly_St._13_%26_Dob_St._16.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Grilled flank steak.jpg": {
+   "w": 2824,
+   "h": 1983,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Grilled_flank_steak.jpg/330px-Grilled_flank_steak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Groupama Arena 02.jpg": {
+   "w": 3264,
+   "h": 1840,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Groupama_Arena_02.jpg/330px-Groupama_Arena_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Groupama Arena Budapest (17267881892).jpg": {
+   "w": 5465,
+   "h": 3644,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Groupama_Arena_Budapest_%2817267881892%29.jpg/330px-Groupama_Arena_Budapest_%2817267881892%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Groupama Aréna főbejárat.JPG": {
+   "w": 2579,
+   "h": 684,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Groupama_Ar%C3%A9na_f%C5%91bej%C3%A1rat.JPG/330px-Groupama_Ar%C3%A9na_f%C5%91bej%C3%A1rat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Guinness Glass 2010.jpg": {
+   "w": 1447,
+   "h": 1769,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Guinness_Glass_2010.jpg/330px-Guinness_Glass_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Guinness da Bar.jpg": {
+   "w": 2592,
+   "h": 1728,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Guinness_da_Bar.jpg/330px-Guinness_da_Bar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Gyermek vasut 001.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Gyermek_vasut_001.JPG/330px-Gyermek_vasut_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Gárdony - dm-drogerie markt.jpg": {
+   "w": 1600,
+   "h": 1200,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/G%C3%A1rdony_-_dm-drogerie_markt.jpg/330px-G%C3%A1rdony_-_dm-drogerie_markt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "HUN-2015-Budapest-Heroes’ Square.jpg": {
+   "w": 7776,
+   "h": 4374,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/HUN-2015-Budapest-Heroes%E2%80%99_Square.jpg/330px-HUN-2015-Budapest-Heroes%E2%80%99_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "HUN-2015-Budapest-St. Stephen's Basilica.jpg": {
+   "w": 5760,
+   "h": 7666,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/HUN-2015-Budapest-St._Stephen%27s_Basilica.jpg/330px-HUN-2015-Budapest-St._Stephen%27s_Basilica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Halászlé, 2.jpg": {
+   "w": 4288,
+   "h": 2848,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Hal%C3%A1szl%C3%A9%2C_2.jpg/330px-Hal%C3%A1szl%C3%A9%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hard Rock cafe, Budapest 01.JPG": {
+   "w": 2671,
+   "h": 3381,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Hard_Rock_cafe%2C_Budapest_01.JPG/330px-Hard_Rock_cafe%2C_Budapest_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Heroes Square Budapest 2010 01.jpg": {
+   "w": 5822,
+   "h": 3602,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Heroes_Square_Budapest_2010_01.jpg/330px-Heroes_Square_Budapest_2010_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Homemade Cheeseburger.JPG": {
+   "w": 3072,
+   "h": 2304,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Homemade_Cheeseburger.JPG/330px-Homemade_Cheeseburger.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hosok tere, Budapest.jpg": {
+   "w": 3008,
+   "h": 2000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Hosok_tere%2C_Budapest.jpg/330px-Hosok_tere%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "House of Terror, Budapest.jpg": {
+   "w": 4608,
+   "h": 3072,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/House_of_Terror%2C_Budapest.jpg/330px-House_of_Terror%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungarian Gulyás.jpg": {
+   "w": 1600,
+   "h": 1200,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Hungarian_Guly%C3%A1s.jpg/330px-Hungarian_Guly%C3%A1s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungarian Parliament Building from across the Danube from Gellért Hill. Budapest sunset (8130437015).jpg": {
+   "w": 3840,
+   "h": 2392,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_%288130437015%29.jpg/330px-Hungarian_Parliament_Building_from_across_the_Danube_from_Gell%C3%A9rt_Hill._Budapest_sunset_%288130437015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungarian Parliament Building from across the Danube, 2025-01-11.jpg": {
+   "w": 4731,
+   "h": 2649,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg/330px-Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungarian Parliament Building, Budapest, Hungary-2548 - Start of the Night Cruise (7814823114).jpg": {
+   "w": 4389,
+   "h": 2999,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Hungarian_Parliament_Building%2C_Budapest%2C_Hungary-2548_-_Start_of_the_Night_Cruise_%287814823114%29.jpg/330px-Hungarian_Parliament_Building%2C_Budapest%2C_Hungary-2548_-_Start_of_the_Night_Cruise_%287814823114%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungarian Pretzels (Perec), Cheese Rolls (Sajtos rolo) and Kurtoskalacs at the Budapest.jpg": {
+   "w": 4608,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Hungarian_Pretzels_%28Perec%29%2C_Cheese_Rolls_%28Sajtos_rolo%29_and_Kurtoskalacs_at_the_Budapest.jpg/330px-Hungarian_Pretzels_%28Perec%29%2C_Cheese_Rolls_%28Sajtos_rolo%29_and_Kurtoskalacs_at_the_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungaroring pit lane.JPG": {
+   "w": 3072,
+   "h": 2304,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Hungaroring_pit_lane.JPG/330px-Hungaroring_pit_lane.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungaroring, Mogyoród 12.jpg": {
+   "w": 6000,
+   "h": 4000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hungaroring%2C_Mogyor%C3%B3d_12.jpg/330px-Hungaroring%2C_Mogyor%C3%B3d_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungary-0034 - Fisherman's Bastion (7260817042).jpg": {
+   "w": 4449,
+   "h": 3093,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Hungary-0034_-_Fisherman%27s_Bastion_%287260817042%29.jpg/330px-Hungary-0034_-_Fisherman%27s_Bastion_%287260817042%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungary-0045 - Shoes on the Danube (7263586734).jpg": {
+   "w": 2848,
+   "h": 4288,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Hungary-0045_-_Shoes_on_the_Danube_%287263586734%29.jpg/330px-Hungary-0045_-_Shoes_on_the_Danube_%287263586734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungary-0057 - Shoes on the Danube (7263603836).jpg": {
+   "w": 2848,
+   "h": 4288,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Hungary-0057_-_Shoes_on_the_Danube_%287263603836%29.jpg/330px-Hungary-0057_-_Shoes_on_the_Danube_%287263603836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Hungary-0062 - Hungarian Parliament Building (7270467104).jpg": {
+   "w": 2848,
+   "h": 4288,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Hungary-0062_-_Hungarian_Parliament_Building_%287270467104%29.jpg/330px-Hungary-0062_-_Hungarian_Parliament_Building_%287270467104%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Jack of Clubs Throwing Axe.jpg": {
+   "w": 1080,
+   "h": 1440,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jack_of_Clubs_Throwing_Axe.jpg/330px-Jack_of_Clubs_Throwing_Axe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Kelet Kávézó és Galéria.jpg": {
+   "w": 4000,
+   "h": 3000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Kelet_K%C3%A1v%C3%A9z%C3%B3_%C3%A9s_Gal%C3%A9ria.jpg/330px-Kelet_K%C3%A1v%C3%A9z%C3%B3_%C3%A9s_Gal%C3%A9ria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Kéhli vendéglő Budapest Mókus utca 22.JPG": {
+   "w": 2816,
+   "h": 2120,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/K%C3%A9hli_vend%C3%A9gl%C5%91_Budapest_M%C3%B3kus_utca_22.JPG/330px-K%C3%A9hli_vend%C3%A9gl%C5%91_Budapest_M%C3%B3kus_utca_22.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Kürtőskalács - Chimney cake (7885647654).jpg": {
+   "w": 1920,
+   "h": 1280,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg/330px-K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Kürtőskalács Christmas market. Budapest.jpg": {
+   "w": 2988,
+   "h": 5312,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/K%C3%BCrt%C5%91skal%C3%A1cs_Christmas_market._Budapest.jpg/330px-K%C3%BCrt%C5%91skal%C3%A1cs_Christmas_market._Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Kőleves kert (4).jpg": {
+   "w": 3648,
+   "h": 2736,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/K%C5%91leves_kert_%284%29.jpg/330px-K%C5%91leves_kert_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Lascar Hungarian State Opera House (4543541887).jpg": {
+   "w": 3216,
+   "h": 2136,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Lascar_Hungarian_State_Opera_House_%284543541887%29.jpg/330px-Lascar_Hungarian_State_Opera_House_%284543541887%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Lidl, Mogyoródi Straße, 2021 Zugló.jpg": {
+   "w": 1618,
+   "h": 1766,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Lidl%2C_Mogyor%C3%B3di_Stra%C3%9Fe%2C_2021_Zugl%C3%B3.jpg/330px-Lidl%2C_Mogyor%C3%B3di_Stra%C3%9Fe%2C_2021_Zugl%C3%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "MTK stadion - légi fotó.jpg": {
+   "w": 600,
+   "h": 400,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/MTK_stadion_-_l%C3%A9gi_fot%C3%B3.jpg/330px-MTK_stadion_-_l%C3%A9gi_fot%C3%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Margherita Pizza.jpg": {
+   "w": 720,
+   "h": 540,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Margherita_Pizza.jpg/330px-Margherita_Pizza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Matthias Church or Buda Castle Coronation Church (officially known as the Buda Castle's Church of Our Lady). Moon and Stars. - Buda Castle Quarter, Budapest.JPG": {
+   "w": 2272,
+   "h": 1704,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Matthias_Church_or_Buda_Castle_Coronation_Church_%28officially_known_as_the_Buda_Castle%27s_Church_of_Our_Lady%29._Moon_and_Stars._-_Buda_Castle_Quarter%2C_Budapest.JPG/330px-Matthias_Church_or_Buda_Castle_Coronation_Church_%28officially_known_as_the_Buda_Castle%27s_Church_of_Our_Lady%29._Moon_and_Stars._-_Buda_Castle_Quarter%2C_Budapest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Matthias Church, Budapest, 2017.jpg": {
+   "w": 3027,
+   "h": 4541,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Matthias_Church%2C_Budapest%2C_2017.jpg/330px-Matthias_Church%2C_Budapest%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Matthias Church, Budapest, May 2025.jpg": {
+   "w": 3264,
+   "h": 2448,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Matthias_Church%2C_Budapest%2C_May_2025.jpg/330px-Matthias_Church%2C_Budapest%2C_May_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Mazel Tov Ruin Bar (42253982234).jpg": {
+   "w": 7952,
+   "h": 5304,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Mazel_Tov_Ruin_Bar_%2842253982234%29.jpg/330px-Mazel_Tov_Ruin_Bar_%2842253982234%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Menza Restaurant, Budapest 04.jpg": {
+   "w": 2400,
+   "h": 1600,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Menza_Restaurant%2C_Budapest_04.jpg/330px-Menza_Restaurant%2C_Budapest_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Mezze platter.jpg": {
+   "w": 3200,
+   "h": 2368,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Mezze_platter.jpg/330px-Mezze_platter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Millennium Monument, Hősök tere (Heroes' Square), Budapest, Hungary - 200512.jpg": {
+   "w": 1460,
+   "h": 1999,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Millennium_Monument%2C_H%C5%91s%C3%B6k_tere_%28Heroes%27_Square%29%2C_Budapest%2C_Hungary_-_200512.jpg/330px-Millennium_Monument%2C_H%C5%91s%C3%B6k_tere_%28Heroes%27_Square%29%2C_Budapest%2C_Hungary_-_200512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Minestrone de mangue à la coriandre, lait de coco et ananas Michelin star restaurant.jpg": {
+   "w": 2953,
+   "h": 1969,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Minestrone_de_mangue_%C3%A0_la_coriandre%2C_lait_de_coco_et_ananas_Michelin_star_restaurant.jpg/330px-Minestrone_de_mangue_%C3%A0_la_coriandre%2C_lait_de_coco_et_ananas_Michelin_star_restaurant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Morning-breakfast-croissant (24244330501).jpg": {
+   "w": 5472,
+   "h": 3648,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Morning-breakfast-croissant_%2824244330501%29.jpg/330px-Morning-breakfast-croissant_%2824244330501%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Nagy Imre statue, Jászai Mari tér.jpg": {
+   "w": 4160,
+   "h": 3120,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nagy_Imre_statue%2C_J%C3%A1szai_Mari_t%C3%A9r.jpg/330px-Nagy_Imre_statue%2C_J%C3%A1szai_Mari_t%C3%A9r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Parlamento de Budapest de noche.JPG": {
+   "w": 5184,
+   "h": 3456,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Parlamento_de_Budapest_de_noche.JPG/330px-Parlamento_de_Budapest_de_noche.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Parliament Building and Cruise Boat along Danube River at Sunset - From Buda Side - Budapest - Hungary.jpg": {
+   "w": 3072,
+   "h": 2304,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg/330px-Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Parliament Building, Budapest, outside.jpg": {
+   "w": 5412,
+   "h": 3520,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Parliament_Building%2C_Budapest%2C_outside.jpg/330px-Parliament_Building%2C_Budapest%2C_outside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Pharmacy sign, Korosy Street, 2016 Budapest.jpg": {
+   "w": 1704,
+   "h": 2272,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pharmacy_sign%2C_Korosy_Street%2C_2016_Budapest.jpg/330px-Pharmacy_sign%2C_Korosy_Street%2C_2016_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Pho-Beef-Noodles-2008.jpg": {
+   "w": 800,
+   "h": 600,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Pho-Beef-Noodles-2008.jpg/330px-Pho-Beef-Noodles-2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Pint of Taddy Lager in Ye Olde Murenger House, High Street, Newport, August 2026 02.jpg": {
+   "w": 5712,
+   "h": 4284,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg/330px-Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Pinta Patagonia Amber Lager.jpg": {
+   "w": 2746,
+   "h": 3177,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/330px-Pinta_Patagonia_Amber_Lager.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Pizza Margherita stu spivack.jpg": {
+   "w": 3008,
+   "h": 2000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/330px-Pizza_Margherita_stu_spivack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Puskás Aréna 03.jpg": {
+   "w": 6000,
+   "h": 4000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Pusk%C3%A1s_Ar%C3%A9na_03.jpg/330px-Pusk%C3%A1s_Ar%C3%A9na_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Pál-völgyi-barlang, bejárat.jpg": {
+   "w": 2592,
+   "h": 1944,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/P%C3%A1l-v%C3%B6lgyi-barlang%2C_bej%C3%A1rat.jpg/330px-P%C3%A1l-v%C3%B6lgyi-barlang%2C_bej%C3%A1rat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Pörkölt.jpg": {
+   "w": 2178,
+   "h": 1692,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/P%C3%B6rk%C3%B6lt.jpg/330px-P%C3%B6rk%C3%B6lt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Rib eye steak - 400 gr.JPG": {
+   "w": 4000,
+   "h": 3000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Rib_eye_steak_-_400_gr.JPG/330px-Rib_eye_steak_-_400_gr.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Romkocsma Szimpla Kert Budapest.jpg": {
+   "w": 4928,
+   "h": 3264,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Romkocsma_Szimpla_Kert_Budapest.jpg/330px-Romkocsma_Szimpla_Kert_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Rossmann drugstore, Zsókavár street, 2018 Újpalota.jpg": {
+   "w": 1200,
+   "h": 1600,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Rossmann_drugstore%2C_Zs%C3%B3kav%C3%A1r_street%2C_2018_%C3%9Ajpalota.jpg/330px-Rossmann_drugstore%2C_Zs%C3%B3kav%C3%A1r_street%2C_2018_%C3%9Ajpalota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Rote Sonne Nightclub Munich Dance Floor.jpg": {
+   "w": 3264,
+   "h": 2448,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg/330px-Rote_Sonne_Nightclub_Munich_Dance_Floor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Rudas Bath W mid part, 2016 Budapest.jpg": {
+   "w": 3264,
+   "h": 2448,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Rudas_Bath_W_mid_part%2C_2016_Budapest.jpg/330px-Rudas_Bath_W_mid_part%2C_2016_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Rudas Fürdő.jpg": {
+   "w": 4000,
+   "h": 3000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Rudas_F%C3%BCrd%C5%91.jpg/330px-Rudas_F%C3%BCrd%C5%91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Rudas fürdő, panorámamedence.jpg": {
+   "w": 4288,
+   "h": 2848,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rudas_f%C3%BCrd%C5%91%2C_panor%C3%A1mamedence.jpg/330px-Rudas_f%C3%BCrd%C5%91%2C_panor%C3%A1mamedence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Rudas fürdő, szaunavilág, aroma szauna, 3.jpg": {
+   "w": 2848,
+   "h": 4288,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Rudas_f%C3%BCrd%C5%91%2C_szaunavil%C3%A1g%2C_aroma_szauna%2C_3.jpg/330px-Rudas_f%C3%BCrd%C5%91%2C_szaunavil%C3%A1g%2C_aroma_szauna%2C_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "SPAR, Budapest, Szigony utca 12. (b).jpg": {
+   "w": 5152,
+   "h": 3448,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/SPAR%2C_Budapest%2C_Szigony_utca_12._%28b%29.jpg/330px-SPAR%2C_Budapest%2C_Szigony_utca_12._%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Saint Stephen's Basilica Budapest.jpg": {
+   "w": 3216,
+   "h": 2136,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Saint_Stephen%27s_Basilica_Budapest.jpg/330px-Saint_Stephen%27s_Basilica_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Sas Straße 3, Eingang, 2021 Lipótváros.jpg": {
+   "w": 1704,
+   "h": 2272,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sas_Stra%C3%9Fe_3%2C_Eingang%2C_2021_Lip%C3%B3tv%C3%A1ros.jpg/330px-Sas_Stra%C3%9Fe_3%2C_Eingang%2C_2021_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Seafood in Spain - Gran Canaria grilled fish and seafood plate.jpg": {
+   "w": 2469,
+   "h": 3000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Seafood_in_Spain_-_Gran_Canaria_grilled_fish_and_seafood_plate.jpg/330px-Seafood_in_Spain_-_Gran_Canaria_grilled_fish_and_seafood_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Shoes Danube Promenade IMGP1297.jpg": {
+   "w": 2360,
+   "h": 3411,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Shoes_Danube_Promenade_IMGP1297.jpg/330px-Shoes_Danube_Promenade_IMGP1297.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Shoes on the Danube Promenade (Holocaust monument, Budapest).jpg": {
+   "w": 4366,
+   "h": 3274,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Shoes_on_the_Danube_Promenade_%28Holocaust_monument%2C_Budapest%29.jpg/330px-Shoes_on_the_Danube_Promenade_%28Holocaust_monument%2C_Budapest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Shooting range near Pittsburgh - inside 4.JPG": {
+   "w": 2304,
+   "h": 3072,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Shooting_range_near_Pittsburgh_-_inside_4.JPG/330px-Shooting_range_near_Pittsburgh_-_inside_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Shoyu Ramen.jpg": {
+   "w": 5472,
+   "h": 3648,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Shoyu_Ramen.jpg/330px-Shoyu_Ramen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Somlói galuska, 2.jpg": {
+   "w": 5888,
+   "h": 3312,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Soml%C3%B3i_galuska%2C_2.jpg/330px-Soml%C3%B3i_galuska%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "St Stephens bas budapest.jpg": {
+   "w": 1200,
+   "h": 1600,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/St_Stephens_bas_budapest.jpg/330px-St_Stephens_bas_budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "St. Stephen's Basilica by night.jpg": {
+   "w": 2448,
+   "h": 3264,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/St._Stephen%27s_Basilica_by_night.jpg/330px-St._Stephen%27s_Basilica_by_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Street Food Karavan Budapest (31519360372).jpg": {
+   "w": 1950,
+   "h": 1300,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Street_Food_Karavan_Budapest_%2831519360372%29.jpg/330px-Street_Food_Karavan_Budapest_%2831519360372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Sunset over the Danube - Budapest.jpg": {
+   "w": 2863,
+   "h": 2089,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sunset_over_the_Danube_-_Budapest.jpg/330px-Sunset_over_the_Danube_-_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Synagoge Budapest 2014.jpg": {
+   "w": 5014,
+   "h": 3342,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Synagoge_Budapest_2014.jpg/330px-Synagoge_Budapest_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Synagogue-Budapest.jpg": {
+   "w": 857,
+   "h": 775,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Synagogue-Budapest.jpg/330px-Synagogue-Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Szent István-bazilika, St. Stephen's Basilica (11374602996).jpg": {
+   "w": 768,
+   "h": 1024,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Szent_Istv%C3%A1n-bazilika%2C_St._Stephen%27s_Basilica_%2811374602996%29.jpg/330px-Szent_Istv%C3%A1n-bazilika%2C_St._Stephen%27s_Basilica_%2811374602996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Szent Lukács Gyógyfürdő.jpg": {
+   "w": 3612,
+   "h": 2692,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Szent_Luk%C3%A1cs_Gy%C3%B3gyf%C3%BCrd%C5%91.jpg/330px-Szent_Luk%C3%A1cs_Gy%C3%B3gyf%C3%BCrd%C5%91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Szimpla Kert Budapest 1.jpg": {
+   "w": 4928,
+   "h": 3264,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Szimpla_Kert_Budapest_1.jpg/330px-Szimpla_Kert_Budapest_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Szimpla Kert Farmers' Market (30579247464).jpg": {
+   "w": 3888,
+   "h": 2592,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Szimpla_Kert_Farmers%27_Market_%2830579247464%29.jpg/330px-Szimpla_Kert_Farmers%27_Market_%2830579247464%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Szimpla Kert Trabant.jpg": {
+   "w": 6000,
+   "h": 4000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Szimpla_Kert_Trabant.jpg/330px-Szimpla_Kert_Trabant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Széchenyi Chain Bridge in Budapest at night.jpg": {
+   "w": 3580,
+   "h": 2000,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg/330px-Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Széchenyi Gyógyfürdő thermal spa in Budapest 013.JPG": {
+   "w": 3872,
+   "h": 2592,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Sz%C3%A9chenyi_Gy%C3%B3gyf%C3%BCrd%C5%91_thermal_spa_in_Budapest_013.JPG/330px-Sz%C3%A9chenyi_Gy%C3%B3gyf%C3%BCrd%C5%91_thermal_spa_in_Budapest_013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Tacos al pastor en Los Güeros de Boturini.jpg": {
+   "w": 3120,
+   "h": 4160,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Tacos_al_pastor_en_Los_G%C3%BCeros_de_Boturini.jpg/330px-Tacos_al_pastor_en_Los_G%C3%BCeros_de_Boturini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Tavla 080413.jpg": {
+   "w": 3888,
+   "h": 2592,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Tavla_080413.jpg/330px-Tavla_080413.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "The Former Royal Palace on the Buda bankside.JPG": {
+   "w": 1024,
+   "h": 768,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/The_Former_Royal_Palace_on_the_Buda_bankside.JPG/330px-The_Former_Royal_Palace_on_the_Buda_bankside.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "The Millennium Monument in Heroes' Square, Budapest, Hungary.jpg": {
+   "w": 3872,
+   "h": 2592,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/The_Millennium_Monument_in_Heroes%27_Square%2C_Budapest%2C_Hungary.jpg/330px-The_Millennium_Monument_in_Heroes%27_Square%2C_Budapest%2C_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Thomasville Tomahawk Axe Throwing.jpg": {
+   "w": 4972,
+   "h": 3315,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Thomasville_Tomahawk_Axe_Throwing.jpg/330px-Thomasville_Tomahawk_Axe_Throwing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Tokaji 6p 1989.jpg": {
+   "w": 1200,
+   "h": 1800,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Tokaji_6p_1989.jpg/330px-Tokaji_6p_1989.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Tükörnézet Szimpla romkocsma.JPG": {
+   "w": 3536,
+   "h": 2497,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/T%C3%BCk%C3%B6rn%C3%A9zet_Szimpla_romkocsma.JPG/330px-T%C3%BCk%C3%B6rn%C3%A9zet_Szimpla_romkocsma.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "V. Vásárcsarnok, kijárás, Lipótváros, 2016 Budapest.jpg": {
+   "w": 3264,
+   "h": 2448,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/V._V%C3%A1s%C3%A1rcsarnok%2C_kij%C3%A1r%C3%A1s%2C_Lip%C3%B3tv%C3%A1ros%2C_2016_Budapest.jpg/330px-V._V%C3%A1s%C3%A1rcsarnok%2C_kij%C3%A1r%C3%A1s%2C_Lip%C3%B3tv%C3%A1ros%2C_2016_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "View from Fisherman's Bastion to the Hungarian Parliament Building, 2016 Hungary - Budapest (27877629173).jpg": {
+   "w": 2500,
+   "h": 1326,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/View_from_Fisherman%27s_Bastion_to_the_Hungarian_Parliament_Building%2C_2016_Hungary_-_Budapest_%2827877629173%29.jpg/330px-View_from_Fisherman%27s_Bastion_to_the_Hungarian_Parliament_Building%2C_2016_Hungary_-_Budapest_%2827877629173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Vörösboros marhapörkölt nokedlivel.jpg": {
+   "w": 4288,
+   "h": 2848,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg/330px-V%C3%B6r%C3%B6sboros_marhap%C3%B6rk%C3%B6lt_nokedlivel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Zrínyi utca 4, Ötkert, Budapest (8397971428).jpg": {
+   "w": 1600,
+   "h": 1007,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Zr%C3%ADnyi_utca_4%2C_%C3%96tkert%2C_Budapest_%288397971428%29.jpg/330px-Zr%C3%ADnyi_utca_4%2C_%C3%96tkert%2C_Budapest_%288397971428%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "Új Hidegkuti Nándor Stadion - The main stand (2017).jpg": {
+   "w": 1280,
+   "h": 427,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/%C3%9Aj_Hidegkuti_N%C3%A1ndor_Stadion_-_The_main_stand_%282017%29.jpg/330px-%C3%9Aj_Hidegkuti_N%C3%A1ndor_Stadion_-_The_main_stand_%282017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ }
+}

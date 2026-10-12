@@ -1,12 +1,12 @@
 // Offline support: app shell is network-first (so updates land straight away), map tiles,
 // fonts and photos are cached as you browse so the map still works with patchy roaming.
-const VERSION = 'bb-v5';
+const VERSION = 'bb-v6';
 const SHELL = [
-  './', './index.html', './styles.css', './app.js', './data.js',
+  './', './index.html', './styles.css', './app.js', './analytics.js', './data.js',
   './vendor/maplibre-gl.js', './vendor/maplibre-gl.css', './vendor/fonts.css',
   './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png',
 ];
-const RUNTIME = 'bb-runtime-v1';
+const RUNTIME = 'bb-runtime-v2'; // v2 drops photo failures that v1 kept forever
 const RUNTIME_MAX = 1500;
 
 self.addEventListener('install', (e) => {
@@ -64,7 +64,8 @@ self.addEventListener('fetch', (e) => {
       const hit = await caches.match(req);
       if (hit) return hit;
       const res = await fetch(req);
-      if (res.ok || res.type === 'opaque') {
+      // a photo's response is opaque, so a refusal looks the same as a picture: leave photos to the HTTP cache
+      if (res.ok || (res.type === 'opaque' && !/wikimedia\.org$/.test(url.hostname))) {
         const c = await caches.open(RUNTIME);
         c.put(req, res.clone()).then(() => trim(c));
       }

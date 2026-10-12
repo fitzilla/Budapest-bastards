@@ -13,6 +13,10 @@
     set(k, v) { try { localStorage.setItem('bb.' + k, JSON.stringify(v)); } catch { /* ignore */ } },
     del(k) { try { localStorage.removeItem('bb.' + k); } catch { /* ignore */ } },
   };
+  // usage analytics (analytics.js); a no-op until an ID is filled in there
+  const track = (event, props) => { try { window.bbTrack?.(event, props); } catch { /* ignore */ } };
+  const failedPhotos = new Set(); // report each broken photo once per visit, not on every re-render
+  const trackPhotoFail = (props) => { if (!failedPhotos.has(props.src)) { failedPhotos.add(props.src); track('image_failed', props); } };
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const desktopMQ = matchMedia('(min-width: 1000px)');
   const darkMQ = matchMedia('(prefers-color-scheme: dark)');
@@ -328,17 +332,29 @@
   const runtimeImg = new Map();
   const imgOf = (p) => p.image || runtimeImg.get(p.id) || null;
   const imgTag = (u, pid) => `<img src="${esc(u)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-pid="${esc(pid)}" onload="this.classList.add('ok')" onerror="window.__bbImgFail(this)">`;
+  // Wikimedia sometimes turns away a burst of photo requests: give each photo one more go a moment later
+  const retryLater = (img) => {
+    if (img.dataset.again) return false;
+    img.dataset.again = '1';
+    const src = img.getAttribute('src');
+    setTimeout(() => { img.src = src + (src.includes('?') ? '&' : '?') + 'again=1'; }, 1200 + Math.random() * 1800);
+    return true;
+  };
   window.__bbImgFail = (img) => {
     const alt = runtimeImg.get(img.dataset.pid);
     if (alt && img.getAttribute('src') !== alt && !img.dataset.retried) { img.dataset.retried = '1'; img.src = alt; }
-    else { if (img.nextElementSibling?.classList.contains('media-note')) img.nextElementSibling.remove(); img.remove(); }
+    else if (retryLater(img)) { /* waiting */ }
+    else {
+      trackPhotoFail({ id: img.dataset.pid, src: img.getAttribute('src').replace(/[?&]again=1$/, '') });
+      if (img.nextElementSibling?.classList.contains('media-note')) img.nextElementSibling.remove(); img.remove();
+    }
   };
   // the photo's own Commons/Wikipedia page, which carries the photographer and licence
   function filePage(u) {
     if (!u) return null;
     let m = u.match(/commons\.wikimedia\.org\/wiki\/Special:FilePath\/([^?#]+)/);
     if (m) return 'https://commons.wikimedia.org/wiki/File:' + m[1];
-    m = u.match(/upload\.wikimedia\.org\/wikipedia\/([a-z]+)\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^/?#]+)/);
+    m = u.match(/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/([a-z]+)\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^/?#]+)/);
     if (m) return (m[1] === 'commons' ? 'https://commons.wikimedia.org' : `https://${m[1]}.wikipedia.org`) + '/wiki/File:' + m[2];
     return null;
   }
@@ -360,7 +376,7 @@
     hero.classList.toggle('has-gallery', n > 1);
     $('.d-count span', hero).textContent = `${Math.min(n, Math.round(sl.scrollLeft / Math.max(1, sl.clientWidth)) + 1)} / ${n}`;
   }
-  window.__bbGalFail = (img) => { const hero = img.closest('.d-hero'); img.closest('.d-slide')?.remove(); syncCount(hero); };
+  window.__bbGalFail = (img) => { if (retryLater(img)) return; trackPhotoFail({ id: detailOpenId, src: img.getAttribute('src').replace(/[?&]again=1$/, ''), gallery: true }); const hero = img.closest('.d-hero'); img.closest('.d-slide')?.remove(); syncCount(hero); };
   async function loadCommonsCat(p) {
     if (!p.commonsCat || runtimeGallery.has(p.id)) return;
     const cache = store.get('gal', {});
@@ -443,6 +459,7 @@
     if (state.faves.has(id)) state.faves.delete(id); else state.faves.add(id);
     store.set('faves', [...state.faves]);
     const on = state.faves.has(id);
+    track('favourite', { id, name: byId.get(id)?.name, on });
     $$(`[data-fav="${CSS.escape(id)}"]`).forEach((b) => {
       b.setAttribute('aria-pressed', on);
       b.setAttribute('aria-label', on ? 'Remove from faves' : 'Save to faves');
@@ -1837,11 +1854,13 @@
     }
     const t = e.target.closest('button, a');
     if (!t) return;
+    if (t.tagName === 'A' && t.target === '_blank') trackLink(t);
     if (t.dataset.fav) { e.preventDefault(); e.stopPropagation(); toggleFav(t.dataset.fav, t); return; }
-    if (t.dataset.cat) { setCat(t.dataset.cat); return; }
+    if (t.dataset.cat) { track('category', { cat: t.dataset.cat }); setCat(t.dataset.cat); return; }
     if (t.dataset.tag) {
       const f = state.filters.tags;
       f.has(t.dataset.tag) ? f.delete(t.dataset.tag) : f.add(t.dataset.tag);
+      track('filter', { tag: t.dataset.tag, on: f.has(t.dataset.tag) });
       t.setAttribute('aria-pressed', f.has(t.dataset.tag));
       if (filterRoot.contains(t)) { renderFilterBody(); renderExplore(); } else renderExplore();
       syncMarkers();
@@ -1865,6 +1884,7 @@
     }
     const act = t.dataset.act;
     if (!act) return;
+    if (TRACKED_ACTS.has(act)) track(act.replace(/-/g, '_'), { id: t.dataset.id || detailOpenId || undefined, date: t.dataset.date });
     switch (act) {
       case 'share': {
         const p = byId.get(t.dataset.id);
@@ -1929,6 +1949,18 @@
     }
   });
 
+  const TRACKED_ACTS = new Set(['share', 'show-on-map', 'wx-day', 'share-faves', 'faves-map', 'copy', 'copy-link', 'base-paste', 'base-drop', 'clear-filters']);
+  function trackLink(a) {
+    const h = a.href;
+    const kind = /google\.[a-z.]+\/maps\/dir/.test(h) ? 'directions'
+      : /google\.[a-z.]+\/maps/.test(h) ? 'maps_listing'
+      : /tripadvisor\./.test(h) ? 'tripadvisor'
+      : /wikimedia\.org|wikipedia\.org/.test(h) ? 'photo_credit'
+      : 'outbound_link';
+    const id = detailOpenId || a.closest('[data-id]')?.dataset.id;
+    track(kind, { id, name: byId.get(id)?.name, url: h });
+  }
+
   function clearFilters() {
     state.filters = { tags: new Set(), price: new Set(), late: false, rated: false, sort: 'rec' };
     renderExplore(); syncMarkers();
@@ -1938,12 +1970,13 @@
   $('#filterBtn').addEventListener('click', openFilters);
   $('#filterApply').addEventListener('click', closeFilters);
   $('#filterClear').addEventListener('click', clearFilters);
-  $('#mapToggle').addEventListener('click', () => setView(state.view === 'map' ? 'list' : 'map'));
-  $('#ctrl3d').addEventListener('click', toggle3D);
+  $('#mapToggle').addEventListener('click', () => { const v = state.view === 'map' ? 'list' : 'map'; track('view', { view: v }); setView(v); });
+  $('#ctrl3d').addEventListener('click', () => { track('map_3d'); toggle3D(); });
   $('#ctrlFit').addEventListener('click', () => fitVisible({ all: true }));
-  $('#ctrlLocate').addEventListener('click', locate);
-  $('#ctrlTour').addEventListener('click', () => (tour ? endTour() : startTour()));
+  $('#ctrlLocate').addEventListener('click', () => { track('locate'); locate(); });
+  $('#ctrlTour').addEventListener('click', () => { if (!tour) track('tour'); tour ? endTour() : startTour(); });
   $('#ctrlAirport').addEventListener('click', () => {
+    track('airport');
     if (tour) endTour();
     if (mapReady) selectPin('airport', { fly: true, card: true });
     else { state.pendingSelect = 'airport'; initMap(); }
