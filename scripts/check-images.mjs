@@ -129,6 +129,28 @@ for (const { label, q, limit = 10 } of queries) {
   await sleep(300);
 }
 
+// load every direct photo link exactly as the app requests it
+const direct = new Map();
+(function walk(v, label) {
+  if (typeof v === 'string') { if (/^https:\/\/(upload|thumb)\.wikimedia\.org\//.test(v) && !direct.has(v)) direct.set(v, label); return; }
+  if (Array.isArray(v)) return v.forEach((x) => walk(x, label));
+  if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) if (k !== 'sources') walk(x, v.id || label);
+})(D, 'data');
+const loads = [];
+for (const [u, label] of direct) {
+  const row = { url: u, id: label };
+  try {
+    const r = await fetch(u, { headers: { 'User-Agent': UA } });
+    row.status = r.status; row.type = r.headers.get('content-type'); row.bytes = (await r.arrayBuffer()).byteLength;
+  } catch (e) { row.error = String(e.message); }
+  loads.push(row);
+  await sleep(120);
+}
+const badLoads = loads.filter((l) => l.status !== 200 || !/^image\//.test(l.type || ''));
+fs.writeFileSync(`${OUT}/loads.json`, JSON.stringify({ checked: loads.length, bad: badLoads, all: loads }, null, 1));
+console.log(`${loads.length} direct links loaded, ${badLoads.length} failed`);
+for (const l of badLoads) console.log(`LOAD FAIL ${l.status || l.error} ${l.id} ${l.url}`);
+
 fs.writeFileSync(`${OUT}/report.json`, JSON.stringify(rows, null, 1));
 const missing = rows.filter((r) => !r.exists);
 fs.writeFileSync(`${OUT}/report.md`, [
