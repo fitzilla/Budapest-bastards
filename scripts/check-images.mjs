@@ -107,6 +107,28 @@ const save = async (thumb, row) => {
 for (const t of titles) await save(info.get(t)?.thumb, { kind: 'commons', title: t, uses: uses.get(t), ...(info.get(t) || { exists: false }) });
 for (const w of wikiInfo) await save(w.thumb, { kind: 'wikipedia', title: w.file, uses: [`${w.id} (runtime from ${w.wiki})`], exists: !!w.thumb });
 
+// image-queries.json: [{ label, q }] Commons searches whose top hits get thumbnailed, to pick replacements by eye
+const queries = fs.existsSync('image-queries.json') ? JSON.parse(fs.readFileSync('image-queries.json', 'utf8')) : [];
+for (const { label, q, limit = 10 } of queries) {
+  const body = new URLSearchParams({
+    action: 'query', format: 'json', formatversion: '2', generator: 'search', gsrsearch: `${q} filetype:bitmap`,
+    gsrnamespace: '6', gsrlimit: String(limit), prop: 'imageinfo', iiprop: 'url|size|mime|extmetadata', iiurlwidth: '330',
+    iiextmetadatafilter: 'ImageDescription|DateTimeOriginal|ObjectName',
+  });
+  let pages = [];
+  try { pages = (await (await get('https://commons.wikimedia.org/w/api.php', { method: 'POST', body })).json()).query?.pages || []; } catch { /* skip */ }
+  pages.sort((a, b) => (a.index || 0) - (b.index || 0));
+  for (const pg of pages) {
+    const ii = pg.imageinfo?.[0];
+    if (!ii) continue;
+    const md = ii.extmetadata || {};
+    const strip = (s) => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().slice(0, 240);
+    await save(ii.thumburl, { kind: 'search', query: label, title: pg.title.replace(/^File:/, ''), uses: [`search:${label}`], exists: true,
+      width: ii.width, height: ii.height, mime: ii.mime, thumb: ii.thumburl, desc: strip(md.ImageDescription?.value || md.ObjectName?.value) });
+  }
+  await sleep(300);
+}
+
 fs.writeFileSync(`${OUT}/report.json`, JSON.stringify(rows, null, 1));
 const missing = rows.filter((r) => !r.exists);
 fs.writeFileSync(`${OUT}/report.md`, [

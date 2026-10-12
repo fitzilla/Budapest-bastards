@@ -1,0 +1,14 @@
+[
+  { "label": "axe", "q": "axe throwing" },
+  { "label": "axe2", "q": "axe throwing target", "limit": 8 },
+  { "label": "escape", "q": "escape room", "limit": 12 },
+  { "label": "ecseri", "q": "Ecseri", "limit": 12 },
+  { "label": "pint", "q": "pint of lager", "limit": 10 },
+  { "label": "beerglass", "q": "Dreher sör", "limit": 8 },
+  { "label": "lampas", "q": "\"Dob utca\" Erzsébetváros", "limit": 14 },
+  { "label": "barhole", "q": "\"Dohány utca\" Erzsébetváros", "limit": 14 },
+  { "label": "blastbeat", "q": "\"Czuczor utca\"", "limit": 10 },
+  { "label": "backstage", "q": "\"Városligeti fasor\"", "limit": 12 },
+  { "label": "rockbar", "q": "rock bar Budapest", "limit": 10 },
+  { "label": "heroes", "q": "Hősök tere Budapest", "limit": 6 }
+]
