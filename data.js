@@ -5115,7 +5115,7 @@ window.BB_DATA = {
    "blurb": "Soviet badges, gas masks and a half-century of other Eastern Bloc junk. Haggle hard.",
    "tip": "Sat is the best day; it's a trek, so a Sunday visit conflicts with your 13:30 airport run.",
    "history": null,
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%281%29.JPG/960px-Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%281%29.JPG",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%282%29.JPG/960px-Ecseri_Haszn%C3%A1ltcikk_Piac_-_2013.08.01_%282%29.JPG",
    "links": {
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d670573-Reviews-Ecseri_Flea_Market_Ecseri_bolhapiac-Budapest_Central_Hungary.html",
     "web": null,
