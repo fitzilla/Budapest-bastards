@@ -322,6 +322,12 @@ for (const day of trip.plan) {
     if (fl && it.flight === 'home' && /departs/i.test(it.title) && it.time !== fl.departs) warnings.push(`timing: "${it.title}" says ${it.time}, flight ${fl.number} departs ${fl.departs}`);
   }
 }
+// the Airbnb check-in/out in the plan must match the booking times on trip.base
+for (const day of trip.plan) for (const it of day.items) {
+  if (it.ref !== 'base') continue;
+  const want = /check in/i.test(it.title) ? trip.base.checkIn : /check out/i.test(it.title) ? trip.base.checkOut : null;
+  if (want && !String(want).includes(it.time)) warnings.push(`timing: plan "${it.title}" says ${it.time}, trip.base says "${want}"`);
+}
 // the airport deadline must leave at least 90 minutes before the flight home
 {
   const toMin = (t) => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
