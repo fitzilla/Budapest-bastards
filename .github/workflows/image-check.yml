@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: node scripts/check-images.mjs
+      - run: '[ -f scripts/geo-check.mjs ] && node scripts/geo-check.mjs || true'
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
