@@ -1020,3 +1020,20 @@ p { margin: 0; }
 .d-hero .media-note { display: none; }
 .cat-note { display: flex; gap: 6px; align-items: flex-start; margin-top: 6px; font-size: 13px; color: var(--ink-2); }
 .cat-note .ic-sm { flex: none; margin-top: 2px; }
+
+/* you are here: live location dot */
+.me { width: 26px; height: 26px; z-index: 4; pointer-events: none; }
+.me > span { position: absolute; left: 50%; top: 50%; border-radius: 50%; transform: translate(-50%, -50%); }
+.me-acc { width: var(--acc, 0px); height: var(--acc, 0px); background: rgba(26, 115, 232, .13); border: 1px solid rgba(26, 115, 232, .35); }
+.me-head {
+  display: none; width: 76px; height: 76px;
+  background: conic-gradient(from calc(var(--heading, 0deg) - 28deg), rgba(26, 115, 232, .6) 0 56deg, transparent 56deg);
+  -webkit-mask: radial-gradient(circle closest-side, #000 30%, transparent 100%); mask: radial-gradient(circle closest-side, #000 30%, transparent 100%);
+}
+.me.has-heading .me-head { display: block; }
+.me-dot { width: 20px; height: 20px; background: #1a73e8; border: 3px solid #fff; box-shadow: 0 1px 5px rgba(0, 0, 0, .35); }
+.me::after { content: ''; position: absolute; inset: 2px; border-radius: 50%; background: rgba(26, 115, 232, .45); animation: me-pulse 2.2s ease-out infinite; }
+@keyframes me-pulse { from { transform: scale(1); opacity: .85; } to { transform: scale(3.4); opacity: 0; } }
+.me.is-stale .me-dot { background: #8b9099; }
+.me.is-stale::after { animation: none; opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .me::after { animation: none; opacity: 0; } }

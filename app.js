@@ -1414,6 +1414,7 @@
         mapReady = true;
         buildMarkers();
         syncMarkers();
+        autoLocate();
         if (state.pendingSelect) { const id = state.pendingSelect; state.pendingSelect = null; setTimeout(() => selectPin(id, { fly: true, card: true }), 100); }
         else if (state.cat !== 'all' || state.onlyFaves || state.tab !== 'explore') fitVisible();
       }
@@ -1431,6 +1432,7 @@
     });
     const stopTour = () => { fitGen++; if (tour) endTour(); };
     map.on('dragstart', stopTour);
+    map.on('zoom', paintMe); // keep the accuracy ring true to scale
     map.on('zoomstart', (e) => { if (e.originalEvent) stopTour(); });
     $('#ctrl3d').setAttribute('aria-pressed', want3D);
   }
@@ -1732,22 +1734,74 @@
     map.easeTo({ pitch: want3D ? 55 : 0, bearing: want3D ? -18 : 0, duration: reduceMotion.matches ? 0 : 700 });
   }
 
-  let userMarker = null;
+  /* ---------------- you are here ---------------- */
+  // A live blue dot like Google Maps: it appears when the map opens (if the phone already allows it,
+  // or after asking once), follows you while the app is open, and the locate button flies to it.
+  let userMarker = null, geoWatch = null, flyToMe = false;
+  const ME_FRESH = 2 * 60e3; // older than this and the dot greys out
+  function paintMe() {
+    if (!mapReady || !state.userLoc) return;
+    const { lat, lng, acc, heading, speed, t } = state.userLoc;
+    if (!userMarker) {
+      const el = document.createElement('div');
+      el.className = 'me';
+      el.innerHTML = '<span class="me-acc"></span><span class="me-head"></span><span class="me-dot"></span>';
+      // faces the screen even in 3D (flat on the ground it squashes to a sliver); turns with the map so the cone points true
+      userMarker = new maplibregl.Marker({ element: el, pitchAlignment: 'viewport', rotationAlignment: 'map' }).setLngLat([lng, lat]).addTo(map);
+      el.setAttribute('role', 'img');
+      el.setAttribute('aria-label', 'You are here'); // after addTo: MapLibre stamps its own 'Map marker' label
+    } else userMarker.setLngLat([lng, lat]);
+    const el = userMarker.getElement();
+    // accuracy ring: metres to pixels at the current zoom
+    const mpp = (156543.03392 * Math.cos((lat * Math.PI) / 180)) / 2 ** map.getZoom();
+    el.style.setProperty('--acc', `${Math.min(260, ((acc || 0) / mpp) * 2).toFixed(0)}px`);
+    const moving = Number.isFinite(heading) && (speed ?? 0) > 0.6;
+    el.classList.toggle('has-heading', moving);
+    if (moving) el.style.setProperty('--heading', `${heading}deg`);
+    el.classList.toggle('is-stale', Date.now() - t > ME_FRESH);
+  }
+  function onPos(pos) {
+    const first = !state.userLoc;
+    const c = pos.coords;
+    state.userLoc = { lat: c.latitude, lng: c.longitude, acc: c.accuracy, heading: c.heading, speed: c.speed, t: Date.now() };
+    store.set('geoOk', true);
+    paintMe();
+    if (flyToMe) { flyToMe = false; flyToPlace(state.userLoc, { zoom: 15.5 }); }
+    if (first && state.tab === 'explore') renderExplore();
+  }
+  function onGeoErr(err) {
+    if (err.code === 1) { stopWatch(); store.del('geoOk'); if (flyToMe) toast('Location is off for this site. Turn it on in your phone’s settings.'); }
+    else if (flyToMe) toast('Couldn’t find you yet. Try again in a moment.');
+    flyToMe = false;
+  }
+  function startWatch() {
+    if (geoWatch != null || !navigator.geolocation) return;
+    geoWatch = navigator.geolocation.watchPosition(onPos, onGeoErr, { enableHighAccuracy: true, maximumAge: 10000, timeout: 20000 });
+  }
+  function stopWatch() {
+    if (geoWatch != null) navigator.geolocation.clearWatch(geoWatch);
+    geoWatch = null;
+  }
   function locate() {
     if (!navigator.geolocation) { toast('Location isn’t available on this device'); return; }
-    navigator.geolocation.getCurrentPosition((pos) => {
-      state.userLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-      if (mapReady) {
-        if (!userMarker) {
-          const el = document.createElement('div');
-          el.style.cssText = 'width:18px;height:18px;border-radius:50%;background:#2a63d4;border:3px solid #fff;box-shadow:0 0 0 6px rgba(42,99,212,.25)';
-          userMarker = new maplibregl.Marker({ element: el }).setLngLat([state.userLoc.lng, state.userLoc.lat]).addTo(map);
-        } else userMarker.setLngLat([state.userLoc.lng, state.userLoc.lat]);
-        flyToPlace(state.userLoc, { zoom: 15.5 });
-      }
-      if (state.tab === 'explore') renderExplore();
-    }, () => toast('Couldn’t get your location. Check location permissions.'), { enableHighAccuracy: true, timeout: 10000 });
+    if (state.userLoc && Date.now() - state.userLoc.t < ME_FRESH) flyToPlace(state.userLoc, { zoom: 15.5 });
+    else flyToMe = true;
+    startWatch();
   }
+  // when the map first opens: go straight away if the phone already said yes, ask once if it never has
+  async function autoLocate() {
+    if (!navigator.geolocation) return;
+    let perm = 'prompt';
+    try { perm = (await navigator.permissions?.query({ name: 'geolocation' }))?.state || 'prompt'; } catch { /* older Safari */ }
+    if (perm === 'denied') return;
+    if (perm === 'granted' || store.get('geoOk') || !store.get('geoAsked')) { store.set('geoAsked', true); startWatch(); }
+  }
+  // no GPS while the app sits in the background
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') stopWatch();
+    else if (state.userLoc) startWatch();
+  });
+  setInterval(paintMe, 30e3); // grey the dot out if fixes stop coming
 
   /* ---------------- the Airbnb pin ---------------- */
   let baseDropMode = false;
