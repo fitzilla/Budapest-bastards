@@ -1,0 +1,37 @@
+{
+ "Király utca 67, Budapest": [
+  {
+   "name": "67, Király utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
+   "lat": 47.5036661,
+   "lng": 19.0664754,
+   "type": "house",
+   "cls": "place"
+  },
+  {
+   "name": "Lemezkuckó, 67, Király utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
+   "lat": 47.5036331,
+   "lng": 19.0664355,
+   "type": "music",
+   "cls": "shop"
+  }
+ ],
+ "Lemezkuckó, Budapest": [
+  {
+   "name": "Lemezkuckó, 67, Király utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
+   "lat": 47.5036331,
+   "lng": 19.0664355,
+   "type": "music",
+   "cls": "shop"
+  }
+ ],
+ "Erzsébet körút, 1073 Budapest": [
+  {
+   "name": "Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5025749,
+   "lng": 19.0664062,
+   "type": "secondary",
+   "cls": "highway"
+  }
+ ],
+ "overpassError": "Unexpected token '<', \"<?xml vers\"... is not valid JSON"
+}
