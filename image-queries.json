@@ -1,10 +1,12 @@
 [
-  { "label": "ujpest", "q": "Szusza Ferenc Stadion", "limit": 8 },
-  { "label": "mvmdome", "q": "MVM Dome Budapest", "limit": 6 },
-  { "label": "rieu", "q": "André Rieu concert", "limit": 6 },
-  { "label": "pavilon", "q": "Nehru part Budapest", "limit": 8 },
-  { "label": "sparty", "q": "Széchenyi fürdő éjszaka", "limit": 8 },
-  { "label": "sparty2", "q": "Széchenyi bath night party", "limit": 6 },
-  { "label": "langos", "q": "lángos Nagyvásárcsarnok", "limit": 6 },
-  { "label": "pubfootball", "q": "football fans watching match pub", "limit": 8 }
+  { "label": "danko", "q": "Danko Jones", "limit": 8 },
+  { "label": "dubpistols", "q": "Dub Pistols", "limit": 6 },
+  { "label": "freestylers", "q": "Freestylers band", "limit": 4 },
+  { "label": "bikini", "q": "Bikini együttes koncert", "limit": 8 },
+  { "label": "searbliss", "q": "Sear Bliss", "limit": 6 },
+  { "label": "hockey", "q": "FTC jégkorong", "limit": 8 },
+  { "label": "tuske", "q": "Tüskecsarnok", "limit": 6 },
+  { "label": "barbanegra", "q": "Barba Negra Budapest", "limit": 6 },
+  { "label": "comedy", "q": "stand-up comedy microphone stage", "limit": 6 },
+  { "label": "tribute", "q": "rock tribute band live stage Budapest", "limit": 6 }
 ]
