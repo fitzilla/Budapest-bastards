@@ -45,7 +45,8 @@
     "koleves-kert": {
       "lat": 47.4983,
       "lng": 19.0643,
-      "pick": true
+      "pick": true,
+      "unconfirmed": true
     },
     "koleves-vendeglo": {
       "lat": 47.49852,
@@ -152,7 +153,8 @@
     },
     "madhouse-by-mad-scientist": {
       "lat": 47.4989,
-      "lng": 19.0566
+      "lng": 19.0566,
+      "unconfirmed": true
     },
     "first-craft-beer-bbq": {
       "lat": 47.4979,
@@ -251,7 +253,8 @@
       "must": true
     },
     "szechenyi-baths": {
-      "must": true
+      "must": true,
+      "notes": "A phased renovation started in late August 2026, mainly in the women’s thermal section, so some indoor pools may be shut. The big outdoor pools are open."
     },
     "rudas-baths": {
       "must": true
@@ -273,7 +276,9 @@
       "unconfirmed": true
     },
     "buda-castle-labyrinth": {
-      "unconfirmed": true
+      "unconfirmed": false,
+      "hours": "Daily, roughly 10:00–19:30 (some listings say 11:00–18:30). Entry about 5,000 HUF, cash at the door or book online.",
+      "tip": "Bring a jacket; it's chilly down there. Pair it with Hospital in the Rock, five minutes away."
     },
     "communist-free-walking-tour": {
       "lat": 47.50085,

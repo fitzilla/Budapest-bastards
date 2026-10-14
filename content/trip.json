@@ -103,8 +103,51 @@
     {
       "date": "2026-10-17",
       "title": "Saturday",
-      "theme": "Free day",
-      "items": []
+      "theme": "Free day: some ideas",
+      "items": [
+        {
+          "time": "11:00",
+          "title": "Lángos at the Great Market Hall",
+          "sub": "The lángos stalls are upstairs. It shuts at 15:00 on Saturdays, so don’t leave it late.",
+          "ref": "great-market-hall",
+          "kind": "idea"
+        },
+        {
+          "time": "12:30",
+          "title": "Soak it off at Széchenyi",
+          "sub": "Hot outdoor pools in City Park, open till 20:00. Skip it if you’re doing Sparty tonight.",
+          "ref": "szechenyi-baths",
+          "kind": "idea"
+        },
+        {
+          "time": "16:00",
+          "title": "Premier League at Champs, or Újpest live",
+          "sub": "The 3pm UK kick-offs are 16:00 here. Or Újpest v Puskás Akadémia at 17:00 (to be confirmed): M3 to Újpest-központ.",
+          "ref": "champs-sports-pub",
+          "kind": "idea"
+        },
+        {
+          "time": "19:30",
+          "title": "Steak at Hot Stone",
+          "sub": "Steak sizzled on a hot stone at the table, open till midnight. Book for ten. Pampas is the back-up.",
+          "ref": "hot-stone-steakhouse",
+          "kind": "idea"
+        },
+        {
+          "time": "21:30",
+          "title": "Szimpla Kert, then a crawl",
+          "sub": "Start at the original ruin bar (free in, open till 04:00), then wander Kazinczy and Dob utca.",
+          "ref": "szimpla-kert",
+          "kind": "idea"
+        },
+        {
+          "time": "23:30",
+          "title": "Lámpás for live rock, or Sparty",
+          "sub": "Basement rock and blues round the corner from Szimpla. Or Sparty at Széchenyi (21:30–02:00) if you’ve got tickets.",
+          "ref": "lampas",
+          "kind": "idea"
+        }
+      ]
     },
     {
       "date": "2026-10-18",

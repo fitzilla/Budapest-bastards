@@ -120,8 +120,51 @@ window.BB_DATA = {
   {
    "date": "2026-10-17",
    "title": "Saturday",
-   "theme": "Free day",
-   "items": []
+   "theme": "Free day: some ideas",
+   "items": [
+    {
+     "time": "11:00",
+     "title": "Lángos at the Great Market Hall",
+     "sub": "The lángos stalls are upstairs. It shuts at 15:00 on Saturdays, so don’t leave it late.",
+     "ref": "great-market-hall",
+     "kind": "idea"
+    },
+    {
+     "time": "12:30",
+     "title": "Soak it off at Széchenyi",
+     "sub": "Hot outdoor pools in City Park, open till 20:00. Skip it if you’re doing Sparty tonight.",
+     "ref": "szechenyi-baths",
+     "kind": "idea"
+    },
+    {
+     "time": "16:00",
+     "title": "Premier League at Champs, or Újpest live",
+     "sub": "The 3pm UK kick-offs are 16:00 here. Or Újpest v Puskás Akadémia at 17:00 (to be confirmed): M3 to Újpest-központ.",
+     "ref": "champs-sports-pub",
+     "kind": "idea"
+    },
+    {
+     "time": "19:30",
+     "title": "Steak at Hot Stone",
+     "sub": "Steak sizzled on a hot stone at the table, open till midnight. Book for ten. Pampas is the back-up.",
+     "ref": "hot-stone-steakhouse",
+     "kind": "idea"
+    },
+    {
+     "time": "21:30",
+     "title": "Szimpla Kert, then a crawl",
+     "sub": "Start at the original ruin bar (free in, open till 04:00), then wander Kazinczy and Dob utca.",
+     "ref": "szimpla-kert",
+     "kind": "idea"
+    },
+    {
+     "time": "23:30",
+     "title": "Lámpás for live rock, or Sparty",
+     "sub": "Basement rock and blues round the corner from Szimpla. Or Sparty at Széchenyi (21:30–02:00) if you’ve got tickets.",
+     "ref": "lampas",
+     "kind": "idea"
+    }
+   ]
   },
   {
    "date": "2026-10-18",
@@ -812,7 +855,8 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
-   "pick": true
+   "pick": true,
+   "unconfirmed": true
   },
   {
    "id": "csendes-letterem",
@@ -1483,6 +1527,7 @@ window.BB_DATA = {
     "web": "https://madhousebudapest.hu",
     "book": null
    },
+   "unconfirmed": true,
    "imageKind": "building"
   },
   {
@@ -4614,9 +4659,9 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": "About 3,000 HUF per adult (some listings say €13).",
-   "hours": "Daily 10:00–19:30 (some listings say 11:00–18:30). One listing shows it as currently closed. Check before you go.",
+   "hours": "Daily, roughly 10:00–19:30 (some listings say 11:00–18:30). Entry about 5,000 HUF, cash at the door or book online.",
    "blurb": "A 1.5km cave maze under Castle Hill: medieval dungeons, Dracula lore and a dim night tour. Dark, silly, atmospheric.",
-   "tip": "Bring a jacket; it's chilly. Combine with Hospital in the Rock. Check it's open before you go.",
+   "tip": "Bring a jacket; it's chilly down there. Pair it with Hospital in the Rock, five minutes away.",
    "history": "A natural cave network enlarged by humans for thousands of years: wine cellars, WWII air-raid shelter, and a legend of Vlad the Impaler (the real Dracula) being held prisoner in Buda in the 1460s.",
    "entry": null,
    "image": null,
@@ -4625,7 +4670,7 @@ window.BB_DATA = {
     "web": "https://labirintus.com",
     "book": null
    },
-   "unconfirmed": true,
+   "unconfirmed": false,
    "wiki": "hu:Budavári Labirintus"
   },
   {
@@ -4700,6 +4745,7 @@ window.BB_DATA = {
     "book": "https://bathsbudapest.com"
    },
    "must": true,
+   "notes": "A phased renovation started in late August 2026, mainly in the women’s thermal section, so some indoor pools may be shut. The big outdoor pools are open.",
    "gallery": [
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Budapest_Sz%C3%A9chenyi_Baths_R01.jpg/960px-Budapest_Sz%C3%A9chenyi_Baths_R01.jpg",
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Budapest_Sz%C3%A9chenyi_Baths_R03.jpg/960px-Budapest_Sz%C3%A9chenyi_Baths_R03.jpg",
@@ -6199,7 +6245,7 @@ window.BB_DATA = {
     },
     {
      "title": "100E airport bus",
-     "body": "Direct from the airport to Kálvin tér and Deák Ferenc tér. Fare reported as 2,500 HUF (about £6), so confirm on bkk.hu. Tap a contactless card or phone on the validator by the door, or buy in the BudapestGO app.",
+     "body": "Direct from the airport to Kálvin tér, Astoria and Deák Ferenc tér, 24 hours a day and every few minutes at midday. Fare reported as 2,500 HUF (about £6), so confirm on bkk.hu. Tap a contactless card or phone on the validator by the door, or buy in the BudapestGO app.",
      "link": "https://budapezt.com/100e-bus-budapest/"
     },
     {
@@ -6487,10 +6533,31 @@ window.BB_DATA = {
   },
   {
    "name": "Pavilon closing party",
-   "date": "Thu 15 – Sat 17 Oct, from about 16:00",
+   "date": "Thu 15 – Sat 17 Oct, 16:00–00:00",
    "where": "Pavilon, Nehru part, District IX (by Petőfi Bridge, Pest side)",
-   "body": "The riverside bar is throwing a three-day send-off on exactly your dates, per Resident Advisor. It has had a \"last night\" before, so check their socials first.",
+   "body": "The riverside bar’s final send-off after seven seasons, on exactly your dates. Friday: DJ Boka, Oliver SCH and Jolán. Saturday: Lutum, Paebo and Kornwall. Daytime into night, done by midnight.",
    "link": "https://ra.co"
+  },
+  {
+   "name": "Újpest v Puskás Akadémia",
+   "date": "Sat 17 Oct, 17:00 (one listing says 14:00)",
+   "where": "Szusza Ferenc Stadion, District IV",
+   "body": "The only top-flight game in Budapest this weekend: Fradi and Honvéd are both away. M3 to Újpest-központ. Tickets on ujpestfc.hu or at the ground on the day, in your name, so bring a passport.",
+   "link": "https://www.ujpestfc.hu"
+  },
+  {
+   "name": "Premier League in the pub",
+   "date": "Sat 17 Oct, 16:00 (the 3pm UK kick-offs)",
+   "where": "Champs Sports Pub, Dohány utca, or Jack Doyle’s",
+   "body": "Saturday’s 3pm games kick off at 16:00 here. Champs is a short walk from the Airbnb and shows them all; book a table for ten. TV picks can move kick-offs.",
+   "link": null
+  },
+  {
+   "name": "Restaurant Week",
+   "date": "Until Sun 18 Oct",
+   "where": "150+ restaurants citywide",
+   "body": "Fixed-price set menus across town, Costes included. The good tables are going fast, so book any group dinner now.",
+   "link": null
   }
  ],
  "shopsInfo": [

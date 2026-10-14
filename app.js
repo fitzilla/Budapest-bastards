@@ -971,7 +971,7 @@
 
       ${nextCard}
       ${days}
-      <p class="small-print">Only what's booked and paid for. Kick-off times come from your bookings and the club sites; check them again on the day. Tap a flight number to track it live.</p>`;
+      <p class="small-print">Red is booked and paid for; anything marked Idea is just a suggestion. Kick-off times come from your bookings and the club sites; check them again on the day. Tap a flight number to track it live.</p>`;
     if (keepScroll) window.scrollTo({ top: y });
   }
 
