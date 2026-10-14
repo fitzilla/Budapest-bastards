@@ -4101,7 +4101,6 @@ window.BB_DATA = {
     "web": "https://www.terrorhaza.hu/en",
     "book": null
    },
-   "notes": "It closed in mid-September 2026 for a content review and reopened on 22 Sep.",
    "gallery": [
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_%2837766898364%29.jpg/960px-Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_%2837766898364%29.jpg",
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Budapest-Terror_Museum.jpg/960px-Budapest-Terror_Museum.jpg",
@@ -6230,7 +6229,7 @@ window.BB_DATA = {
    "items": [
     {
      "title": "The forint (HUF)",
-     "body": "You pay in forints. About £1 = 425 HUF (late-summer 2026 rate), so 1,000 HUF is about £2.35 and 10,000 HUF about £23.50. Check the live rate in your banking app before you go.",
+     "body": "You pay in forints. About £1 = 425 HUF (it has sat between 420 and 428 since July), so 1,000 HUF is about £2.35 and 10,000 HUF about £23.50. Check the live rate in your banking app before you go.",
      "link": "https://longforecast.com/gbp-huf"
     },
     {
