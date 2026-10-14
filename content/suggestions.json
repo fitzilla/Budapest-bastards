@@ -1,5 +1,5 @@
 {
-  "_readme": "Not-booked suggestions for The plan → Suggestions. Each needs a trip date; 'until' makes it an all-weekend item. Photos: the item's own Commons photo (image + imageKind) or, without one, its ref place's photo. Items disappear after their last day.",
+  "_readme": "Listings for The plan → Suggestions: real events only, no itinerary. Grouped by date (multi-day items under their first date, or today once they're running). Photos: the item's own Commons photo (image + imageKind) or its ref place's photo. Items disappear after their last day.",
   "items": [
     {
       "id": "restaurant-week",
@@ -16,7 +16,7 @@
       "id": "pavilon-closing",
       "date": "2026-10-15",
       "until": "2026-10-17",
-      "when": "Thu–Sat · 16:00–midnight",
+      "when": "Thu 15 – Sat 17 Oct · from 16:00",
       "tag": "Party",
       "title": "Pavilon closing party",
       "where": "Nehru part, by Petőfi Bridge (Pest side)",
@@ -38,30 +38,7 @@
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andre_Rieu_Ziggodome_P1080806.jpg?width=960",
       "imageKind": "venue",
       "tickets": "https://www.jegy.hu",
-      "mapQuery": "MVM Dome Budapest",
-      "check": "Same night as MTK v Vasas, so trams and taxis will be busy."
-    },
-    {
-      "id": "langos-market",
-      "date": "2026-10-17",
-      "time": "11:00",
-      "when": "Sat 17 Oct · late morning",
-      "tag": "Food",
-      "title": "Lángos at the Great Market Hall",
-      "where": "Fővám tér, District IX",
-      "blurb": "Hangover cure: fried dough with sour cream and cheese from the stalls upstairs. It shuts at 15:00 on Saturdays.",
-      "ref": "great-market-hall"
-    },
-    {
-      "id": "szechenyi-day",
-      "date": "2026-10-17",
-      "time": "12:30",
-      "when": "Sat 17 Oct · afternoon",
-      "tag": "Bath",
-      "title": "Soak it off at Széchenyi",
-      "where": "City Park, District XIV",
-      "blurb": "Hot outdoor pools under the yellow domes, open till 20:00. Skip it if you're doing Sparty that night.",
-      "ref": "szechenyi-baths"
+      "mapQuery": "MVM Dome Budapest"
     },
     {
       "id": "premier-league",
@@ -72,8 +49,7 @@
       "title": "Premier League in the pub",
       "where": "Champs Sports Pub, Dohány utca",
       "blurb": "Saturday's 3pm UK games kick off at 16:00 here. Champs shows the lot and is a short walk from the Airbnb; book a table for ten.",
-      "ref": "champs-sports-pub",
-      "check": "TV picks can move kick-offs."
+      "ref": "champs-sports-pub"
     },
     {
       "id": "ujpest-puskas",
@@ -91,28 +67,6 @@
       "check": "One listing says 14:00, so check the kick-off. Tickets are in your name: bring a passport."
     },
     {
-      "id": "steak-hot-stone",
-      "date": "2026-10-17",
-      "time": "19:30",
-      "when": "Sat 17 Oct · dinner",
-      "tag": "Food",
-      "title": "Steak at Hot Stone",
-      "where": "Október 6. utca, District V",
-      "blurb": "Steak sizzled on a hot stone at the table, open till midnight. Book for ten; Pampas is the back-up.",
-      "ref": "hot-stone-steakhouse"
-    },
-    {
-      "id": "szimpla-crawl",
-      "date": "2026-10-17",
-      "time": "21:30",
-      "when": "Sat 17 Oct · 21:30",
-      "tag": "Night out",
-      "title": "Szimpla, then a crawl",
-      "where": "Kazinczy utca, District VII",
-      "blurb": "Start at the original ruin bar (free in, open till 04:00), then wander Kazinczy and Dob utca.",
-      "ref": "szimpla-kert"
-    },
-    {
       "id": "sparty-sat",
       "date": "2026-10-17",
       "time": "21:30",
@@ -124,17 +78,6 @@
       "ref": "sparty-szechenyi",
       "tickets": "https://spartybooking.com/entry-tickets/",
       "check": "Book ahead: it sells out on busy weekends."
-    },
-    {
-      "id": "lampas-late",
-      "date": "2026-10-17",
-      "time": "23:30",
-      "when": "Sat 17 Oct · late",
-      "tag": "Night out",
-      "title": "Lámpás for live rock",
-      "where": "Dob utca 15, District VII",
-      "blurb": "Basement rock, blues and rockabilly round the corner from Szimpla. Free in, cheap beer.",
-      "ref": "lampas"
     }
   ]
 }

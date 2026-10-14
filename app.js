@@ -972,7 +972,7 @@
         <button type="button" data-act="plan-view" data-view="ideas" aria-pressed="${state.planView === 'ideas'}">Suggestions</button>
       </div>`;
     if (state.planView === 'ideas') {
-      pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Not booked, just good shouts for the weekend. Times and tickets can change, so check before you go.</p></header>
+      pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>What's on while you're here, by date. Not booked; times and tickets can change, so check before you go.</p></header>
         ${seg}${suggestionsHtml()}`;
       if (keepScroll) window.scrollTo({ top: y });
       return;
@@ -1015,15 +1015,16 @@
     // drop anything that's finished, so the list stays useful during the trip
     const live = (D.suggestions || []).filter((s) => Date.parse(`${s.until || s.date}T23:59:00+02:00`) > t);
     if (!live.length) return '<p class="tl-empty">Nothing left to suggest. Hope it was a good one.</p>';
+    // grouped by date: a multi-day listing sits under its first day, or under today once it's running
+    const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Budapest' }).format(now());
     const groups = new Map();
     for (const s of live) {
-      const key = s.until ? 'all' : s.date;
+      const key = s.until && s.date < today ? today : s.date;
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(s);
     }
-    const order = [...groups.keys()].sort((a, b) => (a === 'all' ? -1 : b === 'all' ? 1 : a.localeCompare(b)));
-    return order.map((k) => {
-      const title = k === 'all' ? 'All weekend' : SUG_DAY.format(new Date(`${k}T12:00:00+02:00`));
+    return [...groups.keys()].sort().map((k) => {
+      const title = SUG_DAY.format(new Date(`${k}T12:00:00+02:00`));
       const items = groups.get(k).sort((a, b) => (a.time || '').localeCompare(b.time || ''));
       return `<section class="day sug-day"><div class="day-head"><h2>${esc(title)}</h2></div><div class="sug-list">${items.map(suggestionCard).join('')}</div></section>`;
     }).join('');
