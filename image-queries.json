@@ -1,1 +1,10 @@
-[]
+[
+  { "label": "ujpest", "q": "Szusza Ferenc Stadion", "limit": 8 },
+  { "label": "mvmdome", "q": "MVM Dome Budapest", "limit": 6 },
+  { "label": "rieu", "q": "André Rieu concert", "limit": 6 },
+  { "label": "pavilon", "q": "Nehru part Budapest", "limit": 8 },
+  { "label": "sparty", "q": "Széchenyi fürdő éjszaka", "limit": 8 },
+  { "label": "sparty2", "q": "Széchenyi bath night party", "limit": 6 },
+  { "label": "langos", "q": "lángos Nagyvásárcsarnok", "limit": 6 },
+  { "label": "pubfootball", "q": "football fans watching match pub", "limit": 8 }
+]
