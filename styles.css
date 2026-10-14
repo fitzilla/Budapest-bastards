@@ -234,7 +234,7 @@ p { margin: 0; }
   margin-top: 8px;
 }
 .hero-count { display: flex; align-items: flex-end; gap: 12px; margin-top: 10px; }
-.hero-count b { font: 900 88px/.8 var(--font-display); letter-spacing: 0; }
+.hero-count b { font: 900 88px/.8 var(--font-display); letter-spacing: 0; white-space: nowrap; }
 .hero-count span { font: 800 22px/1 var(--font-display); text-transform: uppercase; letter-spacing: .01em; max-width: 14ch; padding-bottom: 4px; }
 .hero-next {
   display: flex; align-items: center; gap: 12px;
