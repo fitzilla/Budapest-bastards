@@ -1,27 +1,27 @@
-// One-off geocoding from GitHub Actions (the dev sandbox can't reach OpenStreetMap).
+// One-off: resolve a Google Maps short link and reverse-geocode it (the dev sandbox can't reach either).
 import fs from 'node:fs';
-const UA = 'BastardsOnTour-geo-check/1.0 (https://github.com/fitzilla/Budapest-bastards)';
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const out = {};
-const nom = async (q) => {
-  const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=5&q=${encodeURIComponent(q)}`, { headers: { 'User-Agent': UA } });
-  return (await r.json()).map((x) => ({ name: x.display_name, lat: +x.lat, lng: +x.lon, type: x.type, cls: x.category }));
-};
-for (const q of ['Király utca 67, Budapest', 'Lemezkuckó, Budapest', 'Erzsébet körút, 1073 Budapest']) { out[q] = await nom(q); await sleep(1500); }
-// the junction and the whole run of Erzsébet körút, from Overpass
-const oq = `[out:json][timeout:25];
-area["name"="Budapest"]["admin_level"="8"]->.b;
-way(area.b)["name"="Erzsébet körút"]["highway"]->.e;
-way(area.b)["name"="Király utca"]["highway"]->.k;
-node(w.e)(w.k)->.x;
-.x out;
-.e out geom;`;
-try {
-  const r = await fetch('https://overpass-api.de/api/interpreter', { method: 'POST', headers: { 'User-Agent': UA, 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'data=' + encodeURIComponent(oq) });
-  const j = await r.json();
-  out.junction = j.elements.filter((e) => e.type === 'node').map((n) => ({ lat: n.lat, lng: n.lon }));
-  out.erzsebetWays = j.elements.filter((e) => e.type === 'way').map((w) => ({ id: w.id, tags: { highway: w.tags.highway, oneway: w.tags.oneway }, from: w.geometry[0], to: w.geometry[w.geometry.length - 1] }));
-} catch (e) { out.overpassError = String(e.message); }
+const UA = 'Mozilla/5.0 (compatible; BastardsOnTour-geo-check/1.0; +https://github.com/fitzilla/Budapest-bastards)';
+const out = { hops: [] };
+let url = 'https://maps.app.goo.gl/42z1mfu978yMQXP37';
+for (let i = 0; i < 8; i++) {
+  const r = await fetch(url, { redirect: 'manual', headers: { 'User-Agent': UA, 'Accept-Language': 'en' } });
+  out.hops.push({ status: r.status, url });
+  const loc = r.headers.get('location');
+  if (!loc) { const body = await r.text(); out.body = body.slice(0, 4000); const m = body.match(/https:\/\/www\.google\.[^"'\s]+\/maps\/[^"'\s]+/); if (m) out.bodyMapsUrl = m[0]; break; }
+  url = new URL(loc, url).toString();
+}
+out.final = url;
+const all = [out.final, out.bodyMapsUrl || '', out.body || ''].join(' ');
+const pick = (re) => { const m = all.match(re); return m ? { lat: +m[1], lng: +m[2] } : null; };
+out.coords = { pin: pick(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/), at: pick(/@(-?\d+\.\d+),(-?\d+\.\d+)/), q: pick(/[?&](?:q|query|ll|center)=(-?\d+\.\d+)(?:,|%2C)(-?\d+\.\d+)/) };
+const place = all.match(/\/maps\/place\/([^/@?]+)/);
+if (place) out.placeName = decodeURIComponent(place[1].replace(/\+/g, ' '));
+const c = out.coords.pin || out.coords.q || out.coords.at;
+if (c) {
+  const r = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&addressdetails=1&zoom=18&lat=${c.lat}&lon=${c.lng}`, { headers: { 'User-Agent': UA } });
+  const j = await r.json(); out.reverse = { name: j.display_name, address: j.address };
+}
 fs.mkdirSync('image-check', { recursive: true });
+delete out.body;
 fs.writeFileSync('image-check/geo.json', JSON.stringify(out, null, 1));
-console.log(JSON.stringify(out, null, 1).slice(0, 3000));
+console.log(JSON.stringify(out, null, 1));
