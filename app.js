@@ -287,6 +287,7 @@
     userLoc: null,
     onlyFaves: false,
     pendingSelect: null,
+    planView: 'plan', // 'plan' (what's booked) or 'ideas' (suggestions)
   };
   const filterCount = () => state.filters.tags.size + state.filters.price.size + (state.filters.late ? 1 : 0) + (state.filters.rated ? 1 : 0) + (state.filters.sort !== 'rec' ? 1 : 0);
 
@@ -966,13 +967,66 @@
         ${items ? `<ol class="tl">${items}</ol>` : '<p class="tl-empty">Nothing booked.</p>'}
       </section>`;
     }).join('');
+    const seg = `<div class="seg plan-seg" role="group" aria-label="Plan or suggestions">
+        <button type="button" data-act="plan-view" data-view="plan" aria-pressed="${state.planView !== 'ideas'}">Our plan</button>
+        <button type="button" data-act="plan-view" data-view="ideas" aria-pressed="${state.planView === 'ideas'}">Suggestions</button>
+      </div>`;
+    if (state.planView === 'ideas') {
+      pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Not booked, just good shouts for the weekend. Times and tickets can change, so check before you go.</p></header>
+        ${seg}${suggestionsHtml()}`;
+      if (keepScroll) window.scrollTo({ top: y });
+      return;
+    }
     const nextCard = nx ? `<div class="next-card"><small>${nx.live ? 'Happening now' : 'Next up'}</small><strong>${esc(nx.item.title)}</strong><span>${esc(DAY_FMT.format(nx.item.at))} at ${esc(nx.item.time)}${nx.live ? '' : ` · in ${esc(untilText(nx.item.at))}`}</span></div>` : '';
     pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Thu 15 – Sun 18 Oct. All times are Budapest time, one hour ahead of the UK.</p></header>
-
+      ${seg}
       ${nextCard}
       ${days}
-      <p class="small-print">Red is booked and paid for; anything marked Idea is just a suggestion. Kick-off times come from your bookings and the club sites; check them again on the day. Tap a flight number to track it live.</p>`;
+      <p class="small-print">Only what's booked and paid for. Kick-off times come from your bookings and the club sites; check them again on the day. Tap a flight number to track it live.</p>`;
     if (keepScroll) window.scrollTo({ top: y });
+  }
+
+  /* ---------------- suggestions: not booked, worth a look ---------------- */
+  const SUG_DAY = new Intl.DateTimeFormat('en-GB', { weekday: 'long', day: 'numeric', timeZone: 'Europe/Budapest' });
+  function suggestionCard(s) {
+    const ref = s.ref ? byId.get(s.ref) : null;
+    // a stand-in place for the shared media() tile: the suggestion's own photo first, else the venue's
+    const pic = { id: `sug-${s.id}`, name: s.title, type: ref?.type || 'activity', tags: ref?.tags || [], district: null,
+      image: s.image || ref?.image || null, imageKind: s.image ? s.imageKind : ref?.imageKind, wiki: s.image ? null : ref?.wiki };
+    const links = [];
+    if (s.tickets) links.push(`<a class="chip chip-sm" href="${esc(s.tickets)}" target="_blank" rel="noopener">${icon('ticket', 'ic-sm')}${esc(s.ticketLabel || 'Tickets')}</a>`);
+    if (ref) links.push(`<a class="chip chip-sm" href="#/p/${esc(ref.id)}">${icon(iconOf(ref), 'ic-sm')}${esc(ref.name)}</a>`);
+    const mapUrl = ref && ref.lat != null ? gmapsUrl(ref) : s.mapQuery ? 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.mapQuery) : null;
+    if (mapUrl) links.push(`<a class="chip chip-sm" href="${esc(mapUrl)}" target="_blank" rel="noopener">${icon('pin', 'ic-sm')}Google Maps</a>`);
+    return `<article class="sug">
+      <div class="card-media">${media(pic, { top: s.tag })}</div>
+      <div class="sug-body">
+        <p class="sug-when">${esc(s.when)}</p>
+        <h3 class="sug-title">${esc(s.title)}</h3>
+        <p class="sug-where">${icon('pin', 'ic-sm')}${esc(s.where)}</p>
+        <p class="sug-blurb">${esc(s.blurb)}</p>
+        ${s.check ? `<p class="sug-check">${icon('info', 'ic-sm')}${esc(s.check)}</p>` : ''}
+        ${links.length ? `<div class="tl-links">${links.join('')}</div>` : ''}
+      </div>
+    </article>`;
+  }
+  function suggestionsHtml() {
+    const t = now().getTime();
+    // drop anything that's finished, so the list stays useful during the trip
+    const live = (D.suggestions || []).filter((s) => Date.parse(`${s.until || s.date}T23:59:00+02:00`) > t);
+    if (!live.length) return '<p class="tl-empty">Nothing left to suggest. Hope it was a good one.</p>';
+    const groups = new Map();
+    for (const s of live) {
+      const key = s.until ? 'all' : s.date;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(s);
+    }
+    const order = [...groups.keys()].sort((a, b) => (a === 'all' ? -1 : b === 'all' ? 1 : a.localeCompare(b)));
+    return order.map((k) => {
+      const title = k === 'all' ? 'All weekend' : SUG_DAY.format(new Date(`${k}T12:00:00+02:00`));
+      const items = groups.get(k).sort((a, b) => (a.time || '').localeCompare(b.time || ''));
+      return `<section class="day sug-day"><div class="day-head"><h2>${esc(title)}</h2></div><div class="sug-list">${items.map(suggestionCard).join('')}</div></section>`;
+    }).join('');
   }
 
   /* ---------------- rendering: faves ---------------- */
@@ -1058,7 +1112,7 @@
     const P = (id) => practical.find((x) => x.id === id)?.html || '';
 
     const phrases = D.phrases.map((p) => `<div class="phrase"><div><b>${esc(p.hu)}</b><small>${esc(p.en)}</small></div><span>${esc(p.say)}</span></div>`).join('');
-    const events = (D.localEvents || []).filter((e) => !/not in window/i.test(e.name)).map((e) => `<div><h3>${esc(e.name)}</h3><p class="muted">${esc(e.date)} · ${esc(e.where)}</p><p>${esc(e.body)}</p></div>`).join('');
+    const events = (D.suggestions || []).length ? `<p>Gigs, football, Sparty and a few Saturday ideas, with times, tickets and photos, all in one place.</p><a class="btn btn-soft" href="#/plans/ideas">${icon('calendar')}See the suggestions</a>` : '';
     const homeScreen = `<p><b>iPhone:</b> open this page in Safari, tap Share, then <b>Add to Home Screen</b>. It opens full-screen like an app.</p>
       <p><b>Android:</b> in Chrome, tap ⋮ then <b>Add to Home screen</b> (or <b>Install app</b>).</p>
       <p>Every place has its own link. Tap share on any page to send it to the group chat.</p>
@@ -1906,7 +1960,7 @@
     }
     closeDetailUI();
     if (a === 'c' && b) { setTab('explore'); setCat(b, false); }
-    else if (a === 'plans' || a === 'faves' || a === 'info') setTab(a);
+    else if (a === 'plans' || a === 'faves' || a === 'info') { if (a === 'plans') state.planView = b === 'ideas' ? 'ideas' : 'plan'; setTab(a); }
     else if (booted && state.tab === 'explore' && state.cat !== 'all') setCat('all', false);
     else setTab('explore');
   }
@@ -1979,6 +2033,13 @@
         break;
       }
       case 'clear-filters': clearFilters(); break;
+      case 'plan-view': {
+        state.planView = t.dataset.view === 'ideas' ? 'ideas' : 'plan';
+        history.replaceState(null, '', state.planView === 'ideas' ? '#/plans/ideas' : '#/plans');
+        renderPlans();
+        window.scrollTo({ top: 0 });
+        break;
+      }
       case 'share-faves': {
         const items = [...state.faves].map((id) => byId.get(id)).filter(Boolean);
         const text = 'Bastards on Tour 2026 shortlist:\n' + items.map((p) => `• ${p.name} – ${gmapsUrl(p)}`).join('\n');

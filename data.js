@@ -120,51 +120,8 @@ window.BB_DATA = {
   {
    "date": "2026-10-17",
    "title": "Saturday",
-   "theme": "Free day: some ideas",
-   "items": [
-    {
-     "time": "11:00",
-     "title": "Lángos at the Great Market Hall",
-     "sub": "The lángos stalls are upstairs. It shuts at 15:00 on Saturdays, so don’t leave it late.",
-     "ref": "great-market-hall",
-     "kind": "idea"
-    },
-    {
-     "time": "12:30",
-     "title": "Soak it off at Széchenyi",
-     "sub": "Hot outdoor pools in City Park, open till 20:00. Skip it if you’re doing Sparty tonight.",
-     "ref": "szechenyi-baths",
-     "kind": "idea"
-    },
-    {
-     "time": "16:00",
-     "title": "Premier League at Champs, or Újpest live",
-     "sub": "The 3pm UK kick-offs are 16:00 here. Or Újpest v Puskás Akadémia at 17:00 (to be confirmed): M3 to Újpest-központ.",
-     "ref": "champs-sports-pub",
-     "kind": "idea"
-    },
-    {
-     "time": "19:30",
-     "title": "Steak at Hot Stone",
-     "sub": "Steak sizzled on a hot stone at the table, open till midnight. Book for ten. Pampas is the back-up.",
-     "ref": "hot-stone-steakhouse",
-     "kind": "idea"
-    },
-    {
-     "time": "21:30",
-     "title": "Szimpla Kert, then a crawl",
-     "sub": "Start at the original ruin bar (free in, open till 04:00), then wander Kazinczy and Dob utca.",
-     "ref": "szimpla-kert",
-     "kind": "idea"
-    },
-    {
-     "time": "23:30",
-     "title": "Lámpás for live rock, or Sparty",
-     "sub": "Basement rock and blues round the corner from Szimpla. Or Sparty at Széchenyi (21:30–02:00) if you’ve got tickets.",
-     "ref": "lampas",
-     "kind": "idea"
-    }
-   ]
+   "theme": "Free day",
+   "items": []
   },
   {
    "date": "2026-10-18",
@@ -6580,6 +6537,143 @@ window.BB_DATA = {
    "title": "Sundays are fine",
    "body": "Supermarkets and dm open on Sundays, just shorter hours (the corner Spar shuts at 16:00). No public holidays fall on 15–18 Oct.",
    "link": null
+  }
+ ],
+ "suggestions": [
+  {
+   "id": "restaurant-week",
+   "date": "2026-10-15",
+   "until": "2026-10-18",
+   "when": "Until Sun 18 Oct",
+   "tag": "Food",
+   "title": "Restaurant Week",
+   "where": "150+ restaurants across the city",
+   "blurb": "Fixed-price set menus all over town, Michelin places included. The good tables go fast, so book any group dinner now.",
+   "ref": "costes"
+  },
+  {
+   "id": "pavilon-closing",
+   "date": "2026-10-15",
+   "until": "2026-10-17",
+   "when": "Thu–Sat · 16:00–midnight",
+   "tag": "Party",
+   "title": "Pavilon closing party",
+   "where": "Nehru part, by Petőfi Bridge (Pest side)",
+   "blurb": "The riverside bar's three-day send-off. Friday: DJ Boka, Oliver SCH and Jolán. Saturday: Lutum, Paebo and Kornwall. Daytime into night.",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Nehru_part%2C_2-es_villamos%2C_K%C3%B6zrakt%C3%A1r_utca%2C_2017_Ferencv%C3%A1ros.jpg/960px-Nehru_part%2C_2-es_villamos%2C_K%C3%B6zrakt%C3%A1r_utca%2C_2017_Ferencv%C3%A1ros.jpg",
+   "imageKind": "venue",
+   "mapQuery": "Pavilon Bar, Nehru part, Budapest",
+   "check": "It has had a 'last night' before, so check their socials first."
+  },
+  {
+   "id": "andre-rieu",
+   "date": "2026-10-16",
+   "time": "19:30",
+   "when": "Fri 16 Oct · 19:30 (doors 18:00)",
+   "tag": "Gig",
+   "title": "André Rieu",
+   "where": "MVM Dome, District IX",
+   "blurb": "The waltz king and his orchestra in Budapest's new arena. Wildcard entry for the lads, but a serious spectacle.",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Andre_Rieu_Ziggodome_P1080806.jpg/960px-Andre_Rieu_Ziggodome_P1080806.jpg",
+   "imageKind": "venue",
+   "tickets": "https://www.jegy.hu",
+   "mapQuery": "MVM Dome Budapest",
+   "check": "Same night as MTK v Vasas, so trams and taxis will be busy."
+  },
+  {
+   "id": "langos-market",
+   "date": "2026-10-17",
+   "time": "11:00",
+   "when": "Sat 17 Oct · late morning",
+   "tag": "Food",
+   "title": "Lángos at the Great Market Hall",
+   "where": "Fővám tér, District IX",
+   "blurb": "Hangover cure: fried dough with sour cream and cheese from the stalls upstairs. It shuts at 15:00 on Saturdays.",
+   "ref": "great-market-hall"
+  },
+  {
+   "id": "szechenyi-day",
+   "date": "2026-10-17",
+   "time": "12:30",
+   "when": "Sat 17 Oct · afternoon",
+   "tag": "Bath",
+   "title": "Soak it off at Széchenyi",
+   "where": "City Park, District XIV",
+   "blurb": "Hot outdoor pools under the yellow domes, open till 20:00. Skip it if you're doing Sparty that night.",
+   "ref": "szechenyi-baths"
+  },
+  {
+   "id": "premier-league",
+   "date": "2026-10-17",
+   "time": "16:00",
+   "when": "Sat 17 Oct · 16:00",
+   "tag": "Football",
+   "title": "Premier League in the pub",
+   "where": "Champs Sports Pub, Dohány utca",
+   "blurb": "Saturday's 3pm UK games kick off at 16:00 here. Champs shows the lot and is a short walk from the Airbnb; book a table for ten.",
+   "ref": "champs-sports-pub",
+   "check": "TV picks can move kick-offs."
+  },
+  {
+   "id": "ujpest-puskas",
+   "date": "2026-10-17",
+   "time": "17:00",
+   "when": "Sat 17 Oct · 17:00",
+   "tag": "Football",
+   "title": "Újpest v Puskás Akadémia",
+   "where": "Szusza Ferenc Stadion, District IV",
+   "blurb": "The only top-flight game in Budapest this weekend. Purple-and-white noise in an old-school bowl, M3 to Újpest-központ.",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Szusza_Ferenc_Stadion%2C_panor%C3%A1ma.jpg/960px-Szusza_Ferenc_Stadion%2C_panor%C3%A1ma.jpg",
+   "imageKind": "venue",
+   "tickets": "https://www.ujpestfc.hu",
+   "mapQuery": "Szusza Ferenc Stadion, Budapest",
+   "check": "One listing says 14:00, so check the kick-off. Tickets are in your name: bring a passport."
+  },
+  {
+   "id": "steak-hot-stone",
+   "date": "2026-10-17",
+   "time": "19:30",
+   "when": "Sat 17 Oct · dinner",
+   "tag": "Food",
+   "title": "Steak at Hot Stone",
+   "where": "Október 6. utca, District V",
+   "blurb": "Steak sizzled on a hot stone at the table, open till midnight. Book for ten; Pampas is the back-up.",
+   "ref": "hot-stone-steakhouse"
+  },
+  {
+   "id": "szimpla-crawl",
+   "date": "2026-10-17",
+   "time": "21:30",
+   "when": "Sat 17 Oct · 21:30",
+   "tag": "Night out",
+   "title": "Szimpla, then a crawl",
+   "where": "Kazinczy utca, District VII",
+   "blurb": "Start at the original ruin bar (free in, open till 04:00), then wander Kazinczy and Dob utca.",
+   "ref": "szimpla-kert"
+  },
+  {
+   "id": "sparty-sat",
+   "date": "2026-10-17",
+   "time": "21:30",
+   "when": "Sat 17 Oct · 21:30–02:00",
+   "tag": "Party",
+   "title": "Sparty at Széchenyi",
+   "where": "Széchenyi Baths, City Park",
+   "blurb": "Lasers, DJs and drinks in the thermal pools. Pricey, touristy, and a story you'll tell for years.",
+   "ref": "sparty-szechenyi",
+   "tickets": "https://spartybooking.com/entry-tickets/",
+   "check": "Book ahead: it sells out on busy weekends."
+  },
+  {
+   "id": "lampas-late",
+   "date": "2026-10-17",
+   "time": "23:30",
+   "when": "Sat 17 Oct · late",
+   "tag": "Night out",
+   "title": "Lámpás for live rock",
+   "where": "Dob utca 15, District VII",
+   "blurb": "Basement rock, blues and rockabilly round the corner from Szimpla. Free in, cheap beer.",
+   "ref": "lampas"
   }
  ],
  "sparty": {

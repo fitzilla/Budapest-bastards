@@ -1037,3 +1037,19 @@ p { margin: 0; }
 .me.is-stale .me-dot { background: #8b9099; }
 .me.is-stale::after { animation: none; opacity: 0; }
 @media (prefers-reduced-motion: reduce) { .me::after { animation: none; opacity: 0; } }
+
+/* suggestions (The plan → Suggestions) */
+.plan-seg { margin: 2px 0 18px; }
+.sug-list { display: grid; gap: 14px; }
+@media (min-width: 700px) { .sug-list { grid-template-columns: 1fr 1fr; } }
+.sug { border-radius: var(--r-card); overflow: hidden; background: var(--paper-2); }
+.sug .card-media { border-radius: 0; aspect-ratio: 16 / 9; }
+.sug-body { padding: 12px 14px 14px; display: grid; gap: 4px; min-width: 0; }
+.sug-when { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--paprika); }
+.sug-title { font-size: 18px; font-weight: 700; line-height: 1.25; }
+.sug-where { display: flex; gap: 6px; align-items: center; font-size: 14px; color: var(--ink-2); min-width: 0; }
+.sug-where .ic-sm { flex: none; }
+.sug-blurb { font-size: 15px; line-height: 1.45; margin-top: 2px; }
+.sug-check { display: flex; gap: 6px; align-items: flex-start; font-size: 13px; color: var(--ink-2); }
+.sug-check .ic-sm { flex: none; margin-top: 2px; }
+.sug .tl-links { margin-top: 6px; }
