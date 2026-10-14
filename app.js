@@ -1025,7 +1025,9 @@
     }
     return [...groups.keys()].sort().map((k) => {
       const title = SUG_DAY.format(new Date(`${k}T12:00:00+02:00`));
-      const items = groups.get(k).sort((a, b) => (a.time || '').localeCompare(b.time || ''));
+      // running all weekend first, then by start time, then anything still without a time
+      const rank = (x) => (x.until ? '0' : x.time ? '1' + x.time : '2');
+      const items = groups.get(k).sort((a, b) => rank(a).localeCompare(rank(b)));
       return `<section class="day sug-day"><div class="day-head"><h2>${esc(title)}</h2></div><div class="sug-list">${items.map(suggestionCard).join('')}</div></section>`;
     }).join('');
   }
