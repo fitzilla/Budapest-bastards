@@ -2313,7 +2313,7 @@ window.BB_DATA = {
    },
    "price": 4,
    "priceText": null,
-   "hours": "Wed–Sun evenings about 18:30–00:00 · Mon–Tue closed. Check before you go.",
+   "hours": "Wed–Sat 18:00–23:00 · Sun–Tue closed (Michelin Guide). Restaurant Week runs to 18 Oct and those tables are gone, so book well ahead.",
    "blurb": "Hungary's first Michelin-star restaurant (2010), on the buzzy Ráday utca. Elegant tasting menus, quality service. Dress to impress.",
    "tip": "Tasting menu. Phone line takes bookings daily 09:00–23:30. Book now, weekends fill fast.",
    "history": null,
@@ -2388,7 +2388,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Mon–Thu, Sun about 11:30–21:00 · Fri–Sat until 22:00. Expect a queue at lunch. Check before you go.",
+   "hours": "Mon–Sat 11:30–21:30 (Fri–Sat to 22:00) · Sunday may be closed, so check first. Expect a lunchtime queue.",
    "blurb": "Tiny soup-and-baguette bar with Star Wars decor and ridiculous queues for good reason. Cheap, cheerful and next to the ruin pubs.",
    "tip": "Daily soup or a stuffed baguette. Eat at the counter or take it away; no booking.",
    "history": null,
@@ -2654,7 +2654,7 @@ window.BB_DATA = {
    },
    "price": 2,
    "priceText": null,
-   "hours": "Mon–Sat about 09:00–16:00 (one source says an 08:00 start) · Sun closed. Check before you go.",
+   "hours": "Mon–Sat 08:00–16:00 · Sun closed",
    "blurb": "Relaxed, light-filled brunch place from the Szimpla family in a historic alley. Eggs, coffee, juices and recovery vibes.",
    "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the Sunday recovery here.",
    "history": null,
@@ -3114,7 +3114,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
-   "unconfirmed": true,
+   "unconfirmed": false,
    "imageKind": "illustrative",
    "imageCaption": "Cappuccino and breakfast"
   },
@@ -3663,6 +3663,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
+   "unconfirmed": true,
    "imageKind": "illustrative",
    "imageCaption": "A plate of tacos al pastor"
   },
@@ -3725,7 +3726,7 @@ window.BB_DATA = {
    },
    "price": 3,
    "priceText": null,
-   "hours": "Lunch and dinner daily (exact hours not confirmed): check before booking",
+   "hours": "Daily 12:00–00:00 (Time Out). Book for a group.",
    "blurb": "Cook your own steak on a lava stone heated to 400 degrees, steps from the Basilica. A bit of theatre and a different beast to Pampas.",
    "tip": "Priced by the gram: budget roughly 12,000–20,000 HUF (£28–47) a head with a drink. Book ahead for the weekend.",
    "history": null,
@@ -3736,7 +3737,7 @@ window.BB_DATA = {
     "web": null,
     "book": null
    },
-   "unconfirmed": true,
+   "unconfirmed": false,
    "imageKind": "illustrative",
    "imageCaption": "Barbecued rib-eye steak"
   },

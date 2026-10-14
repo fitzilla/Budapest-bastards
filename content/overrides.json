@@ -30,7 +30,8 @@
         "cheap",
         "late-night",
         "soup"
-      ]
+      ],
+      "hours": "Mon–Sat 11:30–21:30 (Fri–Sat to 22:00) · Sunday may be closed, so check first. Expect a lunchtime queue."
     },
     "karavan": {
       "lat": 47.4973,
@@ -82,7 +83,8 @@
     "szimply": {
       "lat": 47.4992,
       "lng": 19.0567,
-      "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the Sunday recovery here."
+      "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the Sunday recovery here.",
+      "hours": "Mon–Sat 08:00–16:00 · Sun closed"
     },
     "house-of-terror": {
       "lat": 47.50695,
@@ -299,13 +301,24 @@
       "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset."
     },
     "costes": {
-      "notes": "Costes is in DiningCity Restaurant Week until 18 Oct 2026, the first Michelin-starred restaurant to take part: worth checking for a cheaper set-menu table."
+      "notes": "Costes is in DiningCity Restaurant Week until 18 Oct 2026, the first Michelin-starred restaurant to take part: worth checking for a cheaper set-menu table.",
+      "hours": "Wed–Sat 18:00–23:00 · Sun–Tue closed (Michelin Guide). Restaurant Week runs to 18 Oct and those tables are gone, so book well ahead."
     },
     "dohany-synagogue": {
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Synagoge_Budapest_2014.jpg?width=960"
     },
     "heroes-square": {
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heroes_Square_Budapest_2010_01.jpg?width=960"
+    },
+    "dorado-cafe": {
+      "unconfirmed": false
+    },
+    "hot-stone-steakhouse": {
+      "unconfirmed": false,
+      "hours": "Daily 12:00–00:00 (Time Out). Book for a group."
+    },
+    "arriba-taqueria-terez": {
+      "unconfirmed": true
     }
   }
 }
