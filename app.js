@@ -826,12 +826,12 @@
       const ymd = (x) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Budapest' }).format(x);
       const days = Math.round((Date.parse(ymd(land)) - Date.parse(ymd(t))) / 864e5);
       if (days > 1) { big = days; small = 'days until Budapest'; }
-      else if (days === 1) { big = 1; small = 'day until Budapest. Passports, lads.'; }
+      else if (days === 1) { big = 1; small = 'day until Budapest'; }
       else {
         // landing day: hours, then minutes, kept to one short number so it never wraps
         const mins = Math.max(1, Math.round((land - t) / 6e4));
         big = mins >= 60 ? `${Math.floor(mins / 60)}h` : `${mins}m`;
-        small = 'until we land. Passports, lads.';
+        small = 'until we land';
       }
     } else if (t < fly) {
       const dayN = TRIP_DAYS.findIndex((d) => d === new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Budapest' }).format(t)) + 1;
