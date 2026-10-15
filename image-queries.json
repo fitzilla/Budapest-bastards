@@ -1,1 +1,16 @@
-[]
+[
+ { "label": "rk-lampas", "q": "Dob utca 15 Budapest", "limit": 8 },
+ { "label": "rk-lampas2", "q": "Lámpás Budapest", "limit": 6 },
+ { "label": "rk-barhole", "q": "Dohány utca 7 Budapest", "limit": 8 },
+ { "label": "rk-blastbeat", "q": "Czuczor utca 1 Budapest", "limit": 6 },
+ { "label": "rk-backstage", "q": "Városligeti fasor 44", "limit": 6 },
+ { "label": "rk-liquid", "q": "Rákóczi út 10 Budapest", "limit": 8 },
+ { "label": "rk-paranoir", "q": "Hársfa utca 41 Budapest", "limit": 6 },
+ { "label": "rk-kripta", "q": "Kertész utca 31 Budapest", "limit": 6 },
+ { "label": "rk-amigo", "q": "Hársfa utca 1 Budapest", "limit": 6 },
+ { "label": "rk-godor", "q": "Király utca 50 Budapest", "limit": 6 },
+ { "label": "rk-s8", "q": "Kerepesi út 26 Budapest", "limit": 5 },
+ { "label": "rk-potkulcs", "q": "Pótkulcs Budapest", "limit": 5 },
+ { "label": "rk-kadarka", "q": "Kadarka bar Budapest", "limit": 4 },
+ { "label": "rk-snaps", "q": "Király utca 95 Budapest", "limit": 5 }
+]
