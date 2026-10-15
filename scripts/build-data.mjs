@@ -202,6 +202,13 @@ const events = R.events.events.map((e) => {
   }));
   applyRatings(ev);
   applyMedia(ev);
+  // our own photo from the night leads; the stadium photos move into the gallery behind it
+  if (e.photo?.src) {
+    ev.gallery = [ev.image, ...(ev.gallery || [])].filter(Boolean);
+    ev.image = e.photo.src; ev.imageKind = 'ours'; ev.imageCaption = e.photo.caption || null;
+  }
+  // full time: score line, a few lines on the match and a link to the report
+  if (e.result) ev.result = e.result;
   validate(ev);
   return ev;
 });

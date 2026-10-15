@@ -32,7 +32,11 @@
         "tripadvisor": null,
         "tripadvisorReviews": null
       },
-      "notes": "21:00 CEST comes from Global Game Guide and UEFA's team-by-team fixture list (secondary reading); Liquipedia shows 16 Oct 21:00 which looks like an error. Re-check uefa.com before leaving. Gates-open time NOT found (set null); typically ~2h before for Fradi European nights, unconfirmed. Face recognition / fan-card-at-entry NOT confirmed either way. Bag rules NOT found. Alcohol: general knowledge only - stadiums sell light beer, no spirits, no taking drinks into the stand. No verified pre-match pubs near the ground (Ráday utca suggestion is general local knowledge)."
+      "notes": "21:00 CEST comes from Global Game Guide and UEFA's team-by-team fixture list (secondary reading); Liquipedia shows 16 Oct 21:00 which looks like an error. Re-check uefa.com before leaving. Gates-open time NOT found (set null); typically ~2h before for Fradi European nights, unconfirmed. Face recognition / fan-card-at-entry NOT confirmed either way. Bag rules NOT found. Alcohol: general knowledge only - stadiums sell light beer, no spirits, no taking drinks into the stand. No verified pre-match pubs near the ground (Ráday utca suggestion is general local knowledge).",
+      "photo": {
+        "src": "images/fradi-plzen-lads.jpg",
+        "caption": "Paul, Chris and Phil at the Groupama Aréna"
+      }
     },
     {
       "id": "karting-hungaroring",

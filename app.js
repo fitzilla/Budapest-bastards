@@ -502,12 +502,17 @@
     if (nearFlat(p)) return `<span class="card-badge">${walkMin(BASE, p) <= 5 ? 'On the doorstep' : 'Near the Airbnb'}</span>`;
     return '';
   }
+  // a played match: 'Full time' card with the score, what happened and a link to the report
+  function resultHtml(r) {
+    return `<div class="d-result"><small>${esc(r.label || 'Full time')}</small><b>${esc(r.score)}</b>${r.scorers ? `<span class="d-result-sc">${esc(r.scorers)}</span>` : ''}${r.summary ? `<p>${esc(r.summary)}</p>` : ''}${r.link ? `<a class="btn btn-soft" href="${esc(r.link)}" target="_blank" rel="noopener">${icon('ext')}${esc(r.linkText || 'Match report')}</a>` : ''}</div>`;
+  }
   function cardLines(p, { long } = {}) {
     const lines = [];
     if (p.type === 'event') {
       const d = at(p.date, p.start || '00:00');
       lines.push(`<p class="card-line"><b>${esc(DAY_FMT.format(d))} · ${esc(p.start || 'TBC')}</b></p>`);
       lines.push(`<p class="card-line">${esc(p.venue)}</p>`);
+      if (p.result) lines.push(`<p class="card-line"><b>${esc(p.result.label || 'Full time')}: ${esc(p.result.score)}</b></p>`);
       if (whoLabel(p.who)) lines.push(`<p class="card-line">${esc(whoLabel(p.who))}</p>`);
       return lines.join('');
     }
@@ -946,6 +951,7 @@
         const wx = it.booked && it.kind === 'event' ? wxAt(it.date, it.time) : null;
         const links = [];
         if (ref && ref.id !== 'base') links.push(`<a class="chip chip-sm" href="#/p/${esc(ref.id)}">${icon(iconOf(ref), 'ic-sm')}${esc(ref.type === 'event' ? 'Details' : ref.name)}</a>`);
+        if (ref?.result?.link) links.push(`<a class="chip chip-sm" href="${esc(ref.result.link)}" target="_blank" rel="noopener">${icon('ext', 'ic-sm')}${esc(ref.result.linkText || 'Match report')}</a>`);
         if (ref && ref.id === 'base') links.push(`<a class="chip chip-sm" href="#/p/base">${icon('home', 'ic-sm')}The Airbnb</a>`);
         if (ref && ref.lat != null && !ref.hidePin) links.push(`<a class="chip chip-sm" href="${esc(gmapsUrl(ref))}" target="_blank" rel="noopener">${icon('pin', 'ic-sm')}Google Maps</a>`);
         for (const r of refs) links.push(`<a class="chip chip-sm" href="#/p/${esc(r.id)}">${esc(r.name)}</a>`);
@@ -955,6 +961,7 @@
           <div class="tl-body">
             <h3 class="tl-title">${esc(it.title)}</h3>
             ${it.sub ? `<p class="tl-sub">${esc(it.sub)}</p>` : ''}
+            ${ref?.result ? `<p class="tl-sub tl-result"><b>${esc(ref.result.label || 'Full time')}: ${esc(ref.result.score)}</b></p>` : ''}
             <div class="tl-meta">
               ${it.booked ? '<span class="badge badge-booked">Booked</span>' : it.kind === 'idea' ? '<span class="badge badge-idea">Idea</span>' : ''}
               ${wx ? `<span class="badge badge-wx">${wxi(WMO(wx.code, isNightHour(it.time)).k, 'wxi-xs')}${wx.temp}°${wx.rain != null ? ` · ${esc(rainWord(wx.rain))}` : ''}</span>` : ''}
@@ -1181,6 +1188,7 @@
         <div><small>${p.arriveFrom ? 'Gates' : 'Weather'}</small><b>${esc(p.arriveFrom || (wx ? wx.temp + '°' : '–'))}</b><span>${p.arriveFrom ? 'open' : wx ? esc(WMO(wx.code, isNightHour(p.start)).t) : 'forecast soon'}</span></div>
       </div>`);
       if (whoLabel(p.who)) parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
+      if (p.result) parts.push(resultHtml(p.result));
     }
     if (p.type === 'base') {
       if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>${p.address ? `The booking gives ${esc(p.address.split(',')[0])} but no house number, so the pin sits ${p.near ? `by ${esc(p.near)}` : 'where the listing map shows it'}.` : `This is where it shows on the Airbnb listing map${p.near ? `, beside ${esc(p.near)}` : ''}. Full address coming soon.`} Every distance and walking time in the app is measured from this spot.</div></div>`);
@@ -1258,6 +1266,7 @@
       : p.imageKind === 'view' ? `The view${p.imageCaption ? ' ' + p.imageCaption : ''} · Wikimedia Commons`
       : p.imageKind === 'listing' ? 'Photos from the Airbnb listing'
       : p.imageKind === 'website' ? `Photo: ${p.imageCredit || 'the venue’s website'}`
+      : p.imageKind === 'ours' ? `Our photo${p.imageCaption ? ': ' + p.imageCaption : ''}`
       : 'Photo: Wikimedia Commons';
     const page = p.imageKind === 'listing' ? p.links?.web : p.imageKind === 'website' ? (p.imageSource || p.links?.web) : filePage(imgOf(p));
     const credit = !creditText ? '' : page

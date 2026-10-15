@@ -199,14 +199,17 @@ window.BB_DATA = {
     "book": "https://meccsjegy.fradi.hu/jegyarak?lang=en",
     "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d7074492-Reviews-Groupama_Arena-Budapest_Central_Hungary.html"
    },
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Groupama_Arena_Budapest_%2817267881892%29.jpg/960px-Groupama_Arena_Budapest_%2817267881892%29.jpg",
+   "image": "images/fradi-plzen-lads.jpg",
    "district": null,
    "price": null,
    "gallery": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Groupama_Arena_Budapest_%2817267881892%29.jpg/960px-Groupama_Arena_Budapest_%2817267881892%29.jpg",
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Groupama_Ar%C3%A9na_f%C5%91bej%C3%A1rat.JPG/960px-Groupama_Ar%C3%A9na_f%C5%91bej%C3%A1rat.JPG",
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Groupama_Arena_02.jpg/960px-Groupama_Arena_02.jpg"
    ],
-   "wiki": "hu:Groupama Aréna"
+   "wiki": "hu:Groupama Aréna",
+   "imageKind": "ours",
+   "imageCaption": "Paul, Chris and Phil at the Groupama Aréna"
   },
   {
    "id": "karting-hungaroring",
