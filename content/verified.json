@@ -1,318 +1,317 @@
 {
- "_readme": "Facts checked in October 2026 (open status, hours, prices). Applied after copyedit.json and before overrides.json.",
- "barhole-music": {
-  "status": "open",
-  "hours": "Mon–Thu 17:00–02:00 · Fri–Sat 17:00–04:00 · Sun closed",
-  "note": "Hours from listings; check the gig calendar for 15–17 Oct.",
-  "priceText": null,
-  "address": null
- },
- "blastbeat-bar": {
-  "status": "unknown",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "a38-ship": {
-  "status": "open",
-  "hours": "Restaurant daily from 08:00 · Gigs from about 19:00 · Club nights 23:30–04:00",
-  "note": "Event-driven: check the a38.hu programme for your nights.",
-  "priceText": null,
-  "address": null
- },
- "akvarium-klub": {
-  "status": "open",
-  "note": "Shows are listed into autumn 2026: check akvariumklub.hu for what is on.",
-  "hours": null,
-  "priceText": null,
-  "address": null
- },
- "hard-rock-cafe-budapest": {
-  "status": "open",
-  "hours": "Sun–Thu 12:00–23:00 · Fri–Sat 12:00–00:00",
-  "address": "Váci utca 1 (corner of Deák Ferenc utca), 1052 Budapest",
-  "priceText": null,
-  "note": null
- },
- "robot-club": {
-  "status": "open",
-  "hours": "Inside Instant-Fogas (daily 18:00–06:00) · The Robot room is busiest Thu–Sat",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "red-ruin": {
-  "status": "open",
-  "hours": "Daily 14:00–04:00 (some guides say from 16:00)",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "for-sale-pub": {
-  "status": "open",
-  "hours": "Daily from 12:00 or 14:00 until about 01:00",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "gozsdu-udvar": {
-  "status": "open",
-  "hours": "The passage is open round the clock; each bar sets its own hours, mostly late",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "boutiq-bar": {
-  "status": "open",
-  "hours": "Wed 18:00–00:00 · Thu 18:00–01:00 · Fri–Sat 18:00–02:00 · Sun–Tue closed",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "elesztohaz": {
-  "status": "open",
-  "hours": "Daily 15:00–03:00 (some listings say 04:00) · Kitchen until 23:00",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "ziccer-trollfoci-sport-pub": {
-  "status": "open",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "madhouse-by-mad-scientist": {
-  "status": "open",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "first-craft-beer-bbq": {
-  "status": "open",
-  "hours": "Mon–Wed, Sun 12:00–01:00 · Thu–Sat 12:00–02:00",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "csak-a-jo-sor": {
-  "status": "open",
-  "hours": "Mon–Sat 14:00–22:00 · Sun closed (one listing says it shuts at 19:00)",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "instant-fogas": {
-  "status": "open",
-  "hours": "Daily 18:00–06:00 · Busiest Thu–Sat",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "koleves-kert": {
-  "status": "open",
-  "hours": "Tue–Wed, Sun 12:00–22:00 · Thu–Sat 12:00–23:00 · Mon closed",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "360-bar": {
-  "status": "open",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "champs-sports-pub": {
-  "status": "open",
-  "hours": "Daily from about 12:00 until 23:30 · Sat until 02:00",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "lampas": {
-  "status": "open",
-  "hours": "Daily from about 16:00 (Time Out); older listings say Wed–Sat until 04:00",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "backstage-pub": {
-  "status": "open",
-  "hours": "Thu 19:00–00:00 · Fri–Sat 19:00–04:00 · Sun–Wed closed",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "stifler-sport-bar": {
-  "status": "open",
-  "hours": "Daily about 13:00–05:00",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "frici-papa": {
-  "status": "open",
-  "hours": "Mon–Sat about 11:00–22:00 (kitchen may stop earlier) · Sun closed",
-  "priceText": "Daily menu under about 3,000 HUF (£7). Cash preferred.",
-  "note": null,
-  "address": null
- },
- "stand25-bisztro": {
-  "status": "open",
-  "hours": "Mon–Sat 12:00–16:00 and 17:30–00:00 · Sun closed",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "hold-street-market": {
-  "status": "unknown",
-  "note": "Now branded Belvárosi Piac (Downtown Market).",
-  "hours": null,
-  "priceText": null,
-  "address": null
- },
- "rumour": {
-  "status": "open",
-  "address": "Petőfi tér 3, 1051 Budapest",
-  "hours": null,
-  "priceText": null,
-  "note": null
- },
- "hungarian-parliament": {
-  "status": "open",
-  "hours": "Tours daily in time slots, roughly 08:00–16:00, from the Visitor Centre · Restricted on sitting days",
-  "priceText": "EU/EEA passport (Irish): 7,000 HUF adult. Non-EU passport (British): 14,000 HUF adult. Official 2026 prices; bring the passport you booked with.",
-  "note": null,
-  "address": null
- },
- "fishermans-bastion": {
-  "status": "open",
-  "hours": "Lower terraces free 24/7 · Upper terrace ticketed 09:00–19:00, free outside those hours",
-  "priceText": "Upper terrace 1,700 HUF adult (850 reduced) · Lower terraces free",
-  "note": null,
-  "address": null
- },
- "matthias-church": {
-  "status": "open",
-  "priceText": "Church 3,400 HUF adult (5,000 with audioguide) · Tower is a separate ticket, about 4,000 HUF",
-  "hours": null,
-  "note": null,
-  "address": null
- },
- "hospital-in-the-rock": {
-  "status": "open",
-  "priceText": "Guided tour only, about €30 (around £26) per adult, charged in HUF. Sources disagree, so check when you book. Pay by card.",
-  "hours": null,
-  "note": null,
-  "address": null
- },
- "house-of-terror": {
-  "status": "open",
-  "hours": "Tue–Sun 10:00–18:00 · Mon closed",
-  "note": "It closed in mid-September 2026 for a content review and reopened on 22 Sep.",
-  "priceText": null,
-  "address": null
- },
- "dohany-synagogue": {
-  "status": "open",
-  "hours": "Closed Sat 17 Oct (Sabbath) · Sun 18 Oct from 10:00 to about 16:00, last ticket an hour before closing",
-  "priceText": "About 14,500 HUF per adult (Sep 2026 guide); older guides quote less.",
-  "note": null,
-  "address": null
- },
- "st-stephens-basilica": {
-  "status": "open",
-  "hours": "Church Mon–Sat about 09:00–17:45 (Sat can close early for weddings), Sun from 13:00 · Dome terrace daily 09:00–19:00",
-  "priceText": "Church 2,600 HUF · Dome terrace and treasury 5,000 HUF · Combined 6,800 HUF",
-  "note": null,
-  "address": null
- },
- "buda-castle-labyrinth": {
-  "status": "unknown",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "cave-church": {
-  "status": "open",
-  "hours": "Mon–Sat 09:30–19:30 · Sun closed · No visits during Mass",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "rudas-baths": {
-  "status": "open",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "szechenyi-baths": {
-  "status": "open",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "dandar-baths": {
-  "status": "open",
-  "hours": "Daily from about 09:00; closing time varies (around 19:00)",
-  "priceText": "Indoor about 3,500 HUF weekdays, 4,000 weekends; with sauna about 4,000–4,500 HUF. 2026 rises reported.",
-  "note": "Fully reopened after its renovation. 14+ only.",
-  "address": null
- },
- "veli-bej-bath": {
-  "status": "open",
-  "hours": "Mon–Tue 15:00–21:00 · Wed–Sun 06:00–12:00 and 15:00–21:00 · 14+ only",
-  "note": "Shut for maintenance in late August; ring +36 1 438 8400 to check it has reopened.",
-  "priceText": null,
-  "address": null
- },
- "gellert-hill-citadella": {
-  "status": "open",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "ecseri-flea-market": {
-  "status": "open",
-  "hours": null,
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "communist-free-walking-tour": {
-  "status": "unknown",
-  "address": "Szent István tér 1, 1051 Budapest (St Stephen’s Basilica)",
-  "note": "This is the meeting point for Guruwalk’s “Reds in Budapest” tour. Other operators meet elsewhere, so check your booking.",
-  "hours": null,
-  "priceText": null
- },
- "great-market-hall": {
-  "status": "open",
-  "hours": "Mon–Fri 06:00–18:00 · Sat 06:00–15:00 · Sun mostly shut, so go on Saturday",
-  "priceText": null,
-  "note": null,
-  "address": null
- },
- "sparty-szechenyi": {
-  "status": "unknown",
-  "hours": "Saturday nights about 21:30–02:00 (Premium warm-up from 19:00) · 18+",
-  "note": "We could not confirm a Sat 17 Oct date yet: check the official booking page before you plan around it.",
-  "priceText": null,
-  "address": null
- },
- "zugliget-chairlift": {
-  "status": "open",
-  "hours": "Closed for maintenance until Fri 16 Oct; due to reopen Sat 17 Oct, about 10:00–17:00, weather permitting",
-  "priceText": null,
-  "note": null,
-  "address": null
- }
+  "_readme": "Facts checked in October 2026 (open status, hours, prices). Applied after copyedit.json and before overrides.json.",
+  "barhole-music": {
+    "status": "open",
+    "hours": "Mon–Thu 17:00–02:00 · Fri–Sat 17:00–04:00 · Sun closed",
+    "note": "Hours from listings; check the gig calendar for 15–17 Oct.",
+    "priceText": null,
+    "address": null
+  },
+  "blastbeat-bar": {
+    "status": "unknown",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "a38-ship": {
+    "status": "open",
+    "hours": "Restaurant daily from 08:00 · Gigs from about 19:00 · Club nights 23:30–04:00",
+    "note": "Event-driven: check the a38.hu programme for your nights.",
+    "priceText": null,
+    "address": null
+  },
+  "akvarium-klub": {
+    "status": "open",
+    "note": "Shows are listed into autumn 2026: check akvariumklub.hu for what is on.",
+    "hours": null,
+    "priceText": null,
+    "address": null
+  },
+  "hard-rock-cafe-budapest": {
+    "status": "open",
+    "hours": "Sun–Thu 12:00–23:00 · Fri–Sat 12:00–00:00",
+    "address": "Váci utca 1 (corner of Deák Ferenc utca), 1052 Budapest",
+    "priceText": null,
+    "note": null
+  },
+  "robot-club": {
+    "status": "open",
+    "hours": "Inside Instant-Fogas (daily 18:00–06:00) · The Robot room is busiest Thu–Sat",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "red-ruin": {
+    "status": "open",
+    "hours": "Daily 14:00–04:00 (some guides say from 16:00)",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "for-sale-pub": {
+    "status": "open",
+    "hours": "Daily from 12:00 or 14:00 until about 01:00",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "gozsdu-udvar": {
+    "status": "open",
+    "hours": "The passage is open round the clock; each bar sets its own hours, mostly late",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "boutiq-bar": {
+    "status": "open",
+    "hours": "Wed 18:00–00:00 · Thu 18:00–01:00 · Fri–Sat 18:00–02:00 · Sun–Tue closed",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "elesztohaz": {
+    "status": "open",
+    "hours": "Daily 15:00–03:00 (some listings say 04:00) · Kitchen until 23:00",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "ziccer-trollfoci-sport-pub": {
+    "status": "open",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "madhouse-by-mad-scientist": {
+    "status": "open",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "first-craft-beer-bbq": {
+    "status": "open",
+    "hours": "Mon–Wed, Sun 12:00–01:00 · Thu–Sat 12:00–02:00",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "csak-a-jo-sor": {
+    "status": "open",
+    "hours": "Mon–Sat 14:00–22:00 · Sun closed (one listing says it shuts at 19:00)",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "instant-fogas": {
+    "status": "open",
+    "hours": "Daily 18:00–06:00 · Busiest Thu–Sat",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "koleves-kert": {
+    "status": "open",
+    "hours": "Tue–Wed, Sun 12:00–22:00 · Thu–Sat 12:00–23:00 · Mon closed",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "360-bar": {
+    "status": "open",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "champs-sports-pub": {
+    "status": "open",
+    "hours": "Daily from about 12:00 until 23:30 · Sat until 02:00",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "lampas": {
+    "status": "open",
+    "hours": "Daily from about 16:00 (Time Out); older listings say Wed–Sat until 04:00",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "backstage-pub": {
+    "status": "open",
+    "hours": "Thu 19:00–00:00 · Fri–Sat 19:00–04:00 · Sun–Wed closed",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "stifler-sport-bar": {
+    "status": "open",
+    "hours": "Daily about 13:00–05:00",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "frici-papa": {
+    "status": "open",
+    "hours": "Mon–Sat about 11:00–22:00 (kitchen may stop earlier) · Sun closed",
+    "priceText": "Daily menu under about 3,000 HUF (£7). Cash preferred.",
+    "note": null,
+    "address": null
+  },
+  "stand25-bisztro": {
+    "status": "open",
+    "hours": "Mon–Sat 12:00–16:00 and 17:30–00:00 · Sun closed",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "hold-street-market": {
+    "status": "unknown",
+    "note": "Now branded Belvárosi Piac (Downtown Market).",
+    "hours": null,
+    "priceText": null,
+    "address": null
+  },
+  "rumour": {
+    "status": "open",
+    "address": "Petőfi tér 3, 1051 Budapest",
+    "hours": null,
+    "priceText": null,
+    "note": null
+  },
+  "hungarian-parliament": {
+    "status": "open",
+    "hours": "Tours daily in time slots, roughly 08:00–16:00, from the Visitor Centre · Restricted on sitting days",
+    "priceText": "EU/EEA passport (Irish): 7,000 HUF adult. Non-EU passport (British): 14,000 HUF adult. Official 2026 prices; bring the passport you booked with.",
+    "note": null,
+    "address": null
+  },
+  "fishermans-bastion": {
+    "status": "open",
+    "hours": "Lower terraces free 24/7 · Upper terrace ticketed 09:00–19:00, free outside those hours",
+    "priceText": "Upper terrace 1,700 HUF adult (850 reduced) · Lower terraces free",
+    "note": null,
+    "address": null
+  },
+  "matthias-church": {
+    "status": "open",
+    "priceText": "Church 3,400 HUF adult (5,000 with audioguide) · Tower is a separate ticket, about 4,000 HUF",
+    "hours": null,
+    "note": null,
+    "address": null
+  },
+  "hospital-in-the-rock": {
+    "status": "open",
+    "priceText": "Guided tour only, about €30 (around £26) per adult, charged in HUF. Sources disagree, so check when you book. Pay by card.",
+    "hours": null,
+    "note": null,
+    "address": null
+  },
+  "house-of-terror": {
+    "status": "open",
+    "hours": "Tue–Sun 10:00–18:00 · Mon closed",
+    "priceText": null,
+    "address": null
+  },
+  "dohany-synagogue": {
+    "status": "open",
+    "hours": "Closed Sat 17 Oct (Sabbath) · Sun 18 Oct from 10:00 to about 16:00, last ticket an hour before closing",
+    "priceText": "About 14,500 HUF per adult (Sep 2026 guide); older guides quote less.",
+    "note": null,
+    "address": null
+  },
+  "st-stephens-basilica": {
+    "status": "open",
+    "hours": "Church Mon–Sat about 09:00–17:45 (Sat can close early for weddings), Sun from 13:00 · Dome terrace daily 09:00–19:00",
+    "priceText": "Church 2,600 HUF · Dome terrace and treasury 5,000 HUF · Combined 6,800 HUF",
+    "note": null,
+    "address": null
+  },
+  "buda-castle-labyrinth": {
+    "status": "unknown",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "cave-church": {
+    "status": "open",
+    "hours": "Mon–Sat 09:30–19:30 · Sun closed · No visits during Mass",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "rudas-baths": {
+    "status": "open",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "szechenyi-baths": {
+    "status": "open",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "dandar-baths": {
+    "status": "open",
+    "hours": "Daily from about 09:00; closing time varies (around 19:00)",
+    "priceText": "Indoor about 3,500 HUF weekdays, 4,000 weekends; with sauna about 4,000–4,500 HUF. 2026 rises reported.",
+    "note": "Fully reopened after its renovation. 14+ only.",
+    "address": null
+  },
+  "veli-bej-bath": {
+    "status": "open",
+    "hours": "Mon–Tue 15:00–21:00 · Wed–Sun 06:00–12:00 and 15:00–21:00 · 14+ only",
+    "note": "Shut for maintenance in late August; ring +36 1 438 8400 to check it has reopened.",
+    "priceText": null,
+    "address": null
+  },
+  "gellert-hill-citadella": {
+    "status": "open",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "ecseri-flea-market": {
+    "status": "open",
+    "hours": null,
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "communist-free-walking-tour": {
+    "status": "unknown",
+    "address": "Szent István tér 1, 1051 Budapest (St Stephen’s Basilica)",
+    "note": "This is the meeting point for Guruwalk’s “Reds in Budapest” tour. Other operators meet elsewhere, so check your booking.",
+    "hours": null,
+    "priceText": null
+  },
+  "great-market-hall": {
+    "status": "open",
+    "hours": "Mon–Fri 06:00–18:00 · Sat 06:00–15:00 · Sun mostly shut, so go on Saturday",
+    "priceText": null,
+    "note": null,
+    "address": null
+  },
+  "sparty-szechenyi": {
+    "status": "unknown",
+    "hours": "Saturday nights about 21:30–02:00 (Premium warm-up from 19:00) · 18+",
+    "note": "We could not confirm a Sat 17 Oct date yet: check the official booking page before you plan around it.",
+    "priceText": null,
+    "address": null
+  },
+  "zugliget-chairlift": {
+    "status": "open",
+    "hours": "Closed for maintenance until Fri 16 Oct; due to reopen Sat 17 Oct, about 10:00–17:00, weather permitting",
+    "priceText": null,
+    "note": null,
+    "address": null
+  }
 }

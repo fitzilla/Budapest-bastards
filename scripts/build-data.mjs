@@ -11,6 +11,7 @@ const over = read('content/overrides.json');
 const readOpt = (p, d) => (existsSync(join(root, p)) ? read(p) : d);
 const ratings = readOpt('content/ratings.json', {});
 const wiki = readOpt('content/wiki.json', {});
+const suggestionsSrc = readOpt('content/suggestions.json', { items: [] }).items || [];
 const images = readOpt('content/images.json', {});
 const illustrative = readOpt('content/illustrative.json', {});
 const copyedit = readOpt('content/copyedit.json', { patch: {} }).patch || {};
@@ -322,6 +323,12 @@ for (const day of trip.plan) {
     if (fl && it.flight === 'home' && /departs/i.test(it.title) && it.time !== fl.departs) warnings.push(`timing: "${it.title}" says ${it.time}, flight ${fl.number} departs ${fl.departs}`);
   }
 }
+// the Airbnb check-in/out in the plan must match the booking times on trip.base
+for (const day of trip.plan) for (const it of day.items) {
+  if (it.ref !== 'base') continue;
+  const want = /check in/i.test(it.title) ? trip.base.checkIn : /check out/i.test(it.title) ? trip.base.checkOut : null;
+  if (want && !String(want).includes(it.time)) warnings.push(`timing: plan "${it.title}" says ${it.time}, trip.base says "${want}"`);
+}
 // the airport deadline must leave at least 90 minutes before the flight home
 {
   const toMin = (t) => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
@@ -349,6 +356,15 @@ for (const le of R.events.localEvents || []) {
 // ---- practical (drop emoji; the app draws its own icons)
 const practical = (Array.isArray(practicalOverride) ? practicalOverride : R.events.practical).map(({ emoji, ...s }) => s);
 
+// ---- suggestions (not booked): refs must exist, dates must sit in the trip
+const tripDays = new Set(trip.plan.map((d) => d.date));
+const suggestions = suggestionsSrc.filter((s) => {
+  if (s.ref && !places.some((p) => p.id === s.ref)) { warnings.push(`suggestion ${s.id}: unknown ref ${s.ref}`); return false; }
+  if (!tripDays.has(s.date)) warnings.push(`suggestion ${s.id}: ${s.date} isn't a trip day`);
+  if (s.image && !/^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\//.test(s.image)) { warnings.push(`suggestion ${s.id}: image must be a Commons FilePath URL`); delete s.image; }
+  return true;
+});
+
 const out = {
   built: new Date().toISOString().slice(0, 10),
   trip: trip.trip,
@@ -364,6 +380,7 @@ const out = {
   climate: R.events.weatherClimate,
   localEvents: R.events.localEvents,
   shopsInfo: R.shops.goodToKnow || [],
+  suggestions,
   sparty: R.sights.sparty,
   sources: [...new Set([...R.events.sources, ...R.bars.sources, ...(R.barsExtra.sources || []), ...R.food.sources, ...(R.coffee.sources || []), ...R.sights.sources, ...(R.casinos.sources || []),
     ...Object.values(ratings).flatMap((r) => r?.sources || [])])],
@@ -391,7 +408,7 @@ const direct = (u) => {
     if (k === 'sources') continue;
     if (typeof x === 'string') v[k] = direct(x); else relink(x);
   }
-})({ events, airport, places, dishes, base: trip.base });
+})({ events, airport, places, dishes, base: trip.base, suggestions });
 console.log(`photos: ${directCount} linked straight to Wikimedia's image servers`);
 
 writeFileSync(join(root, 'data.js'),

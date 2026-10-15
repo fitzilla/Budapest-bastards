@@ -30,7 +30,8 @@
         "cheap",
         "late-night",
         "soup"
-      ]
+      ],
+      "hours": "Mon–Sat 11:30–21:30 (Fri–Sat to 22:00) · Sunday may be closed, so check first. Expect a lunchtime queue."
     },
     "karavan": {
       "lat": 47.4973,
@@ -44,7 +45,8 @@
     "koleves-kert": {
       "lat": 47.4983,
       "lng": 19.0643,
-      "pick": true
+      "pick": true,
+      "unconfirmed": true
     },
     "koleves-vendeglo": {
       "lat": 47.49852,
@@ -82,7 +84,8 @@
     "szimply": {
       "lat": 47.4992,
       "lng": 19.0567,
-      "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the Sunday recovery here."
+      "tip": "Eggs Benedict or a big brunch plate. No Sunday service, so don't plan the Sunday recovery here.",
+      "hours": "Mon–Sat 08:00–16:00 · Sun closed"
     },
     "house-of-terror": {
       "lat": 47.50695,
@@ -130,7 +133,10 @@
       "blurb": "Neo-Gothic food cathedral. Paprika, sausages, pálinka downstairs; lángos and goulash upstairs. Do it Saturday morning: most of it is shut on Sunday."
     },
     "szimpla-farmers-market": {
-      "hidePin": true
+      "hidePin": true,
+      "lat": 47.49695,
+      "lng": 19.06323,
+      "approx": false
     },
     "sparty-szechenyi": {
       "hidePin": true,
@@ -150,7 +156,8 @@
     },
     "madhouse-by-mad-scientist": {
       "lat": 47.4989,
-      "lng": 19.0566
+      "lng": 19.0566,
+      "unconfirmed": true
     },
     "first-craft-beer-bbq": {
       "lat": 47.4979,
@@ -249,7 +256,8 @@
       "must": true
     },
     "szechenyi-baths": {
-      "must": true
+      "must": true,
+      "notes": "A phased renovation started in late August 2026, mainly in the women’s thermal section, so some indoor pools may be shut. The big outdoor pools are open."
     },
     "rudas-baths": {
       "must": true
@@ -271,7 +279,9 @@
       "unconfirmed": true
     },
     "buda-castle-labyrinth": {
-      "unconfirmed": true
+      "unconfirmed": false,
+      "hours": "Daily, roughly 10:00–19:30 (some listings say 11:00–18:30). Entry about 5,000 HUF, cash at the door or book online.",
+      "tip": "Bring a jacket; it's chilly down there. Pair it with Hospital in the Rock, five minutes away."
     },
     "communist-free-walking-tour": {
       "lat": 47.50085,
@@ -296,16 +306,34 @@
       "blurb": "One Michelin star since 2019, tucked near Elisabeth Bridge. Modern Hungarian with a bit of flair. Saturday lunch is the easiest table to get."
     },
     "leo-rooftop": {
-      "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset."
+      "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset.",
+      "tip": "Book a table on OpenTable (two-hour slots, cocktails about 6,700–7,500 HUF) and aim for sunset. Smart casual: leave the club shirts at the Airbnb."
     },
     "costes": {
-      "notes": "Costes is in DiningCity Restaurant Week until 18 Oct 2026, the first Michelin-starred restaurant to take part: worth checking for a cheaper set-menu table."
+      "notes": "Costes is in DiningCity Restaurant Week until 18 Oct 2026, the first Michelin-starred restaurant to take part: worth checking for a cheaper set-menu table.",
+      "hours": "Wed–Sat 18:00–23:00 · Sun–Tue closed (Michelin Guide). Restaurant Week runs to 18 Oct and those tables are gone, so book well ahead."
     },
     "dohany-synagogue": {
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Synagoge_Budapest_2014.jpg?width=960"
     },
     "heroes-square": {
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heroes_Square_Budapest_2010_01.jpg?width=960"
+    },
+    "dorado-cafe": {
+      "unconfirmed": false
+    },
+    "hot-stone-steakhouse": {
+      "unconfirmed": false,
+      "hours": "Daily 12:00–00:00 (Time Out). Book for a group."
+    },
+    "arriba-taqueria-terez": {
+      "unconfirmed": true
+    },
+    "madal-cafe-kiraly": {
+      "blurb": "Big, bright branch of a proper Budapest specialty chain, opened late 2024 on Király utca, about 15 minutes' walk from the Airbnb. Good beans, decent croissants and room for the lads to sit."
+    },
+    "rossmann-kiraly-utca-51": {
+      "blurb": "Rossmann on Király utca, about five minutes' walk from the Airbnb. Rossmann says its Budapest shops open on Sundays."
     }
   }
 }

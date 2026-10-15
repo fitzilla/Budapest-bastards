@@ -276,7 +276,7 @@
    "price": 4,
    "hours": "Daily 12:00-00:00 (kitchen to 22:00, last order 23:00). Tables in two-hour slots.",
    "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views and pricey cocktails - one for the pretty photos before the football gets going.",
-   "tip": "Book a table on OpenTable (two-hour slots, cocktails ~6,700-7,500 Ft) and aim for sunset. Smart casual - leave the club shirts at the hotel.",
+   "tip": "Book a table on OpenTable (two-hour slots, cocktails ~6,700-7,500 Ft) and aim for sunset. Smart casual - leave the club shirts at the Airbnb.",
    "image": null,
    "imageCredit": null,
    "links": {
@@ -443,6 +443,299 @@
     "website": null
    },
    "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "trap-cafe",
+   "name": "Trap Café",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 41, 1073 Budapest",
+   "lat": 47.50211,
+   "lng": 19.06737,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "About 2,000–4,000 HUF a head",
+   "hours": "Daily from 10:00, closing somewhere between 00:30 and 03:00 depending on the night (listings vary)",
+   "blurb": "Café by day, bar by night, a two-minute stagger down the körút from the Airbnb. Coffee and breakfast sandwiches, then nachos, cheap beer and DJs.",
+   "tip": "Handy for a first pint on arrival or a hangover breakfast. Happy-hour drinks, and outdoor seats on the boulevard.",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trap_Caf%C3%A9_-_2014.10.11_(1).JPG?width=960",
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "directory-listed-2026"
+  },
+  {
+   "id": "caledonia-scottish-pub",
+   "name": "Caledonia Scottish Pub (Kaledonia)",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "sports"
+   ],
+   "district": "VI",
+   "address": "Mozsár utca 9, 1066 Budapest",
+   "lat": 47.50472,
+   "lng": 19.06067,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "priceText": "Mid-range pub prices; Belhaven on tap, pub grub",
+   "hours": "Daily 14:00–00:00",
+   "blurb": "Scottish pub with Belhaven on tap, haggis on the menu and screens everywhere. The nearest thing to home for footy and rugby.",
+   "tip": "Book a table for big Premiership or rugby fixtures. Shuts at midnight, so roll on to Liszt Ferenc tér after.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "score-sport-bar",
+   "name": "Score! Sport Bar",
+   "type": "bar",
+   "tags": [
+    "sports",
+    "games",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dob utca 65, 1074 Budapest",
+   "lat": 47.50218,
+   "lng": 19.06791,
+   "coordSource": "estimated-from-address",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "Cheap; student-friendly drink prices",
+   "hours": "Tue–Thu & Sun 16:00–00:00, Fri–Sat 16:00–02:00, Mon closed",
+   "blurb": "Massive 400 m² basement just off the Körút: 15+ screens, a maxiscreen, pool and darts, and long benches built for ten lads.",
+   "tip": "Round the corner from the Airbnb. Closed Mondays; open till 2am Friday and Saturday. Young international crowd keeps prices low.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "fekete-kutya",
+   "name": "Fekete Kutya",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "craft-beer",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dob utca 31, 1074 Budapest",
+   "lat": 47.49882,
+   "lng": 19.06204,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "Cheap; local-pub prices for Hungarian craft",
+   "hours": "Mon 17:00–01:00, later at weekends",
+   "blurb": "Tiny, no-nonsense Dob utca boozer pouring rotating Hungarian craft taps. Never trendy, loved by every local who's set foot in it.",
+   "tip": "The room is tiny, so split up or stand at the bar. Takes card. Handy pit-stop on the way to Szimpla.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "kisuzem",
+   "name": "Kisüzem",
+   "type": "bar",
+   "tags": [
+    "quirky",
+    "live-music",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Kis Diófa utca 2, 1077 Budapest",
+   "lat": 47.49975,
+   "lng": 19.0628,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "Cheap; local-bar prices",
+   "hours": "Daily from noon to about midnight (licence limited to midnight since 2023)",
+   "blurb": "Bare-brick corner bar full of artists, musicians and locals. Cheap drinks, jazz and gig nights, zero tourist-trap nonsense.",
+   "tip": "Council licence means it winds down around midnight, so make it an early stop before the late-night places.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "telep",
+   "name": "Telep",
+   "type": "bar",
+   "tags": [
+    "quirky",
+    "live-music",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Madách Imre út 8, 1075 Budapest",
+   "lat": 47.4982,
+   "lng": 19.05799,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "Cheap; scruffy art-bar prices",
+   "hours": "Mon–Fri 12:00–02:00, Sat 16:00–02:00, Sun closed",
+   "blurb": "Three-floor art bar with a gig basement and a crowd spilling onto the pavement. Cheap, scruffy, open till 2am.",
+   "tip": "Closed Sundays. On Thursday and Friday nights the street outside is the party, so grab beers and stand.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "black-swan",
+   "name": "Black Swan Bar",
+   "type": "bar",
+   "tags": [
+    "cocktail",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Klauzál utca 32, 1072 Budapest",
+   "lat": 47.49907,
+   "lng": 19.06508,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "priceText": "Pricey; serious craft cocktails",
+   "hours": "Thu–Sat 18:00–02:00, Sun 18:00–00:00 (other days vary; closed Mon)",
+   "blurb": "Ranked in the Top 500 Bars, this dim, serious cocktail den on Klauzál utca is where you class things up for one night.",
+   "tip": "Book via OpenTable for a group of ten; reservation almost essential. Closed Mondays and hours vary, so check before going.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "kiado-kocsma",
+   "name": "Kiadó Kocsma",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "cheap"
+   ],
+   "district": "VI",
+   "address": "Jókai tér 3, 1061 Budapest",
+   "lat": 47.50481,
+   "lng": 19.06159,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "Cheap to mid; local-pub prices, food served",
+   "hours": "Mon–Fri 14:00–00:00, Sat 16:00–00:00, Sun closed",
+   "blurb": "Proper local pub on Jókai tér, round the corner from Liszt Ferenc tér. Food, a terrace and regulars rather than stag dos.",
+   "tip": "Closed Sundays. Good for a steadier pint and a feed before the Oktogon bars. Last orders around midnight.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "tuk-tuk-bar",
+   "name": "Tuk Tuk Bar",
+   "type": "bar",
+   "tags": [
+    "cocktail"
+   ],
+   "district": "VI",
+   "address": "Paulay Ede utca 31 (Casati Hotel), 1061 Budapest",
+   "lat": 47.50114,
+   "lng": 19.05886,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 3,
+   "priceText": "Pricey; hotel-bar cocktail prices",
+   "hours": "Daily 17:00–00:00 (one listing: Wed–Mon 18:00–00:00)",
+   "blurb": "Crimson drapes, 1920s Shanghai styling and Asian-twist cocktails from proper bartenders. A sharp, grown-up stop.",
+   "tip": "Small room, so phone ahead for weekend seats. Closes at midnight. Pair it with Boutiq'Bar just up the street.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "not-confirmed-this-session"
   }
  ],
  "mtkCheck": {
@@ -472,6 +765,29 @@
   "https://tablejourney.com/hungary/budapest/nightlife/toldi-klub/",
   "https://welovebudapest.com/program/toldi-13-szuletesnap-2025-szeptember/",
   "https://thebettervacation.com/palinka-museum-tickets",
-  "https://www.schlouk-map.com/en/places/palinka-museum"
+  "https://www.schlouk-map.com/en/places/palinka-museum",
+  "https://www.schlouk-map.com/en/places/trap-cafe",
+  "https://intravel.net/budapest/nightlife/trap-cafe-and-bar",
+  "https://www.schlouk-map.com/en/places/kaledonia-skot",
+  "https://hungaryunlocked.com/budapest-best-sports-bars-football-rugby/",
+  "https://www.inyourpocket.com/hungary/budapest/venues/caledonia-budapest-scottish-pub",
+  "https://www.schlouk-map.com/en/places/score",
+  "https://www.schlouk-map.com/en/places/fekete-kutya",
+  "https://tablejourney.com/hungary/budapest/bars/fekete-kutya/",
+  "https://xpatloop.com/channels/2023/08/top-7-plus-1-underground-spots-in-budapest-party-district.html",
+  "https://xpatloop.com/channels/2024/12/insiders-guide-top-10-bars-in-budapest-most-loved-by-locals.html",
+  "https://444.hu/2022/12/22/jovore-ejfelkor-zar-a-kisuzem",
+  "https://www.spottedbylocals.com/budapest/kisuzem/",
+  "https://tablejourney.com/hungary/budapest/nightlife/telep/",
+  "https://www.opentable.co.uk/r/black-swan-bar-budapest",
+  "https://www.enprimeurclub.com/bars/black-swan-lab-budapest-bar",
+  "https://hungaryunlocked.com/ro/baruri-de-cocktailuri-budapesta/",
+  "https://www.schlouk-map.com/en/places/kiado-kocsma",
+  "https://hungaryunlocked.com/it/migliori-ruin-bar-budapest/",
+  "https://tablejourney.com/hungary/budapest/bars/mazel-tov/",
+  "https://tablejourney.com/hungary/budapest/bars/tuk-tuk-bar/",
+  "https://www.airbnb.dk/things-to-do/places/207248",
+  "https://www.timeout.com/hu/budapest/hirek/koltozik-a-kandallo-osszel-hatalmas-burgerpubot-nyit-a-kazinczy-utcaban-090426",
+  "https://welovebudapest.com/en/toplist/budapest-s-10-best-craft-beer-bars"
  ]
 }

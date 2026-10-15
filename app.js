@@ -222,8 +222,9 @@
       id: 'base', type: 'base', name: b.name || 'The Airbnb',
       sub: b.address || (b.localPin ? 'Pinned on this phone' : b.near ? `Near ${b.near} · full address coming soon` : 'Full address coming soon'),
       address: b.address, lat: b.lat ?? null, lng: b.lng ?? null, localPin: !!b.localPin,
-      approx: !b.address && !b.localPin && b.lat != null, near: b.near || null,
-      tags: [], rating: {}, links: { web: b.listing || null }, checkIn: b.checkIn, note: b.note,
+      // no house number yet: the pin is still our best guess, so keep calling it rough
+      approx: !b.pinExact && !b.localPin && b.lat != null, near: b.near || null,
+      tags: [], rating: {}, links: { web: b.listing || null }, checkIn: b.checkIn, checkOut: b.checkOut, access: b.access, flat: b.flat || null, note: b.note,
       title: b.title || null, sleeps: b.sleeps || null, reviews: b.reviews || null,
       image: b.image || null, imageKind: b.image ? 'listing' : undefined, gallery: b.gallery || undefined,
       hidePin: b.lat == null,
@@ -267,7 +268,7 @@
     { id: 'late', label: 'Late & clubs', icon: 'moon', test: (p) => is(p, 'bar') && hasAny(p, ['club', 'late-night']) },
     { id: 'casino', label: 'Casinos', icon: 'dice', note: 'Bring your actual passport (no driving licences): they photograph your ID at the door. 18+, free in, smart casual.', test: (p) => has(p, 'casino') },
     { id: 'sports', label: 'Sports & beer', icon: 'tv', test: (p) => p.type === 'bar' && hasAny(p, ['sports', 'craft-beer']) },
-    { id: 'coffee', label: 'Best coffee', icon: 'coffee', test: (p) => has(p, 'coffee') },
+    { id: 'coffee', label: 'Coffee', icon: 'coffee', test: (p) => has(p, 'coffee') },
     { id: 'history', label: 'History', icon: 'landmark', test: (p) => is(p, 'sight') },
     { id: 'baths', label: 'Baths', icon: 'waves', test: (p) => p.type === 'bath' },
     { id: 'do', label: 'Things to do', icon: 'zap', test: (p) => p.type === 'activity' },
@@ -286,6 +287,7 @@
     userLoc: null,
     onlyFaves: false,
     pendingSelect: null,
+    planView: 'plan', // 'plan' (what's booked) or 'ideas' (suggestions)
   };
   const filterCount = () => state.filters.tags.size + state.filters.price.size + (state.filters.late ? 1 : 0) + (state.filters.rated ? 1 : 0) + (state.filters.sort !== 'rec' ? 1 : 0);
 
@@ -326,7 +328,8 @@
   const priceText = (n) => (n ? '£'.repeat(n) : '');
 
   /* ---------------- links ---------------- */
-  const placeQuery = (p) => (p.address ? `${p.venue || p.name}, ${p.address}` : p.lat != null ? `${p.lat},${p.lng}` : `${p.name}, Budapest`);
+  // the Airbnb goes by its pin: a street with no house number would send Google to the wrong end of it
+  const placeQuery = (p) => (p.type === 'base' ? (p.address && !p.approx ? p.address : p.lat != null ? `${p.lat},${p.lng}` : 'Budapest') : p.address ? `${p.venue || p.name}, ${p.address}` : p.lat != null ? `${p.lat},${p.lng}` : `${p.name}, Budapest`);
   const gmapsUrl = (p) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(placeQuery(p));
   const gdirUrl = (p) => 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(placeQuery(p));
   const taUrl = (p) => p.links?.ta || 'https://www.tripadvisor.co.uk/Search?q=' + encodeURIComponent(`${p.name} Budapest`);
@@ -824,7 +827,13 @@
       const ymd = (x) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Budapest' }).format(x);
       const days = Math.round((Date.parse(ymd(land)) - Date.parse(ymd(t))) / 864e5);
       if (days > 1) { big = days; small = 'days until Budapest'; }
-      else { big = untilText(land); small = 'until Budapest. Passports, lads.'; }
+      else if (days === 1) { big = 1; small = 'day until Budapest'; }
+      else {
+        // landing day: hours, then minutes, kept to one short number so it never wraps
+        const mins = Math.max(1, Math.round((land - t) / 6e4));
+        big = mins >= 60 ? `${Math.floor(mins / 60)}h` : `${mins}m`;
+        small = 'until we land';
+      }
     } else if (t < fly) {
       const dayN = TRIP_DAYS.findIndex((d) => d === new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Budapest' }).format(t)) + 1;
       big = `Day ${dayN || '–'}`; small = 'of four. Pace yourselves. Or don’t.';
@@ -839,7 +848,7 @@
     })() : '';
     return `<section class="hero" aria-label="Trip">
       <p class="hero-eyebrow">Budapest · Thu 15 – Sun 18 Oct 2026</p>
-      <div class="hero-count"><b class="tnum">${esc(big)}</b><span>${esc(small)}</span></div>
+      <div class="hero-count${String(big).length > 3 ? ' is-stacked' : ''}"><b class="tnum">${esc(big)}</b><span>${esc(small)}</span></div>
       ${nextHtml}
       <div data-wx-slot="strip">${wxSlot('strip')}</div>
     </section>`;
@@ -958,13 +967,69 @@
         ${items ? `<ol class="tl">${items}</ol>` : '<p class="tl-empty">Nothing booked.</p>'}
       </section>`;
     }).join('');
+    const seg = `<div class="seg plan-seg" role="group" aria-label="Plan or suggestions">
+        <button type="button" data-act="plan-view" data-view="plan" aria-pressed="${state.planView !== 'ideas'}">Our plan</button>
+        <button type="button" data-act="plan-view" data-view="ideas" aria-pressed="${state.planView === 'ideas'}">Suggestions</button>
+      </div>`;
+    if (state.planView === 'ideas') {
+      pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>What's on while you're here, by date. Not booked; times and tickets can change, so check before you go.</p></header>
+        ${seg}${suggestionsHtml()}`;
+      if (keepScroll) window.scrollTo({ top: y });
+      return;
+    }
     const nextCard = nx ? `<div class="next-card"><small>${nx.live ? 'Happening now' : 'Next up'}</small><strong>${esc(nx.item.title)}</strong><span>${esc(DAY_FMT.format(nx.item.at))} at ${esc(nx.item.time)}${nx.live ? '' : ` · in ${esc(untilText(nx.item.at))}`}</span></div>` : '';
     pane.innerHTML = `<header class="page-head"><h1>The plan</h1><p>Thu 15 – Sun 18 Oct. All times are Budapest time, one hour ahead of the UK.</p></header>
-
+      ${seg}
       ${nextCard}
       ${days}
       <p class="small-print">Only what's booked and paid for. Kick-off times come from your bookings and the club sites; check them again on the day. Tap a flight number to track it live.</p>`;
     if (keepScroll) window.scrollTo({ top: y });
+  }
+
+  /* ---------------- suggestions: not booked, worth a look ---------------- */
+  const SUG_DAY = new Intl.DateTimeFormat('en-GB', { weekday: 'long', day: 'numeric', timeZone: 'Europe/Budapest' });
+  function suggestionCard(s) {
+    const ref = s.ref ? byId.get(s.ref) : null;
+    // a stand-in place for the shared media() tile: the suggestion's own photo first, else the venue's
+    const pic = { id: `sug-${s.id}`, name: s.title, type: ref?.type || 'activity', tags: ref?.tags || [], district: null,
+      image: s.image || ref?.image || null, imageKind: s.image ? s.imageKind : ref?.imageKind, wiki: s.image ? null : ref?.wiki };
+    const links = [];
+    if (s.tickets) links.push(`<a class="chip chip-sm" href="${esc(s.tickets)}" target="_blank" rel="noopener">${icon('ticket', 'ic-sm')}${esc(s.ticketLabel || 'Tickets')}</a>`);
+    if (ref) links.push(`<a class="chip chip-sm" href="#/p/${esc(ref.id)}">${icon(iconOf(ref), 'ic-sm')}${esc(ref.name)}</a>`);
+    const mapUrl = ref && ref.lat != null ? gmapsUrl(ref) : s.mapQuery ? 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.mapQuery) : null;
+    if (mapUrl) links.push(`<a class="chip chip-sm" href="${esc(mapUrl)}" target="_blank" rel="noopener">${icon('pin', 'ic-sm')}Google Maps</a>`);
+    return `<article class="sug">
+      <div class="card-media">${media(pic, { top: s.tag })}</div>
+      <div class="sug-body">
+        <p class="sug-when">${esc(s.when)}</p>
+        <h3 class="sug-title">${esc(s.title)}</h3>
+        <p class="sug-where">${icon('pin', 'ic-sm')}${esc(s.where)}</p>
+        <p class="sug-blurb">${esc(s.blurb)}</p>
+        ${s.check ? `<p class="sug-check">${icon('info', 'ic-sm')}${esc(s.check)}</p>` : ''}
+        ${links.length ? `<div class="tl-links">${links.join('')}</div>` : ''}
+      </div>
+    </article>`;
+  }
+  function suggestionsHtml() {
+    const t = now().getTime();
+    // drop anything that's finished, so the list stays useful during the trip
+    const live = (D.suggestions || []).filter((s) => Date.parse(`${s.until || s.date}T23:59:00+02:00`) > t);
+    if (!live.length) return '<p class="tl-empty">Nothing left to suggest. Hope it was a good one.</p>';
+    // grouped by date: a multi-day listing sits under its first day, or under today once it's running
+    const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Budapest' }).format(now());
+    const groups = new Map();
+    for (const s of live) {
+      const key = s.until && s.date < today ? today : s.date;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(s);
+    }
+    return [...groups.keys()].sort().map((k) => {
+      const title = SUG_DAY.format(new Date(`${k}T12:00:00+02:00`));
+      // running all weekend first, then by start time, then anything still without a time
+      const rank = (x) => (x.until ? '0' : x.time ? '1' + x.time : '2');
+      const items = groups.get(k).sort((a, b) => rank(a).localeCompare(rank(b)));
+      return `<section class="day sug-day"><div class="day-head"><h2>${esc(title)}</h2></div><div class="sug-list">${items.map(suggestionCard).join('')}</div></section>`;
+    }).join('');
   }
 
   /* ---------------- rendering: faves ---------------- */
@@ -1020,7 +1085,7 @@
         <span class="shop-txt"><b>${esc(p.name)}</b><small>${esc([labelOf(p), distText(p)].filter(Boolean).join(' · '))}</small>${p.hours ? `<small>${esc(p.hours)}</small>` : ''}</span>${icon('chev')}</a></li>`).join('')}</ul>
       ${(D.shopsInfo || []).map((g) => `<div class="callout">${icon('info')}<div><strong>${esc(g.title)}</strong>${esc(g.body)}${g.link ? ` <a href="${esc(g.link)}" target="_blank" rel="noopener">Source</a>` : ''}</div></div>`).join('')}
       <a class="btn btn-line" href="#/c/shops">${icon('map')}Show them on the map</a>`;
-    const baseBody = `<dl class="kv">${B.title ? `<dt>Listing</dt><dd>${esc(B.title)}</dd>` : ''}<dt>Address</dt><dd>${esc(B.address || 'Full address coming soon')}</dd>${B.sleeps ? `<dt>Sleeps</dt><dd>${esc(B.sleeps)}</dd>` : ''}${B.reviews ? `<dt>Reviews</dt><dd>${esc(B.reviews)}</dd>` : ''}<dt>Check-in</dt><dd>${esc(B.checkIn || 'TBC')}</dd></dl>
+    const baseBody = `<dl class="kv">${B.title ? `<dt>Listing</dt><dd>${esc(B.title)}</dd>` : ''}<dt>Address</dt><dd>${esc(B.address || 'Full address coming soon')}</dd>${B.flat ? `<dt>Flat</dt><dd>${esc(B.flat)}</dd>` : ''}${B.sleeps ? `<dt>Sleeps</dt><dd>${esc(B.sleeps)}</dd>` : ''}${B.reviews ? `<dt>Reviews</dt><dd>${esc(B.reviews)}</dd>` : ''}<dt>Check-in</dt><dd>${esc(B.checkIn || 'TBC')}</dd>${B.checkOut ? `<dt>Check-out</dt><dd>${esc(B.checkOut)}</dd>` : ''}${B.access ? `<dt>Getting in</dt><dd>${esc(B.access)}</dd>` : ''}</dl>
       <p>${esc(D.base.note)}</p>
       ${D.base.lat == null ? `<div class="base-form">
         <div class="field"><label for="basePaste">Paste a Google Maps link or coordinates</label><input id="basePaste" type="text" inputmode="url" placeholder="e.g. 47.4979, 19.0632" autocomplete="off"></div>
@@ -1050,7 +1115,7 @@
     const P = (id) => practical.find((x) => x.id === id)?.html || '';
 
     const phrases = D.phrases.map((p) => `<div class="phrase"><div><b>${esc(p.hu)}</b><small>${esc(p.en)}</small></div><span>${esc(p.say)}</span></div>`).join('');
-    const events = (D.localEvents || []).filter((e) => !/not in window/i.test(e.name)).map((e) => `<div><h3>${esc(e.name)}</h3><p class="muted">${esc(e.date)} · ${esc(e.where)}</p><p>${esc(e.body)}</p></div>`).join('');
+    const events = (D.suggestions || []).length ? `<p>Gigs, football, Sparty and a few Saturday ideas, with times, tickets and photos, all in one place.</p><a class="btn btn-soft" href="#/plans/ideas">${icon('calendar')}See the suggestions</a>` : '';
     const homeScreen = `<p><b>iPhone:</b> open this page in Safari, tap Share, then <b>Add to Home Screen</b>. It opens full-screen like an app.</p>
       <p><b>Android:</b> in Chrome, tap ⋮ then <b>Add to Home screen</b> (or <b>Install app</b>).</p>
       <p>Every place has its own link. Tap share on any page to send it to the group chat.</p>
@@ -1114,8 +1179,8 @@
       if (whoLabel(p.who)) parts.push(`<p class="who" style="font-size:14px">${icon('users')}${esc(whoLabel(p.who))}</p>`);
     }
     if (p.type === 'base') {
-      if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>This is where it shows on the Airbnb listing map${p.near ? `, beside ${esc(p.near)}` : ''}. Full address coming soon. Every distance and walking time in the app is measured from this spot.</div></div>`);
-      const facts = [p.sleeps && fact('users', 'Sleeps', p.sleeps), p.reviews && fact('star', 'Reviews', p.reviews)].filter(Boolean);
+      if (p.approx) parts.push(`<div class="callout">${icon('pin')}<div><strong>Roughly here</strong>${p.address ? `The booking gives ${esc(p.address.split(',')[0])} but no house number, so the pin sits ${p.near ? `by ${esc(p.near)}` : 'where the listing map shows it'}.` : `This is where it shows on the Airbnb listing map${p.near ? `, beside ${esc(p.near)}` : ''}. Full address coming soon.`} Every distance and walking time in the app is measured from this spot.</div></div>`);
+      const facts = [p.address && fact('pin', 'Address', p.address, true), p.flat && fact('home', 'Flat', p.flat), p.checkIn && fact('clock', 'Check-in', p.checkIn), p.checkOut && fact('clock', 'Check-out', p.checkOut), p.access && fact('idcard', 'Getting in', p.access), p.sleeps && fact('users', 'Sleeps', p.sleeps), p.reviews && fact('star', 'Reviews', p.reviews)].filter(Boolean);
       if (facts.length) parts.push(`<div class="d-facts">${facts.join('')}</div>`);
       parts.push(`<p class="d-blurb">${esc(p.note || '')}</p>`);
       parts.push(`<div class="d-actions">${p.lat != null ? `<a class="btn btn-primary" href="${esc(gdirUrl(p))}" target="_blank" rel="noopener">${icon('nav')}Directions home</a>` : ''}<a class="btn btn-soft" href="#/info" data-act="goto-base-info">${icon('pin')}${p.lat != null ? 'Change pin' : 'Set the pin'}</a>${p.links.web ? `<a class="btn btn-soft" href="${esc(p.links.web)}" target="_blank" rel="noopener">${icon('ext')}Listing</a>` : ''}</div>`);
@@ -1414,6 +1479,7 @@
         mapReady = true;
         buildMarkers();
         syncMarkers();
+        autoLocate();
         if (state.pendingSelect) { const id = state.pendingSelect; state.pendingSelect = null; setTimeout(() => selectPin(id, { fly: true, card: true }), 100); }
         else if (state.cat !== 'all' || state.onlyFaves || state.tab !== 'explore') fitVisible();
       }
@@ -1431,6 +1497,7 @@
     });
     const stopTour = () => { fitGen++; if (tour) endTour(); };
     map.on('dragstart', stopTour);
+    map.on('zoom', paintMe); // keep the accuracy ring true to scale
     map.on('zoomstart', (e) => { if (e.originalEvent) stopTour(); });
     $('#ctrl3d').setAttribute('aria-pressed', want3D);
   }
@@ -1513,7 +1580,7 @@
 
   function pinHtml(p) {
     if (p.type === 'travel') return `<span class="pin-dot">${icon('plane')}</span><span class="pin-label">Airport<small>Terminal 2 · BUD</small></span>`;
-    if (p.type === 'base') return `<span class="pin-dot">${icon('home')}</span><span class="pin-label">The Airbnb<small>${esc(p.approx ? 'full address soon' : p.address || 'our base')}</small></span>`;
+    if (p.type === 'base') return `<span class="pin-dot">${icon('home')}</span><span class="pin-label">The Airbnb<small>${esc(p.address ? p.address.split(',')[0] : p.approx ? 'full address soon' : 'our base')}</small></span>`;
     const label = p.type === 'event' ? `${esc(shortEventName(p))}<small>${esc(WEEKDAY.format(at(p.date, p.start || '00:00')))} ${esc(p.start || '')}</small>` : esc(p.name);
     return `<span class="pin-dot">${icon(iconOf(p))}</span><span class="pin-label">${label}</span>`;
   }
@@ -1732,22 +1799,74 @@
     map.easeTo({ pitch: want3D ? 55 : 0, bearing: want3D ? -18 : 0, duration: reduceMotion.matches ? 0 : 700 });
   }
 
-  let userMarker = null;
+  /* ---------------- you are here ---------------- */
+  // A live blue dot like Google Maps: it appears when the map opens (if the phone already allows it,
+  // or after asking once), follows you while the app is open, and the locate button flies to it.
+  let userMarker = null, geoWatch = null, flyToMe = false;
+  const ME_FRESH = 2 * 60e3; // older than this and the dot greys out
+  function paintMe() {
+    if (!mapReady || !state.userLoc) return;
+    const { lat, lng, acc, heading, speed, t } = state.userLoc;
+    if (!userMarker) {
+      const el = document.createElement('div');
+      el.className = 'me';
+      el.innerHTML = '<span class="me-acc"></span><span class="me-head"></span><span class="me-dot"></span>';
+      // faces the screen even in 3D (flat on the ground it squashes to a sliver); turns with the map so the cone points true
+      userMarker = new maplibregl.Marker({ element: el, pitchAlignment: 'viewport', rotationAlignment: 'map' }).setLngLat([lng, lat]).addTo(map);
+      el.setAttribute('role', 'img');
+      el.setAttribute('aria-label', 'You are here'); // after addTo: MapLibre stamps its own 'Map marker' label
+    } else userMarker.setLngLat([lng, lat]);
+    const el = userMarker.getElement();
+    // accuracy ring: metres to pixels at the current zoom
+    const mpp = (156543.03392 * Math.cos((lat * Math.PI) / 180)) / 2 ** map.getZoom();
+    el.style.setProperty('--acc', `${Math.min(260, ((acc || 0) / mpp) * 2).toFixed(0)}px`);
+    const moving = Number.isFinite(heading) && (speed ?? 0) > 0.6;
+    el.classList.toggle('has-heading', moving);
+    if (moving) el.style.setProperty('--heading', `${heading}deg`);
+    el.classList.toggle('is-stale', Date.now() - t > ME_FRESH);
+  }
+  function onPos(pos) {
+    const first = !state.userLoc;
+    const c = pos.coords;
+    state.userLoc = { lat: c.latitude, lng: c.longitude, acc: c.accuracy, heading: c.heading, speed: c.speed, t: Date.now() };
+    store.set('geoOk', true);
+    paintMe();
+    if (flyToMe) { flyToMe = false; flyToPlace(state.userLoc, { zoom: 15.5 }); }
+    if (first && state.tab === 'explore') renderExplore();
+  }
+  function onGeoErr(err) {
+    if (err.code === 1) { stopWatch(); store.del('geoOk'); if (flyToMe) toast('Location is off for this site. Turn it on in your phone’s settings.'); }
+    else if (flyToMe) toast('Couldn’t find you yet. Try again in a moment.');
+    flyToMe = false;
+  }
+  function startWatch() {
+    if (geoWatch != null || !navigator.geolocation) return;
+    geoWatch = navigator.geolocation.watchPosition(onPos, onGeoErr, { enableHighAccuracy: true, maximumAge: 10000, timeout: 20000 });
+  }
+  function stopWatch() {
+    if (geoWatch != null) navigator.geolocation.clearWatch(geoWatch);
+    geoWatch = null;
+  }
   function locate() {
     if (!navigator.geolocation) { toast('Location isn’t available on this device'); return; }
-    navigator.geolocation.getCurrentPosition((pos) => {
-      state.userLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-      if (mapReady) {
-        if (!userMarker) {
-          const el = document.createElement('div');
-          el.style.cssText = 'width:18px;height:18px;border-radius:50%;background:#2a63d4;border:3px solid #fff;box-shadow:0 0 0 6px rgba(42,99,212,.25)';
-          userMarker = new maplibregl.Marker({ element: el }).setLngLat([state.userLoc.lng, state.userLoc.lat]).addTo(map);
-        } else userMarker.setLngLat([state.userLoc.lng, state.userLoc.lat]);
-        flyToPlace(state.userLoc, { zoom: 15.5 });
-      }
-      if (state.tab === 'explore') renderExplore();
-    }, () => toast('Couldn’t get your location. Check location permissions.'), { enableHighAccuracy: true, timeout: 10000 });
+    if (state.userLoc && Date.now() - state.userLoc.t < ME_FRESH) flyToPlace(state.userLoc, { zoom: 15.5 });
+    else flyToMe = true;
+    startWatch();
   }
+  // when the map first opens: go straight away if the phone already said yes, ask once if it never has
+  async function autoLocate() {
+    if (!navigator.geolocation) return;
+    let perm = 'prompt';
+    try { perm = (await navigator.permissions?.query({ name: 'geolocation' }))?.state || 'prompt'; } catch { /* older Safari */ }
+    if (perm === 'denied') return;
+    if (perm === 'granted' || store.get('geoOk') || !store.get('geoAsked')) { store.set('geoAsked', true); startWatch(); }
+  }
+  // no GPS while the app sits in the background
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') stopWatch();
+    else if (state.userLoc) startWatch();
+  });
+  setInterval(paintMe, 30e3); // grey the dot out if fixes stop coming
 
   /* ---------------- the Airbnb pin ---------------- */
   let baseDropMode = false;
@@ -1844,7 +1963,7 @@
     }
     closeDetailUI();
     if (a === 'c' && b) { setTab('explore'); setCat(b, false); }
-    else if (a === 'plans' || a === 'faves' || a === 'info') setTab(a);
+    else if (a === 'plans' || a === 'faves' || a === 'info') { if (a === 'plans') state.planView = b === 'ideas' ? 'ideas' : 'plan'; setTab(a); }
     else if (booted && state.tab === 'explore' && state.cat !== 'all') setCat('all', false);
     else setTab('explore');
   }
@@ -1917,6 +2036,13 @@
         break;
       }
       case 'clear-filters': clearFilters(); break;
+      case 'plan-view': {
+        state.planView = t.dataset.view === 'ideas' ? 'ideas' : 'plan';
+        history.replaceState(null, '', state.planView === 'ideas' ? '#/plans/ideas' : '#/plans');
+        renderPlans();
+        window.scrollTo({ top: 0 });
+        break;
+      }
       case 'share-faves': {
         const items = [...state.faves].map((id) => byId.get(id)).filter(Boolean);
         const text = 'Bastards on Tour 2026 shortlist:\n' + items.map((p) => `• ${p.name} – ${gmapsUrl(p)}`).join('\n');

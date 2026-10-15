@@ -11,14 +11,18 @@
   },
   "base": {
     "name": "The Airbnb",
-    "address": null,
-    "lat": 47.50205,
-    "lng": 19.0664,
-    "checkIn": null,
-    "listing": "https://www.airbnb.co.uk/rooms/35732548",
-    "note": "Rough spot from the Airbnb map: beside Lemezkuckó record shop on Király utca, by the Király utca tram stop (trams 4 and 6). Full address coming soon.",
-    "near": "Lemezkuckó record shop (Király utca 67)",
     "title": "FACES of Jungle-Funky design in vibrant centre",
+    "address": "Erzsébet körút 58, 1073 Budapest",
+    "flat": "3rd floor, door 22",
+    "lat": 47.50305,
+    "lng": 19.0657,
+    "pinExact": true,
+    "near": "the Király utca corner (trams 4 and 6)",
+    "checkIn": "Thu 15 Oct, from 15:00",
+    "checkOut": "Sun 18 Oct, by 10:00",
+    "access": "Self check-in with a lockbox. The instructions come through the Airbnb app.",
+    "listing": "https://www.airbnb.co.uk/rooms/35732548",
+    "note": "On the Grand Boulevard at the Király utca corner: trams 4 and 6 stop right outside, and Lemezkuckó record shop is round the corner. Flat 22, third floor.",
     "sleeps": "12 guests · 4 bedrooms · 10 beds · 2 bathrooms",
     "reviews": "4.92 from 162 reviews · Airbnb Guest favourite",
     "image": "images/airbnb-1.jpg",
@@ -40,6 +44,14 @@
           "booked": true,
           "kind": "travel",
           "flight": "out"
+        },
+        {
+          "time": "15:00",
+          "title": "Check in at the Airbnb",
+          "sub": "Self check-in with a lockbox from 15:00 at Erzsébet körút 58: third floor, door 22. You land at 12:20, so grab lunch first or ask the host about dropping bags early.",
+          "ref": "base",
+          "booked": true,
+          "kind": "stay"
         },
         {
           "time": "21:00",
@@ -100,6 +112,14 @@
       "title": "Sunday",
       "theme": "Fly home",
       "items": [
+        {
+          "time": "10:00",
+          "title": "Check out of the Airbnb",
+          "sub": "Out by 10:00, and you're due at the airport for 14:45. Ask the host to mind the bags, or use a luggage-storage app (Bounce or Radical Storage) for the gap.",
+          "ref": "base",
+          "booked": true,
+          "kind": "stay"
+        },
         {
           "time": "14:45",
           "title": "Be at Budapest Airport",

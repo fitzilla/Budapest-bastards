@@ -1,466 +1,487 @@
 {
- "events": [
-  {
-   "id": "fradi-plzen",
-   "name": "Ferencváros vs Viktoria Plzeň (Europa League)",
-   "type": "event",
-   "date": "2026-10-15",
-   "start": "21:00",
-   "arriveFrom": null,
-   "end": "23:00",
-   "who": [
-    "Aaron",
-    "Chris",
-    "Phil"
-   ],
-   "venue": "Groupama Aréna (Albert Flórián Stadion)",
-   "address": "Üllői út 129, 1091 Budapest (District IX)",
-   "lat": 47.47532,
-   "lng": 19.09524,
-   "coordSource": "Eventseeker structured data (47.4753249, 19.0952405); TheSportsDB 47.475556,19.095278 and Wikimedia Commons agree within ~100 m",
-   "blurb": "Thursday-night European football in Budapest: Fradi's green-and-white ultras vs the Czech champions. Last meeting (Sept 2025) ended 1-1 with a 94th-minute Fradi equaliser. Expect noise.",
-   "getThere": "M3 (blue) to Népliget - the stadium is right next to the station, a few minutes' walk. About 10-12 min from Deák Ferenc tér / Kálvin tér (no changes). Bolt from District VII is ~10-15 min if the M3 is rammed.",
-   "rules": "Take your PASSPORT: Hungarian stadium entry can check ticket name against ID (confirmed for Hungary internationals, not verified for Fradi league-phase games). No pyro, glass or weapons. Fradi fan card normally needed to BUY tickets; yours are already booked.",
-   "tip": "Kick-off is 21:00 Hungarian time = 20:00 UK time (clocks are +1h from UK). Be through security by 20:15. Pre-match pints on Ráday utca near Kálvin tér, then hop on the M3.",
-   "links": {
-    "website": "https://www.fradi.hu/en/club/groupama-arena",
-    "tickets": "https://meccsjegy.fradi.hu/jegyarak?lang=en"
-   },
-   "rating": {
-    "google": null,
-    "googleReviews": null,
-    "tripadvisor": null,
-    "tripadvisorReviews": null
-   },
-   "notes": "21:00 CEST comes from Global Game Guide and UEFA's team-by-team fixture list (secondary reading); Liquipedia shows 16 Oct 21:00 which looks like an error. Re-check uefa.com before leaving. Gates-open time NOT found (set null); typically ~2h before for Fradi European nights, unconfirmed. Face recognition / fan-card-at-entry NOT confirmed either way. Bag rules NOT found. Alcohol: general knowledge only - stadiums sell light beer, no spirits, no taking drinks into the stand. No verified pre-match pubs near the ground (Ráday utca suggestion is general local knowledge)."
-  },
-  {
-   "id": "karting-hungaroring",
-   "name": "Go-karting at the Hungaroring",
-   "type": "event",
-   "date": "2026-10-16",
-   "start": "12:00",
-   "arriveFrom": "11:30",
-   "end": "13:30",
-   "who": "all-except:Filippo",
-   "venue": "Hungaroring GoKart Center (Hungaroring Kart Center)",
-   "address": "Hungaroring út 10, 2146 Mogyoród",
-   "lat": 47.5808,
-   "lng": 19.24964,
-   "coordSource": "Waze place data 47.5807979, 19.249635; Tripadvisor 47.58083, 19.249664 (official site DMS converts to ~47.5835, 19.2426 - ~0.7 km off)",
-   "blurb": "Race wheel-to-wheel on the same estate that hosts F1. Settle the lads' pecking order before the football. Loser buys the first round.",
-   "getThere": "Easiest: Bolt/taxi, ~25-35 min, ~20-25 km via M3. Cheap-but-slow: M2 to Örs vezér tere, HÉV H8 to Szilasliget/Mogyoród, then a 2.5 km (35-40 min) walk. Not recommended in a hurry.",
-   "rules": "Wear closed shoes (trainers). Venues will refuse anyone who has been drinking. Helmets are normally provided - confirm with the venue. Site prices are in HUF plus 27% VAT.",
-   "tip": "Leave the centre by 10:30 in two Bolts (or one minibus) to arrive about 11:30 and allow for Friday traffic and check-in. Eat first; the venue is a long way from a kebab.",
-   "links": {
-    "website": "https://hungaroringkartcenter.hu/en/booking",
-    "tickets": "https://hungaroringkartcenter.hu/en/booking"
-   },
-   "rating": {
-    "google": null,
-    "googleReviews": null,
-    "tripadvisor": 4.8,
-    "tripadvisorReviews": 10
-   },
-   "notes": "Venue is an operating kart centre inside the Hungaroring grounds. Official booking site says the track is running on a temporary track (~400 m, slightly shorter than the usual 513 m) during the circuit's renovation - confirm it is still the case. Hours (undated): Mon-Fri 12:00-20:00, Sat-Sun 10:00-20:00. Postcode differs between sources (2145 vs 2146). Google rating not found. Session prices not found. Metered cab estimate (computed from 2026 tariff: 1,300 HUF base + 521 HUF/km x ~22 km) is roughly 12,000-14,000 HUF; Bolt is app-priced and may differ. End time is a guess."
-  },
-  {
-   "id": "mtk-vasas",
-   "name": "MTK Budapest vs Vasas (NB I, round 10)",
-   "type": "event",
-   "date": "2026-10-16",
-   "start": "20:00",
-   "arriveFrom": "18:00",
-   "end": "22:00",
-   "who": "all",
-   "venue": "Új Hidegkuti Nándor Stadion",
-   "address": "Salgótarjáni utca 12-14, 1087 Budapest",
-   "lat": 47.49092,
-   "lng": 19.10673,
-   "coordSource": "AroundUs GPS 47.49092, 19.10673; Wikipedia 47°29′27″N 19°6′24″E agrees",
-   "blurb": "Proper old-school Budapest derby-flavoured league football in a tiny modern ground named after a Magical Magyar legend. Cheap, close to the pitch, lots of banter.",
-   "getThere": "Tram stop 'Hidegkuti Nándor Stadion' is ~130 m away (tram 37/37A listed; one source says tram 1 - check BKK Futár / Google Maps live). Roughly 15-25 min from the centre by tram/metro; Bolt ~10-15 min.",
-   "rules": "Bring passport/photo ID to be safe. Bag, pyro and alcohol rules were not confirmed; expect bag checks and light beer only.",
-   "tip": "Gates open 18:00 (per your booking): grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min door-to-door from the centre; arrive by 19:30.",
-   "links": {
-    "website": "https://www.mtkbudapest.hu/hu/merkozesek",
-    "tickets": null
-   },
-   "rating": {
-    "google": null,
-    "googleReviews": null,
-    "tripadvisor": null,
-    "tripadvisorReviews": null
-   },
-   "notes": "Opponent Vasas FC is from MTK's own match page (OTP Bank Liga 2026/27 round 10, Fri 16 Oct, 20:00); eredmenyek.com instead shows MTK-Vasas on 17 Oct, and the June fixture release was provisional, so verify on mtkbudapest.hu. Capacity 5,014 (most FotMob pages). Food/beer/hospitality at the ground NOT found. Tram line number conflicting between sources."
-  }
- ],
- "airport": {
-  "name": "Budapest Ferenc Liszt International Airport (BUD), Terminal 2",
-  "lat": 47.4392,
-  "lng": 19.2611,
-  "coordSource": "Approximate, from general knowledge (Wikipedia 47°26′21″N 19°15′40″E) - not confirmed in this research",
-  "arrival": "Thu 15 Oct 2026, land 12:20. Allow ~45-60 min to clear passport control and bags before heading into town.",
-  "departure": "Sun 18 Oct 2026 - must be at BUD by 14:45.",
-  "options": [
-   {
-    "name": "100E airport express bus",
-    "price": "2,500 HUF one way (Wego, Jul 2026; Copernicus PDF Dec 2025). Older 2,200 HUF figure seen on a conference page is out of date.",
-    "time": "~35-45 min to Deák Ferenc tér; runs 24/7 per Wego",
-    "howToPay": "Contactless bank card/phone tapped on the Pay&Go terminal at the doors (no separate ticket needed); also BKK machines and BudapestGO app.",
-    "notes": "Stops at Kálvin tér, Astoria and Deák Ferenc tér (from general knowledge). Cheapest sane option for a group, fixed price per person. Fare not confirmed on bkk.hu - check."
-   },
-   {
-    "name": "200E bus + M3 metro",
-    "price": "A normal BKK single (500 HUF since 1 Jun 2025) for the bus plus one more for the metro, about 1,000 HUF total",
-    "time": "~50-60 min via Kőbánya-Kispest",
-    "howToPay": "Buy tickets beforehand from a machine or the BudapestGO app (cash to driver is dearer).",
-    "notes": "Cheapest, but slow with luggage. Fare tables not re-verified for 2026."
-   },
-   {
-    "name": "Official airport taxi (Főtaxi)",
-    "price": "Metered at the regulated tariff: 1,300 HUF base + 521 HUF/km + 130 HUF/min waiting + 800 HUF airport surcharge (from 1 Aug 2026). Typical centre fare 10,000-14,000 HUF.",
-    "time": "~25-40 min depending on traffic",
-    "howToPay": "Card or cash. Get a quote at the Főtaxi counter first; yellow cars outside the terminal.",
-    "notes": "Főtaxi and Uber's Hungarian partner (F Mobilitás) hold the airport contract (reported to 2030). Sources conflict on whether fares are fixed-by-zone or metered. Split four ways it is near-equal to the 100E for a group."
-   },
-   {
-    "name": "Bolt from the airport",
-    "price": "App-priced; roughly comparable to a metered taxi (est. ~8,000-12,000 HUF to the centre)",
-    "time": "~25-40 min",
-    "howToPay": "In-app card/cash",
-    "notes": "Pickup point and airport status NOT confirmed in this research. Estimate is not sourced. Follow in-app pickup instructions; do not accept touts."
-   }
+  "events": [
+    {
+      "id": "fradi-plzen",
+      "name": "Ferencváros vs Viktoria Plzeň (Europa League)",
+      "type": "event",
+      "date": "2026-10-15",
+      "start": "21:00",
+      "arriveFrom": null,
+      "end": "23:00",
+      "who": [
+        "Aaron",
+        "Chris",
+        "Phil"
+      ],
+      "venue": "Groupama Aréna (Albert Flórián Stadion)",
+      "address": "Üllői út 129, 1091 Budapest (District IX)",
+      "lat": 47.47532,
+      "lng": 19.09524,
+      "coordSource": "Eventseeker structured data (47.4753249, 19.0952405); TheSportsDB 47.475556,19.095278 and Wikimedia Commons agree within ~100 m",
+      "blurb": "Thursday-night European football in Budapest: Fradi's green-and-white ultras vs the Czech champions. Last meeting (Sept 2025) ended 1-1 with a 94th-minute Fradi equaliser. Expect noise.",
+      "getThere": "M3 (blue) to Népliget - the stadium is right next to the station, a few minutes' walk. About 10-12 min from Deák Ferenc tér / Kálvin tér (no changes). Bolt from District VII is ~10-15 min if the M3 is rammed.",
+      "rules": "Take your PASSPORT: Hungarian stadium entry can check ticket name against ID (confirmed for Hungary internationals, not verified for Fradi league-phase games). No pyro, glass or weapons. Fradi fan card normally needed to BUY tickets; yours are already booked.",
+      "tip": "Kick-off is 21:00 Hungarian time = 20:00 UK time (clocks are +1h from UK). Be through security by 20:15. Pre-match pints on Ráday utca near Kálvin tér, then hop on the M3.",
+      "links": {
+        "website": "https://www.fradi.hu/en/club/groupama-arena",
+        "tickets": "https://meccsjegy.fradi.hu/jegyarak?lang=en"
+      },
+      "rating": {
+        "google": null,
+        "googleReviews": null,
+        "tripadvisor": null,
+        "tripadvisorReviews": null
+      },
+      "notes": "21:00 CEST comes from Global Game Guide and UEFA's team-by-team fixture list (secondary reading); Liquipedia shows 16 Oct 21:00 which looks like an error. Re-check uefa.com before leaving. Gates-open time NOT found (set null); typically ~2h before for Fradi European nights, unconfirmed. Face recognition / fan-card-at-entry NOT confirmed either way. Bag rules NOT found. Alcohol: general knowledge only - stadiums sell light beer, no spirits, no taking drinks into the stand. No verified pre-match pubs near the ground (Ráday utca suggestion is general local knowledge)."
+    },
+    {
+      "id": "karting-hungaroring",
+      "name": "Go-karting at the Hungaroring",
+      "type": "event",
+      "date": "2026-10-16",
+      "start": "12:00",
+      "arriveFrom": "11:30",
+      "end": "13:30",
+      "who": "all-except:Filippo",
+      "venue": "Hungaroring GoKart Center (Hungaroring Kart Center)",
+      "address": "Hungaroring út 10, 2146 Mogyoród",
+      "lat": 47.5808,
+      "lng": 19.24964,
+      "coordSource": "Waze place data 47.5807979, 19.249635; Tripadvisor 47.58083, 19.249664 (official site DMS converts to ~47.5835, 19.2426 - ~0.7 km off)",
+      "blurb": "Race wheel-to-wheel on the same estate that hosts F1. Settle the lads' pecking order before the football. Loser buys the first round.",
+      "getThere": "Easiest: Bolt/taxi, ~25-35 min, ~20-25 km via M3. Cheap-but-slow: M2 to Örs vezér tere, HÉV H8 to Szilasliget/Mogyoród, then a 2.5 km (35-40 min) walk. Not recommended in a hurry.",
+      "rules": "Wear closed shoes (trainers). Venues will refuse anyone who has been drinking. Helmets are normally provided - confirm with the venue. Site prices are in HUF plus 27% VAT.",
+      "tip": "Leave the centre by 10:30 in two Bolts (or one minibus) to arrive about 11:30 and allow for Friday traffic and check-in. Eat first; the venue is a long way from a kebab.",
+      "links": {
+        "website": "https://hungaroringkartcenter.hu/en/booking",
+        "tickets": "https://hungaroringkartcenter.hu/en/booking"
+      },
+      "rating": {
+        "google": null,
+        "googleReviews": null,
+        "tripadvisor": 4.8,
+        "tripadvisorReviews": 10
+      },
+      "notes": "Venue is an operating kart centre inside the Hungaroring grounds. Official booking site says the track is running on a temporary track (~400 m, slightly shorter than the usual 513 m) during the circuit's renovation - confirm it is still the case. Hours (undated): Mon-Fri 12:00-20:00, Sat-Sun 10:00-20:00. Postcode differs between sources (2145 vs 2146). Google rating not found. Session prices not found. Metered cab estimate (computed from 2026 tariff: 1,300 HUF base + 521 HUF/km x ~22 km) is roughly 12,000-14,000 HUF; Bolt is app-priced and may differ. End time is a guess."
+    },
+    {
+      "id": "mtk-vasas",
+      "name": "MTK Budapest vs Vasas (NB I, round 10)",
+      "type": "event",
+      "date": "2026-10-16",
+      "start": "20:00",
+      "arriveFrom": "18:00",
+      "end": "22:00",
+      "who": "all",
+      "venue": "Új Hidegkuti Nándor Stadion",
+      "address": "Salgótarjáni utca 12-14, 1087 Budapest",
+      "lat": 47.49092,
+      "lng": 19.10673,
+      "coordSource": "AroundUs GPS 47.49092, 19.10673; Wikipedia 47°29′27″N 19°6′24″E agrees",
+      "blurb": "Proper old-school Budapest derby-flavoured league football in a tiny modern ground named after a Magical Magyar legend. Cheap, close to the pitch, lots of banter.",
+      "getThere": "Tram stop 'Hidegkuti Nándor Stadion' is ~130 m away (tram 37/37A listed; one source says tram 1 - check BKK Futár / Google Maps live). Roughly 15-25 min from the centre by tram/metro; Bolt ~10-15 min.",
+      "rules": "Bring passport/photo ID to be safe. Bag, pyro and alcohol rules were not confirmed; expect bag checks and light beer only.",
+      "tip": "Gates open 18:00 (per your booking): grab a beer and a sausage and soak up the tiny-ground atmosphere. Allow 25 min door-to-door from the centre; arrive by 19:30.",
+      "links": {
+        "website": "https://www.mtkbudapest.hu/hu/merkozesek",
+        "tickets": null
+      },
+      "rating": {
+        "google": null,
+        "googleReviews": null,
+        "tripadvisor": null,
+        "tripadvisorReviews": null
+      },
+      "notes": "Opponent Vasas FC is from MTK's own match page (OTP Bank Liga 2026/27 round 10, Fri 16 Oct, 20:00); eredmenyek.com instead shows MTK-Vasas on 17 Oct, and the June fixture release was provisional, so verify on mtkbudapest.hu. Capacity 5,014 (most FotMob pages). Food/beer/hospitality at the ground NOT found. Tram line number conflicting between sources."
+    }
   ],
-  "leaveBy": "Sunday: have the whole crew out of the Airbnb by 12:00 and you are at BUD about 12:45-13:00, well ahead of 14:45. Absolute latest to leave the centre: 12:45 by taxi/Bolt (Sunday roads are quiet, ~30 min) or 12:15 by 100E (~40 min + stop time). Order Bolts at 11:45."
- },
- "practical": [
-  {
-   "id": "taxis",
-   "title": "Taxis & ride apps",
-   "emoji": "🚕",
-   "items": [
+  "airport": {
+    "name": "Budapest Ferenc Liszt International Airport (BUD), Terminal 2",
+    "lat": 47.4392,
+    "lng": 19.2611,
+    "coordSource": "Approximate, from general knowledge (Wikipedia 47°26′21″N 19°15′40″E) - not confirmed in this research",
+    "arrival": "Thu 15 Oct 2026, land 12:20. Allow ~45-60 min to clear passport control and bags before heading into town.",
+    "departure": "Sun 18 Oct 2026 - must be at BUD by 14:45.",
+    "options": [
+      {
+        "name": "100E airport express bus",
+        "price": "2,500 HUF one way (Wego, Jul 2026; Copernicus PDF Dec 2025). Older 2,200 HUF figure seen on a conference page is out of date.",
+        "time": "~35-45 min to Deák Ferenc tér; runs 24/7 per Wego",
+        "howToPay": "Contactless bank card/phone tapped on the Pay&Go terminal at the doors (no separate ticket needed); also BKK machines and BudapestGO app.",
+        "notes": "Stops at Kálvin tér, Astoria and Deák Ferenc tér (from general knowledge). Cheapest sane option for a group, fixed price per person. Fare not confirmed on bkk.hu - check."
+      },
+      {
+        "name": "200E bus + M3 metro",
+        "price": "A normal BKK single (500 HUF since 1 Jun 2025) for the bus plus one more for the metro, about 1,000 HUF total",
+        "time": "~50-60 min via Kőbánya-Kispest",
+        "howToPay": "Buy tickets beforehand from a machine or the BudapestGO app (cash to driver is dearer).",
+        "notes": "Cheapest, but slow with luggage. Fare tables not re-verified for 2026."
+      },
+      {
+        "name": "Official airport taxi (Főtaxi)",
+        "price": "Metered at the regulated tariff: 1,300 HUF base + 521 HUF/km + 130 HUF/min waiting + 800 HUF airport surcharge (from 1 Aug 2026). Typical centre fare 10,000-14,000 HUF.",
+        "time": "~25-40 min depending on traffic",
+        "howToPay": "Card or cash. Get a quote at the Főtaxi counter first; yellow cars outside the terminal.",
+        "notes": "Főtaxi and Uber's Hungarian partner (F Mobilitás) hold the airport contract (reported to 2030). Sources conflict on whether fares are fixed-by-zone or metered. Split four ways it is near-equal to the 100E for a group."
+      },
+      {
+        "name": "Bolt from the airport",
+        "price": "App-priced; roughly comparable to a metered taxi (est. ~8,000-12,000 HUF to the centre)",
+        "time": "~25-40 min",
+        "howToPay": "In-app card/cash",
+        "notes": "Pickup point and airport status NOT confirmed in this research. Estimate is not sourced. Follow in-app pickup instructions; do not accept touts."
+      }
+    ],
+    "leaveBy": "Sunday: have the whole crew out of the Airbnb by 12:00 and you are at BUD about 12:45-13:00, well ahead of 14:45. Absolute latest to leave the centre: 12:45 by taxi/Bolt (Sunday roads are quiet, ~30 min) or 12:15 by 100E (~40 min + stop time). Order Bolts at 11:45."
+  },
+  "practical": [
     {
-     "title": "Regulated taxi tariff (from 1 Aug 2026)",
-     "body": "Base fare 1,300 HUF, 521 HUF per km, 130 HUF per minute waiting (the first rise since 2023; an 18% hike). Airport trips add an 800 HUF surcharge, so the meter starts at 2,100 HUF.",
-     "link": "https://xpatloop.com/channels/2026/06/taxi-fares-to-rise-in-budapest-from-1-august.html"
+      "id": "taxis",
+      "title": "Taxis & ride apps",
+      "emoji": "🚕",
+      "items": [
+        {
+          "title": "Regulated taxi tariff (from 1 Aug 2026)",
+          "body": "Base fare 1,300 HUF, 521 HUF per km, 130 HUF per minute waiting (the first rise since 2023; an 18% hike). Airport trips add an 800 HUF surcharge, so the meter starts at 2,100 HUF.",
+          "link": "https://xpatloop.com/channels/2026/06/taxi-fares-to-rise-in-budapest-from-1-august.html"
+        },
+        {
+          "title": "Bolt",
+          "body": "The go-to app for Brits. Shows the price before you get in. Works with licensed taxis and private cars. Can surge on match nights, so order early.",
+          "link": null
+        },
+        {
+          "title": "Uber and Főtaxi",
+          "body": "Uber left in 2016 but returned in April 2024 via a partnership with Főtaxi (licensed yellow cabs). The Főtaxi app and Uber both work; Főtaxi is also the airport's official operator.",
+          "link": "https://budappest.com/a-major-change-at-budapest-airport-fotaxi-and-uber-join-forces-for-smarter-travel/"
+        },
+        {
+          "title": "City Taxi / Főtaxi / Taxi 4x4",
+          "body": "If you must flag a cab, use a marked, yellow, licensed car with a visible meter, company logo and roof light. Phone numbers vary - rely on the apps instead.",
+          "link": null
+        },
+        {
+          "title": "Scams to avoid",
+          "body": "Never take an unmarked or touting cab (esp. outside Keleti station and clubs). FCDO warns some drivers take commission to steer you to specific bars. Always agree the price or use the app.",
+          "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+        }
+      ]
     },
     {
-     "title": "Bolt",
-     "body": "The go-to app for Brits. Shows the price before you get in. Works with licensed taxis and private cars. Can surge on match nights, so order early.",
-     "link": null
+      "id": "transport",
+      "title": "Public transport",
+      "emoji": "🚇",
+      "items": [
+        {
+          "title": "Tickets & prices",
+          "body": "Single ticket 500 HUF (since 1 Jun 2025; 700 HUF from the driver). 24-hour travelcard 2,750 HUF, 72-hour 5,750 HUF (2026 MÁV/BKK tariff table, valid from 12 June 2026).",
+          "link": "https://www.mavcsoport.hu/sites/default/files/upload/page/helykozi_menetdijtablazat_2026_10_01.pdf"
+        },
+        {
+          "title": "BudapestGO app",
+          "body": "Official BKK app for tickets, travelcards and journey planning. Buy the 72h travelcard (5,750 HUF) for the whole weekend. Always validate paper tickets - inspectors in blue armbands fine hard.",
+          "link": "https://bkk.hu"
+        },
+        {
+          "title": "Metro lines",
+          "body": "M2 (red) and M1 (yellow, little Millennium line) are handy in the centre; M3 (blue) goes to Népliget (Fradi); M4 (green) is the shiny driverless one. Metro runs about 04:30-23:00.",
+          "link": null
+        },
+        {
+          "title": "Night & 24h services",
+          "body": "Trams 4 and 6 run all night around the Nagykörút; replacement night buses (9xx series) after the metro closes. Handy for getting back from ruin bars - but watch your pockets.",
+          "link": null
+        },
+        {
+          "title": "Useful stops",
+          "body": "Deák Ferenc tér (all three M lines meet), Kálvin tér (M3/M4), Blaha Lujza tér (M2/trams 4&6), Népliget (M3, stadium).",
+          "link": null
+        }
+      ]
     },
     {
-     "title": "Uber and Főtaxi",
-     "body": "Uber left in 2016 but returned in April 2024 via a partnership with Főtaxi (licensed yellow cabs). The Főtaxi app and Uber both work; Főtaxi is also the airport's official operator.",
-     "link": "https://budappest.com/a-major-change-at-budapest-airport-fotaxi-and-uber-join-forces-for-smarter-travel/"
+      "id": "money",
+      "title": "Money",
+      "emoji": "💷",
+      "items": [
+        {
+          "title": "The forint (HUF)",
+          "body": "Roughly 1 GBP = 420-424 HUF (Sept 2026 snapshot; the pound was ~421 in July). So 1,000 HUF is about £2.40, a beer ~1,500-2,000 HUF (general knowledge). Check the live rate before you go.",
+          "link": "https://longforecast.com/gbp-huf"
+        },
+        {
+          "title": "Cards",
+          "body": "Contactless is accepted almost everywhere, including trams (via app) and bars. Carry some cash for tips, public toilets and small cafés.",
+          "link": null
+        },
+        {
+          "title": "ATMs & DCC",
+          "body": "Avoid Euronet ATMs (poor rates, high fees). Use a bank ATM (OTP, K&H, Erste). Always choose to pay in forints (HUF) if a terminal offers GBP - dynamic currency conversion is a rip-off.",
+          "link": null
+        },
+        {
+          "title": "Tipping & service charge",
+          "body": "Tip 10-15% in restaurants and bars if service is not included. Check the bill: many places add 'szervizdíj' (service charge) of 12-15% - then do not tip twice. Tip in cash.",
+          "link": null
+        }
+      ]
     },
     {
-     "title": "City Taxi / Főtaxi / Taxi 4x4",
-     "body": "If you must flag a cab, use a marked, yellow, licensed car with a visible meter, company logo and roof light. Phone numbers vary - rely on the apps instead.",
-     "link": null
+      "id": "phone",
+      "title": "Phone & data",
+      "emoji": "📱",
+      "items": [
+        {
+          "title": "UK roaming post-Brexit",
+          "body": "Charges vary by network and plan. Reported EU rates: EE ~£2.59/day, Vodafone ~£2.57/day, Three ~£2/day; O2 often free subject to a fair-use cap. Ofcom rules require alerts. Check YOUR plan before landing.",
+          "link": "https://cellesim.com/en/blog/uk-eu-roaming-charges-2026-your-guide-to-avoiding-bill-shock"
+        },
+        {
+          "title": "eSIM option",
+          "body": "An eSIM such as Airalo (or similar) can be cheaper than daily roaming for a four-day weekend. Install it before you fly, and keep data roaming off for your UK SIM.",
+          "link": "https://www.airalo.com/blog/is-data-roaming-free-europe-uk"
+        },
+        {
+          "title": "Wi-Fi",
+          "body": "Most bars, cafés and flats have free Wi-Fi. Download offline Google Maps and the BudapestGO app before leaving the airport.",
+          "link": null
+        }
+      ]
     },
     {
-     "title": "Scams to avoid",
-     "body": "Never take an unmarked or touting cab (esp. outside Keleti station and clubs). FCDO warns some drivers take commission to steer you to specific bars. Always agree the price or use the app.",
-     "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+      "id": "safety",
+      "title": "Safety & scams",
+      "emoji": "⚠️",
+      "items": [
+        {
+          "title": "The bar/club scam (FCDO)",
+          "body": "UK FCDO warns some bars, clubs and restaurants inflate prices; tourists have been taken to cash machines to pay. Check menus and bills, and report incidents to police. Never follow street 'invites' into a bar.",
+          "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+        },
+        {
+          "title": "The 'have a drink with us' scam",
+          "body": "Friendly strangers invite you to a bar, then a huge bill arrives with heavy security on the door. If a place has no priced menu on show, walk away, and agree prices before you order.",
+          "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+        },
+        {
+          "title": "Drink spiking",
+          "body": "FCDO notes reports of drink spiking in Budapest bars. Buy your own drinks, keep them in sight and look after your mates.",
+          "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
+        },
+        {
+          "title": "Pickpockets",
+          "body": "Hot spots: trams 4 and 6, M1, Váci utca, Keleti station, the market hall. Phones in front pockets, wallet zipped. Do not leave phones on bar tables.",
+          "link": null
+        },
+        {
+          "title": "Menu scams & fake police",
+          "body": "On Váci utca check the menu prices and ask before ordering; some places charge for bread or 'live music'. Plainclothes 'police' asking to check your wallet are fake - ask for a badge and police station.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency",
+      "emoji": "🚨",
+      "items": [
+        {
+          "title": "Numbers",
+          "body": "112 for everything (English-speaking operators). Police 107, ambulance 104, fire 105. UK Embassy Budapest can help with lost passports - save the number before you go.",
+          "link": "https://www.gov.uk/foreign-travel-advice/hungary"
+        },
+        {
+          "title": "Tourist police",
+          "body": "Budapest has English-speaking police help for visitors; I could not confirm a specific tourist-police number or office for 2026, so use 112 or visit the nearest police station (rendőrség).",
+          "link": null
+        },
+        {
+          "title": "24h pharmacy",
+          "body": "Look for 'éjjel-nappali gyógyszertár' (open all night) on Google Maps; there are a handful in the centre. Out-of-hours pharmacies show a sign for on-duty ('ügyelet'). Have paracetamol and rehydration for Saturday.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "plugs-and-misc",
+      "title": "Plugs & misc",
+      "emoji": "🔌",
+      "items": [
+        {
+          "title": "Plugs & power",
+          "body": "230V, 50Hz, Type C and F (two round pins). UK plugs need an adaptor. Bring a power bank; match nights are long.",
+          "link": null
+        },
+        {
+          "title": "Smoking",
+          "body": "Smoking is banned in enclosed public places and within 5 m of entrances. Many bars have smoking terraces or courtyards. Expect to be asked to move.",
+          "link": null
+        },
+        {
+          "title": "Drinking age & ID",
+          "body": "Legal drinking age is 18. Foreigners are expected to carry ID: carry your passport (or a photocopy and photo of it), especially for match entry.",
+          "link": null
+        },
+        {
+          "title": "Time & weather",
+          "body": "Hungary is on CEST (UTC+2) until Sun 25 Oct 2026, so one hour AHEAD of UK time. Pack a jacket: it is crisp by night.",
+          "link": null
+        }
+      ]
     }
-   ]
+  ],
+  "weatherClimate": {
+    "avgHigh": 16,
+    "avgLow": 7,
+    "rainDays": 7,
+    "sunrise": {
+      "2026-10-15": "07:02",
+      "2026-10-16": "07:03",
+      "2026-10-17": "07:05",
+      "2026-10-18": "07:06"
+    },
+    "sunset": {
+      "2026-10-15": "17:57",
+      "2026-10-16": "17:55",
+      "2026-10-17": "17:53",
+      "2026-10-18": "17:51"
+    },
+    "notes": "Monthly October average high ~17C / low ~7C (historical data site); a guide says highs fall from 18-20C early to 12-15C late October, so mid-month ~15-17C. Rain on ~27% of days (~8) per one source vs 5-6 per another - 7 is a midpoint. Sunrise/sunset in CEST (UTC+2), computed with the standard NOAA/almanac algorithm for 47.50N, 19.04E - treat as accurate to +/-2 min. No official 15-18 Oct forecast checked."
   },
-  {
-   "id": "transport",
-   "title": "Public transport",
-   "emoji": "🚇",
-   "items": [
+  "localEvents": [
     {
-     "title": "Tickets & prices",
-     "body": "Single ticket 500 HUF (since 1 Jun 2025; 700 HUF from the driver). 24-hour travelcard 2,750 HUF, 72-hour 5,750 HUF (2026 MÁV/BKK tariff table, valid from 12 June 2026).",
-     "link": "https://www.mavcsoport.hu/sites/default/files/upload/page/helykozi_menetdijtablazat_2026_10_01.pdf"
+      "name": "André Rieu live",
+      "date": "Fri 16 Oct, 19:30 (doors 18:00)",
+      "where": "MVM Dome, Budapest",
+      "body": "Waltzes and violins at the MVM Dome. Friday is confirmed; some sellers list a second show on Saturday. Friday lands at the same time as MTK, so expect busy trams and slower taxis that evening.",
+      "link": "https://www.jegy.hu"
     },
     {
-     "title": "BudapestGO app",
-     "body": "Official BKK app for tickets, travelcards and journey planning. Buy the 72h travelcard (5,750 HUF) for the whole weekend. Always validate paper tickets - inspectors in blue armbands fine hard.",
-     "link": "https://bkk.hu"
+      "name": "Sparty (Széchenyi bath party)",
+      "date": "Sat 17 Oct, 21:30–02:00",
+      "where": "Széchenyi Thermal Bath, City Park",
+      "body": "The bath party at Széchenyi runs Saturday nights, 18+. Third-party sellers quote about 25,400 HUF (£60) basic or 31,600 HUF (£74) with drinks. Check the official site for the date before booking.",
+      "link": "https://www.szechenyibath.hu"
     },
     {
-     "title": "Metro lines",
-     "body": "M2 (red) and M1 (yellow, little Millennium line) are handy in the centre; M3 (blue) goes to Népliget (Fradi); M4 (green) is the shiny driverless one. Metro runs about 04:30-23:00.",
-     "link": null
+      "name": "Pavilon closing party",
+      "date": "Thu 15 – Sat 17 Oct, 16:00–00:00",
+      "where": "Pavilon, Nehru part, District IX (by Petőfi Bridge, Pest side)",
+      "body": "The riverside bar’s final send-off after seven seasons, on exactly your dates. Friday: DJ Boka, Oliver SCH and Jolán. Saturday: Lutum, Paebo and Kornwall. Daytime into night, done by midnight.",
+      "link": "https://ra.co"
     },
     {
-     "title": "Night & 24h services",
-     "body": "Trams 4 and 6 run all night around the Nagykörút; replacement night buses (9xx series) after the metro closes. Handy for getting back from ruin bars - but watch your pockets.",
-     "link": null
+      "name": "Újpest v Puskás Akadémia",
+      "date": "Sat 17 Oct, 17:00 (one listing says 14:00)",
+      "where": "Szusza Ferenc Stadion, District IV",
+      "body": "The only top-flight game in Budapest this weekend: Fradi and Honvéd are both away. M3 to Újpest-központ. Tickets on ujpestfc.hu or at the ground on the day, in your name, so bring a passport.",
+      "link": "https://www.ujpestfc.hu"
     },
     {
-     "title": "Useful stops",
-     "body": "Deák Ferenc tér (all three M lines meet), Kálvin tér (M3/M4), Blaha Lujza tér (M2/trams 4&6), Népliget (M3, stadium).",
-     "link": null
+      "name": "Premier League in the pub",
+      "date": "Sat 17 Oct, 16:00 (the 3pm UK kick-offs)",
+      "where": "Champs Sports Pub, Dohány utca, or Jack Doyle’s",
+      "body": "Saturday’s 3pm games kick off at 16:00 here. Champs is a short walk from the Airbnb and shows them all; book a table for ten. TV picks can move kick-offs.",
+      "link": null
+    },
+    {
+      "name": "Restaurant Week",
+      "date": "Until Sun 18 Oct",
+      "where": "150+ restaurants citywide",
+      "body": "Fixed-price set menus across town, Costes included. The good tables are going fast, so book any group dinner now.",
+      "link": null
     }
-   ]
-  },
-  {
-   "id": "money",
-   "title": "Money",
-   "emoji": "💷",
-   "items": [
+  ],
+  "phrases": [
     {
-     "title": "The forint (HUF)",
-     "body": "Roughly 1 GBP = 420-424 HUF (Sept 2026 snapshot; the pound was ~421 in July). So 1,000 HUF is about £2.40, a beer ~1,500-2,000 HUF (general knowledge). Check the live rate before you go.",
-     "link": "https://longforecast.com/gbp-huf"
+      "en": "Cheers!",
+      "hu": "Egészségedre!",
+      "say": "EG-esh-shayg-ed-reh"
     },
     {
-     "title": "Cards",
-     "body": "Contactless is accepted almost everywhere, including trams (via app) and bars. Carry some cash for tips, public toilets and small cafés.",
-     "link": null
+      "en": "Bottoms up!",
+      "hu": "Fenékig!",
+      "say": "FEN-eh-kig"
     },
     {
-     "title": "ATMs & DCC",
-     "body": "Avoid Euronet ATMs (poor rates, high fees). Use a bank ATM (OTP, K&H, Erste). Always choose to pay in forints (HUF) if a terminal offers GBP - dynamic currency conversion is a rip-off.",
-     "link": null
+      "en": "Hello / bye (casual)",
+      "hu": "Szia!",
+      "say": "SEE-yaw"
     },
     {
-     "title": "Tipping & service charge",
-     "body": "Tip 10-15% in restaurants and bars if service is not included. Check the bill: many places add 'szervizdíj' (service charge) of 12-15% - then do not tip twice. Tip in cash.",
-     "link": null
+      "en": "Thank you",
+      "hu": "Köszönöm",
+      "say": "KUR-sur-nurm"
+    },
+    {
+      "en": "A beer, please",
+      "hu": "Egy sört kérek",
+      "say": "ej SHURT KAY-rek"
+    },
+    {
+      "en": "One more",
+      "hu": "Még egyet",
+      "say": "mayg EJ-et"
+    },
+    {
+      "en": "Excuse me / sorry",
+      "hu": "Elnézést",
+      "say": "EL-nay-zaysht"
+    },
+    {
+      "en": "Where's the toilet?",
+      "hu": "Hol van a vécé?",
+      "say": "hol von aw VAY-tsay"
+    },
+    {
+      "en": "How much is it?",
+      "hu": "Mennyibe kerül?",
+      "say": "MEN-yee-beh KEH-rewl"
+    },
+    {
+      "en": "The bill, please",
+      "hu": "Fizetni szeretnék",
+      "say": "FEE-zet-nee SEH-ret-nayk"
+    },
+    {
+      "en": "Come on Fradi!",
+      "hu": "Hajrá Fradi!",
+      "say": "HOY-raw FRAW-dee"
     }
-   ]
-  },
-  {
-   "id": "phone",
-   "title": "Phone & data",
-   "emoji": "📱",
-   "items": [
-    {
-     "title": "UK roaming post-Brexit",
-     "body": "Charges vary by network and plan. Reported EU rates: EE ~£2.59/day, Vodafone ~£2.57/day, Three ~£2/day; O2 often free subject to a fair-use cap. Ofcom rules require alerts. Check YOUR plan before landing.",
-     "link": "https://cellesim.com/en/blog/uk-eu-roaming-charges-2026-your-guide-to-avoiding-bill-shock"
-    },
-    {
-     "title": "eSIM option",
-     "body": "An eSIM such as Airalo (or similar) can be cheaper than daily roaming for a four-day weekend. Install it before you fly, and keep data roaming off for your UK SIM.",
-     "link": "https://www.airalo.com/blog/is-data-roaming-free-europe-uk"
-    },
-    {
-     "title": "Wi-Fi",
-     "body": "Most bars, cafés and flats have free Wi-Fi. Download offline Google Maps and the BudapestGO app before leaving the airport.",
-     "link": null
-    }
-   ]
-  },
-  {
-   "id": "safety",
-   "title": "Safety & scams",
-   "emoji": "⚠️",
-   "items": [
-    {
-     "title": "The bar/club scam (FCDO)",
-     "body": "UK FCDO warns some bars, clubs and restaurants inflate prices; tourists have been taken to cash machines to pay. Check menus and bills, and report incidents to police. Never follow street 'invites' into a bar.",
-     "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
-    },
-    {
-     "title": "The 'have a drink with us' scam",
-     "body": "Friendly strangers invite you to a bar, then a huge bill arrives with heavy security on the door. If a place has no priced menu on show, walk away, and agree prices before you order.",
-     "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
-    },
-    {
-     "title": "Drink spiking",
-     "body": "FCDO notes reports of drink spiking in Budapest bars. Buy your own drinks, keep them in sight and look after your mates.",
-     "link": "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security"
-    },
-    {
-     "title": "Pickpockets",
-     "body": "Hot spots: trams 4 and 6, M1, Váci utca, Keleti station, the market hall. Phones in front pockets, wallet zipped. Do not leave phones on bar tables.",
-     "link": null
-    },
-    {
-     "title": "Menu scams & fake police",
-     "body": "On Váci utca check the menu prices and ask before ordering; some places charge for bread or 'live music'. Plainclothes 'police' asking to check your wallet are fake - ask for a badge and police station.",
-     "link": null
-    }
-   ]
-  },
-  {
-   "id": "emergency",
-   "title": "Emergency",
-   "emoji": "🚨",
-   "items": [
-    {
-     "title": "Numbers",
-     "body": "112 for everything (English-speaking operators). Police 107, ambulance 104, fire 105. UK Embassy Budapest can help with lost passports - save the number before you go.",
-     "link": "https://www.gov.uk/foreign-travel-advice/hungary"
-    },
-    {
-     "title": "Tourist police",
-     "body": "Budapest has English-speaking police help for visitors; I could not confirm a specific tourist-police number or office for 2026, so use 112 or visit the nearest police station (rendőrség).",
-     "link": null
-    },
-    {
-     "title": "24h pharmacy",
-     "body": "Look for 'éjjel-nappali gyógyszertár' (open all night) on Google Maps; there are a handful in the centre. Out-of-hours pharmacies show a sign for on-duty ('ügyelet'). Have paracetamol and rehydration for Saturday.",
-     "link": null
-    }
-   ]
-  },
-  {
-   "id": "plugs-and-misc",
-   "title": "Plugs & misc",
-   "emoji": "🔌",
-   "items": [
-    {
-     "title": "Plugs & power",
-     "body": "230V, 50Hz, Type C and F (two round pins). UK plugs need an adaptor. Bring a power bank; match nights are long.",
-     "link": null
-    },
-    {
-     "title": "Smoking",
-     "body": "Smoking is banned in enclosed public places and within 5 m of entrances. Many bars have smoking terraces or courtyards. Expect to be asked to move.",
-     "link": null
-    },
-    {
-     "title": "Drinking age & ID",
-     "body": "Legal drinking age is 18. Foreigners are expected to carry ID: carry your passport (or a photocopy and photo of it), especially for match entry.",
-     "link": null
-    },
-    {
-     "title": "Time & weather",
-     "body": "Hungary is on CEST (UTC+2) until Sun 25 Oct 2026, so one hour AHEAD of UK time. Pack a jacket: it is crisp by night.",
-     "link": null
-    }
-   ]
-  }
- ],
- "weatherClimate": {
-  "avgHigh": 16,
-  "avgLow": 7,
-  "rainDays": 7,
-  "sunrise": {
-   "2026-10-15": "07:02",
-   "2026-10-16": "07:03",
-   "2026-10-17": "07:05",
-   "2026-10-18": "07:06"
-  },
-  "sunset": {
-   "2026-10-15": "17:57",
-   "2026-10-16": "17:55",
-   "2026-10-17": "17:53",
-   "2026-10-18": "17:51"
-  },
-  "notes": "Monthly October average high ~17C / low ~7C (historical data site); a guide says highs fall from 18-20C early to 12-15C late October, so mid-month ~15-17C. Rain on ~27% of days (~8) per one source vs 5-6 per another - 7 is a midpoint. Sunrise/sunset in CEST (UTC+2), computed with the standard NOAA/almanac algorithm for 47.50N, 19.04E - treat as accurate to +/-2 min. No official 15-18 Oct forecast checked."
- },
- "localEvents": [
-  {
-   "name": "André Rieu live",
-   "date": "Fri 16 Oct, 19:30 (doors 18:00)",
-   "where": "MVM Dome, Budapest",
-   "body": "Waltzes and violins at the MVM Dome. Friday is confirmed; some sellers list a second show on Saturday. Friday lands at the same time as MTK, so expect busy trams and slower taxis that evening.",
-   "link": "https://www.jegy.hu"
-  },
-  {
-   "name": "Sparty (Széchenyi bath party)",
-   "date": "Sat 17 Oct, 21:30–02:00",
-   "where": "Széchenyi Thermal Bath, City Park",
-   "body": "The bath party at Széchenyi runs Saturday nights, 18+. Third-party sellers quote about 25,400 HUF (£60) basic or 31,600 HUF (£74) with drinks. Check the official site for the date before booking.",
-   "link": "https://www.szechenyibath.hu"
-  },
-  {
-   "name": "Pavilon closing party",
-   "date": "Thu 15 – Sat 17 Oct, from about 16:00",
-   "where": "Pavilon, Nehru part, District IX (by Petőfi Bridge, Pest side)",
-   "body": "The riverside bar is throwing a three-day send-off on exactly your dates, per Resident Advisor. It has had a \"last night\" before, so check their socials first.",
-   "link": "https://ra.co"
-  }
- ],
- "phrases": [
-  {
-   "en": "Cheers!",
-   "hu": "Egészségedre!",
-   "say": "EG-esh-shayg-ed-reh"
-  },
-  {
-   "en": "Bottoms up!",
-   "hu": "Fenékig!",
-   "say": "FEN-eh-kig"
-  },
-  {
-   "en": "Hello / bye (casual)",
-   "hu": "Szia!",
-   "say": "SEE-yaw"
-  },
-  {
-   "en": "Thank you",
-   "hu": "Köszönöm",
-   "say": "KUR-sur-nurm"
-  },
-  {
-   "en": "A beer, please",
-   "hu": "Egy sört kérek",
-   "say": "ej SHURT KAY-rek"
-  },
-  {
-   "en": "One more",
-   "hu": "Még egyet",
-   "say": "mayg EJ-et"
-  },
-  {
-   "en": "Excuse me / sorry",
-   "hu": "Elnézést",
-   "say": "EL-nay-zaysht"
-  },
-  {
-   "en": "Where's the toilet?",
-   "hu": "Hol van a vécé?",
-   "say": "hol von aw VAY-tsay"
-  },
-  {
-   "en": "How much is it?",
-   "hu": "Mennyibe kerül?",
-   "say": "MEN-yee-beh KEH-rewl"
-  },
-  {
-   "en": "The bill, please",
-   "hu": "Fizetni szeretnék",
-   "say": "FEE-zet-nee SEH-ret-nayk"
-  },
-  {
-   "en": "Come on Fradi!",
-   "hu": "Hajrá Fradi!",
-   "say": "HOY-raw FRAW-dee"
-  }
- ],
- "sources": [
-  "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-by-team/",
-  "https://www.globalgameguide.com/article/2026-27-uefa-europa-league-guide",
-  "https://www.mtkbudapest.hu/hu/merkozesek",
-  "https://www.eredmenyek.com/foci/magyarorszag/nb-i/",
-  "https://hungaroringkartcenter.hu/en/booking",
-  "https://ultimatebudapest.com/things-to-do/sports-fitness/hungaroring-gokarting",
-  "https://www.tripadvisor.com/Attraction_Review-g2290737-d7398297-Reviews-Hungaroring_Kart_Center-Mogyorod_Pest_County_Central_Hungary.html",
-  "https://www.waze.com/en-GB/live-map/directions/hu/mogyorod/hungaroring-gokart-center?to=place.ChIJtXzCd5zPQUcRfupvXiTVjdM",
-  "https://budappest.com/how-to-get-to-the-hungaroring-in-budapest-a-guide-for-foreign-tourists/",
-  "https://hungaroring.hu/site/en/media/news/how-to-get-to-the-formula-1-magyar-nagydij-by-public-transport",
-  "https://eventseeker.com/venue/949704-groupama-arena-budapest",
-  "https://www.thesportsdb.com/venue/17888-groupama-ar%C3%A9na",
-  "https://en.wikipedia.org/wiki/Hidegkuti_N%C3%A1ndor_Stadion",
-  "https://aroundus.com/p/7692494-hidegkuti-nandor-stadion",
-  "https://fradi.hu/en/club/groupama-arena",
-  "https://meccsjegy.fradi.hu/jegyarak?lang=en",
-  "https://www.scottishfa.co.uk/en/news/fan-information-hungary-v-scotland",
-  "https://blog.wego.com/budapest-airport-to-city-centre/",
-  "https://atmosphere.copernicus.eu/sites/default/files/2025-12/Logistics_Information_%20FAIRMODE_CAMS_Budapest.pdf",
-  "https://xpatloop.com/channels/2026/06/taxi-fares-to-rise-in-budapest-from-1-august.html",
-  "https://budappest.com/a-major-change-at-budapest-airport-fotaxi-and-uber-join-forces-for-smarter-travel/",
-  "https://www.economx.hu/magyar-gazdasag/2026/08/03/budapest-airport-liszt-ferenc-rapter-taxi-kozlekedes-fotaxi/",
-  "https://infostart.hu/gazdasag/2024/04/17/tenyleg-visszater-az-uber-ime-minden-reszlet",
-  "https://www.mavcsoport.hu/sites/default/files/upload/page/helykozi_menetdijtablazat_2026_10_01.pdf",
-  "https://www.origo.hu/itthon/2025/05/bkk-ar-jegy-budapest",
-  "https://longforecast.com/gbp-huf",
-  "https://cellesim.com/en/blog/uk-eu-roaming-charges-2026-your-guide-to-avoiding-bill-shock",
-  "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security",
-  "https://travel.gc.ca/destinations/hungary",
-  "https://freetoursbyfoot.com/weather-budapest-october/",
-  "https://weatheronthisday.com/intl/budapest/october",
-  "https://www.jambase.com/venue/papp-laszlo-budapest-sportarena",
-  "https://www.programturizmus.hu/naptar-2026-09.html?f=80"
- ]
+  ],
+  "sources": [
+    "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-by-team/",
+    "https://www.globalgameguide.com/article/2026-27-uefa-europa-league-guide",
+    "https://www.mtkbudapest.hu/hu/merkozesek",
+    "https://www.eredmenyek.com/foci/magyarorszag/nb-i/",
+    "https://hungaroringkartcenter.hu/en/booking",
+    "https://ultimatebudapest.com/things-to-do/sports-fitness/hungaroring-gokarting",
+    "https://www.tripadvisor.com/Attraction_Review-g2290737-d7398297-Reviews-Hungaroring_Kart_Center-Mogyorod_Pest_County_Central_Hungary.html",
+    "https://www.waze.com/en-GB/live-map/directions/hu/mogyorod/hungaroring-gokart-center?to=place.ChIJtXzCd5zPQUcRfupvXiTVjdM",
+    "https://budappest.com/how-to-get-to-the-hungaroring-in-budapest-a-guide-for-foreign-tourists/",
+    "https://hungaroring.hu/site/en/media/news/how-to-get-to-the-formula-1-magyar-nagydij-by-public-transport",
+    "https://eventseeker.com/venue/949704-groupama-arena-budapest",
+    "https://www.thesportsdb.com/venue/17888-groupama-ar%C3%A9na",
+    "https://en.wikipedia.org/wiki/Hidegkuti_N%C3%A1ndor_Stadion",
+    "https://aroundus.com/p/7692494-hidegkuti-nandor-stadion",
+    "https://fradi.hu/en/club/groupama-arena",
+    "https://meccsjegy.fradi.hu/jegyarak?lang=en",
+    "https://www.scottishfa.co.uk/en/news/fan-information-hungary-v-scotland",
+    "https://blog.wego.com/budapest-airport-to-city-centre/",
+    "https://atmosphere.copernicus.eu/sites/default/files/2025-12/Logistics_Information_%20FAIRMODE_CAMS_Budapest.pdf",
+    "https://xpatloop.com/channels/2026/06/taxi-fares-to-rise-in-budapest-from-1-august.html",
+    "https://budappest.com/a-major-change-at-budapest-airport-fotaxi-and-uber-join-forces-for-smarter-travel/",
+    "https://www.economx.hu/magyar-gazdasag/2026/08/03/budapest-airport-liszt-ferenc-rapter-taxi-kozlekedes-fotaxi/",
+    "https://infostart.hu/gazdasag/2024/04/17/tenyleg-visszater-az-uber-ime-minden-reszlet",
+    "https://www.mavcsoport.hu/sites/default/files/upload/page/helykozi_menetdijtablazat_2026_10_01.pdf",
+    "https://www.origo.hu/itthon/2025/05/bkk-ar-jegy-budapest",
+    "https://longforecast.com/gbp-huf",
+    "https://cellesim.com/en/blog/uk-eu-roaming-charges-2026-your-guide-to-avoiding-bill-shock",
+    "https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security",
+    "https://travel.gc.ca/destinations/hungary",
+    "https://freetoursbyfoot.com/weather-budapest-october/",
+    "https://weatheronthisday.com/intl/budapest/october",
+    "https://www.jambase.com/venue/papp-laszlo-budapest-sportarena",
+    "https://www.programturizmus.hu/naptar-2026-09.html?f=80"
+  ]
 }
