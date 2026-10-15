@@ -4625,6 +4625,331 @@ window.BB_DATA = {
    "imageCaption": "A gyros piled with chips"
   },
   {
+   "id": "new-york-cafe",
+   "name": "New York Café",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "dessert"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 9–11, 1073 Budapest",
+   "lat": 47.49868,
+   "lng": 19.07046,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": 4.1,
+    "gN": 53174
+   },
+   "price": 3,
+   "priceText": "Cake about 5,000 HUF a slice, espresso about 3,000 HUF, plus 15% service",
+   "hours": "Daily 07:00–00:00 (possibly to 01:00 Thu–Sun)",
+   "blurb": "Billed as the most beautiful café in the world: a gilded 1894 coffee palace straight down the körút from the Airbnb. Pricey and touristy, but worth one look.",
+   "tip": "Beat the queue by going 07:00–09:00 or after 22:00. One cake and a coffee each, take the photo, move on.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg/960px-Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageCaption": "Inside New York Café",
+   "gallery": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/New_York_caf%C3%A9_Budapest.jpg/960px-New_York_caf%C3%A9_Budapest.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Clocks_in_New_York_Caf%C3%A9_Budapest_%282%29.jpg/960px-Clocks_in_New_York_Caf%C3%A9_Budapest_%282%29.jpg"
+   ]
+  },
+  {
+   "id": "aran-bakery-pest",
+   "name": "Arán Bakery",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "dessert",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Wesselényi utca 23, 1077 Budapest",
+   "lat": 47.498,
+   "lng": 19.06464,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": 4.8,
+    "gN": 2800
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Mon–Fri 08:00–18:30 · Sat 08:00–17:30 · Sun 08:00–15:00",
+   "blurb": "Top-rated bakery a short walk from the Airbnb, known for its flódni: the Jewish-Hungarian four-layer cake of poppy seed, apple, plum jam and walnut.",
+   "tip": "Flódni and a coffee make a decent hangover breakfast. Shuts at 15:00 on Sunday.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Fl%C3%B3dni-2012.jpg/960px-Fl%C3%B3dni-2012.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Flódni"
+  },
+  {
+   "id": "auguszt-belvaros",
+   "name": "Auguszt Cukrászda",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "dessert"
+   ],
+   "district": "V",
+   "address": "Kossuth Lajos utca 14–16, 1053 Budapest",
+   "lat": 47.49389,
+   "lng": 19.05778,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": "Slices about 1,300–2,000 HUF: krémes 1,400, Dobos 1,800, Eszterházy 1,790",
+   "hours": "Tue–Fri 09:00–19:00 · Sat 11:00–18:00 · closed Sun–Mon (listings vary)",
+   "blurb": "Family patisserie since 1870 and the old-school benchmark for Hungarian classics: krémes, Dobos and Eszterházy at fair prices, by Astoria.",
+   "tip": "Closed Sunday. On Sunday use their Geraldine branch in the National Museum garden instead (Múzeum körút 14–16, Tue–Sun 10:00–19:00).",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/AugusztCukraszda.JPG/960px-AugusztCukraszda.JPG",
+   "links": {
+    "ta": null,
+    "web": "https://auguszt.hu/",
+    "book": null
+   },
+   "imageCaption": "Auguszt on Kossuth Lajos utca"
+  },
+  {
+   "id": "central-kavehaz",
+   "name": "Centrál Kávéház",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "dessert"
+   ],
+   "district": "V",
+   "address": "Károlyi utca 9, 1053 Budapest",
+   "lat": 47.49201,
+   "lng": 19.05675,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": "Dobos or Eszterházy 2,790 HUF, a three-cake sampler 4,590 HUF, plus 15% service",
+   "hours": "Sun–Tue 09:00–22:00 · Wed–Sat 09:00–00:00",
+   "blurb": "Grand 1887 coffee house with live music: as handsome as New York Café, but calmer and cheaper. Proper Hungarian cakes.",
+   "tip": "Get the three-cake sampler to try Dobos, Eszterházy and Rákóczi túrós in one go. A 15% service charge goes on the bill.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Central_Caf%C3%A9_Budapest-2022.jpg/960px-Central_Caf%C3%A9_Budapest-2022.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageCaption": "Centrál Kávéház on Károlyi utca",
+   "gallery": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Central_Caf%C3%A9_Budapest.jpg/960px-Central_Caf%C3%A9_Budapest.jpg"
+   ]
+  },
+  {
+   "id": "malna-pastry",
+   "name": "Málna The Pastry Shop",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "dessert"
+   ],
+   "district": "V",
+   "address": "Hercegprímás utca 17, 1051 Budapest",
+   "lat": 47.5027,
+   "lng": 19.05281,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Tue–Sun 10:00–18:00 · closed Monday",
+   "blurb": "Hungary's Pastry Shop of the Year three years running, and Time Out's number one. Moved from Óbuda to a few streets from the Basilica in late 2025.",
+   "tip": "The Málna raspberry cake (almond sponge, raspberry mousse) or the krémes. Shuts at 18:00.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Bled_Cremeschnitte_%28blejska_krem%C5%A1nita%29.jpg/960px-Bled_Cremeschnitte_%28blejska_krem%C5%A1nita%29.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A krémes"
+  },
+  {
+   "id": "elso-pesti-reteshaz",
+   "name": "Első Pesti Rétesház",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "dessert",
+    "cheap"
+   ],
+   "district": "V",
+   "address": "Október 6. utca 22, 1051 Budapest",
+   "lat": 47.50178,
+   "lng": 19.05062,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Strudel about 1,000 HUF a piece; the plated apple strudel 3,800 HUF",
+   "hours": "Daily 09:00–22:00",
+   "blurb": "Hand-stretched rétes (strudel) near the Basilica: sweet curd, sour cherry, poppy seed or apple, with proper seats.",
+   "tip": "Túrós (sweet curd) or meggyes (sour cherry). Same building as Istanbul Kebab & Grill if you're doing savoury then sweet.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Csokis-t%C3%BAr%C3%B3s_r%C3%A9tes.jpg/960px-Csokis-t%C3%BAr%C3%B3s_r%C3%A9tes.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Curd strudel"
+  },
+  {
+   "id": "kato-neni",
+   "name": "Kató Néni Finomságai",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "chimney-cake",
+    "dessert",
+    "cheap"
+   ],
+   "district": "V",
+   "address": "Október 6. utca 6, 1051 Budapest",
+   "lat": 47.50013,
+   "lng": 19.05101,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "About 1,500–3,000 HUF",
+   "hours": "Hours not confirmed: check Google Maps",
+   "blurb": "Often named among the best chimney cakes in the city, two streets from the Basilica. Classic cinnamon or walnut, creative flavours and ice-cream-filled cones.",
+   "tip": "They run chimney-cake baking workshops if you fancy a go. There's a second Kató néni kiosk in City Park by the Zoo.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/K%C3%BCrt%C5%91skal%C3%A1cs.jpg/960px-K%C3%BCrt%C5%91skal%C3%A1cs.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Chimney cakes turning over hot coals"
+  },
+  {
+   "id": "edes-macko",
+   "name": "Édes Mackó Kürtőskalács",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "chimney-cake",
+    "dessert",
+    "cheap"
+   ],
+   "district": "XIV",
+   "address": "Állatkerti körút 14–16, 1146 Budapest",
+   "lat": 47.51946,
+   "lng": 19.08195,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": 4.3,
+    "gN": 1227
+   },
+   "price": 1,
+   "priceText": "About 2,000–4,000 HUF a head",
+   "hours": "Hours not confirmed: open most days, with themed weekends. Check Google Maps",
+   "blurb": "Chimney cakes hand-turned over charcoal, which hardly anyone still does, in City Park by the Zoo. One 2026 guide rates it the best in Budapest.",
+   "tip": "Right by Széchenyi Baths, so get one after a soak. Classic walnut or cinnamon, or a kürtős with ice cream.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/K%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg/960px-K%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Kürtőskalács baking over charcoal"
+  },
+  {
+   "id": "daubner",
+   "name": "Daubner Cukrászda",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "dessert"
+   ],
+   "district": "II",
+   "address": "Szépvölgyi út 50, 1025 Budapest",
+   "lat": 47.52832,
+   "lng": 19.03203,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": 4.5,
+    "gN": 14206
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Wed–Sun 09:00–19:00 · closed Mon–Tue",
+   "blurb": "The locals' favourite since 1901, up in the Buda hills, where half of Buda queues at weekends. Krémes, Dobos and possibly the best Sacher torte around.",
+   "tip": "Takeaway only, no tables, and bring cash. It's a ride out into Buda; expect a queue on weekend mornings.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dobos_torta%2C_2.jpg/960px-Dobos_torta%2C_2.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A Dobos torta"
+  },
+  {
    "id": "hungarian-parliament",
    "name": "Hungarian Parliament Building",
    "sub": null,
