@@ -1,5 +1,5 @@
 {
- "checked": 195,
+ "checked": 212,
  "bad": [],
  "all": [
   {
@@ -514,11 +514,11 @@
    "bytes": 284630
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Hungarian_Pretzels_%28Perec%29%2C_Cheese_Rolls_%28Sajtos_rolo%29_and_Kurtoskalacs_at_the_Budapest.jpg/960px-Hungarian_Pretzels_%28Perec%29%2C_Cheese_Rolls_%28Sajtos_rolo%29_and_Kurtoskalacs_at_the_Budapest.jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg/960px-K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg",
    "id": "molnars-kurtoskalacs",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 234193
+   "bytes": 158869
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Budapest%2C_V%C3%B6r%C3%B6smarty_t%C3%A9r_7-8%2C_Gerbeaud-h%C3%A1z%2C_1.jpg/960px-Budapest%2C_V%C3%B6r%C3%B6smarty_t%C3%A9r_7-8%2C_Gerbeaud-h%C3%A1z%2C_1.jpg",
@@ -673,6 +673,125 @@
    "status": 200,
    "type": "image/jpeg",
    "bytes": 191008
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pita_giros.JPG/960px-Pita_giros.JPG",
+   "id": "heureka-gyros",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 147604
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Pita_Gyros_%C3%A0_Almyrida_%28juillet_2021%29_-_1.jpg/960px-Pita_Gyros_%C3%A0_Almyrida_%28juillet_2021%29_-_1.jpg",
+   "id": "meraki-oktogon",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 237482
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Two_Gryros.jpg",
+   "id": "blue-agori-madach",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 57889
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Lamb_Gyros_Sydney.jpg/960px-Lamb_Gyros_Sydney.jpg",
+   "id": "gyros-ulloi",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 200606
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Nafplio_Gyros.jpg/960px-Nafplio_Gyros.jpg",
+   "id": "gyros-kerkyra",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 110311
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg/960px-Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg",
+   "id": "new-york-cafe",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 202474
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/New_York_caf%C3%A9_Budapest.jpg/960px-New_York_caf%C3%A9_Budapest.jpg",
+   "id": "new-york-cafe",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 205515
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Clocks_in_New_York_Caf%C3%A9_Budapest_%282%29.jpg/960px-Clocks_in_New_York_Caf%C3%A9_Budapest_%282%29.jpg",
+   "id": "new-york-cafe",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 261744
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Fl%C3%B3dni-2012.jpg/960px-Fl%C3%B3dni-2012.jpg",
+   "id": "aran-bakery-pest",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 231402
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/AugusztCukraszda.JPG/960px-AugusztCukraszda.JPG",
+   "id": "auguszt-belvaros",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 175472
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Central_Caf%C3%A9_Budapest-2022.jpg/960px-Central_Caf%C3%A9_Budapest-2022.jpg",
+   "id": "central-kavehaz",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 223924
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Central_Caf%C3%A9_Budapest.jpg/960px-Central_Caf%C3%A9_Budapest.jpg",
+   "id": "central-kavehaz",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 301300
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Bled_Cremeschnitte_%28blejska_krem%C5%A1nita%29.jpg/960px-Bled_Cremeschnitte_%28blejska_krem%C5%A1nita%29.jpg",
+   "id": "malna-pastry",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 207690
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Csokis-t%C3%BAr%C3%B3s_r%C3%A9tes.jpg/960px-Csokis-t%C3%BAr%C3%B3s_r%C3%A9tes.jpg",
+   "id": "elso-pesti-reteshaz",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 123048
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/K%C3%BCrt%C5%91skal%C3%A1cs.jpg/960px-K%C3%BCrt%C5%91skal%C3%A1cs.jpg",
+   "id": "kato-neni",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 225153
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/K%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg/960px-K%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg",
+   "id": "edes-macko",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 177540
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dobos_torta%2C_2.jpg/960px-Dobos_torta%2C_2.jpg",
+   "id": "daubner",
+   "status": 200,
+   "type": "image/jpeg",
+   "bytes": 133799
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Parliament_Building%2C_Budapest%2C_outside.jpg/960px-Parliament_Building%2C_Budapest%2C_outside.jpg",
