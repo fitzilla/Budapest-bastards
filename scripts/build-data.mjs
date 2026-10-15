@@ -266,6 +266,7 @@ function illoCategory(x) {
     if (t.has('michelin') && t.has('hungarian') && !t.has('fine-dining')) return 'hungarian';
     if (t.has('michelin') || t.has('fine-dining')) return 'finedining';
     if (t.has('brunch')) return 'cafe';
+    if (t.has('chimney-cake')) return 'chimney';
     if (t.has('dessert')) return 'sweets';
     return 'hungarian';
   }

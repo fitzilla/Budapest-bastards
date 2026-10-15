@@ -3128,6 +3128,7 @@ window.BB_DATA = {
    "sub": null,
    "type": "food",
    "tags": [
+    "chimney-cake",
     "dessert",
     "street-food",
     "cheap"
@@ -3150,14 +3151,14 @@ window.BB_DATA = {
    "tip": "Cinnamon or walnut chimney cake. Ask for it fresh from the grill and watch the bake.",
    "history": null,
    "entry": null,
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Hungarian_Pretzels_%28Perec%29%2C_Cheese_Rolls_%28Sajtos_rolo%29_and_Kurtoskalacs_at_the_Budapest.jpg/960px-Hungarian_Pretzels_%28Perec%29%2C_Cheese_Rolls_%28Sajtos_rolo%29_and_Kurtoskalacs_at_the_Budapest.jpg",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg/960px-K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg",
    "links": {
     "ta": null,
     "web": "https://kurtoskalacs.com",
     "book": null
    },
    "imageKind": "illustrative",
-   "imageCaption": "Hungarian pastries and kürtőskalács"
+   "imageCaption": "Chimney cakes on the spit"
   },
   {
    "id": "gerbeaud",
