@@ -488,5 +488,41 @@
    "Corvin Áruház (a).jpg",
    "Budapest, Blaha Lujza tér, Corvin Áruház, 7.jpg"
   ]
+ },
+ "hari-kebab": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%B6ner_kebab.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A döner in homemade pita",
+  "source": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_kebab.jpg"
+ },
+ "piramis-kebab": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shawarma_Sandwich.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A shawarma sandwich",
+  "source": "https://commons.wikimedia.org/wiki/File:Shawarma_Sandwich.jpg"
+ },
+ "melissa-gyros": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyros.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A gyros pita with tzatziki",
+  "source": "https://commons.wikimedia.org/wiki/File:Gyros.jpg"
+ },
+ "istanbul-akacfa": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Doener_Kebab_%289682662957%29.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A late-night döner",
+  "source": "https://commons.wikimedia.org/wiki/File:Doener_Kebab_%289682662957%29.jpg"
+ },
+ "istanbul-kebab-grill": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BCr%C3%BCm_of_Ali_Baba_Tauberbischofsheim.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A dürüm wrap",
+  "source": "https://commons.wikimedia.org/wiki/File:D%C3%BCr%C3%BCm_of_Ali_Baba_Tauberbischofsheim.jpg"
+ },
+ "doner-master": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%B6ner_Kebab%2C_Berlin%2C_2010_%2801%29.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A döner in pita",
+  "source": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_Kebab%2C_Berlin%2C_2010_%2801%29.jpg"
  }
 }
