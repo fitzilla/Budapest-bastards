@@ -848,7 +848,7 @@
     })() : '';
     return `<section class="hero" aria-label="Trip">
       <p class="hero-eyebrow">Budapest · Thu 15 – Sun 18 Oct 2026</p>
-      <div class="hero-count"><b class="tnum">${esc(big)}</b><span>${esc(small)}</span></div>
+      <div class="hero-count${String(big).length > 3 ? ' is-stacked' : ''}"><b class="tnum">${esc(big)}</b><span>${esc(small)}</span></div>
       ${nextHtml}
       <div data-wx-slot="strip">${wxSlot('strip')}</div>
     </section>`;

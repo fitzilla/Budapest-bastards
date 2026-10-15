@@ -236,6 +236,10 @@ p { margin: 0; }
 .hero-count { display: flex; align-items: flex-end; gap: 12px; margin-top: 10px; }
 .hero-count b { font: 900 88px/.8 var(--font-display); letter-spacing: 0; white-space: nowrap; }
 .hero-count span { font: 800 22px/1 var(--font-display); text-transform: uppercase; letter-spacing: .01em; max-width: 14ch; padding-bottom: 4px; }
+/* wide headline ('Day 1'): the line goes underneath instead of being squeezed into a sliver beside it */
+.hero-count.is-stacked { flex-direction: column; align-items: flex-start; gap: 10px; }
+.hero-count.is-stacked span { max-width: none; padding-bottom: 0; }
+.hero-count.is-stacked b { padding-bottom: .16em; } /* room for the tail on the y in 'Day' */
 .hero-next {
   display: flex; align-items: center; gap: 12px;
   margin-top: 16px; padding: 12px 14px;
