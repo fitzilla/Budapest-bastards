@@ -1,1 +1,66 @@
-{}
+{
+ "s8-underground": {
+  "byName": [
+   {
+    "name": "S8 Underground Club, 26, Kerepesi út, Törökőr, XIV. kerület, Budapest, 1148, Magyarország",
+    "lat": 47.5005059,
+    "lng": 19.1089366,
+    "type": "bar",
+    "house": "26",
+    "road": "Kerepesi út"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "26, Kerepesi út, Laposdűlő, X. kerület, Budapest, 1148, Magyarország",
+    "lat": 47.5006341,
+    "lng": 19.1089716,
+    "type": "yes",
+    "house": "26",
+    "road": "Kerepesi út"
+   },
+   {
+    "name": "S8 Underground Club, 26, Kerepesi út, Törökőr, XIV. kerület, Budapest, 1148, Magyarország",
+    "lat": 47.5005059,
+    "lng": 19.1089366,
+    "type": "bar",
+    "house": "26",
+    "road": "Kerepesi út"
+   },
+   {
+    "name": "Reál, 26, Kerepesi út, Törökőr, XIV. kerület, Budapest, 1148, Magyarország",
+    "lat": 47.500483,
+    "lng": 19.1090835,
+    "type": "supermarket",
+    "house": "26",
+    "road": "Kerepesi út"
+   }
+  ]
+ },
+ "renegade-blues": {
+  "byName": [
+   {
+    "name": "Renegade Tattoo & Blues Bar, 17, Rákóczi út, Palotanegyed, VIII. kerület, Budapest, 1088, Magyarország",
+    "lat": 47.4951256,
+    "lng": 19.0640624,
+    "type": "bar",
+    "house": "17",
+    "road": "Rákóczi út"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "Budapest, Magyarország",
+    "lat": 47.481849,
+    "lng": 19.1449053,
+    "type": "administrative"
+   },
+   {
+    "name": "Budapest, Magyarország",
+    "lat": 47.4978789,
+    "lng": 19.0402383,
+    "type": "administrative"
+   }
+  ]
+ }
+}
