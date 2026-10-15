@@ -1,4 +1,4 @@
 # Image check
 
-138 photos checked, 0 missing.
+90 photos checked, 0 missing.
 
