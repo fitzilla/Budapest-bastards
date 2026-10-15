@@ -1,14 +1,1 @@
-[
- { "label": "des-kurtos", "q": "kürtőskalács", "limit": 12 },
- { "label": "des-ruszwurm", "q": "Ruszwurm", "limit": 6 },
- { "label": "des-auguszt", "q": "Auguszt cukrászda", "limit": 6 },
- { "label": "des-szamos", "q": "Szamos cukrászda Budapest", "limit": 6 },
- { "label": "des-hauer", "q": "Hauer cukrászda", "limit": 6 },
- { "label": "des-retes", "q": "Első Pesti Rétesház", "limit": 5 },
- { "label": "des-frohlich", "q": "Fröhlich cukrászda", "limit": 5 },
- { "label": "des-muvesz", "q": "Művész kávéház", "limit": 5 },
- { "label": "des-lukacs", "q": "Lukács cukrászda", "limit": 5 },
- { "label": "des-dobos", "q": "Dobos torta", "limit": 8 },
- { "label": "des-somloi", "q": "Somlói galuska", "limit": 6 },
- { "label": "des-flodni", "q": "flódni", "limit": 6 }
-]
+[]

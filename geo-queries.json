@@ -1,1 +1,7 @@
-[]
+[
+ { "id": "heureka-gyros", "name": "Heureka Original Greek Food", "address": "Margit körút 6, 1027 Budapest" },
+ { "id": "meraki-oktogon", "name": "Meraki", "address": "Teréz körút 27, 1067 Budapest" },
+ { "id": "blue-agori-madach", "name": "Blue Agori", "address": "Madách Imre út 1, 1075 Budapest" },
+ { "id": "gyros-kerkyra", "name": "Kerkyra Gyros", "address": "Petneházy utca 37, 1139 Budapest" },
+ { "id": "gyros-ulloi", "name": "Gyros", "address": "Üllői út 40, 1082 Budapest" }
+]
