@@ -68,9 +68,27 @@
     "tile": true
    },
    {
+    "t": "Kripta Söröző",
+    "img": "none",
+    "src": null,
+    "tile": true
+   },
+   {
+    "t": "ParaNoir Pub",
+    "img": "ok",
+    "src": "https://1a42ce1345.clvaw-cdnwnd.com/64fb0cc180429092167c56f186b8bd23/200000146-77bae78b40/pnp.jpg?ph=1a42ce1345",
+    "tile": true
+   },
+   {
     "t": "Ziccer TrollFoci Sport Pub",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
+    "t": "Gödör Klub",
+    "img": "none",
+    "src": null,
     "tile": true
    },
    {
@@ -83,6 +101,12 @@
     "t": "Stifler American Sport Bar",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
+    "t": "Kadarka",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/PVMTV_bottles.JPG/960px-PVMTV_bottles.JPG",
     "tile": true
    },
    {
@@ -122,6 +146,18 @@
     "tile": true
    },
    {
+    "t": "Snaps Belga Söröző",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Big_Timber_Brewing_flight_of_beer.jpg/960px-Big_Timber_Brewing_",
+    "tile": true
+   },
+   {
+    "t": "Vault 51",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/The_interior_of_Dive_Bar%2C_an_underground_arcade_bar_in_Moores",
+    "tile": true
+   },
+   {
     "t": "Kőleves Kert",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/K%C5%91leves_kert_%284%29.jpg/960px-K%C5%91leves_kert_%284%29.j",
@@ -146,9 +182,21 @@
     "tile": true
    },
    {
+    "t": "Wunder Sörművek",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
     "t": "The Magic",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Budapest%2C_Haj%C3%B3s_utca_25%2C_The_MAGIC_Budapest%2C_1.jpg/9",
+    "tile": true
+   },
+   {
+    "t": "The Pointer Pub",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
     "tile": true
    },
    {
@@ -158,9 +206,21 @@
     "tile": true
    },
    {
+    "t": "Unity Brewing",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
     "t": "Gozsdu Udvar",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gozsdu-yard._%27C%27_yard._Arcades._Monument_ID_840_-_Budapest_",
+    "tile": true
+   },
+   {
+    "t": "Doblo Wine & Bar",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Copped_Hall_wine_cellar%2C_Epping%2C_Essex%2C_England_01.jpg/96",
     "tile": true
    },
    {
@@ -176,9 +236,21 @@
     "tile": true
    },
    {
+    "t": "Jardín Cocktail Bar",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Flaming_cocktails.jpg/960px-Flaming_cocktails.jpg",
+    "tile": true
+   },
+   {
     "t": "BackStage Pub",
     "img": "none",
     "src": null,
+    "tile": true
+   },
+   {
+    "t": "Noiret Billiards & Darts",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Rookie%27s_Sports_Bar_%284175286111%29.jpg/960px-Rookie%27s_Spo",
     "tile": true
    },
    {
@@ -188,9 +260,27 @@
     "tile": true
    },
    {
+    "t": "Amigo Rock'n'Roll Club",
+    "img": "none",
+    "src": null,
+    "tile": true
+   },
+   {
+    "t": "Pótkulcs",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/A_Bar_in_Szimpla_Kert.jpg/960px-A_Bar_in_Szimpla_Kert.jpg",
+    "tile": true
+   },
+   {
     "t": "Telep",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
+    "t": "Stifler Beerhouse & Kitchen",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
     "tile": true
    },
    {
@@ -206,6 +296,12 @@
     "tile": true
    },
    {
+    "t": "Neverland Bar & Escape Room",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Cocktails_mit_Schirmchen.jpg/960px-Cocktails_mit_Schirmchen.jpg",
+    "tile": true
+   },
+   {
     "t": "FIRST Craft Beer & BBQ",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
@@ -218,15 +314,33 @@
     "tile": true
    },
    {
+    "t": "Legfelsőbb Beeróság",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
     "t": "Liquid Rock",
+    "img": "ok",
+    "src": "https://liquidrock.hu/wp-content/uploads/2023/09/main-page-location-image-outside-liquidrock.jpg",
+    "tile": true
+   },
+   {
+    "t": "Hunnia Bisztró",
     "img": "none",
     "src": null,
     "tile": true
    },
    {
+    "t": "Hrabal Söröző",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C",
+    "tile": true
+   },
+   {
     "t": "Blastbeat Bar",
-    "img": "none",
-    "src": null,
+    "img": "ok",
+    "src": "https://blastbeatbar.hu/userfiles/domain297/9/3/93c236cf244c373e500008397096fd76_69_thumb_384x384.webp",
     "tile": true
    },
    {
@@ -294,6 +408,24 @@
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Budapest%2C_Toldi_Klub%2C_Neonhull%C3%A1m.jpg/960px-Budapest%2C",
     "tile": true
+   },
+   {
+    "t": "S8 Underground Club",
+    "img": "none",
+    "src": null,
+    "tile": true
+   },
+   {
+    "t": "Keleti Waiting Room",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
+    "t": "BarCraft Nyugati",
+    "img": "ok",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Table_Taft_Board_Game_Caf%C3%A9_interior.jpg",
+    "tile": true
    }
   ],
   "rock": [
@@ -301,6 +433,24 @@
     "t": "A38 Ship",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/A38_%28ship%2C_Budapest%29.JPG/960px-A38_%28ship%2C_Budapest%29",
+    "tile": true
+   },
+   {
+    "t": "Kripta Söröző",
+    "img": "none",
+    "src": null,
+    "tile": true
+   },
+   {
+    "t": "ParaNoir Pub",
+    "img": "ok",
+    "src": "https://1a42ce1345.clvaw-cdnwnd.com/64fb0cc180429092167c56f186b8bd23/200000146-77bae78b40/pnp.jpg?ph=1a42ce1345",
+    "tile": true
+   },
+   {
+    "t": "Gödör Klub",
+    "img": "none",
+    "src": null,
     "tile": true
    },
    {
@@ -322,6 +472,12 @@
     "tile": true
    },
    {
+    "t": "Amigo Rock'n'Roll Club",
+    "img": "none",
+    "src": null,
+    "tile": true
+   },
+   {
     "t": "BARhole Music",
     "img": "none",
     "src": null,
@@ -329,14 +485,20 @@
    },
    {
     "t": "Liquid Rock",
+    "img": "ok",
+    "src": "https://liquidrock.hu/wp-content/uploads/2023/09/main-page-location-image-outside-liquidrock.jpg",
+    "tile": true
+   },
+   {
+    "t": "Hunnia Bisztró",
     "img": "none",
     "src": null,
     "tile": true
    },
    {
     "t": "Blastbeat Bar",
-    "img": "none",
-    "src": null,
+    "img": "ok",
+    "src": "https://blastbeatbar.hu/userfiles/domain297/9/3/93c236cf244c373e500008397096fd76_69_thumb_384x384.webp",
     "tile": true
    },
    {
@@ -355,6 +517,12 @@
     "t": "Hard Rock Cafe Budapest",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Hard_Rock_cafe%2C_Budapest_01.JPG/960px-Hard_Rock_cafe%2C_Budap",
+    "tile": true
+   },
+   {
+    "t": "S8 Underground Club",
+    "img": "none",
+    "src": null,
     "tile": true
    }
   ],
@@ -426,6 +594,12 @@
     "tile": true
    },
    {
+    "t": "The Pointer Pub",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
     "t": "Warm Up Cocktail Bar",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Cocktails_mit_Schirmchen.jpg/960px-Cocktails_mit_Schirmchen.jpg",
@@ -435,6 +609,18 @@
     "t": "Gozsdu Udvar",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gozsdu-yard._%27C%27_yard._Arcades._Monument_ID_840_-_Budapest_",
+    "tile": true
+   },
+   {
+    "t": "Noiret Billiards & Darts",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Rookie%27s_Sports_Bar_%284175286111%29.jpg/960px-Rookie%27s_Spo",
+    "tile": true
+   },
+   {
+    "t": "Amigo Rock'n'Roll Club",
+    "img": "none",
+    "src": null,
     "tile": true
    },
    {
@@ -451,8 +637,8 @@
    },
    {
     "t": "Liquid Rock",
-    "img": "none",
-    "src": null,
+    "img": "ok",
+    "src": "https://liquidrock.hu/wp-content/uploads/2023/09/main-page-location-image-outside-liquidrock.jpg",
     "tile": true
    },
    {
@@ -483,6 +669,12 @@
     "t": "Toldi Klub",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Budapest%2C_Toldi_Klub%2C_Neonhull%C3%A1m.jpg/960px-Budapest%2C",
+    "tile": true
+   },
+   {
+    "t": "S8 Underground Club",
+    "img": "none",
+    "src": null,
     "tile": true
    }
   ],
@@ -530,15 +722,45 @@
     "tile": true
    },
    {
+    "t": "Snaps Belga Söröző",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Big_Timber_Brewing_flight_of_beer.jpg/960px-Big_Timber_Brewing_",
+    "tile": true
+   },
+   {
     "t": "Fekete Kutya",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Big_Timber_Brewing_flight_of_beer.jpg/960px-Big_Timber_Brewing_",
     "tile": true
    },
    {
+    "t": "Wunder Sörművek",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
+    "t": "The Pointer Pub",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
+    "t": "Unity Brewing",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
     "t": "Champs Sports Pub",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
+    "t": "Stifler Beerhouse & Kitchen",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
     "tile": true
    },
    {
@@ -554,6 +776,12 @@
     "tile": true
    },
    {
+    "t": "Legfelsőbb Beeróság",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
     "t": "Élesztő",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Big_Timber_Brewing_flight_of_beer.jpg/960px-Big_Timber_Brewing_",
@@ -563,6 +791,12 @@
     "t": "Jack Doyle's Irish Pub",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Guinness_Glass_2010.jpg/960px-Guinness_Glass_2010.jpg",
+    "tile": true
+   },
+   {
+    "t": "Keleti Waiting Room",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
     "tile": true
    }
   ],
@@ -1038,6 +1272,18 @@
     "tile": true
    },
    {
+    "t": "Kripta Söröző",
+    "img": "none",
+    "src": null,
+    "tile": true
+   },
+   {
+    "t": "ParaNoir Pub",
+    "img": "ok",
+    "src": "https://1a42ce1345.clvaw-cdnwnd.com/64fb0cc180429092167c56f186b8bd23/200000146-77bae78b40/pnp.jpg?ph=1a42ce1345",
+    "tile": true
+   },
+   {
     "t": "Bigfish Seafood Bistro",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Dorade_dish.jpg/960px-Dorade_dish.jpg",
@@ -1059,6 +1305,12 @@
     "t": "Ziccer TrollFoci Sport Pub",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
+    "t": "Gödör Klub",
+    "img": "none",
+    "src": null,
     "tile": true
    },
    {
@@ -1101,6 +1353,12 @@
     "t": "Arriba Taqueria",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Tacos_al_pastor_en_Los_G%C3%BCeros_de_Boturini.jpg/960px-Tacos_",
+    "tile": true
+   },
+   {
+    "t": "Kadarka",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/PVMTV_bottles.JPG/960px-PVMTV_bottles.JPG",
     "tile": true
    },
    {
@@ -1194,6 +1452,18 @@
     "tile": true
    },
    {
+    "t": "Snaps Belga Söröző",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Big_Timber_Brewing_flight_of_beer.jpg/960px-Big_Timber_Brewing_",
+    "tile": true
+   },
+   {
+    "t": "Vault 51",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/The_interior_of_Dive_Bar%2C_an_underground_arcade_bar_in_Moores",
+    "tile": true
+   },
+   {
     "t": "Hungarian State Opera House",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Lascar_Hungarian_State_Opera_House_%284543541887%29.jpg/960px-L",
@@ -1254,6 +1524,12 @@
     "tile": true
    },
    {
+    "t": "Wunder Sörművek",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
     "t": "The Magic",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Budapest%2C_Haj%C3%B3s_utca_25%2C_The_MAGIC_Budapest%2C_1.jpg/9",
@@ -1266,9 +1542,21 @@
     "tile": true
    },
    {
+    "t": "The Pointer Pub",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
     "t": "Warm Up Cocktail Bar",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Cocktails_mit_Schirmchen.jpg/960px-Cocktails_mit_Schirmchen.jpg",
+    "tile": true
+   },
+   {
+    "t": "Unity Brewing",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
     "tile": true
    },
    {
@@ -1308,6 +1596,12 @@
     "tile": true
    },
    {
+    "t": "Doblo Wine & Bar",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Copped_Hall_wine_cellar%2C_Epping%2C_Essex%2C_England_01.jpg/96",
+    "tile": true
+   },
+   {
     "t": "Istanbul Kebab",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Doener_Kebab_%289682662957%29.jpg/960px-Doener_Kebab_%289682662",
@@ -1323,6 +1617,12 @@
     "t": "Lámpás",
     "img": "none",
     "src": null,
+    "tile": true
+   },
+   {
+    "t": "Jardín Cocktail Bar",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Flaming_cocktails.jpg/960px-Flaming_cocktails.jpg",
     "tile": true
    },
    {
@@ -1350,9 +1650,27 @@
     "tile": true
    },
    {
+    "t": "Noiret Billiards & Darts",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Rookie%27s_Sports_Bar_%284175286111%29.jpg/960px-Rookie%27s_Spo",
+    "tile": true
+   },
+   {
     "t": "Champs Sports Pub",
     "img": "ok",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lag",
+    "tile": true
+   },
+   {
+    "t": "Amigo Rock'n'Roll Club",
+    "img": "none",
+    "src": null,
+    "tile": true
+   },
+   {
+    "t": "Pótkulcs",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/A_Bar_in_Szimpla_Kert.jpg/960px-A_Bar_in_Szimpla_Kert.jpg",
     "tile": true
    },
    {
@@ -1374,8 +1692,14 @@
     "tile": true
    },
    {
-    "t": "MADHOUSE by Mad Scientist",
+    "t": "Stifler Beerhouse & Kitchen",
     "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
+    "tile": true
+   },
+   {
+    "t": "MADHOUSE by Mad Scientist",
+    "img": "pending",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Budapest%2C_Anker-palota%2C_26.jpeg/960px-Budapest%2C_Anker-pal",
     "tile": true
    },
@@ -1389,6 +1713,12 @@
     "t": "BARhole Music",
     "img": "none",
     "src": null,
+    "tile": true
+   },
+   {
+    "t": "Neverland Bar & Escape Room",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Cocktails_mit_Schirmchen.jpg/960px-Cocktails_mit_Schirmchen.jpg",
     "tile": true
    },
    {
@@ -1411,8 +1741,14 @@
    },
    {
     "t": "Dohány Street Synagogue",
-    "img": "ok",
+    "img": "pending",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Synagoge_Budapest_2014.jpg/960px-Synagoge_Budapest_2014.jpg",
+    "tile": true
+   },
+   {
+    "t": "Legfelsőbb Beeróság",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-f",
     "tile": true
    },
    {
@@ -1423,6 +1759,12 @@
    },
    {
     "t": "Liquid Rock",
+    "img": "pending",
+    "src": "https://liquidrock.hu/wp-content/uploads/2023/09/main-page-location-image-outside-liquidrock.jpg",
+    "tile": true
+   },
+   {
+    "t": "Hunnia Bisztró",
     "img": "none",
     "src": null,
     "tile": true
@@ -1435,14 +1777,20 @@
    },
    {
     "t": "Communist Budapest Free Walking Tour",
-    "img": "ok",
+    "img": "pending",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nagy_Imre_statue%2C_J%C3%A1szai_Mari_t%C3%A9r.jpg/960px-Nagy_Im",
     "tile": true
    },
    {
     "t": "St Stephen's Basilica",
-    "img": "ok",
+    "img": "pending",
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/St_Stephens_bas_budapest.jpg/960px-St_Stephens_bas_budapest.jpg",
+    "tile": true
+   },
+   {
+    "t": "Hrabal Söröző",
+    "img": "ok",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C",
     "tile": true
    },
    {
@@ -1471,11 +1819,12 @@
    }
   ]
  },
+ "want": "e0bca7ed09",
  "version": null,
  "net": {
-  "total": 136,
+  "total": 144,
   "byStatus": {
-   "200": 136
+   "200": 144
   },
   "bad": []
  }
