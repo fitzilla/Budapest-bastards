@@ -1,6 +1,14 @@
 [
- { "label": "gyr-1", "q": "pita gyros Greece", "limit": 10 },
- { "label": "gyr-2", "q": "souvlaki pita", "limit": 10 },
- { "label": "gyr-3", "q": "gyros Athens", "limit": 8 },
- { "label": "gyr-4", "q": "gyros spit Greek", "limit": 8 }
+ { "label": "des-kurtos", "q": "kürtőskalács", "limit": 12 },
+ { "label": "des-ruszwurm", "q": "Ruszwurm", "limit": 6 },
+ { "label": "des-auguszt", "q": "Auguszt cukrászda", "limit": 6 },
+ { "label": "des-szamos", "q": "Szamos cukrászda Budapest", "limit": 6 },
+ { "label": "des-hauer", "q": "Hauer cukrászda", "limit": 6 },
+ { "label": "des-retes", "q": "Első Pesti Rétesház", "limit": 5 },
+ { "label": "des-frohlich", "q": "Fröhlich cukrászda", "limit": 5 },
+ { "label": "des-muvesz", "q": "Művész kávéház", "limit": 5 },
+ { "label": "des-lukacs", "q": "Lukács cukrászda", "limit": 5 },
+ { "label": "des-dobos", "q": "Dobos torta", "limit": 8 },
+ { "label": "des-somloi", "q": "Somlói galuska", "limit": 6 },
+ { "label": "des-flodni", "q": "flódni", "limit": 6 }
 ]
