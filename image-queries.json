@@ -1,9 +1,1 @@
-[
- { "label": "w-1", "q": "glasses of red wine bar counter", "limit": 8 },
- { "label": "w-2", "q": "Hungarian wine tasting glasses", "limit": 8 },
- { "label": "w-3", "q": "wine bar interior bottles", "limit": 8 },
- { "label": "g-1", "q": "darts board pub", "limit": 8 },
- { "label": "g-2", "q": "pool table bar billiards", "limit": 8 },
- { "label": "g-3", "q": "board game cafe table", "limit": 6 },
- { "label": "g-4", "q": "pinball machines bar", "limit": 6 }
-]
+[]
