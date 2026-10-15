@@ -1,238 +1,78 @@
 {
- "caledonia-scottish-pub": {
-  "byName": [],
-  "byAddr": [
-   {
-    "name": "9, Mozsár utca, Terézváros, VI. kerület, Budapest, 1066, Magyarország",
-    "lat": 47.5047207,
-    "lng": 19.0606727,
-    "type": "apartments",
-    "house": "9",
-    "road": "Mozsár utca"
-   },
-   {
-    "name": "Kaledonia Skót Pub, 9, Mozsár utca, Terézváros, VI. kerület, Budapest, 1066, Magyarország",
-    "lat": 47.5048271,
-    "lng": 19.0606985,
-    "type": "pub",
-    "house": "9",
-    "road": "Mozsár utca"
-   }
-  ]
- },
- "score-sport-bar": {
-  "byName": [],
-  "byAddr": [
-   {
-    "name": "Dob utca, Erzsébetváros, VII. kerület, Budapest, 1074, Magyarország",
-    "lat": 47.5021828,
-    "lng": 19.0679111,
-    "type": "residential",
-    "road": "Dob utca"
-   },
-   {
-    "name": "Dob utca, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
-    "lat": 47.5038873,
-    "lng": 19.0713788,
-    "type": "residential",
-    "road": "Dob utca"
-   },
-   {
-    "name": "Dob utca, Ligetváros, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
-    "lat": 47.5047086,
-    "lng": 19.0729644,
-    "type": "residential",
-    "road": "Dob utca"
-   }
-  ]
- },
- "fekete-kutya": {
+ "time-out-market": {
   "byName": [
    {
-    "name": "Fekete Kutya, 31, Dob utca, Erzsébetváros, VII. kerület, Budapest, 1074, Magyarország",
-    "lat": 47.4988184,
-    "lng": 19.0620387,
-    "type": "pub",
-    "house": "31",
-    "road": "Dob utca"
+    "name": "Time Out Market Budapest, 1, Blaha Lujza tér, Palotanegyed, VIII. kerület, Budapest, 1085, Magyarország",
+    "lat": 47.4959765,
+    "lng": 19.0691975,
+    "type": "food_court",
+    "house": "1",
+    "road": "Blaha Lujza tér"
    }
   ],
   "byAddr": [
    {
-    "name": "Fekete Kutya, 31, Dob utca, Erzsébetváros, VII. kerület, Budapest, 1074, Magyarország",
-    "lat": 47.4988184,
-    "lng": 19.0620387,
-    "type": "pub",
-    "house": "31",
-    "road": "Dob utca"
+    "name": "dm, 1, Blaha Lujza tér, Palotanegyed, VIII. kerület, Budapest, 1085, Magyarország",
+    "lat": 47.4958895,
+    "lng": 19.0692957,
+    "type": "chemist",
+    "house": "1",
+    "road": "Blaha Lujza tér"
    },
    {
-    "name": "Mama Goulash, 31, Dob utca, Erzsébetváros, VII. kerület, Budapest, 1074, Magyarország",
-    "lat": 47.4986945,
-    "lng": 19.0619067,
+    "name": "Time Out Market Budapest, 1, Blaha Lujza tér, Palotanegyed, VIII. kerület, Budapest, 1085, Magyarország",
+    "lat": 47.4959765,
+    "lng": 19.0691975,
+    "type": "food_court",
+    "house": "1",
+    "road": "Blaha Lujza tér"
+   },
+   {
+    "name": "Hanami, 1, Blaha Lujza tér, Palotanegyed, VIII. kerület, Budapest, 1085, Magyarország",
+    "lat": 47.496198,
+    "lng": 19.0695103,
     "type": "restaurant",
-    "house": "31",
-    "road": "Dob utca"
+    "house": "1",
+    "road": "Blaha Lujza tér"
    }
   ]
  },
- "kisuzem": {
+ "corvin-aruhaz": {
   "byName": [
    {
-    "name": "Kisüzem, 2, Kis Diófa utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
-    "lat": 47.499752,
-    "lng": 19.0628034,
-    "type": "bar",
-    "house": "2",
-    "road": "Kis Diófa utca"
+    "name": "Corvin Palace, 1-2, Blaha Lujza tér, Palotanegyed, VIII. kerület, Budapest, 1085, Magyarország",
+    "lat": 47.4959336,
+    "lng": 19.0691928,
+    "type": "commercial",
+    "house": "1-2",
+    "road": "Blaha Lujza tér"
    }
   ],
   "byAddr": [
    {
-    "name": "2, Kis Diófa utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
-    "lat": 47.4998122,
-    "lng": 19.0626699,
-    "type": "apartments",
-    "house": "2",
-    "road": "Kis Diófa utca"
+    "name": "dm, 1, Blaha Lujza tér, Palotanegyed, VIII. kerület, Budapest, 1085, Magyarország",
+    "lat": 47.4958895,
+    "lng": 19.0692957,
+    "type": "chemist",
+    "house": "1",
+    "road": "Blaha Lujza tér"
    },
    {
-    "name": "Kisüzem, 2, Kis Diófa utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
-    "lat": 47.499752,
-    "lng": 19.0628034,
-    "type": "bar",
-    "house": "2",
-    "road": "Kis Diófa utca"
-   }
-  ]
- },
- "telep": {
-  "byName": [
-   {
-    "name": "József Attila-lakótelep, IX. kerület, Budapest, Magyarország",
-    "lat": 47.4646023,
-    "lng": 19.1148204,
-    "type": "administrative"
+    "name": "Time Out Market Budapest, 1, Blaha Lujza tér, Palotanegyed, VIII. kerület, Budapest, 1085, Magyarország",
+    "lat": 47.4959765,
+    "lng": 19.0691975,
+    "type": "food_court",
+    "house": "1",
+    "road": "Blaha Lujza tér"
    },
    {
-    "name": "Krepuska Géza-telep, XVIII. kerület, Budapest, Magyarország",
-    "lat": 47.4136661,
-    "lng": 19.2047639,
-    "type": "administrative"
-   },
-   {
-    "name": "Gloriett-telep, XVIII. kerület, Budapest, Magyarország",
-    "lat": 47.4315698,
-    "lng": 19.1882865,
-    "type": "administrative"
-   }
-  ],
-  "byAddr": [
-   {
-    "name": "Konyha, 8, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
-    "lat": 47.4982035,
-    "lng": 19.0579938,
+    "name": "Hanami, 1, Blaha Lujza tér, Palotanegyed, VIII. kerület, Budapest, 1085, Magyarország",
+    "lat": 47.496198,
+    "lng": 19.0695103,
     "type": "restaurant",
-    "house": "8",
-    "road": "Madách Imre út"
-   },
-   {
-    "name": "plante., 8, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
-    "lat": 47.4981631,
-    "lng": 19.0579665,
-    "type": "florist",
-    "house": "8",
-    "road": "Madách Imre út"
-   },
-   {
-    "name": "Telep-Art Galéria, 8, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
-    "lat": 47.4982247,
-    "lng": 19.0580747,
-    "type": "bar",
-    "house": "8",
-    "road": "Madách Imre út"
+    "house": "1",
+    "road": "Blaha Lujza tér"
    }
   ]
- },
- "black-swan": {
-  "byName": [
-   {
-    "name": "Black Swan Lab, 32, Klauzál utca, Erzsébetváros, VII. kerület, Budapest, 1072, Magyarország",
-    "lat": 47.4990669,
-    "lng": 19.0650833,
-    "type": "bar",
-    "house": "32",
-    "road": "Klauzál utca"
-   }
-  ],
-  "byAddr": [
-   {
-    "name": "32, Klauzál utca, Erzsébetváros, VII. kerület, Budapest, 1072, Magyarország",
-    "lat": 47.499047,
-    "lng": 19.0647025,
-    "type": "apartments",
-    "house": "32",
-    "road": "Klauzál utca"
-   },
-   {
-    "name": "Fogaskerékpár, 32, Klauzál utca, Erzsébetváros, VII. kerület, Budapest, 1072, Magyarország",
-    "lat": 47.4991953,
-    "lng": 19.0649848,
-    "type": "bicycle",
-    "house": "32",
-    "road": "Klauzál utca"
-   },
-   {
-    "name": "32, Klauzál utca, Erzsébetváros, VII. kerület, Budapest, 1072, Magyarország",
-    "lat": 47.4991571,
-    "lng": 19.0650364,
-    "type": "house",
-    "house": "32",
-    "road": "Klauzál utca"
-   }
-  ]
- },
- "kiado-kocsma": {
-  "byName": [
-   {
-    "name": "Kiadó, 3, Jókai tér, Terézváros, VI. kerület, Budapest, 1061, Magyarország",
-    "lat": 47.5048066,
-    "lng": 19.0615877,
-    "type": "pub",
-    "house": "3",
-    "road": "Jókai tér"
-   }
-  ],
-  "byAddr": [
-   {
-    "name": "3, Jókai tér, Terézváros, VI. kerület, Budapest, 1061, Magyarország",
-    "lat": 47.504684,
-    "lng": 19.0616262,
-    "type": "apartments",
-    "house": "3",
-    "road": "Jókai tér"
-   },
-   {
-    "name": "Kiadó, 3, Jókai tér, Terézváros, VI. kerület, Budapest, 1061, Magyarország",
-    "lat": 47.5048066,
-    "lng": 19.0615877,
-    "type": "pub",
-    "house": "3",
-    "road": "Jókai tér"
-   }
-  ]
- },
- "tuk-tuk-bar": {
-  "byName": [
-   {
-    "name": "Tuk Tuk Bár, 31, Paulay Ede utca, Terézváros, VI. kerület, Budapest, 1061, Magyarország",
-    "lat": 47.5011381,
-    "lng": 19.0588621,
-    "type": "bar",
-    "house": "31",
-    "road": "Paulay Ede utca"
-   }
-  ],
-  "byAddr": []
  }
 }
