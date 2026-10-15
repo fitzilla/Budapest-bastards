@@ -3757,9 +3757,9 @@ window.BB_DATA = {
    ],
    "district": "V",
    "address": "Szent István körút 13, 1055 Budapest",
-   "lat": 47.5134,
-   "lng": 19.0512,
-   "approx": true,
+   "lat": 47.51195,
+   "lng": 19.05077,
+   "approx": false,
    "rating": {
     "ta": null,
     "taN": null,
@@ -3768,7 +3768,7 @@ window.BB_DATA = {
    },
    "price": 1,
    "priceText": null,
-   "hours": "Reported daily 09:00–04:00, Fri–Sat to 05:00 (older listing): check Google Maps",
+   "hours": "Daily from 10:00 · closes about midnight–01:00 Sun–Thu and about 04:00–05:00 Fri–Sat (listings vary)",
    "blurb": "Turkish place on the Nagykörút that one guide calls the best eat-in or takeaway kebab in the city. Big menu, plenty of seats and hours that run deep into the night.",
    "tip": "Mixed kebab plate or a wrap with a drink: roughly 3,000–5,000 HUF (£7–12). Walk-ins fine. About 25 min walk or a tram ride away.",
    "history": null,
@@ -4224,6 +4224,226 @@ window.BB_DATA = {
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Corvin_%C3%81ruh%C3%A1z_%28a%29.jpg/960px-Corvin_%C3%81ruh%C3%A1z_%28a%29.jpg",
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Budapest%2C_Blaha_Lujza_t%C3%A9r%2C_Corvin_%C3%81ruh%C3%A1z%2C_7.jpg/960px-Budapest%2C_Blaha_Lujza_t%C3%A9r%2C_Corvin_%C3%81ruh%C3%A1z%2C_7.jpg"
    ]
+  },
+  {
+   "id": "hari-kebab",
+   "name": "Hari Kebab",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "kebab",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "István utca 6, 1078 Budapest",
+   "lat": 47.50416,
+   "lng": 19.08,
+   "approx": false,
+   "rating": {
+    "ta": 4.8,
+    "taN": 296,
+    "g": 4.6,
+    "gN": 4189
+   },
+   "price": 1,
+   "priceText": "Hari Kebab pita about 3,200 HUF, plates from about 3,800 HUF on the delivery apps, a bit less in the shop",
+   "hours": "Daily 11:00–21:00",
+   "blurb": "The name that comes up most for the best döner in Budapest: soft homemade pita, crispy veal or chicken off the spit and fresh veg. Colin Farrell's pick when he was filming here.",
+   "tip": "Order the Hari Kebab, which comes with feta and caramelised onions. It shuts at 21:00, so this is a daytime or dinner feed, not a 3am one.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/D%C3%B6ner_kebab.jpg/960px-D%C3%B6ner_kebab.jpg",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d12232767-Reviews-Hari_Kebab-Budapest_Central_Hungary.html",
+    "web": "https://harikebab.hu/en/home/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A döner in homemade pita"
+  },
+  {
+   "id": "piramis-kebab",
+   "name": "Piramis Kebab",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "kebab",
+    "cheap"
+   ],
+   "district": "VI",
+   "address": "Nagymező utca 33, 1065 Budapest",
+   "lat": 47.50531,
+   "lng": 19.05782,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": 4.9,
+    "gN": 1625
+   },
+   "price": 1,
+   "priceText": "About 2,000 HUF for a shawarma and a drink",
+   "hours": "Mon–Sat 10:00–21:00 · closed Sunday",
+   "blurb": "Egyptian-run shawarma and falafel on the theatre street, with some of the best ratings of any kebab shop in the city. Big portions, proper sauces, halal.",
+   "tip": "A shawarma in pita with everything on. Closed Sundays and shuts at 21:00. It's a couple of doors from Csirke Csibész.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Shawarma_Sandwich.jpg/960px-Shawarma_Sandwich.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A shawarma sandwich"
+  },
+  {
+   "id": "melissa-gyros",
+   "name": "Melissa Bisztró",
+   "sub": "Greek gyros",
+   "type": "food",
+   "tags": [
+    "kebab",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Wesselényi utca 18, 1077 Budapest",
+   "lat": 47.49752,
+   "lng": 19.06283,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Gyros pita about 1,800–2,000 HUF",
+   "hours": "Daily 11:00–05:00",
+   "blurb": "Greek gyros pita with proper tzatziki in the party district, open till 5am. The original shop of the chain and a regular on after-party lists.",
+   "tip": "You want no. 18, not the sit-down Melissa Greek Taverna further along at no. 31. Pita gyros with everything.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Gyros.jpg/960px-Gyros.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://melissabisztro.hu/en/wesselenyi-st-18-gyros/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A gyros pita with tzatziki"
+  },
+  {
+   "id": "istanbul-akacfa",
+   "name": "Istanbul Kebab",
+   "sub": "Akácfa utca",
+   "type": "food",
+   "tags": [
+    "kebab",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Akácfa utca 5, 1072 Budapest",
+   "lat": 47.49749,
+   "lng": 19.06927,
+   "approx": false,
+   "rating": {
+    "ta": 3.8,
+    "taN": 122,
+    "g": 4.1,
+    "gN": 3361
+   },
+   "price": 1,
+   "priceText": "Gyros pita about 1,850 HUF",
+   "hours": "Daily from 08:00 till about 04:00 · to 05:00 Thu · to 05:30 Fri–Sat",
+   "blurb": "The classic 4am döner and gyros stop between the ruin bars and Blaha. Not the finest meat in town, but it's open when nothing else is.",
+   "tip": "Classic gyros with cabbage, onion and hot sauce. The latest-opening kebab in the app.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Doener_Kebab_%289682662957%29.jpg/960px-Doener_Kebab_%289682662957%29.jpg",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d10627784-Reviews-Istanbul_Kebab-Budapest_Central_Hungary.html",
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A late-night döner"
+  },
+  {
+   "id": "istanbul-kebab-grill",
+   "name": "Istanbul Kebab & Grill",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "kebab",
+    "late-night",
+    "cheap"
+   ],
+   "district": "V",
+   "address": "Október 6. utca 22, 1051 Budapest",
+   "lat": 47.50196,
+   "lng": 19.05058,
+   "approx": false,
+   "rating": {
+    "ta": 4,
+    "taN": 294,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap: a döner and tea for well under 3,000 HUF",
+   "hours": "Daily from 08:00 · to 04:00 Thu–Sat, to midnight other nights (its own site also says 02:00 daily)",
+   "blurb": "Top of Restaurant Guru's best-döner list for Budapest in 2026, a few streets from the Basilica. Good meat, big portions and free Turkish tea.",
+   "tip": "Handy after the Basilica or a night in District V. Ask the price of extras like cheese before they go on.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/D%C3%BCr%C3%BCm_of_Ali_Baba_Tauberbischofsheim.jpg/960px-D%C3%BCr%C3%BCm_of_Ali_Baba_Tauberbischofsheim.jpg",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d5269952-Reviews-Istanbul_Kebab_Grill_Turkish_Restaurant-Budapest_Central_Hungary.html",
+    "web": "https://istanbulrestaurant.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A dürüm wrap"
+  },
+  {
+   "id": "doner-master",
+   "name": "Döner Master",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "kebab",
+    "late-night",
+    "cheap"
+   ],
+   "district": "IX",
+   "address": "Ferenc körút 25, 1094 Budapest",
+   "lat": 47.48323,
+   "lng": 19.06922,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Döner pita 1,850 HUF, tortilla wrap 2,200 HUF, the big Döner Master pita 3,500 HUF",
+   "hours": "Mon–Thu 11:30–00:30 · Fri–Sat 11:30–02:30 · Sun 11:30–00:00 (delivery-app hours; one listing says 21:00, so check)",
+   "blurb": "Turkish-style döner on the Nagykörút by Corvin-negyed: pita, wrap or a plate, with big portions of juicy meat and late opening at weekends.",
+   "tip": "Tram 4 or 6 four stops south from the Király utca stop. The Döner Master pita is the big one.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/D%C3%B6ner_Kebab%2C_Berlin%2C_2010_%2801%29.jpg/960px-D%C3%B6ner_Kebab%2C_Berlin%2C_2010_%2801%29.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://donermaster.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A döner in pita"
   },
   {
    "id": "hungarian-parliament",

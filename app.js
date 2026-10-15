@@ -257,7 +257,7 @@
     { id: 'must', label: 'Must-sees', icon: 'award', test: (p) => !!p.must },
     { id: 'near', label: 'Near the Airbnb', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed && p.type !== 'shop' },
     { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
-    { id: 'eat', label: 'Food', icon: 'utensils', chips: ['hungarian', 'street-food', 'late-night', 'burger', 'pizza', 'asian', 'steak', 'fish', 'michelin', 'breakfast', 'cheap'], test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
+    { id: 'eat', label: 'Food', icon: 'utensils', chips: ['hungarian', 'street-food', 'kebab', 'late-night', 'burger', 'pizza', 'asian', 'steak', 'fish', 'michelin', 'breakfast', 'cheap'], test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
     { id: 'shops', label: 'Shops', icon: 'cart', sort: 'dist', chips: ['supermarket', 'late-night', '24h', 'pharmacy', 'tobacco', 'drugstore', 'bottle-shop'], test: (p) => p.type === 'shop' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },
