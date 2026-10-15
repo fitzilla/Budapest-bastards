@@ -1294,5 +1294,565 @@
   "exists": true,
   "n": 90,
   "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-central",
+  "title": "Central Café Budapest-2022.jpg",
+  "uses": [
+   "search:d2-central"
+  ],
+  "exists": true,
+  "width": 5568,
+  "height": 3712,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Central_Caf%C3%A9_Budapest-2022.jpg/330px-Central_Caf%C3%A9_Budapest-2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Central Café, Budapest",
+  "n": 91,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-central",
+  "title": "Central Café Budapest.jpg",
+  "uses": [
+   "search:d2-central"
+  ],
+  "exists": true,
+  "width": 4774,
+  "height": 3708,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Central_Caf%C3%A9_Budapest.jpg/330px-Central_Caf%C3%A9_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Centrál Kávéház és Étterem 1887, Central Café, Károlyi utca 9, District V, BudapestKárolyi utca 9",
+  "n": 92,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-central",
+  "title": "Budapest, house 9 Károlyi utca (Centrál Kávéház).jpg",
+  "uses": [
+   "search:d2-central"
+  ],
+  "exists": true,
+  "width": 3420,
+  "height": 5806,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Budapest%2C_house_9_K%C3%A1rolyi_utca_%28Centr%C3%A1l_K%C3%A1v%C3%A9h%C3%A1z%29.jpg/330px-Budapest%2C_house_9_K%C3%A1rolyi_utca_%28Centr%C3%A1l_K%C3%A1v%C3%A9h%C3%A1z%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Budapest, house 9 Károlyi utca (Centrál Kávéház)",
+  "n": 93,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-central",
+  "title": "CentralKavehaz.JPG",
+  "uses": [
+   "search:d2-central"
+  ],
+  "exists": true,
+  "width": 4000,
+  "height": 6016,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/CentralKavehaz.JPG/330px-CentralKavehaz.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Centrál Kávéház on Károlyi Mihály utca in Budapest District V",
+  "n": 94,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-central",
+  "title": "Printed photo of Feriyes Karinthy, sitting at his favorite booth in the Central Cafe.jpg",
+  "uses": [
+   "search:d2-central"
+  ],
+  "exists": true,
+  "width": 694,
+  "height": 849,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Printed_photo_of_Feriyes_Karinthy%2C_sitting_at_his_favorite_booth_in_the_Central_Cafe.jpg/330px-Printed_photo_of_Feriyes_Karinthy%2C_sitting_at_his_favorite_booth_in_the_Central_Cafe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Printed photo of Feriyes Karinthy, sitting at his favorite booth in the Central Cafe",
+  "n": 95,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-central",
+  "title": "Central kalacs 44160.jpg",
+  "uses": [
+   "search:d2-central"
+  ],
+  "exists": true,
+  "width": 4480,
+  "height": 5682,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Central_kalacs_44160.jpg/330px-Central_kalacs_44160.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Exterior of Central Cafe",
+  "n": 96,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-nyc",
+  "title": "Clocks in New York Café Budapest (2).jpg",
+  "uses": [
+   "search:d2-nyc"
+  ],
+  "exists": true,
+  "width": 4330,
+  "height": 3200,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Clocks_in_New_York_Caf%C3%A9_Budapest_%282%29.jpg/330px-Clocks_in_New_York_Caf%C3%A9_Budapest_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Neo-Baroque Clocks in the entrance of the New York Café in Budapest (Hungary).",
+  "n": 97,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-nyc",
+  "title": "Clocks in New York Café Budapest (1).jpg",
+  "uses": [
+   "search:d2-nyc"
+  ],
+  "exists": true,
+  "width": 3462,
+  "height": 5290,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Clocks_in_New_York_Caf%C3%A9_Budapest_%281%29.jpg/330px-Clocks_in_New_York_Caf%C3%A9_Budapest_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Neo-Baroque Clocks in the entrance of the New York Café in Budapest (Hungary).",
+  "n": 98,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-nyc",
+  "title": "Interior of New York Palace, Cafe Budapest (8344808702).jpg",
+  "uses": [
+   "search:d2-nyc"
+  ],
+  "exists": true,
+  "width": 4580,
+  "height": 3049,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg/330px-Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "An amazing coffee house and restaurant, gorgeous AND great food and service. - Erzsébet Boulevard, Budapest District VII., Hungary",
+  "n": 99,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-nyc",
+  "title": "New York Cafe Budapest.jpg",
+  "uses": [
+   "search:d2-nyc"
+  ],
+  "exists": true,
+  "width": 4000,
+  "height": 2252,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/New_York_Cafe_Budapest.jpg/330px-New_York_Cafe_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Budapest Erzsébet krt. 9-11, New York Palace",
+  "n": 100,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-nyc",
+  "title": "New York Palace Cafe Budapest (8343750415).jpg",
+  "uses": [
+   "search:d2-nyc"
+  ],
+  "exists": true,
+  "width": 3148,
+  "height": 4729,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/New_York_Palace_Cafe_Budapest_%288343750415%29.jpg/330px-New_York_Palace_Cafe_Budapest_%288343750415%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "New York Palace. Cafe Budapest",
+  "n": 101,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-nyc",
+  "title": "New York Cafe Hungary.jpg",
+  "uses": [
+   "search:d2-nyc"
+  ],
+  "exists": true,
+  "width": 4000,
+  "height": 2252,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/New_York_Cafe_Hungary.jpg/330px-New_York_Cafe_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Budapest Erzsébet krt. 9-11, New York Cafe Hungary",
+  "n": 102,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-nyc",
+  "title": "New York café Budapest.jpg",
+  "uses": [
+   "search:d2-nyc"
+  ],
+  "exists": true,
+  "width": 4928,
+  "height": 3264,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/New_York_caf%C3%A9_Budapest.jpg/330px-New_York_caf%C3%A9_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Café de New York, Budapest.",
+  "n": 103,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-nyc",
+  "title": "Ceiling Fresco Cafe-New-York Budapest.jpg",
+  "uses": [
+   "search:d2-nyc"
+  ],
+  "exists": true,
+  "width": 1307,
+  "height": 1111,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Ceiling_Fresco_Cafe-New-York_Budapest.jpg/330px-Ceiling_Fresco_Cafe-New-York_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Decken-Fresco im Cafe New-York in Budapest",
+  "n": 104,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-daubner",
+  "title": "Daubner cukrászda front door.jpg",
+  "uses": [
+   "search:d2-daubner"
+  ],
+  "exists": true,
+  "width": 4608,
+  "height": 3456,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Daubner_cukr%C3%A1szda_front_door.jpg/330px-Daubner_cukr%C3%A1szda_front_door.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Front door Daubner cukrászda at Pusztaszeri út 2",
+  "n": 105,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-daubner",
+  "title": "Daubner cukrászda.jpg",
+  "uses": [
+   "search:d2-daubner"
+  ],
+  "exists": true,
+  "width": 4608,
+  "height": 3456,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Daubner_cukr%C3%A1szda.jpg/330px-Daubner_cukr%C3%A1szda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Daubner cukrászda at Pusztaszeri út 2",
+  "n": 106,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-daubner",
+  "title": "Szépvölgyi út.jpg",
+  "uses": [
+   "search:d2-daubner"
+  ],
+  "exists": true,
+  "width": 4608,
+  "height": 3456,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Sz%C3%A9pv%C3%B6lgyi_%C3%BAt.jpg/330px-Sz%C3%A9pv%C3%B6lgyi_%C3%BAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Szépvölgyi út",
+  "n": 107,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-retes",
+  "title": "Buudapest protest 20180421 192914.jpg",
+  "uses": [
+   "search:d2-retes"
+  ],
+  "exists": true,
+  "width": 1680,
+  "height": 1120,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Buudapest_protest_20180421_192914.jpg/330px-Buudapest_protest_20180421_192914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Rétes (Strudel) vendor, Március 15. tér",
+  "n": 108,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-retes",
+  "title": "Csokis-túrós rétes.jpg",
+  "uses": [
+   "search:d2-retes"
+  ],
+  "exists": true,
+  "width": 4480,
+  "height": 2688,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Csokis-t%C3%BAr%C3%B3s_r%C3%A9tes.jpg/330px-Csokis-t%C3%BAr%C3%B3s_r%C3%A9tes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Lukács bath, Loose Slate buffet, chocolate-curd strudel",
+  "n": 109,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-retes",
+  "title": "Palóc Topfenstrudel, Pozsonyi Piknik, 2025 Újlipótváros.jpg",
+  "uses": [
+   "search:d2-retes"
+  ],
+  "exists": true,
+  "width": 1605,
+  "height": 1673,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Pal%C3%B3c_Topfenstrudel%2C_Pozsonyi_Piknik%2C_2025_%C3%9Ajlip%C3%B3tv%C3%A1ros.jpg/330px-Pal%C3%B3c_Topfenstrudel%2C_Pozsonyi_Piknik%2C_2025_%C3%9Ajlip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "'Pozsonyi Piknik' (~Pozsonyi Street Picnic) Est. 2009. 'Hollókő homemade strudel' Gastro Row G14 stand, strudel pastry, Palóc pastries, cottage cheese strudel - Újpesti quay, Újlipótváros neighbourhood, 13th district of Budapest.",
+  "n": 110,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-retes",
+  "title": "Hatvany Lajos Straße 10, 2023 Békásmegyer.jpg",
+  "uses": [
+   "search:d2-retes"
+  ],
+  "exists": true,
+  "width": 2129,
+  "height": 1532,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Hatvany_Lajos_Stra%C3%9Fe_10%2C_2023_B%C3%A9k%C3%A1smegyer.jpg/330px-Hatvany_Lajos_Stra%C3%9Fe_10%2C_2023_B%C3%A9k%C3%A1smegyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Sari strudel (cake) shop and Trend-M Kft (printing service provider, poster, flyer, etc.) - 10 Hatvany Lajos Street, Bálint György Street corner, Békásmegyer neighbourhood, 3rd district of Budapest.",
+  "n": 111,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-kremes",
+  "title": "Kotor Cremeschnitte - Kotorske krempite 04.jpg",
+  "uses": [
+   "search:d2-kremes"
+  ],
+  "exists": true,
+  "width": 4160,
+  "height": 2718,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Kotor_Cremeschnitte_-_Kotorske_krempite_04.jpg/330px-Kotor_Cremeschnitte_-_Kotorske_krempite_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Kotor Cremeschnitte with three layers of dough and two layers of cream",
+  "n": 112,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-kremes",
+  "title": "Kotor Cremeschnitte - Kotorske krempite 02.jpg",
+  "uses": [
+   "search:d2-kremes"
+  ],
+  "exists": true,
+  "width": 4160,
+  "height": 3120,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Kotor_Cremeschnitte_-_Kotorske_krempite_02.jpg/330px-Kotor_Cremeschnitte_-_Kotorske_krempite_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Kotor Cremeschnitte with three layers of dough and two layers of cream",
+  "n": 113,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-kremes",
+  "title": "Kotor Cremeschnitte - Kotorske krempite 03.jpg",
+  "uses": [
+   "search:d2-kremes"
+  ],
+  "exists": true,
+  "width": 4036,
+  "height": 2922,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kotor_Cremeschnitte_-_Kotorske_krempite_03.jpg/330px-Kotor_Cremeschnitte_-_Kotorske_krempite_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Kotor Cremeschnitte with three layers of dough and two layers of cream",
+  "n": 114,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-kremes",
+  "title": "Bled Cremeschnitte (blejska kremšnita).jpg",
+  "uses": [
+   "search:d2-kremes"
+  ],
+  "exists": true,
+  "width": 4608,
+  "height": 3456,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Bled_Cremeschnitte_%28blejska_krem%C5%A1nita%29.jpg/330px-Bled_Cremeschnitte_%28blejska_krem%C5%A1nita%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Bled cremschnitte at Bled lake, Slovenia.",
+  "n": 115,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-kremes",
+  "title": "Kotor Cremeschnitte - Kotorske krempite 01.jpg",
+  "uses": [
+   "search:d2-kremes"
+  ],
+  "exists": true,
+  "width": 4160,
+  "height": 3120,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Kotor_Cremeschnitte_-_Kotorske_krempite_01.jpg/330px-Kotor_Cremeschnitte_-_Kotorske_krempite_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Kotor Cremeschnitte with three layers of dough and two layers of cream",
+  "n": 116,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-kremes",
+  "title": "Kotor Cremeschnitte - Kotorske krempite - Kotorska pašta.jpg",
+  "uses": [
+   "search:d2-kremes"
+  ],
+  "exists": true,
+  "width": 5120,
+  "height": 3120,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kotor_Cremeschnitte_-_Kotorske_krempite_-_Kotorska_pa%C5%A1ta.jpg/330px-Kotor_Cremeschnitte_-_Kotorske_krempite_-_Kotorska_pa%C5%A1ta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Kotor Cremeschnitte (originally Kotor paste), a famous delicacy of Kotor housewives (Montenegro)",
+  "n": 117,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-kremes",
+  "title": "Kotor Cremeschnitte - Kotorske krempite 05.jpg",
+  "uses": [
+   "search:d2-kremes"
+  ],
+  "exists": true,
+  "width": 3893,
+  "height": 2449,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Kotor_Cremeschnitte_-_Kotorske_krempite_05.jpg/330px-Kotor_Cremeschnitte_-_Kotorske_krempite_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Kotor Cremeschnitte with three layers of dough and two layers of cream",
+  "n": 118,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-kremes",
+  "title": "Hungarian Honey Cake (Mézes krémes).jpg",
+  "uses": [
+   "search:d2-kremes"
+  ],
+  "exists": true,
+  "width": 3008,
+  "height": 2000,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hungarian_Honey_Cake_%28M%C3%A9zes_kr%C3%A9mes%29.jpg/330px-Hungarian_Honey_Cake_%28M%C3%A9zes_kr%C3%A9mes%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Hungarian Honey Cake (Mézes krémes).jpg",
+  "n": 119,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-eszterhazy",
+  "title": "Eszterházy Torte.JPG",
+  "uses": [
+   "search:d2-eszterhazy"
+  ],
+  "exists": true,
+  "width": 1207,
+  "height": 1036,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Eszterh%C3%A1zy_Torte.JPG/330px-Eszterh%C3%A1zy_Torte.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Eszterházy-torte, was made left with walnut, right with poppy seed",
+  "n": 120,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-eszterhazy",
+  "title": "Eszterházy cake Gundel restaurant.jpg",
+  "uses": [
+   "search:d2-eszterhazy"
+  ],
+  "exists": true,
+  "width": 4032,
+  "height": 3024,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Eszterh%C3%A1zy_cake_Gundel_restaurant.jpg/330px-Eszterh%C3%A1zy_cake_Gundel_restaurant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Eszterházy torta (Budapest, Gundel étterem)",
+  "n": 121,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-eszterhazy",
+  "title": "Esterházy torta, Tata.jpg",
+  "uses": [
+   "search:d2-eszterhazy"
+  ],
+  "exists": true,
+  "width": 4032,
+  "height": 3024,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Esterh%C3%A1zy_torta%2C_Tata.jpg/330px-Esterh%C3%A1zy_torta%2C_Tata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Esterházy torta slice in Tata castle, Szalon Café",
+  "n": 122,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-eszterhazy",
+  "title": "Eszterhazy-Torte 01.JPG",
+  "uses": [
+   "search:d2-eszterhazy"
+  ],
+  "exists": true,
+  "width": 4288,
+  "height": 2848,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Eszterhazy-Torte_01.JPG/330px-Eszterhazy-Torte_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Eszterhazy-Torte in einer Soproner Konditorei.",
+  "n": 123,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-eszterhazy",
+  "title": "Café Schwarzenberg P1210911.JPG",
+  "uses": [
+   "search:d2-eszterhazy"
+  ],
+  "exists": true,
+  "width": 4000,
+  "height": 3000,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Caf%C3%A9_Schwarzenberg_P1210911.JPG/330px-Caf%C3%A9_Schwarzenberg_P1210911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Café Schwarzenberg in Vienna, Austria",
+  "n": 124,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "d2-eszterhazy",
+  "title": "Café Schwarzenberg P1210923.JPG",
+  "uses": [
+   "search:d2-eszterhazy"
+  ],
+  "exists": true,
+  "width": 4000,
+  "height": 3000,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Caf%C3%A9_Schwarzenberg_P1210923.JPG/330px-Caf%C3%A9_Schwarzenberg_P1210923.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Café Schwarzenberg in Vienna, Austria",
+  "n": 125,
+  "thumbSaved": true
  }
 ]

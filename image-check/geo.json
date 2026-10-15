@@ -1,169 +1,342 @@
 {
- "heureka-gyros": {
-  "byName": [],
-  "byAddr": [
-   {
-    "name": "Heuréka, 6, Margit körút, Országút, II. kerület, Budapest, 1027, Magyarország",
-    "lat": 47.5144427,
-    "lng": 19.0370907,
-    "type": "restaurant",
-    "house": "6",
-    "road": "Margit körút"
-   },
-   {
-    "name": "6, Margit körút, Országút, II. kerület, Budapest, 1027, Magyarország",
-    "lat": 47.5144176,
-    "lng": 19.0370956,
-    "type": "house",
-    "house": "6",
-    "road": "Margit körút"
-   }
-  ]
- },
- "meraki-oktogon": {
+ "edes-macko": {
   "byName": [
    {
-    "name": "Meraki, Teréz körút, Terézváros, VI. kerület, Budapest, 1067, Magyarország",
-    "lat": 47.5067711,
-    "lng": 19.0616102,
-    "type": "fast_food",
-    "road": "Teréz körút"
-   },
-   {
-    "name": "Meraki, Kolosy tér, Újlak, III. kerület, Budapest, 1036, Magyarország",
-    "lat": 47.5282063,
-    "lng": 19.0380225,
-    "type": "fast_food",
-    "road": "Kolosy tér"
-   },
-   {
-    "name": "Meraki, 13, Rákóczi út, Palotanegyed, VIII. kerület, Budapest, 1088, Magyarország",
-    "lat": 47.4949316,
-    "lng": 19.0632065,
-    "type": "fast_food",
-    "house": "13",
-    "road": "Rákóczi út"
+    "name": "Édes Mackó Kürtőskalács cukrászda, 14, Állatkerti körút, Városliget, XIV. kerület, Budapest, 1146, Magyarország",
+    "lat": 47.5194617,
+    "lng": 19.0819526,
+    "type": "confectionery",
+    "house": "14",
+    "road": "Állatkerti körút"
    }
   ],
   "byAddr": [
    {
-    "name": "27, Teréz körút, Terézváros, VI. kerület, Budapest, 1067, Magyarország",
-    "lat": 47.506909,
-    "lng": 19.0615444,
-    "type": "apartments",
-    "house": "27",
-    "road": "Teréz körút"
-   }
-  ]
- },
- "blue-agori-madach": {
-  "byName": [
-   {
-    "name": "Blue Agori, 62, Margit körút, Margit-negyed, Víziváros, II. kerület, Budapest, 1027, Magyarország",
-    "lat": 47.509983,
-    "lng": 19.0297553,
-    "type": "fast_food",
-    "house": "62",
-    "road": "Margit körút"
+    "name": "Cápasuli, 14, Állatkerti körút, Városliget, XIV. kerület, Budapest, 1146, Magyarország",
+    "lat": 47.5199608,
+    "lng": 19.0807169,
+    "type": "aquarium",
+    "house": "14",
+    "road": "Állatkerti körút"
    },
    {
-    "name": "Blue Agori, 33/a, Tűzoltó utca, Középső-Ferencváros rehabilitációs terület, Középső-Ferencváros, IX. kerület, Budapest, 1094, Magyarország",
-    "lat": 47.4820163,
-    "lng": 19.0765357,
-    "type": "fast_food",
-    "house": "33/a",
-    "road": "Tűzoltó utca"
+    "name": "Schäftner körhinta, 14, Állatkerti körút, Városliget, XIV. kerület, Budapest, 1146, Magyarország",
+    "lat": 47.5196242,
+    "lng": 19.0826872,
+    "type": "yes",
+    "house": "14",
+    "road": "Állatkerti körút"
    },
    {
-    "name": "Blue Agori, 1, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
-    "lat": 47.4976645,
-    "lng": 19.0575661,
-    "type": "fast_food",
-    "house": "1",
-    "road": "Madách Imre út"
-   }
-  ],
-  "byAddr": [
-   {
-    "name": "1, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
-    "lat": 47.4976516,
-    "lng": 19.0575207,
-    "type": "house",
-    "house": "1",
-    "road": "Madách Imre út"
-   },
-   {
-    "name": "à table!, 1, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
-    "lat": 47.4976169,
-    "lng": 19.0575043,
-    "type": "restaurant",
-    "house": "1",
-    "road": "Madách Imre út"
-   },
-   {
-    "name": "Blue Agori, 1, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
-    "lat": 47.4976645,
-    "lng": 19.0575661,
-    "type": "fast_food",
-    "house": "1",
-    "road": "Madách Imre út"
-   }
-  ]
- },
- "gyros-kerkyra": {
-  "byName": [],
-  "byAddr": [
-   {
-    "name": "Cake To Go, 37, Petneházy utca, Országbíró utcai lakótelep, Angyalföld, XIII. kerület, Budapest, 1139, Magyarország",
-    "lat": 47.5328214,
-    "lng": 19.0792364,
+    "name": "Édes Mackó Kürtőskalács cukrászda, 14, Állatkerti körút, Városliget, XIV. kerület, Budapest, 1146, Magyarország",
+    "lat": 47.5194617,
+    "lng": 19.0819526,
     "type": "pastry",
-    "house": "37",
-    "road": "Petneházy utca"
-   },
-   {
-    "name": "37, Petneházy utca, Országbíró utcai lakótelep, Angyalföld, XIII. kerület, Budapest, 1139, Magyarország",
-    "lat": 47.5329616,
-    "lng": 19.0792531,
-    "type": "house",
-    "house": "37",
-    "road": "Petneházy utca"
+    "house": "14",
+    "road": "Állatkerti körút"
    }
   ]
  },
- "gyros-ulloi": {
+ "kato-neni": {
   "byName": [
    {
-    "name": "Gyros, Mester utca, Középső-Ferencváros Malmok, Középső-Ferencváros, IX. kerület, Budapest, 1094, Magyarország",
-    "lat": 47.4817391,
-    "lng": 19.0690353,
-    "type": "fast_food",
-    "road": "Mester utca"
+    "name": "Kató néni finomságai (Kürtöskalács), 5, Állatkerti körút, Városliget, XIV. kerület, Budapest, 1146, Magyarország",
+    "lat": 47.518378,
+    "lng": 19.0794137,
+    "type": "pastry",
+    "house": "5",
+    "road": "Állatkerti körút"
    },
    {
-    "name": "Gyros, Üllői út, Corvinnegyed, VIII. kerület, Budapest, 1082, Magyarország",
-    "lat": 47.485826,
-    "lng": 19.0705666,
-    "type": "fast_food",
-    "road": "Üllői út"
-   },
-   {
-    "name": "Gyros, 5-7, Kolosy tér, Újlak, III. kerület, Budapest, 1036, Magyarország",
-    "lat": 47.5277885,
-    "lng": 19.0380314,
-    "type": "fast_food",
-    "house": "5-7",
-    "road": "Kolosy tér"
+    "name": "Kató Néni Finomságai, 6, Október 6. utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5001312,
+    "lng": 19.0510115,
+    "type": "cafe",
+    "house": "6",
+    "road": "Október 6. utca"
    }
   ],
   "byAddr": [
    {
-    "name": "Kicsi Japán, 40, Üllői út, Corvinnegyed, VIII. kerület, Budapest, 1082, Magyarország",
-    "lat": 47.4857864,
-    "lng": 19.0706931,
+    "name": "Kató Néni Finomságai, 6, Október 6. utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5001312,
+    "lng": 19.0510115,
+    "type": "cafe",
+    "house": "6",
+    "road": "Október 6. utca"
+   },
+   {
+    "name": "Bamba Marha Burger Bar, 6, Október 6. utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5000578,
+    "lng": 19.0510264,
+    "type": "fast_food",
+    "house": "6",
+    "road": "Október 6. utca"
+   },
+   {
+    "name": "6, Október 6. utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5001012,
+    "lng": 19.0509568,
+    "type": "house",
+    "house": "6",
+    "road": "Október 6. utca"
+   }
+  ]
+ },
+ "malna-pastry": {
+  "byName": [
+   {
+    "name": "Málna—the pastry shop, 17, Hercegprímás utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5026998,
+    "lng": 19.0528098,
+    "type": "pastry",
+    "house": "17",
+    "road": "Hercegprímás utca"
+   },
+   {
+    "name": "Málna The Pastry Shop, 57-61, Bécsi út, Újlak, III. kerület, Budapest, 1036, Magyarország",
+    "lat": 47.5295481,
+    "lng": 19.038239,
+    "type": "pastry",
+    "house": "57-61",
+    "road": "Bécsi út"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "Blueberry Brunch, 17, Hercegprímás utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5024942,
+    "lng": 19.052867,
+    "type": "cafe",
+    "house": "17",
+    "road": "Hercegprímás utca"
+   },
+   {
+    "name": "Málna—the pastry shop, 17, Hercegprímás utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5026998,
+    "lng": 19.0528098,
+    "type": "pastry",
+    "house": "17",
+    "road": "Hercegprímás utca"
+   }
+  ]
+ },
+ "auguszt-belvaros": {
+  "byName": [
+   {
+    "name": "Auguszt cukrászda, 8, Fény utca, Margit-negyed, Országút, II. kerület, Budapest, 1024, Magyarország",
+    "lat": 47.509083,
+    "lng": 19.024316,
+    "type": "cafe",
+    "house": "8",
+    "road": "Fény utca"
+   },
+   {
+    "name": "Auguszt Cukrászda, 14-16, Kossuth Lajos utca, Pest, Belváros, V. kerület, Budapest, 1053, Magyarország",
+    "lat": 47.4938936,
+    "lng": 19.0577837,
+    "type": "confectionery",
+    "house": "14-16",
+    "road": "Kossuth Lajos utca"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "14, Kossuth Lajos utca, Leányka utcai lakótelep, Budafok, XXII. kerület, Budapest, 1221, Magyarország",
+    "lat": 47.4278619,
+    "lng": 19.037684,
+    "type": "detached",
+    "house": "14",
+    "road": "Kossuth Lajos utca"
+   },
+   {
+    "name": "14, Kossuth Lajos utca, Csillaghegy, III. kerület, Budapest, 1039, Magyarország",
+    "lat": 47.5796634,
+    "lng": 19.0577746,
+    "type": "detached",
+    "house": "14",
+    "road": "Kossuth Lajos utca"
+   },
+   {
+    "name": "14, Kossuth Lajos utca, Felsődűlő, Kispest, XIX. kerület, Budapest, 1195, Magyarország",
+    "lat": 47.4521226,
+    "lng": 19.1497984,
+    "type": "house",
+    "house": "14",
+    "road": "Kossuth Lajos utca"
+   }
+  ]
+ },
+ "daubner": {
+  "byName": [
+   {
+    "name": "Daubner cukrászda, 50, Szépvölgyi út, Újlak, II. kerület, Budapest, 1025, Magyarország",
+    "lat": 47.5283232,
+    "lng": 19.0320335,
+    "type": "pastry",
+    "house": "50",
+    "road": "Szépvölgyi út"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "Daubner cukrászda, 50, Szépvölgyi út, Újlak, II. kerület, Budapest, 1025, Magyarország",
+    "lat": 47.5283232,
+    "lng": 19.0320335,
+    "type": "pastry",
+    "house": "50",
+    "road": "Szépvölgyi út"
+   }
+  ]
+ },
+ "central-kavehaz": {
+  "byName": [
+   {
+    "name": "Centrál Grand Cafe & Bar 1887, 9, Károlyi utca, Pest, Belváros, V. kerület, Budapest, 1053, Magyarország",
+    "lat": 47.4920114,
+    "lng": 19.0567473,
     "type": "restaurant",
-    "house": "40",
-    "road": "Üllői út"
+    "house": "9",
+    "road": "Károlyi utca"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "Centrál Irodaház, 9, Károlyi utca, Pest, Belváros, V. kerület, Budapest, 1053, Magyarország",
+    "lat": 47.4918684,
+    "lng": 19.0567283,
+    "type": "commercial",
+    "house": "9",
+    "road": "Károlyi utca"
+   },
+   {
+    "name": "Centrál Grand Cafe & Bar 1887, 9, Károlyi utca, Pest, Belváros, V. kerület, Budapest, 1053, Magyarország",
+    "lat": 47.4920114,
+    "lng": 19.0567473,
+    "type": "restaurant",
+    "house": "9",
+    "road": "Károlyi utca"
+   },
+   {
+    "name": "9, Károlyi utca, Pest, Belváros, V. kerület, Budapest, 1053, Magyarország",
+    "lat": 47.4920664,
+    "lng": 19.0568403,
+    "type": "artwork",
+    "house": "9",
+    "road": "Károlyi utca"
+   }
+  ]
+ },
+ "elso-pesti-reteshaz": {
+  "byName": [
+   {
+    "name": "Első Pesti Rétesház, 22, Október 6. utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5017823,
+    "lng": 19.0506181,
+    "type": "restaurant",
+    "house": "22",
+    "road": "Október 6. utca"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "Istanbul Kebab, 22, Október 6. utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5019568,
+    "lng": 19.0505806,
+    "type": "fast_food",
+    "house": "22",
+    "road": "Október 6. utca"
+   },
+   {
+    "name": "Első Pesti Rétesház, 22, Október 6. utca, Lipótváros, V. kerület, Budapest, 1051, Magyarország",
+    "lat": 47.5017823,
+    "lng": 19.0506181,
+    "type": "restaurant",
+    "house": "22",
+    "road": "Október 6. utca"
+   }
+  ]
+ },
+ "aran-bakery-pest": {
+  "byName": [
+   {
+    "name": "arán bakery, Nagy Diófa utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
+    "lat": 47.4980016,
+    "lng": 19.0646357,
+    "type": "bakery",
+    "road": "Nagy Diófa utca"
+   },
+   {
+    "name": "Arán bakery, 16/a, Móricz Zsigmond körtér, Lágymányos, XI. kerület, Budapest, 1117, Magyarország",
+    "lat": 47.4771806,
+    "lng": 19.0477132,
+    "type": "bakery",
+    "house": "16/a",
+    "road": "Móricz Zsigmond körtér"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "23, Wesselényi utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
+    "lat": 47.4979507,
+    "lng": 19.0647023,
+    "type": "apartments",
+    "house": "23",
+    "road": "Wesselényi utca"
+   },
+   {
+    "name": "Vinyl & Wood - Get Lost in Wonderland, 23, Wesselényi utca, Erzsébetváros, VII. kerület, Budapest, 1077, Magyarország",
+    "lat": 47.4980355,
+    "lng": 19.0647251,
+    "type": "cafe",
+    "house": "23",
+    "road": "Wesselényi utca"
+   },
+   {
+    "name": "23, Wesselényi utca, Benkőtelep, Rákospalota, XV. kerület, Budapest, 1154, Magyarország",
+    "lat": 47.5447384,
+    "lng": 19.1230598,
+    "type": "house",
+    "house": "23",
+    "road": "Wesselényi utca"
+   }
+  ]
+ },
+ "new-york-cafe": {
+  "byName": [
+   {
+    "name": "New York Café, 9-11, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+    "lat": 47.4986782,
+    "lng": 19.0704636,
+    "type": "cafe",
+    "house": "9-11",
+    "road": "Erzsébet körút"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "New York-palota, 9-11, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+    "lat": 47.4986066,
+    "lng": 19.0706984,
+    "type": "hotel",
+    "house": "9-11",
+    "road": "Erzsébet körút"
+   },
+   {
+    "name": "Anantara New York Palace Budapest, 9-11, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+    "lat": 47.4986468,
+    "lng": 19.0707893,
+    "type": "hotel",
+    "house": "9-11",
+    "road": "Erzsébet körút"
+   },
+   {
+    "name": "New York Café, 9-11, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+    "lat": 47.4986782,
+    "lng": 19.0704636,
+    "type": "cafe",
+    "house": "9-11",
+    "road": "Erzsébet körút"
    }
   ]
  }
