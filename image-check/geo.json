@@ -1,0 +1,41 @@
+{
+ "Erzsébet körút 41, 1073 Budapest": [
+  {
+   "name": "41, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5022171,
+   "lng": 19.0673374,
+   "type": "apartments",
+   "house": "41"
+  },
+  {
+   "name": "Velvet Cafe, 41, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5022968,
+   "lng": 19.0671693,
+   "type": "cafe",
+   "house": "41"
+  },
+  {
+   "name": "Correct change, 41, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5022392,
+   "lng": 19.0672162,
+   "type": "bureau_de_change",
+   "house": "41"
+  },
+  {
+   "name": "Trap café, 41, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5021128,
+   "lng": 19.0673675,
+   "type": "pub",
+   "house": "41"
+  }
+ ],
+ "Trap Café, Budapest": [
+  {
+   "name": "Trap café, 41, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5021128,
+   "lng": 19.0673675,
+   "type": "pub",
+   "house": "41"
+  }
+ ]
+}

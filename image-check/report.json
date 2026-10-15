@@ -1297,322 +1297,98 @@
  },
  {
   "kind": "search",
-  "query": "kerepesi9",
-  "title": "Ügetőpálya memento II az Aréna Plázánál.jpg",
+  "query": "trap",
+  "title": "Pollak-Neumann ház (1885). - Budapest, Erzsébet körút, 28.JPG",
   "uses": [
-   "search:kerepesi9"
+   "search:trap"
   ],
   "exists": true,
-  "width": 3264,
-  "height": 2448,
+  "width": 2272,
+  "height": 1704,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%C3%9Cget%C5%91p%C3%A1lya_memento_II_az_Ar%C3%A9na_Pl%C3%A1z%C3%A1n%C3%A1l.jpg/330px-%C3%9Cget%C5%91p%C3%A1lya_memento_II_az_Ar%C3%A9na_Pl%C3%A1z%C3%A1n%C3%A1l.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "A Kerepesi úti egykori ügetőpálya műemlék épülete. Nemzeti Lovarda főépülete és istállója ID 12002. - Budapest VIII. kerület, Kerepesi út 9. Aréna Plaza.",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Pollak-Neumann_h%C3%A1z_%281885%29._-_Budapest%2C_Erzs%C3%A9bet_k%C3%B6r%C3%BAt%2C_28.JPG/330px-Pollak-Neumann_h%C3%A1z_%281885%29._-_Budapest%2C_Erzs%C3%A9bet_k%C3%B6r%C3%BAt%2C_28.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Dwelling building with supermarket on ground floor. - Erzsébet Boulevard, Budapest District VII., Hungary.",
   "n": 91,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "kerepesi9",
-  "title": "Arena-plaza-P2030392-lev-1000.jpg",
+  "query": "trap",
+  "title": "Baumgartern house (1897). Gable. - 41 Erzsébet Boulevard, Budapest.JPG",
   "uses": [
-   "search:kerepesi9"
+   "search:trap"
   ],
   "exists": true,
-  "width": 1000,
-  "height": 354,
+  "width": 1704,
+  "height": 2272,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Arena-plaza-P2030392-lev-1000.jpg/330px-Arena-plaza-P2030392-lev-1000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Aréna pláza (Budapest, VIII. ker. Kerepesi út 9-11.)",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Baumgartern_house_%281897%29._Gable._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG/330px-Baumgartern_house_%281897%29._Gable._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Dwelling building with shops on ground floor. Trap Café. - Erzsébet Boulevard, Budapest District VII., Hungary.",
   "n": 92,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "kerepesi9",
-  "title": "Ügetőpálya memento I az Aréna Plázánál.jpg",
+  "query": "trap",
+  "title": "Baumgartern house (1897). Facade. - 41 Erzsébet Boulevard, Budapest.JPG",
   "uses": [
-   "search:kerepesi9"
+   "search:trap"
   ],
   "exists": true,
-  "width": 2932,
-  "height": 2153,
+  "width": 2272,
+  "height": 1704,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%C3%9Cget%C5%91p%C3%A1lya_memento_I_az_Ar%C3%A9na_Pl%C3%A1z%C3%A1n%C3%A1l.jpg/330px-%C3%9Cget%C5%91p%C3%A1lya_memento_I_az_Ar%C3%A9na_Pl%C3%A1z%C3%A1n%C3%A1l.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Az Ügető hajtó. Szorcsik Lajos alkotása (2010 bronz)[1].Budapest, VIII. kerület, Kerepesi út 9., Aréna Plaza.",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Baumgartern_house_%281897%29._Facade._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG/330px-Baumgartern_house_%281897%29._Facade._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Dwelling building with shops on ground floor. Trap Café. - Erzsébet Boulevard, Budapest District VII., Hungary.",
   "n": 93,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "kerepesi9",
-  "title": "Budapest arena plaza 01.jpg",
+  "query": "trap",
+  "title": "Erzsebet korut 41.jpg",
   "uses": [
-   "search:kerepesi9"
+   "search:trap"
   ],
   "exists": true,
-  "width": 2560,
-  "height": 1920,
+  "width": 600,
+  "height": 800,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Budapest_arena_plaza_01.jpg/330px-Budapest_arena_plaza_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Arena plaza, Budapest. - Budapest, VIII. kerület, Kerepesi út 9-11",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Erzsebet_korut_41.jpg/330px-Erzsebet_korut_41.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Facade of the building nr. 41",
   "n": 94,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "kerepesi9",
-  "title": "Arena Mall from Kerepesi út overpass bridge, 2018 Józsefváros.jpg",
+  "query": "trap",
+  "title": "Protest against Uber - Budapest, 2016.01.18 (6).JPG",
   "uses": [
-   "search:kerepesi9"
+   "search:trap"
   ],
   "exists": true,
-  "width": 2224,
-  "height": 1640,
+  "width": 4320,
+  "height": 3240,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Arena_Mall_from_Kerepesi_%C3%BAt_overpass_bridge%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-Arena_Mall_from_Kerepesi_%C3%BAt_overpass_bridge%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": ": Arena Mall from Kerepesi út overpass bridge. - Kerepesi út, Kerepesdűlő neighborhood, Józsefváros, Budapest.",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Protest_against_Uber_-_Budapest%2C_2016.01.18_%286%29.JPG/330px-Protest_against_Uber_-_Budapest%2C_2016.01.18_%286%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "A felvételek 2016. január 18-án készültek Budapesten. Deák tér, Károly körút, Andrássy út, Városház utca. Források: http://www.hirado.hu/2016/01/18/bekemenyitenek-a-taxisok/ https://www.uber.com/",
   "n": 95,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "kerepesi",
-  "title": "A Keleti pályaudvar és toronydaru építés a Kerepesi úti felüljáró felől nézve, 2018 Józsefváros.jpg",
+  "query": "trap",
+  "title": "Trap Café - 2014.10.11 (1).JPG",
   "uses": [
-   "search:kerepesi"
+   "search:trap"
   ],
   "exists": true,
-  "width": 2272,
-  "height": 1704,
+  "width": 4320,
+  "height": 3240,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/A_Keleti_p%C3%A1lyaudvar_%C3%A9s_toronydaru_%C3%A9p%C3%ADt%C3%A9s_a_Kerepesi_%C3%BAti_fel%C3%BClj%C3%A1r%C3%B3_fel%C5%91l_n%C3%A9zve%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-A_Keleti_p%C3%A1lyaudvar_%C3%A9s_toronydaru_%C3%A9p%C3%ADt%C3%A9s_a_Kerepesi_%C3%BAti_fel%C3%BClj%C3%A1r%C3%B3_fel%C5%91l_n%C3%A9zve%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": ": Tower crane under construction at Puskás Ferenc Stadium Budapest Keleti railway station and from Kerepesi út overpass bridge over Budapest–Kelebia railway railway line - Kerepesi út, Kerepesdűlő neighborhood, Józsefváros, Budapest.",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Trap_Caf%C3%A9_-_2014.10.11_%281%29.JPG/330px-Trap_Caf%C3%A9_-_2014.10.11_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Budapest, Erzsébet körút, 41. Terézváros. A Trap Café és előtere. - ©© Derzsi Elekes Andor, Budapest, 2014, A kép és filmfelvételek egészben, vagy részletekben másolását, bármilyen úton történő sokszorosítását és felhasználását a szerző ell",
   "n": 96,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "kerepesi",
-  "title": "Mozdonyok, Keleti pályaudvar, 2018 Józsefváros.jpg",
-  "uses": [
-   "search:kerepesi"
-  ],
-  "exists": true,
-  "width": 2272,
-  "height": 1704,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Mozdonyok%2C_Keleti_p%C3%A1lyaudvar%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-Mozdonyok%2C_Keleti_p%C3%A1lyaudvar%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": ": From Kerepesi út overpass bridge to Budapest Keleti railway station depot - Kerepesi út, Kerepesdűlő neighborhood, Józsefváros, Budapest.",
-  "n": 97,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "kerepesi",
-  "title": "Arena Mall, Keleti pályaudvar felől nézve, 2019 Budapest.jpg",
-  "uses": [
-   "search:kerepesi"
-  ],
-  "exists": true,
-  "width": 2272,
-  "height": 1704,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Arena_Mall%2C_Keleti_p%C3%A1lyaudvar_fel%C5%91l_n%C3%A9zve%2C_2019_Budapest.jpg/330px-Arena_Mall%2C_Keleti_p%C3%A1lyaudvar_fel%C5%91l_n%C3%A9zve%2C_2019_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": ": Arena Mall from Eastern Railway Station. - Kerepesi út, Kerepesdűlő neighborhood, Józsefváros, Budapest.",
-  "n": 98,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "kerepesi",
-  "title": "Puskás Ferenc Stadion a Kerepesi úti felüljáró felől nézve, 2018 Józsefváros.jpg",
-  "uses": [
-   "search:kerepesi"
-  ],
-  "exists": true,
-  "width": 2272,
-  "height": 1704,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Pusk%C3%A1s_Ferenc_Stadion_a_Kerepesi_%C3%BAti_fel%C3%BClj%C3%A1r%C3%B3_fel%C5%91l_n%C3%A9zve%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-Pusk%C3%A1s_Ferenc_Stadion_a_Kerepesi_%C3%BAti_fel%C3%BClj%C3%A1r%C3%B3_fel%C5%91l_n%C3%A9zve%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": ": Budapest Keleti railway station and from Kerepesi út overpass bridge over Budapest–Kelebia railway railway line - Kerepesi út, Kerepesdűlő neighborhood, Józsefváros, Budapest.",
-  "n": 99,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "kerepesi",
-  "title": "Arena Mall from Keleti railway station, 2019 Budapest.jpg",
-  "uses": [
-   "search:kerepesi"
-  ],
-  "exists": true,
-  "width": 2272,
-  "height": 1704,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Arena_Mall_from_Keleti_railway_station%2C_2019_Budapest.jpg/330px-Arena_Mall_from_Keleti_railway_station%2C_2019_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": ": Arena Mall from Eastern Railway Station. - Kerepesi út, Kerepesdűlő neighborhood, Józsefváros, Budapest.",
-  "n": 100,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "kerepesi",
-  "title": "Stephen I of Hungary locomotive, Keleti railway station, 2018 Józsefváros.jpg",
-  "uses": [
-   "search:kerepesi"
-  ],
-  "exists": true,
-  "width": 2032,
-  "height": 1528,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Stephen_I_of_Hungary_locomotive%2C_Keleti_railway_station%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-Stephen_I_of_Hungary_locomotive%2C_Keleti_railway_station%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "From Kerepesi út overpass bridge to Budapest Keleti railway station, Stephen I of Hungary locomotive - Kerepesi út, Kerepesdűlő neighborhood, Józsefváros, Budapest.",
-  "n": 101,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "kerepesi",
-  "title": "Budapest arena plaza 01.jpg",
-  "uses": [
-   "search:kerepesi"
-  ],
-  "exists": true,
-  "width": 2560,
-  "height": 1920,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Budapest_arena_plaza_01.jpg/330px-Budapest_arena_plaza_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Arena plaza, Budapest. - Budapest, VIII. kerület, Kerepesi út 9-11",
-  "n": 102,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "tribute",
-  "title": "The band in Heaven, Schuster Lóránt - PECSA 2012.09.30 (1).JPG",
-  "uses": [
-   "search:tribute"
-  ],
-  "exists": true,
-  "width": 1920,
-  "height": 1080,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/The_band_in_Heaven%2C_Schuster_L%C3%B3r%C3%A1nt_-_PECSA_2012.09.30_%281%29.JPG/330px-The_band_in_Heaven%2C_Schuster_L%C3%B3r%C3%A1nt_-_PECSA_2012.09.30_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Recorded live at the Petőfi Csarnok (Petőfi Music Hall) Budapest, Magyarország. 30th of September, 2012. Tribute to Radics Béla, Bencsik László and Barta Tamás, the band in Heaven. ©© Derzsi Elekes Andor, Budapest, 2013, You are authorised ",
-  "n": 103,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "tribute",
-  "title": "The band in Heaven, Schuster Lóránt - PECSA 2012.09.30 (2).JPG",
-  "uses": [
-   "search:tribute"
-  ],
-  "exists": true,
-  "width": 1920,
-  "height": 1080,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/The_band_in_Heaven%2C_Schuster_L%C3%B3r%C3%A1nt_-_PECSA_2012.09.30_%282%29.JPG/330px-The_band_in_Heaven%2C_Schuster_L%C3%B3r%C3%A1nt_-_PECSA_2012.09.30_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Recorded live at the Petőfi Csarnok (Petőfi Music Hall) Budapest, Magyarország. 30th of September, 2012. Tribute to Radics Béla, Bencsik László and Barta Tamás, the band in Heaven. ©© Derzsi Elekes Andor, Budapest, 2013, You are authorised ",
-  "n": 104,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "tribute",
-  "title": "The band in Heaven - PECSA 2012.09.30 (8).JPG",
-  "uses": [
-   "search:tribute"
-  ],
-  "exists": true,
-  "width": 4320,
-  "height": 3240,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/The_band_in_Heaven_-_PECSA_2012.09.30_%288%29.JPG/330px-The_band_in_Heaven_-_PECSA_2012.09.30_%288%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Recorded live at the Petőfi Csarnok (Petőfi Music Hall) Budapest, Magyarország. 30th of September, 2012. Tribute to Radics Béla, Bencsik László and Barta Tamás, the band in Heaven. ©© Derzsi Elekes Andor, Budapest, 2013, You are authorised ",
-  "n": 105,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "tribute",
-  "title": "The band in Heaven - PECSA 2012.09.30 (11).JPG",
-  "uses": [
-   "search:tribute"
-  ],
-  "exists": true,
-  "width": 1920,
-  "height": 1080,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/The_band_in_Heaven_-_PECSA_2012.09.30_%2811%29.JPG/330px-The_band_in_Heaven_-_PECSA_2012.09.30_%2811%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Recorded live at the Petőfi Csarnok (Petőfi Music Hall) Budapest, Magyarország. 30th of September, 2012. Tribute to Radics Béla, Bencsik László and Barta Tamás, the band in Heaven. ©© Derzsi Elekes Andor, Budapest, 2013, You are authorised ",
-  "n": 106,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "tribute",
-  "title": "The band in Heaven, Korompai Árpád - PECSA 2012.09.30 (13).JPG",
-  "uses": [
-   "search:tribute"
-  ],
-  "exists": true,
-  "width": 1920,
-  "height": 1080,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/The_band_in_Heaven%2C_Korompai_%C3%81rp%C3%A1d_-_PECSA_2012.09.30_%2813%29.JPG/330px-The_band_in_Heaven%2C_Korompai_%C3%81rp%C3%A1d_-_PECSA_2012.09.30_%2813%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Recorded live at the Petőfi Csarnok (Petőfi Music Hall) Budapest, Magyarország. 30th of September, 2012. Tribute to Radics Béla, Bencsik László and Barta Tamás, the band in Heaven. ©© Derzsi Elekes Andor, Budapest, 2013, You are authorised ",
-  "n": 107,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "tribute",
-  "title": "The band in Heaven, Bergendy István - PECSA 2012.09.30 (3).JPG",
-  "uses": [
-   "search:tribute"
-  ],
-  "exists": true,
-  "width": 4320,
-  "height": 3240,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_band_in_Heaven%2C_Bergendy_Istv%C3%A1n_-_PECSA_2012.09.30_%283%29.JPG/330px-The_band_in_Heaven%2C_Bergendy_Istv%C3%A1n_-_PECSA_2012.09.30_%283%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Recorded live at the Petőfi Csarnok (Petőfi Music Hall) Budapest, Magyarország. 30th of September, 2012. Tribute to Radics Béla, Bencsik László and Barta Tamás, the band in Heaven. ©© Derzsi Elekes Andor, Budapest, 2013, You are authorised ",
-  "n": 108,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "tribute",
-  "title": "The band in Heaven, Frenreisz Károly - PECSA 2012.09.30 (7).JPG",
-  "uses": [
-   "search:tribute"
-  ],
-  "exists": true,
-  "width": 4320,
-  "height": 3240,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/The_band_in_Heaven%2C_Frenreisz_K%C3%A1roly_-_PECSA_2012.09.30_%287%29.JPG/330px-The_band_in_Heaven%2C_Frenreisz_K%C3%A1roly_-_PECSA_2012.09.30_%287%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Recorded live at the Petőfi Csarnok (Petőfi Music Hall) Budapest, Magyarország. 30th of September, 2012. Tribute to Radics Béla, Bencsik László and Barta Tamás, the band in Heaven. ©© Derzsi Elekes Andor, Budapest, 2013, You are authorised ",
-  "n": 109,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "tribute",
-  "title": "The band in Heaven, Bergendy István - PECSA 2012.09.30 (4).JPG",
-  "uses": [
-   "search:tribute"
-  ],
-  "exists": true,
-  "width": 4320,
-  "height": 3240,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/The_band_in_Heaven%2C_Bergendy_Istv%C3%A1n_-_PECSA_2012.09.30_%284%29.JPG/330px-The_band_in_Heaven%2C_Bergendy_Istv%C3%A1n_-_PECSA_2012.09.30_%284%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Recorded live at the Petőfi Csarnok (Petőfi Music Hall) Budapest, Magyarország. 30th of September, 2012. Tribute to Radics Béla, Bencsik László and Barta Tamás, the band in Heaven. ©© Derzsi Elekes Andor, Budapest, 2013, You are authorised ",
-  "n": 110,
   "thumbSaved": true
  }
 ]
