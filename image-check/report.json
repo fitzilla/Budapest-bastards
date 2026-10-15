@@ -1297,98 +1297,290 @@
  },
  {
   "kind": "search",
-  "query": "trap",
-  "title": "Pollak-Neumann ház (1885). - Budapest, Erzsébet körút, 28.JPG",
+  "query": "fekete-kutya",
+  "title": "Pünkösdfűrdő Park, Populus nigra, 2023 Békásmegyer.jpg",
   "uses": [
-   "search:trap"
-  ],
-  "exists": true,
-  "width": 2272,
-  "height": 1704,
-  "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Pollak-Neumann_h%C3%A1z_%281885%29._-_Budapest%2C_Erzs%C3%A9bet_k%C3%B6r%C3%BAt%2C_28.JPG/330px-Pollak-Neumann_h%C3%A1z_%281885%29._-_Budapest%2C_Erzs%C3%A9bet_k%C3%B6r%C3%BAt%2C_28.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Dwelling building with supermarket on ground floor. - Erzsébet Boulevard, Budapest District VII., Hungary.",
-  "n": 91,
-  "thumbSaved": true
- },
- {
-  "kind": "search",
-  "query": "trap",
-  "title": "Baumgartern house (1897). Gable. - 41 Erzsébet Boulevard, Budapest.JPG",
-  "uses": [
-   "search:trap"
+   "search:fekete-kutya"
   ],
   "exists": true,
   "width": 1704,
   "height": 2272,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Baumgartern_house_%281897%29._Gable._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG/330px-Baumgartern_house_%281897%29._Gable._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Dwelling building with shops on ground floor. Trap Café. - Erzsébet Boulevard, Budapest District VII., Hungary.",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/P%C3%BCnk%C3%B6sdf%C5%B1rd%C5%91_Park%2C_Populus_nigra%2C_2023_B%C3%A9k%C3%A1smegyer.jpg/330px-P%C3%BCnk%C3%B6sdf%C5%B1rd%C5%91_Park%2C_Populus_nigra%2C_2023_B%C3%A9k%C3%A1smegyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "The inscription on the information column reads: Black poplar (Populus nigra) Poplars were once part of the Danube avenue when the dam/embankment was built in the 1970s. Some of the trees in the picture are the last specimens of the former ",
+  "n": 91,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kisuzem",
+  "title": "Bauernhof Rózsa,Nudelerzeugnisse mit Wachtel-Eiern, Pozsonyi Piknik, 2025 Újlipótváros.jpg",
+  "uses": [
+   "search:kisuzem"
+  ],
+  "exists": true,
+  "width": 1802,
+  "height": 1351,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bauernhof_R%C3%B3zsa%2CNudelerzeugnisse_mit_Wachtel-Eiern%2C_Pozsonyi_Piknik%2C_2025_%C3%9Ajlip%C3%B3tv%C3%A1ros.jpg/330px-Bauernhof_R%C3%B3zsa%2CNudelerzeugnisse_mit_Wachtel-Eiern%2C_Pozsonyi_Piknik%2C_2025_%C3%9Ajlip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "'Pozsonyi Piknik' (~Pozsonyi Street Picnic) Est. 2009. Japanese quail (Coturnix japonica.) eggs and pasta products with quail eggs from Rózsa Farm (Csongrád County?) - Újpesti quay, Újlipótváros neighbourhood, 13th district of Budapest.",
   "n": 92,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "trap",
-  "title": "Baumgartern house (1897). Facade. - 41 Erzsébet Boulevard, Budapest.JPG",
+  "query": "telep",
+  "title": "Mária Valéria telep. Budapest. -Fortepan 103821.jpg",
   "uses": [
-   "search:trap"
+   "search:telep"
   ],
   "exists": true,
-  "width": 2272,
-  "height": 1704,
+  "width": 2743,
+  "height": 2035,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Baumgartern_house_%281897%29._Facade._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG/330px-Baumgartern_house_%281897%29._Facade._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Dwelling building with shops on ground floor. Trap Café. - Erzsébet Boulevard, Budapest District VII., Hungary.",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/M%C3%A1ria_Val%C3%A9ria_telep._Budapest._-Fortepan_103821.jpg/330px-M%C3%A1ria_Val%C3%A9ria_telep._Budapest._-Fortepan_103821.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Mária Valéria telep.",
   "n": 93,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "trap",
-  "title": "Erzsebet korut 41.jpg",
+  "query": "telep",
+  "title": "Mária Valéria telep. Budapest. - Fortepan 103820.jpg",
   "uses": [
-   "search:trap"
+   "search:telep"
   ],
   "exists": true,
-  "width": 600,
-  "height": 800,
+  "width": 2785,
+  "height": 2033,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Erzsebet_korut_41.jpg/330px-Erzsebet_korut_41.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Facade of the building nr. 41",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/M%C3%A1ria_Val%C3%A9ria_telep._Budapest._-_Fortepan_103820.jpg/330px-M%C3%A1ria_Val%C3%A9ria_telep._Budapest._-_Fortepan_103820.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Mária Valéria telep.",
   "n": 94,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "trap",
-  "title": "Protest against Uber - Budapest, 2016.01.18 (6).JPG",
+  "query": "telep",
+  "title": "FŐKEFE. É.-Bp.-i üzem. 17. számú telep. - Budapest II.JPG",
   "uses": [
-   "search:trap"
+   "search:telep"
   ],
   "exists": true,
-  "width": 4320,
-  "height": 3240,
+  "width": 3264,
+  "height": 2448,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Protest_against_Uber_-_Budapest%2C_2016.01.18_%286%29.JPG/330px-Protest_against_Uber_-_Budapest%2C_2016.01.18_%286%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "A felvételek 2016. január 18-án készültek Budapesten. Deák tér, Károly körút, Andrássy út, Városház utca. Források: http://www.hirado.hu/2016/01/18/bekemenyitenek-a-taxisok/ https://www.uber.com/",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/F%C5%90KEFE._%C3%89.-Bp.-i_%C3%BCzem._17._sz%C3%A1m%C3%BA_telep._-_Budapest_II.JPG/330px-F%C5%90KEFE._%C3%89.-Bp.-i_%C3%BCzem._17._sz%C3%A1m%C3%BA_telep._-_Budapest_II.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Metropolitan Public Area maintainer Non-Profit Company. Road cleaning unit. - Erőd Street, and Varsányi Street corner, Budapest District II.",
   "n": 95,
   "thumbSaved": true
  },
  {
   "kind": "search",
-  "query": "trap",
-  "title": "Trap Café - 2014.10.11 (1).JPG",
+  "query": "telep",
+  "title": "Mária Valéria telep, (ma József Attila lakótelep), Budapest. - Fortepan 103815.jpg",
   "uses": [
-   "search:trap"
+   "search:telep"
   ],
   "exists": true,
-  "width": 4320,
-  "height": 3240,
+  "width": 2763,
+  "height": 2088,
   "mime": "image/jpeg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Trap_Caf%C3%A9_-_2014.10.11_%281%29.JPG/330px-Trap_Caf%C3%A9_-_2014.10.11_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "desc": "Budapest, Erzsébet körút, 41. Terézváros. A Trap Café és előtere. - ©© Derzsi Elekes Andor, Budapest, 2014, A kép és filmfelvételek egészben, vagy részletekben másolását, bármilyen úton történő sokszorosítását és felhasználását a szerző ell",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/M%C3%A1ria_Val%C3%A9ria_telep%2C_%28ma_J%C3%B3zsef_Attila_lak%C3%B3telep%29%2C_Budapest._-_Fortepan_103815.jpg/330px-M%C3%A1ria_Val%C3%A9ria_telep%2C_%28ma_J%C3%B3zsef_Attila_lak%C3%B3telep%29%2C_Budapest._-_Fortepan_103815.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Mária Valéria telep. A kép forrását kérjük így adja meg: Fortepan / Budapest Főváros Levéltára. Levéltári jelzet: HU_BFL_XV_19_c_11",
   "n": 96,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kiado-kocsma",
+  "title": "Lőrinc pap tér 3, kőoszlopos boltíves loggia, 2018 Józsefváros.jpg",
+  "uses": [
+   "search:kiado-kocsma"
+  ],
+  "exists": true,
+  "width": 1200,
+  "height": 1600,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/L%C5%91rinc_pap_t%C3%A9r_3%2C_k%C5%91oszlopos_bolt%C3%ADves_loggia%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-L%C5%91rinc_pap_t%C3%A9r_3%2C_k%C5%91oszlopos_bolt%C3%ADves_loggia%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": ": Liebner-Darányi Mansion. Built in the 1890s. Liebner was a beekeper, Darányi a beverages wholesaler. - 3 Lőrinc pap Square, Budapest District VIII., Hungary, Hungary",
+  "n": 97,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kiado-kocsma",
+  "title": "Liebner-palota, portál, 2018 Józsefváros.jpg",
+  "uses": [
+   "search:kiado-kocsma"
+  ],
+  "exists": true,
+  "width": 1200,
+  "height": 1600,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Liebner-palota%2C_port%C3%A1l%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-Liebner-palota%2C_port%C3%A1l%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": ": Liebner-Darányi Mansion. Built in the 1890s. Liebner was a beekeper, Darányi a beverages wholesaler. - 3 Lőrinc pap Square, Budapest District VIII., Hungary, Hungary",
+  "n": 98,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kiado-kocsma",
+  "title": "Kakucsi Liebner József császári és királyi asztalnok monogramja a palota bejáratánál, 2018 Józsefváros.jpg",
+  "uses": [
+   "search:kiado-kocsma"
+  ],
+  "exists": true,
+  "width": 1600,
+  "height": 1080,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Kakucsi_Liebner_J%C3%B3zsef_cs%C3%A1sz%C3%A1ri_%C3%A9s_kir%C3%A1lyi_asztalnok_monogramja_a_palota_bej%C3%A1rat%C3%A1n%C3%A1l%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-Kakucsi_Liebner_J%C3%B3zsef_cs%C3%A1sz%C3%A1ri_%C3%A9s_kir%C3%A1lyi_asztalnok_monogramja_a_palota_bej%C3%A1rat%C3%A1n%C3%A1l%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": ": Liebner-Darányi Mansion floor at the entrance. Built in the 1890s. József Liebner was a beekeper, István Darányi a beverages wholesaler. - 3 Lőrinc pap Square, Budapest District VIII., Hungary, Hungary",
+  "n": 99,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kiado-kocsma",
+  "title": "Lőrinc pap tér 3, téglakiállítás, 2018 Józsefváros.jpg",
+  "uses": [
+   "search:kiado-kocsma"
+  ],
+  "exists": true,
+  "width": 1200,
+  "height": 1600,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/L%C5%91rinc_pap_t%C3%A9r_3%2C_t%C3%A9glaki%C3%A1ll%C3%ADt%C3%A1s%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg/330px-L%C5%91rinc_pap_t%C3%A9r_3%2C_t%C3%A9glaki%C3%A1ll%C3%ADt%C3%A1s%2C_2018_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": ": Brick exhibition in the staircase at Liebner-Darányi Mansion. Built in the 1890s. Liebner was a beekeper, Darányi a beverages wholesaler. - 3 Lőrinc pap Square, Budapest District VIII., Hungary, Hungary",
+  "n": 100,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kiado2",
+  "title": "Jókai tér, Budapest, Karácsonyi Vásár (3122651990).jpg",
+  "uses": [
+   "search:kiado2"
+  ],
+  "exists": true,
+  "width": 2304,
+  "height": 3072,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/J%C3%B3kai_t%C3%A9r%2C_Budapest%2C_Kar%C3%A1csonyi_V%C3%A1s%C3%A1r_%283122651990%29.jpg/330px-J%C3%B3kai_t%C3%A9r%2C_Budapest%2C_Kar%C3%A1csonyi_V%C3%A1s%C3%A1r_%283122651990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "A 2008-as karácsonyi vásár a Jókai téren, Budapesten.",
+  "n": 101,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kiado2",
+  "title": "Budapest, Erzsébetváros, Hungary - panoramio (18).jpg",
+  "uses": [
+   "search:kiado2"
+  ],
+  "exists": true,
+  "width": 2048,
+  "height": 1536,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Budapest%2C_Erzs%C3%A9betv%C3%A1ros%2C_Hungary_-_panoramio_%2818%29.jpg/330px-Budapest%2C_Erzs%C3%A9betv%C3%A1ros%2C_Hungary_-_panoramio_%2818%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Budapest, Erzsébetváros, Hungary",
+  "n": 102,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kiado2",
+  "title": "Szegedi halbisztró, Jókai tér, 2016 Terézváros.jpg",
+  "uses": [
+   "search:kiado2"
+  ],
+  "exists": true,
+  "width": 2272,
+  "height": 1704,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Szegedi_halbisztr%C3%B3%2C_J%C3%B3kai_t%C3%A9r%2C_2016_Ter%C3%A9zv%C3%A1ros.jpg/330px-Szegedi_halbisztr%C3%B3%2C_J%C3%B3kai_t%C3%A9r%2C_2016_Ter%C3%A9zv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": ": Szegedi halbisztró restaurant sign. - 6 Jókai square, Budapest District VI. Hungary.",
+  "n": 103,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "kiado2",
+  "title": "Jókai Square from Andrássy Avenue, 2013 Budapest (67) (13229797124).jpg",
+  "uses": [
+   "search:kiado2"
+  ],
+  "exists": true,
+  "width": 4000,
+  "height": 3000,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/J%C3%B3kai_Square_from_Andr%C3%A1ssy_Avenue%2C_2013_Budapest_%2867%29_%2813229797124%29.jpg/330px-J%C3%B3kai_Square_from_Andr%C3%A1ssy_Avenue%2C_2013_Budapest_%2867%29_%2813229797124%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Vue de Budapest.",
+  "n": 104,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "telep2",
+  "title": "Madách Imre út a Madách tér felé nézve. Fortepan 32231.jpg",
+  "uses": [
+   "search:telep2"
+  ],
+  "exists": true,
+  "width": 1482,
+  "height": 1510,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mad%C3%A1ch_Imre_%C3%BAt_a_Mad%C3%A1ch_t%C3%A9r_fel%C3%A9_n%C3%A9zve._Fortepan_32231.jpg/330px-Mad%C3%A1ch_Imre_%C3%BAt_a_Mad%C3%A1ch_t%C3%A9r_fel%C3%A9_n%C3%A9zve._Fortepan_32231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Madách Imre út a Madách tér felé nézve.",
+  "n": 105,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "telep2",
+  "title": "Madách Imre út a Madách tér felé nézve. Fortepan 78983.jpg",
+  "uses": [
+   "search:telep2"
+  ],
+  "exists": true,
+  "width": 3574,
+  "height": 4574,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Mad%C3%A1ch_Imre_%C3%BAt_a_Mad%C3%A1ch_t%C3%A9r_fel%C3%A9_n%C3%A9zve._Fortepan_78983.jpg/330px-Mad%C3%A1ch_Imre_%C3%BAt_a_Mad%C3%A1ch_t%C3%A9r_fel%C3%A9_n%C3%A9zve._Fortepan_78983.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Madách Imre út a Madách tér felé nézve.",
+  "n": 106,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "telep2",
+  "title": "Madách Imre Straße 14, 2025 Erzsébetváros.jpg",
+  "uses": [
+   "search:telep2"
+  ],
+  "exists": true,
+  "width": 1361,
+  "height": 2031,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Mad%C3%A1ch_Imre_Stra%C3%9Fe_14%2C_2025_Erzs%C3%A9betv%C3%A1ros.jpg/330px-Mad%C3%A1ch_Imre_Stra%C3%9Fe_14%2C_2025_Erzs%C3%A9betv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "MTC (Madách Trade Center) A building. Office building - 14 Madách Imre Road, 7th district of Budapest",
+  "n": 107,
+  "thumbSaved": true
+ },
+ {
+  "kind": "search",
+  "query": "telep2",
+  "title": "Madách Imre út. Fortepan 32225.jpg",
+  "uses": [
+   "search:telep2"
+  ],
+  "exists": true,
+  "width": 1485,
+  "height": 1503,
+  "mime": "image/jpeg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Mad%C3%A1ch_Imre_%C3%BAt._Fortepan_32225.jpg/330px-Mad%C3%A1ch_Imre_%C3%BAt._Fortepan_32225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "desc": "Madách Imre út.",
+  "n": 108,
   "thumbSaved": true
  }
 ]
