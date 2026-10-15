@@ -1,14 +1,1 @@
-[
- { "id": "barhole-music", "urls": ["https://barhole.hu", "https://www.barhole.hu", "https://barholemusic.hu"] },
- { "id": "lampas", "urls": ["https://lampasbar.hu", "https://www.lampasbar.hu", "https://lampas.club", "https://lampasklub.hu"] },
- { "id": "blastbeat-bar", "urls": ["https://blastbeat.hu", "https://www.blastbeatbar.hu", "https://blastbeatbar.hu"] },
- { "id": "durer-kert", "urls": ["https://durerkert.com", "https://www.durerkert.com"] },
- { "id": "backstage-pub", "urls": ["https://backstagepub.hu"] },
- { "id": "liquid-rock", "urls": ["https://liquidrock.hu/en/", "https://liquidrock.hu/"] },
- { "id": "paranoir-pub", "urls": ["https://paranoirpub.com/"] },
- { "id": "godor-klub", "urls": ["https://godorunderground.hu/"] },
- { "id": "amigo-rockabilly", "urls": ["https://www.amigobar.hu/"] },
- { "id": "hunnia-bisztro", "urls": ["https://hunnia-bisztro.business.site"] },
- { "id": "s8-underground", "urls": ["https://s8underground.hu", "https://www.s8underground.hu", "https://s8club.hu"] },
- { "id": "kripta-sorozo", "urls": ["https://kriptasorozo.hu"] }
-]
+[]
