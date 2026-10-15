@@ -133,7 +133,10 @@
       "blurb": "Neo-Gothic food cathedral. Paprika, sausages, pálinka downstairs; lángos and goulash upstairs. Do it Saturday morning: most of it is shut on Sunday."
     },
     "szimpla-farmers-market": {
-      "hidePin": true
+      "hidePin": true,
+      "lat": 47.49695,
+      "lng": 19.06323,
+      "approx": false
     },
     "sparty-szechenyi": {
       "hidePin": true,
@@ -303,7 +306,8 @@
       "blurb": "One Michelin star since 2019, tucked near Elisabeth Bridge. Modern Hungarian with a bit of flair. Saturday lunch is the easiest table to get."
     },
     "leo-rooftop": {
-      "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset."
+      "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset.",
+      "tip": "Book a table on OpenTable (two-hour slots, cocktails about 6,700–7,500 HUF) and aim for sunset. Smart casual: leave the club shirts at the Airbnb."
     },
     "costes": {
       "notes": "Costes is in DiningCity Restaurant Week until 18 Oct 2026, the first Michelin-starred restaurant to take part: worth checking for a cheaper set-menu table.",
@@ -324,6 +328,12 @@
     },
     "arriba-taqueria-terez": {
       "unconfirmed": true
+    },
+    "madal-cafe-kiraly": {
+      "blurb": "Big, bright branch of a proper Budapest specialty chain, opened late 2024 on Király utca, about 15 minutes' walk from the Airbnb. Good beans, decent croissants and room for the lads to sit."
+    },
+    "rossmann-kiraly-utca-51": {
+      "blurb": "Rossmann on Király utca, about five minutes' walk from the Airbnb. Rossmann says its Budapest shops open on Sundays."
     }
   }
 }

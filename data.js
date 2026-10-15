@@ -1585,7 +1585,7 @@ window.BB_DATA = {
    "priceText": null,
    "hours": "Daily 12:00–00:00 · Kitchen until 22:00 · Last order 23:00. Tables in two-hour slots.",
    "blurb": "Eighth-floor jungle terrace at the Buda end of the Chain Bridge. Grand views, pricey cocktails: one for the photos at sunset.",
-   "tip": "Book a table on OpenTable (two-hour slots, cocktails about 6,700–7,500 HUF) and aim for sunset. Smart casual: leave the club shirts at the hotel.",
+   "tip": "Book a table on OpenTable (two-hour slots, cocktails about 6,700–7,500 HUF) and aim for sunset. Smart casual: leave the club shirts at the Airbnb.",
    "history": null,
    "entry": null,
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sunset_over_the_Danube_-_Budapest.jpg/960px-Sunset_over_the_Danube_-_Budapest.jpg",
@@ -2684,9 +2684,9 @@ window.BB_DATA = {
    ],
    "district": "VII",
    "address": "Kazinczy utca 14, 1075 Budapest",
-   "lat": 47.4996,
-   "lng": 19.0642,
-   "approx": true,
+   "lat": 47.49695,
+   "lng": 19.06323,
+   "approx": false,
    "rating": {
     "ta": null,
     "taN": null,
@@ -2925,7 +2925,7 @@ window.BB_DATA = {
    "price": 2,
    "priceText": null,
    "hours": "Mon–Fri 07:30–19:30 · Sat–Sun 08:30–19:30 (third-party listings, not checked with the cafe)",
-   "blurb": "Big, bright branch of a proper Budapest specialty chain, opened late 2024 on the street you're staying on. Good beans, decent croissants and room for the lads to sit.",
+   "blurb": "Big, bright branch of a proper Budapest specialty chain, opened late 2024 on Király utca, about 15 minutes' walk from the Airbnb. Good beans, decent croissants and room for the lads to sit.",
    "tip": "Single-origin filter or a flat white, plus a croissant. Easy first stop of the day on the walk into town.",
    "history": null,
    "entry": null,
@@ -5731,7 +5731,7 @@ window.BB_DATA = {
    "price": null,
    "priceText": null,
    "hours": "Check Google Maps for hours",
-   "blurb": "Rossmann on Király utca, practically next door. Rossmann says its Budapest shops open on Sundays.",
+   "blurb": "Rossmann on Király utca, about five minutes' walk from the Airbnb. Rossmann says its Budapest shops open on Sundays.",
    "tip": "Address from an older Rossmann listing: check it is still there before you trek over.",
    "history": null,
    "entry": null,
@@ -6218,7 +6218,7 @@ window.BB_DATA = {
     },
     {
      "title": "Night & 24h services",
-     "body": "Tram 6 runs all night around the Nagykörút, the big ring road a few minutes from the Airbnb, and night buses (9xx) take over after the metro closes. Handy for getting back from the bars; watch your pockets.",
+     "body": "Tram 6 runs all night around the Nagykörút, the big ring road the Airbnb is on (the Király utca stop is right outside), and night buses (9xx) take over after the metro closes. Handy for getting back from the bars; watch your pockets.",
      "link": null
     },
     {
@@ -6656,7 +6656,7 @@ window.BB_DATA = {
    "tag": "Club night",
    "title": "Robot Rock disco",
    "where": "Robot room, Instant-Fogas, Akácfa utca",
-   "blurb": "Free rock disco at Budapest's biggest ruin-bar complex, five minutes from the Airbnb. Runs till 05:00.",
+   "blurb": "Free rock disco at Budapest's biggest ruin-bar complex, a seven-minute walk from the Airbnb. Runs till 05:00.",
    "ref": "instant-fogas"
   },
   {
