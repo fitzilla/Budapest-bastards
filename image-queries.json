@@ -1,12 +1,1 @@
-[
-  { "label": "danko", "q": "Danko Jones", "limit": 8 },
-  { "label": "dubpistols", "q": "Dub Pistols", "limit": 6 },
-  { "label": "freestylers", "q": "Freestylers band", "limit": 4 },
-  { "label": "bikini", "q": "Bikini együttes koncert", "limit": 8 },
-  { "label": "searbliss", "q": "Sear Bliss", "limit": 6 },
-  { "label": "hockey", "q": "FTC jégkorong", "limit": 8 },
-  { "label": "tuske", "q": "Tüskecsarnok", "limit": 6 },
-  { "label": "barbanegra", "q": "Barba Negra Budapest", "limit": 6 },
-  { "label": "comedy", "q": "stand-up comedy microphone stage", "limit": 6 },
-  { "label": "tribute", "q": "rock tribute band live stage Budapest", "limit": 6 }
-]
+[]
