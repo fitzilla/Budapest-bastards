@@ -457,5 +457,39 @@
    "caption": "A walnut-crusted chimney cake",
    "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs_3.jpg"
   }
+ ],
+ "wine": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PVMTV_bottles.JPG?width=960",
+   "caption": "Wine glasses and bottles on a bar",
+   "source": "https://commons.wikimedia.org/wiki/File:PVMTV_bottles.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Copped_Hall_wine_cellar%2C_Epping%2C_Essex%2C_England_01.jpg?width=960",
+   "caption": "A brick-vaulted wine cellar",
+   "source": "https://commons.wikimedia.org/wiki/File:Copped_Hall_wine_cellar%2C_Epping%2C_Essex%2C_England_01.jpg"
+  }
+ ],
+ "games": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_board.jpg?width=960",
+   "caption": "A pair of dartboards",
+   "source": "https://commons.wikimedia.org/wiki/File:Dart_board.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rookie%27s_Sports_Bar_%284175286111%29.jpg?width=960",
+   "caption": "A pool table in a bar",
+   "source": "https://commons.wikimedia.org/wiki/File:Rookie%27s_Sports_Bar_%284175286111%29.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_interior_of_Dive_Bar%2C_an_underground_arcade_bar_in_Mooresville%2C_North_Carolina..jpg?width=960",
+   "caption": "An arcade bar with a pool table",
+   "source": "https://commons.wikimedia.org/wiki/File:The_interior_of_Dive_Bar%2C_an_underground_arcade_bar_in_Mooresville%2C_North_Carolina..jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Table_Taft_Board_Game_Caf%C3%A9_interior.jpg?width=960",
+   "caption": "A board game café",
+   "source": "https://commons.wikimedia.org/wiki/File:Table_Taft_Board_Game_Caf%C3%A9_interior.jpg"
+  }
  ]
 }
