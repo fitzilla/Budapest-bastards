@@ -443,6 +443,39 @@
     "website": null
    },
    "verification": "search-confirmed-2025-26"
+  },
+  {
+   "id": "trap-cafe",
+   "name": "Trap Café",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 41, 1073 Budapest",
+   "lat": 47.50211,
+   "lng": 19.06737,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "About 2,000–4,000 HUF a head",
+   "hours": "Daily from 10:00, closing somewhere between 00:30 and 03:00 depending on the night (listings vary)",
+   "blurb": "Café by day, bar by night, a two-minute stagger down the körút from the Airbnb. Coffee and breakfast sandwiches, then nachos, cheap beer and DJs.",
+   "tip": "Handy for a first pint on arrival or a hangover breakfast. Happy-hour drinks, and outdoor seats on the boulevard.",
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trap_Caf%C3%A9_-_2014.10.11_(1).JPG?width=960",
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "directory-listed-2026"
   }
  ],
  "mtkCheck": {
@@ -472,6 +505,8 @@
   "https://tablejourney.com/hungary/budapest/nightlife/toldi-klub/",
   "https://welovebudapest.com/program/toldi-13-szuletesnap-2025-szeptember/",
   "https://thebettervacation.com/palinka-museum-tickets",
-  "https://www.schlouk-map.com/en/places/palinka-museum"
+  "https://www.schlouk-map.com/en/places/palinka-museum",
+  "https://www.schlouk-map.com/en/places/trap-cafe",
+  "https://intravel.net/budapest/nightlife/trap-cafe-and-bar"
  ]
 }

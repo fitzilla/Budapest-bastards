@@ -1741,6 +1741,44 @@ window.BB_DATA = {
    }
   },
   {
+   "id": "trap-cafe",
+   "name": "Trap Café",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "pub",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Erzsébet körút 41, 1073 Budapest",
+   "lat": 47.50211,
+   "lng": 19.06737,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "About 2,000–4,000 HUF a head",
+   "hours": "Daily from 10:00, closing somewhere between 00:30 and 03:00 depending on the night (listings vary)",
+   "blurb": "Café by day, bar by night, a two-minute stagger down the körút from the Airbnb. Coffee and breakfast sandwiches, then nachos, cheap beer and DJs.",
+   "tip": "Handy for a first pint on arrival or a hangover breakfast. Happy-hour drinks, and outdoor seats on the boulevard.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Trap_Caf%C3%A9_-_2014.10.11_%281%29.JPG/960px-Trap_Caf%C3%A9_-_2014.10.11_%281%29.JPG",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "gallery": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Baumgartern_house_%281897%29._Facade._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG/960px-Baumgartern_house_%281897%29._Facade._-_41_Erzs%C3%A9bet_Boulevard%2C_Budapest.JPG"
+   ]
+  },
+  {
    "id": "menza",
    "name": "Menza",
    "sub": null,
@@ -6854,6 +6892,8 @@ window.BB_DATA = {
   "https://welovebudapest.com/program/toldi-13-szuletesnap-2025-szeptember/",
   "https://thebettervacation.com/palinka-museum-tickets",
   "https://www.schlouk-map.com/en/places/palinka-museum",
+  "https://www.schlouk-map.com/en/places/trap-cafe",
+  "https://intravel.net/budapest/nightlife/trap-cafe-and-bar",
   "https://hungaryunlocked.com/budapest-michelin-restaurants-review-tips/",
   "https://hungaryunlocked.com/great-market-hall-budapest-guide/",
   "https://www.budapestbylocals.com/great-market-hall/",
