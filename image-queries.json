@@ -1,8 +1,1 @@
-[
-  { "label": "stenk", "q": "Stenk Budapest", "limit": 8 },
-  { "label": "kerepesi9", "q": "\"Kerepesi út 9\"", "limit": 8 },
-  { "label": "kerepesi", "q": "Kerepesi út Keleti pályaudvar Aréna", "limit": 8 },
-  { "label": "lelato", "q": "Lelátó romkocsma Budapest", "limit": 6 },
-  { "label": "prowlers", "q": "Prowlers zenekar", "limit": 6 },
-  { "label": "tribute", "q": "tribute band koncert Budapest", "limit": 8 }
-]
+[{ "label": "trap", "q": "Erzsébet körút 41 Budapest", "limit": 6 }]
