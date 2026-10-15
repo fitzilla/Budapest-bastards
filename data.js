@@ -209,7 +209,20 @@ window.BB_DATA = {
    ],
    "wiki": "hu:Groupama Aréna",
    "imageKind": "ours",
-   "imageCaption": "Paul, Chris and Phil at the Groupama Aréna"
+   "imageCaption": "Paul, Chris and Phil at the Groupama Aréna",
+   "result": {
+    "score": "Ferencváros 2–1 Viktoria Plzeň",
+    "scorers": "Zachariassen 49’, 81’ (pen) · Visinský 90’ · HT 0–0",
+    "summary": "Goalless at the break, then Kristoffer Zachariassen won it: a goal four minutes after half time and a penalty on 81. Denis Visinský pulled one back from close range after a corner at the death, but Fradi held on in front of 16,686 for a tenth European game in a row without defeat. Torreense next.",
+    "link": "https://www.espn.com/soccer/match/_/gameId/401915564",
+    "linkText": "Match report (ESPN)",
+    "sources": [
+     "https://www.espn.com/soccer/match/_/gameId/401915564",
+     "https://nb1.hu/hir/fradi-plzen-2-1-europa-liga",
+     "https://vehir.hu/cikk/86830-europa-liga-a-viktoria-plzent-is-legyozte-a-ferencvaros",
+     "https://index.hu/sport/futball/2026/10/15/europa-liga-2026-2027-ligaszakasz-2.-fordulo-ferencvaros-viktoria-plzen-helyszini-osszefoglalo"
+    ]
+   }
   },
   {
    "id": "karting-hungaroring",
