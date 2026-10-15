@@ -478,5 +478,15 @@
   "gallery": [
    "Baumgartern house (1897). Facade. - 41 Erzsébet Boulevard, Budapest.JPG"
   ]
+ },
+ "time-out-market": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blaha_Lujza_Platz_1-2%2C_Inneres%2C_2026_J%C3%B3zsefv%C3%A1ros.jpg?width=960",
+  "kind": "venue",
+  "caption": "The market hall inside Corvin Palace",
+  "source": "https://commons.wikimedia.org/wiki/File:Blaha_Lujza_Platz_1-2%2C_Inneres%2C_2026_J%C3%B3zsefv%C3%A1ros.jpg",
+  "gallery": [
+   "Corvin Áruház (a).jpg",
+   "Budapest, Blaha Lujza tér, Corvin Áruház, 7.jpg"
+  ]
  }
 }

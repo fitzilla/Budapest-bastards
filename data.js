@@ -4185,6 +4185,47 @@ window.BB_DATA = {
    "imageCaption": "A mezze platter"
   },
   {
+   "id": "time-out-market",
+   "name": "Time Out Market",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "market",
+    "group-friendly",
+    "hungarian",
+    "burger"
+   ],
+   "district": "VIII",
+   "address": "Blaha Lujza tér 1 (Corvin Palace, 1st floor), 1085 Budapest",
+   "lat": 47.49598,
+   "lng": 19.0692,
+   "approx": false,
+   "rating": {
+    "ta": 4.4,
+    "taN": 115,
+    "g": 4.4,
+    "gN": 1563
+   },
+   "price": 2,
+   "priceText": "Mains about 4,000–6,000 HUF, a Dreher tank beer about 1,250–2,000 HUF, cocktails 3,000–4,000 HUF. No service charge since September 2026",
+   "hours": "Daily 11:30–23:30 · kitchens stop serving at 22:00 · bars' last orders about 23:00",
+   "blurb": "Food hall in the restored Corvin department store at Blaha. Eleven kitchens, from Michelin-pedigree Hungarian to burgers, pho and pizza, and three bars pouring tank Dreher, Hungarian wine and cocktails, all around long shared tables.",
+   "tip": "Straight down the körút from the Airbnb. Everyone orders from a different kitchen and meets back at one table. Go in from the Blaha Lujza tér side and take the escalator up. Kitchens stop at 22:00, so eat first. Football goes on the big projector wall, and there are DJs on Thursday evenings.",
+   "history": "Built in 1926 as the Budapesti Nagyáruház, then wrapped in aluminium panels as the Corvin department store in the 1960s. The original façade was restored as Corvin Palace, and Time Out Market opened on its first floor on 20 September 2025.",
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Blaha_Lujza_Platz_1-2%2C_Inneres%2C_2026_J%C3%B3zsefv%C3%A1ros.jpg/960px-Blaha_Lujza_Platz_1-2%2C_Inneres%2C_2026_J%C3%B3zsefv%C3%A1ros.jpg",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d33374402-Reviews-Time_Out_Market_Budapest-Budapest_Central_Hungary.html",
+    "web": "https://www.timeout.com/time-out-market-budapest",
+    "book": null
+   },
+   "imageCaption": "The market hall inside Corvin Palace",
+   "gallery": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Corvin_%C3%81ruh%C3%A1z_%28a%29.jpg/960px-Corvin_%C3%81ruh%C3%A1z_%28a%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Budapest%2C_Blaha_Lujza_t%C3%A9r%2C_Corvin_%C3%81ruh%C3%A1z%2C_7.jpg/960px-Budapest%2C_Blaha_Lujza_t%C3%A9r%2C_Corvin_%C3%81ruh%C3%A1z%2C_7.jpg"
+   ]
+  },
+  {
    "id": "hungarian-parliament",
    "name": "Hungarian Parliament Building",
    "sub": null,

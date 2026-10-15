@@ -505,7 +505,49 @@
     "tripadvisor": null,
     "website": "https://goli.hu"
    }
+  },
+  {
+   "id": "time-out-market",
+   "name": "Time Out Market",
+   "type": "food",
+   "tags": [
+    "market",
+    "group-friendly",
+    "hungarian",
+    "burger"
+   ],
+   "district": "VIII",
+   "address": "Blaha Lujza tér 1 (Corvin Palace, 1st floor), 1085 Budapest",
+   "lat": 47.49598,
+   "lng": 19.0692,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": 4.4,
+    "tripadvisorReviews": 115,
+    "google": 4.4,
+    "googleReviews": 1563
+   },
+   "price": 2,
+   "priceText": "Mains about 4,000–6,000 HUF, a Dreher tank beer about 1,250–2,000 HUF, cocktails 3,000–4,000 HUF. No service charge since September 2026",
+   "hours": "Daily 11:30–23:30 · kitchens stop serving at 22:00 · bars' last orders about 23:00",
+   "blurb": "Food hall in the restored Corvin department store at Blaha. Eleven kitchens, from Michelin-pedigree Hungarian to burgers, pho and pizza, and three bars pouring tank Dreher, Hungarian wine and cocktails, all around long shared tables.",
+   "tip": "Straight down the körút from the Airbnb. Everyone orders from a different kitchen and meets back at one table. Go in from the Blaha Lujza tér side and take the escalator up. Kitchens stop at 22:00, so eat first. Football goes on the big projector wall, and there are DJs on Thursday evenings.",
+   "history": "Built in 1926 as the Budapesti Nagyáruház, then wrapped in aluminium panels as the Corvin department store in the 1960s. The original façade was restored as Corvin Palace, and Time Out Market opened on its first floor on 20 September 2025.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g274887-d33374402-Reviews-Time_Out_Market_Budapest-Budapest_Central_Hungary.html",
+    "website": "https://www.timeout.com/time-out-market-budapest"
+   },
+   "verification": "search-confirmed-2026"
   }
  ],
- "sources": []
+ "sources": [
+  "https://www.timeout.com/time-out-market-budapest",
+  "https://www.timeout.com/time-out-market-budapest/find-us",
+  "https://www.timeout.com/about/latest-news/time-out-market-budapest-officially-opens-its-doors-to-the-public-091825",
+  "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/time-out-market-szervizdij-eltorles-balogh-oliver",
+  "https://www.timeout.com/budapest/bars/best-pubs-and-bars-in-budapest-to-watch-football",
+  "https://welovebudapest.com/cikk/2025/09/18/time-out-market-budapest-nyitas-fotok-ettermek/"
+ ]
 }
