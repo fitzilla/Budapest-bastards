@@ -1,1 +1,11 @@
-[]
+[
+ { "label": "d2-central", "q": "Centrál Kávéház Budapest", "limit": 6 },
+ { "label": "d2-nyc", "q": "New York Café Budapest interior", "limit": 8 },
+ { "label": "d2-daubner", "q": "Daubner cukrászda", "limit": 5 },
+ { "label": "d2-macko", "q": "Édes Mackó kürtőskalács", "limit": 5 },
+ { "label": "d2-malna", "q": "Málna pastry Budapest", "limit": 5 },
+ { "label": "d2-aran", "q": "Arán bakery Budapest", "limit": 5 },
+ { "label": "d2-retes", "q": "rétes strudel Budapest", "limit": 8 },
+ { "label": "d2-kremes", "q": "krémes cake", "limit": 8 },
+ { "label": "d2-eszterhazy", "q": "Eszterházy torta", "limit": 6 }
+]
