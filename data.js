@@ -6759,11 +6759,13 @@ window.BB_DATA = {
    "when": "Sat 17 Oct · start time not listed",
    "tag": "Gig",
    "title": "Guns N' Roses + Metallica tributes",
-   "where": "STENK Lelátó, Kerepesi út 9, by Keleti",
+   "where": "Stenk, Kerepesi út 9, next to Arena Mall (by Keleti)",
    "blurb": "Double tribute bill: Appetite-era Gunners then Metallica bangers. Pure pints-in-the-air stuff.",
    "tickets": "https://www.tributemaraton.com/",
-   "mapQuery": "STENK Lelátó, Kerepesi út 9, Budapest",
-   "check": "Start time not listed yet."
+   "mapQuery": "Stenk, Kerepesi út 9, Budapest",
+   "check": "Start time not listed yet.",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Arena-plaza-P2030392-lev-1000.jpg/960px-Arena-plaza-P2030392-lev-1000.jpg",
+   "imageKind": "building"
   }
  ],
  "sparty": {
