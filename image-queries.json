@@ -1,52 +1,7 @@
 [
- {
-  "label": "caledonia-scottish-pub",
-  "q": "Caledonia Scottish Pub (Kaledonia) Budapest",
-  "limit": 4
- },
- {
-  "label": "score-sport-bar",
-  "q": "Score! Sport Bar Budapest",
-  "limit": 4
- },
- {
-  "label": "fekete-kutya",
-  "q": "Fekete Kutya Budapest",
-  "limit": 4
- },
- {
-  "label": "kisuzem",
-  "q": "Kisüzem Budapest",
-  "limit": 4
- },
- {
-  "label": "telep",
-  "q": "Telep Budapest",
-  "limit": 4
- },
- {
-  "label": "black-swan",
-  "q": "Black Swan Bar Budapest",
-  "limit": 4
- },
- {
-  "label": "kiado-kocsma",
-  "q": "Kiadó Kocsma Budapest",
-  "limit": 4
- },
- {
-  "label": "tuk-tuk-bar",
-  "q": "Tuk Tuk Bar Budapest",
-  "limit": 4
- },
- {
-  "label": "kiado2",
-  "q": "Jókai tér Budapest",
-  "limit": 4
- },
- {
-  "label": "telep2",
-  "q": "Madách Imre út Budapest",
-  "limit": 4
- }
+ { "label": "tom-1", "q": "Time Out Market Budapest", "limit": 10 },
+ { "label": "tom-2", "q": "Corvin Áruház", "limit": 12 },
+ { "label": "tom-3", "q": "Corvin department store Budapest", "limit": 10 },
+ { "label": "tom-4", "q": "Corvin Palace Blaha", "limit": 8 },
+ { "label": "tom-5", "q": "Time Out Market food hall", "limit": 12 }
 ]
