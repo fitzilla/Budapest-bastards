@@ -2072,6 +2072,41 @@ window.BB_DATA = {
    "imageCaption": "Cocktails with paper umbrellas"
   },
   {
+   "id": "liquid-rock",
+   "name": "Liquid Rock",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rock",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Rákóczi út 10, 1072 Budapest",
+   "lat": 47.49519,
+   "lng": 19.06276,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap: about 2,000–4,000 HUF a head",
+   "hours": "Mon–Thu 16:00–02:00 · Fri–Sat 16:00–04:00 · Sun closed",
+   "blurb": "Proper hard rock dive by Astoria: Iron Maiden memorabilia on every wall, Trooper (Maiden's own beer) behind the bar, cheap drinks and rock on the speakers till 4am at weekends.",
+   "tip": "Open till 04:00 Friday and Saturday, closed Sunday. Sport goes on the screens too. Down the körút to Blaha, then along Rákóczi út towards Astoria.",
+   "history": null,
+   "entry": null,
+   "image": null,
+   "links": {
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d7599891-Reviews-Liquid_Rock-Budapest_Central_Hungary.html",
+    "web": "https://liquidrock.hu/en/",
+    "book": null
+   }
+  },
+  {
    "id": "menza",
    "name": "Menza",
    "sub": null,
@@ -7973,6 +8008,9 @@ window.BB_DATA = {
   "https://www.airbnb.dk/things-to-do/places/207248",
   "https://www.timeout.com/hu/budapest/hirek/koltozik-a-kandallo-osszel-hatalmas-burgerpubot-nyit-a-kazinczy-utcaban-090426",
   "https://welovebudapest.com/en/toplist/budapest-s-10-best-craft-beer-bars",
+  "https://liquidrock.hu/en/contact-2/",
+  "https://intravel.net/budapest/nightlife/liquid-rock",
+  "https://restaurantguru.com/Liquid-Rock-Budapest",
   "https://hungaryunlocked.com/budapest-michelin-restaurants-review-tips/",
   "https://hungaryunlocked.com/great-market-hall-budapest-guide/",
   "https://www.budapestbylocals.com/great-market-hall/",
