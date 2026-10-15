@@ -1779,6 +1779,299 @@ window.BB_DATA = {
    ]
   },
   {
+   "id": "caledonia-scottish-pub",
+   "name": "Caledonia Scottish Pub",
+   "sub": "Kaledonia",
+   "type": "bar",
+   "tags": [
+    "pub",
+    "sports"
+   ],
+   "district": "VI",
+   "address": "Mozsár utca 9, 1066 Budapest",
+   "lat": 47.50472,
+   "lng": 19.06067,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": "Mid-range pub prices; Belhaven on tap, pub grub",
+   "hours": "Daily 14:00–00:00",
+   "blurb": "Scottish pub with Belhaven on tap, haggis on the menu and screens everywhere. The nearest thing to home for footy and rugby.",
+   "tip": "Book a table for big Premiership or rugby fixtures. Shuts at midnight, so roll on to Liszt Ferenc tér after.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lager.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A pint of lager"
+  },
+  {
+   "id": "score-sport-bar",
+   "name": "Score! Sport Bar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "sports",
+    "games",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dob utca 65, 1074 Budapest",
+   "lat": 47.50218,
+   "lng": 19.06791,
+   "approx": true,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap; student-friendly drink prices",
+   "hours": "Tue–Thu & Sun 16:00–00:00, Fri–Sat 16:00–02:00, Mon closed",
+   "blurb": "Massive 400 m² basement just off the Körút: 15+ screens, a maxiscreen, pool and darts, and long benches built for ten lads.",
+   "tip": "Two minutes from the flat. Closed Mondays; open till 2am Friday and Saturday. Young international crowd keeps prices low.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg/960px-Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A pint of lager in a pub"
+  },
+  {
+   "id": "fekete-kutya",
+   "name": "Fekete Kutya",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "pub",
+    "craft-beer",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Dob utca 31, 1074 Budapest",
+   "lat": 47.49882,
+   "lng": 19.06204,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap; local-pub prices for Hungarian craft",
+   "hours": "Mon 17:00–01:00, later at weekends",
+   "blurb": "Tiny, no-nonsense Dob utca boozer pouring rotating Hungarian craft taps. Never trendy, loved by every local who's set foot in it.",
+   "tip": "The room is tiny, so split up or stand at the bar. Takes card. Handy pit-stop on the way to Szimpla.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Big_Timber_Brewing_flight_of_beer.jpg/960px-Big_Timber_Brewing_flight_of_beer.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A flight of craft beers"
+  },
+  {
+   "id": "kisuzem",
+   "name": "Kisüzem",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "quirky",
+    "live-music",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Kis Diófa utca 2, 1077 Budapest",
+   "lat": 47.49975,
+   "lng": 19.0628,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap; local-bar prices",
+   "hours": "Daily from noon to about midnight (licence limited to midnight since 2023)",
+   "blurb": "Bare-brick corner bar full of artists, musicians and locals. Cheap drinks, jazz and gig nights, zero tourist-trap nonsense.",
+   "tip": "Council licence means it winds down around midnight, so make it an early stop before the late-night places.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lager.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A pint of lager"
+  },
+  {
+   "id": "telep",
+   "name": "Telep",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "quirky",
+    "live-music",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Madách Imre út 8, 1075 Budapest",
+   "lat": 47.4982,
+   "lng": 19.05799,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap; scruffy art-bar prices",
+   "hours": "Mon–Fri 12:00–02:00, Sat 16:00–02:00, Sun closed",
+   "blurb": "Three-floor art bar with a gig basement and a crowd spilling onto the pavement. Cheap, scruffy, open till 2am.",
+   "tip": "Closed Sundays. On Thursday and Friday nights the street outside is the party, so grab beers and stand.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lager.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A pint of lager"
+  },
+  {
+   "id": "black-swan",
+   "name": "Black Swan Bar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "cocktail",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Klauzál utca 32, 1072 Budapest",
+   "lat": 47.49907,
+   "lng": 19.06508,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": "Pricey; serious craft cocktails",
+   "hours": "Thu–Sat 18:00–02:00, Sun 18:00–00:00 (other days vary; closed Mon)",
+   "blurb": "Ranked in the Top 500 Bars, this dim, serious cocktail den on Klauzál utca is where you class things up for one night.",
+   "tip": "Book via OpenTable for a group of ten; reservation almost essential. Closed Mondays and hours vary, so check before going.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Cocktails.jpg/960px-Cocktails.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Cocktails on a bar"
+  },
+  {
+   "id": "kiado-kocsma",
+   "name": "Kiadó Kocsma",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "pub",
+    "cheap"
+   ],
+   "district": "VI",
+   "address": "Jókai tér 3, 1061 Budapest",
+   "lat": 47.50481,
+   "lng": 19.06159,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap to mid; local-pub prices, food served",
+   "hours": "Mon–Fri 14:00–00:00, Sat 16:00–00:00, Sun closed",
+   "blurb": "Proper local pub on Jókai tér, round the corner from Liszt Ferenc tér. Food, a terrace and regulars rather than stag dos.",
+   "tip": "Closed Sundays. Good for a steadier pint and a feed before the Oktogon bars. Last orders around midnight.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg/960px-Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A pint of lager in a pub"
+  },
+  {
+   "id": "tuk-tuk-bar",
+   "name": "Tuk Tuk Bar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "cocktail"
+   ],
+   "district": "VI",
+   "address": "Paulay Ede utca 31 (Casati Hotel), 1061 Budapest",
+   "lat": 47.50114,
+   "lng": 19.05886,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 3,
+   "priceText": "Pricey; hotel-bar cocktail prices",
+   "hours": "Daily 17:00–00:00 (one listing: Wed–Mon 18:00–00:00)",
+   "blurb": "Crimson drapes, 1920s Shanghai styling and Asian-twist cocktails from proper bartenders. A sharp, grown-up stop.",
+   "tip": "Small room, so phone ahead for weekend seats. Closes at midnight. Pair it with Boutiq'Bar just up the street.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Cocktails_mit_Schirmchen.jpg/960px-Cocktails_mit_Schirmchen.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "unconfirmed": true,
+   "imageKind": "illustrative",
+   "imageCaption": "Cocktails with paper umbrellas"
+  },
+  {
    "id": "menza",
    "name": "Menza",
    "sub": null,
@@ -6894,6 +7187,27 @@ window.BB_DATA = {
   "https://www.schlouk-map.com/en/places/palinka-museum",
   "https://www.schlouk-map.com/en/places/trap-cafe",
   "https://intravel.net/budapest/nightlife/trap-cafe-and-bar",
+  "https://www.schlouk-map.com/en/places/kaledonia-skot",
+  "https://hungaryunlocked.com/budapest-best-sports-bars-football-rugby/",
+  "https://www.inyourpocket.com/hungary/budapest/venues/caledonia-budapest-scottish-pub",
+  "https://www.schlouk-map.com/en/places/score",
+  "https://www.schlouk-map.com/en/places/fekete-kutya",
+  "https://tablejourney.com/hungary/budapest/bars/fekete-kutya/",
+  "https://xpatloop.com/channels/2023/08/top-7-plus-1-underground-spots-in-budapest-party-district.html",
+  "https://xpatloop.com/channels/2024/12/insiders-guide-top-10-bars-in-budapest-most-loved-by-locals.html",
+  "https://444.hu/2022/12/22/jovore-ejfelkor-zar-a-kisuzem",
+  "https://www.spottedbylocals.com/budapest/kisuzem/",
+  "https://tablejourney.com/hungary/budapest/nightlife/telep/",
+  "https://www.opentable.co.uk/r/black-swan-bar-budapest",
+  "https://www.enprimeurclub.com/bars/black-swan-lab-budapest-bar",
+  "https://hungaryunlocked.com/ro/baruri-de-cocktailuri-budapesta/",
+  "https://www.schlouk-map.com/en/places/kiado-kocsma",
+  "https://hungaryunlocked.com/it/migliori-ruin-bar-budapest/",
+  "https://tablejourney.com/hungary/budapest/bars/mazel-tov/",
+  "https://tablejourney.com/hungary/budapest/bars/tuk-tuk-bar/",
+  "https://www.airbnb.dk/things-to-do/places/207248",
+  "https://www.timeout.com/hu/budapest/hirek/koltozik-a-kandallo-osszel-hatalmas-burgerpubot-nyit-a-kazinczy-utcaban-090426",
+  "https://welovebudapest.com/en/toplist/budapest-s-10-best-craft-beer-bars",
   "https://hungaryunlocked.com/budapest-michelin-restaurants-review-tips/",
   "https://hungaryunlocked.com/great-market-hall-budapest-guide/",
   "https://www.budapestbylocals.com/great-market-hall/",
