@@ -1,58 +1,33 @@
 {
- "Erzsébet körút 58, 1073 Budapest": [
+ "hops": [
   {
-   "name": "Royal Patika, 58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
-   "lat": 47.5031546,
-   "lng": 19.0655503,
-   "type": "pharmacy",
-   "cls": "amenity",
-   "house": "58",
-   "road": "Erzsébet körút",
-   "postcode": "1073"
+   "status": 302,
+   "url": "https://maps.app.goo.gl/7HFrrYRsWWryu2Q99?g_st=ic"
   },
   {
-   "name": "1001 Éjszaka Hastánc Stúdió, 58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
-   "lat": 47.5030294,
-   "lng": 19.0656411,
-   "type": "dancing_school",
-   "cls": "amenity",
-   "house": "58",
-   "road": "Erzsébet körút",
-   "postcode": "1073"
+   "status": 302,
+   "url": "https://maps.google.com/?q=Budapest,+Erzs%C3%A9bet+krt.+58,+1073+Hungary&ftid=0x4741dc6f1f0cfe21:0x4724b531210ccb81&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,100821555,47071704,94218641,94282134,100835699,94286869,100820247,100822504,100838877,121816461&g_ep=CAISEjI2LjQxLjEuOTkzMzMyNTYzMBgAIIgnKnssOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsMTAwODIxNTU1LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDgz"
   },
   {
-   "name": "58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
-   "lat": 47.5030521,
-   "lng": 19.0656958,
-   "type": "house",
-   "cls": "place",
-   "house": "58",
-   "road": "Erzsébet körút",
-   "postcode": "1073"
+   "status": 302,
+   "url": "https://maps.google.com/maps?q=Budapest,+Erzs%C3%A9bet+krt.+58,+1073+Hungary&ftid=0x4741dc6f1f0cfe21:0x4724b531210ccb81&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,100821555,47071704,94218641,94282134,100835699,94286869,100820247,100822504,100838877,121816461&g_ep=CAISEjI2LjQxLjEuOTkzMzMyNTYzMBgAIIgnKnssOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsMTAwODIxNTU1LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEw"
+  },
+  {
+   "status": 200,
+   "url": "https://www.google.com/maps?q=Budapest,+Erzs%C3%A9bet+krt.+58,+1073+Hungary&ftid=0x4741dc6f1f0cfe21:0x4724b531210ccb81&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,100821555,47071704,94218641,94282134,100835699,94286869,100820247,100822504,100838877,121816461&g_ep=CAISEjI2LjQxLjEuOTkzMzMyNTYzMBgAIIgnKnssOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsMTAwODIxNTU1LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwM"
   }
  ],
- "Erzsébet krt. 58, Budapest, Hungary": [],
- "structured": [
-  {
-   "name": "Royal Patika, 58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
-   "lat": 47.5031546,
-   "lng": 19.0655503,
-   "type": "pharmacy",
-   "house": "58"
-  },
-  {
-   "name": "1001 Éjszaka Hastánc Stúdió, 58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
-   "lat": 47.5030294,
-   "lng": 19.0656411,
-   "type": "dancing_school",
-   "house": "58"
-  },
-  {
-   "name": "58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
-   "lat": 47.5030521,
-   "lng": 19.0656958,
-   "type": "house",
-   "house": "58"
+ "final": "https://www.google.com/maps?q=Budapest,+Erzs%C3%A9bet+krt.+58,+1073+Hungary&ftid=0x4741dc6f1f0cfe21:0x4724b531210ccb81&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,100821555,47071704,94218641,94282134,100835699,94286869,100820247,100822504,100838877,121816461&g_ep=CAISEjI2LjQxLjEuOTkzMzMyNTYzMBgAIIgnKnssOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsMTAwODIxNTU1LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDgzNTY5OSw5NDI4Njg2OSwxMDA4MjAyNDcsMTAwODIyNTA0LDEwMDgzODg3NywxMjE4MTY0NjFCAkdC&skid=9316feff-c5a7-43fd-b1a6-16725a9a7ec0&g_st=ic",
+ "coords": {
+  "pin": null,
+  "at": null,
+  "q": {
+   "lat": 39.02679945,
+   "lng": -77.844326
   }
- ]
+ },
+ "reverse": {
+  "name": "Archbold Lane, Loudoun County, Virginia, 20184, United States",
+  "road": "Archbold Lane"
+ }
 }

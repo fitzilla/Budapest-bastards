@@ -28,14 +28,14 @@
    "id": "karting-hungaroring",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 157017
+   "bytes": 157069
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hungaroring%2C_Mogyor%C3%B3d_12.jpg/960px-Hungaroring%2C_Mogyor%C3%B3d_12.jpg",
    "id": "karting-hungaroring",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 172843
+   "bytes": 172862
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/2022_ETCR_-_RD2_-_Hungaroring_%2852186703505%29.jpg/960px-2022_ETCR_-_RD2_-_Hungaroring_%2852186703505%29.jpg",
@@ -70,14 +70,14 @@
    "id": "a38-ship",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 143620
+   "bytes": 143153
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/A38_1.jpg/960px-A38_1.jpg",
    "id": "a38-ship",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 198949
+   "bytes": 198897
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Aquarium_Club._-_Erzs%C3%A9bet_Square._Budapest.JPG/960px-Aquarium_Club._-_Erzs%C3%A9bet_Square._Budapest.JPG",
@@ -119,7 +119,7 @@
    "id": "szimpla-kert",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 244792
+   "bytes": 244780
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Szimpla_Kert_Trabant.jpg/960px-Szimpla_Kert_Trabant.jpg",
@@ -175,7 +175,7 @@
    "id": "hotsy-totsy",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 75341
+   "bytes": 75289
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Budapest%2C_Haj%C3%B3s_utca_25%2C_The_MAGIC_Budapest%2C_1.jpg/960px-Budapest%2C_Haj%C3%B3s_utca_25%2C_The_MAGIC_Budapest%2C_1.jpg",
@@ -350,7 +350,7 @@
    "id": "porc-es-prezli",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 315486
+   "bytes": 315538
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/K%C3%A9hli_vend%C3%A9gl%C5%91_Budapest_M%C3%B3kus_utca_22.JPG/960px-K%C3%A9hli_vend%C3%A9gl%C5%91_Budapest_M%C3%B3kus_utca_22.JPG",
@@ -539,7 +539,7 @@
    "id": "hachi-ko-ramen",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 165225
+   "bytes": 165173
   },
   {
    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pho-Beef-Noodles-2008.jpg",
@@ -602,14 +602,14 @@
    "id": "hungarian-parliament",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 116068
+   "bytes": 116120
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Hungarian_Parliament_Building%2C_Budapest%2C_Hungary-2548_-_Start_of_the_Night_Cruise_%287814823114%29.jpg/960px-Hungarian_Parliament_Building%2C_Budapest%2C_Hungary-2548_-_Start_of_the_Night_Cruise_%287814823114%29.jpg",
    "id": "hungarian-parliament",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 183836
+   "bytes": 183784
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Hungary-0062_-_Hungarian_Parliament_Building_%287270467104%29.jpg/960px-Hungary-0062_-_Hungarian_Parliament_Building_%287270467104%29.jpg",
@@ -630,7 +630,7 @@
    "id": "buda-castle",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 151337
+   "bytes": 151389
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Buda_Castle_from_the_Danube_River.jpg/960px-Buda_Castle_from_the_Danube_River.jpg",
@@ -644,7 +644,7 @@
    "id": "buda-castle",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 112395
+   "bytes": 112343
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Budapest_-_Castillo_de_Buda_-_Buda_Castle_-_04.jpg/960px-Budapest_-_Castillo_de_Buda_-_Buda_Castle_-_04.jpg",
@@ -679,7 +679,7 @@
    "id": "fishermans-bastion",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 497405
+   "bytes": 497353
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Hungary-0034_-_Fisherman%27s_Bastion_%287260817042%29.jpg/960px-Hungary-0034_-_Fisherman%27s_Bastion_%287260817042%29.jpg",
@@ -721,7 +721,7 @@
    "id": "hospital-in-the-rock",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 226586
+   "bytes": 226534
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_%2837766898364%29.jpg/960px-Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_%2837766898364%29.jpg",
@@ -742,7 +742,7 @@
    "id": "house-of-terror",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 227925
+   "bytes": 227977
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Shoes_Danube_Promenade_IMGP1297.jpg/960px-Shoes_Danube_Promenade_IMGP1297.jpg",
@@ -805,7 +805,7 @@
    "id": "st-stephens-basilica",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 140306
+   "bytes": 141023
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/HUN-2015-Budapest-St._Stephen%27s_Basilica.jpg/960px-HUN-2015-Budapest-St._Stephen%27s_Basilica.jpg",
@@ -889,7 +889,7 @@
    "id": "chain-bridge",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 163316
+   "bytes": 163264
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Budapest_-_Sz%C3%A9chenyi_L%C3%A1nch%C3%ADd_%2837766929614%29.jpg/960px-Budapest_-_Sz%C3%A9chenyi_L%C3%A1nch%C3%ADd_%2837766929614%29.jpg",
@@ -994,7 +994,7 @@
    "id": "veli-bej-bath",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 150768
+   "bytes": 150716
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Flipperm%C3%BAzeum_bej%C3%A1rat1.jpg/960px-Flipperm%C3%BAzeum_bej%C3%A1rat1.jpg",
@@ -1029,7 +1029,7 @@
    "id": "balta-axe-throwing",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 243032
+   "bytes": 242988
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg/960px-Parliament_Building_and_Cruise_Boat_along_Danube_River_at_Sunset_-_From_Buda_Side_-_Budapest_-_Hungary.jpg",
@@ -1050,14 +1050,14 @@
    "id": "palvolgyi-cave",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 256582
+   "bytes": 258032
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Budapest%2C_V._Erzs%C3%A9bet_t%C3%A9r%2C_Budapest_Sziget_Eye.JPG/960px-Budapest%2C_V._Erzs%C3%A9bet_t%C3%A9r%2C_Budapest_Sziget_Eye.JPG",
    "id": "budapest-eye",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 208977
+   "bytes": 209029
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nagy_Imre_statue%2C_J%C3%A1szai_Mari_t%C3%A9r.jpg/960px-Nagy_Imre_statue%2C_J%C3%A1szai_Mari_t%C3%A9r.jpg",
@@ -1071,14 +1071,14 @@
    "id": "ecseri-flea-market",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 198292
+   "bytes": 198289
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Challenger_2_tank_tracks_in_mud_MOD_45149587.jpg/960px-Challenger_2_tank_tracks_in_mud_MOD_45149587.jpg",
    "id": "tank-driving",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 390309
+   "bytes": 390361
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Budapest_chairlift._Zugligeti_%28bottom%29_station_building_from_the_street_%28South%29._-_Budapest_12th_district._Zugligeti_Road_97.JPG/960px-Budapest_chairlift._Zugligeti_%28bottom%29_station_building_from_the_street_%28South%29._-_Budapest_12th_district._Zugligeti_Road_97.JPG",
@@ -1099,7 +1099,7 @@
    "id": "palinka-museum",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 246144
+   "bytes": 246092
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Pusk%C3%A1s_Ar%C3%A9na_03.jpg/960px-Pusk%C3%A1s_Ar%C3%A9na_03.jpg",
@@ -1127,7 +1127,7 @@
    "id": "lidl-kiraly-utca-112",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 320103
+   "bytes": 320051
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pharmacy_sign%2C_Korosy_Street%2C_2016_Budapest.jpg/960px-Pharmacy_sign%2C_Korosy_Street%2C_2016_Budapest.jpg",
@@ -1148,7 +1148,7 @@
    "id": "rossmann-kiraly-utca-51",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 270462
+   "bytes": 270514
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Birds_Eye_Chip_View_%281236662861%29.jpg/960px-Birds_Eye_Chip_View_%281236662861%29.jpg",
@@ -1162,7 +1162,7 @@
    "id": "las-vegas-casino-corvin",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 125702
+   "bytes": 125650
   },
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Las_Vegas_Casino._E._-_Budapest.JPG/960px-Las_Vegas_Casino._E._-_Budapest.JPG",
@@ -1218,7 +1218,7 @@
    "id": "beer",
    "status": 200,
    "type": "image/jpeg",
-   "bytes": 147282
+   "bytes": 147230
   }
  ]
 }
