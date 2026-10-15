@@ -4300,10 +4300,10 @@ window.BB_DATA = {
   {
    "id": "melissa-gyros",
    "name": "Melissa Bisztró",
-   "sub": "Greek gyros",
+   "sub": "Wesselényi 18",
    "type": "food",
    "tags": [
-    "kebab",
+    "gyros",
     "late-night",
     "cheap"
    ],

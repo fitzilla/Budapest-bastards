@@ -255,6 +255,7 @@ function illoCategory(x) {
     if (t.has('asian')) return /ramen/i.test(x.id + ' ' + x.name) ? 'ramen' : 'pho';
     if (t.has('indian')) return 'indian';
     if (t.has('mexican')) return 'mexican';
+    if (t.has('gyros')) return 'gyros';
     if (t.has('kebab')) return 'kebab';
     if (t.has('middle-eastern')) return 'mezze';
     if (t.has('fish')) return 'fish';
