@@ -1,0 +1,58 @@
+{
+ "Erzsébet körút 58, 1073 Budapest": [
+  {
+   "name": "Royal Patika, 58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5031546,
+   "lng": 19.0655503,
+   "type": "pharmacy",
+   "cls": "amenity",
+   "house": "58",
+   "road": "Erzsébet körút",
+   "postcode": "1073"
+  },
+  {
+   "name": "1001 Éjszaka Hastánc Stúdió, 58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5030294,
+   "lng": 19.0656411,
+   "type": "dancing_school",
+   "cls": "amenity",
+   "house": "58",
+   "road": "Erzsébet körút",
+   "postcode": "1073"
+  },
+  {
+   "name": "58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5030521,
+   "lng": 19.0656958,
+   "type": "house",
+   "cls": "place",
+   "house": "58",
+   "road": "Erzsébet körút",
+   "postcode": "1073"
+  }
+ ],
+ "Erzsébet krt. 58, Budapest, Hungary": [],
+ "structured": [
+  {
+   "name": "Royal Patika, 58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5031546,
+   "lng": 19.0655503,
+   "type": "pharmacy",
+   "house": "58"
+  },
+  {
+   "name": "1001 Éjszaka Hastánc Stúdió, 58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5030294,
+   "lng": 19.0656411,
+   "type": "dancing_school",
+   "house": "58"
+  },
+  {
+   "name": "58, Erzsébet körút, Erzsébetváros, VII. kerület, Budapest, 1073, Magyarország",
+   "lat": 47.5030521,
+   "lng": 19.0656958,
+   "type": "house",
+   "house": "58"
+  }
+ ]
+}
