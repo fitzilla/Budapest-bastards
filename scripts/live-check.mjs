@@ -9,7 +9,9 @@ const p = await ctx.newPage();
 const net = [];
 p.on('response', (r) => { const u = r.url(); if (/wikimedia\.org|wikipedia\.org/.test(u)) net.push({ status: r.status(), u: u.slice(0, 220), type: r.headers()['content-type'] || '' }); });
 p.on('requestfailed', (r) => { const u = r.url(); if (/wikimedia\.org|wikipedia\.org/.test(u)) net.push({ status: 'FAILED ' + (r.failure()?.errorText || ''), u: u.slice(0, 220) }); });
-const out = { lists: {} };
+const WANT = JSON.parse(fs.readFileSync('version.json', 'utf8')).v;
+for (let i = 0; i < 30; i++) { const r = await fetch(SITE + 'version.json?x=' + Date.now()).then((r) => r.json()).catch(() => ({})); if (r.v === WANT) break; await new Promise((r) => setTimeout(r, 10000)); }
+const out = { lists: {}, want: WANT };
 for (const c of ['bars', 'rock', 'late', 'sports', 'eat', 'near']) {
   await p.goto(SITE + '#/c/' + c, { waitUntil: 'networkidle' }).catch(() => {});
   await p.waitForTimeout(1500);
