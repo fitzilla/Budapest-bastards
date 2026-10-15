@@ -1839,7 +1839,7 @@ window.BB_DATA = {
    "priceText": "Cheap; student-friendly drink prices",
    "hours": "Tue–Thu & Sun 16:00–00:00, Fri–Sat 16:00–02:00, Mon closed",
    "blurb": "Massive 400 m² basement just off the Körút: 15+ screens, a maxiscreen, pool and darts, and long benches built for ten lads.",
-   "tip": "Two minutes from the flat. Closed Mondays; open till 2am Friday and Saturday. Young international crowd keeps prices low.",
+   "tip": "Round the corner from the Airbnb. Closed Mondays; open till 2am Friday and Saturday. Young international crowd keeps prices low.",
    "history": null,
    "entry": null,
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg/960px-Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg",
