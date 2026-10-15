@@ -1,1 +1,170 @@
-{}
+{
+ "heureka-gyros": {
+  "byName": [],
+  "byAddr": [
+   {
+    "name": "Heuréka, 6, Margit körút, Országút, II. kerület, Budapest, 1027, Magyarország",
+    "lat": 47.5144427,
+    "lng": 19.0370907,
+    "type": "restaurant",
+    "house": "6",
+    "road": "Margit körút"
+   },
+   {
+    "name": "6, Margit körút, Országút, II. kerület, Budapest, 1027, Magyarország",
+    "lat": 47.5144176,
+    "lng": 19.0370956,
+    "type": "house",
+    "house": "6",
+    "road": "Margit körút"
+   }
+  ]
+ },
+ "meraki-oktogon": {
+  "byName": [
+   {
+    "name": "Meraki, Teréz körút, Terézváros, VI. kerület, Budapest, 1067, Magyarország",
+    "lat": 47.5067711,
+    "lng": 19.0616102,
+    "type": "fast_food",
+    "road": "Teréz körút"
+   },
+   {
+    "name": "Meraki, Kolosy tér, Újlak, III. kerület, Budapest, 1036, Magyarország",
+    "lat": 47.5282063,
+    "lng": 19.0380225,
+    "type": "fast_food",
+    "road": "Kolosy tér"
+   },
+   {
+    "name": "Meraki, 13, Rákóczi út, Palotanegyed, VIII. kerület, Budapest, 1088, Magyarország",
+    "lat": 47.4949316,
+    "lng": 19.0632065,
+    "type": "fast_food",
+    "house": "13",
+    "road": "Rákóczi út"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "27, Teréz körút, Terézváros, VI. kerület, Budapest, 1067, Magyarország",
+    "lat": 47.506909,
+    "lng": 19.0615444,
+    "type": "apartments",
+    "house": "27",
+    "road": "Teréz körút"
+   }
+  ]
+ },
+ "blue-agori-madach": {
+  "byName": [
+   {
+    "name": "Blue Agori, 62, Margit körút, Margit-negyed, Víziváros, II. kerület, Budapest, 1027, Magyarország",
+    "lat": 47.509983,
+    "lng": 19.0297553,
+    "type": "fast_food",
+    "house": "62",
+    "road": "Margit körút"
+   },
+   {
+    "name": "Blue Agori, 33/a, Tűzoltó utca, Középső-Ferencváros rehabilitációs terület, Középső-Ferencváros, IX. kerület, Budapest, 1094, Magyarország",
+    "lat": 47.4820163,
+    "lng": 19.0765357,
+    "type": "fast_food",
+    "house": "33/a",
+    "road": "Tűzoltó utca"
+   },
+   {
+    "name": "Blue Agori, 1, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
+    "lat": 47.4976645,
+    "lng": 19.0575661,
+    "type": "fast_food",
+    "house": "1",
+    "road": "Madách Imre út"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "1, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
+    "lat": 47.4976516,
+    "lng": 19.0575207,
+    "type": "house",
+    "house": "1",
+    "road": "Madách Imre út"
+   },
+   {
+    "name": "à table!, 1, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
+    "lat": 47.4976169,
+    "lng": 19.0575043,
+    "type": "restaurant",
+    "house": "1",
+    "road": "Madách Imre út"
+   },
+   {
+    "name": "Blue Agori, 1, Madách Imre út, Erzsébetváros, VII. kerület, Budapest, 1075, Magyarország",
+    "lat": 47.4976645,
+    "lng": 19.0575661,
+    "type": "fast_food",
+    "house": "1",
+    "road": "Madách Imre út"
+   }
+  ]
+ },
+ "gyros-kerkyra": {
+  "byName": [],
+  "byAddr": [
+   {
+    "name": "Cake To Go, 37, Petneházy utca, Országbíró utcai lakótelep, Angyalföld, XIII. kerület, Budapest, 1139, Magyarország",
+    "lat": 47.5328214,
+    "lng": 19.0792364,
+    "type": "pastry",
+    "house": "37",
+    "road": "Petneházy utca"
+   },
+   {
+    "name": "37, Petneházy utca, Országbíró utcai lakótelep, Angyalföld, XIII. kerület, Budapest, 1139, Magyarország",
+    "lat": 47.5329616,
+    "lng": 19.0792531,
+    "type": "house",
+    "house": "37",
+    "road": "Petneházy utca"
+   }
+  ]
+ },
+ "gyros-ulloi": {
+  "byName": [
+   {
+    "name": "Gyros, Mester utca, Középső-Ferencváros Malmok, Középső-Ferencváros, IX. kerület, Budapest, 1094, Magyarország",
+    "lat": 47.4817391,
+    "lng": 19.0690353,
+    "type": "fast_food",
+    "road": "Mester utca"
+   },
+   {
+    "name": "Gyros, Üllői út, Corvinnegyed, VIII. kerület, Budapest, 1082, Magyarország",
+    "lat": 47.485826,
+    "lng": 19.0705666,
+    "type": "fast_food",
+    "road": "Üllői út"
+   },
+   {
+    "name": "Gyros, 5-7, Kolosy tér, Újlak, III. kerület, Budapest, 1036, Magyarország",
+    "lat": 47.5277885,
+    "lng": 19.0380314,
+    "type": "fast_food",
+    "house": "5-7",
+    "road": "Kolosy tér"
+   }
+  ],
+  "byAddr": [
+   {
+    "name": "Kicsi Japán, 40, Üllői út, Corvinnegyed, VIII. kerület, Budapest, 1082, Magyarország",
+    "lat": 47.4857864,
+    "lng": 19.0706931,
+    "type": "restaurant",
+    "house": "40",
+    "road": "Üllői út"
+   }
+  ]
+ }
+}
