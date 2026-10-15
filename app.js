@@ -159,6 +159,8 @@
         if (t.includes('asian')) return /ramen/i.test(p.name) ? 'Ramen' : 'Asian';
         if (t.includes('indian')) return 'Indian';
         if (t.includes('mexican')) return 'Mexican';
+        if (t.includes('chimney-cake')) return 'Chimney cake';
+        if (t.includes('gyros')) return 'Greek gyros';
         if (t.includes('kebab')) return 'Kebab';
         if (t.includes('middle-eastern')) return 'Middle Eastern';
         if (t.includes('fish')) return 'Seafood';
@@ -205,7 +207,7 @@
     'ruin-bar': 'Ruin bar', 'live-music': 'Live music', 'craft-beer': 'Craft beer', 'late-night': 'Open late',
     'booking-needed': 'Book ahead', 'group-friendly': 'Good for groups', 'street-food': 'Street food',
     'fine-dining': 'Fine dining', 'night-bathing': 'Night bathing', 'escape-room': 'Escape room',
-    'beer-bike': 'Beer bus', '24h': 'Open 24 hours', 'bottle-shop': 'Bottle shop', tobacco: 'Tobacco', 'big-shop': 'Big shop', burger: 'Burgers', fish: 'Fish & seafood', bbq: 'BBQ', vegetarian: 'Veggie friendly', ww2: 'WW2', langos: 'Lángos', palinka: 'Pálinka', michelin: 'Michelin Guide',
+    'beer-bike': 'Beer bus', '24h': 'Open 24 hours', 'bottle-shop': 'Bottle shop', tobacco: 'Tobacco', 'big-shop': 'Big shop', burger: 'Burgers', fish: 'Fish & seafood', bbq: 'BBQ', vegetarian: 'Veggie friendly', ww2: 'WW2', langos: 'Lángos', gyros: 'Greek gyros', dessert: 'Desserts', 'chimney-cake': 'Chimney cake', palinka: 'Pálinka', michelin: 'Michelin Guide',
     casino: 'Casino', roulette: 'Roulette', blackjack: 'Blackjack', sparty: 'Sparty', cheap: 'Cheap', quirky: 'Odd', speakeasy: 'Speakeasy',
   };
   const tagLabel = (t) => TAG_LABEL[t] || t.charAt(0).toUpperCase() + t.slice(1).replace(/-/g, ' ');
@@ -257,7 +259,7 @@
     { id: 'must', label: 'Must-sees', icon: 'award', test: (p) => !!p.must },
     { id: 'near', label: 'Near the Airbnb', icon: 'home', needsBase: true, sort: 'dist', test: (p) => nearFlat(p) && !p.closed && p.type !== 'shop' },
     { id: 'top', label: 'Top bars', icon: 'star', test: (p) => !!p.pick },
-    { id: 'eat', label: 'Food', icon: 'utensils', chips: ['hungarian', 'street-food', 'kebab', 'late-night', 'burger', 'pizza', 'asian', 'steak', 'fish', 'michelin', 'breakfast', 'cheap'], test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
+    { id: 'eat', label: 'Food', icon: 'utensils', chips: ['hungarian', 'street-food', 'kebab', 'gyros', 'late-night', 'burger', 'pizza', 'asian', 'steak', 'fish', 'michelin', 'breakfast', 'dessert', 'chimney-cake', 'cheap'], test: (p) => p.type === 'food' && (!has(p, 'coffee') || hasAny(p, ['brunch', 'breakfast'])) },
     { id: 'booked', label: 'Booked', icon: 'ticket', test: (p) => p.type === 'event' || p.type === 'travel' || p.type === 'base', sort: 'time' },
     { id: 'shops', label: 'Shops', icon: 'cart', sort: 'dist', chips: ['supermarket', 'late-night', '24h', 'pharmacy', 'tobacco', 'drugstore', 'bottle-shop'], test: (p) => p.type === 'shop' },
     { id: 'rock', label: 'Rock bars', icon: 'guitar', test: (p) => p.type === 'bar' && hasAny(p, ['rock', 'metal']) },

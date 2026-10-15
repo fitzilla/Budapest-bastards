@@ -524,5 +524,96 @@
   "kind": "illustrative",
   "caption": "A döner in pita",
   "source": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_Kebab%2C_Berlin%2C_2010_%2801%29.jpg"
+ },
+ "heureka-gyros": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pita_giros.JPG?width=960",
+  "kind": "illustrative",
+  "caption": "Pork and chicken pita gyros",
+  "source": "https://commons.wikimedia.org/wiki/File:Pita_giros.JPG"
+ },
+ "meraki-oktogon": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pita_Gyros_%C3%A0_Almyrida_%28juillet_2021%29_-_1.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A pita gyros with chips inside",
+  "source": "https://commons.wikimedia.org/wiki/File:Pita_Gyros_%C3%A0_Almyrida_%28juillet_2021%29_-_1.jpg"
+ },
+ "blue-agori-madach": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Two_Gryros.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "Two gyros wrapped to go",
+  "source": "https://commons.wikimedia.org/wiki/File:Two_Gryros.jpg"
+ },
+ "gyros-ulloi": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamb_Gyros_Sydney.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A gyros in pita",
+  "source": "https://commons.wikimedia.org/wiki/File:Lamb_Gyros_Sydney.jpg"
+ },
+ "gyros-kerkyra": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nafplio_Gyros.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A gyros piled with chips",
+  "source": "https://commons.wikimedia.org/wiki/File:Nafplio_Gyros.jpg"
+ },
+ "new-york-cafe": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg?width=960",
+  "kind": "venue",
+  "caption": "Inside New York Café",
+  "source": "https://commons.wikimedia.org/wiki/File:Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg",
+  "gallery": [
+   "New York café Budapest.jpg",
+   "Clocks in New York Café Budapest (2).jpg"
+  ]
+ },
+ "central-kavehaz": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Central_Caf%C3%A9_Budapest-2022.jpg?width=960",
+  "kind": "venue",
+  "caption": "Centrál Kávéház on Károlyi utca",
+  "source": "https://commons.wikimedia.org/wiki/File:Central_Caf%C3%A9_Budapest-2022.jpg",
+  "gallery": [
+   "Central Café Budapest.jpg"
+  ]
+ },
+ "auguszt-belvaros": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AugusztCukraszda.JPG?width=960",
+  "kind": "venue",
+  "caption": "Auguszt on Kossuth Lajos utca",
+  "source": "https://commons.wikimedia.org/wiki/File:AugusztCukraszda.JPG"
+ },
+ "aran-bakery-pest": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fl%C3%B3dni-2012.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "Flódni",
+  "source": "https://commons.wikimedia.org/wiki/File:Fl%C3%B3dni-2012.jpg"
+ },
+ "malna-pastry": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bled_Cremeschnitte_%28blejska_krem%C5%A1nita%29.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A krémes",
+  "source": "https://commons.wikimedia.org/wiki/File:Bled_Cremeschnitte_%28blejska_krem%C5%A1nita%29.jpg"
+ },
+ "elso-pesti-reteshaz": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Csokis-t%C3%BAr%C3%B3s_r%C3%A9tes.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "Curd strudel",
+  "source": "https://commons.wikimedia.org/wiki/File:Csokis-t%C3%BAr%C3%B3s_r%C3%A9tes.jpg"
+ },
+ "kato-neni": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%BCrt%C5%91skal%C3%A1cs.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "Chimney cakes turning over hot coals",
+  "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs.jpg"
+ },
+ "edes-macko": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "Kürtőskalács baking over charcoal",
+  "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg"
+ },
+ "daubner": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dobos_torta%2C_2.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A Dobos torta",
+  "source": "https://commons.wikimedia.org/wiki/File:Dobos_torta%2C_2.jpg"
  }
 }

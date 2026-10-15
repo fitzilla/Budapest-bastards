@@ -403,5 +403,59 @@
    "caption": "Blackjack tables",
    "source": "https://commons.wikimedia.org/wiki/File:DelLagoCasinoBlackjackTable.jpg"
   }
+ ],
+ "gyros": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pita_giros.JPG?width=960",
+   "caption": "Pork and chicken pita gyros",
+   "source": "https://commons.wikimedia.org/wiki/File:Pita_giros.JPG"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pita_Gyros_%C3%A0_Almyrida_%28juillet_2021%29_-_1.jpg?width=960",
+   "caption": "A pita gyros with chips inside",
+   "source": "https://commons.wikimedia.org/wiki/File:Pita_Gyros_%C3%A0_Almyrida_%28juillet_2021%29_-_1.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Two_Gryros.jpg?width=960",
+   "caption": "Two gyros wrapped to go",
+   "source": "https://commons.wikimedia.org/wiki/File:Two_Gryros.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nafplio_Gyros.jpg?width=960",
+   "caption": "A gyros piled with chips",
+   "source": "https://commons.wikimedia.org/wiki/File:Nafplio_Gyros.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamb_Gyros_Sydney.jpg?width=960",
+   "caption": "A lamb gyros",
+   "source": "https://commons.wikimedia.org/wiki/File:Lamb_Gyros_Sydney.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Souvlaki_in_Athens.JPG?width=960",
+   "caption": "Souvlaki skewers with pitta and tzatziki",
+   "source": "https://commons.wikimedia.org/wiki/File:Souvlaki_in_Athens.JPG"
+  }
+ ],
+ "chimney": [
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%BCrt%C5%91skal%C3%A1cs.jpg?width=960",
+   "caption": "Chimney cakes turning over hot coals",
+   "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg?width=960",
+   "caption": "Chimney cakes on the spit",
+   "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs_-_Chimney_cake_%287885647654%29.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg?width=960",
+   "caption": "Kürtőskalács baking over charcoal",
+   "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg"
+  },
+  {
+   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%BCrt%C5%91skal%C3%A1cs_3.jpg?width=960",
+   "caption": "A walnut-crusted chimney cake",
+   "source": "https://commons.wikimedia.org/wiki/File:K%C3%BCrt%C5%91skal%C3%A1cs_3.jpg"
+  }
  ]
 }
