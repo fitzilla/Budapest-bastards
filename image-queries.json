@@ -1,8 +1,1 @@
-[
- { "label": "keb-1", "q": "döner kebab sandwich", "limit": 10 },
- { "label": "keb-2", "q": "dürüm wrap", "limit": 8 },
- { "label": "keb-3", "q": "gyros pita tzatziki", "limit": 8 },
- { "label": "keb-4", "q": "shawarma sandwich", "limit": 8 },
- { "label": "keb-5", "q": "Hari Kebab Budapest", "limit": 4 },
- { "label": "keb-6", "q": "kebab shop Budapest", "limit": 8 }
-]
+[]
