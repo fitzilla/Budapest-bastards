@@ -1,0 +1,42 @@
+[
+ {
+  "id": "caledonia-scottish-pub",
+  "name": "Caledonia Scottish Pub (Kaledonia)",
+  "address": "Mozsár utca 9, 1066 Budapest"
+ },
+ {
+  "id": "score-sport-bar",
+  "name": "Score! Sport Bar",
+  "address": "Dob utca 65, 1074 Budapest"
+ },
+ {
+  "id": "fekete-kutya",
+  "name": "Fekete Kutya",
+  "address": "Dob utca 31, 1074 Budapest"
+ },
+ {
+  "id": "kisuzem",
+  "name": "Kisüzem",
+  "address": "Kis Diófa utca 2, 1077 Budapest"
+ },
+ {
+  "id": "telep",
+  "name": "Telep",
+  "address": "Madách Imre út 8, 1075 Budapest"
+ },
+ {
+  "id": "black-swan",
+  "name": "Black Swan Bar",
+  "address": "Klauzál utca 32, 1072 Budapest"
+ },
+ {
+  "id": "kiado-kocsma",
+  "name": "Kiadó Kocsma",
+  "address": "Jókai tér 3, 1061 Budapest"
+ },
+ {
+  "id": "tuk-tuk-bar",
+  "name": "Tuk Tuk Bar",
+  "address": "Paulay Ede utca 31 (Casati Hotel), 1061 Budapest"
+ }
+]
