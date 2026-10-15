@@ -1,11 +1,1 @@
-[
- { "id": "edes-macko", "name": "Édes Mackó", "address": "Állatkerti körút 14, 1146 Budapest" },
- { "id": "kato-neni", "name": "Kató Néni Finomságai", "address": "Október 6. utca 6, 1051 Budapest" },
- { "id": "malna-pastry", "name": "Málna The Pastry Shop", "address": "Hercegprímás utca 17, 1051 Budapest" },
- { "id": "auguszt-belvaros", "name": "Auguszt Cukrászda", "address": "Kossuth Lajos utca 14, 1053 Budapest" },
- { "id": "daubner", "name": "Daubner Cukrászda", "address": "Szépvölgyi út 50, 1025 Budapest" },
- { "id": "central-kavehaz", "name": "Centrál Kávéház", "address": "Károlyi utca 9, 1053 Budapest" },
- { "id": "elso-pesti-reteshaz", "name": "Első Pesti Rétesház", "address": "Október 6. utca 22, 1051 Budapest" },
- { "id": "aran-bakery-pest", "name": "Arán Bakery", "address": "Wesselényi utca 23, 1077 Budapest" },
- { "id": "new-york-cafe", "name": "New York Kávéház", "address": "Erzsébet körút 9, 1073 Budapest" }
-]
+[]
