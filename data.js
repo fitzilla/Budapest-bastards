@@ -459,13 +459,17 @@ window.BB_DATA = {
    "tip": "Cash-friendly dive with a grungy reputation on hygiene, so keep expectations low. The pin is approximate; check Maps.",
    "history": null,
    "entry": null,
-   "image": null,
+   "image": "https://blastbeatbar.hu/userfiles/domain297/9/3/93c236cf244c373e500008397096fd76_69_thumb_384x384.webp",
    "links": {
     "ta": null,
-    "web": null,
+    "web": "https://blastbeatbar.hu/",
     "book": null
    },
-   "unconfirmed": true
+   "unconfirmed": true,
+   "imageKind": "website",
+   "imageCaption": "A night at Blastbeat",
+   "imageSource": "https://blastbeatbar.hu/",
+   "imageCredit": "blastbeatbar.hu"
   },
   {
    "id": "durer-kert",
@@ -2070,6 +2074,832 @@ window.BB_DATA = {
    "unconfirmed": true,
    "imageKind": "illustrative",
    "imageCaption": "Cocktails with paper umbrellas"
+  },
+  {
+   "id": "liquid-rock",
+   "name": "Liquid Rock",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rock",
+    "late-night",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Rákóczi út 10, 1072 Budapest",
+   "lat": 47.49519,
+   "lng": 19.06276,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap: about 2,000–4,000 HUF a head",
+   "hours": "Mon–Thu 16:00–02:00 · Fri–Sat 16:00–04:00 · Sun closed",
+   "blurb": "Proper hard rock dive by Astoria: Iron Maiden memorabilia on every wall, Trooper (Maiden's own beer) behind the bar, cheap drinks and rock on the speakers till 4am at weekends.",
+   "tip": "Open till 04:00 Friday and Saturday, closed Sunday. Sport goes on the screens too. Down the körút to Blaha, then along Rákóczi út towards Astoria.",
+   "history": null,
+   "entry": null,
+   "image": "https://liquidrock.hu/wp-content/uploads/2023/09/main-page-location-image-outside-liquidrock.jpg",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d7599891-Reviews-Liquid_Rock-Budapest_Central_Hungary.html",
+    "web": "https://liquidrock.hu/en/",
+    "book": null
+   },
+   "imageKind": "website",
+   "imageCaption": "Liquid Rock on Rákóczi út",
+   "imageSource": "https://liquidrock.hu/en/",
+   "imageCredit": "liquidrock.hu"
+  },
+  {
+   "id": "paranoir-pub",
+   "name": "ParaNoir Pub",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rock",
+    "metal",
+    "cheap",
+    "quirky"
+   ],
+   "district": "VII",
+   "address": "Hársfa utca 41, 1074 Budapest",
+   "lat": 47.5018,
+   "lng": 19.0694,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap: about a litre of beer for €4–5",
+   "hours": "Daily 16:00–24:00 (one listing says closed Mondays)",
+   "blurb": "Horror-film rock pub round the corner from the Airbnb: Saw, Hellraiser and Friday the 13th props, metal on the speakers and strong, cheap horror-themed cocktails. Rated about 4.6 from 1,500 reviews.",
+   "tip": "A warm-up rather than a late one, since it shuts at midnight. Try one of the horror cocktails.",
+   "history": null,
+   "entry": null,
+   "image": "https://1a42ce1345.clvaw-cdnwnd.com/64fb0cc180429092167c56f186b8bd23/200000146-77bae78b40/pnp.jpg?ph=1a42ce1345",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Attraction_Review-g274887-d10198062-Reviews-ParaNoir_Pub-Budapest_Central_Hungary.html",
+    "web": "https://paranoirpub.com/",
+    "book": null
+   },
+   "imageKind": "website",
+   "imageCaption": "Inside ParaNoir",
+   "imageSource": "https://www.paranoirpub.com/",
+   "imageCredit": "paranoirpub.com"
+  },
+  {
+   "id": "kripta-sorozo",
+   "name": "Kripta Söröző",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rock",
+    "cheap"
+   ],
+   "district": "VII",
+   "address": "Kertész utca 31, 1073 Budapest",
+   "lat": 47.50111,
+   "lng": 19.06636,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "About the cheapest beer and shots in the area",
+   "hours": "Wed–Sat 19:00–24:00 · closed Sun–Tue",
+   "blurb": "\"The Crypt\": a small horror-themed basement dive for rockers, a couple of minutes from the Airbnb. Good music and some of the cheapest drinks in the district.",
+   "tip": "The house shot is the Kriptonit. It's small, so it suits a few of you rather than the whole group. Closed Sunday.",
+   "history": null,
+   "entry": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "godor-klub",
+   "name": "Gödör Klub",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rock",
+    "live-music"
+   ],
+   "district": "VI",
+   "address": "Király utca 50, 1061 Budapest",
+   "lat": 47.50156,
+   "lng": 19.06188,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Ticketed gigs; cheap bar",
+   "hours": "Gig nights only: doors in the evening. Check godorunderground.hu for times",
+   "blurb": "Live rock, punk, metal and blues club in a 600 m² basement on Király utca, five minutes from the Airbnb. Listings show gigs on Thu 15 Oct (Lecsó és Anikó) and Fri 16 Oct (LAZER + Kobrafuzz).",
+   "tip": "Check the gig list and buy on the door or online. A proper sweaty basement gig after the football.",
+   "history": null,
+   "entry": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://godorunderground.hu/",
+    "book": null
+   }
+  },
+  {
+   "id": "amigo-rockabilly",
+   "name": "Amigo Rock'n'Roll Club",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rock",
+    "live-music",
+    "late-night"
+   ],
+   "district": "VII",
+   "address": "Hársfa utca 1, 1074 Budapest",
+   "lat": 47.49836,
+   "lng": 19.07343,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Mon–Fri 15:00–03:00 · Sat 18:00–04:00 · Sun closed (OSM says midnight, so check)",
+   "blurb": "Rock'n'roll and rockabilly bar over three floors with booths, and live bands in the basement on Fridays and Saturdays.",
+   "tip": "Friday or Saturday for the bands. Closed Sunday.",
+   "history": null,
+   "entry": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": "https://www.amigobar.hu/",
+    "book": null
+   },
+   "unconfirmed": true
+  },
+  {
+   "id": "hunnia-bisztro",
+   "name": "Hunnia Bisztró",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rock",
+    "live-music"
+   ],
+   "district": "V",
+   "address": "Bank utca 5, 1054 Budapest",
+   "lat": 47.50334,
+   "lng": 19.05362,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Wed–Sat 18:00–02:00 · gigs mostly Fri–Sat",
+   "blurb": "Basement music bar opposite the National Bank, where Hungarian bands from the 70s–80s alternative scene play at weekends. A properly local gig night.",
+   "tip": "Go Friday or Saturday for a band. Closed Sunday to Tuesday.",
+   "history": null,
+   "entry": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "unconfirmed": true
+  },
+  {
+   "id": "s8-underground",
+   "name": "S8 Underground Club",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "rock",
+    "metal",
+    "club",
+    "live-music"
+   ],
+   "district": "XIV",
+   "address": "Kerepesi út 26, 1148 Budapest",
+   "lat": 47.50051,
+   "lng": 19.10894,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Gig tickets vary; free club nights",
+   "hours": "Gig and club nights: check the listings",
+   "blurb": "Underground club for metal, punk, goth and post-punk beyond Keleti station. Still running in 2026; listings show a free Rock/Metal Night on Sat 17 Oct.",
+   "tip": "A Bolt ride out east. Check the Saturday listing before you go.",
+   "history": null,
+   "entry": null,
+   "image": null,
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   }
+  },
+  {
+   "id": "snaps-belga",
+   "name": "Snaps Belga Söröző",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer"
+   ],
+   "district": "VII",
+   "address": "Király utca 95, 1077 Budapest",
+   "lat": 47.50603,
+   "lng": 19.07037,
+   "approx": false,
+   "rating": {
+    "ta": 4.6,
+    "taN": 34,
+    "g": 4.6,
+    "gN": 592
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri from 14:00–17:00 till 24:00 · Sat 18:00–24:00 · Sun closed",
+   "blurb": "Belgian beer bar up Király utca: six on draught, about 100 bottles and rotating guest taps.",
+   "tip": "Delirium on tap or one of the Trappists. Closed Sunday.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Big_Timber_Brewing_flight_of_beer.jpg/960px-Big_Timber_Brewing_flight_of_beer.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://www.snapsgaleria.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A flight of craft beers"
+  },
+  {
+   "id": "wunder-sormuvek",
+   "name": "Wunder Sörművek",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer"
+   ],
+   "district": "VI",
+   "address": "Zichy Jenő utca 41, 1066 Budapest",
+   "lat": 47.50565,
+   "lng": 19.05919,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": "About 2,000–4,000 HUF a head",
+   "hours": "Mon–Sat from 17:00 (later on Fri–Sat) · Sunday doubtful",
+   "blurb": "Vaulted cellar bar with about 12 taps of Hungarian craft beer and 70+ whiskies and rums. Rated about 4.8 from 750 reviews.",
+   "tip": "Hard to find: look for the cellar entrance.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg/960px-Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Craft beer bottles lined up on a bar counter"
+  },
+  {
+   "id": "keleti-waiting-room",
+   "name": "Keleti Waiting Room",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "sports"
+   ],
+   "district": "VII",
+   "address": "Bethlen Gábor utca 3, 1077 Budapest",
+   "lat": 47.50128,
+   "lng": 19.08163,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Daily 10:00–24:00 (OSM; check)",
+   "blurb": "Dog-friendly cellar pub behind Keleti station with about 30 craft beers and sport on the screens. On Time Out's best-pubs list, rated about 4.7 from 1,000 reviews.",
+   "tip": "Ask for small tasting glasses to work through the taps. The house beer is Bitter Blood.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg/960px-Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://keletiwaitingroom.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Craft beer bottles lined up on a bar counter"
+  },
+  {
+   "id": "legfelsobb-beerosag",
+   "name": "Legfelsőbb Beeróság",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer"
+   ],
+   "district": "VII",
+   "address": "Dohány utca 20, 1074 Budapest",
+   "lat": 47.4955,
+   "lng": 19.06226,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Mon–Sat 14:00–02:00 · Sun 14:00–23:00",
+   "blurb": "Hungarian craft beer only: about 10 taps and 150 bottles, quirky decor, and a name that puns on the Supreme Court.",
+   "tip": "Order whatever's new on the Hungarian taps.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg/960px-Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://beerosag.hu/",
+    "book": null
+   },
+   "unconfirmed": true,
+   "imageKind": "illustrative",
+   "imageCaption": "Craft beer bottles lined up on a bar counter"
+  },
+  {
+   "id": "stifler-beerhouse",
+   "name": "Stifler Beerhouse & Kitchen",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer",
+    "group-friendly"
+   ],
+   "district": "VIII",
+   "address": "Rákóczi út 29, 1088 Budapest",
+   "lat": 47.49573,
+   "lng": 19.0667,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri 11:00–24:00 · Sat–Sun 11:00–01:00",
+   "blurb": "Czech-style beer hall by Blaha with 20+ taps: Czech, Bavarian, Polish and Hungarian craft. Built for groups.",
+   "tip": "The beer-marinated pork knuckle is the order. Not the same place as Stifler American Sport Bar.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg/960px-Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://stiflerbeerhouse.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Craft beer bottles lined up on a bar counter"
+  },
+  {
+   "id": "unity-brewing",
+   "name": "Unity Brewing",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "craft-beer"
+   ],
+   "district": "VII",
+   "address": "Király utca 101, 1077 Budapest",
+   "lat": 47.50665,
+   "lng": 19.07143,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Tue–Thu 16:00–22:00 · Fri–Sat 15:00–23:00 · closed Sun–Mon",
+   "blurb": "Brewpub that brews most of its taps on site: hazy IPAs and smoothie sours. Rated about 4.9.",
+   "tip": "Shuts early, so make it the first stop of the night.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg/960px-Fauve-craft-biere-collection-bouteilles-comptoir-les-cuves-de-fauve-64-rue-de-charonne-75011-paris.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://unitybrewing.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Craft beer bottles lined up on a bar counter"
+  },
+  {
+   "id": "hrabal-sorozo",
+   "name": "Hrabal Söröző",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "pub"
+   ],
+   "district": "VIII",
+   "address": "Rákóczi út 11, 1088 Budapest",
+   "lat": 47.49489,
+   "lng": 19.06308,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": null,
+   "hours": "Tue–Sat 14:00–24:00 · closed Sun–Mon",
+   "blurb": "Brown Czech pub near Astoria named after the writer Bohumil Hrabal, with eight Czech beers on tap.",
+   "tip": "Proper Czech lager, poured properly.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg/960px-Pint_of_Taddy_Lager_in_Ye_Olde_Murenger_House%2C_High_Street%2C_Newport%2C_August_2026_02.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "unconfirmed": true,
+   "imageKind": "illustrative",
+   "imageCaption": "A pint of lager in a pub"
+  },
+  {
+   "id": "pointer-pub-terez",
+   "name": "The Pointer Pub",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "sports",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 34, 1066 Budapest",
+   "lat": 47.50694,
+   "lng": 19.06055,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Thu 14:00–02:00 · Fri–Sat 13:00–03:00 · Sun 13:00–24:00",
+   "blurb": "British-style pub up the körút with plenty of screens for the football and about 10 beers and ciders on tap.",
+   "tip": "Good for a match with fish and chips. Open till 3am Friday and Saturday.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pinta_Patagonia_Amber_Lager.jpg/960px-Pinta_Patagonia_Amber_Lager.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A pint of lager"
+  },
+  {
+   "id": "noiret-billiards",
+   "name": "Noiret Billiards & Darts",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "games",
+    "late-night"
+   ],
+   "district": "VI",
+   "address": "Dessewffy utca 8–10, 1066 Budapest",
+   "lat": 47.50475,
+   "lng": 19.05622,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Sun–Wed 10:00–02:00 · Thu–Sat 10:00–04:00",
+   "blurb": "Proper pool, darts and foosball hall near the Opera, open till 4am at weekends.",
+   "tip": "Darts are paid by the minute. Book a pool table for a big group.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Rookie%27s_Sports_Bar_%284175286111%29.jpg/960px-Rookie%27s_Sports_Bar_%284175286111%29.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://noiret.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A pool table in a bar"
+  },
+  {
+   "id": "vault-51",
+   "name": "Vault 51",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "games",
+    "quirky"
+   ],
+   "district": "VI",
+   "address": "Ó utca 51, 1066 Budapest",
+   "lat": 47.50575,
+   "lng": 19.06058,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": "Drinks plus game fees (a PS5 about 1,500 HUF an hour)",
+   "hours": "Tue–Thu & Sun 14:00–24:00 · Fri–Sat 14:00–02:00 · closed Mon",
+   "blurb": "Fallout-themed gamer bar over two floors: consoles, pinball, darts, pool, 200+ board games and about 50 film- and game-themed cocktails.",
+   "tip": "Good for a hangover afternoon. Order a Nuka Cola.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/The_interior_of_Dive_Bar%2C_an_underground_arcade_bar_in_Mooresville%2C_North_Carolina..jpg/960px-The_interior_of_Dive_Bar%2C_an_underground_arcade_bar_in_Mooresville%2C_North_Carolina..jpg",
+   "links": {
+    "ta": null,
+    "web": "https://www.vault51gamerbar.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "An arcade bar with a pool table"
+  },
+  {
+   "id": "barcraft-nyugati",
+   "name": "BarCraft Nyugati",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "games"
+   ],
+   "district": "VI",
+   "address": "Bajcsy-Zsilinszky út 59, 1065 Budapest",
+   "lat": 47.50872,
+   "lng": 19.05534,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Thu 16:00–24:00 · Fri 16:00–02:00 · Sat 14:00–02:00 · Sun 14:00–24:00",
+   "blurb": "Fantasy-tavern esports bar by Nyugati with big screens and 300+ board games. Rated about 4.4 from 3,600 reviews.",
+   "tip": "A rainy-day or hangover option.",
+   "history": null,
+   "entry": null,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Table_Taft_Board_Game_Caf%C3%A9_interior.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://barcraft.hu/nyugati/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A board game café"
+  },
+  {
+   "id": "neverland-escape",
+   "name": "Neverland Bar & Escape Room",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "games",
+    "cocktail",
+    "quirky"
+   ],
+   "district": "VII",
+   "address": "Dohány utca 22–24, 1074 Budapest",
+   "lat": 47.49564,
+   "lng": 19.06317,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Escape rooms until about 24:00 (01:00 Fri–Sat); bar hours not confirmed",
+   "blurb": "Eight English-language escape rooms (Chernobyl, Wild West, Bank Robbery) with a cocktail bar and pizzeria attached. New history-themed cocktails since August 2026.",
+   "tip": "Book a room for the group (60 minutes, 2–7 players each), then drinks after.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Cocktails_mit_Schirmchen.jpg/960px-Cocktails_mit_Schirmchen.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Cocktails with paper umbrellas"
+  },
+  {
+   "id": "kadarka-wine-bar",
+   "name": "Kadarka",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "wine"
+   ],
+   "district": "VI",
+   "address": "Király utca 42, 1061 Budapest",
+   "lat": 47.50101,
+   "lng": 19.06109,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Daily 16:00–24:00",
+   "blurb": "The city's best-known Hungarian wine bar: 100–150 wines by the glass, small tasting pours, and food from goulash to burgers.",
+   "tip": "Book ahead at weekends. A classy pre-drinks stop on the way into the party district.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/PVMTV_bottles.JPG/960px-PVMTV_bottles.JPG",
+   "links": {
+    "ta": null,
+    "web": "https://kadarkawinebar.com/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Wine glasses and bottles on a bar"
+  },
+  {
+   "id": "doblo-wine-bar",
+   "name": "Doblo Wine & Bar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "wine",
+    "live-music"
+   ],
+   "district": "VII",
+   "address": "Dob utca 20, 1072 Budapest",
+   "lat": 47.49808,
+   "lng": 19.06087,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Mon–Fri from 14:00 · Sat 17:00–03:00 · Sun 17:00–01:00 (listings vary)",
+   "blurb": "One of the original Budapest wine bars: brick arches, Hungarian wine by the glass, pálinka and live jazz.",
+   "tip": "Wines by the glass and a pálinka. The charcuterie plate is good but pricey.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Copped_Hall_wine_cellar%2C_Epping%2C_Essex%2C_England_01.jpg/960px-Copped_Hall_wine_cellar%2C_Epping%2C_Essex%2C_England_01.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://www.budapestwine.com/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A brick-vaulted wine cellar"
+  },
+  {
+   "id": "jardin-cocktail-bar",
+   "name": "Jardín Cocktail Bar",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "cocktail"
+   ],
+   "district": "VII",
+   "address": "Dob utca 16, 1072 Budapest",
+   "lat": 47.49809,
+   "lng": 19.05997,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": null,
+   "hours": "Weeknights 18:00–01:00 · Fri–Sat 18:00–02:00",
+   "blurb": "Lush garden-style craft cocktail bar with a terrace. Reviewers rate the bartenders and the Negroni. Rated about 4.7 from 1,000 reviews.",
+   "tip": "Start with a Negroni.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Flaming_cocktails.jpg/960px-Flaming_cocktails.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Flaming cocktails"
+  },
+  {
+   "id": "potkulcs",
+   "name": "Pótkulcs",
+   "sub": null,
+   "type": "bar",
+   "tags": [
+    "ruin-bar",
+    "cheap",
+    "live-music"
+   ],
+   "district": "VI",
+   "address": "Csengery utca 65/b, 1067 Budapest",
+   "lat": 47.50954,
+   "lng": 19.06159,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Cheap",
+   "hours": "Daily from 17:00 till 01:00–02:00",
+   "blurb": "Hidden local ruin bar behind an ivy wall near Nyugati: armchairs, foosball, cheap drinks and bands in the cellar. Local rather than touristy.",
+   "tip": "Bring some cash in case the card machine's off.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/A_Bar_in_Szimpla_Kert.jpg/960px-A_Bar_in_Szimpla_Kert.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Inside Szimpla Kert, the original ruin bar"
   },
   {
    "id": "menza",
@@ -7973,6 +8803,28 @@ window.BB_DATA = {
   "https://www.airbnb.dk/things-to-do/places/207248",
   "https://www.timeout.com/hu/budapest/hirek/koltozik-a-kandallo-osszel-hatalmas-burgerpubot-nyit-a-kazinczy-utcaban-090426",
   "https://welovebudapest.com/en/toplist/budapest-s-10-best-craft-beer-bars",
+  "https://liquidrock.hu/en/contact-2/",
+  "https://intravel.net/budapest/nightlife/liquid-rock",
+  "https://restaurantguru.com/Liquid-Rock-Budapest",
+  "https://intravel.net/budapest/nightlife/paranoir-pub",
+  "https://intravel.net/budapest/nightlife/kripta-sorozo",
+  "https://concertbudapest.hu/helyszin/godor-klub/",
+  "https://hovamenjek.hu/budapest-vii-kerulet/amigo-rock-n-roll-&-rockabilly-club",
+  "https://offbeatbudapest.com/places/hunnia-bisztro",
+  "https://goout.net/en/s8-underground-club/vzfatf/",
+  "https://restaurantguru.com/Snaps-Belga-Sorozo-Budapest",
+  "https://intravel.net/budapest/nightlife/wunder-beer-works",
+  "https://intravel.net/budapest/nightlife/keleti-waiting-room",
+  "https://welovebudapest.com/hely/stifler-beerhouse-kitchen/",
+  "https://intravel.net/budapest/nightlife/unity-bar-and-brewery",
+  "https://welovebudapest.com/hely/hrabal-sorozo/",
+  "https://welovebudapest.com/hely/noiret-biliard-es-darts-szalon-2",
+  "https://welovebudapest.com/toplista/tarsasjatek-bar-kavezo-budapest-2025/",
+  "https://welovebudapest.com/cikk/2026/08/08/neverland-tortenelmi-koktelok-budapest/",
+  "https://www.timeout.com/budapest/bars/best-wine-bars-in-budapest",
+  "https://inyourpocket.com/Doblo_124352v",
+  "https://www.schlouk-map.com/en/places/jardin",
+  "https://welovebudapest.com/hely/potkulcs/",
   "https://hungaryunlocked.com/budapest-michelin-restaurants-review-tips/",
   "https://hungaryunlocked.com/great-market-hall-budapest-guide/",
   "https://www.budapestbylocals.com/great-market-hall/",

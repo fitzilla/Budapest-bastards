@@ -149,7 +149,9 @@
         if (t.includes('craft-beer')) return 'Craft beer';
         if (t.includes('sports')) return 'Sports bar';
         if (t.includes('club')) return 'Club';
+        if (t.includes('wine')) return 'Wine bar';
         if (t.includes('live-music')) return 'Live music';
+        if (t.includes('games')) return 'Games bar';
         return t.includes('quirky') ? 'Odd bar' : 'Bar';
       case 'food':
         if (p.also?.includes('bar')) return 'Ruin bar & kitchen';
@@ -266,7 +268,7 @@
     { id: 'bars', label: 'All bars', icon: 'beer', test: (p) => is(p, 'bar') },
     { id: 'ruin', label: 'Ruin bars', icon: 'brick', test: (p) => is(p, 'bar') && has(p, 'ruin-bar') },
     { id: 'odd', label: 'Odd bars', icon: 'sparkles', test: (p) => p.type === 'bar' && hasAny(p, ['quirky', 'speakeasy', 'games']) },
-    { id: 'rooftops', label: 'Rooftops & cocktails', icon: 'martini', test: (p) => p.type === 'bar' && hasAny(p, ['cocktail', 'rooftop', 'speakeasy']) },
+    { id: 'rooftops', label: 'Rooftops & cocktails', icon: 'martini', test: (p) => p.type === 'bar' && hasAny(p, ['cocktail', 'rooftop', 'speakeasy', 'wine']) },
     { id: 'late', label: 'Late & clubs', icon: 'moon', test: (p) => is(p, 'bar') && hasAny(p, ['club', 'late-night']) },
     { id: 'casino', label: 'Casinos', icon: 'dice', note: 'Bring your actual passport (no driving licences): they photograph your ID at the door. 18+, free in, smart casual.', test: (p) => has(p, 'casino') },
     { id: 'sports', label: 'Sports & beer', icon: 'tv', test: (p) => p.type === 'bar' && hasAny(p, ['sports', 'craft-beer']) },
@@ -1255,8 +1257,9 @@
       : p.imageKind === 'street' ? `The street outside${p.imageCaption ? ': ' + p.imageCaption : ''} · Wikimedia Commons`
       : p.imageKind === 'view' ? `The view${p.imageCaption ? ' ' + p.imageCaption : ''} · Wikimedia Commons`
       : p.imageKind === 'listing' ? 'Photos from the Airbnb listing'
+      : p.imageKind === 'website' ? `Photo: ${p.imageCredit || 'the venue’s website'}`
       : 'Photo: Wikimedia Commons';
-    const page = p.imageKind === 'listing' ? p.links?.web : filePage(imgOf(p));
+    const page = p.imageKind === 'listing' ? p.links?.web : p.imageKind === 'website' ? (p.imageSource || p.links?.web) : filePage(imgOf(p));
     const credit = !creditText ? '' : page
       ? `<a class="d-credit" href="${esc(page)}" target="_blank" rel="noopener">${esc(creditText)} ↗</a>`
       : `<span class="d-credit">${esc(creditText)}</span>`;

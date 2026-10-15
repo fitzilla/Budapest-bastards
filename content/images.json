@@ -615,5 +615,56 @@
   "kind": "illustrative",
   "caption": "A Dobos torta",
   "source": "https://commons.wikimedia.org/wiki/File:Dobos_torta%2C_2.jpg"
+ },
+ "liquid-rock": {
+  "image": "https://liquidrock.hu/wp-content/uploads/2023/09/main-page-location-image-outside-liquidrock.jpg",
+  "kind": "website",
+  "caption": "Liquid Rock on Rákóczi út",
+  "source": "https://liquidrock.hu/en/",
+  "credit": "liquidrock.hu"
+ },
+ "blastbeat-bar": {
+  "image": "https://blastbeatbar.hu/userfiles/domain297/9/3/93c236cf244c373e500008397096fd76_69_thumb_384x384.webp",
+  "kind": "website",
+  "caption": "A night at Blastbeat",
+  "source": "https://blastbeatbar.hu/",
+  "credit": "blastbeatbar.hu"
+ },
+ "paranoir-pub": {
+  "image": "https://1a42ce1345.clvaw-cdnwnd.com/64fb0cc180429092167c56f186b8bd23/200000146-77bae78b40/pnp.jpg?ph=1a42ce1345",
+  "kind": "website",
+  "caption": "Inside ParaNoir",
+  "source": "https://www.paranoirpub.com/",
+  "credit": "paranoirpub.com"
+ },
+ "kadarka-wine-bar": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PVMTV_bottles.JPG?width=960",
+  "kind": "illustrative",
+  "caption": "Wine glasses and bottles on a bar",
+  "source": "https://commons.wikimedia.org/wiki/File:PVMTV_bottles.JPG"
+ },
+ "doblo-wine-bar": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Copped_Hall_wine_cellar%2C_Epping%2C_Essex%2C_England_01.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A brick-vaulted wine cellar",
+  "source": "https://commons.wikimedia.org/wiki/File:Copped_Hall_wine_cellar%2C_Epping%2C_Essex%2C_England_01.jpg"
+ },
+ "noiret-billiards": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rookie%27s_Sports_Bar_%284175286111%29.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A pool table in a bar",
+  "source": "https://commons.wikimedia.org/wiki/File:Rookie%27s_Sports_Bar_%284175286111%29.jpg"
+ },
+ "vault-51": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_interior_of_Dive_Bar%2C_an_underground_arcade_bar_in_Mooresville%2C_North_Carolina..jpg?width=960",
+  "kind": "illustrative",
+  "caption": "An arcade bar with a pool table",
+  "source": "https://commons.wikimedia.org/wiki/File:The_interior_of_Dive_Bar%2C_an_underground_arcade_bar_in_Mooresville%2C_North_Carolina..jpg"
+ },
+ "barcraft-nyugati": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Table_Taft_Board_Game_Caf%C3%A9_interior.jpg?width=960",
+  "kind": "illustrative",
+  "caption": "A board game café",
+  "source": "https://commons.wikimedia.org/wiki/File:Table_Taft_Board_Game_Caf%C3%A9_interior.jpg"
  }
 }

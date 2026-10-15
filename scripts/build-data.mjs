@@ -42,6 +42,13 @@ function applyMedia(x) {
     if (img.kind && img.kind !== 'venue') x.imageKind = img.kind;
     if (img.caption) x.imageCaption = img.caption;
   }
+  // no free photo anywhere: the venue's own website photo (its link-preview image), hotlinked and credited to the site
+  if (img?.kind === 'website' && img.image && !x.image && /^https:\/\//.test(img.image)) {
+    x.image = img.image; x.imageKind = 'website';
+    if (img.caption) x.imageCaption = img.caption;
+    if (img.source) x.imageSource = img.source;
+    if (img.credit) x.imageCredit = img.credit;
+  }
   // extra photos for the swipeable gallery: Commons file names, plus a category the app can top up from
   if (Array.isArray(img?.gallery) && img.gallery.length) x.gallery = img.gallery.map(commonsUrl);
   // runtime top-ups from a whole Commons category are off: unvetted photos (selfies, randoms) slipped through
@@ -246,6 +253,8 @@ function illoCategory(x) {
     if (t.has('palinka')) return 'palinka';
     if (t.has('club')) return 'club';
     if (t.has('ruin-bar')) return 'ruin';
+    if (t.has('wine')) return 'wine';
+    if (t.has('games')) return 'games';
     return 'pub';
   }
   if (x.type === 'food') {
