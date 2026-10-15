@@ -1,1 +1,6 @@
-[]
+[
+ { "label": "gyr-1", "q": "pita gyros Greece", "limit": 10 },
+ { "label": "gyr-2", "q": "souvlaki pita", "limit": 10 },
+ { "label": "gyr-3", "q": "gyros Athens", "limit": 8 },
+ { "label": "gyr-4", "q": "gyros spit Greek", "limit": 8 }
+]
