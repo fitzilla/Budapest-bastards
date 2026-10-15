@@ -737,6 +737,164 @@
     "website": "https://donermaster.hu/"
    },
    "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "heureka-gyros",
+   "name": "Heureka Original Greek Food",
+   "type": "food",
+   "tags": [
+    "gyros",
+    "cheap"
+   ],
+   "district": "II",
+   "address": "Margit körút 6, 1027 Budapest",
+   "lat": 47.51444,
+   "lng": 19.03709,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "Gyros pita about 1,900 HUF",
+   "hours": "Mon–Sat 11:00–00:00 · Sun 11:00–23:00 (one listing, so check)",
+   "blurb": "Proper Greek gyros at the Buda end of Margaret Bridge: juicy spiced pork, fresh veg and house tzatziki in a soft pita, plus souvlaki and halloumi. One of the best-rated gyros shops in the city.",
+   "tip": "Tram 4 or 6 from the Király utca stop, over Margaret Bridge to Margit híd, budai hídfő. Pork gyros pita or the souvlaki one, open till midnight most nights.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://heurekaoriginal.hu/"
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "meraki-oktogon",
+   "name": "Meraki Görög Ételbár",
+   "type": "food",
+   "tags": [
+    "gyros"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 27, 1067 Budapest",
+   "lat": 47.50677,
+   "lng": 19.06161,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "priceText": "Meraki gyros pita about 3,000 HUF, bowls about 4,600 HUF",
+   "hours": "Daily 11:30–22:00",
+   "blurb": "Greek-run gyros bar that started life as a food truck. Chicken and beef rather than pork, and the Spartan gyros piles grilled halloumi on top.",
+   "tip": "Get the Spartan gyros pita. A few minutes up the körút towards Oktogon, and there's a second branch at Rákóczi út 13, between Astoria and Blaha.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://merakigreekgoods.hu/"
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "blue-agori-madach",
+   "name": "Blue Agori",
+   "type": "food",
+   "tags": [
+    "gyros"
+   ],
+   "district": "VII",
+   "address": "Madách Imre út 1, 1075 Budapest",
+   "lat": 47.49766,
+   "lng": 19.05757,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 2,
+   "priceText": "Gyros pita about 3,200 HUF, XL about 3,900 HUF (delivery-app prices)",
+   "hours": "Mon–Fri 11:00–21:45 · Sat–Sun 12:00–21:45",
+   "blurb": "Probably the best-known Greek gyros bar in Budapest: pork and chicken marinated for 48 hours, gyros and souvlaki made in-house, chips in the pita.",
+   "tip": "Pork gyros pita with tzatziki, or the halloumi pita. On Madách tér at the edge of the party district.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g274887-d15284060-Reviews-Blue_Agori_Madach_Greek_Street_Food_Bar-Budapest_Central_Hungary.html",
+    "website": "https://www.blueagori.com/"
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "gyros-ulloi",
+   "name": "Gyros (Üllői út 40)",
+   "type": "food",
+   "tags": [
+    "gyros",
+    "cheap"
+   ],
+   "district": "VIII",
+   "address": "Üllői út 40, 1082 Budapest",
+   "lat": 47.48583,
+   "lng": 19.07057,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": null,
+    "tripadvisorReviews": null,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "Gyros pita about 2,150 HUF",
+   "hours": "Mon–Fri 10:30–23:00 · Sat 11:00–23:00 · Sun 11:30–22:00 (delivery-app hours)",
+   "blurb": "A 30-year-old Corvin-negyed institution done out in blue and white, with hand-made pita and Greek-yoghurt sauces.",
+   "tip": "Tram 4 or 6 four stops south to Corvin-negyed, then a minute up Üllői út. Open till 23:00.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": null
+   },
+   "verification": "search-confirmed-2026"
+  },
+  {
+   "id": "gyros-kerkyra",
+   "name": "Gyros Kerkyra",
+   "type": "food",
+   "tags": [
+    "gyros",
+    "cheap"
+   ],
+   "district": "XIII",
+   "address": "Petneházy utca 37–47, 1139 Budapest",
+   "lat": 47.53296,
+   "lng": 19.07925,
+   "coordSource": "openstreetmap",
+   "rating": {
+    "tripadvisor": 4.6,
+    "tripadvisorReviews": 241,
+    "google": null,
+    "googleReviews": null
+   },
+   "price": 1,
+   "priceText": "Gyros pita about 2,350 HUF",
+   "hours": "Wed–Sat 11:00–19:00 · closed Sun–Tue",
+   "blurb": "The one Time Out calls top tier for authentic Greek gyros in Budapest: chicken thigh in a classic folded pita, with a loyal following.",
+   "tip": "Daytime only, Wednesday to Saturday, and out in Angyalföld, so it's a Bolt ride. Worth it if you want the real thing.",
+   "image": null,
+   "imageCredit": null,
+   "links": {
+    "tripadvisor": null,
+    "website": "https://kerkyragyros.hu/"
+   },
+   "verification": "search-confirmed-2026"
   }
  ],
  "sources": [
@@ -753,6 +911,12 @@
   "https://restaurantguru.com/doner-kebabs-Budapest-m9473",
   "https://welovebudapest.com/toplista/2023/02/07/gasztro-hol-egyunk-buli-utan-2023/",
   "https://www.timeout.com/budapest/restaurants/best-turkish-restaurants",
-  "https://wolt.com/hu/hun/budapest/restaurant/doner-master-bp"
+  "https://wolt.com/hu/hun/budapest/restaurant/doner-master-bp",
+  "https://welovebudapest.com/en/toplist/top-gyros-spots-in-budapest-2025/",
+  "https://xpatloop.com/channels/2025/07/top-7-plus-1-gyros-spots-in-budapest.html",
+  "https://www.timeout.com/hu/budapest/ettermek/legjobb-gorog-etterem-budapest",
+  "https://funzine.hu/2026/05/27/gasztro/gasztrokalandok-az-oktogonnal-5-zsenialis-street-food-hely-a-fenseges-izelmeny-jegyeben/",
+  "https://greekreporter.com/2024/05/07/gyros-favorite-fast-food-budapest/",
+  "https://kerkyragyros.hu/"
  ]
 }

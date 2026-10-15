@@ -4447,6 +4447,184 @@ window.BB_DATA = {
    "imageCaption": "A döner in pita"
   },
   {
+   "id": "heureka-gyros",
+   "name": "Heureka Original Greek Food",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "gyros",
+    "cheap"
+   ],
+   "district": "II",
+   "address": "Margit körút 6, 1027 Budapest",
+   "lat": 47.51444,
+   "lng": 19.03709,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Gyros pita about 1,900 HUF",
+   "hours": "Mon–Sat 11:00–00:00 · Sun 11:00–23:00 (one listing, so check)",
+   "blurb": "Proper Greek gyros at the Buda end of Margaret Bridge: juicy spiced pork, fresh veg and house tzatziki in a soft pita, plus souvlaki and halloumi. One of the best-rated gyros shops in the city.",
+   "tip": "Tram 4 or 6 from the Király utca stop, over Margaret Bridge to Margit híd, budai hídfő. Pork gyros pita or the souvlaki one, open till midnight most nights.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pita_giros.JPG/960px-Pita_giros.JPG",
+   "links": {
+    "ta": null,
+    "web": "https://heurekaoriginal.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Pork and chicken pita gyros"
+  },
+  {
+   "id": "meraki-oktogon",
+   "name": "Meraki Görög Ételbár",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "gyros"
+   ],
+   "district": "VI",
+   "address": "Teréz körút 27, 1067 Budapest",
+   "lat": 47.50677,
+   "lng": 19.06161,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": "Meraki gyros pita about 3,000 HUF, bowls about 4,600 HUF",
+   "hours": "Daily 11:30–22:00",
+   "blurb": "Greek-run gyros bar that started life as a food truck. Chicken and beef rather than pork, and the Spartan gyros piles grilled halloumi on top.",
+   "tip": "Get the Spartan gyros pita. A few minutes up the körút towards Oktogon, and there's a second branch at Rákóczi út 13, between Astoria and Blaha.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Pita_Gyros_%C3%A0_Almyrida_%28juillet_2021%29_-_1.jpg/960px-Pita_Gyros_%C3%A0_Almyrida_%28juillet_2021%29_-_1.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://merakigreekgoods.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A pita gyros with chips inside"
+  },
+  {
+   "id": "blue-agori-madach",
+   "name": "Blue Agori",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "gyros"
+   ],
+   "district": "VII",
+   "address": "Madách Imre út 1, 1075 Budapest",
+   "lat": 47.49766,
+   "lng": 19.05757,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 2,
+   "priceText": "Gyros pita about 3,200 HUF, XL about 3,900 HUF (delivery-app prices)",
+   "hours": "Mon–Fri 11:00–21:45 · Sat–Sun 12:00–21:45",
+   "blurb": "Probably the best-known Greek gyros bar in Budapest: pork and chicken marinated for 48 hours, gyros and souvlaki made in-house, chips in the pita.",
+   "tip": "Pork gyros pita with tzatziki, or the halloumi pita. On Madách tér at the edge of the party district.",
+   "history": null,
+   "entry": null,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Two_Gryros.jpg",
+   "links": {
+    "ta": "https://www.tripadvisor.com/Restaurant_Review-g274887-d15284060-Reviews-Blue_Agori_Madach_Greek_Street_Food_Bar-Budapest_Central_Hungary.html",
+    "web": "https://www.blueagori.com/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "Two gyros wrapped to go"
+  },
+  {
+   "id": "gyros-ulloi",
+   "name": "Gyros",
+   "sub": "Üllői út 40",
+   "type": "food",
+   "tags": [
+    "gyros",
+    "cheap"
+   ],
+   "district": "VIII",
+   "address": "Üllői út 40, 1082 Budapest",
+   "lat": 47.48583,
+   "lng": 19.07057,
+   "approx": false,
+   "rating": {
+    "ta": null,
+    "taN": null,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Gyros pita about 2,150 HUF",
+   "hours": "Mon–Fri 10:30–23:00 · Sat 11:00–23:00 · Sun 11:30–22:00 (delivery-app hours)",
+   "blurb": "A 30-year-old Corvin-negyed institution done out in blue and white, with hand-made pita and Greek-yoghurt sauces.",
+   "tip": "Tram 4 or 6 four stops south to Corvin-negyed, then a minute up Üllői út. Open till 23:00.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Lamb_Gyros_Sydney.jpg/960px-Lamb_Gyros_Sydney.jpg",
+   "links": {
+    "ta": null,
+    "web": null,
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A gyros in pita"
+  },
+  {
+   "id": "gyros-kerkyra",
+   "name": "Gyros Kerkyra",
+   "sub": null,
+   "type": "food",
+   "tags": [
+    "gyros",
+    "cheap"
+   ],
+   "district": "XIII",
+   "address": "Petneházy utca 37–47, 1139 Budapest",
+   "lat": 47.53296,
+   "lng": 19.07925,
+   "approx": false,
+   "rating": {
+    "ta": 4.6,
+    "taN": 241,
+    "g": null,
+    "gN": null
+   },
+   "price": 1,
+   "priceText": "Gyros pita about 2,350 HUF",
+   "hours": "Wed–Sat 11:00–19:00 · closed Sun–Tue",
+   "blurb": "The one Time Out calls top tier for authentic Greek gyros in Budapest: chicken thigh in a classic folded pita, with a loyal following.",
+   "tip": "Daytime only, Wednesday to Saturday, and out in Angyalföld, so it's a Bolt ride. Worth it if you want the real thing.",
+   "history": null,
+   "entry": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Nafplio_Gyros.jpg/960px-Nafplio_Gyros.jpg",
+   "links": {
+    "ta": null,
+    "web": "https://kerkyragyros.hu/",
+    "book": null
+   },
+   "imageKind": "illustrative",
+   "imageCaption": "A gyros piled with chips"
+  },
+  {
    "id": "hungarian-parliament",
    "name": "Hungarian Parliament Building",
    "sub": null,
