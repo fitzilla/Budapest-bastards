@@ -109,7 +109,20 @@
         "tripadvisor": null,
         "tripadvisorReviews": null
       },
-      "notes": "Opponent Vasas FC is from MTK's own match page (OTP Bank Liga 2026/27 round 10, Fri 16 Oct, 20:00); eredmenyek.com instead shows MTK-Vasas on 17 Oct, and the June fixture release was provisional, so verify on mtkbudapest.hu. Capacity 5,014 (most FotMob pages). Food/beer/hospitality at the ground NOT found. Tram line number conflicting between sources."
+      "notes": "Opponent Vasas FC is from MTK's own match page (OTP Bank Liga 2026/27 round 10, Fri 16 Oct, 20:00); eredmenyek.com instead shows MTK-Vasas on 17 Oct, and the June fixture release was provisional, so verify on mtkbudapest.hu. Capacity 5,014 (most FotMob pages). Food/beer/hospitality at the ground NOT found. Tram line number conflicting between sources.",
+      "result": {
+        "score": "MTK 1–0 Vasas",
+        "scorers": "Komáromi 26’ · HT 1–0",
+        "summary": "György Komáromi's first-time strike on 26 minutes won it, MTK's first league win in nearly two months. They went down to ten with a quarter of an hour left, but promoted Vasas, second in the table before kick-off, couldn't find a way back. 4,212 at the Hidegkúti.",
+        "link": "https://index.hu/sport/futball/2026/10/16/otp-bank-liga-nbi-mtk-vasas-osszefoglalo",
+        "linkText": "Match report (Index, Hungarian)",
+        "sources": [
+          "https://www.nemzetisport.hu/merkozes/20261016-mtk-budapest-vasas-fc/elo",
+          "https://www.nemzetisport.hu/labdarugo-nb-i/2026/10/komaromi-bombagolja-harom-pontot-ert-az-mtk-nak-a-vasas-emberelonyben-sem-tudott-egyenliteni",
+          "https://index.hu/sport/futball/2026/10/16/otp-bank-liga-nbi-mtk-vasas-osszefoglalo",
+          "https://hunfoci.hu/nb1/egy-jol-eltalalt-lovesnek-koszonhetoen-nyert-odahaza-az-mtk-mtk-budapest-vasas-fc-1-0-1-0.html"
+        ]
+      }
     }
   ],
   "airport": {

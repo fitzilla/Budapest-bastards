@@ -595,11 +595,11 @@
     return nxt ? { item: nxt, live: false } : null;
   }
   function untilText(date) {
-    let ms = date.getTime() - now().getTime();
+    const ms = date.getTime() - now().getTime();
     if (ms <= 0) return 'now';
-    const d = Math.floor(ms / 864e5); ms -= d * 864e5;
-    const h = Math.floor(ms / 36e5); ms -= h * 36e5;
-    const m = Math.round(ms / 6e4);
+    // round to whole minutes first, so 1h 59.6m reads 2h 0m rather than 1h 60m
+    const total = Math.round(ms / 6e4);
+    const d = Math.floor(total / 1440), h = Math.floor((total % 1440) / 60), m = total % 60;
     if (d > 0) return `${d}d ${h}h`;
     if (h > 0) return `${h}h ${m}m`;
     return `${m} min`;
@@ -855,12 +855,24 @@
       return `<a class="hero-next" href="${href}">${icon(it.kind === 'travel' ? 'plane' : ref ? iconOf(ref) : 'calendar')}
         <span class="hero-next-text"><small>${nx.live ? 'Happening now' : `Next up · ${esc(DAY_FMT.format(it.at))} ${esc(it.time)} · in ${esc(untilText(it.at))}`}</small><strong>${esc(it.title)}</strong></span>${icon('chev')}</a>`;
     })() : '';
+    // once we're home: no forecast or packing tips, just how the booked bits went
+    const over = t >= fly;
     return `<section class="hero" aria-label="Trip">
       <p class="hero-eyebrow">Budapest · Thu 15 – Sun 18 Oct 2026</p>
       <div class="hero-count${String(big).length > 3 ? ' is-stacked' : ''}"><b class="tnum">${esc(big)}</b><span>${esc(small)}</span></div>
-      ${nextHtml}
-      <div data-wx-slot="strip">${wxSlot('strip')}</div>
+      ${over ? recapHtml() : `${nextHtml}
+      <div data-wx-slot="strip">${wxSlot('strip')}</div>`}
     </section>`;
+  }
+
+  function recapHtml() {
+    const rows = EVENTS.slice().sort((x, y) => at(x.date, x.start || '00:00') - at(y.date, y.start || '00:00')).map((e) => {
+      const d = at(e.date, e.start || '00:00');
+      return `<a class="hero-next" href="#/p/${esc(e.id)}">${icon(iconOf(e))}
+        <span class="hero-next-text"><small>${esc(DAY_FMT.format(d))}${e.result ? ` · ${esc(e.result.label || 'Full time')}` : ''}</small><strong>${esc(e.result ? e.result.score : e.name)}</strong></span>${icon('chev')}</a>`;
+    }).join('');
+    const nFav = PLACES.filter((p) => isFav(p.id)).length;
+    return `<div class="hero-recap"><h2>How it went</h2>${rows}${nFav ? `<a class="hero-next" href="#/faves">${icon('heart')}<span class="hero-next-text"><small>Where you saved</small><strong>Your ${nFav} faves</strong></span>${icon('chev')}</a>` : ''}</div>`;
   }
 
   function rowSection(title, sub, catId, items, max = 10) {
@@ -1134,7 +1146,7 @@
 
     pane.innerHTML = `<header class="page-head"><h1>Info</h1><p>The 2026 essentials: weather, apps, money, scams and how to say cheers.</p></header>
       <div class="info-list">
-        ${acc('weather', 'cloudsun', 'Weather', WX.live ? 'Live forecast' : `Mild days, cool nights`, weather, isOpen('weather', true))}
+        ${now() >= new Date(D.trip.airportBy) ? '' : acc('weather', 'cloudsun', 'Weather', WX.live ? 'Live forecast' : `Mild days, cool nights`, weather, isOpen('weather', true))}
         ${acc('base', 'home', 'The Airbnb', B.title || B.address || (B.localPin ? 'Pinned on this phone' : 'Full address coming soon'), baseBody, isOpen('base', false))}
         ${shopsBody ? acc('shops', 'cart', 'Shops near the Airbnb', 'Supermarkets, late shops, pharmacy, tobacco', shopsBody, isOpen('shops', false)) : ''}
         ${acc('airport', 'plane', 'Airport & transfers', `Land ${LAND} Thu · back by ${AIRPORT_BY} Sun`, airportBody, isOpen('airport', false))}
